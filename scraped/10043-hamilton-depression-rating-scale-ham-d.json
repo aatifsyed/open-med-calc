@@ -1,0 +1,1045 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Anxious",
+          "Depressed",
+          "Fatigue",
+          "Preventive Care/Screening",
+          "Weakness"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<p dir=\"ltr\"><span id=\"docs-internal-guid-4eb98069-7fff-b599-73bd-ba0131c8faed\"></p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"103\" /><col width=\"47\" /><col width=\"*\" /><col width=\"*\" /><col width=\"*\" /><col width=\"*\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"5\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Depressed mood (gloomy attitude, pessimism about the future, feeling of sadness, tendency to weep)</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Sadness</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Occasional weeping</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Frequent weeping</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Extreme symptoms</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Feelings of guilt</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Self-reproach, feels he/she has let people down</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Ideas of guilt</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Present illness is a punishment; delusions of guilt</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Hallucinations of guilt</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Suicide</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Feels life is not worth living</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Wishes he/she were dead</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Suicidal ideas or gestures</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Attempts at suicide</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Initial insomnia (difficulty falling asleep)</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Occasional</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Frequent</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Insomnia during the night (restless, disturbed, waking at night)</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Occasional</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Frequent</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Delayed insomnia (waking in early hours of the morning and unable to fall asleep again)</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Occasional</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Frequent</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Work and interests</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">No difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Feelings of incapacity, listlessness, indecision and vacillation</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Loss of interest in hobbies, decreased social activities</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Productivity decreased</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Unable to work, stopped working because of present illness only (absence from work after treatment or recovery may rate a lower score)</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Retardation (slowness of thought, speech, and activity; apathy; stupor)</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Slight retardation at interview</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Obvious retardation at interview</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Interview difficult</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Complete stupor</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Agitation (restlessness associated with anxiety)</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Mild</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Severe</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Psychiatric anxiety</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Tension and irritability</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Worrying about minor matters</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Apprehensive attitude</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Fears</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Somatic anxiety (gastrointestinal, indigestion, cardiovascular, palpitations, headaches, respiratory, genitourinary, etc.) &nbsp;</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Mild</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Moderate</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Severe</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Incapacitating</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Gastrointestinal somatic symptoms (loss of appetite, heavy feeling in abdomen, constipation)</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Mild</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Severe</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">General somatic symptoms (heaviness in limbs, back or head; diffuse backache; loss of energy, fatigability)</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Mild</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Severe</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Genital symptoms (loss of libido, menstrual disturbances)</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Mild</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Severe</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Hypochondriasis</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">Not present</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Bodily self-absorption</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Preoccupation with health</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Querulous attitude</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Hypochondriacal delusions</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Weight loss</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">None</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Slight</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Obvious or severe</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Insight (interpret in context of patient&rsquo;s understanding and background)</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">No loss</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Partial or doubtful loss</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"4\">\n<p dir=\"ltr\">Loss of insight</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "more_info_en": "<p><span id=\"docs-internal-guid-84a432b6-381c-e24a-3d8d-07f5dbcf7412\">Interpretation:&nbsp;</span></p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"*\" /><col width=\"*\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>HAM-D Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Grade</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0-7</p>\n</td>\n<td>\n<p dir=\"ltr\">Normal</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">8-13</p>\n</td>\n<td>\n<p dir=\"ltr\">Mild depression</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">14-18</p>\n</td>\n<td>\n<p dir=\"ltr\">Moderate depression</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">19-22</p>\n</td>\n<td>\n<p dir=\"ltr\">Severe depression</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;23</p>\n</td>\n<td>\n<p dir=\"ltr\">Very severe depression</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/14399272 ",
+                  "text": "Hamilton M. A rating scale for depression. J Neurol Neurosurg Psychiatry. 1960;23:56-62."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3837544/",
+                  "text": "Worboys M. The Hamilton Rating Scale for Depression: The making of a “gold standard” and the unmaking of a chronic illness, 1960–1980. Chronic Illness. 2013;9(3):202-219. doi:10.1177/1742395312467658."
+                },
+                {
+                  "href": "https://academic.oup.com/occmed/article/65/4/340/1377801 ",
+                  "text": "Sharp R. The Hamilton Rating Scale for Depression. Occup Med (Lond). 2015;65(4):340. "
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "name": "Dr. Max Hamilton"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the Hamilton Depression Rating Scale and want to contribute your expertise? <a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a> our contributor team!</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the Hamilton Depression Rating Scale and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Anxiety",
+          "Depression/Suicidality",
+          "Drug/Alcohol Use"
+        ],
+        "dosing": false,
+        "equation_logic": "c1becc9b1d150ea659f4f38ea5b47596",
+        "equation_logic_text": "var calc_output = [];\n\nvar depressedmood = parseFloat(depressedmood);\nvar guilt = parseFloat(guilt);\nvar suicide = parseFloat(suicide);\nvar initialinsomnia = parseFloat(initialinsomnia);\nvar insomnia = parseFloat(insomnia);\nvar delayed = parseFloat(delayed);\nvar workinterests = parseFloat(workinterests);\nvar retardation = parseFloat(retardation);\nvar agitation = parseFloat(agitation)\nvar panxiety = parseFloat(panxiety)\nvar sanxiety = parseFloat(sanxiety)\nvar gastrosom = parseFloat(gastrosom)\nvar somaticsymptoms = parseFloat(somaticsymptoms);\nvar genitalsymptoms = parseFloat(genitalsymptoms);\nvar hypochondriasis = parseFloat(hypochondriasis);\nvar weightloss = parseFloat(weightloss);\nvar insight = parseFloat(insight);\n\n\nvar score = depressedmood + guilt + suicide + initialinsomnia + insomnia + delayed + workinterests + retardation + agitation + panxiety + sanxiety + gastrosom + somaticsymptoms + genitalsymptoms + hypochondriasis + weightloss + insight\n\nvar grade = ''\n\n\nif (score >= 0 && score <= 7) {\n    grade = 'Normal'\n} else if (score >= 8 && score <= 13) {\n    grade = 'Mild'\n} else if (score >= 14 && score <= 18) {\n    grade = 'Moderate'\n} else if (score >= 19 && score <= 22) {\n    grade = 'Severe'\n} else if (score >= 23) {\n    grade = 'Very severe'\n}\n\n\n//results \n\nif (score <= 7) {\n    calc_output.push({\n        name: 'mini',\n        value: 'No depression',\n        value_text: '',\n        message: score + ' points'\n    });\n    calc_output.push({\n        name: 'score',\n        value: score,\n        value_text: 'points',\n        message: 'HAM-D Score'\n    });\n    calc_output.push({\n        name: 'grade',\n        value: 'Normal',\n        value_text: '',\n        message: 'No depression'\n    });\n} else if (score > 7) {\n    calc_output.push({\n        name: 'mini',\n        value: grade,\n        value_text: ' depression',\n        message: score + ' points'\n    });\n    calc_output.push({\n        name: 'score',\n        value: score,\n        value_text: 'points',\n        message: 'HAM-D Score'\n    });\n    calc_output.push({\n        name: 'grade',\n        value: grade,\n        value_text: 'depression',\n        message: ''\n    });\n}",
+        "favorite_id": 10043,
+        "full_title_en": "Hamilton Depression Rating Scale (HAM-D)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Depressed mood",
+            "name": "depressedmood",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Sadness",
+                "value": 1
+              },
+              {
+                "label": "Occasional weeping",
+                "value": 2
+              },
+              {
+                "label": " Frequent weeping",
+                "value": 3
+              },
+              {
+                "label": " Extreme symptoms",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Gloomy attitude, pessimism about the future, feeling of sadness, tendency to weep",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Feelings of guilt",
+            "name": "guilt",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Self-reproach, feels he/she has let people down",
+                "value": 1
+              },
+              {
+                "label": "Ideas of guilt",
+                "value": 2
+              },
+              {
+                "label": "Present illness is a punishment, delusions of guilt",
+                "value": 3
+              },
+              {
+                "label": "Hallucinations of guilt ",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Suicide",
+            "name": "suicide",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Feels life is not worth living ",
+                "value": 1
+              },
+              {
+                "label": "Wishes he/she were dead",
+                "value": 2
+              },
+              {
+                "label": "Suicidal ideas or gestures ",
+                "value": 3
+              },
+              {
+                "label": "Attempts at suicide ",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Initial insomnia",
+            "name": "initialinsomnia",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent ",
+                "value": 0
+              },
+              {
+                "label": "Occasional",
+                "value": 1
+              },
+              {
+                "label": "Frequent",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Difficulty falling asleep",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Insomnia during the night",
+            "name": "insomnia",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Occasional",
+                "value": 1
+              },
+              {
+                "label": "Frequent",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Restless, disturbed, waking at night",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Delayed insomnia",
+            "name": "delayed",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Occasional",
+                "value": 1
+              },
+              {
+                "label": "Frequent",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Waking in early hours of the morning and unable to fall asleep again",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Work and interests ",
+            "name": "workinterests",
+            "optional": false,
+            "options": [
+              {
+                "label": "No difficulty",
+                "value": 0
+              },
+              {
+                "label": "Feelings of incapacity, listlessness, indecision, and vacillation",
+                "value": 1
+              },
+              {
+                "label": "Loss of interest in hobbies, decreased social activities",
+                "value": 2
+              },
+              {
+                "label": "Productivity decreased",
+                "value": 3
+              },
+              {
+                "label": "Unable to work, stopped working because of present illness only (if absent from work after treatment or recovery may rate a lower score)",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Absence from work after treatment or recovery may rate <4",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Retardation",
+            "name": "retardation",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Slight retardation at interview",
+                "value": 1
+              },
+              {
+                "label": "Obvious retardation at interview",
+                "value": 2
+              },
+              {
+                "label": "Interview difficult",
+                "value": 3
+              },
+              {
+                "label": "Complete stupor",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Slowness of thought, speech, and activity; apathy; stupor",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Agitation",
+            "name": "agitation",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Mild",
+                "value": 1
+              },
+              {
+                "label": "Severe",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Restlessness associated with anxiety",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Psychiatric anxiety",
+            "name": "panxiety",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Tension and irritability",
+                "value": 1
+              },
+              {
+                "label": "Worrying about minor matters",
+                "value": 2
+              },
+              {
+                "label": "Apprehensive attitude",
+                "value": 3
+              },
+              {
+                "label": "Fears",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Somatic anxiety",
+            "name": "sanxiety",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Mild",
+                "value": 1
+              },
+              {
+                "label": "Moderate",
+                "value": 2
+              },
+              {
+                "label": "Severe",
+                "value": 3
+              },
+              {
+                "label": "Incapacitating",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Gastrointestinal, indigestion, cardiovascular, palpitations, headaches, respiratory, genitourinary, etc.",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Gastrointestinal somatic symptoms",
+            "name": "gastrosom",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Mild",
+                "value": 1
+              },
+              {
+                "label": "Severe",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Loss of appetite, heavy feeling in abdomen, constipation",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "General somatic symptoms",
+            "name": "somaticsymptoms",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Mild",
+                "value": 1
+              },
+              {
+                "label": "Severe",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Heaviness in limbs, back, or head; diffuse backache; loss of energy and fatigability",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Genital symptoms ",
+            "name": "genitalsymptoms",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Mild",
+                "value": 1
+              },
+              {
+                "label": "Severe",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Loss of libido, menstrual disturbances",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Hypochondriasis",
+            "name": "hypochondriasis",
+            "optional": false,
+            "options": [
+              {
+                "label": "Not present",
+                "value": 0
+              },
+              {
+                "label": "Bodily self-absorption ",
+                "value": 1
+              },
+              {
+                "label": "Preoccupation with health",
+                "value": 2
+              },
+              {
+                "label": "Querulous attitude",
+                "value": 3
+              },
+              {
+                "label": "Hypochondriacal delusions",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Weight loss",
+            "name": "weightloss",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Slight",
+                "value": 1
+              },
+              {
+                "label": "Obvious or severe",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Insight",
+            "name": "insight",
+            "optional": false,
+            "options": [
+              {
+                "label": "No loss",
+                "value": 0
+              },
+              {
+                "label": "Partial or doubtful loss",
+                "value": 1
+              },
+              {
+                "label": "Loss of insight ",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Must be interpreted in terms of patient’s understanding and background",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>The original HAM-D has 21 items, but scoring is based only on the first 17.</p>",
+        "logs": [
+          {
+            "message": "first save, need inputs",
+            "time": "2018-6-25 2:04 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "inputs in ",
+            "time": "2018-6-25 2:25 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "inputs 2",
+            "time": "2018-6-25 2:26 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "rk lp edits ",
+            "time": "2018-6-29 4:27 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "equation logic",
+            "time": "2018-7-20 3:53 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "equation logic edits",
+            "time": "2018-7-20 4:37 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "^lubaina rocks ",
+            "time": "2018-7-20 4:46 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "oxford comma input",
+            "time": "2018-7-24 12:08 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "formula edits from RK in SCF",
+            "time": "2018-7-24 6:07 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "trailing space creator bio",
+            "time": "2018-7-26 10:09 AM",
+            "user": "natalie"
+          },
+          {
+            "message": "first round LS edits--edit line 462 pending",
+            "time": "2018-7-31 4:16 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "missing letter in input",
+            "time": "2018-7-31 5:42 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "debugged",
+            "time": "2018-7-31 6:02 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "deleted 'no depression' from mini b/c too many words ",
+            "time": "2018-7-31 6:05 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "added 'depression' to value text for >7 for mini",
+            "time": "2018-7-31 6:06 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "missing inputs accounted for in formula + calc + eq logic",
+            "time": "2018-11-09 04:33 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "typo w/ input (also thought i already saved this?)",
+            "time": "2018-11-09 05:17 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "revised results",
+            "time": "2018-11-19 11:41 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "fixed case for Hypochondriasis",
+            "time": "2018-11-19 11:42 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "revised conditional results",
+            "time": "2018-11-19 11:45 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "revised results again",
+            "time": "2018-11-19 11:46 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "edited cal",
+            "time": "2019-06-13 09:44 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited calc",
+            "time": "2019-06-13 09:45 AM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "89f04c5f089b45972f471fbcb5c01792",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-114cbea3-381b-393c-1b6a-ab98f66cfd03\">Stratifies severity of depression, similar to <calculator id=\"1725\">PHQ-9</calculator>.</span></p>",
+        "purpose_en": [
+          "Diagnosis",
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "HAM-D",
+          "depression",
+          "hamilton depression scale",
+          "Hamilton scale"
+        ],
+        "search_id": "c-10043",
+        "seo": {
+          "keywords_en": "Hamilton, depression, depression scale, mental health, depressed, generalized anxiety, phq-9, madrs, montgomery asberg",
+          "meta_description_en": "The Hamilton Depression Rating Scale (HAM-D) assesses depressive symptoms. "
+        },
+        "short_description_en": "Depression severity.",
+        "short_title_en": "HAM-D",
+        "slug": "hamilton-depression-rating-scale-ham-d",
+        "specialty_en": [
+          "Emergency Medicine",
+          "Family Practice",
+          "Primary Care",
+          "Geriatrics",
+          "Neurology"
+        ],
+        "system_en": [
+          "Neurologic",
+          "Psychiatric"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Max Hamilton, MD, FRCP, (d. 1988) was a senior lecturer in psychiatry at the University of Leeds in England. He was also president of the British Psychological Society and received the Paul Hoch Prize for Distinguished Psychiatric Research from the <a href=\"http://www.appassn.org/\" target=\"_blank\" rel=\"noopener\">American Psychopathological Association</a> in 1980. Dr. Hamilton&rsquo;s research focused primarily on psychometrics and clinical statistics.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": true,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Max Hamilton",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-max-hamilton.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Hamilton+M%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-11-04T18:57:47.313Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10043/hamilton-depression-rating-scale-ham-d",
+        "description": "The Hamilton Depression Rating Scale (HAM-D) assesses depressive symptoms. ",
+        "keywords": "Hamilton, depression, depression scale, mental health, depressed, generalized anxiety, phq-9, madrs, montgomery asberg",
+        "title": "Hamilton Depression Rating Scale (HAM-D)"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 4058,
+          "short_title_en": "MADRS",
+          "slug": "montgomery-asberg-depression-rating-scale-madrs"
+        },
+        {
+          "calcId": 10466,
+          "short_title_en": "EPDS",
+          "slug": "edinburgh-postnatal-depression-scale-epds"
+        },
+        {
+          "calcId": 1725,
+          "short_title_en": "PHQ-9",
+          "slug": "phq9-patient-health-questionnaire9"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10043",
+      "hamilton-depression-rating-scale-ham-d"
+    ]
+  },
+  "scriptLoader": []
+}

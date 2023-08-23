@@ -1,0 +1,659 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "diagnostic_criteria",
+        "chief_complaint_en": [
+          "Cancer"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+26",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+26",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "10164.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\"><a href=\"https://www.redjournal.org/article/S0360-3016(17)30238-9/fulltext\" target=\"_blank\" rel=\"noopener\">Farris et al (2017)</a> developed the BMV Model to predict clinical outcomes at the time of salvage treatment after upfront stereotactic radiosurgery (SRS). Derived in a cohort of 737 patients with upfront SRS without whole brain radiation therapy (WBRT), median overall survival for the low (scores &lt;4), intermediate (scores 4-13), and high (scores &gt;13) BMV groups was 12.4 months (95% confidence interval [CI], 10.4-16.9 months), 8.2 months (95% CI, 5.0-9.7 months), and 4.3 months (95% CI, 2.6-6.7 months), respectively. A lower BMV was associated with decreased rates of salvage WBRT (p = 0.02) and neurologic death (p = 0.008). Factors predictive for a higher BMV included &ge;2 initial brain metastases (p = 0.004) and melanoma histology (p = 0.008).</p>\n<p><span id=\"docs-internal-guid-0f561ce3-7fff-11c3-e458-70334da32794\"><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30395905\" target=\"_blank\" rel=\"noopener\">Yamamoto et al (2019)</a>&nbsp;conducted a retrospective cohort study of 833 patients who underwent a second SRS for newly detected brain metastasis after initial SRS at Tokyo Women&rsquo;s Medical University between 1998-2017. This series found that the median survival times after second SRS were similar to those in the initial study using the same BMV cutoffs, with 12.9 months (95% CI, 10.2-17.1) for low BMV, 7.5 months (95% CI, 6.5-9.0) for intermediate BMV, and 5.1 months (95% CI, 4.0-5.6) for high BMV (p = 0.0001). As BMV increased, the median survival decreased. The study also found the same trend after&nbsp;third and&nbsp;fourth SRS.</span></p>",
+            "formula_en": "<p dir=\"ltr\">BMV, per year&nbsp;= x / y,</p>\n<p dir=\"ltr\">where the variables are as follows:</p>\n<p dir=\"ltr\">x = number of new brain metastases since initial&nbsp;SRS</p>\n<p dir=\"ltr\">y = total time interval between initial SRS and appearance of new brain metastases, in years</p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"99\"><col width=\"165\"><col width=\"182\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>BMV</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk group</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Median overall survival</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;4</p>\n</td>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n<td>\n<p dir=\"ltr\">12.4 months</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">4-13</p>\n</td>\n<td>\n<p dir=\"ltr\">Intermediate</p>\n</td>\n<td>\n<p dir=\"ltr\">8.2 months</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;13</p>\n</td>\n<td>\n<p dir=\"ltr\">High</p>\n</td>\n<td>\n<p dir=\"ltr\">4.3 months</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-afce6e03-7fff-4d46-386a-27fc8f946cb3\"><span id=\"docs-internal-guid-afce6e03-7fff-4d46-386a-27fc8f946cb3\">From&nbsp;<a href=\"https://www.redjournal.org/article/S0360-3016(17)30238-9/fulltext\" target=\"_blank\" rel=\"noopener\">Farris et al (2017)</a>.</span></span></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.redjournal.org/article/S0360-3016(17)30238-9/fulltext",
+                  "text": "Farris M, Mctyre ER, Cramer CK, et al. Brain Metastasis Velocity: A Novel Prognostic Metric Predictive of Overall Survival and Freedom From Whole-Brain Radiation Therapy After Distant Brain Failure Following Upfront Radiosurgery Alone. Int J Radiat Oncol Biol Phys. 2017;98(1):131-141."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/30395905",
+                  "text": "Yamamoto M, Aiyama H, Koiso T, et al. Validity of a Recently Proposed Prognostic Grading Index, Brain Metastasis Velocity, for Patients With Brain Metastasis Undergoing Multiple Radiosurgical Procedures. Int J Radiat Oncol Biol Phys. 2019;103(3):631-637."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Adrianna Masters, MD, PhD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Michael Farris",
+              "qa_en": "<p dir=\"ltr\"><strong>Why did you develop the Brain Metastasis Velocity (BMV) Model? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians</strong></p>\n<p dir=\"ltr\">Stereotactic radiosurgery (SRS) is a focused approach of delivering high dose radiation therapy directly to brain tumors while sparing the surrounding normal brain tissue. This leads to very few side effects, and SRS is typically a one-day procedure. Such a targeted approach is used when the risk of microscopic disease elsewhere in the brain is felt to be low.</p>\n<p dir=\"ltr\">There is debate over which patients are most appropriate for SRS in the upfront setting. Generally, patients who present with more than four brain metastases are felt to have a higher risk of developing distant brain failures after SRS.</p>\n<p dir=\"ltr\">The alternative to SRS in such cases is whole brain radiation therapy (WBRT), which exposes the entire brain to an effective radiation dose that can treat any tumors observed on imaging, as well as microscopic non-visible disease. By exposing more normal brain tissue to radiation however, WBRT is associated with substantially more neurocognitive toxicity than SRS. Furthermore, WBRT is delivered over 10 separate treatments and requires patients to come in for treatments over the course of 2 weeks.</p>\n<p dir=\"ltr\">When patients experience a distant brain failure (i.e., develop new metastases) after initial SRS, it can be difficult to determine if they should receive salvage WBRT or additional SRS. While salvage WBRT does come with more toxicity, the indiscriminate use of SRS is costly and would not help clear potential microscopic disease. The number of metastases at time of failure as well as the time required to develop these new metastases can help us predict which patients are most likely to fail again quickly and who should receive WBRT rather than additional SRS.</p>\n<p dir=\"ltr\"><strong>What pearls, pitfalls and/or tips do you have for users of the Brain Metastasis Velocity (BMV) Model? Do you know of cases when it has been applied, interpreted, or used inappropriately</strong></p>\n<p dir=\"ltr\">The BMV is easy to calculate and can be useful in clinical decision making, but it should not be the sole guide in selecting the most appropriate treatment. As evaluated in our initial publication (<a href=\"https://www.redjournal.org/article/S0360-3016(17)30238-9/fulltext\" target=\"_blank\">Farris 2017</a>), tumor histology and extracranial control should also play a role in the ultimate decision to offer WBRT or SRS after distant brain failure.</p>\n<p dir=\"ltr\">For example, patients with melanoma histology were more likely to have a higher BMV and more likely to suffer neurologic death than patients with non-melanoma histologies. On the other hand, patients with HER2 positive breast cancer were more likely to have lower BMV values, and this was probably due to the fact that they were able to achieve better systemic control with targeted agents. In the future, further analyses may be able to help us fine-tune BMV calculations with nomograms based on histology as well as systemic disease status.</p>\n<p dir=\"ltr\"><strong>What recommendations do you have for doctors once they have applied the Brain Metastasis Velocity (BMV) Model? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p>\n<p dir=\"ltr\">Newer targeted agents or immunotherapy agents that have some CNS penetration should also be considered as these will likely impact expected failure patterns. These topics should be explored as the data continues to mature.</p>\n<p dir=\"ltr\">In the setting of EGFR positive non-small cell lung cancer, for example, the relatively new targeted agent osimertinib has brain penetration. When these patients present with brain metastases, it is becoming a somewhat controversial subject if clinicians should delay brain radiation in favor of osimertinib alone, or treat with radiation upfront. This should be studied in a prospective fashion.</p>\n<p dir=\"ltr\"><strong>How do you use the Brain Metastasis Velocity (BMV) Model in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p>\n<p dir=\"ltr\">A patient who experiences a failure with five new brain metastases at one month after their first SRS procedure has a very high velocity and is likely to continue experiencing distant brain failures if treated with additional SRS alone. These patients would likely be best treated with WBRT. On the other hand, a patient who experienced a failure with two new brain metastases at one year after SRS may be a more suitable candidate for additional SRS and could potentially avoid the toxicities of WBRT.</p>\n<p dir=\"ltr\">The purpose of the brain metastasis velocity (BMV) is to serve as a clinical guide in the setting of distant brain failure following initial SRS to determine which patients are best suited for salvage WBRT vs additional SRS. It can be calculated quickly at the time of each brain failure.</p>\n<p dir=\"ltr\"><strong>Any other research in the pipeline that you&rsquo;re particularly excited about?</strong></p>\n<p dir=\"ltr\"><span id=\"docs-internal-guid-24c5286c-7fff-cc8b-cf36-01f9840ba5d0\">The role of upfront SRS is constantly evolving, and this very recent publication by <a href=\"https://www.redjournal.org/article/S0360-3016(19)30613-3/abstract\" target=\"_blank\">Hughes et al (2019)</a> provides evidence that initial SRS may be appropriate in patients with 5-15 brain metastases.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-6675e38a-7fff-5c82-8589-a663bd0658ac\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Developed to predict outcomes at the time of salvage treatment after upfront SRS.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Correlates with overall survival, neurologic death, and time to additional salvage treatments by placing patients into low, intermediate, and high risk groups.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Primary cancers with the largest representation in the study were breast, lung, RCC, and melanoma.</p>\n</li>\n</ul>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-5f30270e-7fff-e014-95aa-64c857781a6b\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Use for patients with any primary cancer who have developed a distant brain failure (new brain metastasis) after upfront stereotactic radiosurgery (SRS).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Not appropriate for use in patients who have had prior whole brain radiation therapy.</p>\n</li>\n</ul>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-c4db4cb0-7fff-a491-a862-7c0900b33031\">Stratifying patients into high and low BMV categories can allow providers to better counsel patients on their risks of requiring additional treatments in the future, such additional SRS or whole brain radiation therapy. </span></p>"
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "",
+            "management_en": "<p><span id=\"docs-internal-guid-25c44ff5-7fff-e060-7106-e44f0355f892\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">For patients with low BMV (scores &lt;4), localized therapy (e.g. SRS) might be most appropriate.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Counseling patients with high BMV (scores &gt;13) that there is an increased risk of needing additional therapies in the future, should a localized approach be considered, is an important part of management.</p>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Cancer"
+        ],
+        "dosing": false,
+        "equation_logic": "f58a271a8775c54d10e6bc8919abb115",
+        "equation_logic_text": "var calc_output = [];\nvar time = parseFloat(time);\nvar number = parseFloat(number);\n\nnumber = Math.round(number);\nvar score = number/time;\nscore = score.toFixed(1);\n\nvar risk, os; \n\nif (score < 4) {\n  risk = 'Low';\n  os = '12.4';\n} else if (score >= 4 && score <= 13) {\n  risk = 'Intermediate';\n  os = '8.2';\n} else if (score > 13) {\n  risk = 'High';\n  os = '4.3';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: os, \n    value_text: 'months',\n    message: 'Median overall survival'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'per year',\n    message: 'BMV'   \n});\ncalc_output.push({\n    name: 'risk1',\n    value: risk, \n    value_text: 'risk',\n    message: 'Risk group'\n});\ncalc_output.push({\n    name: 'risk1',\n    value: os, \n    value_text: 'months',\n    message: 'Median overall survival'\n});\n",
+        "favorite_id": 10164,
+        "full_title_en": "Brain Metastasis Velocity (BMV) Model",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Number of new brain metastases",
+            "name": "number",
+            "optional": false,
+            "tips_en": "Since initial <abbr title =\"Stereotactic radiosurgery\">SRS</abbr>; enter as a whole number",
+            "type": "textbox",
+            "unit": "metastases"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Time interval between initial SRS and appearance of new brain metastases",
+            "name": "time",
+            "optional": false,
+            "tips_en": "If 18 months, enter 1.5, etc",
+            "type": "textbox",
+            "unit": "time_years_limit10"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "claiming calc id",
+            "time": "2019-03-08 05:11 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added contributor name",
+            "time": "2019-03-12 02:25 PM",
+            "user": "allyssa"
+          },
+          {
+            "message": "added content",
+            "time": "2019-05-06 01:34 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-05-06 01:44 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-05-06 01:45 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-05-06 01:47 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2019-05-07 05:02 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "edited content",
+            "time": "2019-05-13 03:54 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-05-14 09:50 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputa",
+            "time": "2019-05-14 09:54 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-05-14 10:11 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-05-14 10:28 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added creator interview",
+            "time": "2019-05-16 12:04 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited interview",
+            "time": "2019-05-16 12:33 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-21 11:17 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-21 11:26 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-21 11:59 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-21 12:01 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "publish",
+            "time": "2019-05-23 03:32 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "publish",
+            "time": "2019-05-23 03:34 PM",
+            "user": "rachel"
+          }
+        ],
+        "md5": "f277fe61bee5c480229e02c2da6157ae",
+        "medium_description_en": "<p>Calculates rate of distant brain failure after stereotactic radiosurgery for brain metastasis.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "Distant brain failure",
+          "survival",
+          "brain metastasis velocity model",
+          "bmv",
+          "bmv model",
+          "SRS",
+          "radiosurgery",
+          "WBRT",
+          "radiation therapy",
+          "stereotactic radiosurgery",
+          "metastases"
+        ],
+        "search_id": "c-10164",
+        "seo": {
+          "keywords_en": "Dbf survival, brain metastasis velocity model, bmv, bmv model, SRS, radiosurgery, WBRT, radiation therapy, stereotactic radiosurgery, whole brain radiation therapy, metastases",
+          "meta_description_en": "The Brain Metastasis Velocity Model predicts overall survival after initial distant brain failure (DBF) following radiosurgery."
+        },
+        "short_description_en": "<p>Distant brain failure after SRS for brain metastasis.</p>",
+        "short_title_en": "Brain Metastasis Velocity (BMV) Model",
+        "slug": "brain-metastasis-velocity-bmv-model",
+        "specialty_en": [
+          "Hematology and Oncology",
+          "Neurology",
+          "Neurosurgery",
+          "Radiation Oncology",
+          "Radiology"
+        ],
+        "system_en": [
+          "Neurologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Adrianna",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Masters",
+          "name": "Adrianna Masters, MD, PhD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2023-03-08T21:26:03.841Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Michael Farris, MD, is a radiation oncologist at the Wake Forest School of Medicine in North Carolina. Dr. Farris’ primary research is focused on lung cancer as well as stereotactic radiosurgery for brain metastases.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Michael Farris",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-michael-farris.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Farris+M%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10164/brain-metastasis-velocity-bmv-model",
+        "description": "The Brain Metastasis Velocity Model predicts overall survival after initial distant brain failure (DBF) following radiosurgery.",
+        "keywords": "Dbf survival, brain metastasis velocity model, bmv, bmv model, SRS, radiosurgery, WBRT, radiation therapy, stereotactic radiosurgery, whole brain radiation therapy, metastases",
+        "title": "Brain Metastasis Velocity (BMV) Model"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 20,
+          "error_max_si": 20,
+          "error_max_us": 20,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "metastases",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "metastases",
+          "units_si": "metastases",
+          "units_us": "metastases",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 20,
+          "warn_max_si": 20,
+          "warn_max_us": 20,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 10,
+          "error_max_si": 10,
+          "error_max_us": 10,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Time up to 10 years",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "time_years_limit10",
+          "units_si": "years",
+          "units_us": "years",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 10,
+          "warn_max_si": 10,
+          "warn_max_us": 10,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 10393,
+          "short_title_en": "GI-GPA",
+          "slug": "graded-prognostic-assessment-for-gastrointestinal-cancer-gigpa"
+        },
+        {
+          "calcId": 10210,
+          "short_title_en": "PREVAIL Model for Prostate Cancer",
+          "slug": "prevail-model-prostate-cancer-survival"
+        },
+        {
+          "calcId": 10437,
+          "short_title_en": "Combined MELD",
+          "slug": "model-end-stage-liver-disease-meld"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10164",
+      "brain-metastasis-velocity-bmv-model"
+    ]
+  },
+  "scriptLoader": []
+}

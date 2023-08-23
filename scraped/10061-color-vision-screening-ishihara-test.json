@@ -1,0 +1,1005 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Any/All",
+          "Vision Loss"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "10061.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\">The use of smartphones has greatly increased the clinician&rsquo;s ability to quickly access screening tools. <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29438263\" target=\"_blank\">Ozgur et al (2018)</a> demonstrated that using a smartphone application with the abbreviated 11 plate test (excluding plates 9, 11, and 14) compared with physical Ishihara color plates in healthy controls and patients with ocular pathology had close agreement in the number of correctly identified plates. The sensitivity and specificity of the smartphone application was 92% and specificity was 100%. The majority of patients preferred the smartphone application to the physical Ishihara plates.</p>\n<p dir=\"ltr\">Similarly, <a href=\"https://iovs.arvojournals.org/article.aspx?articleid=2360097\" target=\"_blank\">Shah et al (2012)</a> found that a smartphone-based application did not have any significant differences when compared with physical Ishihara plates in evaluating red-green color deficiencies .</p>\n<p dir=\"ltr\">In patients suspected of having optic neuritis, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26896905\" target=\"_blank\">Campbell et al (2016)</a> demonstrated that screening for color deficiencies using a tablet application was comparable to physical Ishihara plates.</p>\n<p dir=\"ltr\">In cases of suspected optic neuritis, clinicians can also evaluate for loss of color vision. In the Optic Neuritis Treatment Trial (ONTT), 88% of patients had abnormal color vision when evaluated with Ishihara color plates (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/1841573\" target=\"_blank\">Optic Neuritis Study Group 1991</a>).</p>\n<p dir=\"ltr\">Traditional printed Ishihara plates are expensive and require careful storage to ensure maintenance of the plates. The above studies support that a smartphone or tablet color vision screening application can potentially be utilized in clinical settings such as emergency rooms, inpatient settings, or non-ophthalmological settings where Ishihara plates are not routinely available.</p>",
+            "formula_en": "<p>X means that the plate cannot be read. Dashes denote that the reading is indefinite.</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"56\" /><col width=\"88\" /><col width=\"51\" /><col width=\"42\" /><col width=\"57\" /><col width=\"38\" /><col width=\"85\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Plate number</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Normal patient</strong></p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\"><b>Red-green color deficiency</b></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Total color blindness</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n<td>\n<p dir=\"ltr\">12</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">12</p>\n</td>\n<td>\n<p dir=\"ltr\">12</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n<td>\n<p dir=\"ltr\">8</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">3</p>\n</td>\n<td>\n<p dir=\"ltr\">X</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">2</p>\n</td>\n<td>\n<p dir=\"ltr\">X</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n<td>\n<p dir=\"ltr\">29</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">70</p>\n</td>\n<td>\n<p dir=\"ltr\">X</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n<td>\n<p dir=\"ltr\">74</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">21</p>\n</td>\n<td>\n<p dir=\"ltr\">X</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n<td>\n<p dir=\"ltr\">7</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">X</p>\n</td>\n<td>\n<p dir=\"ltr\">X</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">7</p>\n</td>\n<td>\n<p dir=\"ltr\">45</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">X</p>\n</td>\n<td>\n<p dir=\"ltr\">X</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">8</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">X</p>\n</td>\n<td>\n<p dir=\"ltr\">X</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">9</p>\n</td>\n<td>\n<p dir=\"ltr\">16</p>\n</td>\n<td colspan=\"4\">\n<p dir=\"ltr\">X</p>\n</td>\n<td>\n<p dir=\"ltr\">X</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" rowspan=\"2\"></td>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Protan</strong></p>\n</td>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Deutan</strong></p>\n</td>\n<td rowspan=\"2\">\n<p dir=\"ltr\"></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Strong</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Mild</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Strong</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Mild</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">10</p>\n</td>\n<td>\n<p dir=\"ltr\">35</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n<td>\n<p dir=\"ltr\">(3)5*</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n<td>\n<p dir=\"ltr\">3(5)*</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">11</p>\n</td>\n<td>\n<p dir=\"ltr\">96</p>\n</td>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n<td>\n<p dir=\"ltr\">(9)6*</p>\n</td>\n<td>\n<p dir=\"ltr\">9</p>\n</td>\n<td>\n<p dir=\"ltr\">9(6)*</p>\n</td>\n<td>-</td>\n</tr>\n</tbody>\n</table>\n<p>*The numbers in parentheses indicate they can be read but are comparatively unclear.</p>\n</div>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.dfis.ubi.pt/~hgil/P.V.2/Ishihara/Ishihara.24.Plate.TEST.Book.pdf",
+                  "text": "S. Ishihara, Tests for color-blindness (Handaya, Tokyo, Hongo Harukicho, 1917)."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/1841573 ",
+                  "text": "Optic Neuritis Study Group. The clinical profile of optic neuritis. Experience of the Optic Neuritis Treatment Trial. Arch Ophthalmol. 1991 Dec;109(12):1673-8. "
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "http://iovs.arvojournals.org/article.aspx?articleid=2360097 ",
+                  "text": "Shah AA, Pasadhika S, Kim J, Wang M. Pseudoisochromatic color vision testing on an iPhone. Invest Ophthalmol Vis Sci. 2012;53:6399."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26896905 ",
+                  "text": "Campbell TG, Lehn A, Blum S, Airey C, Brown H. iPad colour vision apps for dyschromatopsia screening. J Clin Neurosci. 2016 Jul;29:92-4."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/29438263 ",
+                  "text": "Ozgur OK, Emborgo TS, Vieyra MB, Huselid RF, Banik R.Validity and Acceptance of Color Vision Testing on Smartphones. J Neuroophthalmol. 2018 Mar;38(1):13-16."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Edmund Tsui, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Shinobu Ishihara",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-da760620-9523-08a1-b45f-7d803332da1f\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">This test evaluates for the most common type of color blindness (red-green deficiency) and not other types of color blindness.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">For purposes of rapid screening, this test uses an abbreviated version of the concise 14 plate test. The complete test consists of 38 Ishihara pseudoisochromatic plates, and a shorter 24 plate version exists as well.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">This&nbsp;abbreviated version of the 14 plate test excludes the hidden digit plate (original plate 9) and the line tracing plates (original plates 11 and 14).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Testing is less accurate in patients who have <calculator id=\"10060\">near visual acuity</calculator> less than ~20/100 at 30 inches.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">This test is less reliable in very young children (&lt;5 years of age).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Ishihara pseudoisochromatic plates are the most commonly used initial test for color vision testing; however, there are other tests which may be more accurate and sensitive, but more time-consuming (e.g. Farnsworth Panel D-15 and Farnsworth-Munsell 100-hue tests).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">An alternative pseudoisochromatic plate test is the Hardy-Rand-Ritter (HRR) test. &nbsp;</p>\n</li>\n</ul>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-e7c0e986-9522-d49f-4c23-6f1f348375e9\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">To screen for red-green color blindness.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">This test can also provide an initial assessment regarding the type of red-green color blindness (protan or deutan).</p>\n</li>\n</ul>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-de30b92a-9523-2fac-b2cf-17137803d843\">Provides a rapid assessment of color vision and evaluation of red-green color blindness.</span></p>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-4dd0c919-9523-6cb1-c612-e40e670e3ed4\">Patients with more than two incorrect plates are considered to have color vision deficiency.</span></p>",
+            "critical_actions_en": "",
+            "management_en": "<p>Patients with color vision deficiency should undergo further evaluation by an ophthalmologist or neuro-ophthalmologist.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Any/All"
+        ],
+        "dosing": false,
+        "equation_logic": "a6a06a16a3c7ef4938715906305260ae",
+        "equation_logic_text": "var calc_output = [];\n\nvar plate1 = parseFloat(twelve);\nvar plate2 = parseFloat(eight);\nvar plate3 = parseFloat(five);\nvar plate4 = parseFloat(twentynine);\nvar plate5 = parseFloat(seventyfour);\nvar plate6 = parseFloat(seven);\nvar plate7 = parseFloat(fortyfive);\nvar plate8 = parseFloat(two);\nvar plate9 = parseFloat(sixteen);\nvar plate10 = parseFloat(thirtyfive);\nvar plate11 = parseFloat(ninetysix);\n\nvar diagnosis;\nvar msg = 'Ishihara test diagnosis';\n\nif (plate1 == 12 && plate2 == 8 && plate3 == 5 && plate4 == 29 && plate5 == 74 && plate6 == 7 && plate7 == 45 && plate8 == 2 && plate9 == 16 && plate10 == 35 && plate11 == 96) {\n\tdiagnosis = 'Normal vision';\n}\nelse if (plate1 == 12 && plate2 == 3 && plate3 == 2 && plate4 == 70 && plate5 == 21 && plate6 == 0 && plate7 == 0 && plate8 == 0 && plate9 == 0) {\n\tif (plate10 == 5 && plate11 == 6) {\n      diagnosis = 'Red-green color deficiency';\n      msg = 'Strong protan color blindness';\n\t} else if (plate10 == 3 && plate11 == 9) {\n      diagnosis = 'Red-green color deficiency';\n      msg = 'Strong deutan color blindness';\n\t} else if (plate10 == 35 && plate11 == 96 && q1 == 1 && q2 == 1) {\n      diagnosis = 'Red-green color deficiency';\n      msg = 'Mild deutan color blindness';\n\t} else if (plate10 == 35 && plate11 == 96 && q1 == 2 && q2 == 2) {\n      diagnosis = 'Red-green color deficiency';\n      msg = 'Mild protan color blindness';\n\t} else {\n      diagnosis = 'Not definite';\n    }\n}\nelse if (plate1 == 12 && plate2 == 0 && plate3 == 0 && plate4 == 0 && plate5 == 0 && plate6 == 0 && plate7 == 0 && plate8 == 0 && plate9 == 0) {\n\tdiagnosis = 'Total color blindness';\n} else {\n\tdiagnosis = 'Not definite';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: diagnosis,\n    value_text: '',\n    message: msg \n});\ncalc_output.push({\n    name: 'diagnosis',\n    value: diagnosis,\n    value_text: '',\n    message: msg\n});",
+        "favorite_id": 10061,
+        "full_title_en": "Color Vision Screening (Ishihara Test)",
+        "input_schema": [
+          {
+            "type": "visual",
+            "visual": "<img src=\"https://cdn-web-img.mdcalc.com/content/ishihara12.png\" width = \"50%\"> "
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "What number does the patient see?",
+            "name": "twelve",
+            "optional": false,
+            "options": [
+              {
+                "label": "12",
+                "value": 12
+              },
+              {
+                "label": "Other number",
+                "value": 1
+              },
+              {
+                "label": "Plate cannot be read",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "type": "visual",
+            "visual": "<img src=\"https://cdn-web-img.mdcalc.com/content/ishihara8.png\" width = \"50%\">"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "What number does the patient see?",
+            "name": "eight",
+            "optional": false,
+            "options": [
+              {
+                "label": "8",
+                "value": 8
+              },
+              {
+                "label": "3",
+                "value": 3
+              },
+              {
+                "label": "Other number",
+                "value": 1
+              },
+              {
+                "label": "Plate cannot be read",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "type": "visual",
+            "visual": "<img src=\"https://cdn-web-img.mdcalc.com/content/ishihara5.png\" width = \"50%\">"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "What number does the patient see?",
+            "name": "five",
+            "optional": false,
+            "options": [
+              {
+                "label": "5",
+                "value": 5
+              },
+              {
+                "label": "2",
+                "value": 2
+              },
+              {
+                "label": "Other number",
+                "value": 1
+              },
+              {
+                "label": "Plate cannot be read",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "type": "visual",
+            "visual": "<img src=\"https://cdn-web-img.mdcalc.com/content/ishihara29.png\" width = \"50%\">"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "What number does the patient see?",
+            "name": "twentynine",
+            "optional": false,
+            "options": [
+              {
+                "label": "29",
+                "value": 29
+              },
+              {
+                "label": "70",
+                "value": 70
+              },
+              {
+                "label": "Other number",
+                "value": 1
+              },
+              {
+                "label": "Plate cannot be read",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "type": "visual",
+            "visual": "<img src=\"https://cdn-web-img.mdcalc.com/content/ishihara74.png\" width = \"50%\"> "
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "What number does the patient see?",
+            "name": "seventyfour",
+            "optional": false,
+            "options": [
+              {
+                "label": "74",
+                "value": 74
+              },
+              {
+                "label": "21",
+                "value": 21
+              },
+              {
+                "label": "Other number",
+                "value": 1
+              },
+              {
+                "label": "Plate cannot be read",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "type": "visual",
+            "visual": "<img src=\"https://cdn-web-img.mdcalc.com/content/ishihara7.png\" width = \"50%\"> "
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "What number does the patient see?",
+            "name": "seven",
+            "optional": false,
+            "options": [
+              {
+                "label": "7",
+                "value": 7
+              },
+              {
+                "label": "Other number",
+                "value": 1
+              },
+              {
+                "label": "Plate cannot be read",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "type": "visual",
+            "visual": "<img src=\"https://cdn-web-img.mdcalc.com/content/ishihara45.png\" width = \"50%\">"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "What number does the patient see?",
+            "name": "fortyfive",
+            "optional": false,
+            "options": [
+              {
+                "label": "45",
+                "value": 45
+              },
+              {
+                "label": "Other number",
+                "value": 1
+              },
+              {
+                "label": "Plate cannot be read",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "type": "visual",
+            "visual": "<img src=\"https://cdn-web-img.mdcalc.com/content/ishihara2.png\" width = \"50%\"> "
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "What number does the patient see?",
+            "name": "two",
+            "optional": false,
+            "options": [
+              {
+                "label": "2",
+                "value": 2
+              },
+              {
+                "label": "Other number",
+                "value": 1
+              },
+              {
+                "label": "Plate cannot be read",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "type": "visual",
+            "visual": "<img src=\"https://cdn-web-img.mdcalc.com/content/ishihara16.png\" width = \"50%\">"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "What number does the patient see?",
+            "name": "sixteen",
+            "optional": false,
+            "options": [
+              {
+                "label": "16",
+                "value": 16
+              },
+              {
+                "label": "Other number",
+                "value": 1
+              },
+              {
+                "label": "Plate cannot be read",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "type": "visual",
+            "visual": "<img src=\"https://cdn-web-img.mdcalc.com/content/ishihara35.png\" width = \"50%\">"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "What number does the patient see?",
+            "name": "thirtyfive",
+            "optional": false,
+            "options": [
+              {
+                "label": "3",
+                "value": 3
+              },
+              {
+                "label": "5",
+                "value": 5
+              },
+              {
+                "label": "35",
+                "value": 35
+              },
+              {
+                "label": "Other number",
+                "value": 1
+              },
+              {
+                "label": "Plate cannot be read",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "thirtyfive == 35",
+            "default": null,
+            "label_en": "Are both digits equally clear?",
+            "name": "q1",
+            "optional": false,
+            "options": [
+              {
+                "label": "Left number is more clear",
+                "value": 1
+              },
+              {
+                "label": "Right number is more clear",
+                "value": 2
+              },
+              {
+                "label": "Both are clear",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "type": "visual",
+            "visual": "<img src=\"https://cdn-web-img.mdcalc.com/content/ishihara96.png\" width = \"50%\">"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "What number does the patient see?",
+            "name": "ninetysix",
+            "optional": false,
+            "options": [
+              {
+                "label": "6",
+                "value": 6
+              },
+              {
+                "label": "9",
+                "value": 9
+              },
+              {
+                "label": "96",
+                "value": 96
+              },
+              {
+                "label": "Other number",
+                "value": 1
+              },
+              {
+                "label": "Plate cannot be read",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "ninetysix == 96",
+            "default": null,
+            "label_en": "Are both digits equally clear?",
+            "name": "q2",
+            "optional": false,
+            "options": [
+              {
+                "label": "Left number is more clear",
+                "value": 1
+              },
+              {
+                "label": "Right number is more clear",
+                "value": 2
+              },
+              {
+                "label": "Both are clear",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p><span id=\"docs-internal-guid-67f60c91-9522-a6fe-0cf3-8d49b0600d81\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Ensure proper room lighting and phone brightness.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Wear any glasses necessary for near vision.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Hold screen at a comfortable reading distance (~30 inches or 75 cm).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Test each eye independently.</p>\n</li>\n</ul>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited distance",
+            "time": "2022-01-21T12:24:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "edited description",
+            "time": "2021-03-19T16:17:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "db test",
+            "time": "2019-06-18T13:31:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "go live",
+            "time": "2019-06-13T13:56:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "edited innputs",
+            "time": "2019-06-07T18:42:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited input",
+            "time": "2019-06-07T18:41:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits inputs",
+            "time": "2019-06-07T18:34:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-28T17:18:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-28T17:17:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-28T17:15:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-28T16:49:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-28T16:44:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-05-21T12:06:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-05-21T11:42:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-05-21T11:40:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited contributors",
+            "time": "2019-05-14T18:37:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited refs",
+            "time": "2019-05-13T18:36:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2019-05-13T11:07:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-05-13T11:03:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-05-06T22:35:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-05-06T22:26:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited input",
+            "time": "2019-05-06T22:19:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "updated logic",
+            "time": "2019-05-06T22:12:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-05-06T22:08:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-05-06T21:56:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "add contributors",
+            "time": "2018-08-07T17:15:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "first pass at equation logic ",
+            "time": "2018-08-07T12:19:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "input images in ",
+            "time": "2018-07-13T15:56:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "claim save",
+            "time": "2018-07-13T14:36:00.000Z",
+            "user": "natalie"
+          }
+        ],
+        "md5": "64da58d7431065c35d97fd0fc10e8bfe",
+        "medium_description_en": "<p>Assess for red-green color blindness.</p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "Ishihara test",
+          "color blind test",
+          "color vision screening",
+          "colorblind",
+          "colorblindness",
+          "color blindness"
+        ],
+        "search_id": "c-10061",
+        "seo": {
+          "keywords_en": "Color blindness, vision test, color vision test",
+          "meta_description_en": "The Color Vision Screening (Ishihara Test) assesses red-green color blindness. "
+        },
+        "short_description_en": "Color blindness. ",
+        "short_title_en": "Ishihara Test",
+        "slug": "color-vision-screening-ishihara-test",
+        "specialty_en": [
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Ophthalmology",
+          "Primary Care"
+        ],
+        "system_en": [
+          "Neurologic",
+          "Ophthalmic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Edmund Tsui, MD, is an assistant professor of ophthalmology at the Stein Eye Institute at the University of California, Los Angeles. He was previously a uveitis fellow at the Proctor Foundation at the University of California, San Francisco. Dr. Tsui obtained his medical degree from the Geisel School of Medicine at Dartmouth and completed his ophthalmology residency training at NYU where he was elected chief resident. He is also a social media editor for <i>Ophthalmology</i>. His research interests include the use of multimodal ophthalmic imaging to diagnose and monitor uveitis.</p>",
+          "firstName": "Edmund",
+          "hasDisclosure": [],
+          "img": "edmund-tsui.jpg",
+          "lastName": "Tsui",
+          "name": "Edmund Tsui, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "edmund-tsui",
+          "updatedAt": "2023-04-06T20:25:53.319Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Shinobu Ishihara, MD, (d. 1963) was an army opthamologist in Tokyo, Japan. He was also the chairman of the ophthalmology department at the Imperial University of Tokyo. Dr. Ishihara’s research interests included isochromatic vision and myopia.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": true,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Shinobu Ishihara",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-shinobu-ishihara.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term= Ishihara +S%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-11-04T18:59:22.089Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10061/color-vision-screening-ishihara-test",
+        "description": "The Color Vision Screening (Ishihara Test) assesses red-green color blindness. ",
+        "keywords": "Color blindness, vision test, color vision test",
+        "title": "Color Vision Screening (Ishihara Test)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10060,
+          "short_title_en": "Snellen Chart ",
+          "slug": "visual-acuity-testing-snellen-chart"
+        },
+        {
+          "calcId": 3982,
+          "short_title_en": "4AT",
+          "slug": "4-test-delirium-assessment"
+        },
+        {
+          "calcId": 10208,
+          "short_title_en": "AMT-10",
+          "slug": "abbreviated-mental-test-amt-10"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10061",
+      "color-vision-screening-ishihara-test"
+    ]
+  },
+  "scriptLoader": []
+}

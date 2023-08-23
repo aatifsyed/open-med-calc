@@ -1,0 +1,975 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p><span id=\"docs-internal-guid-902d712b-7fff-54c5-d116-131b1fc25a90\">Note: As of 2015, the Jones Criteria have been updated to include the use of doppler echocardiography. See <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25908771\" target=\"_blank\">AHA's update</a>.</p>",
+        "calc_type": "diagnostic_criteria",
+        "chief_complaint_en": [
+          "Abdominal Pain",
+          "Chest Pain",
+          "Fatigue",
+          "Fever",
+          "Joint Pain",
+          "Rash"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+77",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+77",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "4027.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\">The Jones Criteria were initially created by <a href=\"https://jamanetwork.com/journals/jama/article-abstract/271116?redirect=true\" target=\"_blank\">Dr. T Duckett Jones in 1944</a> in an attempt to unify the varying diagnostic criteria of this disease. The &ldquo;major manifestations&rdquo; were those that would offer the least likelihood of improper diagnosis. &ldquo;Minor manifestations&rdquo; could be suggestive of but not diagnostic of ARF.</p>\n<p dir=\"ltr\">These criteria were then later updated by the <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/1404745\" target=\"_blank\">American Heart Association (AHA) in 1992</a>, then <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25908771\" target=\"_blank\">revised in 2015 by the AHA</a> to include the use of doppler echocardiography. The use of certain echo findings (such as evidence of pathologic mitral regurgitation or aortic regurgitation, or morphologic valvulitis findings) are used to fulfill carditis as a major criteria, in the absence of clinical/auscultatory findings.</p>\n<p dir=\"ltr\">This 2015 revision also distinguished low risk populations (ARF incidence &lt;2 per 100,000 school aged children or all-age RHD prevalence &lt;1 per 100,000) and moderate-high risk populations, and included slightly different Jones criteria for each. In high-risk groups, subclinical carditis, monoarthritis, and polyarthralgia become major criteria, the cut-off for fever drops to 38.0C, and the cut-off for ESR drops to 30 mm/hr.</p>\n<p dir=\"ltr\">Most common &ldquo;major criteria&rdquo; found in first episode of ARF is carditis (50-70%), followed by arthritis (35-66%), chorea (10-30%), subcutaneous nodules (0-10%), erythema marginatum (&lt;6%) (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25908771\" target=\"_blank\">Gewitz 2015</a>).</p>",
+            "formula_en": "<p dir=\"ltr\">Revised Jones Criteria (<a href=\"https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000000205\" target=\"_blank\">Gewitz 2015</a>):</p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Diagnosis for initial ARF is positive if evidence of preceding group A streptococcal (GAS) infection is present AND two major criteria (or one major and two minor criteria) from the table below are present.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Diagnosis for recurrent ARF is positive if evidence of preceding GAS infection is present, there is a previous history of ARF or established rheumatic heart disease, AND two major criteria (or one major and two minor OR three minor criteria) from the table below are present.</p>\n</li>\n</ol>\n<div dir=\"ltr\" align=\"left\">\n<table><colgroup><col /><col /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Evidence of preceding&nbsp;GAS infection (&ge;1 of the following)</strong></p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\">Increased or rising anti-streptolysin O titer or other streptococcal antibodies (anti-DNASE B)</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\">A positive rapid group A streptococcal carbohydrate antigen test in a child whose clinical presentation suggests a high pretest probability of streptococcal pharyngitis</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\">A positive throat culture for group A &beta;-hemolytic streptococci</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Major criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Low-risk populations*</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Moderate- and high-risk populations</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Carditis (clinical and/or subclinical**)</p>\n</td>\n<td>\n<p dir=\"ltr\">Carditis (clinical and/or subclinical**)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Arthritis (polyarthritis only)</p>\n</td>\n<td>\n<p dir=\"ltr\">Arthritis (monoarthritis or polyarthritis; polyarthralgia)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Chorea</p>\n</td>\n<td>\n<p dir=\"ltr\">Chorea</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Erythema marginatum</p>\n</td>\n<td>\n<p dir=\"ltr\">Erythema marginatum</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Subcutaneous nodules</p>\n</td>\n<td>\n<p dir=\"ltr\">Subcutaneous nodules</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Minor criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Low-risk populations*</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Moderate- and high-risk populations</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Prolonged PR interval, after accounting for age variability (unless carditis is a major criterion)</p>\n</td>\n<td>\n<p dir=\"ltr\">Prolonged PR interval, after accounting for age variability (unless carditis is a major criterion)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Polyarthralgia</p>\n</td>\n<td>\n<p dir=\"ltr\">Monoarthralgia</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Fever (&ge;38.5&deg;C or 101.3&deg;F)</p>\n</td>\n<td>\n<p dir=\"ltr\">Fever (&ge;38&deg;C or 100.4&deg;F)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">ESR &ge;60 mm in the first hour and/or CRP &ge;3.0 mg/dL***</p>\n</td>\n<td>\n<p dir=\"ltr\">ESR &ge;30 mm/hr and/or CRP &ge;3.0 mg/dL***</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">*Low-risk populations are those with ARF incidence &le;2 per 100,000 school-aged children or all-age rheumatic heart disease prevalence of &le;1 per 1000 population per year.</p>\n<p dir=\"ltr\">**Subclinical carditis indicates echocardiographic valvulitis.</p>\n<p></p>\n<p dir=\"ltr\">***CRP value must be greater than the upper limit of normal for laboratory; use peak ESR values as ESR may evolve during the course of ARF.</p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://jamanetwork.com/journals/jama/article-abstract/271116?redirect=true",
+                  "text": "Jones, TD. The diagnosis of rheumatic fever. JAMA. 1944;126(8):481-484."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/1404745",
+                  "text": "Guidelines for the diagnosis of rheumatic fever. Jones Criteria, 1992 update. Special Writing Group of the Committee on Rheumatic Fever, Endocarditis, and Kawasaki Disease of the Council on Cardiovascular Disease in the Young of the American Heart Association. JAMA. 1992;268(15):2069-73."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25908771",
+                  "text": "Gewitz MH, Baltimore RS, Tani LY, et al. Revision of the Jones Criteria for the diagnosis of acute rheumatic fever in the era of Doppler echocardiography: a scientific statement from the American Heart Association. Circulation. 2015;131(20):1806-18."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4898634/",
+                  "text": "Kumar D, Bhutia E, Kumar P, Shankar B, Juneja A, Chandelia S. Evaluation of the American Heart Association 2015 Revised Jones Criteria Versus Existing Guidelines. Heart Asia. 2016;8:30-35."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Derek Tam, MD, MPH"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. T. Duckett Jones",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-24b77335-7fff-acaa-9a4a-2ccaf5a3b36e\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">An initial presentation of possible ARF should not be diagnosed based on minor criteria alone.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Other illnesses may mimic ARF. Laboratory evidence of an antecedent group A streptococcal (GAS) infection (i.e., streptococcal antibody titers, positive throat culture or rapid Strep test) is mandatory to establish the diagnosis.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Only GAS infections of the upper respiratory tract lead to ARF; GAS skin infections do not lead to ARF.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">A <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25908771\" target=\"_blank\">2015 revision</a> made modifications to the criteria, most notably providing two separate diagnostic pathways for those at low risk and those at moderate/high risk, and adding subclinical carditis as a major criterion. However, the <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/1404745\" target=\"_blank\">1992 (original) version</a> remains popular in clinical use.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Children less than 3 years of age are unlikely to develop an autoimmune response that leads to ARF. Even with laboratory evidence of GAS infection, consider other diagnoses first. Expert consultation with pediatric infectious disease, cardiology, and/or rheumatology may be helpful.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Myocarditis without valvulitis (without new murmur or echo evidence suggestive of RHD) is unlikely to be rheumatic in origin.</p>\n</li>\n</ul>",
+            "use_case_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Use in the diagnosis of suspected acute rheumatic fever (ARF).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Diagnosis of ARF is a clinical diagnosis based on these standard diagnostic criteria.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Do not use to measure rheumatic activity, establish the diagnosis of inactive or chronic rheumatic heart disease, or to predict the course or severity of the disease.</p>\n</li>\n</ul>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-33ba7867-7fff-9f5f-42f0-75cc76443bbb\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">To establish a diagnosis of initial&nbsp;or recurrent acute rheumatic fever.&nbsp;</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Failing to meet the criteria suggests that another diagnosis is more likely.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Adherence to the Jones Criteria will help prevent over-diagnosis and the long-term sequelae of over-diagnosis such as prophylactic antibiotic use, patient/family stress, and insurance concerns.</p>\n</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-af293eb1-7fff-a9c4-894a-cad98221af13\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Cases of isolated chorea, indolent carditis, or recurrent episodes of rheumatic fever are more suggestive of rheumatic fever regardless of the presence of other Jones Criteria. In these scenarios, ARF is the presumptive diagnosis until proven otherwise.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Remember that arthralgia (joint pain) is distinct from arthritis (objective findings related to inflammation such as warmth, erythema, or swelling).</p>\n</li>\n</ul>",
+            "critical_actions_en": "<p><span id=\"docs-internal-guid-547963a3-7fff-84da-4fbf-1c93e82f68dd\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Household members living with a patient with confirmed ARF should be screened and treated for GAS infection/colonization when appropriate.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">A penicillin antibiotic is typically the first line treatment for ARF (oral penicillin V or intramuscular penicillin G); amoxicillin can also be considered.</p>\n</li>\n</ul>",
+            "management_en": "<p><span id=\"docs-internal-guid-96da97a9-7fff-263a-c3c9-69490aae17b4\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Echocardiogram is key in the evaluation of ARF, and should be performed in all cases of confirmed or suspected ARF.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">If the diagnosis of ARF has been made without evidence of structural heart disease, an echocardiogram and cardiology consult are still recommended.</p>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [
+              {
+                "CalculatorId": 4027,
+                "createdAt": "2019-07-02T20:19:31.833Z",
+                "description": "Evidence syntheses and practical tips on management of atrial fibrillation",
+                "id": 34,
+                "link": "https://www.mdcalc.com/stroke-risk-atrial-fibrillation-practice-pearls",
+                "order": 0,
+                "text": "Practice Pearls: Atrial Fibrillation and Stroke Risk",
+                "updatedAt": "2020-03-06T21:57:42.538Z"
+              }
+            ],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 4027,
+                "createdAt": "2020-03-06T21:57:42.561Z",
+                "description": "Pediatric Emergency Medicine Practice",
+                "id": 146,
+                "link": "https://www.ebmedicine.net/topics/infectious-disease/pediatric-rash-fever",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: Jones Criteria for ARF",
+                "updatedAt": "2020-03-06T21:57:42.561Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Acute Pain",
+          "Atrial Fibrillation",
+          "Autoimmune Disorders",
+          "Endocarditis",
+          "Heart Failure",
+          "Strep Pharyngitis",
+          "Stroke/TIA"
+        ],
+        "dosing": false,
+        "equation_logic": "7ecc6422a89ce8f7086dc0a8c7a5880d",
+        "equation_logic_text": "var calc_output = [];\n\nvar req = parseFloat(req1) + parseFloat(req2) + parseFloat(req3);\nvar pop = parseFloat(pop);\nvar history = parseFloat(history);\n\nvar carditis = parseFloat(carditis);\nvar arth1 = parseFloat(arth1); \nvar arth2 = parseFloat(arth2); \nvar chorea = parseFloat(chorea);\nvar em = parseFloat(em);\nvar nodules = parseFloat(nodules);\n\nvar prolonged = parseFloat(prolonged);\nvar arthralgia1 = parseFloat(arthralgia1);\nvar arthralgia2 = parseFloat(arthralgia2);\nvar fever1 = parseFloat(fever1);\nvar fever2 = parseFloat(fever2);\nvar esr1 = parseFloat(esr1);\nvar esr2 = parseFloat(esr2);\n\nvar msg;\nvar string;\n\nif (req < 1) {\n  msg = 'No evidence of preceding GAS infection; required criteria not met';\n  string = '';\n\n} else {\n\n  if (pop == 0) {\n    arth = arth1;\n    arthralgia = arthralgia1;\n    fever = fever1;\n    esr = esr1;\n  } else {\n    arth = arth2;\n    arthralgia = arthralgia2;\n    fever = fever2;\n    esr = esr2;\n  }\n\n  var major = carditis + arth + chorea + em + nodules;\n  var minor = prolonged + arthralgia + fever + esr;\n\n  if (history == 0) {\n    if (major >= 2 || (major >= 1 && minor >= 2)) {\n      \n      msg = 'Diagnosis for initial ARF is positive';\n      string = 'Positive';\n\n    } else {\n\n      msg = 'Diagnosis for initial ARF is not positive';\n      string = 'Not positive';\n\n    }\n\n  } else if (history == 1) {\n\n    if (major >= 2 || (major >= 1 && minor >= 2) || (minor >= 3)) {\n    \n      string = 'Positive';\n      msg = 'Diagnosis for recurrent ARF is positive';\n\n    } else {\n      string = 'Not positive';\n      msg = 'Diagnosis for recurrent ARF is not positive';\n    \n    }\n  }\n} \n    \n\ncalc_output.push({ name: 'mini', value: string, value_text: '', message: msg });\ncalc_output.push({ name: 'Jones ARF', value: string, value_text: '', message: msg });",
+        "favorite_id": 4027,
+        "full_title_en": "Jones Criteria for Acute Rheumatic Fever Diagnosis",
+        "input_schema": [
+          {
+            "subheading": "Evidence of preceding GAS infection (≥1 of the following)",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Increased or rising anti-streptolysin O titer or other streptococcal antibodies (anti-DNASE B)",
+            "name": "req1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "A positive rapid group A streptococcal (GAS) carbohydrate antigen test in a child whose clinical presentation suggests a high pretest probability of streptococcal pharyngitis",
+            "name": "req2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "A positive throat culture for group A β-hemolytic streptococci",
+            "name": "req3",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "req1 > 0 || req2 > 0 || req3 > 0",
+            "default": null,
+            "label_en": "History of ARF or established rheumatic heart disease",
+            "name": "history",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "req1 > 0 || req2 > 0 || req3 > 0",
+            "default": null,
+            "label_en": "Population risk",
+            "name": "pop",
+            "optional": false,
+            "options": [
+              {
+                "label": "Low-risk populations",
+                "value": 0
+              },
+              {
+                "label": "Moderate- and high-risk populations",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Low-risk populations are those with ARF incidence ≤2 per 100,000 school-aged children or all-age rheumatic heart disease prevalence of ≤1 per 1000 population per year",
+            "type": "radio"
+          },
+          {
+            "subheading": "Major criteria",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "pop == 1 || pop == 0",
+            "default": 0,
+            "label_en": "Carditis (clinical and/or subclinical)",
+            "name": "carditis",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Subclinical carditis indicates echocardiographic valvulitis",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "pop == 0",
+            "default": 0,
+            "label_en": "Arthritis (polyarthritis only)",
+            "name": "arth1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "pop == 1",
+            "default": 0,
+            "label_en": "Arthritis (monoarthritis or polyarthritis; polyarthralgia)",
+            "name": "arth2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "pop == 1 || pop == 0",
+            "default": 0,
+            "label_en": "Chorea",
+            "name": "chorea",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "pop == 1 || pop == 0",
+            "default": 0,
+            "label_en": "Erythema marginatum",
+            "name": "em",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "pop == 1 || pop == 0",
+            "default": 0,
+            "label_en": "Subcutaneous nodules",
+            "name": "nodules",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "subheading": "Minor criteria",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "pop == 1 || pop == 0",
+            "default": 0,
+            "label_en": "Prolonged PR interval, after accounting for age variability (unless carditis is a major criterion)",
+            "name": "prolonged",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "pop == 0",
+            "default": 0,
+            "label_en": "Polyarthralgia",
+            "name": "arthralgia1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "pop == 1",
+            "default": 0,
+            "label_en": "Monoarthralgia",
+            "name": "arthralgia2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "pop == 0",
+            "default": 0,
+            "label_en": "Fever (≥38.5°C or 101.3°F)",
+            "name": "fever1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "pop == 1",
+            "default": 0,
+            "label_en": "Fever (≥38°C or 100.4°F)",
+            "name": "fever2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "pop == 0",
+            "default": 0,
+            "label_en": "ESR ≥60 mm in the first hour and/or CRP ≥3.0 mg/dL",
+            "name": "esr1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "CRP value must be greater than the upper limit of normal for laboratory; use peak ESR values as ESR may evolve during the course of ARF",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "pop == 1",
+            "default": 0,
+            "label_en": "ESR ≥30 mm/hr and/or CRP ≥3.0 mg/dL",
+            "name": "esr2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "CRP value must be greater than the upper limit of normal for laboratory; use peak ESR values as ESR may evolve during the course of ARF",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added partner content",
+            "time": "2020-03-06T16:57:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited content",
+            "time": "2020-01-29T10:35:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2020-01-29T10:33:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2020-01-29T10:31:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited instructions",
+            "time": "2020-01-29T10:30:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2020-01-29T10:29:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited Evidence",
+            "time": "2020-01-25T17:13:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added tips",
+            "time": "2020-01-25T16:52:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2020-01-25T16:46:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2015 update",
+            "time": "2020-01-25T14:48:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2015 update",
+            "time": "2020-01-24T21:49:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added practice pearl links to sidebar ",
+            "time": "2019-05-22T14:37:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added search term",
+            "time": "2019-05-15T11:27:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "ready to go live",
+            "time": "2018-07-18T11:54:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "changed title to include \"Acute\"",
+            "time": "2018-07-09T15:32:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "changed title to include \"Acute\"",
+            "time": "2018-07-09T15:26:00.000Z",
+            "user": "rachel"
+          }
+        ],
+        "md5": "2492ea1ba6f51aed30d15d1d64efea9c",
+        "medium_description_en": "<p>Diagnoses acute rheumatic fever based on major and minor criteria.</p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "jones criteria",
+          "rheumatic fever",
+          "acute rheumatic fever",
+          "ARF",
+          "streptococcal pharyngitis",
+          "antecedent group A streptococcal infection",
+          "GAS",
+          "echocardiography",
+          "rheumatic carditis",
+          "myocarditis",
+          "valvulitis",
+          "mitral regurgitation",
+          "apical systolic murmur",
+          "basal diastolic murmur",
+          "erythema marginatum",
+          "subcutaneous nodules",
+          "polyarthritis",
+          "Sydenham's chorea",
+          "chorea",
+          "stroke risk"
+        ],
+        "search_id": "c-4027",
+        "seo": {
+          "keywords_en": "Jones Criteria, Rheumatic Fever, streptococcal pharyngitis, antecedent group A streptococcal infection, rheumatic carditis, myocarditis, valvulitis, mitral regurgitation, apical systolic murmur, basal diastolic murmur, erythema marginatum, subcutaneous nodules, polyarthritis, Sydenham’s chorea, chorea",
+          "meta_description_en": "The Jones Criteria for Rheumatic Fever Diagnosis diagnoses acute rheumatic fever based on major and minor criteria."
+        },
+        "short_description_en": "Rheumatic fever diagnosis.",
+        "short_title_en": "Jones Criteria for ARF",
+        "slug": "jones-criteria-acute-rheumatic-fever-diagnosis",
+        "specialty_en": [
+          "Cardiology",
+          "Emergency Medicine",
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Infectious Disease",
+          "Internal Medicine",
+          "Neurology",
+          "Primary Care",
+          "Rheumatology"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Immunologic",
+          "Musculoskeletal",
+          "Neurologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Derek Tam, MD, MPH, is a pediatric resident at Maimonides Children's Hospital in Brooklyn, NY. Dr. Tam completed an undergraduate degree in cognitive science at Northwestern University in Chicago, IL, and received his MD and MPH from the Northwestern University Feinberg School of Medicine. He will serve as chief resident for the pediatric residency program at Maimonides for the academic year 2019-2020 and plans to pursue a fellowship in pediatric emergency medicine. His academic interests include emergency medicine, pediatric resuscitation, antibiotic stewardship, and epidemiology.</p>",
+          "firstName": "Derek",
+          "hasDisclosure": [],
+          "img": "derek-tam.jpg",
+          "lastName": "Tam",
+          "name": "Derek Tam, MD, MPH",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "derek-tam",
+          "updatedAt": "2023-04-06T20:25:19.744Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Thomas Duckett Jones, MD, (d. 1954) was the director of research in rheumatic fever and rheumatic heart disease at the House of the Good Samaritan in Boston for 20 years. He worked clinically at Massachusetts General Hospital and was on faculty at Harvard Medical School. Dr. Jones was appointed to the inaugural National Advisory Heart Council and also served as vice-president of the American Heart Association, chairman of the AHA's Council on Rheumatic Fever, and president-elect of the National Health Council.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": true,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. T. Duckett Jones",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-t-duckett-jones.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=DUCKETT+JONES+T%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-11-04T18:59:31.342Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4027/jones-criteria-acute-rheumatic-fever-diagnosis",
+        "description": "The Jones Criteria for Rheumatic Fever Diagnosis diagnoses acute rheumatic fever based on major and minor criteria.",
+        "keywords": "Jones Criteria, Rheumatic Fever, streptococcal pharyngitis, antecedent group A streptococcal infection, rheumatic carditis, myocarditis, valvulitis, mitral regurgitation, apical systolic murmur, basal diastolic murmur, erythema marginatum, subcutaneous nodules, polyarthritis, Sydenham’s chorea, chorea",
+        "title": "Jones Criteria for Acute Rheumatic Fever Diagnosis"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3316,
+          "short_title_en": "FeverPAIN Score",
+          "slug": "feverpain-score-strep-pharyngitis"
+        },
+        {
+          "calcId": 4049,
+          "short_title_en": "Rochester Criteria",
+          "slug": "rochester-criteria-febrile-infants"
+        },
+        {
+          "calcId": 10471,
+          "short_title_en": "Thakar Score",
+          "slug": "acute-renal-failure-cardiac-surgery-thakar-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4027",
+      "jones-criteria-acute-rheumatic-fever-diagnosis"
+    ]
+  },
+  "scriptLoader": []
+}

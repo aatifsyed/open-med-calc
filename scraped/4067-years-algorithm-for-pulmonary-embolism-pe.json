@@ -1,0 +1,869 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain",
+          "Cough",
+          "Extremity Edema",
+          "Palpitations",
+          "Shortness of Breath",
+          "Syncope"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "4067.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>Original YEARS study:</p>\n<ul>\n<li>Prospective cohort study conducted in 12 hospitals across the Netherlands in hemodynamically stable patients with suspected pulmonary embolism.</li>\n<li>The algorithm was applied by first evaluating the presence of YEARS items: clinical signs of DVT, hemoptysis, or PE most likely diagnosis. All patients underwent a D-dimer test. In patients with no YEARS items and D-dimer &lt;1,000 ng/mL, PE was excluded and no CTPA was performed. In patients with one or more YEARS items and D-dimer &lt;500 ng/mL, PE was excluded and no CTPA was performed. All other patients received CTPA.</li>\n<li>Primary outcome was number of venous thromboembolism (VTE) events during the 3 months after PE was excluded and was analyzed using per protocol approach. The secondary outcome was the number of required CTPA compared to Wells&rsquo; Score for PE, analyzed using an intention-to-treat analysis.</li>\n<li>3,616 patients with clinically suspected PE were screened, and 3,465 were included in the study.</li>\n<li>18 (0.61%) were diagnosed with a symptomatic venous thromboembolism during the 3 month follow up. 6 of those patients had fatal PE (0.21%). &nbsp;</li>\n<li>2,946 patients (85%) were ruled out for PE using the algorithm. Of 1,629 patients who were ruled out without CTPA, 7 (0.43%) had symptomatic venous thromboembolism during the 3 month follow up, 2 of which were fatal.</li>\n<li>1,317 (15%) of patients were managed with CTPA. Of those patients, 11 (0.84%) had symptomatic venous thromboembolism during 3 month follow up, 4 of which were fatal.</li>\n<li>When compared to Wells&rsquo; Score with fixed D-dimer of 500 ng/mL, the YEARS algorithm reduced CTPA by 14% across all ages and subgroups.</li>\n<li>It appears as though the binary D-dimer cutoffs used in the YEARS trial reduced the rate of CTPA when compared to using age adjusted D-dimer.</li>\n<li>If age adjusted D-dimer was applied, the YEARS algorithm would have led to an absolute reduction of CTPA by only 8.7% compared to 14% using the binary cutoffs of the YEARS algorithm.</li>\n<li>Age adjusted D-dimer, defined as age x 10 in patients over the age of 50, has been prospectively validated to be safe and reduce the number of CTPA in patients low risk for PE.</li>\n<li>Take note of the following exclusion criteria:\n<ul>\n<li>Treatment with therapeutic doses of anticoagulants initiated 24 hours or more before eligibility assessment.</li>\n<li>Life expectancy less than 3 months.</li>\n<li>Geographic inaccessibility precluding follow-up.</li>\n<li>Pregnancy (be sure to use pregnancy-adapted YEARS algorithm in the calc).</li>\n<li>Allergy to intravenous contrast agent.</li>\n</ul>\n</li>\n</ul>\n<p>Subgroup analysis:</p>\n<ul>\n<li>The authors of the original YEARS study published a subgroup analysis of the patients 50 years and older and compared this subgroup to the age adjusted d-dimer cutoffs.</li>\n<li>In the YEARS study, 1,651 (48%) patients aged 50 years and older were managed without CTPA.</li>\n<li>If the age adjusted D-dimer cutoffs had been applied to the YEARS subgroup, 1,627 patients (47%) would have been managed without CTPA. This adjustment lead to an absolute increase of CTPA by 0.69%. This increase in CTPA did not result in a higher sensitivity but rather would have missed 4 PEs in patients that were confirmed on CTPA as they had one or more YEARS items and D-dimer &gt;500 ng/mL in the original YEARS study.</li>\n<li>The authors concluded in the YEARS cohort, there was no added value of implementing age adjusted D-dimer in the YEARS algorithm.</li>\n</ul>",
+            "formula_en": "<p>Refer to decision tree:</p>\n<p><img src=\"https://cdn-web-img.mdcalc.com/years-tree.png\" width=\"967\" height=\"1005\" alt=\"\" /></p>\n<p>Adapted from <a href=\"https://www.nejm.org/doi/full/10.1056/NEJMoa1813865\" target=\"_blank\" rel=\"noopener\">Van der Pol 2019</a>.</p>\n<p>Take note of the following exclusion criteria:</p>\n<ul>\n<li>Treatment with therapeutic doses of anticoagulants initiated 24 hours or more before eligibility assessment.</li>\n<li>Life expectancy less than 3 months.</li>\n<li>Geographic inaccessibility precluding follow-up.</li>\n<li>Pregnancy (be sure to use pregnancy-adapted YEARS algorithm in the calc).</li>\n<li>Allergy to intravenous contrast agent.</li>\n</ul>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28549662 ",
+                  "text": "Van der Hulle T, Cheung WY, Kooij S, et al. Simplified diagnostic management of suspected pulmonary embolism (the YEARS study): a prospective, multicentre, cohort study. Lancet. 2017;"
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28941051",
+                  "text": "Van der Pol LM, Van der Hulle T, Cheung YW, et al. No added value of the age-adjusted D-dimer cut-off to the YEARS algorithm in patients with suspected pulmonary embolism. J Thromb Haemost. 2017;15(12):2317-2324."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24643601",
+                  "text": "Righini M, Van es J, Den exter PL, et al. Age-adjusted D-dimer cutoff levels to rule out pulmonary embolism: the ADJUST-PE study. JAMA. 2014;311(11):1117-24."
+                },
+                {
+                  "href": "https://www.nejm.org/doi/full/10.1056/NEJMoa1813865",
+                  "text": "Van der pol LM, Tromeur C, Bistervels IM, et al. Pregnancy-Adapted YEARS Algorithm for Diagnosis of Suspected Pulmonary Embolism. N Engl J Med. 2019;380(12):1139-1149."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/29603819",
+                  "text": "Kabrhel C, Van hylckama vlieg A, Muzikanski A, et al. Multicenter Evaluation of the YEARS Criteria in Emergency Department Patients Evaluated for Pulmonary Embolism. Acad Emerg Med. 2018;25(9):987-994."
+                },
+                {
+                  "href": "https://jamanetwork.com/journals/jama/fullarticle/2786829?guestAccessKey=526b2220-c362-4e03-abb8-d2ddf1df3fcf&utm_source=silverchair&utm_medium=email&utm_campaign=article_alert-jama&utm_content=etoc&utm_term=120721",
+                  "text": "Freund Y, Chauvin A, Jimenez S, et al. Effect of a diagnostic strategy using an elevated and age-adjusted d-dimer threshold on thromboembolic events in emergency department patients with suspected pulmonary embolism: a randomized clinical trial. JAMA. 2021;326(21):2141-2149."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Matthew Negaard, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Tom van der Hulle",
+              "qa_en": ""
+            },
+            {
+              "approved": false,
+              "name": "Dr. Menno Huisman",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>Consists of the three most predictive criteria of the <calculator id=\"115\">Wells' Score for PE</calculator>: clinical signs of deep vein thrombosis (DVT), hemoptysis, and whether PE is the most likely diagnosis.</li>\n<li>Also incorporates variable D-dimer thresholds, depending on the number of criteria fulfilled.</li>\n<li>In patients with no YEARS items and D-dimer &lt;1,000 ng/mL, or with one or more YEARS items and D-dimer &lt;500 ng/mL,&nbsp;PE was considered excluded. All other patients had CT pulmonary angiogram (CTPA).</li>\n</ul>",
+            "use_case_en": "<ul>\n<li>Hemodynamically stable patients &ge;18 years old with clinically suspected acute pulmonary embolism (PE).</li>\n<li>Note: this study included patients with suspected acute PE in both inpatient and outpatient settings.</li>\n<li>Note that the original study did not include patients who:\n<ul>\n<li>Were treated with therapeutic doses of anticoagulants initiated&nbsp;24 hours or more before eligibility assessment.</li>\n<li>Have a life expectancy less than 3 months or geographic inaccessibility precluding follow up.</li>\n<li>Have an allergy to intravenous contrast agent.</li>\n</ul>\n</li>\n</ul>",
+            "why_use_en": "<ul>\n<li>Reduces use of CTPA by 14% compared with the current standard algorithm (absolute reduction) and by 8.7% compared with the age-adjusted D-dimer threshold, such that patients younger than 50 years also benefit from the YEARS algorithm.</li>\n<li>Provides for simple and efficient diagnostic management of patients with suspected PE, and is more compatible with the demands of clinical practice.</li>\n<li>Reduces false positives, overdiagnosis, and overutilization of CTPA investigations in all age groups, in addition to reducing unnecessary exposure to ionizing radiation.</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>PE was excluded (and CTPA deemed unnecessary) in patients who who fell below the D-dimer thresholds set by the YEARS algorithm.</li>\n<li>3-month incidence of venous thromboembolism (VTE) of patients who did not undergo CTPA was 0.43%. This is similar to the traditional two-tier <calculator id=\"115\">Wells' Score</calculator> (0.34%).</li>\n</ul>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Pulmonary Embolism"
+        ],
+        "dosing": false,
+        "equation_logic": "e350030bbb5be4b3c7ea50ac1f31c883",
+        "equation_logic_text": "var calc_output = [];\n\nvar dvt = parseFloat(dvt);\nvar hemoptysis = parseFloat(hemoptysis);\nvar likely = parseFloat(likely);\nvar dimer500 = parseFloat(dimer500);\nvar dimer1000 = parseFloat(dimer1000);\nvar pregnant = parseFloat(pregnant);\nvar comp = parseFloat(comp);\nvar pregnant = parseFloat(pregnant);\n\nvar msg, result;\n\nif (dvt + hemoptysis + likely == 0) {\n\tif (dimer1000 == 0) {\n\t\tresult = 'PE excluded'\n\t\tmsg = 'YEARS algorithm rules out PE (0.43% with symptomatic VTE during 3-month follow-up)'\n    } else {\n\t\tresult = 'PE not excluded'\n\t\tmsg = 'YEARS algorithm recommends CTPA'\n\t}\n}\nelse {\n  if (dvt == 1 && pregnant == 1 && comp == 0) {\n    result = 'Initiate anticoagulant'\n    msg = 'Pregnancy-adapted YEARS algorithm recommends initiation of anticoagulant treatment'\n  } else if (dimer500 == 0) {\n\t\tresult = 'PE excluded'\n\t\tmsg = 'YEARS algorithm rules out PE (0.43% with symptomatic VTE during 3-month follow-up)'\n  } else {\n\t\tresult = 'PE not excluded'\n\t\tmsg = 'YEARS algorithm recommends CTPA'\n\t}\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: result,\n    value_text: '',\n    message: ''\n});\ncalc_output.push({\n    name: 'YEARS',\n    value: result,\n    value_text: '',\n    message: msg\n});",
+        "favorite_id": 4067,
+        "full_title_en": "YEARS Algorithm for Pulmonary Embolism (PE)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Pregnant patient</p>",
+            "name": "pregnant",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "subheading": "<p>YEARS items</p>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Clinical signs of DVT</p>",
+            "name": "dvt",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "pregnant == 1 && dvt == 1",
+            "default": null,
+            "label_en": "<p>Compression ultrasonography of symptomatic leg</p>",
+            "name": "comp",
+            "optional": false,
+            "options": [
+              {
+                "label": "Abnormal",
+                "value": 0
+              },
+              {
+                "label": "Normal",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Hemoptysis</p>",
+            "name": "hemoptysis",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>PE most likely diagnosis</p>",
+            "name": "likely",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "subheading": "<p>D-dimer</p>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "dvt + hemoptysis + likely > 0",
+            "default": null,
+            "label_en": "<p>D-dimer &ge;500 ng/mL</p>",
+            "name": "dimer500",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "<p>D-dimer</p>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "dvt == 0 && hemoptysis == 0 && likely == 0",
+            "default": null,
+            "label_en": "<p>D-dimer &ge;1,000 ng/mL</p>",
+            "name": "dimer1000",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use in hemodynamically stable patients &ge;18 years old.</p>\n<p>Take note of the following exclusion criteria:</p>\n<ul>\n<li>Treatment with therapeutic doses of anticoagulants initiated 24 hours or more before eligibility assessment.</li>\n<li>Life expectancy less than 3 months.</li>\n<li>Geographic inaccessibility precluding follow-up.</li>\n<li>Pregnancy (be sure to use pregnancy-adapted YEARS algorithm in the calc).</li>\n<li>Allergy to intravenous contrast agent.</li>\n</ul>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edits",
+            "time": "2022-03-17T14:36:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "edits",
+            "time": "2022-02-25T14:26:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "added when to use",
+            "time": "2022-02-25T14:25:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "added exclusions",
+            "time": "2022-02-25T12:35:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "added validation",
+            "time": "2022-02-25T11:54:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "edited content",
+            "time": "2020-11-11T11:34:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "moved study from validation to other",
+            "time": "2020-11-03T11:26:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "removed creator",
+            "time": "2020-09-28T07:28:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "deleted creator",
+            "time": "2020-09-23T13:25:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "switched creator order",
+            "time": "2020-09-22T11:28:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added creator",
+            "time": "2020-09-22T11:22:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "removed triple equal signs",
+            "time": "2019-05-30T11:55:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "adjust conditionality for 10th input",
+            "time": "2019-04-25T12:45:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edited conditionaly",
+            "time": "2019-04-25T12:12:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited conditionality",
+            "time": "2019-04-25T12:11:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited conditionality",
+            "time": "2019-04-25T12:09:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited results",
+            "time": "2019-04-25T12:06:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited diagram",
+            "time": "2019-04-25T11:55:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited conditionality",
+            "time": "2019-04-25T11:38:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited diagram",
+            "time": "2019-04-25T11:34:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited calc",
+            "time": "2019-04-25T09:45:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited ref",
+            "time": "2019-04-24T14:33:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "updated formula",
+            "time": "2019-04-24T14:29:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-04-24T14:26:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited diagram",
+            "time": "2019-04-24T14:21:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited diagram",
+            "time": "2019-04-24T14:18:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited diagram based on CA feedback",
+            "time": "2019-04-24T14:14:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited diagram",
+            "time": "2019-04-24T12:24:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited diagram",
+            "time": "2019-04-24T12:17:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added diagram",
+            "time": "2019-04-24T12:14:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added pregnancy-adapted years to calc",
+            "time": "2019-04-24T10:40:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited layout",
+            "time": "2019-04-23T13:56:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "updated logic",
+            "time": "2019-04-23T13:50:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "updated calc/logi",
+            "time": "2019-04-23T13:47:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added reviewer",
+            "time": "2019-01-14T15:00:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "removed notes about not being externally validated",
+            "time": "2018-10-29T10:24:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added validation",
+            "time": "2018-10-24T09:33:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round testing",
+            "time": "2018-05-22T14:54:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "2nd round testing",
+            "time": "2018-05-17T17:57:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "2nd round testing",
+            "time": "2018-05-17T17:52:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "edited equation logic wording",
+            "time": "2018-04-19T17:31:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "multiple edits from 1st round testing",
+            "time": "2018-04-19T17:28:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "multiple edits from 1st round testing",
+            "time": "2018-04-19T17:18:00.000Z",
+            "user": "rachel"
+          }
+        ],
+        "md5": "a5c7d27a3e53b17a060f9bfeee263505",
+        "medium_description_en": "<p>Helps rule out pulmonary embolism; also validated in pregnant patients with clinically suspected PE.</p>",
+        "purpose_en": [
+          "Algorithm",
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "acute PE",
+          "ctpa",
+          "years score",
+          "years algorithm",
+          "years"
+        ],
+        "search_id": "c-4067",
+        "seo": {
+          "keywords_en": "acute pulmonary embolism, Pulmonary embolism, PE, computed tomography pulmonary angiography, CTPA, deep venous thrombosis, symptomatic venous thromboembolism, VTE, DVT, hemoptysis, hemoptysis, YEARS algorithm, d-dimer cutoff, Wells’ criteria, contrast-induced nephropathy, vascular medicine, ",
+          "meta_description_en": "The YEARS Algorithm for PE helps rule out pulmonary embolism (not externally validated)."
+        },
+        "short_description_en": "<p>PE rule-out.</p>",
+        "short_title_en": "YEARS Algorithm",
+        "slug": "years-algorithm-for-pulmonary-embolism-pe",
+        "specialty_en": [
+          "Cardiology",
+          "Critical Care",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Pulmonology"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Respiratory",
+          "Vascular"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Matthew Negaard, MD, is a current third-year emergency medicine resident at the University of Iowa. He grew up in Sioux City, Iowa and attended Northwestern College in Orange City, Iowa for his undergraduate education. Dr. Negaard received his medical degree from the University of Iowa Carver College of Medicine where he began to develop an interest in emergency medicine and sports medicine. He has continued to develop and expand his interest in those fields as well as medical education through clinical research and evidence-based practice activities. He plans to pursue a sports medicine fellowship upon completion of his residency.</p>",
+          "firstName": "Matthew",
+          "hasDisclosure": [],
+          "img": "matthew-negaard.jpg",
+          "lastName": "Negaard",
+          "name": "Matthew Negaard, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "matthew-negaard",
+          "updatedAt": "2023-04-06T20:23:57.716Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Tom van der Hulle, MD, is an internist in the department of thrombosis and hemostasis at Leiden University Medical Centre in Leiden, Netherlands. His primary research interests involve hematology, oncology, and pulmonology.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Tom van der Hulle",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-tom-van-der-hulle.png",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=van+der+Hulle+T%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "about_en": "<p>Menno Huisman, MD, PhD, FESC, is a professor of medicine in the department of medicine - thrombosis and hemostasis at Leiden University Medical Center in The Netherlands. He is an internist with specialty in cardiovascular medicine. Dr. Huisman’s primary research is focused on the clinical diagnosis and treatment of venous and arterial thromboembolic disorders.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Menno Huisman",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/Dr-Menno-Huisman.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://pubmed.ncbi.nlm.nih.gov/?term=Huisman+MV+%5Bauthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4067/years-algorithm-for-pulmonary-embolism-pe",
+        "description": "The YEARS Algorithm for PE helps rule out pulmonary embolism (not externally validated).",
+        "keywords": "acute pulmonary embolism, Pulmonary embolism, PE, computed tomography pulmonary angiography, CTPA, deep venous thrombosis, symptomatic venous thromboembolism, VTE, DVT, hemoptysis, hemoptysis, YEARS algorithm, d-dimer cutoff, Wells’ criteria, contrast-induced nephropathy, vascular medicine, ",
+        "title": "YEARS Algorithm for Pulmonary Embolism (PE)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 115,
+          "short_title_en": "Wells' Score for PE",
+          "slug": "wells-criteria-pulmonary-embolism"
+        },
+        {
+          "calcId": 1750,
+          "short_title_en": "Geneva Score (Revised)",
+          "slug": "geneva-score-revised-pulmonary-embolism"
+        },
+        {
+          "calcId": 10138,
+          "short_title_en": "Age-Adjusted D-dimer",
+          "slug": "age-adjusted-d-dimer-venous-thromboembolism-vte"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4067",
+      "years-algorithm-for-pulmonary-embolism-pe"
+    ]
+  },
+  "scriptLoader": []
+}

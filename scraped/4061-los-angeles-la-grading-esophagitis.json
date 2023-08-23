@@ -1,0 +1,543 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain",
+          "Vomiting"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>Selection of the appropriate criteria:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>Features</strong></p>\n</td>\n<td>\n<p><strong>Grade</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Mucosal break(s) &le;5 mm, without continuity across mucosal folds</p>\n</td>\n<td>\n<p>A</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Mucosal break(s) &gt;5 mm, without continuity across mucosal folds</p>\n</td>\n<td>\n<p>B</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Mucosal break(s) continuous between &ge;2 mucosal folds, involving &lt;75% of the esophageal circumference</p>\n</td>\n<td>\n<p>C</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Mucosal break(s) involving &ge;75% of the esophageal circumference</p>\n</td>\n<td>\n<p>D</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p><img style=\"max-width: 100%;\" src=\"https://cdn-web-img.mdcalc.com/content/la-grading.png\" alt=\"\"></p>\n<p>From <a href=\"https://www.giejournal.org/article/S0016-5107(04)01555-X/abstract\" target=\"_blank\" rel=\"noopener\">Nayar 2004</a>.</p>",
+            "more_info_en": "<p>Interpretation:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>Grade</strong></p>\n</td>\n<td>\n<p><strong>Severity</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>A-B</p>\n</td>\n<td>\n<p>Mild reflux esophagitis</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>C-D</p>\n</td>\n<td>\n<p>Severe reflux esophagitis</p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23419381 ",
+                  "text": "Katz PO, Gerson LB, Vela MF. Guidelines for the diagnosis and management of gastroesophageal reflux disease. Am J Gastroenterol. 2013;108(3):308-28."
+                }
+              ],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/8698230 ",
+                  "text": "Armstrong D, Bennett JR, Blum AL, et al. The endoscopic assessment of esophagitis: a progress report on observer agreement. Gastroenterology. 1996;111(1):85-92."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.giejournal.org/article/S0016-5107(04)01555-X/abstract",
+                  "text": "Nayar DS, Vaezi MF. Classifications of esophagitis: who needs them?. Gastrointest Endosc. 2004;60(2):253-7."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1727604/pdf/v045p00172.pdf",
+                  "text": "Lundell LR, Dent J, Bennett JR, et al. Endoscopic assessment of oesophagitis: clinical and functional correlates and further validation of the Los Angeles classification. Gut. 1999;45(2):172-80."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. David Armstrong",
+              "qa_en": ""
+            },
+            {
+              "approved": false,
+              "name": "Dr. Lars R. Lundell",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>Developed by consensus of a working group at the 10th World Congress of Gastroenterology in 1994.</p>",
+            "use_case_en": "<p>Patients with findings of erosive esophagitis on endoscopy.</p>",
+            "why_use_en": "<ul>\n<li>Provides a standard nomenclature for describing esophagitis with low interrater variability (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/8698230\" target=\"_blank\" rel=\"noopener\">Armstrong 1996</a>).</li>\n<li>Recommended by the <a href=\"https://www.mdcalc.com/guidelines/acg/diagnosis-management-gastroesophageal-reflux-disease\" target=\"_blank\" rel=\"noopener\">American College of Gastroenterology (ACG)</a>&nbsp;for grading erosive esophagitis (strong recommendation, moderate level of evidence).</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p>The <a href=\"https://www.mdcalc.com/guidelines/acg/diagnosis-management-gastroesophageal-reflux-disease\" target=\"_blank\" rel=\"noopener\">ACG</a> recommends that patients with LA Grade A esophagitis undergo further testing to confirm GERD diagnosis (conditional recommendation, low level of evidence).</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [
+              {
+                "CalculatorId": 4061,
+                "createdAt": "2019-07-02T20:19:35.766Z",
+                "description": "Official guideline from ACG",
+                "id": 45,
+                "link": "https://www.mdcalc.com/guidelines/acg/diagnosis-management-gastroesophageal-reflux-disease",
+                "order": 0,
+                "society": "American College of Gastroenterology",
+                "text": "Diagnosis and Management of Gastroesophageal Reflux Disease",
+                "updatedAt": "2019-12-05T21:07:17.786Z"
+              }
+            ],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Gastroesophageal Reflux Disease",
+          "GERD"
+        ],
+        "dosing": false,
+        "equation_logic": "80d523b7c9fc6e9831cc822f867ef15d",
+        "equation_logic_text": "var calc_output = [];\n\n// Declare vars\n\nvar grade;\nvar findings;\nvar description; \nfindings = parseFloat(findings);\n\nif (findings == 0) {\n    grade = 'Grade A',\n    description = 'Mild'\n}\nif (findings == 1) {\n   grade = 'Grade B',\n   description = 'Mild'\n}\nif (findings == 2){\n   grade = 'Grade C',\n   description = 'Severe'\n}\nif (findings == 3) {\n   grade = 'Grade D',\n   description = 'Severe'\n}\n\ncalc_output.push({\n   name: 'mini',\n   value: grade,\n   value_text: '',\n   message: description\n});\ncalc_output.push({\n   name: 'result',\n   value: grade,\n   value_text: '',\n   message: 'LA Grading of Esophagitis'\n});\ncalc_output.push({\n   name: 'result',\n   value: description,\n   value_text: 'reflux esophagitis',\n   message: ''\n});",
+        "favorite_id": 4061,
+        "full_title_en": "Los Angeles (LA) Grading of Esophagitis",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Endoscopic findings",
+            "mdcalc_info_concept": null,
+            "name": "findings",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Mucosal break(s) ≤5 mm, without continuity across mucosal folds",
+                "value": 0
+              },
+              {
+                "label": "Mucosal break(s) >5 mm, without continuity across mucosal folds",
+                "value": 1
+              },
+              {
+                "label": "Mucosal break(s) continuous between ≥2 mucosal folds, involving <75% of the esophageal circumference",
+                "value": 2
+              },
+              {
+                "label": "Mucosal break(s) involving ≥75% of the esophageal circumference",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "creator reviewed",
+            "time": "2019-12-05T16:07:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added guideline in sidebar",
+            "time": "2019-04-17T12:49:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added guideline link",
+            "time": "2019-04-17T12:43:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "e316b5fd5e061dc168f69b3ab488e694",
+        "medium_description_en": "<p>Stratifies severity of esophagitis based on endoscopic findings, recommended by <a href=\"https://www.mdcalc.com/guidelines/acg/diagnosis-management-gastroesophageal-reflux-disease\" target=\"_blank\" rel=\"noopener\">ACG guidelines</a>.</p>",
+        "publishedAt": "2022-04-21T20:29:41.731Z",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "gastroesophageal reflux disease",
+          "acid reflux",
+          "GERD",
+          "Los Angeles Classification of esophagitis",
+          "upper gastrointestinal endoscopy",
+          "GI endoscopy",
+          "esophagitis grading",
+          "esophageal mucosa grading",
+          "LA classification",
+          "standard endoscopy",
+          "reflux esophagitis",
+          "RO",
+          "high-grade esophagitis",
+          "low-grade esophagitis",
+          "erosive reflux disease",
+          "reflux oesophagitis",
+          "oesophagitis severity",
+          "la grading"
+        ],
+        "search_id": "c-4061",
+        "seo": {
+          "keywords_en": "gastroesophageal reflux disease, Acid reflux, GERD, Los Angeles classification of GERD, Upper gastrointestinal Endoscopy, GI endoscopy, Esophagitis grading, esophageal mucosa grading, LA classification, standard endoscopy, reflux esophagitis, RO, high-grade esophagitis, low-grade esophagitis, erosive reflux disease, reflux oesophagitis, oesophagitis severity",
+          "meta_description_en": "The LA Grading of Esophagitis stratifies severity of esophagitis based on endoscopic findings."
+        },
+        "short_description_en": "<p>Esophagitis severity.</p>",
+        "short_title_en": "LA Grading of Esophagitis",
+        "slug": "los-angeles-la-grading-esophagitis",
+        "specialty_en": [
+          "Gastroenterology"
+        ],
+        "system_en": [
+          "Gastrointestinal"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "359ab7e8-57e8-45e9-98d1-9380217da47c"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>David Armstrong, MA, MB BChir, FRCP, FRCPC, FACG, AGAF, is a professor of medicine at McMaster University. His research interests include gastroesophageal reflux disease (GERD), dyspepsia, gastrointestinal (GI) motility, inflammatory bowel disease (IBD), nutrition, short bowel syndrome, colon cancer screening, and quality in endoscopy with 200 peer-reviewed publications, 100 invited reviews and letters, and 300 peer-reviewed abstracts. He has been a principal investigator for numerous clinical trials and taken part in many guideline consensus processes related to GERD, Helicobacter pylori, dysphagia, upper GI bleeding, gastroparesis, wireless capsule endoscopy and endoscopy quality. He is a past president of the Canadian Association of Gastroenterology (CAG), chair of the Canadian National Colon Cancer Screening Network (NCCSN), treasurer of the International Working Group for the Classification of Oesophagitis (IWGCO), chair of the guidelines committee for the World Gastroenterology Organization (WGO) and a board member of the Canadian Digestive Health Foundation (CDHF).</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. David Armstrong",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-david-armstrong.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Armstrong+D%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "about_en": "<p>Lars R. Lundell, MD, PhD, is a practicing surgeon and professor of surgery at Karolinska University Hospital in Stockholm, Sweden. He previously served as board member and president of the European Association for Gastroenterology and on the leadership of other societies including Endoscopy and Nutrition (EAGEN), European Society for Esophagology (ESE), the United European Gastroenterology (UEG) Education Committee, the International Working Group for Classification of Oesophagitis (IWGCO), and the International Society for Diseases of the Esophagus (ISDE). Dr. Lundell's primary research interest is GERD, and he has also studied cancer of the stomach and esophagus.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Lars R. Lundell",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-lars-r-lundell.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Lundell+L%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4061/los-angeles-la-grading-esophagitis",
+        "description": "The LA Grading of Esophagitis stratifies severity of esophagitis based on endoscopic findings.",
+        "keywords": "gastroesophageal reflux disease, Acid reflux, GERD, Los Angeles classification of GERD, Upper gastrointestinal Endoscopy, GI endoscopy, Esophagitis grading, esophageal mucosa grading, LA classification, standard endoscopy, reflux esophagitis, RO, high-grade esophagitis, low-grade esophagitis, erosive reflux disease, reflux oesophagitis, oesophagitis severity",
+        "title": "Los Angeles (LA) Grading of Esophagitis"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": "3923",
+          "short_title_en": "Forrest Classification",
+          "slug": "forrest-classification-upper-gi-bleeding"
+        },
+        {
+          "calcId": "518",
+          "short_title_en": "Glasgow-Blatchford Bleeding Score",
+          "slug": "glasgow-blatchford-bleeding-score-gbs"
+        },
+        {
+          "calcId": "78",
+          "short_title_en": "MELD Na (UNOS/OPTN)",
+          "slug": "meld-score-model-end-stage-liver-disease-12-older"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4061",
+      "los-angeles-la-grading-esophagitis"
+    ]
+  },
+  "scriptLoader": []
+}

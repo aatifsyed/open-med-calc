@@ -1,0 +1,570 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "AMS",
+          "Dizziness",
+          "Seizure",
+          "Vomiting"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+80",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+80",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "3959.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p><span>The original derivation study (</span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/14691787\" target=\"_blank\"><span>Llanes 2004</span></a><span>):</span></p> <ul> <li><span>The LAMS was first derived by Llanes et al as a simplification </span><span>of the Los Angeles Prehospital Stroke Screen (LAPSS) focused only on the motor elements of the original LAPSS. It was intended to serve as a rapid prehospital scoring tool in the evaluation of suspected stroke patients.</span></li> <li><span>Llanes et al compared the predictive performance of the LAMS to the full <calculator id='715'>NIHSS</calculator> (gold standard) as well as the abbreviated shortened NIHSS (sNIHSS) in a retrospective cohort of 90 patients enrolled consecutively in the UCLA Stroke Clinical Trial Network from 1994 to 2001.</span></li> <li><span>Entry LAMS correlated closely with the entry full NIHSS score (</span><em><span>r</span></em><span> = 0.75, </span><em><span>p</span></em><span>&lt;0.0001). </span></li> <li><span>Entry LAMS was comparable to the entry full-scale NIHSS and comparable or superior to the entry sNIHSS for predicting three-month functional outcome measures. </span></li> <li><span>Patients with excellent outcomes at three months had mean LAMS entry severity scores significantly lower than those with poor to good outcomes (2.0 </span><span>±</span><span> 1.6 vs. 3.5 </span><span>±</span><span> 1.5, respectively, </span><em><span>p</span></em><span>&lt;0.0001).</span></li> </ul> <p><span>LAMS prediction of large vessel occlusion (LVO) study (</span><a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2743906/\" target=\"_blank\"><span>Nazliel 2008</span></a><span>):</span></p> <ul> <li><span>Nazliel et al evaluated both the LAMS and NIHSS for prediction of LVO in a retrospective cohort of 119 patients drawn from the UCLA Stroke Center database from 1996 to 2006 and the UCLA Get with the Guidelines Stroke Registry for the 2005 calendar year. </span></li> <li><span>Inclusion criteria were (1) last known well time within 12 hours of initial ED examination and (2) final diagnosis of acute ischemic stroke in the anterior circulation.</span></li> <li><span>LAMS </span><span>≥</span><span>4 showed sensitivity 0.81, specificity 0.89, and overall accuracy 0.85 for predicting LVO. </span></li> <li><span>LAMS </span><span>≥</span><span>4 had a positive likelihood ratio of 7.36 and a negative likelihood ratio of 0.21 for predicting LVO. </span></li> <li><span>LAMS performance for predicting LVO was comparable to NIHSS performance (c-statistic 0.933).</span></li> </ul> <p><span>LAMS prospective field validation study (</span><a href=\"http://stroke.ahajournals.org/content/48/2/298.long\" target=\"_blank\"><span>Kim 2017</span></a><span>): </span></p> <ul> <li><span>Kim et al completed the first prospective field validation study of LAMS as performed by paramedics. </span></li> <li><span>Data was prospectively gathered in the FAST-MAG trial (Field Administration of Stroke Therapy – Magnesium Phase 3) and included 1632 patients.</span></li> <li><span>Prehospital LAMS performed by paramedics was compared to early post-arrival (EPA) LAMS and EPA NIHSS. </span></li> <li><span>Prehospital LAMS correlated moderately with EPA NIHSS (</span><em><span>r</span></em><span>=0.49) while EPA LAMS correlated strongly with EPA NIHSS (</span><em><span>r</span></em><span>=0.89). </span></li> <li><span>Predictive accuracy for non-disabled 3 month outcomes by adjusted c statistics were as follows: prehospital LAMS, 0.76 (95% CI 0.74-0.78); EPA LAMS, 0.85 (95% CI 0.83-0.87); EPA NIHSS, 0.87 (95% CI 0.85-0.88).</span></li> </ul>",
+            "formula_en": "<p>Addition of the selected points:</p> <div class=\"table-responsive\"> <table class=\"table table-bordered\"> <tbody> <tr> <td>&nbsp;</td> <td> <p><strong>0 points</strong></p> </td> <td> <p><strong>1 point</strong></p> </td> <td> <p><strong>2 points</strong></p> </td> </tr> <tr> <td> <p><strong>Facial droop</strong></p> </td> <td> <p>Absent</p> </td> <td> <p>Present</p> </td> <td> <p>--</p> </td> </tr> <tr> <td> <p><strong>Arm drift</strong></p> </td> <td> <p>Absent</p> </td> <td> <p>Drifts down</p> </td> <td> <p>Falls rapidly</p> </td> </tr> <tr> <td> <p><strong>Grip strength</strong></p> </td> <td> <p>Normal</p> </td> <td> <p>Weak grip</p> </td> <td> <p>No grip</p> </td> </tr> </tbody> </table> </div>",
+            "more_info_en": "<p>Interpretation:</p> <div class=\"table-responsive\"> <table class=\"table table-bordered\"> <tbody> <tr> <td> <p><strong>LAMS</strong></p> </td> <td> <p><strong>Interpretation</strong></p> </td> </tr> <tr> <td> <p><span>&lt;4</span></p> </td> <td> <p><span>LVO less likely. Stroke is minor or moderate in severity, but may still benefit from acute treatment.</span></p> </td> </tr> <tr> <td> <p><span>≥4</span></p> </td> <td> <p><span>LVO likely. Stroke is severe and requires acute treatment. Transfer to stroke center with endovascular capabilities.</span></p> </td> </tr> </tbody> </table> </div> <p><span><br>In the </span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/14691787\" target=\"_blank\"><span>derivation study</span></a><span>, lower mean LAMS correlated with lower <calculator id=\"1890\">Modified Rankin Scale score</calculator> (i.e., better functional outcome) at 3 months (mean entry LAMS 2.2 versus 3.7 for mRS ≤1 or &gt;1, respectively).</span></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26120643",
+                  "text": "Harris D, Hall C, Lobay K, et al. Canadian Association of Emergency Physicians position statement on acute ischemic stroke. CJEM. 2015;17(2):217-26"
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/14691787",
+                  "text": "Llanes JN, Kidwell CS, Starkman S, Leary MC, Eckstein M, Saver JL. The Los Angeles Motor Scale (LAMS): a new measure to characterize stroke severity in the field. Prehosp Emerg Care. 2004;8(1):46-50."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "http://stroke.ahajournals.org/content/48/2/298.long",
+                  "text": "Kim JT, Chung PW, Starkman S, et al. Field Validation of the Los Angeles Motor Scale as a Tool for Paramedic Assessment of Stroke Severity. Stroke. 2017;48(2):298-306."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2743906/ ",
+                  "text": "Nazliel B, Starkman S, Liebeskind DS, et al. A brief prehospital stroke severity scale identifies ischemic stroke patients harboring persisting large arterial occlusions. Stroke. 2008;39(8):2264-7."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Katie Lin, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Jeffrey Saver",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li><span>The LAMS is a validated 3-item prehospital scoring tool derived from the motor exam components of the Los Angeles Prehospital Stroke Screen (LAPSS). It was designed to rapidly quantify stroke severity in the prehospital setting.</span></li> <li><span>LAMS </span><span>≥</span><span>4 has a sensitivity of 81% and specificity of 89% for predicting large vessel occlusion (LVO).</span></li> </ul> <ul> <li><span>Although other scores such as the <calculator id='715'>NIH Stroke Scale (NIHSS)</calculator>, Cincinnati Prehospital Stroke Scale (CPSS), <calculator id='3941'>Rapid Arterial oCclusion Evaluation (RACE) Scale</calculator>, and the full Los Angeles Prehospital Stroke Screen (LAPSS) are more comprehensive, the LAMS is a much simpler assessment tool that takes only 20-30 seconds to complete, making it well-suited for prehospital or triage settings. </span></li> <li><span>Correlates strongly with the full NIHSS (gold standard) and predicts long-term functional outcomes following stroke events.</span></li> </ul>",
+            "use_case_en": "<p><span>Use in a prehospital (i.e., by EMS providers) or triage setting for patients with stroke symptoms.</span></p>",
+            "why_use_en": "<ul> <li><span>Rapid access to time-sensitive interventions such as thrombolysis and endovascular therapy (EVT) for eligible patients is directly linked with improved long-term neurological outcomes for stroke patients.</span></li> <li><span>Early recognition of severe strokes (LAMS </span><span>≥</span><span>4) by prehospital providers in the field shortens time to definitive diagnosis and treatment. </span></li> <li><span>Simple, reproducible, and rapid way to identify severe strokes in the prehospital setting. </span></li> </ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li><span>For patients with suspected stroke and LAMS </span><span>≥</span><span>4 (severe), potential LVO should be considered as the cause. Transportation to a Comprehensive Stroke Center, if available, should be coordinated as rapidly as possible to facilitate potential invasive treatments such as endovascular therapy (EVT).</span></li> <li><span>For patients with LAMS &lt;4, acute stroke should still be considered. However, these patients are less likely to be LVO candidates for invasive treatment.</span></li> </ul>",
+            "critical_actions_en": "<ul> <li><span>The LAMS is </span><em><span>not</span></em><span> a substitute for a full neurologic exam or NIHSS assessment by a stroke specialist. It is a screening tool to assist with transport and triage decisions in the prehospital environment.</span></li> <li><span>Regardless of the ultimate underlying diagnosis, neuroprotective supportive care should be employed to prevent progression of neurologic injury, including treatment of hypoglycemia, hypoxia, hypothermia, and/or hypotension.</span></li> <li><span>Blood pressure management is challenging in the prehospital phase without diagnostic imaging to confirm acute ischemic stroke vs. intracerebral hemorrhage (ICH) vs. other causes. Low blood pressure should be corrected empirically. High blood pressure should be managed per local protocol or in consultation with a neurologist.</span></li> <li><span>Whenever possible, patients with acute stroke should be transferred to a stroke center as soon as possible for full evaluation and treatment, as Comprehensive Stroke Centers have been shown to significantly improve clinical outcomes following stroke.</span></li> </ul>",
+            "management_en": "<p><span>Baseline assessment and management should include:</span></p> <ul> <li><span>Vital signs (including point-of-care glucose).</span></li> <li><span>Determination of stroke symptom onset time (or time when the patient was last seen normal).</span></li> <li><span>Activation of stroke transportation protocol and/or stroke assessment team for rendezvous at Comprehensive Stroke Center (if available).</span></li> <li><span>Screen for <calculator id='1934'>contraindications to thrombolysis</calculator>.</span></li> <li><span>Under appropriate circumstances and in consultation with both neurology and the patient, consider initiation of intravenous thrombolysis.</span></li> <li><span>Prioritize obtaining a stat non-contrast CT head to evaluate for hemorrhagic stroke when able. If negative for intracerebral hemorrhage (ICH), obtain a subsequent CT angiography (CTA) head and neck to evaluate for ischemic vascular occlusion.</span></li> <li><span>Consider other potential causes of neurologic deficits based on history, physical exam, and risk factors, including:</span></li> <ul> <li><span>Trauma.</span></li> <li><span>Seizure.</span></li> <li><span>ICH.</span></li> <li><span>Hypoglycemia.</span></li> <li><span>Hypoxia.</span></li> <li><span>Hypothermia.</span></li> <li><span>Hypotension.</span></li> <li><span>Exacerbation of prior deficits.</span></li> <li><span>Complex migraine conditions.</span></li> </ul> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Stroke/TIA"
+        ],
+        "dosing": false,
+        "equation_logic": "0d6c32059376d8a741fc50061a80f3ab",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nvar facial = parseFloat(facial);\nvar arm = parseFloat(arm);\nvar grip = parseFloat(grip);\n\n//add up points\nvar u = facial + arm + grip;\n\nvar msg, minimsg;\nif (u < 4) {\n\tmsg = 'LVO less likely. Stroke is MINOR or MODERATE in severity, but may still benefit from acute treatment.';\n    minimsg = 'Minor';\n}\nif (u >=4) {\n    msg = 'LVO likely. Stroke is SEVERE and requires acute treatment. Transfer to stroke center with endovascular capabilities.';\n    minimsg = 'Severe, LVO likely';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: u,\n    value_text: 'points',\n    message: minimsg \n});\ncalc_output.push({\n    name: 'Score',\n    value: u,\n    value_text: 'points',\n    message: msg\n});\n",
+        "favorite_id": 3959,
+        "full_title_en": "Los Angeles Motor Scale (LAMS)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Facial droop",
+            "name": "facial",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Present",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Arm drift",
+            "name": "arm",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Drifts down",
+                "value": 1
+              },
+              {
+                "label": "Falls rapidly",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Grip strength",
+            "name": "grip",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal",
+                "value": 0
+              },
+              {
+                "label": "Weak grip",
+                "value": 1
+              },
+              {
+                "label": "No grip",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added reviewer",
+            "time": "2019-01-14 02:37 PM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "21eee8692d36ef828a1cead148968f80",
+        "medium_description_en": "<p><span>Stratifies stroke severity in the field.</span></p>",
+        "purpose_en": [
+          "Diagnosis",
+          "Rule Out"
+        ],
+        "search_abbreviation_en": [
+          "stroke",
+          "CVA",
+          "cerebrovascular accident",
+          "TIA",
+          "transient ischemic attack",
+          "EMS",
+          "EMT",
+          "emergency medical services",
+          "emergency medical technician",
+          "EMTs",
+          "ambulance",
+          "rule out",
+          "ischemic stroke",
+          "hemorrhagic stroke",
+          "LA stoke scale",
+          "lams"
+        ],
+        "search_id": "c-3959",
+        "seo": {
+          "keywords_en": "Stroke, CVA, cerebrovascular accident, TIA, transient ischemic attack, EMS, EMT, emergency medical services, emergency medical technician, EMTs, ambulance, rule out, ischemic stroke, hemorrhagic stroke, Cincinnati, LA, LAMS",
+          "meta_description_en": "The Los Angeles Motor Scale (LAMS) stratifies stroke severity in the field."
+        },
+        "short_description_en": "Stroke severity in the field.",
+        "short_title_en": "LAMS",
+        "slug": "los-angeles-motor-scale-lams",
+        "specialty_en": [
+          "Emergency Medicine",
+          "Neurology"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Neurologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Katie",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Lin",
+          "name": "Katie Lin, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Jeffrey Saver, MD, is a professor of clinical neurology at the University of California, Los Angeles. He is also the director of the UCLA Stroke Unit and has published over 530 peer-reviewed articles. Dr. Saver’s research interests include stroke prevention, diagnosis, and treatment, as well as outcomes after stroke.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Jeffrey Saver",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-jeffrey-saver.png",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Saver+JL%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3959/los-angeles-motor-scale-lams",
+        "description": "The Los Angeles Motor Scale (LAMS) stratifies stroke severity in the field.",
+        "keywords": "Stroke, CVA, cerebrovascular accident, TIA, transient ischemic attack, EMS, EMT, emergency medical services, emergency medical technician, EMTs, ambulance, rule out, ischemic stroke, hemorrhagic stroke, Cincinnati, LA, LAMS",
+        "title": "Los Angeles Motor Scale (LAMS)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3941,
+          "short_title_en": "RACE Scale",
+          "slug": "rapid-arterial-occlusion-evaluation-race-scale-stroke"
+        },
+        {
+          "calcId": 3966,
+          "short_title_en": "mSOAR Score",
+          "slug": "modified-soar-score-stroke"
+        },
+        {
+          "calcId": 3967,
+          "short_title_en": "ASTRAL Score",
+          "slug": "astral-score-stroke"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3959",
+      "los-angeles-motor-scale-lams"
+    ]
+  },
+  "scriptLoader": []
+}

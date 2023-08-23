@@ -1,0 +1,703 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Fever"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "3913.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The derivation study for the MASCC Risk Index was performed in the late 1990s (1994-1997) and included 756 patients in the derivation cohort and 383 in the validation cohort. While many claim that the MASCC cannot be applied to patients with hematologic malignancies, over 40% of the patients included had a hematologic malignancy. Logistic regression analysis was used to determine a weighted risk score with a positive predictive value of 91%, specificity of 68%, and sensitivity of 71%.</p>\n<p>Of note, patients were only included in the study for a single episode of febrile neutropenia and were not allowed to re-enter the study for subsequent episodes; thus, it is unclear if the score should be applied to patients with multiple episodes of febrile neutropenia (though it is routinely done in clinical practice).</p>\n<p>There have been at least 8 external validation studies showing a positive predictive value (PPV) from 83-98% with sensitivity from 59-95%. Studies that included more patients with hematologic malignancies had lower PPV and sensitivity suggesting a poorer performance of the score in that population.</p>",
+            "formula_en": "<p>Addition of the selected points:</p>\n<table>\n<tbody>\n<tr>\n<td>&nbsp;</td>\n<td>\n<p><strong>0 points</strong></p>\n</td>\n<td>\n<p><strong>2 points</strong></p>\n</td>\n<td>\n<p><strong>3 points</strong></p>\n</td>\n<td>\n<p><strong>4 points</strong></p>\n</td>\n<td>\n<p><strong>5 points</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Burden of illness (symptom severity)</p>\n</td>\n<td>\n<p>Severe</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>None or mild</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hypotension</p>\n<p>(sBP &lt;90 mmHg)</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>No</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Active COPD</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Solid tumor (or hematological malignancy without prior fungal infection)</p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Dehydration requiring IV therapy</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Status at onset of fever</p>\n</td>\n<td>\n<p>Inpatient</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>Outpatient</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Age</p>\n</td>\n<td>\n<p>&ge;60 years</p>\n</td>\n<td>\n<p>&lt;60 years</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>&ldquo;Poor outcome&rdquo; was defined as any of the following:</p>\n<ul>\n<li>Hypotension: systolic blood pressure &lt;90 mmHg or need for pressor support to maintain BP.</li>\n<li>Respiratory failure: PaO<sub>2</sub> &lt;60 mmHg while breathing room air, or need for mechanical ventilation.</li>\n<li>ICU admission.</li>\n<li>Disseminated intravascular coagulation.</li>\n<li>Confusion or altered mental state.</li>\n<li>CHF seen on chest x-ray and requiring treatment.</li>\n<li>Bleeding severe enough to require transfusion.</li>\n<li>Arrhythmia or EKG changes requiring treatment.</li>\n<li>Renal failure requiring investigation and/or treatment with IV fluids, dialysis, or any other intervention.</li>\n<li>Other complications judged serious and clinically significant by the investigator.</li>\n</ul>",
+            "more_info_en": "<p>Interpretation:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>MASCC Risk Index</strong></p>\n</td>\n<td>\n<p><strong>Risk for febrile neutropenia</strong></p>\n</td>\n<td>\n<p><strong>Recommendation*</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>&ge;21</p>\n</td>\n<td>\n<p>Low risk</p>\n</td>\n<td>\n<p>Consider oral and/or outpatient empirical antibiotic therapy.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>&lt;21</p>\n</td>\n<td>\n<p>High risk</p>\n</td>\n<td>\n<p>Admit for empiric antibiotics if not already inpatient.</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>*From the <a href=\"https://pubmed.ncbi.nlm.nih.gov/21258094/\" target=\"_blank\" rel=\"noopener\"><abbr title=\"Infectious Disease Society of America\">IDSA</abbr> Clinical Practice Guideline for the Use of Antimicrobial Agents in Neutropenic Patients with Cancer, 2010</a>.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/21258094/",
+                  "text": "Freifeld AG, Bow EJ, Sepkowitz KA, et al. Clinical practice guideline for the use of antimicrobial agents in neutropenic patients with cancer: 2010 update by the infectious diseases society of america. Clin Infect Dis. 2011;52(4):e56-93."
+                }
+              ],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10944139",
+                  "text": "Klastersky J, Paesmans M, Rubenstein EB, Boyer M, Elting L, Feld R, Gallagher J, Herrstedt J, ,Rapoport B, Rolston K, Talcott J. The Multinational Association for Supportive Care in Cancer risk index: A multinational scoring system for identifying low-risk febrile neutropenic cancer patients. J Clin Oncol. 2002;Aug;18(16):3038-51."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23443617 ",
+                  "text": "Klastersky J, Paesmans M. The Multinational Association for Supportive Care in Cancer (MASCC) risk index score: 10 years of use for identifying low-risk febrile neutropenic cancer patients. Support Care Cancer. 2013;21(5):1487-95."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28041827 ",
+                  "text": "Coyne CJ, Le V, Brennan JJ, et al. Application of the MASCC and CISNE Risk-Stratification Scores to Identify Low-Risk Febrile Neutropenic Patients in the Emergency Department. Ann Emerg Med. 2017;69(6):755-764."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25559804 ",
+                  "text": "Carmona-bayonas A, Jiménez-fonseca P, Virizuela echaburu J, et al. Prediction of serious complications in patients with seemingly stable febrile neutropenia: validation of the Clinical Index of Stable Febrile Neutropenia in a prospective cohort of patients from the FINITE study. J Clin Oncol. 2015;33(5):465-71."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/15197637 ",
+                  "text": "Uys A, Rapoport BL, Anderson R. Febrile neutropenia: a prospective study to validate the Multinational Association of Supportive Care of Cancer (MASCC) risk-index score. Support Care Cancer. 2004;12(8):555-60."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16943529 ",
+                  "text": "Klastersky J, Paesmans M, Georgala A, et al. Outpatient oral antibiotics for febrile neutropenic cancer patients using a score predictive for complications. J Clin Oncol. 2006;24(25):4129-34."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16461306 ",
+                  "text": "Cherif H, Johansson E, Björkholm M, Kalin M. The feasibility of early hospital discharge with oral antimicrobial therapy in low risk patients with febrile neutropenia following chemotherapy for hematologic malignancies. Haematologica. 2006;91(2):215-22."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/17899215",
+                  "text": "Innes H, Lim SL, Hall A, Chan SY, Bhalla N, Marshall E. Management of febrile neutropenia in solid tumours and lymphomas using the Multinational Association for Supportive Care in Cancer (MASCC) risk index: feasibility and safety in routine clinical practice. Support Care Cancer. 2008;16(5):485-91."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/18437382",
+                  "text": "Baskaran ND, Gan GG, Adeeba K. Applying the Multinational Association for Supportive Care in Cancer risk scoring in predicting outcome of febrile neutropenia patients in a cohort of patients. Ann Hematol. 2008;87(7):563-9."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/20820815 ",
+                  "text": "Hui EP, Leung LK, Poon TC, et al. Prediction of outcome in cancer patients with febrile neutropenia: a prospective validation of the Multinational Association for Supportive Care in Cancer risk index in a Chinese population and comparison with the Talcott model and artificial neural network. Support Care Cancer. 2011;19(10):1625-35."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21811253 ",
+                  "text": "Carmona-bayonas A, Gómez J, González-billalabeitia E, et al. Prognostic evaluation of febrile neutropenia in apparently stable adult cancer patients. Br J Cancer. 2011;105(5):612-7."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Justin Taylor, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Jean Klastersky",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>Only applies to adult patients.</li>\n<li>Validated as a dichotomous outcome; i.e., low risk versus not low risk. Obviously, patients who are &ldquo;not low risk&rdquo; have varying degrees of risk.</li>\n</ul>",
+            "use_case_en": "<ul>\n<li>Use at fever onset to assess risk of complications in febrile neutropenia for patients undergoing chemotherapy treatment.</li>\n<li>Use <em>after</em> addressing immediate concerns to identify patients who may not need to be admitted to the hospital or could be discharged early.</li>\n</ul>",
+            "why_use_en": "<p>Febrile neutropenia is a potentially life-threatening complication of chemotherapy, but some patients are at low risk for serious complications. The MASCC Risk Index is an internationally validated scoring system that identifies these low risk patients that can potentially be treated as an outpatient with early antibiotics.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Higher scores indicate lower risk, with a maximum of 26 points. &nbsp;Using a cutoff value of &gt;21 points discriminates patients with low risk from those with high risk (&lt;21 points) for serious complications of febrile neutropenia, e.g. death, ICU admission, hypotension (see Formula for complete list).</p>",
+            "critical_actions_en": "<p>IDSA recommends admission for empiric antibiotics for high-risk patients not already admitted to the hospital.</p>",
+            "management_en": "<ul>\n<li>The MASCC has been endorsed by the Infectious Disease Society of America (IDSA) since 2002 with Level B (moderate) evidence supporting its use. However, most experts consider high risk patients to be those with anticipated prolonged neutropenia (&gt;7 days), profound neutropenia (ANC &lt;100) and/or co-morbid conditions (in addition to COPD)&mdash;Level A evidence&mdash;that are not necessarily accounted for in the MASCC. Therefore, clinical judgment by specialists (infectious disease, hematology/oncology or emergency medicine/internal medicine/critical care) with knowledge of predicted disease-specific chemotherapy effects may override the MASCC Score.</li>\n<li>High risk patients require admission for IV antibiotics.</li>\n<li>Carefully-selected low risk patients should receive oral or IV empiric antibiotics in a clinic or hospital setting and may be transitioned to outpatient regimens if they meet certain criteria (see algorithm below). &nbsp;</li>\n</ul>\n<p><img style=\"max-width: 100%;\" src=\"https://cdn-web-img.mdcalc.com/content/MASCC_diagram.png\" alt=\"\"></p>\n<p>*Adapted from the <a href=\"https://www.idsociety.org/uploadedFiles/IDSA/Guidelines-Patient_Care/PDF_Library/FN.pdf\" target=\"_blank\" rel=\"noopener\">IDSA Clinical Practice Guideline for the Use of Antimicrobial Agents in Neutropenic Patients with Cancer, 2010</a>.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 3913,
+                "createdAt": "2019-07-02T20:19:17.146Z",
+                "description": "Emergency Medicine Practice",
+                "id": 15,
+                "link": "https://www.ebmedicine.net/topics.php?paction=showTopicSeg&topic_id=568&seg_id=9428#mascc",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: MASCC Risk Index",
+                "updatedAt": "2021-05-14T21:29:23.692Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Cancer",
+          "CML",
+          "HIV/AIDS",
+          "Sepsis"
+        ],
+        "dosing": false,
+        "equation_logic": "b8882484bb0fa31100aaefe2735e0395",
+        "equation_logic_text": "var calc_output = [];\n\nvar burden = parseFloat(burden);\nvar bp = parseFloat(bp);\nvar copd = parseFloat(copd);\nvar solid = parseFloat(solid);\n// var fung = parseFloat(fung)\nvar hyd = parseFloat(hyd);\nvar outpt = parseFloat(outpt);\nvar age = parseFloat(age);\n\nvar u = burden + bp + copd + solid + hyd + outpt + age;\n\n// if (solid == 4) {\n// \tu = burden + bp + copd + solid + hyd + outpt + age\n// }\n// if (solid == 0){\n// \tu = burden + bp + copd + solid + hyd + outpt + age + parseFloat(fung)\n// }\n\nvar msg;\nvar rec;\n\nif (u >= 21) {\n\tmsg = \"Low risk for poor outcome.\"; \n\trec = \" Consider oral and/or outpatient empiric antibiotic therapy after discussion with oncology.\";\n}\nif (u < 21) {\n\tmsg = \"High risk for poor outcome.\";\n\trec = \" Admit for empiric antibiotics if not already inpatient.\";\n}\n\ncalc_output.push({ \n\tname: 'mini', \n\tvalue: u, \n\tvalue_text: 'points', \n\tmessage: msg \n});\ncalc_output.push({ \n\tname: 'MASCC', \n\tvalue: u, \n\tvalue_text: 'points', \n\tmessage: msg + rec\n});\n",
+        "favorite_id": 3913,
+        "full_title_en": "MASCC Risk Index for Febrile Neutropenia",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Burden of illness (symptom severity)</p>",
+            "mdcalc_info_concept": null,
+            "name": "burden",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "None or mild",
+                "value": 5
+              },
+              {
+                "label": "Moderate",
+                "value": 3
+              },
+              {
+                "label": "Severe",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "As determined by attending physician at presentation",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Hypotension</p>",
+            "md_calc_info_concept": null,
+            "name": "bp",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 5
+              },
+              {
+                "label": "Yes",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "<abbr title='Systolic Blood Pressure'>sBP</abbr> <90 mmHg",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Active COPD</p>",
+            "md_calc_info_concept": null,
+            "name": "copd",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 4
+              },
+              {
+                "label": "Yes",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Active chronic bronchitis, emphysema, decreased <abbr title='Forced Expiratory Volume'>FEV</abbr>, or need for oxygen therapy, corticosteroids, and/or bronchodilators",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Type of cancer</p>",
+            "mdcalc_info_concept": null,
+            "name": "solid",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Solid tumor",
+                "value": 4
+              },
+              {
+                "label": "Hematologic, no prior fungal infection",
+                "value": 4
+              },
+              {
+                "label": "Hematologic, prior fungal infection",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Dehydration requiring IV fluids</p>",
+            "md_calc_info_concept": null,
+            "name": "hyd",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 3
+              },
+              {
+                "label": "Yes",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Status at onset of fever</p>",
+            "md_calc_info_concept": null,
+            "name": "outpt",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Outpatient",
+                "value": 3
+              },
+              {
+                "label": "Inpatient",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Age (years)</p>",
+            "md_calc_info_concept": null,
+            "name": "age",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "<60",
+                "value": 2
+              },
+              {
+                "label": "≥60",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Use in neutropenic patients (see <calculator id=\"19\">ANC</calculator> calculator) with fever at least 100.4&deg;F (38&ordm;C). Do not use in patients with acute leukemia undergoing induction chemotherapy or allogeneic hematopoietic stem cell transplant conditioning, per IDSA guidelines.</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "user reported error for results and evidence",
+            "time": "2021-05-14T17:29:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "partner content added",
+            "time": "2018-07-20T12:59:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "830a17e4706fdade158bf53c533d3d20",
+        "medium_description_en": "<p>Identifies patients at low risk for poor outcome with febrile neutropenia.</p>",
+        "publishedAt": "2022-04-21T20:29:24.294Z",
+        "purpose_en": [
+          "Diagnosis",
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "FN",
+          "sepsis",
+          "neutrophil",
+          "oncology",
+          "cancer",
+          "CA",
+          "outpatient",
+          "inpatient",
+          "solid tumor",
+          "fever"
+        ],
+        "search_id": "c-3913",
+        "seo": {
+          "keywords_en": "mascc score, mascc risk, mascc risk index, mascc fn score, mascc neutropenia, mascc febrile, febrile neutropenia score, febrile neutropenia index, febrile neutrophil, FN risk, fn low risk, cancer low risk",
+          "meta_description_en": "The MASCC Risk Index for Febrile Neutropenia identifies patients at low risk for poor outcome with febrile neutropenia."
+        },
+        "short_description_en": "<p>Low risk for poor outcome febrile neutropenia.</p>",
+        "short_title_en": "MASCC Risk Index",
+        "slug": "mascc-risk-index-febrile-neutropenia",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Family Practice",
+          "Hematology and Oncology",
+          "Infectious Disease",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Immunologic",
+          "Infectious",
+          "Oncologic"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "ad7ae943-749c-4615-8603-2dc6f892f623"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Justin Taylor, MD, is an assistant professor on the Leukemia Service at Memorial Sloan Kettering Cancer Center. He is board certified in internal medicine and medical oncology. He completed his internship and residency at Brigham and Women’s Hospital in Boston. His clinical and research focuses are on the basic biology and translational significance of somatic genetic mutations in hematologic malignancies.</p>",
+          "firstName": "Justin",
+          "hasDisclosure": [],
+          "img": "justin-taylor.jpg",
+          "lastName": "Taylor",
+          "name": "Justin Taylor, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "justin-taylor",
+          "updatedAt": "2023-04-06T20:25:37.111Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Jean Klastersky, MD, is a professor of medicine at the University of Brussels. He is also currently the chief of medicine services at the Institut Jules Bordet. Dr. Klastersky's research focuses on treatment and prognosis in neutropenic fever and novel therapies in cancer patients.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Jean Klastersky",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-jean-klastersky.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Klastersky+J%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3913/mascc-risk-index-febrile-neutropenia",
+        "description": "The MASCC Risk Index for Febrile Neutropenia identifies patients at low risk for poor outcome with febrile neutropenia.",
+        "keywords": "mascc score, mascc risk, mascc risk index, mascc fn score, mascc neutropenia, mascc febrile, febrile neutropenia score, febrile neutropenia index, febrile neutrophil, FN risk, fn low risk, cancer low risk",
+        "title": "MASCC Risk Index for Febrile Neutropenia"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 19,
+          "short_title_en": "Absolute Neutrophil Count",
+          "slug": "absolute-neutrophil-count-anc"
+        },
+        {
+          "calcId": 2049,
+          "short_title_en": "D'Amico Classification",
+          "slug": "damico-risk-classification-prostate-cancer"
+        },
+        {
+          "calcId": 3997,
+          "short_title_en": "CISNE",
+          "slug": "clinical-index-stable-febrile-neutropenia-cisne"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3913",
+      "mascc-risk-index-febrile-neutropenia"
+    ]
+  },
+  "scriptLoader": []
+}

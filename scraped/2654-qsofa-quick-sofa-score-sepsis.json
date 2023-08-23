@@ -1,0 +1,655 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Abdominal Pain",
+          "AMS",
+          "Cough",
+          "Dyspnea",
+          "Fever",
+          "Vomiting",
+          "Weakness"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "2654.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The qSOFA (quick SOFA) Score was introduced in February 2016 by the <a href=\"https://jamanetwork.com/journals/jama/fullarticle/2492875\" target=\"_blank\" rel=\"noopener\">Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)</a> task force as a rapid bedside clinical score to identify patients with a suspected infection that are at greater risk for a poor outcome. The primary outcome was in-hospital mortality, and the secondary outcome was ICU length of stay &ge;3 days. It was meant to replace the Systemic Inflammatory Response Syndrome (SIRS) criteria that were believed to be less sensitive and specific (although this remains controversial).</p>\n<p>The qSOFA Score was retrospectively derived and internally validated in a 2016 study by <a href=\"https://jamanetwork.com/journals/jama/fullarticle/2492875\" target=\"_blank\" rel=\"noopener\">Seymour et al</a>. 148,907 patients with suspected infection in and outside of the ICU setting were included. In patients outside of the ICU with a qSOFA Score of 2 or higher, there was a 3- to 14-fold increase in the rate of in-hospital mortality. Among ICU patients, however, the predictive validity of SOFA for in-hospital mortality was statistically greater than qSOFA.</p>\n<p>The qSOFA Score was prospectively validated in an emergency department population in a study by <a href=\"https://jamanetwork.com/journals/jama/article-abstract/2598268\" target=\"_blank\" rel=\"noopener\">Freund et al</a> (2017) including 879 patients across 30 emergency departments in 4 countries. The qSOFA Score resulted in greater prognostic accuracy for in-hospital mortality than SIRS or severe sepsis.</p>\n<p><a href=\"https://jamanetwork.com/journals/jama/article-abstract/2598267\" target=\"_blank\" rel=\"noopener\">Raith et al</a> (2017) externally validated the SOFA and qSOFA Scores in a population of 184,875 patients with an infection-related admission diagnosis who were retrospectively identified and analyzed. An increase in SOFA score of 2 or more points had greater prognostic accuracy for in-hospital mortality than the SIRS criteria or the qSOFA Score in an ICU population.</p>",
+            "formula_en": "<p>Addition of the selected points:&nbsp;</p>\n<table>\n<tbody>\n<tr>\n<td><strong>Parameter</strong></td>\n<td>\n<p><strong>0 points</strong></p>\n</td>\n<td>\n<p><strong>1 point</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Altered mental status<strong><br></strong><abbr title=\"Glasgow Coma Scale\"><calculator id=\"64\">GCS</calculator></abbr> &lt;15</p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Respiratory rate &ge;22</p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Systolic blood pressure &le;100</p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "more_info_en": "<p>Interpretation:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>qSOFA Score</strong></p>\n</td>\n<td>\n<p><strong>Risk group</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>0-1</p>\n</td>\n<td>\n<p>Not high risk for in-hospital mortality</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2-3</p>\n</td>\n<td>\n<p>High risk for in-hospital mortality (3- to 14-fold increase)</p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "https://journals.lww.com/ccmjournal/pages/articleviewer.aspx?year=2021&issue=11000&article=00021&type=Fulltext",
+                  "text": "Evans L, Rhodes A, Alhazzani W, et al. Surviving sepsis campaign: international guidelines for management of sepsis and septic shock 2021. Critical Care Medicine. 2021;49(11):e1063-e1143."
+                }
+              ],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://jamanetwork.com/journals/jama/fullarticle/2492875 ",
+                  "text": "Seymour CW, Liu VX, Iwashyna TJ, et al. Assessment of Clinical Criteria for Sepsis: For the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016;315(8):762-774."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://jama.jamanetwork.com/article.aspx?articleid=2492881",
+                  "text": "Singer M, Deutschman CS, Seymour C, et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016;315(8):801-810. doi:10.1001/jama.2016.0287."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://jama.jamanetwork.com/article.aspx?articleid=2492876",
+                  "text": "Shankar-Hari M, Phillips GS, Levy ML, et al. Developing a New Definition and Assessing New Clinical Criteria for Septic Shock: For the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016;315(8):775-787. doi:10.1001/jama.2016.0289."
+                },
+                {
+                  "href": "https://jamanetwork.com/journals/jama/article-abstract/2598268",
+                  "text": "Freund Y, Lemachatti N, Krastinova E, et al. Prognostic Accuracy of Sepsis-3 Criteria for In-Hospital Mortality Among Patients With Suspected Infection Presenting to the Emergency Department. JAMA. 2017;317(3):301-308."
+                },
+                {
+                  "href": "https://jamanetwork.com/journals/jama/article-abstract/2598267",
+                  "text": "Raith EP, Udy AA, Bailey M, et al. Prognostic Accuracy of the SOFA Score, SIRS Criteria, and qSOFA Score for In-Hospital Mortality Among Adults With Suspected Infection Admitted to the Intensive Care Unit. JAMA. 2017;317(3):290-300."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Kamal Medlej, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Christopher Seymour",
+              "qa_en": "<p><strong>Why do you think it&rsquo;s so hard to nail down a definition and criteria for sepsis?</strong></p> <p>Sepsis is a common and deadly syndrome, but there isn&rsquo;t one checkbox or patient symptom that identifies them as having sepsis or not. Sepsis is a combination of suspected infection, that is causally related to life-threatening organ dysfunction. And patients can manifest that organ dysfunction in a variety of ways, whether it&rsquo;s altered mental status, or difficulty breathing, or low blood pressure, or all of these together, and as a result, clinicians may encounter a patient with sepsis, but vary in both how fast they recognize this, and in whether they even call them septic or not. And this was what prompted the task force to get together and come up with more simple criteria to help clinicians with this task.</p> <p><strong>One of the qSOFA parameters is respiratory rate, which, as a vital sign, is somewhat notorious for being measured and documented inaccurately. What effect do you think this has on the qSOFA data, if any?</strong></p> <p>With any vital sign that&rsquo;s recorded by nurses or clinicians at the bedside, there may be some that are more accurate than others. Our approach to analyzing the data from electronic health records and then forming the regression models to develop qSOFA, we developed by using the data from the record. We understand that there&rsquo;s some issues with internal validity, i.e., the accuracy or reliability of those measurements, but we tried to balance those against what we call generalizability, meaning we used data from all patients from 14 centers to derive the score, and then validated it in millions of patients across more than a hundred hospitals. </p> <p>So those incorporate hospitals that have great data accuracy, and some that don&rsquo;t, and that hopefully balances out in the end. </p> <p><strong>Any comments on the two sepsis studies from JAMA January 2017, namely, the Australian study showing that SOFA was better than qSOFA for in-hospital mortality in ICU patients, and the European study showing that qSOFA was better than SIRS and severe sepsis at predicting in-hospital mortality?</strong></p> <p>We were very much encouraged by independent groups from the task force looking at similar research questions. So the paper from Australia in ICU patients found very similar results to what we found in our US and European data, which is that SOFA seemed to have greater predictive validity when combined with suspected infection than other scores. This was entirely consistent with our results. </p> <p>The other paper was conducted by an independent group in emergency departments across many centers in Europe and did in fact externally validate the signal between qSOFA and bad outcome that are more common in sepsis than not. And so we think that it continues to support the original finding, again very large observational studies, by the EM community, that theirs were consistent with ours.</p> <p><strong>It's pretty clear in the paper that qSOFA was originally derived in patients who are already suspected of having infection, but it seems that clinically it's been mis-applied as a sepsis screening tool. Do you have any thoughts on that, or other examples that you know of where qSOFA is applied incorrectly? </strong></p> <p>You bring about a really important question, which is, how do patients with sepsis present? Some can present with both organ dysfunction and infection at the same time, or one bit of organ dysfunction may be present before the clinician suspects infection. It&rsquo;s not always one or the other. When we approached the data analysis, we used people who had already had antibiotics and a body fluid culture and had suspected infection, and <em>then</em> asked, what other <em>additional</em> available data would identify this patient as likely to be septic or not? The application of that in real practice may be different because different people present in different ways.</p> <p>I think, as a screening tool, this would imply that you&rsquo;re looking at a window when no infection has yet been suspected by the clinical team, that I think any score, whether it&rsquo;s qSOFA or others, is unlikely to fully capture and discriminate between those patients. The initial diagnosis of infection is a subjective determination by the doctor, and has been informed upon by the IDSA <em>[Infectious Diseases Society of America]</em>, with a variety of symptoms, many of which can&rsquo;t be objectively measured but are rather subjectively measured for the patient. So we wouldn&rsquo;t be surprised if something simple like qSOFA does poorly to identify infection or not.</p> <p><strong>Can you tell me about your other research?</strong></p> <p>In general, our research program is figuring out ways to treat sepsis patients earlier. That involves both identifying them and exploring different treatments when they are in the ambulance before they get to the hospital.</p> <p>We thought about using clinical tools like the qSOFA score in the ambulance, as well as other measures or biomarkers from the blood, so we&rsquo;re currently analyzing a large NIH-funded cohort in a study called PIPELINE in which biomarkers such as procalcitonin, lactate, and inflammatory cytokines were measured in prehospital blood, perhaps as a way to improve paramedic suspicion for sepsis.</p> <p>So if a patient is suspected to have sepsis, the question for the prehospital provider is, now what? And there are a few things to test. One might be direct administration of something like intravenous fluids, but also notifying the hospital of their patient who&rsquo;s about to arrive. So, with funding from the University of Pittsburgh, we are working to develop a Think Sepsis App, which takes these elements of qSOFA and other scores, and is able to securely notify the hospital that they&rsquo;re on their way. And we hope that in future studies, an app like this can reduce time to antibiotics <em>[mortality increases by 7% for every hour that antibiotics are delayed] </em>and therapy inside a hospital.</p> <p><strong>So sort of like the activation systems already well in place for heart attack and stroke? </strong></p><p>Exactly. Advanced notification in acute cardiovascular disease is a decade ahead of where we are at now for sepsis syndromes.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>The qSOFA Score was introduced by the Sepsis-3 group as a simplified version of the <calculator id=\"691\">SOFA Score</calculator>, a validated ICU mortality prediction score, to help identify patients with suspected infection that are at high risk for poor outcome (defined as in-hospital mortality, or ICU length of stay &ge;3 days) outside of the ICU.</li>\n<li>Simplifies the SOFA Score significantly by only including 3 clinical criteria easily assessed at the bedside.</li>\n<li>Can be repeated serially if there is a change in clinical condition.</li>\n<li>Predicts mortality, as opposed to diagnosing sepsis, and still has an unclear role in the sequence of events from screening to diagnosis to triggering of sepsis-related interventions.</li>\n<li>At this time, no prospective studies demonstrate that clinical decisions based on qSOFA lead to better patient outcomes.</li>\n<li>The latest version of the <a href=\"https://journals.lww.com/ccmjournal/pages/articleviewer.aspx?year=2021&amp;issue=11000&amp;article=00021&amp;type=Fulltext\" target=\"_blank\" rel=\"noopener\">Surviving Sepsis Campaign guidelines</a> (November 2021) does not integrate the qSOFA Score in recommendations for screening or diagnosis of sepsis.</li>\n</ul>",
+            "use_case_en": "<p>Patients &ge;18 years old in a non-ICU setting (i.e. pre-hospital, ward, emergency department, or step-down unit) with confirmed or suspected infection.</p>",
+            "why_use_en": "<ul>\n<li>Identifies patients outside the ICU with suspected infection that are at a high risk for in-hospital mortality.</li>\n<li>Can help increase suspicion or awareness of a severe infectious process and prompt further testing and/or closer monitoring.</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>A &ldquo;positive\" qSOFA Score (&ge;2) suggests high risk of poor outcome in patients with suspected infection. These patients should be more thoroughly assessed for evidence of organ dysfunction.</li>\n<li>A positive qSOFA Score by itself should not trigger sepsis-directed interventions like initiation of broad-spectrum antibiotics; rather, it should prompt clinicians to further investigate for presence of organ dysfunction or to increase frequency of monitoring.</li>\n<li>The Sepsis-3 task force recommends that a positive qSOFA Score should prompt the calculation of a SOFA score to confirm the diagnosis of sepsis. This remains controversial, as qSOFA has been shown to be more predictive than SOFA outside of the ICU setting.</li>\n<li>Even if the qSOFA Score is initially \"negative\" (&lt;2), it can be repeated if there is a change in the patient&rsquo;s clinical status.</li>\n</ul>",
+            "critical_actions_en": "",
+            "management_en": "<ul>\n<li>qSOFA is a mortality predictor, NOT a diagnostic test for sepsis. It is still not clear how it will be used in the sequence of events going from screening, to diagnosis of sepsis, to the triggering of sepsis-related interventions.</li>\n<li>The management of sepsis is continually evolving and is detailed in the <a href=\"https://journals.lww.com/ccmjournal/pages/articleviewer.aspx?year=2021&amp;issue=11000&amp;article=00021&amp;type=Fulltext\" target=\"_blank\" rel=\"noopener\">Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021.</a></li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [
+              {
+                "CalculatorId": 2654,
+                "createdAt": "2019-07-02T20:19:01.763Z",
+                "description": "Paging MDCalc",
+                "id": 9,
+                "link": "http://paging.mdcalc.com/2017/04/07/first-scurvy-now-sepsis-is-vitamin-c-the-new-old-wonder-drug/",
+                "order": 0,
+                "text": "First Scurvy, Now Sepsis: Is Vitamin C the New Old Wonder Drug?",
+                "updatedAt": "2020-03-18T03:49:12.319Z"
+              }
+            ],
+            "mdcalc_rating": [
+              {
+                "CalculatorId": 2654,
+                "clinical": 4,
+                "createdAt": "2019-07-02T20:19:01.759Z",
+                "evidence": 4,
+                "id": 3,
+                "popularity": 5,
+                "updatedAt": "2019-07-02T20:19:01.759Z"
+              }
+            ],
+            "partner_contact": [
+              {
+                "CalculatorId": 2654,
+                "createdAt": "2019-11-04T16:59:50.086Z",
+                "description": "Emergency Medicine Practice",
+                "id": 63,
+                "link": "https://www.ebmedicine.net/topics/infectious-disease/sepsis-septic-shock",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: qSOFA",
+                "updatedAt": "2020-03-18T03:49:12.342Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [
+              {
+                "CalculatorId": 2654,
+                "createdAt": "2019-07-02T20:19:01.761Z",
+                "description": "PulmCrit",
+                "id": 3,
+                "link": "https://emcrit.org/pulmcrit/metabolic-sepsis-resuscitation/",
+                "order": 0,
+                "text": "Metabolic Sepsis Resuscitation: The Evidence Behind Vitamin C",
+                "updatedAt": "2020-03-18T03:49:12.296Z"
+              }
+            ],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Coronavirus",
+          "COVID-19",
+          "Sepsis"
+        ],
+        "dosing": false,
+        "equation_logic": "128a75067faddccc903251fc13d75f4f",
+        "equation_logic_text": "var calc_output = [];\nvar msg = '';\nvar mini_msg;\nvar webLanguage = webLanguage || \"english\"\nvar txt = '';\nvar u = parseFloat(ams) + parseFloat(rr) + parseFloat(sbp);\nif (u < 2) {\n    txt = '';\n    mini_msg = 'Not high risk';\n\n    if (webLanguage == \"webProduction-chinese-traditional\") {\n\n        mini_msg = '不是高風險';\n\n        msg = 'qSOFA分數評估風險不高，如果仍懷疑敗血症，應繼續監測病患，開始適當治療，並追蹤qSOFA分數變化';\n\n    } else if (webLanguage == \"webProduction-chinese-simplified\") {\n        mini_msg = '不是高风险';\n\n        msg = 'qSOFA分数评估风险不高。如果仍怀疑败血症,应继续监测病患,开始适当治疗,并追踪qSOFA分数变化。 ';\n    } else if (webLanguage == \"webProduction-spanish\") {\n        mini_msg = 'SIN ALTO RIESGO'\n        msg = 'Si todavía hay sospechas de una septicemia, continúe el monitoreo, la evaluación e inicie el tratamiento de manera apropiada, incluyendo aprobaciones rutinarias de qSOFA.'\n    } else {\n\n        msg = 'If sepsis is still suspected, continue to monitor, evaluate, and initiate treatment as appropriate, including serial qSOFA assessments.';\n    }\n}\nif (u >= 2) {\n    txt = '';\n    mini_msg = 'High risk';\n\n    if (webLanguage == \"webProduction-chinese-traditional\") {\n        mini_msg = '高風險';\n        msg = '根據qSOFA分級為高風險。應繼續評估其餘器官衰竭指標，血液檢測也應包括乳酸，並計算出完整的SOFA評分。<br/><br/>凡是qSOFA指標有達到的病患，即便之前沒有感染的事實';\n\n    } else if (webLanguage == \"webProduction-chinese-simplified\") {\n        mini_msg = '高风险';\n        msg = '根据qSOFA分级为高风险。 应继续评估其余器官衰竭指针,血液检测也应包括乳酸,并计算出完整的SOFA评分。<br/><br/>凡是qSOFA指针有达到的病患，即便之前没有感染的事实';\n    } else if (webLanguage == \"webProduction-spanish\") {\n        mini_msg = 'ALTO RIESGO';\n        msg = 'Evaluar evidencia por mal funcionamiento de órganos con examen de sangre incluyendo lactato sérico y cálculos completos de resultados qSOFA. Pacientes con estos criterios de qSOFA deberían de considerarse con infección, aunque no hubiera sido el caso anteriormente.';\n    } else {\n\n        msg = 'qSOFA Scores 2-3 are associated with a 3- to 14-fold increase in in-hospital mortality. Assess for evidence of organ dysfunction with blood testing including serum lactate and calculation of the full SOFA Score.<br/><br/>Patients meeting these qSOFA criteria should have infection considered even if it was previously not.';\n    }\n\n}\n\nvar value_text\nvar message\n\nif (webLanguage == \"webProduction-chinese-traditional\") {\n    value_text = \"分\"\n    message = \"qSOFA敗血症辨識工具\"\n} else if (webLanguage == \"webProduction-chinese-simplified\") {\n    value_text = \"分\"\n    message = \"qSOFA败血症辨识工具\"\n} else if (webLanguage == \"webProduction-spanish\") {\n\n    if (u == 1) {\n        value_text = \"punto\"\n    } else {\n        value_text = \"puntos\"\n    }\n\n    message = \"Puntaje SOFA\"\n\n} else {\n    value_text = \"points\"\n    message = \"qSOFA Score\"\n}\n\n\ncalc_output.push({ \n    name: 'mini', \n    value: u, \n    value_text: value_text, \n    message: mini_msg \n});\ncalc_output.push({ \n    name: '2654_qSOFA_result', \n    value: u, \n    value_text: value_text,\n    message: message \n});\ncalc_output.push({ \n    name: '2654_qSOFA_interpretation', \n    value: mini_msg, \n    value_text: '', \n    message: msg\n});",
+        "favorite_id": 2654,
+        "full_title_en": "qSOFA (Quick SOFA) Score for Sepsis",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Altered mental status</p>",
+            "md_calc_info_concept": null,
+            "name": "ams",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "<abbr title='Glasgow Coma Scale'><calculator id='64'>GCS</calculator> </abbr> <15",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Respiratory rate &ge;22</p>",
+            "md_calc_info_concept": null,
+            "name": "rr",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Systolic BP &le;100</p>",
+            "md_calc_info_concept": null,
+            "name": "sbp",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Use to predict mortality, NOT to diagnose sepsis, per 2021 Surviving Sepsis Guidelines.</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited covid",
+            "time": "2020-03-17T23:49:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added covid messaging",
+            "time": "2020-03-17T14:09:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "revert weird characters in the equation logic",
+            "time": "2019-11-12T21:36:00.000Z",
+            "user": "yi"
+          },
+          {
+            "message": "eb med",
+            "time": "2019-11-07T10:23:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "eb med link",
+            "time": "2019-11-04T11:59:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added message about 3- to 14-fold mortality increase to results",
+            "time": "2018-08-15T14:55:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "Results edited",
+            "time": "2018-07-19T15:20:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Results edited",
+            "time": "2018-07-19T15:18:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "3896f0bb2bbc508c57995a8d15d40db0",
+        "medium_description_en": "<p>Identifies high-risk patients for in-hospital mortality with suspected infection outside the ICU.</p>",
+        "publishedAt": "2022-04-21T20:29:10.908Z",
+        "purpose_en": [
+          "Diagnosis",
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "sirs",
+          "severe",
+          "critical",
+          "icu",
+          "ITU",
+          "septic",
+          "sepsis",
+          "mortality",
+          "critical care",
+          "quick sofa",
+          "covid",
+          "covid19",
+          "covid-19",
+          "covid 19",
+          "coronavirus"
+        ],
+        "search_id": "c-2654",
+        "seo": {
+          "keywords_en": "quick sofa score, qsofa, qsofa sepsis, quick sofa score sepsis, sepsis id, sepsis identification, sepsis algorithm, sepsis prognosis, sepsis sofa, sofa score, qsofa sepsis score, sepsis worsening, sepsis deterioration, sepsis worsening, sepsis deterioration, sepsis 3, sepsis-3",
+          "meta_description_en": "The qSOFA (Quick SOFA) Score for Sepsis identifies high-risk patients for in-hospital mortality with suspected infection outside the ICU."
+        },
+        "short_description_en": "<p>In-hospital mortality in non-ICU patients with infection.</p>",
+        "short_title_en": "qSOFA",
+        "slug": "qsofa-quick-sofa-score-sepsis",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Family Practice",
+          "Geriatrics",
+          "Hospitalist Medicine",
+          "Infectious Disease",
+          "Internal Medicine",
+          "Primary Care"
+        ],
+        "system_en": [
+          "Infectious"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "425f45fb-d4b0-40af-b619-4196b4c6696f"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Kamal (Kim) Medlej, MD, is an attending physician at the department of emergency medicine at Massachusetts General Hospital. He was born and raised in Beirut, Lebanon, then moved to Montreal to attend McGill University where he received his medical degree. He completed a residency in emergency medicine at St. Luke’s-Roosevelt Hospital Center in New York City and served as chief resident in his final year, followed by fellowship in critical care medicine at the Brigham and Women’s Hospital in Boston. Prior to joining the emergency department at MGH, Dr. Medlej was an attending physician in the emergency department of the American University of Beirut Medical Center in Lebanon then at Mount Sinai St. Luke's-West in New York City where he held appointments in both the emergency department and the division of pulmonary, critical care and sleep medicine. His areas of interest include emergency and critical care ultrasound, fluid management, non-invasive patient management, and the intersection of emergency medicine and critical care.</p>",
+          "firstName": "Kamal",
+          "hasDisclosure": [],
+          "img": "kamal-medlej.jpeg",
+          "lastName": "Medlej",
+          "name": "Kamal Medlej, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Past",
+          "target": "kamal-medlej",
+          "updatedAt": "2023-04-06T20:27:06.216Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Christopher Seymour, MD, is Assistant Professor of Critical Care and Emergency Medicine at the University of Pittsburgh School of Medicine. His research focus is on the organization of critical care during pre-hospital care, particularly the development of early diagnostic and prognostic models to facilitate allocation of patients and early treatments for those with acute illness. Dr. Seymour works clinically in the Medical Intensive Care Unit at the University of Pittsburgh Medical Center Mercy Hospital.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Christopher Seymour",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-christopher-seymour.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Seymour+CW%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/2654/qsofa-quick-sofa-score-sepsis",
+        "description": "The qSOFA (Quick SOFA) Score for Sepsis identifies high-risk patients for in-hospital mortality with suspected infection outside the ICU.",
+        "keywords": "quick sofa score, qsofa, qsofa sepsis, quick sofa score sepsis, sepsis id, sepsis identification, sepsis algorithm, sepsis prognosis, sepsis sofa, sofa score, qsofa sepsis score, sepsis worsening, sepsis deterioration, sepsis worsening, sepsis deterioration, sepsis 3, sepsis-3",
+        "title": "qSOFA (Quick SOFA) Score for Sepsis"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 691,
+          "short_title_en": "SOFA Score",
+          "slug": "sequential-organ-failure-assessment-sofa-score"
+        },
+        {
+          "calcId": 1096,
+          "short_title_en": "SIRS & Sepsis Criteria",
+          "slug": "sirs-sepsis-septic-shock-criteria"
+        },
+        {
+          "calcId": 10278,
+          "short_title_en": "PIRO Score for CAP",
+          "slug": "piro-score-community-acquired-pneumonia"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "2654",
+      "qsofa-quick-sofa-score-sepsis"
+    ]
+  },
+  "scriptLoader": []
+}

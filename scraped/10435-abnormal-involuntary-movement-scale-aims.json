@@ -1,0 +1,893 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Agitation",
+          "Altered Mental Status",
+          "Anxious",
+          "Depressed",
+          "Excessive Crying",
+          "Fatigue",
+          "Weight Loss/Gain",
+          "Involuntary Movements"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>Evidence of TD is determined according to the selected points:</p>\n<table style=\"width: 100%; height: 1733.23px; border-width: 1px; border-style: none;\">\n<tbody>\n<tr style=\"height: 34.7969px;\">\n<td colspan=\"3\" style=\"width: 76.1229%; height: 34.7969px;\"><strong>Variable</strong></td>\n<td style=\"width: 23.8771%; height: 34.7969px;\"><strong>Points</strong></td>\n</tr>\n<tr style=\"height: 34.7969px;\">\n<td colspan=\"4\" style=\"width: 100%; height: 34.7969px;\"><strong>Facial and Oral Movements</strong></td>\n</tr>\n<tr style=\"height: 55.75px;\">\n<td style=\"height: 254.711px; width: 24.8227%;\" rowspan=\"5\">\n<p>Muscles of facial expression</p>\n</td>\n<td style=\"height: 254.711px; width: 26.7139%;\" rowspan=\"5\">e.g. movements of forehead, eyebrows, periorbital area, cheeks, including, frowning, blinking, smiling, grimacing</td>\n<td style=\"width: 24.5863%; height: 55.75px;\">None</td>\n<td style=\"width: 23.8771%; height: 55.75px;\">0</td>\n</tr>\n<tr style=\"height: 89.5938px;\">\n<td style=\"width: 24.5863%; height: 89.5938px;\">Minimal, maybe be extreme normal</td>\n<td style=\"width: 23.8771%; height: 89.5938px;\">1</td>\n</tr>\n<tr style=\"height: 47.6875px;\">\n<td style=\"width: 24.5863%; height: 47.6875px;\">Mild</td>\n<td style=\"width: 23.8771%; height: 47.6875px;\">2</td>\n</tr>\n<tr style=\"height: 36.1875px;\">\n<td style=\"width: 24.5863%; height: 36.1875px;\">Moderate</td>\n<td style=\"width: 23.8771%; height: 36.1875px;\">3</td>\n</tr>\n<tr style=\"height: 25.4922px;\">\n<td style=\"width: 24.5863%; height: 25.4922px;\">Severe</td>\n<td style=\"width: 23.8771%; height: 25.4922px;\">4</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td rowspan=\"5\" style=\"width: 24.8227%; height: 179.187px;\">Lips and perioral area</td>\n<td rowspan=\"5\" style=\"width: 26.7139%; height: 179.187px;\">e.g. puckering, pouting, smacking</td>\n<td style=\"width: 24.5863%; height: 22.3984px;\">None</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">0</td>\n</tr>\n<tr style=\"height: 89.5938px;\">\n<td style=\"width: 24.5863%; height: 89.5938px;\">Minimal, may be extreme normal</td>\n<td style=\"width: 23.8771%; height: 89.5938px;\">1</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 24.5863%; height: 22.3984px;\">Mild</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">2</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 24.5863%; height: 22.3984px;\">Moderate</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">3</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 24.5863%; height: 22.3984px;\">Severe</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">4</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 179.187px; width: 24.8227%;\" rowspan=\"5\">Jaw</td>\n<td style=\"height: 179.187px; width: 26.7139%;\" rowspan=\"5\">e.g. biting, clenching, chewing, mouth opening, lateral movement</td>\n<td style=\"width: 24.5863%; height: 22.3984px;\">None</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">0</td>\n</tr>\n<tr style=\"height: 89.5938px;\">\n<td style=\"width: 24.5863%; height: 89.5938px;\">Minimal, may be extreme normal</td>\n<td style=\"width: 23.8771%; height: 89.5938px;\">1</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 24.5863%; height: 22.3984px;\">Mild</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">2</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 24.5863%; height: 22.3984px;\">Moderate</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">3</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 24.5863%; height: 22.3984px;\">Severe</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">4</td>\n</tr>\n<tr style=\"height: 27.4141px;\">\n<td style=\"height: 213.594px; width: 24.8227%;\" rowspan=\"5\">Tongue</td>\n<td style=\"height: 213.594px; width: 26.7139%;\" rowspan=\"5\">Rate only increases in movement both in and out of mouth. NOT inability to sustain movement. Darting in and out of mouth.</td>\n<td style=\"width: 24.5863%; height: 27.4141px;\">None</td>\n<td style=\"width: 23.8771%; height: 27.4141px;\">0</td>\n</tr>\n<tr style=\"height: 103.922px;\">\n<td style=\"width: 24.5863%; height: 103.922px;\">Minimal, may be extreme normal</td>\n<td style=\"width: 23.8771%; height: 103.922px;\">1</td>\n</tr>\n<tr style=\"height: 27.4141px;\">\n<td style=\"width: 24.5863%; height: 27.4141px;\">Mild</td>\n<td style=\"width: 23.8771%; height: 27.4141px;\">2</td>\n</tr>\n<tr style=\"height: 27.4141px;\">\n<td style=\"width: 24.5863%; height: 27.4141px;\">Moderate</td>\n<td style=\"width: 23.8771%; height: 27.4141px;\">3</td>\n</tr>\n<tr style=\"height: 27.4297px;\">\n<td style=\"width: 24.5863%; height: 27.4297px;\">Severe</td>\n<td style=\"width: 23.8771%; height: 27.4297px;\">4</td>\n</tr>\n<tr style=\"height: 35.3906px;\">\n<td style=\"height: 35.3906px; width: 100%;\" colspan=\"4\"><b>Extremity Movements</b></td>\n</tr>\n<tr style=\"height: 53.5469px;\">\n<td rowspan=\"5\" style=\"width: 24.8227%; height: 392.782px;\">Upper (arms, wrists, hands, fingers)</td>\n<td rowspan=\"5\" style=\"width: 26.7139%; height: 392.782px;\">Include choreic movements (i.e., rapid, objectively purposeless, irregular, spontaneous) and athetoid movements (i.e., slow, irregular, complex, serpentine). DO NOT include tremor (i.e., repetitive, regular, rhythmic).</td>\n<td style=\"width: 24.5863%; height: 53.5469px;\">None</td>\n<td style=\"width: 23.8771%; height: 53.5469px;\">0</td>\n</tr>\n<tr style=\"height: 178.555px;\">\n<td style=\"width: 24.5863%; height: 178.555px;\">Minimal, may be extreme normal</td>\n<td style=\"width: 23.8771%; height: 178.555px;\">1</td>\n</tr>\n<tr style=\"height: 53.5469px;\">\n<td style=\"width: 24.5863%; height: 53.5469px;\">Mild</td>\n<td style=\"width: 23.8771%; height: 53.5469px;\">2</td>\n</tr>\n<tr style=\"height: 53.5469px;\">\n<td style=\"width: 24.5863%; height: 53.5469px;\">Moderate</td>\n<td style=\"width: 23.8771%; height: 53.5469px;\">3</td>\n</tr>\n<tr style=\"height: 53.5859px;\">\n<td style=\"width: 24.5863%; height: 53.5859px;\">Severe</td>\n<td style=\"width: 23.8771%; height: 53.5859px;\">4</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 191.195px; width: 24.8227%;\" rowspan=\"5\">Lower (legs, knees, ankles, toes)</td>\n<td style=\"height: 191.195px; width: 26.7139%;\" rowspan=\"5\">e.g. lateral knee movement, foot tapping, heel dropping, foot squirming, inversion and eversion of foot</td>\n<td style=\"width: 24.5863%; height: 22.3984px;\">None</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">0</td>\n</tr>\n<tr style=\"height: 89.5938px;\">\n<td style=\"width: 24.5863%; height: 89.5938px;\">Minimal, may be extreme normal</td>\n<td style=\"width: 23.8771%; height: 89.5938px;\">1</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 24.5863%; height: 22.3984px;\">Mild</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">2</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 24.5863%; height: 22.3984px;\">Moderate</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">3</td>\n</tr>\n<tr style=\"height: 34.4062px;\">\n<td style=\"width: 24.5863%; height: 34.4062px;\">Severe</td>\n<td style=\"width: 23.8771%; height: 34.4062px;\">4</td>\n</tr>\n<tr style=\"height: 38.3984px;\">\n<td colspan=\"4\" style=\"width: 100%; height: 38.3984px;\"><strong>Trunk Movements</strong></td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 179.187px; width: 24.8227%;\" rowspan=\"5\">Neck, shoulders, hips</td>\n<td style=\"height: 179.187px; width: 26.7139%;\" rowspan=\"5\">e.g. rocking, twisting, squirming, pelvic gyrations</td>\n<td style=\"width: 24.5863%; height: 22.3984px;\">None</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">0</td>\n</tr>\n<tr style=\"height: 89.5938px;\">\n<td style=\"width: 24.5863%; height: 89.5938px;\">Minimal, may be extreme normal</td>\n<td style=\"width: 23.8771%; height: 89.5938px;\">1</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 24.5863%; height: 22.3984px;\">Mild</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">2</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 24.5863%; height: 22.3984px;\">Moderate</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">3</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 24.5863%; height: 22.3984px;\">Severe</td>\n<td style=\"width: 23.8771%; height: 22.3984px;\">4</td>\n</tr>\n</tbody>\n</table>\n<p>Additional questions included in the study:</p>\n<table style=\"width: 100%; height: 808.492px; border-width: 1px; border-style: none;\">\n<tbody>\n<tr style=\"height: 38.5625px;\">\n<td colspan=\"2\" style=\"width: 66.6667%; height: 38.5625px;\"><strong>Variable</strong></td>\n<td style=\"width: 33.3333%; height: 38.5625px;\"><strong>Points</strong></td>\n</tr>\n<tr style=\"height: 33.3828px;\">\n<td style=\"height: 33.3828px; width: 100%;\" colspan=\"3\"><strong>Global Judgements</strong></td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 134.391px; width: 33.3333%;\" rowspan=\"5\">Severity of abnormal movements overall</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">None</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">0</td>\n</tr>\n<tr style=\"height: 44.7969px;\">\n<td style=\"width: 33.3333%; height: 44.7969px;\">Minimal, may be extreme normal</td>\n<td style=\"width: 33.3333%; height: 44.7969px;\">1</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 33.3333%; height: 22.3984px;\">Mild</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">2</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 33.3333%; height: 22.3984px;\">Moderate</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">3</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 33.3333%; height: 22.3984px;\">Severe</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">4</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 134.391px; width: 33.3333%;\" rowspan=\"5\">Incapacitation due to abnormal movements</td>\n<td style=\"height: 22.3984px; width: 33.3333%;\">None</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">0</td>\n</tr>\n<tr style=\"height: 44.7969px;\">\n<td style=\"width: 33.3333%; height: 44.7969px;\">Minimal, may be extreme normal</td>\n<td style=\"width: 33.3333%; height: 44.7969px;\">1</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 33.3333%; height: 22.3984px;\">Mild</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">2</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 33.3333%; height: 22.3984px;\">Moderate</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">3</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 33.3333%; height: 22.3984px;\">Severe</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">4</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 201.586px; width: 33.3333%;\" rowspan=\"5\">Patient&rsquo;s awareness of abnormal movements</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">No awareness</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">0</td>\n</tr>\n<tr style=\"height: 44.7969px;\">\n<td style=\"width: 33.3333%; height: 44.7969px;\">Aware, no distress</td>\n<td style=\"width: 33.3333%; height: 44.7969px;\">1</td>\n</tr>\n<tr style=\"height: 44.7969px;\">\n<td style=\"width: 33.3333%; height: 44.7969px;\">Aware, mild distress</td>\n<td style=\"width: 33.3333%; height: 44.7969px;\">2</td>\n</tr>\n<tr style=\"height: 44.7969px;\">\n<td style=\"width: 33.3333%; height: 44.7969px;\">Aware, moderate distress</td>\n<td style=\"width: 33.3333%; height: 44.7969px;\">3</td>\n</tr>\n<tr style=\"height: 44.7969px;\">\n<td style=\"width: 33.3333%; height: 44.7969px;\">Aware, severe distress</td>\n<td style=\"width: 33.3333%; height: 44.7969px;\">4</td>\n</tr>\n<tr style=\"height: 36.3906px;\">\n<td colspan=\"3\" style=\"width: 100%; height: 36.3906px;\"><strong>Dental Status</strong></td>\n</tr>\n<tr style=\"height: 26.6875px;\">\n<td rowspan=\"2\" style=\"width: 33.3333%; height: 53.3984px;\">Current problems with teeth and/or dentures?</td>\n<td style=\"width: 33.3333%; height: 26.6875px;\">No</td>\n<td style=\"width: 33.3333%; height: 26.6875px;\">0</td>\n</tr>\n<tr style=\"height: 26.7109px;\">\n<td style=\"width: 33.3333%; height: 26.7109px;\">Yes</td>\n<td style=\"width: 33.3333%; height: 26.7109px;\">1</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td rowspan=\"2\" style=\"width: 33.3333%; height: 44.7968px;\">Are dentures usually worn?</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">No</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">0</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 33.3333%; height: 22.3984px;\">Yes</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">1</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 44.7968px; width: 33.3333%;\" rowspan=\"2\">Edentia?</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">No</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">0</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"width: 33.3333%; height: 22.3984px;\">Yes</td>\n<td style=\"width: 33.3333%; height: 22.3984px;\">1</td>\n</tr>\n<tr style=\"height: 33.3984px;\">\n<td colspan=\"3\" style=\"width: 100%; height: 33.3984px;\"><strong>Other</strong></td>\n</tr>\n<tr style=\"height: 26.6875px;\">\n<td rowspan=\"2\" style=\"width: 33.3333%; height: 53.3984px;\">Do movements disappear in sleep?</td>\n<td style=\"width: 33.3333%; height: 26.6875px;\">No</td>\n<td style=\"width: 33.3333%; height: 26.6875px;\">0</td>\n</tr>\n<tr style=\"height: 26.7109px;\">\n<td style=\"width: 33.3333%; height: 26.7109px;\">Yes</td>\n<td style=\"width: 33.3333%; height: 26.7109px;\">1</td>\n</tr>\n</tbody>\n</table>",
+            "more_info_en": "<p>A rating of 2 or higher on any of the first seven questions is evidence of TD. If the patient has mild movements in two areas or moderate movements in one area, then they should be given a diagnosis of TD.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/29742330/",
+                  "text": "Kane JM, Correll CU, Nierenberg AA, Caroff SN, Sajatovic M, Tardive Dyskinesia Assessment Working Group. Revisiting the abnormal involuntary movement scale: proceedings from the tardive dyskinesia assessment workshop. J Clin Psychiatry. 2018;79(3):17cs11959."
+                }
+              ],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/329329/",
+                  "text": "Chien CP, Jung K, Ross-Townsend A, Stearns B. The measurement of persistent dyskinesia by piezoelectric recording and clinical rating scales. Psychopharmacol Bull. 1977;13(3):34-36."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/6973337/",
+                  "text": "Rey JM, Hunt GE, Johnson GF. Assessment of tardive dyskinesia in psychiatric outpatients using a standardized rating scale. Aust N Z J Psychiatry. 1981;15(1):33-37."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/15913963/",
+                  "text": "Gharabawi GM, Bossie CA, Lasser RA, Turkoz I, Rodriguez S, Chouinard G. Abnormal involuntary movement scale (Aims) and extrapyramidal symptom rating scale (Esrs): cross-scale comparison in assessing tardive dyskinesia. Schizophr Res. 2005;77(2-3):119-128."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Ching-Piao Chien",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>Scoring is not linear.</li>\n<li>Total score was not included in original literature but is widely utilized today.</li>\n<li>Note: Inputs in Global Judgements section do not contribute to overall score.</li>\n</ul>",
+            "use_case_en": "<p><span>Do you use the Abnormal Involuntary Movement Scale (AIMS) and want to contribute your expertise? <a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a> our contributor team!</span></p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p><span>Do you use the Abnormal Involuntary Movement Scale (AIMS) and want to contribute your expertise? </span><a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a><span>&nbsp;our contributor team!</span></p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Bipolar Disorder",
+          "Schizophrenia"
+        ],
+        "dosing": false,
+        "equation_logic": "160854592352cbc1a1038a0486c44f33",
+        "equation_logic_text": "var calc_output = [];\r\n\r\nvar face = parseFloat(face);\r\nvar lips = parseFloat(lips);\r\nvar jaw = parseFloat(jaw);\r\nvar tongue = parseFloat(tongue);\r\nvar upper = parseFloat(upper);\r\nvar lower = parseFloat(lower);\r\nvar trunk = parseFloat(trunk);\r\n\r\nvar score = face + lips + jaw + tongue + upper + lower + trunk;\r\n\r\nvar mild = 0;\r\nvar moderate = 0;\r\n\r\nif (face == 2) {\r\n    mild = mild + 1;\r\n}\r\nif (lips == 2) {\r\n    mild = mild + 1;\r\n}\r\nif (jaw == 2) {\r\n    mild = mild + 1;\r\n}\r\nif (tongue == 2) {\r\n    mild = mild + 1;\r\n}\r\nif (upper == 2) {\r\n    mild = mild + 1;\r\n}\r\nif (lower == 2) {\r\n    mild = mild + 1;\r\n}\r\nif (trunk == 2) {\r\n    mild = mild + 1;\r\n}\r\n\r\nif (face >= 3) {\r\n    moderate = moderate + 1;\r\n}\r\nif (lips >= 3) {\r\n    moderate = moderate + 1;\r\n}\r\nif (jaw >= 3) {\r\n    moderate = moderate + 1;\r\n}\r\nif (tongue >= 3) {\r\n    moderate = moderate + 1;\r\n}\r\nif (upper >= 3) {\r\n    moderate = moderate + 1;\r\n}\r\nif (lower >= 3) {\r\n    moderate = moderate + 1;\r\n}\r\nif (trunk >= 3) {\r\n    moderate = moderate + 1;\r\n}\r\n\r\nvar msg = 'Evidence of TD<br/>';\r\n\r\nvar overall = parseFloat(overall);\r\nvar incap = parseFloat(incap);\r\nvar aware = parseFloat(aware);\r\n\r\nif (overall == 1) {\r\n    msg = msg + '<br/>Overall severity: None';\r\n} else if (overall == 2) {\r\n    msg = msg + '<br/>Overall severity: Minimal';\r\n} else if (overall == 3) {\r\n    msg = msg + '<br/>Overall severity: Mild';\r\n} else if (overall == 4) {\r\n    msg = msg + '<br/>Overall severity: Moderate';\r\n} else if (overall == 5) {\r\n    msg = msg + '<br/>Overall severity: Severe';\r\n}\r\n\r\nif (incap == 1) {\r\n    msg = msg + '<br/>Incapacitation: None';\r\n} else if (incap == 2) {\r\n    msg = msg + '<br/>Incapacitation: Minimal';\r\n} else if (incap == 3) {\r\n    msg = msg + '<br/>Incapacitation: Mild';\r\n} else if (incap == 4) {\r\n    msg = msg + '<br/>Incapacitation: Moderate';\r\n} else if (incap == 5) {\r\n    msg = msg + '<br/>Incapacitation: Severe';\r\n}\r\n\r\nif (aware == 1) {\r\n    msg = msg + '<br/>Awareness: No awareness';\r\n} else if (aware == 2) {\r\n    msg = msg + '<br/>Awareness: Aware, no distress';\r\n} else if (aware == 3) {\r\n    msg = msg + '<br/>Awareness: Aware, mild distress';\r\n} else if (aware == 4) {\r\n    msg = msg + '<br/>Awareness: Aware, moderate distress';\r\n} else if (aware == 5) {\r\n    msg = msg + '<br/>Awareness: Aware, severe distress';\r\n}\r\n\r\nvar problems = parseFloat(problems);\r\nvar dentures = parseFloat(dentures);\r\nvar edentia = parseFloat(edentia);\r\n\r\nif (problems == 1) {\r\n    msg = msg + '<br/>Problems with teeth/dentures: No';\r\n} else if (problems == 2) {\r\n    msg = msg + '<br/>Problems with teeth/dentures: Yes';\r\n}\r\n\r\nif (dentures == 1) {\r\n    msg = msg + '<br/>Dentures: No';\r\n} else if (dentures == 2) {\r\n    msg = msg + '<br/>Dentures: Yes';\r\n}\r\n\r\nif (edentia == 1) {\r\n    msg = msg + '<br/>Edentia: No';\r\n} else if (edentia == 2) {\r\n    msg = msg + '<br/>Edentia: Yes';\r\n}\r\n\r\nvar sleep = parseFloat(sleep);\r\n\r\nif (sleep == 1) {\r\n    msg = msg + '<br/>Movements disappear in sleep: No';\r\n} else if (sleep == 2) {\r\n    msg = msg + '<br/>Movements disappear in sleep: Yes';\r\n}\r\n\r\nvar td;\r\n\r\nif (face >= 2 || lips >= 2 || jaw >= 2 || tongue >= 2 || upper >= 2 || lower >= 2 || trunk >=2) {\r\n    td = 'Some';\r\n} else {\r\n    td = 'None';\r\n}\r\n\r\nif (mild >= 2 || moderate >= 1) {\r\n    td = 'Strong';\r\n}\r\n\r\ncalc_output.push({\r\n    name: 'mini',\r\n    value: score,\r\n    value_text: 'points',\r\n    message: 'AIMS Score'\r\n});\r\ncalc_output.push({\r\n    name: 'td',\r\n    value: td,\r\n    value_text: '',\r\n    message: msg\r\n});\r\ncalc_output.push({\r\n    name: 'AIMS Score',\r\n    value: score,\r\n    value_text: 'points',\r\n    message: 'AIMS Score'\r\n});",
+        "favorite_id": 10435,
+        "full_title_en": "Abnormal Involuntary Movement Scale (AIMS)",
+        "input_schema": [
+          {
+            "subheading": "Facial and Oral Movements",
+            "subheading_instructions": null,
+            "type": "subheading"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Muscles of facial expression</p>",
+            "name": "face",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Minimal, may be extreme normal",
+                "value": 1
+              },
+              {
+                "label": "Mild",
+                "value": 2
+              },
+              {
+                "label": "Moderate",
+                "value": 3
+              },
+              {
+                "label": "Severe",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "e.g. movements of forehead, eyebrows, periorbital area, cheeks, including, frowning, blinking, smiling, grimacing",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Lips and perioral area</p>",
+            "name": "lips",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Minimal, may be extreme normal",
+                "value": 1
+              },
+              {
+                "label": "Mild",
+                "value": 2
+              },
+              {
+                "label": "Moderate",
+                "value": 3
+              },
+              {
+                "label": "Severe",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "e.g. puckering, pouting, smacking",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Jaw</p>",
+            "name": "jaw",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Minimal, may be extreme normal",
+                "value": 1
+              },
+              {
+                "label": "Mild",
+                "value": 2
+              },
+              {
+                "label": "Moderate",
+                "value": 3
+              },
+              {
+                "label": "Severe",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "e.g. biting, clenching, chewing, mouth opening, lateral movement",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Tongue</p>",
+            "name": "tongue",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Minimal, may be extreme normal",
+                "value": 1
+              },
+              {
+                "label": "Mild",
+                "value": 2
+              },
+              {
+                "label": "Moderate",
+                "value": 3
+              },
+              {
+                "label": "Severe",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Rate only increases in movement both in and out of mouth. NOT inability to sustain movement. Darting in and out of mouth.",
+            "type": "radio"
+          },
+          {
+            "subheading": "Extremity Movements",
+            "subheading_instructions": null,
+            "type": "subheading"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Upper (arms, wrists, hands, fingers)</p>",
+            "name": "upper",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Minimal, may be extreme normal",
+                "value": 1
+              },
+              {
+                "label": "Mild",
+                "value": 2
+              },
+              {
+                "label": "Moderate",
+                "value": 3
+              },
+              {
+                "label": "Severe",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Include choreic movements (i.e., rapid, objectively purposeless, irregular, spontaneous) and athetoid movements (i.e., slow, irregular, complex, serpentine). DO NOT include tremor (i.e., repetitive, regular, rhythmic).",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Lower (legs, knees, ankles, toes)</p>",
+            "name": "lower",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Minimal, may be extreme normal",
+                "value": 1
+              },
+              {
+                "label": "Mild",
+                "value": 2
+              },
+              {
+                "label": "Moderate",
+                "value": 3
+              },
+              {
+                "label": "Severe",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "e.g. lateral knee movement, foot tapping, heel dropping, foot squirming, inversion and eversion of foot",
+            "type": "radio"
+          },
+          {
+            "subheading": "Trunk Movements",
+            "subheading_instructions": null,
+            "type": "subheading"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Neck, shoulders, hips</p>",
+            "name": "trunk",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Minimal, may be extreme normal",
+                "value": 1
+              },
+              {
+                "label": "Mild",
+                "value": 2
+              },
+              {
+                "label": "Moderate",
+                "value": 3
+              },
+              {
+                "label": "Severe",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "e.g. rocking, twisting, squirming, pelvic gyrations",
+            "type": "radio"
+          },
+          {
+            "subheading": "Global Judgements",
+            "subheading_instructions": null,
+            "type": "subheading"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "<p>Severity of abnormal movements overall</p>",
+            "name": "overall",
+            "optional": true,
+            "options": [
+              {
+                "label": "None",
+                "value": 1
+              },
+              {
+                "label": "Minimal, may be extreme normal",
+                "value": 2
+              },
+              {
+                "label": "Mild",
+                "value": 3
+              },
+              {
+                "label": "Moderate",
+                "value": 4
+              },
+              {
+                "label": "Severe",
+                "value": 5
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "<p>Incapacitation due to abnormal movements</p>",
+            "name": "incap",
+            "optional": true,
+            "options": [
+              {
+                "label": "None",
+                "value": 1
+              },
+              {
+                "label": "Minimal, may be extreme normal",
+                "value": 2
+              },
+              {
+                "label": "Mild",
+                "value": 3
+              },
+              {
+                "label": "Moderate",
+                "value": 4
+              },
+              {
+                "label": "Severe",
+                "value": 5
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "<p>Patient's awareness of abnormal movements</p>",
+            "name": "aware",
+            "optional": true,
+            "options": [
+              {
+                "label": "No awareness",
+                "value": 1
+              },
+              {
+                "label": "Aware, no distress",
+                "value": 2
+              },
+              {
+                "label": "Aware, mild distress",
+                "value": 3
+              },
+              {
+                "label": "Aware, moderate distress",
+                "value": 4
+              },
+              {
+                "label": "Aware, severe distress",
+                "value": 5
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Dental Status",
+            "subheading_instructions": null,
+            "type": "subheading"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "<p>Current problems with teeth and/or dentures?</p>",
+            "name": "problems",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 1
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "<p>Are dentures usually worn?</p>",
+            "name": "dentures",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 1
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "<p>Edentia?</p>",
+            "name": "edentia",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 1
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Other",
+            "subheading_instructions": null,
+            "type": "subheading"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "<p>Do movements disappear in sleep?</p>",
+            "name": "sleep",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 1
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Rate highest severity observed. Rate movements that occur upon activation one less than those observed spontaneously.</p>\n<p>Complete the <a href=\"https://cdn-web-img.mdcalc.com/aims.png\" target=\"_blank\" rel=\"noopener\">examination procedure</a> prior to making ratings. Note that the total AIMS score is not reported to the patient.</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "dd7d1996f58bafcacd281c7016e3b7bd",
+        "medium_description_en": "<p>Measures involuntary movements of tardive dyskinesia (TD).</p>",
+        "publishedAt": "2022-08-09T16:52:03.696Z",
+        "purpose_en": [
+          "Diagnosis",
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "Abnormal Involuntary Movement Scale (AIMS)",
+          "aims",
+          "abnormal movement",
+          "involuntary movement",
+          "movement scale",
+          "abnormal involuntary movement",
+          "tardive dyskinesia",
+          "td",
+          "involuntary movement measurement",
+          "abnormal movement measurement"
+        ],
+        "search_id": "c-10435",
+        "seo": {
+          "keywords_en": "Abnormal Involuntary Movement Scale (AIMS), aims, abnormal movement, involuntary movement, movement scale, abnormal involuntary movement, tardive dyskinesia, td, involuntary movement measurement, abnormal movement measurement",
+          "meta_description_en": "The Abnormal Involuntary Movement Scale (AIMS) measures involuntary movements of tardive dyskinesia (TD)."
+        },
+        "short_description_en": "<p>Tardive dyskinesia (TD) movement measurement.</p>",
+        "short_title_en": "AIMS",
+        "slug": "abnormal-involuntary-movement-scale-aims",
+        "specialty_en": [
+          "Neurology",
+          "Psychiatry"
+        ],
+        "system_en": [
+          "Neurologic",
+          "Psychiatric"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "f7a37f9a-f507-48a3-8b3a-8bf7c7d16502"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Ching-Piao Chien, MD, was a professor in the Department of Psychiatry at Albany Medical College in Albany, New York. He played a key role in the founding of the Pacific Rim College of Psychiatrists in 1980. Dr. Chein&rsquo;s primary research was focused on tardive dyskinesia.</p>",
+          "createdAt": "2022-09-23T18:20:28.425Z",
+          "deceased": true,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Ching-Piao Chien",
+          "photo_en": null,
+          "publishedAt": "2022-09-23T18:20:29.335Z",
+          "pubmedLink": "https://pubmed.ncbi.nlm.nih.gov/?term=Chien+CP&cauthor_id=329329",
+          "signedCOI": false,
+          "updatedAt": "2022-09-23T18:20:29.338Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10435/abnormal-involuntary-movement-scale-aims",
+        "description": "The Abnormal Involuntary Movement Scale (AIMS) measures involuntary movements of tardive dyskinesia (TD).",
+        "keywords": "Abnormal Involuntary Movement Scale (AIMS), aims, abnormal movement, involuntary movement, movement scale, abnormal involuntary movement, tardive dyskinesia, td, involuntary movement measurement, abnormal movement measurement",
+        "title": "Abnormal Involuntary Movement Scale (AIMS)"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3979,
+          "short_title_en": "Trunk Impairment Scale",
+          "slug": "trunk-impairment-scale"
+        },
+        {
+          "calcId": 10414,
+          "short_title_en": "PANSS for Schizophrenia",
+          "slug": "positive-negative-syndrome-scale-panss-schizophrenia"
+        },
+        {
+          "calcId": 10466,
+          "short_title_en": "EPDS",
+          "slug": "edinburgh-postnatal-depression-scale-epds"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10435",
+      "abnormal-involuntary-movement-scale-aims"
+    ]
+  },
+  "scriptLoader": []
+}

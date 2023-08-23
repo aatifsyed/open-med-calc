@@ -1,0 +1,557 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain",
+          "Dyspnea",
+          "Extremity Edema",
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+29",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+29",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "3903.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>When compared to other multivariate studies, the CARE score showed equivalent sensitivity/specificity tradeoff (by receiver operator curve analysis) when compared to more complex cardiac anesthesia risk assessment schematics (developed by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/2720942\" target=\"_blank\">Parsonnet</a>, <a href=\"http://journal.publications.chestnet.org/article.aspx?articleid=1065203\" target=\"_blank\">Tuman</a>, and <a href=\"http://circ.ahajournals.org/content/91/3/677\" target=\"_blank\">Tu</a>, respectively).</p> <img src=\"https://cdn-web-img.mdcalc.com/content/cardiac-anesthesia-risk-evaluation-score-care-visual-2.png\"> <p><em>From <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/11176081\" target=\"_blank\">Dupuis 2001</a>.</em></p> <p>When compared with the often utilized EuroSCORE, the CARE score provides reliable risk adjusted mortality results with 6 clinical variables versus the 17 in the EuroSCORE (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/21803595\" target=\"_blank\">Tran et al</a>).&nbsp;</p>",
+            "formula_en": "<p>Morbidity was defined as any of the following (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/11176081\" target=\"_blank\">Dupuis 2001</a>):</p> <ol> <li><strong>Cardiovascular</strong>: low cardiac output, hypotension, or both treated with intraaortic balloon pump, with two or more intravenous inotropes or vasopressors for more than 24 h, or with both, malignant arrhythmia (asystole and ventricular tachycardia or fibrillation) requiring cardiopulmonary resuscitation, antiarrhythmia therapy, or automatic cardiodefibrillator implantation</li> <li><strong>Respiratory</strong>: mechanical ventilation for more than 48 h, tracheostomy, reintubation</li> <li><strong>Neurologic</strong>: focal brain injury with permanent functional deficit, irreversible encephalopathy</li> <li><strong>Renal</strong>: acute renal failure requiring dialysis</li> <li><strong>Infectious</strong>: septic shock with positive blood cultures, deep sternal or leg wound infection requiring intravenous antibiotics, surgical debridement, or both</li> <li><strong>Other</strong>: any surgery or invasive procedure necessary to treat a postoperative adverse event associated with the initial cardiac surgery</li> </ol> <p>Examples of complex surgery (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/11176081\" target=\"_blank\">Dupuis 2001</a>):</p> <ul> <li>Reoperation</li> <li>Combined valve and coronary artery surgery</li> <li>Multiple valve surgery</li> <li>Left ventricular aneurysmectomy</li> <li>Repair of VSD after MI</li> <li>CABG of diffuse or heavily calcified vessels</li> <li>Other, as judged by clinicians</li> </ul>",
+            "more_info_en": "<img src=\"https://cdn-web-img.mdcalc.com/content/cardiac-anesthesia-risk-evaluation-score-care-visual-1.png\">",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/11176081",
+                  "text": "Dupuis JY et al. The Cardiac Anesthesia Risk Evaluation Score A Clinically Useful Predictor of Mortality and Morbidity after Cardiac Surgery. The Journal of the American Society of Anesthesiologists 94.2 (2001): 194-204."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21803595",
+                  "text": "Tran DT et al. Comparison of the EuroSCORE and Cardiac Anesthesia Risk Evaluation (CARE) score for risk-adjusted mortality analysis in cardiac surgery. European Journal of Cardio-Thoracic Surgery 41.2 (2012): 307-313."
+                },
+                {
+                  "href": "http://journals.lww.com/ccmjournal/Citation/2011/12001/488__CARDIAC_ANESTHESIA_RISK_EVALUATION__CARE_.447.aspx",
+                  "text": "Dupuis JY,  Tran DT, and McDonald B. 488: Cardiac Anesthesia Risk Evaluation (care) Score Versus Euroscore for Morbidity Prediction in The Intensive Care Unit After Cardiac Surgery. Critical Care Medicine 39.12 (2011): 135."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/2720942",
+                  "text": "Parsonnet V, Dean D, Bernstein AD. A method of uniform stratification of risk for evaluating the results of surgery in acquired adult heart disease. Circulation. 1989;79:I3–12."
+                },
+                {
+                  "href": "http://journal.publications.chestnet.org/article.aspx?articleid=1065203",
+                  "text": "Tuman KJ, McCarthy RJ, March RJ, Najafi H, Ivanikovich AD. Morbidity and duration of ICU stay after cardiac surgery: a model of preoperative risk assesment. Chest. 1992; 102 (1): 36-44."
+                },
+                {
+                  "href": "http://circ.ahajournals.org/content/91/3/677",
+                  "text": "Tu JV, Jaglal SB, Naylor D, the Steering Committee of the Provincial Adult Care Network of Ontario: Multicenter validation of a risk index for mortality, intensive care unit stay, and overall hospital length of stay after cardiac surgery. Circulation 1995; 91: 677–84"
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/15166559",
+                  "text": "Ouattara A et al. Predictive performance and variability of the cardiac anesthesia risk evaluation score. The Journal of the American Society of Anesthesiologists 100.6 (2004): 1405-1410."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Amit Patel, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Jean-Yves Dupuis, MD",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>The Cardiac Anesthesia Risk Evaluation (CARE) Score was&nbsp;created to develop a simple risk classification tool&nbsp;to predict mortality and morbidity after cardiac surgery.</li> <li>Shows similar accuracy to more complex cardiac anesthesia risk assessment schematics.</li> <li>Does not account for age and left ventricular (LV) function.</li> </ul>",
+            "use_case_en": "<ul> <li>Patients undergoing cardiac surgery.</li> </ul>",
+            "why_use_en": "<ul> <li>The score contains only 6 variables (compared to EuroSCORE, which contains 18 variables) but shows similar accuracy.</li> <li>Quickly risk-stratifies patients undergoing cardiac surgery in the clinical setting.</li> <li>Requires fewer variables and data, including those that&nbsp;may be hard to obtain on the day of surgery.</li> </ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>Patients with a CARE score of 3 or above NOT&nbsp;undergoing emergent surgery should be optimized (after weighing the risks and benefits of delaying surgery), and if their uncontrolled medical problems can be treated preoperatively, mortality and morbidity outcomes may decrease dramatically.</li> <li>Patients with CARE scores above 3 should be informed preoperatively of their surgical risk.</li> <li>Predictive models such as the CARE score have modest predictive abilities and should be utilized as a tool used in conjunction with&nbsp;other clinical factors.</li> </ul>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Congestive Heart Failure",
+          "Heart Failure",
+          "Myocardial Infarction"
+        ],
+        "dosing": false,
+        "equation_logic": "766bd4f9abb68f891d50e9000d4a0432",
+        "equation_logic_text": "var calc_output = [];\nvar care = parseFloat(care);\nvar e = parseFloat(e);\nvar grade;\nvar morb, mort;\nvar perc = '%';\nif (care == 1) {\n    grade = '1';\n    morb = '5.4';\n    mort = '0.5';\n}\nif (care == 2) {\n    grade = '2';\n    morb = '10.3';\n    mort = '1.1';\n}\nif (care == 3) {\n    if (e == 0) {\n        grade = '3';\n        morb = '19.0';\n        mort = '2.2';\n    } else {\n        grade = '3E';\n        morb = '32.1';\n        mort = '4.5';\n    }\n}\nif (care == 4) {\n    if (e == 0) {\n        grade = '4';\n        morb = '48.8';\n        mort = '8.8';\n    } else {\n        grade = '4E';\n        morb = '65.8';\n        mort = '16.7';\n    }\n}\nif (care == 5) {\n    if (e == 0) {\n        grade = '5';\n        morb = '79.6';\n        mort = '29.3';\n    } else {\n        grade = '5E';\n        morb = '88.7';\n        mort = ' 46.2';\n    }\n}\ncalc_output.push({ name: 'mini', value: 'CARE '+grade, value_text: '', message: mort+perc+' in-hospital mortality' });\ncalc_output.push({ name: '', value: 'CARE '+grade, value_text: '', message: mort + perc + ' in-hospital mortality<br/><br/>' + morb+ perc+' morbidity (See Formula section for morbidity definitions.)'  });\n\n",
+        "favorite_id": 3903,
+        "full_title_en": "Cardiac Anesthesia Risk Evaluation Score (CARE)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Patient status",
+            "name": "care",
+            "optional": false,
+            "options": [
+              {
+                "label": "Stable cardiac disease, no other medical problems, undergoing noncomplex surgery",
+                "value": 1
+              },
+              {
+                "label": "Stable cardiac disease, one or more controlled medical problems, undergoing noncomplex surgery",
+                "value": 2
+              },
+              {
+                "label": "Any uncontrolled medical problem OR undergoing complex surgery",
+                "value": 3
+              },
+              {
+                "label": "Any uncontrolled medical problem AND undergoing complex surgery",
+                "value": 4
+              },
+              {
+                "label": "Chronic or advanced cardiac disease undergoing cardiac surgery as a last hope to save or improve life",
+                "value": 5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "care >= 3",
+            "default": null,
+            "label_en": "Emergency: surgery as soon as diagnosis is made and operating room is available",
+            "name": "e",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added specialty",
+            "time": "2019-02-19 10:31 AM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "7b01824194824602fa3c96050ccafe19",
+        "medium_description_en": "<p>Predicts mortality and morbidity after cardiac surgery.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "CARE"
+        ],
+        "search_id": "c-3903",
+        "seo": {
+          "keywords_en": "cardiac Anesthesia, anesthesia risk, cardiac anesthesia risk, predicted mortality, morbidity, cardiac anesthesia prognosis",
+          "meta_description_en": "The Cardiac Anesthesia Risk Evaluation (CARE) Score predicts mortality and morbidity after cardiac surgery."
+        },
+        "short_description_en": "Predicts mortality and morbidity after cardiac surgery.",
+        "short_title_en": "Cardiac Anesthesia Risk Evaluation Score (CARE)",
+        "slug": "cardiac-anesthesia-risk-evaluation-score-care",
+        "specialty_en": [
+          "Anesthesiology",
+          "Cardiology",
+          "Oral and Maxillofacial Surgery",
+          "Surgery (Cardiothoracic)",
+          "Surgery (General)",
+          "Surgery (Plastic)",
+          "Surgery (Trauma)",
+          "Surgery (Vascular)"
+        ],
+        "system_en": [
+          "Cardiac"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Amit",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Patel",
+          "name": "Amit Patel, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Jean-Yves Dupuis, MD, is a staff anesthesiologist of the Division of Cardiac Anesthesiology and an associate professor at the University of Ottawa. He is a regular contributor as a principal or co-investigator to single and multicenter randomized trials assessing new drugs and therapies in the perioperative setting of cardiac surgery. Dr. Dupuis’ research interests are perioperative epidemiology and the analysis of medical practice in the cardiac surgical population.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Jean-Yves Dupuis, MD",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/jean-yves-dupuis-md.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Dupuis%20JY%5BAuthor%5D&amp;cauthor=true&amp;cauthor_uid=25857671",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3903/cardiac-anesthesia-risk-evaluation-score-care",
+        "description": "The Cardiac Anesthesia Risk Evaluation (CARE) Score predicts mortality and morbidity after cardiac surgery.",
+        "keywords": "cardiac Anesthesia, anesthesia risk, cardiac anesthesia risk, predicted mortality, morbidity, cardiac anesthesia prognosis",
+        "title": "Cardiac Anesthesia Risk Evaluation Score (CARE)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10471,
+          "short_title_en": "Thakar Score",
+          "slug": "acute-renal-failure-cardiac-surgery-thakar-score"
+        },
+        {
+          "calcId": 3803,
+          "short_title_en": "MAGGIC Risk Calculator for HF",
+          "slug": "maggic-risk-calculator-heart-failure"
+        },
+        {
+          "calcId": 3987,
+          "short_title_en": "NYHA Heart Failure Classification",
+          "slug": "new-york-heart-association-nyha-functional-classification-heart-failure"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3903",
+      "cardiac-anesthesia-risk-evaluation-score-care"
+    ]
+  },
+  "scriptLoader": []
+}

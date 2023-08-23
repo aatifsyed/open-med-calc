@@ -1,0 +1,581 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain",
+          "Dyspnea",
+          "Extremity Edema",
+          "Extremity Pain",
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+43",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+43",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "2011.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li>The authors of the original study performed a meta-analysis of available individual patient data derived from prospective studies of patients with first VTE who received anticoagulation and followed up over 5 years.</li>\n<li><strong>Patients were excluded&nbsp;if they had known VTE risk factors such as surgery, trauma, active cancer, immobility,&nbsp;or pregnancy</strong>. Oral contraception use and hormone therapy, or a thrombophilic blood abnormality,<strong> were included</strong>.</li>\n<li>Patients were followed up after anticoagulation was stopped, and documentation was kept for recurrence, death or restarting of anticoagulation.</li>\n<li>A Cox regression was performed for variables to develop a prognostic score.</li>\n<li>Low risk was defined as a recurrence risk below 5%, based on prior recommendations (<a href=\"http://onlinelibrary.wiley.com/doi/10.1111/j.1538-7836.2010.03991.x/full\" target=\"_blank\">Kearon 2010</a>).</li>\n<li>The final variables included: D-dimer, age &le;50, patient sex, and hormone use at the time of initial VTE. After correction for optimism each was given a score: +2 for abnormal dimer, +1 for age &le;50, +1 for male sex, -2 for hormone use (in females).</li>\n<li>An internal validation using random subjects from the cohort was performed 500 times to predict recurrence rate.</li>\n<li>2,554 patients were initially included, with 727 excluded. 1,818 final patients were included in the analysis. Median follow up was 22.4 months.</li>\n<li>In the study cohort the annualized recurrence of VTE was 3.1% for patients with a DASH &le;1 and 9.3% for a DASH &gt;1.</li>\n<li>The authors concluded that in their cohort up to 51.6% of patients had a DASH &le;1 and could have avoided life-long anticoagulation.</li>\n<li>The authors externally validated the score in a separate cohort in 2017.</li>\n</ul>",
+            "formula_en": "<p>Addition of the selected points:See formula table below:</p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered table-hover\">\n<tbody>\n<tr>\n<th>Criteria</th>\n<th>Weighted Score</th>\n</tr>\n<tr>\n<td>D-dimer abnormal</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>Age &le;50 years</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>Sex - Male</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>Hormone use at time of initial VTE (if female)</td>\n<td>-2</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "more_info_en": "<table class=\"table table-bordered table-hover\">\n<tbody>\n<tr>\n<th>DASH Score</th>\n<th>Annual Recurrence Rate</th>\n</tr>\n<tr>\n<td>-2</td>\n<td>1.8%*</td>\n</tr>\n<tr>\n<td>-1</td>\n<td>1.0%</td>\n</tr>\n<tr>\n<td>0</td>\n<td>2.4%</td>\n</tr>\n<tr>\n<td>1</td>\n<td>3.9%</td>\n</tr>\n<tr>\n<td>2</td>\n<td>6.3%</td>\n</tr>\n<tr>\n<td>3</td>\n<td>10.8%</td>\n</tr>\n<tr>\n<td>4</td>\n<td>19.9%</td>\n</tr>\n</tbody>\n</table>\n<p>*A very small sample had DASH Score of -2 in the derivation study.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/22489957",
+                  "text": "Tosetto A, Iorio A, Marcucci M, Baglin T, Cushman M, Eichinger S, Palareti G, Poli D, Tait RC, Douketis J. Predicting disease recurrence in patients with previous unprovoked venous thromboembolism: a proposed prediction score (DASH).J Thromb Haemost. 2012 Jun;10(6):1019-25. doi: 10.1111/j.1538-7836.2012.04735.x."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/18574272",
+                  "text": "Kearon C, Kahn SR, Agnelli G, Goldhaber S, Raskob GE, Comerota AJ. Antithrombotic therapy for venous thromboembolic disease: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines (8th Edition). Chest 2008; 133: 454S–545S."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "http://onlinelibrary.wiley.com/doi/10.1111/j.1538-7836.2010.03991.x/full",
+                  "text": "Kearon C, Iorio A, Palareti G. Risk of recurrent venous thromboembolism after stopping treatment in cohort studies: recommendation for acceptable rates and standardized reporting. J Thromb Haemost 2010; 8: 2313–5."
+                },
+                {
+                  "href": "http://onlinelibrary.wiley.com/doi/10.1111/jth.13781/abstract",
+                  "text": "Tosetto A, Testa S, Martinelli I, et al. External validation of the DASH prediction rule: a retrospective cohort study. J Thromb Haemost. 2017;15(10):1963-1970."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Benjamin Slovis, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Alberto Tosetto",
+              "qa_en": "<p dir=\"ltr\"><strong>Why did you develop the DASH Score? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p>\n<p dir=\"ltr\">I have a deep interest in improving clinical practice by developing quantitative methods in medicine. Medicine is primarily an art, and clinical gestalt in many cases is equivalent or superior to clinical epidemiology. Nonetheless, quantitative methods are important for a first glance assessment of patients, and also to teach the basis for common patient evaluation to young colleagues. I mostly perceive the DASH Score as a good teaching instrument.</p>\n<p dir=\"ltr\"><strong>What pearls, pitfalls and/or tips do you have for users of the DASH Score? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p>\n<p dir=\"ltr\">The DASH Score is straightforward to use - sex and age plus hormone use at the time of index event are readily collected during the patient's visit. But the evaluation of D-dimer is critical: it should be measured after at least three weeks (21 days) after VKA discontinuation, maybe a little earlier in patients taking DOACs. We always advise using a sensitive D-dimer assay because some point of care or qualitative tests may not be sensitive enough to rule out a positive D-dimer. When using a quantitative assay, the prognostic cut-off is lower than the diagnostic one, preferably being at 350 ng/mL FEU. Using an insensitive method or an inappropriate timing or D-dimer cut-off should be considered as a hazardous practice with the DASH Score.</p>\n<p dir=\"ltr\"><strong>How do you use the DASH Score in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p>\n<p dir=\"ltr\">We must face reality: there are excellent reasons to advise a prolonged anticoagulant treatment in patients with the first episode of unprovoked VTE. Prolonged treatment with low-dose DOACs has really changed the scenario in these years, and probably nowadays there are fewer patients that may benefit from DASH than in the warfarin era. Still, there may be some patients that are willing to discontinue treatment because of their preferences or lifestyle, or simply because they suffered from a thrombotic episode that was deemed to be minor or not life-threatening. These are exactly the patients that I consider to be perfect to apply DASH.</p>\n<p dir=\"ltr\"><strong>What recommendations do you have for doctors once they have applied the DASH Score? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p>\n<p dir=\"ltr\">Data from the DULCIS management study (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24879813\" target=\"_blank\">Palareti 2014</a>) suggest that the use of repeated D-dimer with the resumption of the anticoagulant therapy may be a safer approach for patients, further reducing the recurrence risk. Whether repeating D-dimer measurement and DASH Score is worthwhile is however unknown, but could be perhaps considered after one month if the DASH Score was negative in the first evaluation.&nbsp;</p>\n<p dir=\"ltr\"><strong>Any other research in the pipeline that you're particularly excited about?</strong></p>\n<p><span id=\"docs-internal-guid-68382efe-7fff-0702-0dd5-d79d894f3603\"></p>\n<p dir=\"ltr\">We are running a very ambitious study here in Italy named APIDULCIS, that it is aimed at evaluating if patients having a normal D-dimer (and hence with a presumably low DASH Score) compare in terms of VTE recurrence with patients having increased D-dimer at resuming an anticoagulant therapy with low-dose apixaban. This study will offer an interesting insight into the usefulness of D-dimer and of the DASH Score in the management of patients with unprovoked VTE.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>The DASH prediction rule is a risk stratification tool which aids physicians in deciding whether a patient with their first <strong>unprovoked </strong>venous thromboembolism (VTE) is at risk for recurrence and could aid in deciding how long a patient should be on anticoagulation.</p>\n<ul>\n<li>Patients were excluded from this study if they had antiphospholipid antibodies or antithrombin deficiency, or surgery, trauma, active cancer, immobility, or pregnancy/peripartum status, as these were thought to be &ldquo;provoked&rdquo; or &ldquo;secondary&rdquo; VTE.</li>\n<li>Controversy exists regarding the length of time a patient should be anticoagulated after their first VTE.</li>\n<li>D-dimer is measured ~1 month after stopping anticoagulation.</li>\n<li>The cited 5-year recurrence rate of VTE is 25-30%.</li>\n<li>The recurrence risk of VTE decreases with time.</li>\n<li>The risk of bleeding complications due to anticoagulation increases with time of use.</li>\n<li>The DASH Score has been externally validated; however, recurrence risk in patients &gt;65 years old is still &gt;5% even in patients with low DASH Scores (<a href=\"https://onlinelibrary.wiley.com/doi/abs/10.1111/jth.13781\" target=\"_blank\">Tosetto 2017</a>).</li>\n<li>Anticoagulation in&nbsp;the original study was limited to vitamin K antagonists, and its use with other drug classes has yet to be established.</li>\n</ul>",
+            "use_case_en": "<p>In patients previously diagnosed with VTE&nbsp;who have completed a 3-6 month course of anticoagulation, DASH Scores &le;1&nbsp;are associated with 3.1% annual recurrence, which may be low enough to consider discontinuing anticoagulation. Conversely, patients with DASH Scores &ge;2 are at high risk for recurrent VTE and may require long-term anticoagulation.</p>",
+            "why_use_en": "<p>Many patients diagnosed with VTE are put on long-term or even life-long anticoagulation. The DASH Score predicts&nbsp;which&nbsp;individuals may be low-risk enough to stop anticoagulation after an appropriate 3-6 month period.</p>"
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "<ul>\n<li>No decision rule should trump clinical gestalt. Consider the clinical scenario before continuing or discontinuing anticoagulation for VTE.</li>\n<li>The DASH Score is meant to be applied to stable patients. It should not be applied to patients with active hemorrhage or those with signs and symptoms of VTE.</li>\n</ul>",
+            "management_en": "<p>In a patient with previously diagnosed VTE who has completed a 3-6 month course of anticoagulation:</p>\n<ul>\n<li>DASH &le;1:\n<ul>\n<li>Consider <strong>discontinuing</strong> anticoagulation, as this group has an annual recurrence risk of 3.1%.</li>\n</ul>\n</li>\n<li>DASH &ge;2:\n<ul>\n<li>Consider <strong>continuing</strong> anticoagulation, as this group has an annual recurrence risk of 9.3%.</li>\n</ul>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Deep Venous Thrombosis",
+          "Pulmonary Embolism"
+        ],
+        "dosing": false,
+        "equation_logic": "9bfb4228ad44ddfbbf2e07d10c9a7672",
+        "equation_logic_text": "var calc_output = []; var msg = ''; var msgAppend = ''; var consider = ''; var u = parseFloat(ddimer) + parseFloat(age_50) + parseFloat(male) + parseFloat(hormone); if (u == -2) {msg = '1.8% annual risk of VTE recurrence.'; consider = '<br/><br/>Consider discontinuing anticoagulation.'; msgAppend = '<br/><br/>NOTE: A very small group (2.3% of studied sample) had DASH Score of -2 in the derivation study.'; } else if (u == -1) {msg = '1.0% annual risk of VTE recurrence.'; consider = '<br/><br/>Consider discontinuing anticoagulation.'; } else if (u == 0) {msg = '2.4% annual risk of VTE recurrence.'; consider = '<br/><br/>Consider discontinuing anticoagulation.'; } else if (u == 1) {msg = '3.9% annual risk of VTE recurrence.'; consider = '<br/><br/>Consider discontinuing anticoagulation.'; } else if (u == 2) {msg = '6.3% annual risk of VTE recurrence.'; consider = '<br/><br/>Consider continuing anticoagulation.'; } else if (u == 3) {msg = '10.8% annual risk of VTE recurrence.'; consider = '<br/><br/>Consider continuing anticoagulation.'; } else if (u == 4) {msg = '19.9% annual risk of VTE recurrence.'; consider = '<br/><br/>Consider continuing anticoagulation.'; } calc_output.push({name: 'mini', value: u.toFixed(0), value_text: 'points', message: msg }); calc_output.push({name: 'DASH Score', value: u.toFixed(0), value_text: 'points', message: msg + consider + msgAppend });",
+        "favorite_id": 2011,
+        "full_title_en": "DASH Prediction Score for Recurrent VTE",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "D-dimer abnormal",
+            "name": "ddimer",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Measured ~1 month after stopping anticoagulation",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Age ≤50 years",
+            "name": "age_50",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Male patient",
+            "name": "male",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Hormone use at VTE onset (if female)",
+            "name": "hormone",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": -2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "If male patient, select \"No\"",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Do NOT use in patients with active hemorrhage or signs/symptoms of VTE.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added interview",
+            "time": "2019-08-01T11:48:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "corrected age ≤50 in Evidence",
+            "time": "2018-04-20T12:00:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added link to validation in P/P",
+            "time": "2018-04-20T11:41:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added external validation and corrected age to ≤50 years",
+            "time": "2018-04-20T11:31:00.000Z",
+            "user": "rachel"
+          }
+        ],
+        "md5": "a6d1d07c44eb22bbc45a9939b253de6f",
+        "medium_description_en": "<p>Predicts likelihood of recurrence of first VTE.</p>",
+        "purpose_en": [
+          "Prognosis",
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "Clotting",
+          "VTE",
+          "DVT",
+          "PE",
+          "prediction",
+          "prognosis",
+          "d-dimer",
+          "hormone use",
+          "age",
+          "risk factors"
+        ],
+        "search_id": "c-2011",
+        "seo": {
+          "keywords_en": "DASH score, dash calc, dash prediction, dash prognosis, d-dimer vte, vte recurrence, vte recurring calc, vte recurring score, vte recurring prognosis, dvt recurrence, dvt recurring calc, dvt recurring score, dvt recurring prognosis, pe recurrence, pe recurring calc, pe recurring score, pe recurring prognosis, rule out vte recurrence, r/o recurrent vte, rule out dvt recurrence, r/o recurrent dvt, rule out PE recurrence, r/o recurrent PE",
+          "meta_description_en": "The DASH Prediction Score for Recurrent VTE Predicts VTE recurrence: continue vs discontinue anticoagulation at 3-6 months."
+        },
+        "short_description_en": "Predicts likelihood of recurrence of first VTE.",
+        "short_title_en": "DASH Score",
+        "slug": "dash-prediction-score-recurrent-vte",
+        "specialty_en": [
+          "Cardiology",
+          "Emergency Medicine",
+          "Family Practice",
+          "Hematology and Oncology",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Primary Care",
+          "Pulmonology"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Hematologic",
+          "Respiratory"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Benjamin H. Slovis, MD, MA, is an emergency medicine physician and informatician in the department of emergency medicine at Thomas Jefferson University in Philadelphia. A native of New Jersey, Dr. Slovis attended Cornell University for his undergraduate studies and received his MD from UMDNJ–Robert Wood Johnson Medical School. He completed his residency at the Icahn School of Medicine at Mount Sinai and a National Library of Medicine Post-Doctoral Research Fellowship with a masters degree from the department of Biomedical Informatics at Columbia University. His research interests include clinical decision support systems, health-information exchange, and medical education.</p>",
+          "firstName": "Benjamin",
+          "hasDisclosure": [],
+          "img": "ben-slovis.jpeg",
+          "lastName": "Slovis",
+          "name": "Benjamin Slovis, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "benjamin-slovis",
+          "updatedAt": "2023-04-06T20:24:56.957Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Alberto Tosetto, MD, is the director of the Hemophilia and Thrombosis Center at the San Bortolo Hospital, Vicenza, Italy. He is a hematologist with a long-lasting interest in benign hematology, hemostasis, and clinical epidemiology. </p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Alberto Tosetto",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-alberto-tosetto.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Tosetto+A%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/2011/dash-prediction-score-recurrent-vte",
+        "description": "The DASH Prediction Score for Recurrent VTE Predicts VTE recurrence: continue vs discontinue anticoagulation at 3-6 months.",
+        "keywords": "DASH score, dash calc, dash prediction, dash prognosis, d-dimer vte, vte recurrence, vte recurring calc, vte recurring score, vte recurring prognosis, dvt recurrence, dvt recurring calc, dvt recurring score, dvt recurring prognosis, pe recurrence, pe recurring calc, pe recurring score, pe recurring prognosis, rule out vte recurrence, r/o recurrent vte, rule out dvt recurrence, r/o recurrent dvt, rule out PE recurrence, r/o recurrent PE",
+        "title": "DASH Prediction Score for Recurrent VTE"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 2023,
+          "short_title_en": "Padua Prediction Score",
+          "slug": "padua-prediction-score-risk-vte"
+        },
+        {
+          "calcId": 10138,
+          "short_title_en": "Age-Adjusted D-dimer",
+          "slug": "age-adjusted-d-dimer-venous-thromboembolism-vte"
+        },
+        {
+          "calcId": 3970,
+          "short_title_en": "Caprini VTE Score",
+          "slug": "caprini-score-venous-thromboembolism-2005"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "2011",
+      "dash-prediction-score-recurrent-vte"
+    ]
+  },
+  "scriptLoader": []
+}

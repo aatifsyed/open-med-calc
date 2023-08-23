@@ -1,0 +1,828 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "3121.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li>The c-statistics for the derivation and validation models are 0.715 and 0.682, respectively.</li>\n<li>The derivation cohort contained 4049 patients, and the validation cohort included 1197 subjects.</li>\n</ul>",
+            "formula_en": "<p>The IE Mortality Score is calculated by the addition of the selected points:</p>\n<table style=\"width: 100%; height: 223.984px; border-width: 1px; border-style: none;\"><colgroup><col style=\"width: 33.3333%;\"><col style=\"width: 33.3333%;\"><col style=\"width: 33.3333%;\"></colgroup>\n<tbody>\n<tr style=\"height: 22.3984px;\">\n<td colspan=\"2\" style=\"height: 22.3984px;\"><strong>Variable</strong></td>\n<td style=\"height: 22.3984px;\"><strong>Points</strong></td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 22.3984px;\">Constant</td>\n<td style=\"height: 22.3984px;\"></td>\n<td style=\"height: 22.3984px;\">4</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td colspan=\"3\" style=\"height: 22.3984px;\"><strong>Host factors</strong></td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td rowspan=\"4\" style=\"height: 89.5936px;\">Age, years</td>\n<td style=\"height: 22.3984px;\">&le;45</td>\n<td style=\"height: 22.3984px;\">0</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 22.3984px;\">46-60</td>\n<td style=\"height: 22.3984px;\">2</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 22.3984px;\">61-70</td>\n<td style=\"height: 22.3984px;\">3</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 22.3984px;\">&gt;70</td>\n<td style=\"height: 22.3984px;\">4</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 44.7968px;\" rowspan=\"2\">History of dialysis</td>\n<td style=\"height: 22.3984px;\">No</td>\n<td style=\"height: 22.3984px;\">0</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 22.3984px;\">Yes</td>\n<td style=\"height: 22.3984px;\">3</td>\n</tr>\n<tr style=\"height: 22.3984px;\">\n<td style=\"height: 22.3984px;\" colspan=\"3\"><strong>IE factors</strong></td>\n</tr>\n<tr>\n<td rowspan=\"2\">Nosocomial IE</td>\n<td>No</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Yes</td>\n<td>2</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Prosthetic IE</td>\n<td>No</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Yes</td>\n<td>1</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Symptoms &gt;1 month before admission</td>\n<td>No</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Yes</td>\n<td>-1</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Staphylococcus aureus</td>\n<td>No</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Yes</td>\n<td>1</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Viridans group streptococci</td>\n<td>No</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Yes</td>\n<td>-2</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Aortic vegetation</td>\n<td>No</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Yes</td>\n<td>1</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Mitral vegetation</td>\n<td>No</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Yes</td>\n<td>1</td>\n</tr>\n<tr>\n<td colspan=\"3\"><strong>IE complications</strong></td>\n</tr>\n<tr>\n<td rowspan=\"2\">NYHA class 3 or 4 heart failure</td>\n<td>No</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Yes</td>\n<td>3</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Stroke</td>\n<td>No</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Yes</td>\n<td>2</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Paravalvular complication</td>\n<td>No</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Yes</td>\n<td>2</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Persistent bacteremia</td>\n<td>No</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Yes</td>\n<td>2</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Surgical treatment</td>\n<td>No</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Yes</td>\n<td>-2</td>\n</tr>\n</tbody>\n</table>\n<p></p>",
+            "more_info_en": "<p><strong>Interpretation:</strong></p>\n<p>Probability of 6‐month mortality = 2.416*score+0.109*score<sup>2</sup>&minus;4.849</p>\n<div class=\"table-responsive\"></div>\n<p>A simplified risk score &ge;8 had sensitivity 86.7% and specificity 50.8% for predicting overall 6‐month mortality (negative predictive value of 86% and positive predictive value of 39%).</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://jaha.ahajournals.org/content/5/4/e003016.full",
+                  "text": "Park LP, Chu VH, Peterson G, Skoutelis A, Lejko-Zupa T, Bouza E, Tattevin P, Habib G, Tan R, Gonzalez J, Altclas J, Edathodu J, Fortes CQ, Siciliano RF,Pachirat O, Kanj S, Wang A; International Collaboration on Endocarditis (ICE) Investigators. Validated Risk Score for Predicting 6-Month Mortality in Infective Endocarditis. J Am Heart Assoc. 2016 Apr 18;5(4). pii: e003016. doi: 10.1161/JAHA.115.003016."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Graham Walker, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Andrew Wang",
+              "qa_en": "<dl> <dt>Why did you develop the IE Mortality Risk Score? Was there a clinical experience that inspired you to create this tool for clinicians? We can imagine people have been wanting something like this for ages.</dt> <dd>Our previous studies in IE found a wide range of mortality rate based on clinical characteristics. Risk of mortality is largely related to host factors, IE characteristics and complications, and treatment. We sought to quantify the additive nature of these factors into a risk score that might help inform clinicians caring for patients with IE, and to promote a multidisciplinary management of this serious disease.</dd> <dt>What pearls, pitfalls and/or tips do you have for users of the score? Are there cases in which it has been applied, interpreted, or used inappropriately?</dt> <dd>This is a novel but validated risk score. It is derived from a large, multinational, prospective registry of definite IE and validated in a separate cohort. The patients had largely native valve, left-sided IE, and all patients were managed in settings with cardiac surgery available. The characteristics and complications of IE in the validation cohort were all present before surgery, if utilized, was performed, which is consistent with 'real world' clinical care. However, surgery was subject to selection bias, and was less frequently performed in the highest risk patients. Certain clinical variables (for example, diabetes mellitus) have been previously associated with higher in-hospital mortality but was not predictive of 6-month mortality in these results.</dd> <dt>It looks like the patient's own risk factors and complications make up the vast majority of the score. Is there anything that physicians can do to nudge mortality in a certain direction, once the diagnosis is made?</dt> <dd>Most of the variables predictive of 6-month mortality are not modifiable, except for the use of surgery. We have previously found that approximately 3/4 of patients with IE have a surgical indication, but only approximately 1/2 patients undergo surgery. The present study (Table 6) again shows that patients with higher risk of mortality were less frequently treated with surgery (only 25% of patients in the highest risk quintile). Surgery may have been indicated but not performed due to unfavorable patient characteristics or high operative risk. However, a multidisciplinary care approach to patients with IE, including cardiology, infectious disease and cardiac surgery physicians, may improve the appropriate use of surgery in IE.</dd> <dt>Does delay in diagnosis seem to be associated with long-term risk? Endocarditis can often be a tough diagnosis to make, especially in patients with multiple co-morbidities.</dt> <dd>There are many reasons for longer duration of symptoms before diagnosis of IE. In our study, we did evaluate duration of symptoms (greater or less than 30 days) as a variable related to 6-month mortality and the duration was not statistically significant. This may be due to the association between duration and causative micro-organism (Staph=shorter symptom duration vs. viridans Strep=longer symptom duration), which was predictive of mortality.</dd> <dt>What recommendations do you have for health care providers once they have applied the score? Are there any adjustments or updates you would make to the score given recent changes in medicine in the past few years, since the validation cohort ended in 2012?</dt> <dd>In patients who have a high predicted mortality, consultation with cardiac surgery should be requested. If such a patient is not considered to be a surgical candidate despite surgical indications, there may be modifiable operative risks that would reduce operative risk. In addition, the risk of mortality remains elevated after surgery and/or hospital discharge, and high risk patients should be monitored more closely for complications or treatable conditions.</dd> <dd>The derivation and validation model results were similar across different years (2000-2006 vs. 2008-2012). We do not have any other adjustments to the risk score at this time, but welcome additional validation in other cohorts or possible modifications.</dd> <dt>It looks like if people can survive the surgery, it reduces their risk substantially — should we be advocating more people go to surgery? It seems they're trading an immediate surgical risk for a longer-term benefit, right?</dt> <dd>Surgery was independently associated with lower 6-month mortality in both IE cohorts, and the benefit of surgery is greater in the highest risk patients. However, many of these patient may have higher operative risk due to comorbid medical conditions or IE complications.</dd> <dt>Did your group calculate an AUC statistic for your receiver operating curve? We're trying to keep track of these figures for scores so we can help our users understand some statistics better.</dt> <dd>The c-statistics for the derivation and validation models are 0.715 and 0.682, respectively.</dd> </dl>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>Infective endocarditis (IE) has an overall 6-month mortality of approximately 25% in all-comers.</li>\n<li>Older age and history of dialysis appear to be the highest risk patient factors; IE complications also suggest a high mortality as well.</li>\n<li>Surgery is associated with a lower mortality rate but is infrequent in the high-risk cohort of patients.</li>\n<li>Mortality ranges from 10% in the lowest risk quintile to 53% in the highest-risk quintile.</li>\n</ul>\n<p><strong>Points to keep in mind:</strong></p>\n<ul>\n<li>Surgery in this study was associated with lower mortality, but the highest risk patients were less likely to receive surgery (probably because they were high-risk surgical patients as well).</li>\n<li>This study was performed in referral centers (likely tertiary and quaternary academic centers) with experience with endocarditis and cardiac surgery.</li>\n</ul>",
+            "use_case_en": "<p>Patients with confirmed <abbr title=\"Infective Endocarditis\">IE</abbr> to estimate mortality.</p>",
+            "why_use_en": "<p>The <abbr title=\"Infective Endocarditis\">IE</abbr> Mortality Score provides an objective mortality estimate.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Patients with IE may benefit from consultation with cardiothoracic surgery and infectious disease services.</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 3121,
+                "createdAt": "2020-10-08T17:52:00.078Z",
+                "description": "Emergency Medicine Practice ",
+                "id": 196,
+                "link": "https://www.ebmedicine.net/topics/cardiovascular/infective-endocarditis/calculators",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: IE Mortality Risk Score",
+                "updatedAt": "2020-10-08T17:52:00.078Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Endocarditis"
+        ],
+        "dosing": false,
+        "equation_logic": "8989b715469fd9ffcfe0ad819d852592",
+        "equation_logic_text": "var calc_output = [];\nvar u = 4 + parseInt(age) + parseInt(dialysis) + parseInt(nosocomial) + parseInt(prosthetic) + parseInt(sx) + parseInt(staph) + parseInt(viridans) + parseInt(aveg) + parseInt(mveg) + parseInt(nyha) + parseInt(stroke) + parseInt(valv) + parseInt(bact) + parseInt(surg);\nvar mort = (2.416 * u) + ((0.109 * Math.pow(u, 2)) - 4.849);\nif (mort >= 100) {\n    mort = 100.0;\n} else {\n    mort = mort;\n}\n\nvar msg = 'Mortality at 6 months';\n\ncalc_output.push({\n    name: 'mini',\n    value: u,\n    value_text: 'points',\n    message: mort.toFixed(1) + '% predicted 6-month mortality'\n});\ncalc_output.push({\n    name: '3121_IE Risk Score_result (score)',\n    value: u,\n    value_text: 'points',\n    message: 'IE Mortality Risk Score'\n})\ncalc_output.push({\n    name: '3121_IE Risk Score_result (mortality)',\n    value: mort.toFixed(1),\n    value_text: '%',\n    message: 'Predicted 6-month mortality'\n});",
+        "favorite_id": 3121,
+        "full_title_en": "Infective Endocarditis (IE) Mortality Risk Score",
+        "input_schema": [
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Host Factors",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Age, years</p>",
+            "mdcalc_info_concept": null,
+            "name": "age",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "≤45",
+                "value": 0
+              },
+              {
+                "label": "46-60",
+                "value": 2
+              },
+              {
+                "label": "61-70",
+                "value": 3
+              },
+              {
+                "label": ">70",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "History of dialysis",
+            "md_calc_info_concept": null,
+            "name": "dialysis",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Infective Endocarditis (IE) Factors",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Nosocomial IE",
+            "md_calc_info_concept": null,
+            "name": "nosocomial",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Prosthetic IE",
+            "md_calc_info_concept": null,
+            "name": "prosthetic",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Symptoms >1 month before admission",
+            "md_calc_info_concept": null,
+            "name": "sx",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": -1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Staphylococcus aureus",
+            "md_calc_info_concept": null,
+            "name": "staph",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Viridans group streptococci",
+            "md_calc_info_concept": null,
+            "name": "viridans",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": -2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Aortic vegetation",
+            "md_calc_info_concept": null,
+            "name": "aveg",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Mitral vegetation",
+            "md_calc_info_concept": null,
+            "name": "mveg",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Infective Endocarditis (IE) Complications",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "NYHA class 3 or 4 heart failure",
+            "md_calc_info_concept": null,
+            "name": "nyha",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Stroke",
+            "md_calc_info_concept": null,
+            "name": "stroke",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Paravalvular complication",
+            "md_calc_info_concept": null,
+            "name": "valv",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Persistent bacteremia",
+            "md_calc_info_concept": null,
+            "name": "bact",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Surgical treatment",
+            "md_calc_info_concept": null,
+            "name": "surg",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": -2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added partner content",
+            "time": "2020-10-08T10:51:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "creator reviewed",
+            "time": "2019-11-06T17:05:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "GW edits",
+            "time": "2019-05-15T12:49:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "d48ddc04434a36f142a471e6b6a02928",
+        "medium_description_en": "<p>Predicts mortality at 6 months in patients with infective endocarditis.</p>",
+        "publishedAt": "2022-04-21T20:29:12.963Z",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "International collaboration",
+          "pcs",
+          "plus",
+          "ie",
+          "infective",
+          "endocarditis",
+          "mortality"
+        ],
+        "search_id": "c-3121",
+        "seo": {
+          "keywords_en": "Mortality, infective, endocarditis, ICE-PCS, ICE-PLUS, andrew wang, International collaboration, pcs, plus, ie, infective, endocarditis, mortality",
+          "meta_description_en": "The IE Mortality Risk Score predicts mortality at 6 months in patients with infective endocarditis."
+        },
+        "short_description_en": "<p>6-month Mortality from Infective Endocarditis.</p>",
+        "short_title_en": "IE Mortality Risk Score",
+        "slug": "infective-endocarditis-ie-mortality-risk-score",
+        "specialty_en": [
+          "Cardiology",
+          "Critical Care",
+          "Emergency Medicine",
+          "Infectious Disease",
+          "Internal Medicine",
+          "Surgery (Cardiothoracic)",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Cardiac"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "c4a98314-9726-43e3-96c9-2f30a16c6443"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Graham Walker, MD, is an emergency physician practicing in San Francisco, California. Dr. Walker attended medical school at the Stanford University School of Medicine and then trained in emergency medicine at St. Luke’s-Roosevelt Hospital Center in New York City, where he was Chief Resident. He returned to the west coast as a Medical Simulation fellow and attending in Stanford’s emergency department. More relevant, of course, is that Dr. Walker is the creator and developer of MDCalc and remains active in content and calculator development, along with our many other endeavors as President of MD Aware, LLC (MDCalc’s parent company).</p>",
+          "firstName": "Graham",
+          "hasDisclosure": [],
+          "img": "https://cdn-web-img.mdcalc.com/people/graham-walker.jpg",
+          "lastName": "Walker",
+          "name": "Graham Walker, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "graham-walker",
+          "updatedAt": "2023-04-06T20:26:06.157Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Andrew Wang, MD, is a Professor of Medicine (Cardiology) at Duke University Hospital and specializes in treating patients with heart valve disease, such as aortic or mitral valve conditions, as well as hypertrophic cardiomyopathy. His clinical research is focused on the effect of therapies on outcome for these conditions. He has led multiple research studies on the use and effect of surgery in endocarditis, which have been supported by the American Heart Association. He is dedicated to educating future cardiologists and has served as the program director for the Duke Cardiovascular Disease Fellowship since 2007, and worked on educational initiatives with the American College of Cardiology and American College of Physicians.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Andrew Wang",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-andrew-wang.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Wang+A%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3121/infective-endocarditis-ie-mortality-risk-score",
+        "description": "The IE Mortality Risk Score predicts mortality at 6 months in patients with infective endocarditis.",
+        "keywords": "Mortality, infective, endocarditis, ICE-PCS, ICE-PLUS, andrew wang, International collaboration, pcs, plus, ie, infective, endocarditis, mortality",
+        "title": "Infective Endocarditis (IE) Mortality Risk Score"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": "1731",
+          "short_title_en": "Duke Criteria for IE",
+          "slug": "duke-criteria-infective-endocarditis"
+        },
+        {
+          "calcId": "4027",
+          "short_title_en": "Jones Criteria for ARF",
+          "slug": "jones-criteria-acute-rheumatic-fever-diagnosis"
+        },
+        {
+          "calcId": "1875",
+          "short_title_en": "MEWS Score",
+          "slug": "modified-early-warning-score-mews-clinical-deterioration"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3121",
+      "infective-endocarditis-ie-mortality-risk-score"
+    ]
+  },
+  "scriptLoader": []
+}

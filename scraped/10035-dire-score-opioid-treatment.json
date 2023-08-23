@@ -1,0 +1,673 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Pain"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"101\" /><col width=\"267\" /><col width=\"81\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Diagnosis</p>\n</td>\n<td>\n<p dir=\"ltr\">Benign chronic condition, minimal objective findings, or no definite diagnosis (examples: fibromyalgia, migraine headaches, non-specific back pain)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Slowly progressive condition concordant with moderate pain or fixed condition with moderate objective findings (examples: failed back surgery syndrome, back pain with moderate degenerative changes, neuropathic pain)</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Advanced condition concordant with severe pain with objective findings (examples: severe ischemic vascular disease, advanced neuropathy, severe spinal stenosis)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Intractability</p>\n</td>\n<td>\n<p dir=\"ltr\">Few therapies tried; patient takes a passive role in pain management process</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Most customary treatments have been tried but patient not fully engaged in pain management process or barriers prevent (examples: insurance, transportation, medical illness)</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Patient fully engaged in spectrum of appropriate treatments but with inadequate response</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Psychological risk</p>\n</td>\n<td>\n<p dir=\"ltr\">Serious personality dysfunction or mental illness interfering with care (examples: personality disorder, severe affective disorder, significant personality issues)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Personality or mental health interferes moderately (examples: depression or anxiety disorder)</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Good communication with clinic, no significant personality dysfunction or mental illness</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Chemical health risk</p>\n</td>\n<td>\n<p dir=\"ltr\">Active or very recent use of illicit drugs, excessive alcohol, or prescription drug abuse</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Chemical coper (uses medications to cope with stress) or history of chemical dependence (CD) in remission</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No CD history, not drug-focused or chemically reliant</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Reliability risk</p>\n</td>\n<td>\n<p dir=\"ltr\">History of numerous problems (medication misuse, missed appointments, rarely follows through)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Occasional difficulties with compliance but generally reliable</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Highly reliable patient with meds, appointments, and treatment</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Social support risk</p>\n</td>\n<td>\n<p dir=\"ltr\">Life in chaos, little family support, few close relationships, loss of most normal life roles</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Reduction in some relationships and life roles</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Supportive family/close relationships, involved in work or school and no social isolation</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Efficacy</p>\n</td>\n<td>\n<p dir=\"ltr\">Poor function or minimal pain relief despite moderate to high doses</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Moderate benefit with improved function in a number of ways (or insufficient information, hasn&rsquo;t tried opioid yet, or very low doses/trial too short)</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Good improvement in pain/function and quality of life with stable doses over time</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"106\" /><col width=\"342\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>DIRE Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Candidacy for long-term opioid analgesia</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">7-13</p>\n</td>\n<td>\n<p dir=\"ltr\">Not a suitable candidate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">14-21</p>\n</td>\n<td>\n<p dir=\"ltr\">Good candidate</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "https://www.sciencedirect.com/science/article/pii/S1526590008008316",
+                  "text": "Chou R, Fanciullo GJ, Fine PG, et al. Clinical guidelines for the use of chronic opioid therapy in chronic noncancer pain. J Pain. 2009;10(2):113-30."
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.jpain.org/article/S1526-5900(06)00626-2/fulltext",
+                  "text": "Belgrade MJ, Schamber CD, Lindgren BR. The DIRE score: predicting outcomes of opioid prescribing for chronic pain. J Pain. 2006;7(9):671-81."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "name": "Dr. Miles J. Belgrade"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "",
+            "why_use_en": "<p><span id=\"docs-internal-guid-659f05e5-c8c8-7f88-7f10-4bd9aed11e90\">No prospective external validation exists that we are aware of, but the American Academy of Pain Medicine recommends the DIRE Score as a potential tool to assess abuse risk (strong recommendation, low quality evidence) (<a href=\"https://www.sciencedirect.com/science/article/pii/S1526590008008316\" target=\"_blank\">Chou 2009</a>).</span></p>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-282da471-c8c9-1344-c6b1-b4d8f8c5cca2\">Evidence on treating chronic noncancer pain is limited. Use best available evidence, alongside clinical judgment, in deciding whether to initiate opioids.</span></p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          }
+        },
+        "disease_en": [
+          "Chronic Pain"
+        ],
+        "dosing": false,
+        "equation_logic": "b858524dcc7fdb3840d530950ee3cea6",
+        "equation_logic_text": "var calc_output = [];\n\nvar diagnosis = parseFloat(diagnosis)\nvar intractability = parseFloat(intractability)\nvar psychological = parseFloat(psychological)\nvar chemical = parseFloat(chemical)\nvar reliability = parseFloat(reliability)\nvar social = parseFloat(social)\nvar efficacy = parseFloat(efficacy)\n\nvar score = diagnosis + intractability + psychological + chemical + reliability + social + efficacy\n\nvar risk\n\nif (score >= 7 && score <= 13) {\n\trisk = 'NOT a suitable candidate for long-term opioid analgesia'\n}\nelse {\n\trisk = 'Good candidate for long-term opioid analgesia'\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: risk\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'DIRE Score'\n});\ncalc_output.push({\n    name: 'risk',\n    value: '',\n    value_text: '',\n    message: risk\n});",
+        "favorite_id": 10035,
+        "full_title_en": "DIRE Score for Opioid Treatment",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Diagnosis",
+            "name": "diagnosis",
+            "optional": false,
+            "options": [
+              {
+                "label": "Benign chronic condition, minimal objective findings, or no definite diagnosis",
+                "value": 1
+              },
+              {
+                "label": "Slowly progressive condition concordant with moderate pain or fixed condition with moderate objective findings",
+                "value": 2
+              },
+              {
+                "label": "Advanced condition concordant with severe pain with objective findings",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Intractability",
+            "name": "intractability",
+            "optional": false,
+            "options": [
+              {
+                "label": "Few therapies tried; patient takes a passive role in pain management process",
+                "value": 1
+              },
+              {
+                "label": "Most customary treatments have been tried but patient not fully engaged in pain management process or barriers prevent (examples: insurance, transportation, medical illness)",
+                "value": 2
+              },
+              {
+                "label": "Patient fully engaged in spectrum of appropriate treatments but with inadequate response",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Psychological risk",
+            "name": "psychological",
+            "optional": false,
+            "options": [
+              {
+                "label": "Serious personality dysfunction or mental illness interfering with care",
+                "value": 1
+              },
+              {
+                "label": "Personality or mental health interferes moderately",
+                "value": 2
+              },
+              {
+                "label": "Good communication with clinic, no significant personality dysfunction or mental illness",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Chemical health risk",
+            "name": "chemical",
+            "optional": false,
+            "options": [
+              {
+                "label": "Active or very recent use of illicit drugs, excessive alcohol, or prescription drug abuse",
+                "value": 1
+              },
+              {
+                "label": "Chemical coper (uses medications to cope with stress) or history of chemical dependence (CD) in remission",
+                "value": 2
+              },
+              {
+                "label": "No CD history, not drug-focused or chemically reliant",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Reliability risk",
+            "name": "reliability",
+            "optional": false,
+            "options": [
+              {
+                "label": "History of numerous problems (medication misuse, missed appointments, rarely follows through)",
+                "value": 1
+              },
+              {
+                "label": "Occasional difficulties with compliance but generally reliable",
+                "value": 2
+              },
+              {
+                "label": "Highly reliable patient with meds, appointments, and treatment",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Social support risk",
+            "name": "social",
+            "optional": false,
+            "options": [
+              {
+                "label": "Life in chaos, little family support, few close relationships, loss of most normal life roles",
+                "value": 1
+              },
+              {
+                "label": "Reduction in some relationships and life roles",
+                "value": 2
+              },
+              {
+                "label": "Supportive family/close relationships, involved in work or school and no social isolation",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Efficacy",
+            "name": "efficacy",
+            "optional": false,
+            "options": [
+              {
+                "label": "Poor function or minimal pain relief despite moderate to high doses",
+                "value": 1
+              },
+              {
+                "label": "Moderate benefit with improved function in a number of ways (or insufficient information, hasn’t tried opioid yet, or very low doses/trial too short)",
+                "value": 2
+              },
+              {
+                "label": "Good improvement in pain/function and quality of life with stable doses over time",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "new calc",
+            "time": "2018-6-20 10:21 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited",
+            "time": "2018-6-20 10:33 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited",
+            "time": "2018-6-20 10:37 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2018-6-20 12:01 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "restoring calc ID 10033 to 10035 \"DIRE Score\"",
+            "time": "2018-6-20 2:20 PM",
+            "user": "sang"
+          },
+          {
+            "message": "Equation logic added",
+            "time": "2018-6-28 10:55 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits from RK review",
+            "time": "2018-7-5 1:51 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "changed default values of 0 to 1 - default values is indices (position that starts from 0) instead of values",
+            "time": "2018-7-6 12:13 PM",
+            "user": "sang"
+          },
+          {
+            "message": "1st and 2nd round edits",
+            "time": "2018-7-20 9:46 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-7-20 12:11 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "GW edits",
+            "time": "2018-7-23 4:17 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Added commas in advice",
+            "time": "2018-7-23 4:51 PM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "dbb64028301e6f68a5cfad806f81f4ba",
+        "medium_description_en": "<p>Predicts compliance with opioid treatment for chronic noncancer pain.<br /><span id=\"docs-internal-guid-292a06cf-1d7a-9e6f-0dea-ad73bcf0c7e8\"></span></p>",
+        "purpose_en": [
+          "Prognosis",
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "Opioid treatment",
+          "compliance",
+          "risk",
+          "analgesia",
+          "DIRE score"
+        ],
+        "search_id": "c-10035",
+        "seo": {
+          "keywords_en": "Opioid treatment, compliance, risk, analgesia, DIRE score, opioid risk tool, ORT",
+          "meta_description_en": "The DIRE Score for Analgesic Opioid Treatment predicts patient compliance with opioid treatment for chronic noncancer pain."
+        },
+        "short_description_en": "Opioid treatment compliance.",
+        "short_title_en": "DIRE Score",
+        "slug": "dire-score-opioid-treatment",
+        "specialty_en": [
+          "Pain Management",
+          "Psychiatry",
+          "Toxicology",
+          "Primary Care",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Psychiatric"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Miles J. Belgrade, MD, is the medical director of Fairview Pain and Palliative Care Center. He is also an adjunct professor in the neurology department at University of Minnesota Medical School. Dr. Belgrade's primary research is focused on neuropathy, pain medicine, and treatment planning.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Miles J. Belgrade",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-miles-j-belgrade.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Belgrade+MJ%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10035/dire-score-opioid-treatment",
+        "description": "The DIRE Score for Analgesic Opioid Treatment predicts patient compliance with opioid treatment for chronic noncancer pain.",
+        "keywords": "Opioid treatment, compliance, risk, analgesia, DIRE score, opioid risk tool, ORT",
+        "title": "DIRE Score for Opioid Treatment"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": "1757",
+          "short_title_en": "Opioid Risk Tool (ORT)",
+          "slug": "opioid-risk-tool-ort-narcotic-abuse"
+        },
+        {
+          "calcId": "1985",
+          "short_title_en": "COWS Score",
+          "slug": "cows-score-opiate-withdrawal"
+        },
+        {
+          "calcId": "2021",
+          "short_title_en": "AUDIT-C",
+          "slug": "audit-c-alcohol-use"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10035",
+      "dire-score-opioid-treatment"
+    ]
+  },
+  "scriptLoader": []
+}

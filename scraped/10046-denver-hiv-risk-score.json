@@ -1,0 +1,712 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p>This calculator includes inputs based on race, which may or may not provide better estimates, so we have decided to make race optional.&nbsp;<a target=\"_blank\" data-stringify-link=\"https://www.mdcalc.com/race\" delay=\"150\" data-sk=\"tooltip_parent\" href=\"https://www.mdcalc.com/race\" rel=\"noopener noreferrer\">See here</a>&nbsp;for more on our approach to addressing&nbsp;race and bias on MDCalc.</p>\n<p>For the same other inputs, this calculator estimates higher risk of HIV prevalence in Hispanic and Black patients.</p>",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Fatigue",
+          "Fever",
+          "Rash",
+          "Sore Throat"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"151\" /><col width=\"127\" /><col width=\"93\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"7\">\n<p dir=\"ltr\">Age, years</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;22</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">22&ndash;25</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">26&ndash;32</p>\n</td>\n<td>\n<p dir=\"ltr\">10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">33&ndash;46</p>\n</td>\n<td>\n<p dir=\"ltr\">12</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">47&ndash;54</p>\n</td>\n<td>\n<p dir=\"ltr\">10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">55&ndash;60</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;60</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Gender</p>\n</td>\n<td>\n<p dir=\"ltr\">Female</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Male</p>\n</td>\n<td>\n<p dir=\"ltr\">21</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Sexual practices*</p>\n</td>\n<td>\n<p dir=\"ltr\">Sex with a male</p>\n</td>\n<td>\n<p dir=\"ltr\">22</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Receptive anal intercourse</p>\n</td>\n<td>\n<p dir=\"ltr\">8</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Vaginal intercourse</p>\n</td>\n<td>\n<p dir=\"ltr\">-10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">None of the above</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Other risk factors</p>\n<p dir=\"ltr\"></p>\n<p dir=\"ltr\"></p>\n</td>\n<td>\n<p dir=\"ltr\">Injection drug use</p>\n</td>\n<td>\n<p dir=\"ltr\">9</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Past HIV testing</p>\n</td>\n<td>\n<p dir=\"ltr\">-4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Neither</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">Race/ethnicity**</td>\n<td>\n<p dir=\"ltr\">Black</p>\n</td>\n<td>\n<p dir=\"ltr\">9</p>\n</td>\n</tr>\n<tr>\n<td>Hispanic</td>\n<td>3</td>\n</tr>\n<tr>\n<td>American Indian, Alaska Native, Native Hawaiian, non-Hawaiian Pacific Islander, or other</td>\n<td>0</td>\n</tr>\n<tr>\n<td>White</td>\n<td>0</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">*Choose practice that yields the highest score, e.g. if patient engages in both vaginal and receptive anal intercourse, choose the latter to assign 8 points.</p>\n<p><span id=\"docs-internal-guid-11988e27-3d15-0f1f-43ea-0647ed8d25b8\">**Race may/may not provide better estimates of HIV prevalence; optional.&nbsp;<a target=\"_blank\" data-stringify-link=\"https://www.mdcalc.com/race\" delay=\"150\" data-sk=\"tooltip_parent\" href=\"https://www.mdcalc.com/race\" rel=\"noopener noreferrer\">See here</a>&nbsp;for more on our approach to addressing race and bias on MDCalc.</p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"123\" /><col width=\"112\" /><col width=\"199\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk </strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>HIV prevalence (95% CI)</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;20</p>\n</td>\n<td>\n<p dir=\"ltr\">Very low</p>\n</td>\n<td>\n<p dir=\"ltr\">0.31% (0.20-0.45)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">20-29</p>\n</td>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n<td>\n<p dir=\"ltr\">0.41% (0.29-0.57)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">30-39</p>\n</td>\n<td>\n<p dir=\"ltr\">Moderate</p>\n</td>\n<td>\n<p dir=\"ltr\">0.99% (0.63-1.47)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">40-49</p>\n</td>\n<td>\n<p dir=\"ltr\">High</p>\n</td>\n<td>\n<p dir=\"ltr\">1.59% (1.02-2.36)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;50</p>\n</td>\n<td>\n<p dir=\"ltr\">Very high</p>\n</td>\n<td>\n<p dir=\"ltr\">3.59% (2.73-4.63)</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://academic.oup.com/aje/article/175/8/838/202955",
+                  "text": "Haukoos JS, Lyons MS, Lindsell CJ, et al. Derivation and validation of the Denver Human Immunodeficiency Virus (HIV) risk score for targeted HIV screening. Am J Epidemiol. 2012;175(8):838-46."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.annemergmed.com/article/S0196-0644(12)01704-0/abstract",
+                  "text": "Haukoos JS, Hopkins E, Bender B, et al. Comparison of enhanced targeted rapid HIV screening using the Denver HIV risk score to nontargeted rapid HIV screening in the emergency department. Ann Emerg Med. 2013;61(3):353-61."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Jason S. Haukoos",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the&nbsp;Denver HIV Risk Score and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the&nbsp;Denver HIV Risk Score&nbsp;and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "HIV/AIDS"
+        ],
+        "dosing": false,
+        "equation_logic_text": "var calc_output = [];\n\nvar age = parseFloat(age);\nvar gender = parseFloat(gender);\nvar race = parseFloat(race) || -5;\nvar practices = parseFloat(practices);\nvar other = parseFloat(other);\n\n\nif (race >=0){\nvar score = age + gender + race + practices + other-1;\n\nvar risk;\nvar prev;\n\nif (score < 20) {\n\trisk = 'Very low';\n  \tprev = '0.31';\n}\nelse if (score >= 20 && score <= 29) {\n\trisk = 'Low';\n  \tprev = '0.41';\n}\nelse if (score >= 30 && score <= 39) {\n\trisk = 'Moderate';\n  \tprev = '0.99';\n}\nelse if (score >= 40 && score <= 49) {\n\trisk = 'High';\n  \tprev = '1.59';\n}\nelse {\n\trisk = 'Very high';\n  \tprev = '3.59';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: risk + ' risk'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'Denver Score'\n});\ncalc_output.push({\n    name: 'risk',\n    value: risk,\n    value_text: 'risk',\n    message: ''\n});\ncalc_output.push({\n    name: 'prev',\n    value: prev,\n    value_text: '%',\n    message: 'HIV prevalence'\n});\n}\n\nif (race ==-5){\nvar score1 = age + gender + practices + other;\nvar score2 = age + gender + practices + other + 9;\n\nvar risk;\nvar prev;\n\nif (score1 < 20 && score2 <20) {\n\trisk = 'Very low';\n  \tprev = '0.31';\n}\nelse if (score1 < 20 && score2 >=20 && score2 <=29) {\n\trisk = 'Very low to low';\n  \tprev = '0.31-0.41';\n}\nelse if (score1 >= 20 && score1 <= 29 && score2 >= 20 && score2 <= 29) {\n\trisk = 'Low';\n  \tprev = '0.41';\n}\nelse if (score1 >= 20 && score1 <= 29 && score2 >= 30 && score2 <= 39) {\n\trisk = 'Low to moderate';\n  \tprev = '0.41-0.99';\n}\nelse if (score1 >= 30 && score1 <= 39 && score2 >= 30 && score2 <= 39) {\n\trisk = 'Moderate';\n  \tprev = '0.99';\n}\nelse if (score1 >= 30 && score1 <= 39 && score2 >= 40 && score2 <= 49) {\n\trisk = 'Moderate to high';\n  \tprev = '0.99-1.59';\n}\nelse if (score1 >= 40 && score1 <= 49 && score2 >= 40 && score2 <= 49) {\n\trisk = 'High';\n  \tprev = '1.59';\n}\nelse if (score1 >= 40 && score1 <= 49 && score2 >= 50) {\n\trisk = 'High to very high';\n  \tprev = '1.59';\n}\nelse if (score1 >=50 && score2 >=50){\n\trisk = 'Very high';\n  \tprev = '3.59';\n}\n\nif (score1 <0 && score2 <0){\n\tscore = score1 +\"-\" +\"(\"+ score2+\")\";\n}\n  \nif (score1 >=0 || score2 >=0){\n\tscore = score1 +\"-\"+ score2;\n}\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: risk + ' risk'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'Denver Score'\n});\ncalc_output.push({\n    name: 'risk',\n    value: risk,\n    value_text: 'risk',\n    message: ''\n});\ncalc_output.push({\n    name: 'prev',\n    value: prev,\n    value_text: '%',\n    message: 'HIV prevalence'\n});\n}",
+        "favorite_id": 10046,
+        "full_title_en": "Denver HIV Risk Score",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Age, years ",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "<22",
+                "value": 0
+              },
+              {
+                "label": "22–25",
+                "value": 4
+              },
+              {
+                "label": "26–32",
+                "value": 10
+              },
+              {
+                "label": "33–46",
+                "value": 12
+              },
+              {
+                "label": "47–54",
+                "value": 10
+              },
+              {
+                "label": "55–60",
+                "value": 4
+              },
+              {
+                "label": ">60",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Gender",
+            "name": "gender",
+            "optional": false,
+            "options": [
+              {
+                "label": "Female",
+                "value": 0
+              },
+              {
+                "label": "Male",
+                "value": 21
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Sexual practices",
+            "name": "practices",
+            "optional": false,
+            "options": [
+              {
+                "label": "Sex with a male",
+                "value": 22
+              },
+              {
+                "label": "Receptive anal intercourse",
+                "value": 8
+              },
+              {
+                "label": "Vaginal intercourse",
+                "value": -10
+              },
+              {
+                "label": "None of the above",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Choose practice that yields the highest score, e.g. if patient engages in both vaginal and receptive anal intercourse, choose the latter to assign 8 points",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Other risk factors",
+            "name": "other",
+            "optional": false,
+            "options": [
+              {
+                "label": "Injection drug use",
+                "value": 9
+              },
+              {
+                "label": "Past HIV testing",
+                "value": -4
+              },
+              {
+                "label": "Neither",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Race/ethnicity",
+            "name": "race",
+            "optional": true,
+            "options": [
+              {
+                "label": "Black",
+                "value": 10
+              },
+              {
+                "label": "Hispanic",
+                "value": 4
+              },
+              {
+                "label": "American Indian, Alaska Native, Native Hawaiian, non-Hawaiian Pacific Islander, or other",
+                "value": 1
+              },
+              {
+                "label": "White",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Race may/may not provide better estimates of HIV prevalence; optional",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "added in range",
+            "time": "2020-11-18T15:33:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added parentheses",
+            "time": "2020-11-18T13:26:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "spaces only when negative",
+            "time": "2020-11-18T13:22:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added space",
+            "time": "2020-11-18T13:09:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added space between numbers",
+            "time": "2020-11-18T13:04:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added space between numbers",
+            "time": "2020-11-18T09:01:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic (fixed error)",
+            "time": "2020-11-13T12:09:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic (zero input error)",
+            "time": "2020-11-13T11:14:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-11-13T11:04:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited evidence section",
+            "time": "2020-11-12T10:13:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "adjusted instructions",
+            "time": "2020-11-12T10:03:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added semicolons",
+            "time": "2020-11-11T14:10:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "race inputs edits",
+            "time": "2020-07-30T14:06:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2018-07-19T19:09:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added zero points to last two inputs",
+            "time": "2018-07-16T13:45:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Edits from 1st round testing",
+            "time": "2018-07-16T12:06:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Edits from 1st round testing",
+            "time": "2018-07-16T11:44:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Edits from 1st round testing",
+            "time": "2018-07-11T00:11:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "default value for other risk factors changed",
+            "time": "2018-07-06T12:14:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "default should be set to the index (position) of option instead of value. ",
+            "time": "2018-07-06T10:48:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "Added RK edits",
+            "time": "2018-07-05T13:57:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Added RK's edits",
+            "time": "2018-06-28T14:45:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Edits to Evidence and input",
+            "time": "2018-06-28T10:44:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "equation logic added",
+            "time": "2018-06-28T09:49:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "defaults editted",
+            "time": "2018-06-27T11:08:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "built new calc",
+            "time": "2018-06-26T13:48:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "claiming calc id",
+            "time": "2018-06-26T12:49:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-125e6dda-3cff-e8b3-7d5e-c66fe3b515ca\">Predicts probability of undiagnosed HIV infection. </span></p>",
+        "purpose_en": [
+          "Diagnosis",
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "HIV",
+          "Denver",
+          "risk score",
+          "human immunodeficiency virus",
+          "denver score",
+          "aids"
+        ],
+        "search_id": "c-10046",
+        "seo": {
+          "keywords_en": "HIV, Denver, risk score, human immunodeficiency virus, denver score, aids",
+          "meta_description_en": "The Denver HIV Risk Score predicts probability of undiagnosed HIV infection. "
+        },
+        "short_description_en": "HIV risk screening.",
+        "short_title_en": "Denver HIV Score",
+        "slug": "denver-hiv-risk-score",
+        "specialty_en": [
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Infectious Disease",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Immunologic",
+          "Infectious"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Jason S. Haukoos, MD, is the research director of the emergency medicine department at Denver Health Medical Center. He is also an associate professor of emergency medicine at the University of Colorado Denver. Dr. Haukoos' primary research is focused on hospital and infectious disease epidemiology, and HIV/AIDS screening.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Jason S. Haukoos",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-jason-s-haukoos.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Haukoos+JS%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10046/denver-hiv-risk-score",
+        "description": "The Denver HIV Risk Score predicts probability of undiagnosed HIV infection. ",
+        "keywords": "HIV, Denver, risk score, human immunodeficiency virus, denver score, aids",
+        "title": "Denver HIV Risk Score"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10281,
+          "short_title_en": "Lung Injury Prediction Score (LIPS)",
+          "slug": "lung-injury-prediction-score-lips"
+        },
+        {
+          "calcId": 10470,
+          "short_title_en": "VIRSTA Score",
+          "slug": "virsta-score"
+        },
+        {
+          "calcId": 2201,
+          "short_title_en": "VACS 1.0 Index",
+          "slug": "veterans-aging-cohort-study-vacs-1.0-index"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10046",
+      "denver-hiv-risk-score"
+    ]
+  },
+  "scriptLoader": []
+}

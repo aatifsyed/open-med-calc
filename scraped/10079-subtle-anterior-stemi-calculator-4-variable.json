@@ -1,0 +1,661 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain",
+          "Shortness of Breath",
+          "Weakness"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+157",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+157",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "10079.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p><span id=\"docs-internal-guid-56171ab2-7fff-f8e8-a457-f172abaa286f\">Subtle Anterior STEMI 4-Variable Calculation = 0.052 x (<calculator id=\"48\">Bazett-corrected QT interval</calculator>, ms) - 0.151 x (QRS amplitude in lead V2, mm) - 0.268 x (R wave amplitude in lead V4, mm) + 1.062 x (ST segment elevation 60 ms after the J point in lead V3, mm)</span></p>",
+            "more_info_en": "<p><strong><span id=\"docs-internal-guid-2d7e72ce-7fff-7e81-64b3-941fcd02e24e\">Interpretation:</span></strong></p>\n<p><span id=\"docs-internal-guid-2d7e72ce-7fff-7e81-64b3-941fcd02e24e\">Scores &ge;18.2 are likely to be anterior STEMI (</span><span id=\"docs-internal-guid-2d7e72ce-7fff-7e81-64b3-941fcd02e24e\">83.3%</span><span id=\"docs-internal-guid-2d7e72ce-7fff-7e81-64b3-941fcd02e24e\"> sensitivity, 87.7% specificity, and 85.9% diagnostic accuracy</span><span id=\"docs-internal-guid-2d7e72ce-7fff-7e81-64b3-941fcd02e24e\">).</span></p>\n<p><span id=\"docs-internal-guid-2d7e72ce-7fff-7e81-64b3-941fcd02e24e\">Scores &lt;18.</span><span id=\"docs-internal-guid-2d7e72ce-7fff-7e81-64b3-941fcd02e24e\">2 are likely to be benign early repolarization.</span></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.sciencedirect.com/science/article/pii/S0022073617301073",
+                  "text": "Driver BE, Khalil A, Henry T, Kazmi F, Adil A, Smith SW. A new 4-variable formula to differentiate normal variant ST segment elevation in V2-V4 (early repolarization) from subtle left anterior descending coronary occlusion - Adding QRS amplitude of V2 improves the model. J Electrocardiol. 2017;50(5):561-569."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22520989",
+                  "text": "Smith SW, Khalil A, Henry TD, et al. Electrocardiographic differentiation of early repolarization from subtle anterior ST-segment elevation myocardial infarction. Ann Emerg Med. 2012;60(1):45-56.e2."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://onlinelibrary.wiley.com/doi/abs/10.1111/anec.12568",
+                  "text": "Bozbeyoğlu E, Aslanger E, Yıldırımtürk Ö, et al. A tale of two formulas: Differentiation of subtle anterior MI from benign ST segment elevation. Ann Noninvasive Electrocardiol. 2018;:e12568."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Dominic Larose, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Stephen W. Smith",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>The authors specifically excluded patients with obvious MI. Using the calculator in cases that were excluded in the study may lead to a wrong result.</li>\n</ul>\n<p><strong>Tips for&nbsp;EKG interpretation:</strong></p>\n<ul>\n<li>Measure STE at 60 ms in lead V3:</li>\n<li style=\"list-style-type: none;\"><img src=\"https://cdn-web-img.mdcalc.com/content/subtle-stemi-ste.png\" alt=\"\" width=\"50%\"></li>\n<li>ST elevation at 60 ms after the J-point in lead V3, relative to the PR segment\n<ul>\n<li>Measure STE 60&nbsp;ms&nbsp;(1&frac12; small box after J point).</li>\n<li>The baseline is the PR segment.</li>\n<li>In this example, STE 60 = 4 mm.</li>\n</ul>\n</li>\n<li>Measure amplitude of R wave in V4:<img src=\"https://cdn-web-img.mdcalc.com/content/subtle-stemi-r-wave.png\" alt=\"\" width=\"75%\"></li>\n<ul>\n<li>In this example, RV4 = 9 mm.</li>\n<li>Read the QTc: QTc is simply read from the computerized interpretation (uses <calculator id=\"48\">Bazett's formula</calculator>).</li>\n</ul>\n</ul>",
+            "use_case_en": "<p>Use in chest pain patients presenting&nbsp;with an EKG that is non-diagnostic but suspicious for anterior MI.</p>",
+            "why_use_en": "<ul>\n<li>Both benign early repolarization and STEMI cause ST elevation. The challenge is to differentiate the two entities.</li>\n<li>Some patients present with subtle EKG changes nondiagnostic for STEMI but still have 100% coronary artery occlusion and benefit from acute percutaneous transluminal coronary angioplasty (PTCA).</li>\n<li>Using the equation in such cases&nbsp;can lead to timely cath lab activation, or more intensive evaluation.</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>Cath lab activation is appropriate in Smith-positive patients, in the proper clinical context. At the very least, it should prompt very frequent serial EKGs and echocardiography.</li>\n<li>The formula is best used to identify patients with LAD occlusion&nbsp;initially thought to have normal variant early repolarization.&nbsp;</li>\n<li>If results indicate negative for STEMI, proceed with caution if STEMI was otherwise suspected.</li>\n</ul>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Myocardial Infarction"
+        ],
+        "dosing": false,
+        "equation_logic": "922e0bd6896daf33b58a8802b00f41a2",
+        "equation_logic_text": "var calc_output=[];\nvar u=0.052*(parseFloat(bazett)) - 0.151*(parseFloat(qrs)) - 0.268*(parseFloat(rwave)) + 1.062*(parseFloat(st));\nvar msg='';\nvar mini_msg='';\n\nif(u.toFixed(1) >= 18.2){\n  msg='Likely anterior STEMI';\n  mini_msg='Likely anterior STEMI'\n} \nelse if (u.toFixed(1) < 18.2) {\n  msg='Likely benign early repolarization';\n  mini_msg='Likely benign early repolarization'\n} \ncalc_output.push({name:'mini',value:u.toFixed(1),value_text:'points',message:mini_msg}); \n\ncalc_output.push({name:'Subtle Anterior STEMI 4-Variable',value:u.toFixed(1),value_text:'points',message:msg});",
+        "favorite_id": 10079,
+        "full_title_en": "Subtle Anterior STEMI Calculator (4-Variable)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<calculator id = \"48\">Bazett-corrected QT interval</calculator>",
+            "name": "bazett",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "qt"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "QRS amplitude in lead V2",
+            "name": "qrs",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "length_si_mm"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "R wave amplitude in lead V4",
+            "name": "rwave",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "length_si_mm"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "ST segment elevation 60 ms after the J point in lead V3",
+            "name": "st",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "length_si_mm"
+          }
+        ],
+        "instructions_en": "<p>Note: this calculator replaces the older 3-variable version and is recommended by MDCalc and Dr. Stephen Smith. Before using this calculator, make sure the EKG shows &ge;1 mm ST elevation (STE)&nbsp;in&nbsp;&ge;1 of the precordial leads V2-V4. If it shows any one of the following, then it is NOT normal variant, and is very likely to be LAD occlusion; such cases were excluded from the study as \"obvious\" MI:</p>\n<ul>\n<li>&gt;5 mm STE.</li>\n<li>Non-concave STE.</li>\n<li>Inferior reciprocal changes.</li>\n<li>Anterior ST depression.</li>\n<li>Terminal QRS distortion in V2 or V3:</li>\n<li style=\"list-style-type: none;\"><img src=\"https://cdn-web-img.mdcalc.com/content/subtle-stemi-qrs.png\" alt=\"\" width=\"50%\"></li>\n<li>Q waves in any of V2 to V4.</li>\n<li>Any T wave inversion from V2 to V6.</li>\n</ul>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "claiming calc id",
+            "time": "2018-8-7 1:29 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "built calc",
+            "time": "2018-8-7 1:46 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added equation logic",
+            "time": "2018-8-7 2:06 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Debugged",
+            "time": "2018-8-7 2:18 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added dummy content",
+            "time": "2018-8-7 2:29 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added contributor content",
+            "time": "2018-10-12 09:33 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added contributor content",
+            "time": "2018-10-12 09:37 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added creator feedback",
+            "time": "2018-10-12 01:58 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-10-26 03:16 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added calc link to first input",
+            "time": "2018-10-26 03:20 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2018-10-26 03:26 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2018-10-26 03:28 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2018-11-09 11:00 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "creato info updated",
+            "time": "2018-11-09 11:29 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added note about replacing 3-variable version",
+            "time": "2018-12-19 06:16 PM",
+            "user": "rachel"
+          }
+        ],
+        "md5": "6074490804c3c19b9c70e1dc2b45d397",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-1ac8c104-7fff-d196-916e-85ff28dd4eea\">Differentiates normal variant ST elevation (benign early repolarization) from anterior STEMI, more sensitive than 3-variable version.</span></p>",
+        "publishedAt": "2022-04-21T20:28:15.269Z",
+        "purpose_en": [
+          "Calculation",
+          "Diagnosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "early repolarization",
+          "repol",
+          "jpoint",
+          "benign",
+          "ekg",
+          "myocardial infarction",
+          "normal ST elevation",
+          "NVSTE",
+          "NV-STE",
+          "lad occlusion",
+          "MI",
+          "STE"
+        ],
+        "search_id": "c-10079",
+        "seo": {
+          "keywords_en": "early repolarization, repol, jpoint, benign, ekg, myocardial infarction, normal ST elevation, NVSTE, NV-STE, lad occlusion",
+          "meta_description_en": "The Subtle Anterior STEMI Calculator (4-Variable) differentiates normal variant ST elevation (benign early repolarization) from anterior STEMI, more sensitive than 3-variable version."
+        },
+        "short_description_en": "<p>Normal variant ST elevation vs true anterior STEMI.</p>",
+        "short_title_en": "Subtle Anterior STEMI (4-Variable)",
+        "slug": "subtle-anterior-stemi-calculator-4-variable",
+        "specialty_en": [
+          "Cardiology",
+          "Critical Care",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Cardiac"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "61e749c0-4e6b-4d84-b706-d476a0c5dc3a"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Dominic",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Larose",
+          "name": "Dominic Larose, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10079/subtle-anterior-stemi-calculator-4-variable",
+        "description": "The Subtle Anterior STEMI Calculator (4-Variable) differentiates normal variant ST elevation (benign early repolarization) from anterior STEMI, more sensitive than 3-variable version.",
+        "keywords": "early repolarization, repol, jpoint, benign, ekg, myocardial infarction, normal ST elevation, NVSTE, NV-STE, lad occlusion",
+        "title": "Subtle Anterior STEMI Calculator (4-Variable)"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 10000,
+          "error_max_si": 10000,
+          "error_max_us": 10000,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Length",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "length_si_mm",
+          "units_si": "mm",
+          "units_us": "mm",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 1000,
+          "warn_max_si": 1000,
+          "warn_max_us": 1000,
+          "warn_min": 0.1,
+          "warn_min_si": 0.1,
+          "warn_min_us": 0.1
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 750,
+          "error_max_si": 750,
+          "error_max_us": 750,
+          "error_min": 200,
+          "error_min_si": 200,
+          "error_min_us": 200,
+          "name": "QT Interval",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "qt",
+          "units_si": "msec",
+          "units_us": "msec",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 650,
+          "warn_max_si": 650,
+          "warn_max_us": 650,
+          "warn_min": 200,
+          "warn_min_si": 200,
+          "warn_min_us": 200
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 3942,
+          "short_title_en": "T-MACS",
+          "slug": "troponin-manchester-acute-coronary-syndromes-t-macs-decision-aid"
+        },
+        {
+          "calcId": 665,
+          "short_title_en": "TIMI Risk Index",
+          "slug": "timi-risk-index"
+        },
+        {
+          "calcId": 38,
+          "short_title_en": "Framingham Risk Score (Hard Coronary Heart Disease)",
+          "slug": "framingham-risk-score-hard-coronary-heart-disease"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10079",
+      "subtle-anterior-stemi-calculator-4-variable"
+    ]
+  },
+  "scriptLoader": []
+}

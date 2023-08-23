@@ -1,0 +1,1460 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "diagnostic_criteria",
+        "chief_complaint_en": [
+          "Weight Loss/Gain",
+          "Fatigue",
+          "Pain",
+          "Fever",
+          "Chest Pain",
+          "Headache"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"195\" /><col width=\"194\" /><col width=\"60\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Systemic</p>\n</td>\n<td>\n<p dir=\"ltr\">None</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Malaise or weight loss &gt;2 kg</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Myalgia, arthralgia, or arthritis</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Headache</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Abdominal&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">None</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Severe abdominal pain (pain presenting as an emergency with features of bowel ischemia, best confirmed by imaging or surgery)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Genitourinary&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">None</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Recent history of spontaneous abortion (spontaneous fetal loss within 12 weeks)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Renal</p>\n</td>\n<td>\n<p dir=\"ltr\">None</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Systolic BP &gt;140</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Diastolic BP &gt;90</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Neurologic</p>\n</td>\n<td>\n<p dir=\"ltr\">None</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Stroke</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Seizures (not hypertensive)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Syncope</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Vertigo/dizziness</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"9\">\n<p dir=\"ltr\">Cardiovascular</p>\n</td>\n<td>\n<p dir=\"ltr\">None</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Bruits</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Pulse inequality</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">New loss of pulses</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Claudication</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Carotidynia</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Aortic incompetence</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Myocardial infarct/angina</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Cardiomyopathy/cardiac failure</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Carotid bruits</p>\n</td>\n<td>\n<p dir=\"ltr\">Right</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Left</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Subclavian bruits</p>\n</td>\n<td>\n<p dir=\"ltr\">Right</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Left</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Renal bruits</p>\n</td>\n<td>\n<p dir=\"ltr\">Right</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Left</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Pulse and BP inequality</p>\n</td>\n<td>\n<p dir=\"ltr\">Not present</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Present</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Carotid pulse loss</p>\n</td>\n<td>\n<p dir=\"ltr\">Right</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Left</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Subclavian pulse loss</p>\n</td>\n<td>\n<p dir=\"ltr\">Right</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Left</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Brachial pulse loss</p>\n</td>\n<td>\n<p dir=\"ltr\">Right</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Left</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Radial pulse loss</p>\n</td>\n<td>\n<p dir=\"ltr\">Right</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Left</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Femoral pulse loss</p>\n</td>\n<td>\n<p dir=\"ltr\">Right</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Left</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Popliteal pulse loss</p>\n</td>\n<td>\n<p dir=\"ltr\">Right</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Left</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Posterior tibial pulse loss</p>\n</td>\n<td>\n<p dir=\"ltr\">Right</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Left</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Dorsalis pedis pulse loss</p>\n</td>\n<td>\n<p dir=\"ltr\">Right</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Left</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Claudication</p>\n</td>\n<td>\n<p dir=\"ltr\">Arm</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Leg</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-caabc280-7fff-08b3-bd5c-2ff88a29b3e1\"></span><span id=\"docs-internal-guid-caabc280-7fff-08b3-bd5c-2ff88a29b3e1\"><br /></span></p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"*\" /><col width=\"*\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>ITAS2010 Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Disease activity</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;2</p>\n</td>\n<td>\n<p dir=\"ltr\">Inactive</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;2</p>\n</td>\n<td>\n<p dir=\"ltr\">Active</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-5b1317d0-7fff-a272-7ea6-148498ca5f84\"></span><span id=\"docs-internal-guid-5b1317d0-7fff-a272-7ea6-148498ca5f84\"><br /></span></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://academic.oup.com/rheumatology/article/52/10/1795/1791761",
+                  "text": "Misra R, Danda D, Rajappa SM, et al. Development and initial validation of the Indian Takayasu Clinical Activity Score (ITAS2010). Rheumatology (Oxford). 2013;52(10):1795-801."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "name": "Dr. Ramnath Misra"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the ITAS2010 and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the ITAS2010 and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          }
+        },
+        "disease_en": [
+          "Heart Failure",
+          "Stroke/TIA"
+        ],
+        "dosing": false,
+        "equation_logic": "843057610e8778075ed75da5d0c63607",
+        "equation_logic_text": "var arm = arm || 0;\nvar leg = leg || 0;\nvar claud = claud || 0;\nvar nlop = nlop || 0;\nvar pulse = pulse || 0;\nvar cpr = cpr ||0;\nvar cpl = cpl||0;\nvar spr =spr||0;\nvar spl =spl||0;\nvar bpr = bpr||0;\nvar bpl = bpl||0;\nvar rpr = rpr||0;\nvar rpl = rpl||0;\nvar fpr = fpr||0;\nvar fpl = fpl||0;\nvar ppr = ppr||0;\nvar ppl = ppl||0;\nvar ptpr = ptpr||0;\nvar ptpl = ptpl||0;\nvar dppr = dppr||0;\nvar dppl = dppl||0;\nvar carotidright = carotidright|| 0;\nvar carotidleft = carotidleft|| 0;\nvar subright = subright||0;\nvar subleft = subleft||0;\nvar renalright = renalright||0;\nvar renalleft = renalleft||0;\nvar ineq = ineq||0;\n\nvar calc_output = [];\n\nvar a = parseFloat(malaise);\nvar b = parseFloat(arthritis);\nvar c = parseFloat(headache);\nvar d = parseFloat(pain);\nvar e = parseFloat(abort);\nvar f = parseFloat(dias);\nvar g = parseFloat(sys);\nvar h = parseFloat(stroke);\nvar i = parseFloat(seizure);\nvar j = parseFloat(syncope);\nvar k = parseFloat(vertigo);\nvar l = parseFloat(bruits);\nvar m = parseFloat(pulse);\nvar n = parseFloat(nlop);\nvar o = parseFloat(claud);\nvar p = parseFloat(carot);\nvar q = parseFloat(aortic);\nvar r = parseFloat(angina);\nvar s = parseFloat(failure);\nvar t = parseFloat(carotidright);\nvar u = parseFloat(carotidleft);\nvar v = parseFloat(subright);\nvar w = parseFloat(subleft);\nvar x = parseFloat(renalright);\nvar y = parseFloat(renalleft);\nvar z = parseFloat(ineq);\nvar cpr = parseFloat(cpr);\nvar cpl = parseFloat(cpl);\nvar spr = parseFloat(spr);\nvar spl = parseFloat(spl);\nvar bpr = parseFloat(bpr);\nvar bpl = parseFloat(bpl);\nvar rpr = parseFloat(rpr);\nvar rpl = parseFloat(rpl);\nvar fpr = parseFloat(fpr);\nvar fpl = parseFloat(fpl);\nvar ppr = parseFloat(ppr);\nvar ppl = parseFloat(ppl);\nvar ptpr = parseFloat(ptpr);\nvar ptpl = parseFloat(ptpl);\nvar dppr = parseFloat(dppr);\nvar dppl = parseFloat(dppl);\nvar arm = parseFloat(arm);\nvar leg = parseFloat(leg);\n\nvar score = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + cpr + cpl + spr + spl + bpr + bpl + rpr + rpl + fpr + fpl + ppr + ppl + ptpr + ptpl + dppr + dppl + arm + leg;\n\nvar msg = '';\n\nif (score < 2){\n  msg = 'Inactive TA';\n}\nelse if (score >= 2){\n  msg = 'Active TA';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: msg,\n    value_text: '',\n    message: score + ' points'\n});\ncalc_output.push({\n    name: 'Score',\n    value: msg,\n    value_text: '',\n    message: score + ' points'   \n});",
+        "favorite_id": 10100,
+        "full_title_en": "Indian Takayasu Clinical Activity Score (ITAS2010)",
+        "input_schema": [
+          {
+            "subheading": "Systemic",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Malaise or weight loss >2 kg",
+            "name": "malaise",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Myalgia, arthralgia, or arthritis",
+            "name": "arthritis",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Headache",
+            "name": "headache",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "subheading": "Abdominal",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Severe abdominal pain",
+            "name": "pain",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Pain presenting as an emergency with features of bowel ischemia, best confirmed by imaging or surgery",
+            "type": "toggle"
+          },
+          {
+            "subheading": "Genitourinary",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Recent history of spontaneous abortion",
+            "name": "abort",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Spontaneous fetal loss within 12 weeks",
+            "type": "toggle"
+          },
+          {
+            "subheading": "Renal",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Systolic BP >140",
+            "name": "sys",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Diastolic BP >90",
+            "name": "dias",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "subheading": "Neurological",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Stroke",
+            "name": "stroke",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Seizures (not hypertensive)",
+            "name": "seizure",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Syncope",
+            "name": "syncope",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Vertigo/dizziness",
+            "name": "vertigo",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "subheading": "Cardiovascular",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Bruits",
+            "name": "bruits",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "If present, may select location of bruits to improve diagnosis",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "bruits == 2",
+            "default": 0,
+            "label_en": "Carotid bruit (right)",
+            "name": "carotidright",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "bruits == 2",
+            "default": 0,
+            "label_en": "Carotid bruit (left)",
+            "name": "carotidleft",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "bruits == 2",
+            "default": 0,
+            "label_en": "Subclavian bruit (right)",
+            "name": "subright",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "bruits == 2",
+            "default": 0,
+            "label_en": "Subclavian bruit (left)",
+            "name": "subleft",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "bruits == 2",
+            "default": 0,
+            "label_en": "Renal bruit (right)",
+            "name": "renalright",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "bruits == 2",
+            "default": 0,
+            "label_en": "Renal bruit (left)",
+            "name": "renalleft",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Pulse inequality",
+            "name": "pulse",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Feeble pulse on one side as compared to same pulse on opposite limb",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "pulse == 2",
+            "default": 0,
+            "label_en": "Pulse and BP inequality",
+            "name": "ineq",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Feeble pulse on one side as compared to same pulse on opposite limb, confirmed by BP measurement showing difference >10 mmHg",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "New loss of pulses",
+            "name": "nlop",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "If yes, may select location of pulse loss to improve diagnosis",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Carotid pulse loss (right)",
+            "name": "cpr",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Carotid pulse loss (left)",
+            "name": "cpl",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Subclavian pulse loss (right)",
+            "name": "spr",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Subclavian pulse loss (left)",
+            "name": "spl",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Brachial pulse loss (right)",
+            "name": "bpr",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Brachial pulse loss (left)",
+            "name": "bpl",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Radial pulse loss (right)",
+            "name": "rpr",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Radial pulse loss (left)",
+            "name": "rpl",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Femoral pulse loss (right)",
+            "name": "fpr",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Femoral pulse loss (left)",
+            "name": "fpl",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Popliteal pulse loss (right)",
+            "name": "ppr",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Popliteal pulse loss (left)",
+            "name": "ppl",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Posterior tibial pulse loss (right)",
+            "name": "ptpr",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Posterior tibial pulse loss (left)",
+            "name": "ptpl",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Dorsalis pedis pulse loss (right)",
+            "name": "dppr",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "nlop == 2",
+            "default": 0,
+            "label_en": "Dorsalis pedis pulse loss (left)",
+            "name": "dppl",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Claudication",
+            "name": "claud",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "If present, may select location of claudication to improve diagnosis",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "claud == 2",
+            "default": 0,
+            "label_en": "Arm claudication",
+            "name": "arm",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "claud == 2",
+            "default": 0,
+            "label_en": "Leg claudication",
+            "name": "leg",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Carotidodynia",
+            "name": "carot",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Aortic incompetence",
+            "name": "aortic",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Detected clinically or by echocardiogram",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Myocardial infarct/angina",
+            "name": "angina",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Cardiomyopathy/cardiac failure",
+            "name": "failure",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Select feature only if abnormality is present and new within the past 3 months AND ascribed to current active vasculitis.</p>",
+        "logs": [
+          {
+            "message": "building calc",
+            "time": "2018-10-05 09:46 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "adding inputs",
+            "time": "2018-10-05 09:47 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "adding inputs",
+            "time": "2018-10-05 10:37 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "adding inputs",
+            "time": "2018-10-05 11:08 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "adding inputs",
+            "time": "2018-10-05 02:59 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2018-10-05 03:16 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2018-10-05 03:19 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "finished adding inputs",
+            "time": "2018-10-05 03:34 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added formula",
+            "time": "2018-10-05 03:35 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added eq logic",
+            "time": "2018-10-05 03:47 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2018-10-05 04:01 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2018-10-10 11:31 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2018-10-10 11:34 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2018-10-11 04:05 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "fixed typo",
+            "time": "2018-10-11 04:54 PM",
+            "user": "sang"
+          },
+          {
+            "message": "debugged!!!!",
+            "time": "2018-10-11 05:17 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added dummy text",
+            "time": "2018-10-11 05:19 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2018-10-12 10:23 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added some tips",
+            "time": "2018-10-12 10:58 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added tips",
+            "time": "2018-10-12 12:19 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added default to sys input",
+            "time": "2018-10-12 01:31 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added showpoints for systolic BP input",
+            "time": "2018-10-23 12:26 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "itas2010",
+            "time": "2018-11-01 07:20 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "changed formula",
+            "time": "2018-11-01 07:22 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "bug fix",
+            "time": "2018-11-02 03:41 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added search term",
+            "time": "2018-11-15 10:38 PM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "fb9e3dd299861f27a01252d3cc575ee4",
+        "medium_description_en": "<p>Differentiates between active and inactive disease in Takayasu arteritis (TA).</p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "TA",
+          "Takayasu arteritis",
+          "arterial inflammation",
+          "arteritis",
+          "ITAS 2010"
+        ],
+        "search_id": "c-10100",
+        "seo": {
+          "keywords_en": "Takayasu arteritis, TA, arterial inflammation, arteritis",
+          "meta_description_en": "The Indian Takayasu Clinical Activity Score (ITAS2010) differentiates between active and inactive disease in Takayasu arteritis (TA)."
+        },
+        "short_description_en": "Takayasu arteritis disease activity.",
+        "short_title_en": "ITAS2010 for Takayasu Arteritis",
+        "slug": "indian-takayasu-clinical-activity-score-itas2010",
+        "specialty_en": [
+          "Cardiology",
+          "Surgery (Cardiothoracic)",
+          "Hospitalist Medicine",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Cardiac"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "Ramnath Misra, MD, FRCP, is a professor and head of the immunology department at Sanjay Gandhi Postgraduate Institute of Medical Sciences in Lucknow, India. He is also the former president of the Indian Rheumatology Association. Dr. Misra’s primary research is focused on arthritis, undifferentiated spondyloarthropathy, and systemic lupus erythematosus.",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Ramnath Misra",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-ramnath-misra.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Misra+R%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10100/indian-takayasu-clinical-activity-score-itas2010",
+        "description": "The Indian Takayasu Clinical Activity Score (ITAS2010) differentiates between active and inactive disease in Takayasu arteritis (TA).",
+        "keywords": "Takayasu arteritis, TA, arterial inflammation, arteritis",
+        "title": "Indian Takayasu Clinical Activity Score (ITAS2010)"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 4027,
+          "short_title_en": "Jones Criteria for ARF",
+          "slug": "jones-criteria-acute-rheumatic-fever-diagnosis"
+        },
+        {
+          "calcId": 10429,
+          "short_title_en": "ESAS-r",
+          "slug": "edmonton-symptom-assessment-system-revised-esas-r"
+        },
+        {
+          "calcId": 10105,
+          "short_title_en": "H2FPEF Score",
+          "slug": "h2fpef-score-for-heart-failure-with-preserved-ejection-fraction"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10100",
+      "indian-takayasu-clinical-activity-score-itas2010"
+    ]
+  },
+  "scriptLoader": []
+}

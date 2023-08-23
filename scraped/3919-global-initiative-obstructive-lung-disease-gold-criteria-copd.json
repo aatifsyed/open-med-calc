@@ -1,0 +1,577 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+61",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+61",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "3919.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The GOLD Criteria were first described by the <a href=\"http://www.goldcopd.com\" target=\"_blank\">Global Initiative for Chronic Obstructive Lung Disease (GOLD)</a> in 2001 as a point-of-care means of assessing and characterizing the severity of COPD. The original 2001 GOLD Criteria, as well as the 2006 update, were defined by the FEV₁ percent predicted: the worse the FEV₁ percent predicted, the worse a patient’s disease severity. The original, spirometrically-based GOLD Criteria were widely disseminated and widely used clinically, as the criteria represented an easy to use clinical tool that was linked to treatment interventions.</p> <p>Increasing awareness of the importance of symptoms, coupled with increased visibility and psychometric characterization of symptom scores such as the mMRC and CAT, led to a major <a href='http://www.atsjournals.org/doi/full/10.1164/rccm.201204-0596PP' target='_blank'>revision in the GOLD Criteria</a> in 2011. Specifically, symptom burden (as measured by the mMRC or CAT) and exacerbation frequency were coupled to FEV₁ percent predicted to generate a more comprehensive disease severity assessment tool.</p> <p>The revised and updated 2011 GOLD Criteria were demonstrated to be more accurate with regard to predicting COPD exacerbations (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22997207\" target=\"_blank\">Lange</a> and <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23187891\" target=\"_blank\">Soriano</a>), although there does not appear to be a difference in predicting mortality as compared to the 2001 and 2006 GOLD guidelines (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23611880\" target=\"_blank\">Leivseth</a> and <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23187891\" target=\"_blank\">Soriano</a>). Perceptions of confusion in coupling three different metrics of disease severity (FEV₁, symptom burden, and exacerbation frequency) led to the 2017 GOLD guidelines to separate FEV₁ from symptom burden and exacerbation frequency (see Formula), to establish the GOLD stage A, B, C, or D.</p> <p>The data regarding accuracy and reliability for clinical outcomes associated with GOLD stages A-D are primarily retrospective in nature and entirely descriptive of the GOLD 2011 criteria (there are no data for the GOLD 2017 guidelines). A large study from Denmark assessed 6,628 patients demonstrated a sequential increase in exacerbation frequency from GOLD stage A (2.2% per year) to GOLD stage D (28.6% per year), with an increase in mortality from GOLD stage A to D, but a decrease in mortality from GOLD B to C (see table in Facts & Figures) (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22997207\" target=\"_blank\">Lange</a>). A second retrospective study in Spain assessed 3,633 patients with COPD (93% men), and demonstrated a sequential increase in mortality over 10 years for patients stratified as GOLD A, B, C, and D (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23187891\" target=\"_blank\">Soriano</a>).</p> <p>Data regarding the performance characteristics of and clinical outcomes associated with GOLD 2017 staging is anticipated to be forthcoming, and will likely be similar to GOLD 2011 performance given the similarities in the construction and composition of the 2011 and 2017 GOLD Criteria.</p>",
+            "formula_en": "<img src=\"https://cdn-web-img.mdcalc.com/content/GOLD.png\" alt=\"\" width=\"100%\"> <p>GOLD 1–4 refers to the <em>grade</em> of airflow obstruction, and GOLD A-D are the <em>groups</em> on which treatment recommendations are based.</p> <p>From the Global Strategy for the Diagnosis, Management and Prevention of COPD, Global Initiative for Chronic Obstructive Lung Disease <a href=\"http://goldcopd.org\" target=\"_blank\">(GOLD) 2017</a>.</p>",
+            "more_info_en": "<p>Interpretation:</p> <table> <tbody> <tr> <td> <p><strong>GOLD group</strong></p> </td> <td> <p><strong>Risk</strong></p> </td> <td> <p><strong>3-year mortality*</strong></p> </td> <td> <p><strong>Pharmacologic treatment recommendation</strong></p> </td> </tr> <tr> <td> <p>A</p> </td> <td> <p>Low risk, low symptom burden</p> </td> <td> <p>3.8%</p> </td> <td> <p>Bronchodilator (long- or short-acting) </p> </td> </tr> <tr> <td> <p>B</p> </td> <td> <p>Low risk, higher symptom burden</p> </td> <td> <p>10.6%</p> </td> <td> <p>Long-acting bronchodilator (LABA) or long-acting methacholine antagonist (LAMA)</p> </td> </tr> <tr> <td> <p>C</p> </td> <td> <p>High risk, low symptom burden</p> </td> <td> <p>8.2%</p> </td> <td> <p>LAMA (or LAMA + LABA, or LABA + ICS (inhaled corticosteroids) if frequent exacerbations)</p> </td> </tr> <tr> <td> <p>D</p> </td> <td> <p>High risk, higher symptom burden</p> </td> <td> <p>20.1%</p> </td> <td> <p>LAMA and LABA, plus inhaled corticosteroid (ICS) if frequent exacerbations</p> </td> </tr> </tbody> </table> <p>*From <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22997207\" target=\"_blank\">Lange 2012</a>, based on GOLD 2011 criteria.<br><br></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.goldcopd.com",
+                  "text": "Global Initiative for Chronic Obstructive Lung Disease. Global Strategy for Diagnosis, Management of Chronic Obstructive Pulmonary Disease;NHLBI Workshop Report 2003"
+                },
+                {
+                  "href": "http://goldcopd.org/gold-2017-global-strategy-diagnosis-management-prevention-copd/ ",
+                  "text": "Global Initiative for Chronic Obstructive Lung Disease. Global Strategy for Diagnosis, Management of Chronic Obstructive Pulmonary Disease;NHLBI Workshop Report 2017"
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/18027158",
+                  "text": "Maleki-Yazdi MR, et. al. Early detection and impaired quality of life in COPD GOLD stage 0: a pilot study. COPD. 2007 Dec;4(4):313-20."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23611880",
+                  "text": "Leivseth L, Brumpton BM, Nilsen TI, Mai XM, Johnsen R, Langhammer A. GOLD classifications and mortality in chronic obstructive pulmonary disease: the HUNT Study, Norway. Thorax. 2013 oct;68(10):914-21. "
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25711468",
+                  "text": "Moreira GL, et al. GOLD B-C-D groups or GOLD II-III-IV grades: Which one better reflects the functionality of patients with chronic obstructive pulmonary disease? Chron Respir Dis. 2015 May;12(2):102-10."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27168432",
+                  "text": "Woodruff PG, et al. Clinical Significance of Symptoms in Smokers with Preserved Pulmonary Function. N Engl J Med. 2016 May 12;374(19):1811-21."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2094288/",
+                  "text": "Petsonk EL, Hnizdo E, Attfield M. Definition of COPD GOLD stage I. Thorax; 2007;62(12):1107-1108."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/17090573 ",
+                  "text": "Mannino DM, Sonia buist A, Vollmer WM. Chronic obstructive pulmonary disease in the older adult: what defines abnormal lung function?. Thorax. 2007;62(3):237-41."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/14516133 ",
+                  "text": "Antonelli-Incalzi R, Imperiale C, Bellia V, Catalano F, Scichilone N, Pistelli R, Rengo F; SaRA Investigators. Do GOLD stages of COPD severity really correspond to differences in health status?Eur Respir J. 2003 Sep;22(3):444-9."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22878278 ",
+                  "text": "Vestbo J, et al. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease: GOLD executive summary. Am J Respir Crit Care Med. 2013 Feb 15;187(4):347-65. doi: 10.1164/rccm.201204-0596PP. Epub 2012 Aug 9."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22997207 ",
+                  "text": "Lange P, et al. Prediction of the clinical course of chronic obstructive pulmonary disease, using the new GOLD classification: a study of the general population. Am J Respir Crit Care Med. 2012 Nov 15;186(10):975-81. doi: 10.1164/rccm.201207-1299OC. Epub 2012 Sep 20."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23187891",
+                  "text": "Soriano JB, et al. Distribution and prognostic validity of the new Global Initiative for Chronic Obstructive Lung Disease grading classification. Chest. 2013 Mar;143(3):694-702."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Jeremy B. Richards, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Edward Petsonk",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>The GOLD Criteria are used clinically to determine the severity of expiratory airflow obstruction for patients with COPD.</li> <li>Should not be used to diagnose COPD, but rather to categorize clinical severity to inform prognosis and to guide therapeutic interventions.</li> <li>Determining a patient’s GOLD status requires a multidimensional assessment of a patient’s spirometry, symptom burden, and frequency of COPD exacerbations.</li> <ul> <li>Spirometry is measured by formal pulmonary function testing, and the percent predicted of the forced expiratory volume in 1 second (FEV₁) is the value used in calculating a patient’s GOLD status.</li> <li>Symptom burden is quantified by either the <calculator id='4006'>modified Medical Research Council (mMRC) Dyspnea Scale</calculator> or COPD assessment test (CAT) score.</li> <li>Exacerbation frequency encompasses the number of acute symptomatic deteriorations of COPD over the past 12 months requiring either increased medical management or hospitalization.</li> </ul> <li>GOLD status (A-D) explicitly guides therapeutic interventions for management of stable, baseline COPD, with GOLD A patients requiring less medical management than GOLD D patients.</li> <li>The 2017 GOLD Criteria predict mortality risk for patients with COPD, but not more accurately than the earlier GOLD scores (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23611880\" target=\"_blank\">Leivseth</a> and <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23187891\" target=\"_blank\">Soriano</a>).</li> <li>Stage B may predict higher mortality than stage C COPD, as determined by the 2011 GOLD Criteria (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22997207\" target=\"_blank\">Lange</a>). </li> <li>GOLD status in the 2011 criteria does predict risk of exacerbation better than the older, spirometrically-based GOLD Criteria (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22997207\" target=\"_blank\">Lange</a> and <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23187891\" target=\"_blank\">Soriano</a>).</li> <li>GOLD stages B, C, and D do not accurately reflect patient’s functional status as measured by <calculator id='3983'>6 minute walk testing</calculator>, <a href='http://www.sciencedirect.com/science/article/pii/S0954611100907868' target='_blank'>London Chest Activities of Daily Living Scale</a>, or daily life activity monitoring (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25711468\" target=\"_blank\">Moreira</a>).</li> <li>The therapeutic guidance coupled to GOLD stages is primarily based on expert consensus rather than direct evidence supporting specific therapeutic recommendations for a given GOLD stage; however, the individual medications and clinical interventions are supported by relatively strong level of evidence.</li> </ul>",
+            "use_case_en": "<ul> <li>Patients with COPD with recent spirometry results available in the ambulatory setting who are at their baseline with regard to symptoms and lung function.</li> <li>Do not use in patients suffering an acute exacerbation or worsening of respiratory symptoms.</li> <li>The GOLD Criteria were developed and primarily validated for patients &gt;18 years of age.</li> </ul>",
+            "why_use_en": "<ul> <li>Predicts risk of future COPD exacerbations (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22997207\" target=\"_blank\">Lange</a> and <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23187891\" target=\"_blank\">Soriano</a>) and mortality (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22997207\" target=\"_blank\">Lange</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23611880\" target=\"_blank\">Leivseth</a>, and <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23187891\" target=\"_blank\">Soriano</a>). </li> <li>Can serve as a framework to discuss disease management and risk reduction for patients with COPD.</li> <li>GOLD stages are linked to specific therapeutic recommendations for medical management for both chronic COPD, as well as suggestions for acute exacerbations.</li> <li>Derived from and described in a global patient population, implying relevancy for use in a wide variety of clinical and geographic settings.</li> </ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>When clinically appropriate, patients with respiratory symptoms and risk factors for COPD should undergo spirometry to determine FEV₁ and FEV₁/FVC.</li> <li>Patients meeting spirometric criteria for airways obstruction and clinical criteria for COPD should have their GOLD status determined.</li> <li>Non-pharmacologic and pharmacologic treatments based on a patient’s GOLD stage should be considered and initiated as clinically appropriate (see Management below).</li> <li>Referral to a pulmonologist should be considered for patients whose COPD is GOLD stage C or D, or patients with difficult-to-control symptoms or frequent COPD exacerbations regardless of GOLD stage.</li> </ul>",
+            "critical_actions_en": "<ul> <li>GOLD Criteria cannot be used to assess disease severity in patients without a measured recent FEV₁.</li> <li>Treatment interventions initiated based on GOLD stage must always be considered in the context of an individual patient’s response, and medications should be adjusted accordingly.</li> <li>Patient education about the risk of airways obstruction and COPD should be emphasized for former and current smokers, regardless of spirometry results or GOLD stage, and smoking cessation encouraged.</li> <li>The GOLD Criteria do not capture or characterize former and current smokers who do not meet spirometric criteria for COPD (defined as FEV₁/FVC &lt;0.70), as these patients are still at increased risk of respiratory symptoms (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27168432\" target=\"_blank\">Woodruff</a>).</li> </ul>",
+            "management_en": "<ul> <li>Regardless of their GOLD stage, all patients with COPD should be counseled regarding risk reduction:</li> <ul> <li>Education about the nature, prognosis, and outcomes of COPD should be emphasized in initial and subsequent patient visits.</li> <li>Discussion of and recommendations about behavioral risk factors must be performed, including (primarily) smoking cessation and avoidance of secondhand smoke.</li> <li>Avoidance of indoor and outdoor air pollution (including biomass fuel in appropriate settings), a potential trigger for a COPD exacerbation, should be emphasized.</li> <li>Age- and clinically-appropriate vaccinations should be provided.</li> </ul> <li>Next steps in therapeutic management are guided by the GOLD stage:</li> <ul> <li>GOLD stage A: A bronchodilator should be offered (long- or short-acting as clinically indicated.) This medication should be continued if there is symptomatic response.</li> <li>GOLD stage B: A long-acting bronchodilator (either a long-acting bronchodilator [LABA] or long-acting methacholine antagonist [LAMA]) should be prescribed as initial therapy.</li> <li>GOLD stage C: LAMA is appropriate initial management for a patient with GOLD stage C disease, although patients with stage C disease and a history of frequent exacerbations may benefit from LAMA + LABA or LABA + ICS (inhaled corticosteroids) combination therapy for initial management.</li> <li>GOLD stage D: Initial treatment with combined LAMA and LABA therapy is indicated for GOLD stage D, with consideration of adding of an inhaled corticosteroid (ICS) for patients with frequent exacerbations. </li> </ul> <li>Patients with GOLD stage B, C, or D disease and high symptom burden should be referred to and encouraged to participate in pulmonary rehabilitation.</li> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "COPD"
+        ],
+        "dosing": false,
+        "equation_logic": "c115b847a6c6b8e7d02ab5846a402c23",
+        "equation_logic_text": "var calc_output=[];\n\nvar sx = parseInt(sx);\nvar ex =  parseInt(ex);\nvar fev =  parseInt(fev);\n\nvar group, risk, mort, tx, grade;\n\nif (sx == 0) {\n\tif (ex == 0 || ex == 1) {\n\tgroup = \"GOLD A\";\n\trisk = \"Low risk, low symptom burden\"; \n\tmort = \"3.8\";\n\ttx = \"Bronchodilator (long- or short-acting) recommended\";\n\t}\n\telse {\n\t\tgroup = \"GOLD C\";\n\t\trisk = \"High risk, low symptom burden\";\n\t\tmort = \"8.2\";\n\t\ttx = \"LAMA (or LAMA + LABA vs. LABA + ICS if frequent exacerbations) recommended\";\n\t}\n}\nif (sx == 1) {\n\tif (ex == 0 || ex == 1) {\n\tgroup = \"GOLD B\";\n\trisk = \"Low risk, higher symptom burden\"; \n\tmort = \"10.6\";\n\ttx = \"LABA or LAMA recommended\";\n\t}\n\telse {\n\t\tgroup = \"GOLD D\";\n\t\trisk = \"High risk, higher symptom burden\";\n\t\tmort = \"20.1\";\n\t\ttx = \"LAMA + LABA recommended, plus ICS if frequent exacerbations\";\n\t}\n}\n\nif (fev == 0) {\n\tgrade = 'Grade 1'\n}\nif (fev == 1) {\n\tgrade = 'Grade 2'\n}\nif (fev == 2) {\n\tgrade = 'Grade 3'\n}\nif (fev == 3) {\n\tgrade = 'Grade 4'\n}\n\ncalc_output.push({\n    name: 'mini',\n    value: group,\n    value_text: '',\n    message: mort + '% mortality'\n});\ncalc_output.push({\n    name: 'GOLD Criteria',\n    value: group,\n    value_text: '',\n    message: grade + ' airflow obstruction'\n});\ncalc_output.push({\n    name: 'risk',\n    value: mort,\n    value_text: '%',\n    message: '3-year mortality<br/><br/> ' + tx\n});",
+        "favorite_id": 3919,
+        "full_title_en": "Global Initiative for Obstructive Lung Disease (GOLD) Criteria for COPD",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Symptom burden",
+            "name": "sx",
+            "optional": false,
+            "options": [
+              {
+                "label": "Lower (mMRC <2 or CAT Score <10)",
+                "value": 0
+              },
+              {
+                "label": "Higher (mMRC ≥2 or CAT Score ≥10)",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "<calculator id='4006'>mMRC</calculator> 2 = Walks slower than people of the same age because of dyspnea or has to stop for breath when walking at own pace; CAT 10 = COPD symptoms have low-medium impact on patient's life",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Exacerbation history",
+            "name": "ex",
+            "optional": false,
+            "options": [
+              {
+                "label": "0 exacerbations",
+                "value": 0
+              },
+              {
+                "label": "1 exacerbation without hospital admission",
+                "value": 1
+              },
+              {
+                "label": "≥1 exacerbation with hospital admission",
+                "value": 2
+              },
+              {
+                "label": "≥2 exacerbations",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "FEV₁ % of predicted",
+            "name": "fev",
+            "optional": false,
+            "options": [
+              {
+                "label": "≥80",
+                "value": 0
+              },
+              {
+                "label": "50–79",
+                "value": 1
+              },
+              {
+                "label": "30–49",
+                "value": 2
+              },
+              {
+                "label": "<30",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use in patients &gt;18 years of age with already-diagnosed COPD by spirometry (FEV₁/FVC &lt;0.7) with baseline symptoms and lung function. Do not use to diagnose COPD and do not use in patients with acute exacerbation.</p>",
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "0949764b9673ea81376684f615bf4d4b",
+        "medium_description_en": "<p>Assesses different stages of COPD and provides treatment recommendations.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "respiratory",
+          "gold",
+          "COPD",
+          "emphysema",
+          "lungs",
+          "pulmonary",
+          "peak flow",
+          "expiratory",
+          "asthma",
+          "WHO"
+        ],
+        "search_id": "c-3919",
+        "seo": {
+          "keywords_en": "Gold Criteria, gold copd, gold calc, gold standard copd, gold criteria copd, gold emphysema, global copd criteria, WHO copd, WHO copd criteria, shortness of breath copd criteria, Forced Expiratory Volume copd, fev copd, fev1 copd, fev1 gold, fev1 gold criteria, copd stages, copd stages gold",
+          "meta_description_en": "The Global Initiative for Obstructive Lung Disease (GOLD) Criteria for COPD assesses different stages of COPD and provides treatment recommendations."
+        },
+        "short_description_en": "COPD staging and recommendations.",
+        "short_title_en": "GOLD COPD Criteria",
+        "slug": "global-initiative-obstructive-lung-disease-gold-criteria-copd",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Geriatrics",
+          "Internal Medicine",
+          "Pulmonology"
+        ],
+        "system_en": [
+          "Respiratory"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Jeremy",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Richards",
+          "name": "Jeremy B. Richards, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Edward Petsonk, MD, is a professor of medicine at West Virginia University. He is a practicing pulmonologist and critical care physician and has been published in the literature on occupational deficits due to lung disease. Dr. Petsonk is also a retired captain in the US Public Health Service.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Edward Petsonk",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-edward-petsonk.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Petsonk%20EL%5Bauth%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3919/global-initiative-obstructive-lung-disease-gold-criteria-copd",
+        "description": "The Global Initiative for Obstructive Lung Disease (GOLD) Criteria for COPD assesses different stages of COPD and provides treatment recommendations.",
+        "keywords": "Gold Criteria, gold copd, gold calc, gold standard copd, gold criteria copd, gold emphysema, global copd criteria, WHO copd, WHO copd criteria, shortness of breath copd criteria, Forced Expiratory Volume copd, fev copd, fev1 copd, fev1 gold, fev1 gold criteria, copd stages, copd stages gold",
+        "title": "Global Initiative for Obstructive Lung Disease (GOLD) Criteria for COPD"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10161,
+          "short_title_en": "COPD Assessment Test (CAT)",
+          "slug": "copd-assessment-test-cat"
+        },
+        {
+          "calcId": 3916,
+          "short_title_en": "BODE Index",
+          "slug": "bode-index-copd-survival"
+        },
+        {
+          "calcId": 790,
+          "short_title_en": "Estimated Peak Flow",
+          "slug": "estimated-expected-peak-expiratory-flow-peak-flow"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3919",
+      "global-initiative-obstructive-lung-disease-gold-criteria-copd"
+    ]
+  },
+  "scriptLoader": []
+}

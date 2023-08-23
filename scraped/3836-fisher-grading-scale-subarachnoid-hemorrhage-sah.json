@@ -1,0 +1,520 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "diagnostic_criteria",
+        "chief_complaint_en": [
+          "Headache"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+52",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+52",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "3836.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul> <li>C. Miller Fisher’s seminal study of 47 patients with aSAH was a retrospective, single-center study that graded the amount/distribution of subarachnoid blood, and recorded the rate of angiographic and clinical vasospasm. While angiographic vasospasm was common, thick subarachnoid hemorrhage (greater than 1 mm thick) correlated with a high rate of clinical vasospasm (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7354892\" target=\"_blank\">Fisher 1980</a>). <ul> <li>Rates of radiographic vasospasm (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7354892\" target=\"_blank\">Fisher 1980</a>): <ul> <li>Grade 1: 36%</li> <li>Grade 2: 43%</li> <li>Grade 3: 100%</li> <li>Grade 4: 40%</li> </ul> </li> <li>Rates of clinical vasospasm (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7354892\" target=\"_blank\">Fisher 1980</a>): <ul> <li>Grade 1: 0%</li> <li>Grade 2: 0%</li> <li>Grade 3: 96%</li> <li>Grade 4: 0%</li> </ul> </li> </ul> </li> <li>A subsequent validation study of 41 patients confirmed that severe vasospasm (vasospasm causing a subjective change in neurological examination) occurred at a disproportionately higher rate in patients with Fisher grade 3 SAH (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/6682190\" target=\"_blank\">Kistler 1983</a>). <ul> <li>Rates of clinical vasospasm (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/6682190\" target=\"_blank\">Kistler 1983</a>): <ul> <li>Grade 1: 0%</li> <li>Grade 2: 14%</li> <li>Grade 3: 86%</li> <li>Grade 4: 0%</li> </ul> </li> </ul> </li> <li>In a retrospective single-center study of 134 aSAH patients with modern CT scanners and rapid imaging, univariate and bivariate analyses showed that Fisher grade was not significantly associated with the development of symptomatic vasospasm (p=0.5). (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/15734507\" target=\"_blank\">Smith 2005</a>) <ul> <li>Rates of clinical vasospasm (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/15734507\" target=\"_blank\">Smith 2005</a>) <ul> <li>Grade 1: 0%</li> <li>Grade 2: 24%</li> <li>Grade 3: 28%</li> <li>Grade 4: 19%</li> </ul> </li> </ul> </li> <li>The largest vasospasm Fisher score study was a retrospective look at 1,335 patients from international placebo-controlled trials of aSAH. (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/16823296\" target=\"_blank\">Frontera 2006</a>) <ul> <li>Re-validation of the Fisher scale showed the following rates of clinical vasospasm: <ul> <li>Grade 1: 21%</li> <li>Grade 2: 25% (OR not statistically significant)</li> <li>Grade 3: 37%</li> <li>Grade 4: 35% (OR trend towards statistically significant)</li> </ul> </li> <li>In addition, multivariate analysis (adjusting for other clinical predictors of vasospasm) showed that an increase of 1 Fisher scale grade did not increase the risk of clinical vasospasm. (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/16823296\" target=\"_blank\">Frontera 2006</a>)</li> </ul> </li> <li>A retrospective, single-center study of 237 patients with aSAH showed that Fisher 3 patients had significantly higher odds of clinical vasospasm and cerebral infarction than Fisher 1 or Fisher 2 patients (OR 6.9 and OR 14.3, respectively). Fisher 4 patients had higher, but not statistically significant, risks of all 3 outcomes. (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18671630\" target=\"_blank\">Kramer 2008</a>) <ul> <li>Fisher grade 3, but not other Fisher grades, seems to be significantly associated with delayed ischemic complications of vasospasm.</li> <li>Rates of clinical vasospasm: <ul> <li>Grade 1: 0%</li> <li>Grade 2: 7%</li> <li>Grade 3: 35%</li> <li>Grade 4: 12%</li> </ul> </li> </ul> </li> </ul> <p><strong>Non-vasospasm outcomes</strong></p> <ul> <li>A retrospective single-center analysis of 292 patients with aSAH found that both Fisher and modified Fisher scales were significantly correlated with radiographic infarction, but an increase in Fisher scale grade had a higher odds ratio associated with infarction. (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/12975744\" target=\"_blank\">Woertgen 2003</a>)</li> <li>A retrospective, single-center study showed that in comparison to patients without SAH, only patients with Fisher scale scores of 3 (RR 3.2) or­ 4 (RR 14.8) had increased risk of fair/poor outcome or death, whereas Fisher grade 1 and 2 patients did not (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/9588539\" target=\"_blank\">Ogilvy 1998</a>).</li> <li>A retrospective analysis of 2,055 aSAH patients showed that surgical outcomes did not differ between Fisher grade 1 and 2 patients. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/11534685\" target=\"_blank\">Osawa M 2001</a>) <ul> <li>In multivariate analysis from the same study, patients with Fisher grade &gt;3 had poor surgical outcomes. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/11534685\" target=\"_blank\">Osawa M 2001</a>)</li> </ul> </li> <li>A retrospective, single-center study of 237 patients with aSAH showed that Fisher 3 patients had significantly higher odds of poor neurological outcome than Fisher 1 or Fisher 2 patients (OR 11.9). This suggests that Fisher grade 3, but not other Fisher grades, may have prognostic value with respect to poor neurological outcome. (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18671630\" target=\"_blank\">Kramer 1998</a>)</li> </ul> <p><strong>Interobserver agreement</strong></p> <ul> <li>A single-center study examining predictors of surgical outcome in aSAH showed that the Fisher scale had a high degree of interobserver agreement (k=0.9) (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/9588539\" target=\"_blank\">Ogilvy 1998</a>).</li> <li>A retrospective single-center study analyzing 59 CT scans in SAH showed that the inter-observer agreement for the Fisher grading scale was moderate (k=0.63), mainly due to differences in determining IVH or subarachnoid clot. (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/8985947\" target=\"_blank\">Svensson 2005</a>)</li> </ul>",
+            "formula_en": "<p>Selection of appropriate criteria.</p>",
+            "more_info_en": "<p><strong>Score interpretation:</strong></p> <div class=\"table-responsive\"> <table class=\"table table-bordered table-hover\"> <tbody><tr> <th>Fisher grade</th> <th>Blood on CT*</th> <th>Risk of vasospasm</th> </tr> <tr> <td>I</td> <td>No SAH detected</td> <td>Low (range 0-21%)</td> </tr> <tr> <td>II</td> <td>Diffuse or vertical layer of subarachnoid blood &lt; 1mm thick</td> <td>Low (range 0-25%)</td> </tr> <tr> <td>III</td> <td>Localized clot and/or vertical layer within the subarachnoid space &gt; 1mm thick</td> <td>Low to high (range 23-96%)</td> </tr> <tr> <td>IV</td> <td>ICH or IVH with diffuse or no SAH</td> <td>Low to moderate (range 0-35%)</td> </tr> </tbody></table> </div> <p>*Measurements were made on printed EMI CT scans. The measurements were not scaled to the actual thickness.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/7354892",
+                  "text": "Fisher C, Kistler J, Davis J. Relation of cerebral vasospasm to subarachnoid hemorrhage visualized by computerized tomographic scanning. Neurosurgery. 1980;6(1):1-9."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/11546890",
+                  "text": "Claassen J, Bernardini GL, Kreiter K, Bates J, Du YE, Copeland D, Connolly ES, Mayer SA. Effect of cisternal and ventricular blood on risk of delayed cerebral ischemia after subarachnoid hemorrhage: the Fisher scale revisited. Stroke. 2001; 32 (9): 2012-2020."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/9588539",
+                  "text": "Ogilvy CS, Carter BS. A Proposed Comprehensive Grading System to Predict Outcome for Surgical Management of Intracranial Aneurysms. Neurosurgery. 1998; 42(5): 959-968."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/12975744",
+                  "text": "Woertgen C, Ullrich OW, Rothoerl RD, Brawanski A. Comparison of the Claassen and Fisher CT classification scale to predict ischemia after aneurysmatic SAH? Central European Neurosurgery. 2003; 64(3):104-108."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/8985947",
+                  "text": "Svensson E, Starmark JE, Ekholm S, von Essen C, Johansson A. Analysis of interobserver disagreement in the assessment of subarachnoid blood and acute hydrocephalus on CT scans. Neurol Res. 1996; 18(6):487-494."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/16159052",
+                  "text": "Rosen DS, Macdonald RL. Subarachnoid Grading Scales: A Systematic Review. Neurocritical Care. 2005;2:110-118."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/11534685",
+                  "text": "Osawa M, et al. Results of direct surgery for aneurysmal subarachnoid haemorrhage: outcome of 2055 patients who underwent direct aneurysm surgery and profile of ruptured intracranial aneurysms. Acta Neurochir (Wien). 2001;143(7):655-63; discussion 663-4."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/6682190",
+                  "text": "Kistler JP, Crowell RM, Davis KR, Heros R, Ojemann RG, Zervas T, Fisher CM. The relation of cerebral vasospasm to the extent and location of subarachnoid blood visualized by CT scan: a prospective study. Neurology. 1983; 33(4): 424-36."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/15734507",
+                  "text": "Smith ML, Abrahams JM, Chandela S, Smith MJ, Hurst RW, Le Roux PD. Subarachnoid hemorrhage on computed tomography scanning and the development of cerebral vasospasm: the Fisher grade revisited. Surg Neurol. 2005; 63:229-234; discussion 234-225."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/16823296",
+                  "text": "Frontera JA, Claassen J, Schmidt JM, Wartenberg KE, Temes R, Connolly ES, Loch Macdonald R, Mayer SA. Prediction of symptomatic vasospasm after subarachnoid haemorrhage: the modified Fisher scale. Neurosurgery. 2006; 58(7): 21-27."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/18671630",
+                  "text": "Kramer AH, Hehir M, Nathan B, Gress D, Dumont AS, Kassell NF, Bleck TP. A comparison of 3 radiographic scales for the prediction of delayed ischemia and prognosis following subarachnoid hemorrhage. Journal of Neurosurgery. 2008; 109:199-207"
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Benjamin Kummer, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. C. Miller Fisher",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>The Fisher Grading Scale was originally designed to predict risk of cerebral arterial vasospasm in patients with aneurysmal subarachnoid hemorrhage (aSAH) based on radiographic distribution of subarachnoid hemorrhage.</li> <li>The Fisher scale is entirely radiographic and typically determined at presentation.</li> <li>Variable rates of vasospasm corresponding to each Fisher grade have been reported in studies; therefore, the scale should not be used to quote an exact probability of vasospasm or delayed cerebral ischemia (DCI).</li> <li>The Fisher scale should also NOT be used as the sole clinical data point to make decisions on medical management or goals of care.</li> </ul> <p><strong>Points to Keep in Mind:</strong></p> <ul> <li>The Fisher scale has a number of shortcomings: <ul> <li>It does not consider the effect of thick cisternal subarachnoid blood or intraventricular hemorrhage (IVH), which are both known risk factors for vasospasm (Claassen et al 2001, Wilson et al 2012). For this reason, the <calculator id=\"3837\">Modified Fisher Grading Scale</calculator> is often preferred by many neurocritical care providers.</li> <li>Higher Fisher scale grades do not necessarily correlate with increasing probability of vasospasm. Studies show little to no difference between grades 1 and 2 (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/11546890\" target=\"_blank\">Claassen 2001</a>), and that grade 4 is associated with a lower rate of clinical vasospasm than grade 3 (Fisher <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7354892\" target=\"_blank\">1980</a> &amp; <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/6682190\" target=\"_blank\">1983</a>, <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/15734507\" target=\"_blank\">Smith 2005</a>, <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/16823296\" target=\"_blank\">Frontera 2006</a>, <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18671630\" target=\"_blank\">Kramer 2008</a>).</li> <li>The original Fisher scale was developed based on measurements on paper printouts from a low-resolution EMI CT scanner, which was not reflective of true SAH thickness. In reality, most SAH is &gt;1 mm thick, so Grades 1 and 2 are rare. (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/16159052\" target=\"_blank\">Rosen 2005</a>)</li> </ul> </li> <li>The scale does NOT apply to SAH due to trauma, arteriovenous malformations, cavernous angiomas, dural arteriovenous fistulae, cortical or sinus venous thromboses, mycotic aneurysms, or septic emboli with hemorrhagic transformation.</li> </ul>",
+            "use_case_en": "<p>Patients with <abbr title=\"aneurysmal subarachnoid hemorrhage\">aSAH</abbr>.</p>",
+            "why_use_en": "<ul> <li>Angiographic vasospasm occurs in at least 50% of patients with aSAH and often results in DCI, which occurs in up to 46% of all patients with aSAH and can cause devastating neurological consequences and/or death (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/11546890\" target=\"_blank\">Claassen 2001</a>).</li> <li>Because vasospasm typically occurs between 4 and 14 days (“vasospasm window”) after the onset of aSAH, the Fisher scale may allow timely preventative treatment for vasospasm and DCI to be initiated (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/6682190\" target=\"_blank\">Fisher 1983</a>).</li> <li>Despite its well-documented shortcomings, the Fisher grading scale remains widely used and well-known in critical care and neurocritical care communities.</li> </ul> "
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>Immediate neurological and neurosurgical consultation should be obtained for patients with evidence of any SAH on imaging or lumbar puncture, even if the SAH is likely to be non-aneurysmal in nature.</li> <li>Computed tomographic angiography (CTA) of the head is helpful to determine the presence of a lesion suitable for surgical or endovascular intervention.</li> <li>The need for obtaining cerebrovascular imaging, such as CTA of the head or catheter angiography, should be discussed with a neurological or neurosurgical consultant first.</li> <li>Similarly, the decision to start medications that have been shown to alter outcomes in aSAH (such as nimodipine and/or aminocaproic acid) should be deferred to the neurological or neurosurgical consultant.</li> </ul>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Subarachnoid Hemorrhage"
+        ],
+        "dosing": false,
+        "equation_logic": "c34ad1409d4841c64575b75269f73b80",
+        "equation_logic_text": "var calc_output = [];\n\nvar u = parseInt(fisher);\nvar string = '';\nvar msg = '';\n\nif (u == 1) {\n    string = 'Grade I';\n    msg = 'Low risk of vasospasm (range 0-21%)';\n}\nif (u == 2) {\n    string = 'Grade II';\n    msg = 'Low risk of vasospasm (range 0-25%)';\n}\nif (u == 3) {\n    string = 'Grade III';\n    msg = 'Low to high risk of vasospasm (range 23-96%)';\n}\nif (u == 4) {\n    string = 'Grade IV';\n    msg = 'Low to moderate risk of vasospasm (range 0-35%)';\n}\n\ncalc_output.push({\n    name: 'mini',\n    value: string,\n    value_text: ' ',\n    message: msg\n});\ncalc_output.push({\n    name: 'fisher grade',\n    value: string,\n    value_text: '',\n    message: msg\n});\n",
+        "favorite_id": 3836,
+        "full_title_en": "Fisher Grading Scale for Subarachnoid Hemorrhage (SAH)",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Signs/symptoms",
+            "name": "fisher",
+            "optional": false,
+            "options": [
+              {
+                "label": "No SAH detected",
+                "value": 1
+              },
+              {
+                "label": "Diffuse or vertical layer of subarachnoid blood < 1mm thick",
+                "value": 2
+              },
+              {
+                "label": "Localized clot and/or vertical layer within the subarachnoid space > 1mm thick",
+                "value": 3
+              },
+              {
+                "label": "Intracerebral hemorrhage (ICH) or intraventricular hemorrhage (IVH) with diffuse or no SAH ",
+                "value": 4
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>This scale only applies to aneurysmal subarachnoid hemorrhage (aSAH). We recommend using the <calculator id=\"3837\">Modified Fisher Grading Scale</calculator> based on more recent studies. </p><p>Clinician must be able to identify subarachnoid hemorrhage (SAH) and major neuroanatomical landmarks on head CT.</p>",
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "5a69138f979e87df5753d8b73cbcde24",
+        "medium_description_en": "<p>Rates risk of vasospasm in aSAH based on amount and distribution of blood on CT.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "aSAH",
+          "ICH",
+          "SAH",
+          "subarachnoid",
+          "clot",
+          "IVH"
+        ],
+        "search_id": "c-3836",
+        "seo": {
+          "keywords_en": "Fisher grading scale, fisher scale, fisher grade, sah grade, sah fisher, sah scale, sah severity, sah prognosis, sah treatment, subarachnoid hemorrhage fisher, subarachnoid hemorrhage scale, subarachnoid hemorrhage severity, subarachnoid hemorrhage prognosis, subarachnoid hemorrhage treatment",
+          "meta_description_en": "The Fisher Grading Scale rates severity of aneurysmal subarachnoid hemorrhage (aSAH) based on amount and distribution of blood on CT of the head."
+        },
+        "short_description_en": "Risk of vasospasm in aSAH.",
+        "short_title_en": "Fisher Grading Scale",
+        "slug": "fisher-grading-scale-subarachnoid-hemorrhage-sah",
+        "specialty_en": [
+          "Critical Care (Neurologic)",
+          "Emergency Medicine",
+          "Neurology",
+          "Neurosurgery"
+        ],
+        "system_en": [
+          "Neurologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Benjamin Kummer, MD, is currently the inaugural Clinical Informatics fellow at New York Presbyterian Hospital, a joint program with Columbia University’s Department of Biomedical Informatics. A New York City native, Dr. Kummer earned a BA from the University of Pennsylvania before working for several years as a business systems analyst at Capital IQ, a financial technology firm. He received his MD from Drexel University College of Medicine in Philadelphia and completed residency training in neurology at the Neurological Institute of New York at Columbia University Medical Center, followed by a fellowship in stroke neurology at New York-Presbyterian Hospital/Weill-Cornell Medical Center.</p>",
+          "firstName": "Benjamin",
+          "hasDisclosure": [],
+          "img": "bejamin-kummer.jpg",
+          "lastName": "Kummer",
+          "name": "Benjamin Kummer, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "benjamin-kummer",
+          "updatedAt": "2023-04-06T20:22:41.865Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Charles Miller Fisher, MD, (d. 2014), was Professor Emeritus at Harvard Medical School, where he spent 50 years as a teacher and clinician. He was an active researcher in stroke neurology and is credited with identifying and naming transient ischemic attacks (TIA). He was a founder of the Massachusetts General Hospital Stroke Service and was inducted into the Canadian Medical Hall of Fame.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": true,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. C. Miller Fisher",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-c-miller-fisher.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Fisher+CM%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-11-04T18:50:16.424Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3836/fisher-grading-scale-subarachnoid-hemorrhage-sah",
+        "description": "The Fisher Grading Scale rates severity of aneurysmal subarachnoid hemorrhage (aSAH) based on amount and distribution of blood on CT of the head.",
+        "keywords": "Fisher grading scale, fisher scale, fisher grade, sah grade, sah fisher, sah scale, sah severity, sah prognosis, sah treatment, subarachnoid hemorrhage fisher, subarachnoid hemorrhage scale, subarachnoid hemorrhage severity, subarachnoid hemorrhage prognosis, subarachnoid hemorrhage treatment",
+        "title": "Fisher Grading Scale for Subarachnoid Hemorrhage (SAH)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3837,
+          "short_title_en": "Modified Fisher Scale",
+          "slug": "modified-fisher-grading-scale-subarachnoid-hemorrhage-sah"
+        },
+        {
+          "calcId": 3875,
+          "short_title_en": "Ottawa SAH Rule",
+          "slug": "ottawa-subarachnoid-hemorrhage-sah-rule-for-headache-evaluation"
+        },
+        {
+          "calcId": 404,
+          "short_title_en": "Hunt & Hess Classification",
+          "slug": "hunt-hess-classification-subarachnoid-hemorrhage"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3836",
+      "fisher-grading-scale-subarachnoid-hemorrhage-sah"
+    ]
+  },
+  "scriptLoader": []
+}

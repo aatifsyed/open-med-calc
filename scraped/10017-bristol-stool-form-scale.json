@@ -1,0 +1,630 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "diagnostic_criteria",
+        "chief_complaint_en": [
+          "Abdominal Pain",
+          "Constipation",
+          "Diarrhea"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">Selection of the appropriate type:</p>\n<div dir=\"ltr\">\n<p><img src=\"https://cdn-web-img.mdcalc.com/content/romeiv-bristol.gif\" alt=\"\" width=\"100%\" height=\"auto\"></p>\n</div>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"163\"><col width=\"285\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Bristol Stool Scale Type</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Interpretation</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">1-2</p>\n</td>\n<td>\n<p dir=\"ltr\">Associated with constipation</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">3-4</p>\n</td>\n<td>\n<p dir=\"ltr\">Normal</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n<td>\n<p dir=\"ltr\">Associated with diarrhea to some degree</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">6-7</p>\n</td>\n<td>\n<p dir=\"ltr\">Associated with diarrhea</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-8a7aebd5-fe8b-a959-cf77-8dadbf04eec2\">From <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5704116/\" target=\"_blank\" rel=\"noopener\">Lacy 2017</a>.</span></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.tandfonline.com/doi/abs/10.3109/00365529709011203 ",
+                  "text": "Lewis SJ, Heaton KW. Stool form scale as a useful guide to intestinal transit time. Scand J Gastroenterol. 1997;32(9):920-4."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5704116/ ",
+                  "text": "Lacy BE, Patel NK. Rome Criteria and a Diagnostic Approach to Irritable Bowel Syndrome. J Clin Med. 2017;6(11)."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27492648",
+                  "text": "Blake MR, Raker JM, Whelan K. Validity and reliability of the Bristol Stool Form Scale in healthy adults and patients with diarrhoea-predominant irritable bowel syndrome. Aliment Pharmacol Ther. 2016;44(7):693-703."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25214452 ",
+                  "text": "Amarenco G. Bristol Stool Chart: Prospective and monocentric study of \"stools introspection\" in healthy subjects. Prog Urol. 2014;24(11):708-13."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Stephen J. Lewis",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the&nbsp;Bristol Stool Scale&nbsp;and want to contribute your expertise? <a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a> our contributor team!</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the&nbsp;Bristol Stool Scale&nbsp;and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a>&nbsp;our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Inflammatory Bowel Disease",
+          "Irritable Bowel Syndrome"
+        ],
+        "dosing": false,
+        "equation_logic": "b814a9fd6e65b33caf50730d5a4fcb18",
+        "equation_logic_text": "var calc_output = [];\n\nvar stool = parseFloat(stool)\n\nvar type = stool + 1\n\nvar msg\n\nif (type == 3 || type == 4) {\n\tmsg = 'Normal'\n\tmini_msg = 'Normal'\n}\nif (type ==\t1 || type == 2) {\n\tmsg = 'Associated with constipation'\n\tmini_msg = 'Constipation'\n}\nif (type == 5) {\n\tmsg = 'Associated with diarrhea to some degree'\n\tmini_msg = 'Diarrhea'\n}\nif (type == 6 || type == 7) {\n\tmsg = 'Associated with diarrhea'\n\tmini_msg = 'Diarrhea'\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: 'Type ' + type,\n    value_text: '',\n    message: mini_msg\n});\ncalc_output.push({\n    name: 'Score',\n    value: 'Type ' + type,\n    value_text: '',\n    message: msg\n});\n",
+        "favorite_id": 10017,
+        "full_title_en": "Bristol Stool Form Scale",
+        "input_schema": [
+          {
+            "md_calc_info_concept": null,
+            "option_fhir_rules": null,
+            "type": "visual",
+            "visual": "<p><img style=\"max-width: 100%;\" src=\"https://cdn-web-img.mdcalc.com/content/bristol.png\" alt=\"\"></p>"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Stool Type",
+            "mdcalc_info_concept": null,
+            "name": "stool",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Separate hard lumps, like nuts (hard to pass)",
+                "value": 0
+              },
+              {
+                "label": "Sausage-shaped but lumpy",
+                "value": 1
+              },
+              {
+                "label": "Like a sausage but with cracks on its surface",
+                "value": 2
+              },
+              {
+                "label": "Like a sausage or snake, smooth and soft",
+                "value": 3
+              },
+              {
+                "label": "Soft blobs with clear-cut edges (passed easily)",
+                "value": 4
+              },
+              {
+                "label": "Fluffy pieces with ragged edges, a mushy stool",
+                "value": 5
+              },
+              {
+                "label": "Watery, no solid pieces, entirely liquid",
+                "value": 6
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "First try!",
+            "time": "2018-6-1 3:37 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "Edits addressed by Rachel in #natalie_projects ",
+            "time": "2018-6-4 10:20 AM",
+            "user": "natalie"
+          },
+          {
+            "message": "Edits addressed by Rachel in #natalie_projects cont.",
+            "time": "2018-6-5 11:56 AM",
+            "user": "natalie"
+          },
+          {
+            "message": "pass1",
+            "time": "2018-6-6 6:14 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "conditionality complete, ready for RK review",
+            "time": "2018-6-7 12:00 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "AKIN, inputs remain",
+            "time": "2018-6-7 3:57 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "Bristol, inputs remain",
+            "time": "2018-6-7 4:12 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "Bristol, inputs in",
+            "time": "2018-6-7 4:26 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "Bristol RK 6/13 email edits addressed ",
+            "time": "2018-6-13 3:19 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "equation logic added",
+            "time": "2018-6-14 9:47 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "diagram",
+            "time": "2018-7-12 3:55 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "poop",
+            "time": "2018-7-12 3:58 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "LS edits",
+            "time": "2018-7-16 1:14 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "table out and inputs edited",
+            "time": "2018-7-19 3:52 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "mini",
+            "time": "2018-7-19 4:49 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "inputs label link",
+            "time": "2018-7-20 1:03 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "test",
+            "time": "2018-7-20 1:51 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added poo pics to inputs",
+            "time": "2018-7-23 10:20 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "ready to go live",
+            "time": "2018-7-23 10:21 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "itemized search terms ",
+            "time": "2018-7-23 4:43 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "poo pic URL edited",
+            "time": "2018-7-23 5:27 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "\tready to go live",
+            "time": "2018-7-23 5:27 PM",
+            "user": "rachel"
+          }
+        ],
+        "md5": "22ac60ced86b62e0407a17fb09b94e2a",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-6be1099f-dbd7-885a-f227-dfd37a91e3fb\">Classifies stool (correlates with intestinal transit time).</span></p>",
+        "publishedAt": "2022-04-21T20:28:04.812Z",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "Stool form",
+          "stool classification"
+        ],
+        "search_id": "c-10017",
+        "seo": {
+          "keywords_en": "Irritable bowel syndrome, IBS, inflammatory bowel disease, IBD, irritable bowel disorder, stool, Bristol Stool Chart, BSC",
+          "meta_description_en": "The Bristol Stool Form Scale classifies stool in correlation intestinal transit time."
+        },
+        "short_description_en": "<p>Stool classification.</p>",
+        "short_title_en": "Bristol Stool Scale",
+        "slug": "bristol-stool-form-scale",
+        "specialty_en": [
+          "Family Practice",
+          "Gastroenterology",
+          "Internal Medicine",
+          "Primary Care"
+        ],
+        "system_en": [
+          "Gastrointestinal"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "6a365f09-521f-4581-8972-8d32d4d84196"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Stephen J. Lewis, MD, MB ChB (Aber), BSc(Hons), FRCP, is a gastroenterologist at Derriford Hospital in Plymouth, United Kingdom and an affiliate of the Bristol Nutrition Biomedical Research Unit in Bristol. He trained in infectious diseases at the Hospital for Tropical Diseases in London and worked with medical charities in West Africa. Dr. Lewis’ primary research interests include perioperative nutrition, infectious disease, irritable bowel syndrome, malabsorption, and intestinal infections.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Stephen J. Lewis",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-stephen-lewis.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Lewis%20SJ%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10017/bristol-stool-form-scale",
+        "description": "The Bristol Stool Form Scale classifies stool in correlation intestinal transit time.",
+        "keywords": "Irritable bowel syndrome, IBS, inflammatory bowel disease, IBD, irritable bowel disorder, stool, Bristol Stool Chart, BSC",
+        "title": "Bristol Stool Form Scale"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": "4007",
+          "short_title_en": "Rome IV for IBS",
+          "slug": "rome-iv-diagnostic-criteria-irritable-bowel-syndrome-ibs"
+        },
+        {
+          "calcId": "10003",
+          "short_title_en": "Rome IV for Functional Constipation",
+          "slug": "rome-iv-diagnostic-criteria-functional-constipation"
+        },
+        {
+          "calcId": "2141",
+          "short_title_en": "Kruis Score for IBS",
+          "slug": "kruis-score-diagnosis-irritable-bowel-syndrome-ibs"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10017",
+      "bristol-stool-form-scale"
+    ]
+  },
+  "scriptLoader": []
+}

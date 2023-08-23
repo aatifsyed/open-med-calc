@@ -1,0 +1,656 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Dizziness",
+          "Headache",
+          "Injury/Trauma"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+31",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+31",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "3954.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p><span>Original study (</span><a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2831681/\" target=\"_blank\" rel=\"noopener\"><span>Osmond 2012</span></a><span>): 3,866 patients enrolled, age 0&ndash;16 years. Inclusion criteria were: Initial GCS &ge;13 on physician determination, injury within 24 hours, and one of the following:</span></p>\n<ul>\n<li><span>Blunt trauma to the head with witnessed loss of consciousness.</span></li>\n<li><span>Definite amnesia.</span></li>\n<li><span>Witnessed disorientation.</span></li>\n<li><span>Vomiting two or more times at least 15 minutes apart.</span></li>\n<li><span>Persistent irritability in a child under two years.</span></li>\n</ul>\n<p>&nbsp;<span>Exclusion criteria were:</span></p>\n<ul>\n<li><span>Penetrating skull injury.</span></li>\n<li><span>Depressed fractures.</span></li>\n<li><span>Acute focal neurological deficit.</span></li>\n<li><span>Chronic generalized developmental delay.</span></li>\n<li><span>Suspected child abuse.</span></li>\n<li><span>Returning for re-evaluation after prior head injury.</span></li>\n<li><span>Pregnant patients.</span></li>\n</ul>\n<p>&nbsp;<span>Neurologic intervention was defined as any of the following occurring within seven days:</span></p>\n<ul>\n<li><span>Death from head injury.</span></li>\n<li><span>Craniotomy.</span></li>\n<li><span>Elevation of skull fracture.</span></li>\n<li><span>Monitoring of intracranial pressure.</span></li>\n<li><span>Intubation for head injury.</span>&nbsp;</li>\n</ul>\n<p><span>Brain injury was defined as any acute intracranial finding on CT or pneumocephalus but excluding non-depressed skull fractures and basilar skull fractures.</span>&nbsp;</p>\n<p><span>Patients who did not receive CT scans initially were contacted 14 days later to assess for brain injury and recalled for CT scan if they denied all of the following: headache (unless mild), seizure or focal motor findings, and inability to return to usual daily activities.</span></p>\n<p><span>Drawbacks: Only 277 of 3,866 patients were under the age of two years. These patient are often considered as higher risk; however, the authors did not perform separate subgroup analysis. The rule missed three patients who did not require intervention: an occipital skull fracture with pneumocephalus, mild brain edema, and a small extra-axial hemorrhage with small cerebral contusion. Only 53% patients received a CT. Intoxicated patients were not excluded, making GCS estimation unreliable.</span></p>\n<p><span>Sensitivity and specificity of risk factors in relation to need for neurologic intervention:</span></p>\n<ul>\n<li><span>&ge;1 of the four high risk factors: 100% sensitive (95% CI 86.2&ndash;100), 70.2% specific (95% CI 68.8&ndash;71.6%).</span></li>\n</ul>\n<p><span>Sensitivity and specificity of high and medium risk factors to</span> <span>presence of brain injury on CT:</span></p>\n<ul>\n<li><span>&ge;1 of the four high risk factors OR three of the medium risk factors: &nbsp;98.1% sensitive (95% CI 94.6&ndash;99.4%), 50.1% specific (95% CI 48.5&ndash;51.7%). 51.9% of patients would be scanned.</span></li>\n<li><span>&ge;1 of all seven factors: 98.1% sensitive (95% CI 98.0&ndash;50.1%).</span></li>\n</ul>\n<p>&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23015114\" target=\"_blank\" rel=\"noopener\"><span>Lyttle 2013</span></a><span>: This study showed that CATCH identifies high risk patients with specific signs and symptoms, CHALICE identifies broad groups of high risk patients, and PECARN identifies risk patients. Given that CATCH, CHALICE and PECARN aim to identify patients at different levels of risk, 949 patients were evaluated to determine the proportion of patients with head injury to which clinical decision rule (CDR) applied. No CDR was applicable to all patients. CHALICE was the most applicable, 95% (95% CI 96&ndash;98%) and CATCH was the least applicable, 26% (95% CI 24&ndash;29%). </span></p>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22291431\" target=\"_blank\" rel=\"noopener\"><span>Lyttle 2012</span></a><span>: In a systematic review and assessment of CATCH with the Quality Assessment of Diagnostic Accuracy Studies Tool, the authors noted that CATCH was distinctive from CHALICE and PECARN for several reasons: CATCH was the only CDR to perform with 100% sensitivity &nbsp;identifying the primary outcome, it defined intracranial findings on CT as a secondary (not primary) outcome and did not include hospital admission as an outcome unlike the other CDRs, and it collected the fewest predictor variables in its derivation (26 compared to CHALICE and PECARN&rsquo;s 40 and 36, respectively). Kappa values for assessment of clinical variables for all three studies were &gt;0.5. CATCH&rsquo;s derivation was unique in the use of bootstrapping to evaluate the alternative combinations of risk factors, though all three CDRs used recursive partitioning in multivariate analysis.</span></p>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24635987\" target=\"_blank\" rel=\"noopener\"><span>Easter 2014</span></a><span>: This single center prospective observational study compared physician estimation (gestalt prediction of &lt;1% risk of TBI) and practice (actual CT ordering practice) with CATCH, CHALICE and PECARN clinical decision rules on children under 18 with GCS &ge;13 presenting within 24 hours of blunt head injury. PECARN&rsquo;s definition of clinically important TBI (ciTBI) was the primary outcome. Sensitivities and specificities were as follows: </span></p>\n<ul>\n<li><span>PECARN: </span><strong>100% sensitive</strong><span> (95% CI 84&ndash;100), 62% specific (95% CI 59&ndash;66).</span></li>\n<li><span>Physician practice: </span><strong>100% sensitive</strong><span> (95% CI 84&ndash;100), 50% specific (95% CI 47&ndash;53).</span></li>\n<li><span>Physician estimation: 95% sensitive (95% CI &nbsp;76&ndash;100), 68% specific (95% CI 65&ndash;71).</span></li>\n<li><span>CATCH: 91% sensitive (95% CI 70&ndash;99), 44% specific (95% CI 41&ndash;47).</span></li>\n<li><span>CHALICE: 84% sensitive (95% CI 60&ndash;97), 85% specific (95% CI 82&ndash;87).</span></li>\n</ul>\n<p><span>While not an external validation study per se, the authors demonstrated that PECARN and physician practice identified all ciTBIs.</span></p>",
+            "formula_en": "<p>CT of the head is required only for children with minor head injury* and any one of the following findings:</p>\n<p><strong>High risk (need for neurologic intervention)</strong></p>\n<ul>\n<li><abbr title=\"Glasgow Coma Scale\"><calculator id=\"64\">GCS</calculator></abbr>&nbsp;&lt;15 at two hours after injury.</li>\n<li>Suspected open or depressed skull fracture.</li>\n<li>History of worsening headache.</li>\n<li>Irritability on examination.</li>\n</ul>\n<p><strong>Medium risk (brain injury on CT scan)</strong></p>\n<ul>\n<li>Any sign of basal skull fracture (e.g., hemotympanum, &ldquo;raccoon&rdquo; eyes, otorrhea or rhinorrhea of the cerebrospinal fluid, Battle&rsquo;s sign).</li>\n<li>Large, boggy hematoma of the scalp.</li>\n<li>Dangerous mechanism of injury (e.g., motor vehicle collision, fall from &ge;3 ft (91 cm) or 5 stairs, fall from bicycle with no helmet).</li>\n</ul>\n<p>*Minor head injury is defined as injury within the past 24 hours associated with witnessed loss of consciousness, definite amnesia, witnessed disorientation, persistent vomiting (more than one episode) or persistent irritability (in a child &lt;2&nbsp;years) with GCS 13&ndash;15.</p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2831681/ ",
+                  "text": "Osmond MH, Klassen TP, Wells GA, et al. CATCH: a clinical decision rule for the use of computed tomography in children with minor head injury. CMAJ. 2010;182(4):341-8."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)30555-X/abstract ",
+                  "text": "Babl FE, Borland ML, Phillips N, et al. Accuracy of PECARN, CATCH, and CHALICE head injury decision rules in children: a prospective cohort study. Lancet. 2017."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25492544",
+                  "text": "Babl FE, Bressan S. Physician practice and PECARN rule outperform CATCH and CHALICE rules based on the detection of traumatic brain injury as defined by PECARN. Ann Emerg Med 2014;64:145–52.e5. doi: 10.1136/ebmed-2014-110090 "
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24635987 ",
+                  "text": "Easter JS, Bakes K, Dhaliwal J, Miller M, Caruso E, Haukoos JS. Comparison of PECARN, CATCH, and CHALICE rules for children with minor head injury: a prospective cohort study. Ann Emerg Med. 2014;64(2):145-52, 152.e1-5."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23015114 ",
+                  "text": "Lyttle MD, Cheek JA, Blackburn C, et al. Applicability of the CATCH, CHALICE and PECARN paediatric head injury clinical decision rules: pilot data from a single Australian centre. Emerg Med J. 2013;30(10):790-4."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22291431 ",
+                  "text": "Lyttle MD, Crowe L, Oakley E, Dunning J, Babl FE. Comparing CATCH, CHALICE and PECARN clinical decision rules for pediatric head injuries. Emerg Med J. 2012;29(10):785–94. doi: 10.1136/emermed-2011-200225"
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Diana Fleisher, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Martin H. Osmond",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li><span>Identifies high risk patients with specific signs and symptoms.</span></li>\n<li><span>Generalizability is limited, as it uses numerous strict inclusion and exclusion criteria.</span></li>\n</ul>\n<ul>\n<li><span>Less sensitive than the <calculator id=\"589\">PECARN Algorithm</calculator>.</span></li>\n<li><span>Original study included detailed sensitivity analysis for combinations of risk factors, perhaps giving a more nuanced approach to the decision to obtain CT.</span></li>\n<li><span>Intoxicated patients were not excluded, making GCS estimation potentially unreliable.</span></li>\n</ul>",
+            "use_case_en": "<p><span>Pediatric patients up to 16 years old with minor head injury and:</span></p>\n<ul>\n<li><span>Initial GCS &ge;13 on physician determination, </span></li>\n<li><span>Injury within 24 hours, AND</span></li>\n<li><span>At least one of the following:</span></li>\n<ul>\n<li><span>Blunt trauma to the head with witnessed loss of consciousness.</span></li>\n<li><span>Definite amnesia.</span></li>\n<li><span>Witnessed disorientation.</span></li>\n<li><span>Vomiting two or more times at least 15 minutes apart.</span></li>\n<li><span>Persistent irritability in a child under two years.</span></li>\n</ul>\n</ul>\n<p><span>Do not use in any of the following situations:</span></p>\n<ul>\n<li><span>Penetrating skull injury.</span></li>\n<li><span>Depressed fractures.</span></li>\n<li><span>Acute focal neurological deficit.</span></li>\n<li><span>Chronic generalized developmental delay.</span></li>\n<li><span>Suspected child abuse.</span></li>\n<li><span>Returning for re-evaluation after prior head injury.</span></li>\n<li><span>Pregnant patients.</span></li>\n</ul>",
+            "why_use_en": "<p><span>Original study included detailed sensitivity analysis for combinations of risk factors, perhaps giving a more nuanced approach to the decision to obtain CT.</span></p>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li><span>Patients who do not meet criteria for imaging should always be counseled about concussion and its symptoms and strict head injury return precautions (e.g. vomiting, somnolence, altered mental status).</span></li>\n<li><span>Many still recommend a period of observation after head injury.</span></li>\n</ul>",
+            "critical_actions_en": "",
+            "management_en": "<p><span>Patients require CT if they have any of the high risk or medium risk factors. High risk predicts need for neurologic intervention; medium risk predicts brain injury on CT scan.</span></p>"
+          },
+          "related_resources": {
+            "interests": [
+              {
+                "description": "Paging MDCalc",
+                "link": "http://paging.mdcalc.com/2017/06/15/heads-up-on-head-injury-algorithms-the-cost-of-high-sensitivity/",
+                "text": "Heads Up on Head Injury Algorithms: The Cost of High Sensitivity"
+              }
+            ],
+            "partner_contact": [
+              {
+                "description": "Pediatric Emergency Medicine Practice",
+                "link": "https://www.ebmedicine.net/topics/trauma/pediatric-concussion-mild-tbi/calculators",
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: CATCH Rule"
+              }
+            ]
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Trauma"
+        ],
+        "dosing": false,
+        "equation_logic": "47dfc7b37c0214696740e755478980e8",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nvar gcs = parseFloat(gcs) ? 1 : 0;\nvar susopen = parseFloat(susopen) ? 1 : 0;\nvar hx = parseFloat(hx) ? 1 : 0;\nvar irrit = parseFloat(irrit) ? 1 : 0;\n\nvar basal = parseFloat(basal) ? 1 : 0;\nvar boggy = parseFloat(boggy) ? 1 : 0;\nvar moi = parseFloat(moi) ? 1 : 0;\n\nvar req = \"CT not necessary.\";\nvar result = \"Low\";\nvar high = 0;\nvar medium = 0;\nvar sens = ''\n\n\nhigh = gcs + susopen + hx + irrit;\nmedium = basal + boggy + moi; \n\n\tif (high > 0){\n\tresult = \"High\";\n\treq = \"Consider CT.\"\n\tsens = \"100% sensitive for need for neurologic intervention.\";\n\t}\n\n\tif (medium > 0 && high == 0){\n\tresult = \"Medium\";\n\treq = \"Consider CT.\"\n\tsens = \"98.1% sensitive for brain injury on CT.\";\n\t}\n\n\n\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: result,\n    value_text: 'risk',\n    message: req\n});\ncalc_output.push({\n    name: 'Risk',\n    value: result,\n    value_text: 'risk',\n    message: req + '<br/>' + sens\n});\n\n\n",
+        "favorite_id": 3954,
+        "full_title_en": "CATCH (Canadian Assessment of Tomography for Childhood Head injury) Rule",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<calculator id='64'>GCS</calculator> <15 at 2 hrs after injury",
+            "md_calc_info_concept": null,
+            "name": "gcs",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "Suspected open or depressed skull fracture",
+            "md_calc_info_concept": null,
+            "name": "susopen",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "History of worsening headache",
+            "md_calc_info_concept": null,
+            "name": "hx",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Irritability on exam</p>",
+            "md_calc_info_concept": null,
+            "name": "irrit",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Any sign of basal skull fracture</p>",
+            "md_calc_info_concept": null,
+            "name": "basal",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Hemotympanum, raccoon eyes, <abbr title='Cerebrospinal Fluid'>CSF</abbr> otorrhea or rhinorrhea, Battle’s sign",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Large boggy scalp hematoma</p>",
+            "md_calc_info_concept": null,
+            "name": "boggy",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "Dangerous mechanism of injury ",
+            "md_calc_info_concept": null,
+            "name": "moi",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "<abbr title='Motor Vehicle Collision'>MVC</abbr>, fall from ≥3 ft (91 cm) or 5 stairs, fall from bicycle with no helmet",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p><span>Use in patients up to 16 yrs with minor head injury and initial <calculator id=\"64\">Glasgow Coma Scale</calculator> at least 13, injury within 24 hrs, plus at least one of the following: blunt trauma with witnessed <abbr title=\"loss of consciousness\">LOC</abbr>, amnesia, witnessed disorientation, vomiting 2+ times at least 15 mins apart, persistent irritability if under 2 years old. Do NOT use if: penetrating skull injury, depressed fx, focal neuro deficit, developmental delay, child abuse, re-eval after prior head injury, pregnant patient. Note: We recommend using <calculator id=\"589\">PECARN</calculator>, as it is more widely validated.</span></p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "0badf75a5924fb2b49861c535a5897f8",
+        "medium_description_en": "<p><span>Predicts clinically significant head injuries in children.</span></p>",
+        "publishedAt": "2022-04-21T20:29:29.182Z",
+        "purpose_en": [
+          "Diagnosis",
+          "Rule Out"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "head trauma",
+          "trauma",
+          "head injury",
+          "CT head",
+          "trauma imaging",
+          "intracranial hemorrhange",
+          "intracranial bleed",
+          "pediatrics",
+          "peds",
+          "peds trauma",
+          "child",
+          "children",
+          "catch rule"
+        ],
+        "search_id": "c-3954",
+        "seo": {
+          "keywords_en": "CHIP rule, CHALICE, CATCH, Palchak, canadian head ct rule, canadian CT head rule, New Orleans criteria, head trauma, head CT, prediction rule, rule out, peds, pediatric trauma, peds trauma, PECARN",
+          "meta_description_en": "The CATCH (Canadian Assessment of Tomography for Childhood Head injury) Rule predicts clinically significant head injuries in children."
+        },
+        "short_description_en": "<p>Clinically significant head injuries in children.</p>",
+        "short_title_en": "CATCH Rule",
+        "slug": "catch-canadian-assessment-tomography-childhood-head-injury-rule",
+        "specialty_en": [
+          "Critical Care (Neurologic)",
+          "Critical Care (Pediatric)",
+          "Emergency Medicine",
+          "Neurology",
+          "Neurosurgery",
+          "Pediatrics",
+          "Radiology"
+        ],
+        "system_en": [
+          "Neurologic"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "b5ec46ad-dd10-44ac-8a90-bd7076bf3dc0"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Diana",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Fleisher",
+          "name": "Diana Fleisher, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Martin H. Osmond, MD, is a pediatric emergency physician at the Children’s Hospital of Eastern Ontario (CHEO). He is also the CEO and scientific director of the CHEO Research Institute. Dr. Osmond’s areas of research interest are the evaluation and management of pediatric head injuries and the use of pre-hospital care in the treatment of ill and injured children.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Martin H. Osmond",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-martin-h-osmond.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Osmond+MH%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3954/catch-canadian-assessment-tomography-childhood-head-injury-rule",
+        "description": "The CATCH (Canadian Assessment of Tomography for Childhood Head injury) Rule predicts clinically significant head injuries in children.",
+        "keywords": "CHIP rule, CHALICE, CATCH, Palchak, canadian head ct rule, canadian CT head rule, New Orleans criteria, head trauma, head CT, prediction rule, rule out, peds, pediatric trauma, peds trauma, PECARN",
+        "title": "CATCH (Canadian Assessment of Tomography for Childhood Head injury) Rule"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3955,
+          "short_title_en": "Palchak (UC Davis) Rule",
+          "slug": "palchak-uc-davis-rule-pediatric-head-trauma"
+        },
+        {
+          "calcId": 3953,
+          "short_title_en": "CHALICE Rule",
+          "slug": "chalice-childrens-head-injury-algorithm-prediction-important-clinical-events-rule"
+        },
+        {
+          "calcId": 3952,
+          "short_title_en": "CHIP Prediction Rule",
+          "slug": "chip-ct-head-injury-patients-prediction-rule"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3954",
+      "catch-canadian-assessment-tomography-childhood-head-injury-rule"
+    ]
+  },
+  "scriptLoader": []
+}

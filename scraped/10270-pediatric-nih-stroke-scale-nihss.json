@@ -1,0 +1,1098 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Weakness"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+113",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+113",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "10270.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\">The Pediatric National Institutes of Health Stroke Score (PedNIHSS) was developed by expert consensus from a panel of adult and pediatric stroke experts. The group aimed to adapt the already validated adult NIHSS to be appropriate for age-related variation in comprehension of exam materials. Scoring strategy and ranges were not changed.&nbsp;</p>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/21317270\" target=\"_blank\">Ichord et al (2011)</a> evaluated the interrater reliability of the PedNIHSS among 113 patients aged 2-18 years old in a multicenter prospective cohort study. Overall, the interrater reliability was found to be quite high, ranging from 0.63 to 1.00 among the evaluating child neurologists (depending upon the specific test item being used).&nbsp;</p>\n<p></p>",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<div dir=\"ltr\" align=\"left\">\n<table><colgroup><col width=\"181\" /><col width=\"209\" /><col width=\"59\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>1A. Level of consciousness</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">Alert; keenly responsive</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Not alert but arousable by minor stimulation to obey, answer, or respond</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Not alert, requires repeated stimulation, or is obtunded and requires strong/painful stimulation to make movements (not stereotyped)</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Responds only with reflex motor or autonomic effects or totally unresponsive, flaccid, areflexic</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><strong>1B. Ask age and to point out family member&nbsp;&nbsp;</strong></p>\n<p dir=\"ltr\">Ask the child &ldquo;how old are you?&rdquo;, give credit if child states correct age or shows correct number of fingers for age; ask the child &ldquo;where is X?&rdquo; (X = parent or other familiar family member present), give credit if child correctly points/gazes purposefully in the direction of the family member&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">Answers both questions correctly</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Answers one question correctly</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Answers neither question correctly</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><strong>1C. Command to blink eyes and touch nose</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">Performs both tasks correctly&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Performs one task correctly</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Performs neither task correctly</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><strong>2. Horizontal extraocular movements</strong></p>\n<p dir=\"ltr\">Only assess horizontal gaze</p>\n<br /><br /></td>\n<td>\n<p dir=\"ltr\">Normal&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Partial gaze palsy (abnormal gaze in one or both eyes but no forced deviation or total gaze paresis)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Forced deviation or total gaze paresis not overcome by oculocephalic maneuver</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>3. Visual fields</strong></p>\n<p dir=\"ltr\">Use finger counting (if &gt;6 years old) or visual threat (if 2-6 years old) as appropriate</p>\n</td>\n<td>\n<p dir=\"ltr\">No visual loss&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Partial hemianopia&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Complete hemianopia</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Bilateral hemianopia (blind including cortical blindness)&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>4. Facial palsy</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">Normal symmetrical movement</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Minor paralysis (flattened nasolabial fold, asymmetry on smiling)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Partial paralysis (total or near total paralysis of lower face)</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Complete paralysis of one or both sides (absence of facial movement in the upper and lower face)&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"6\">\n<p dir=\"ltr\"><strong>5A. Left arm motor drift</strong></p>\n<p dir=\"ltr\">Drift is scored if the arm falls before 10 sec; for children too young to follow precise directions or uncooperative, grade power by observation of spontaneous or elicited movement</p>\n</td>\n<td>\n<p dir=\"ltr\">No drift, limb holds 90 (or 45) degrees for full 10 seconds</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Drift, limb holds 90 (or 45) degrees, but drifts down before full 10 seconds; does not hit bed or other support</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Some effort against gravity, limb cannot get to or maintain (if cued) 90 (or 45) degrees, drifts down to bed, but has some effort against gravity</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No effort against gravity, limb falls</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No movement</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Amputation, joint fusion&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">9</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"6\">\n<p dir=\"ltr\"><strong>5B. Right arm motor drift</strong></p>\n<p dir=\"ltr\">Drift is scored if the arm falls before 10 sec; for children too young to follow precise directions or uncooperative, grade power by observation of spontaneous or elicited movement</p>\n</td>\n<td>\n<p dir=\"ltr\">No drift, limb holds 90 (or 45) degrees for full 10 seconds</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Drift, limb holds 90 (or 45) degrees, but drifts down before full 10 seconds; does not hit bed or other support</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Some effort against gravity, limb cannot get to or maintain (if cued) 90 (or 45) degrees, drifts down to bed, but has some effort against gravity</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No effort against gravity, limb falls</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No movement</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Amputation, joint fusion&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">9</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"6\">\n<p dir=\"ltr\"><strong>6A. Left leg motor drift</strong></p>\n<p dir=\"ltr\">Drift is scored if the leg falls before 5 sec; for children too young to follow precise directions or uncooperative, grade power by observation of spontaneous or elicited movement</p>\n</td>\n<td>\n<p dir=\"ltr\">No drift, leg holds 30 degrees position for full 5 seconds</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Drift, leg falls by the end of the 5 second period but does not hit bed</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Leg falls to bed by 5 seconds, but has some effort against gravity</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No effort against gravity, leg falls to bed immediately</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No movement</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Amputation, joint fusion&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">9</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"6\">\n<p dir=\"ltr\"><strong>6B.&nbsp;Right leg motor drift</strong></p>\n<p dir=\"ltr\">Drift is scored if the the leg falls before 5 sec; for children too young to follow precise directions or uncooperative, power in each limb should be graded by observation of spontaneous or elicited movement</p>\n</td>\n<td>\n<p dir=\"ltr\">No drift, leg holds 30 degrees position for full 5 seconds</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Drift, leg falls by the end of the 5 second period but does not hit bed</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Leg falls to bed by 5 seconds, but has some effort against gravity</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No effort against gravity, leg falls to bed immediately</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No movement</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Amputation, joint fusion&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">9</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><strong>7. Limb ataxia</strong></p>\n<p dir=\"ltr\">Ask child to reach for a toy, or ask child to kick a toy or the examiner&rsquo;s hand in children &lt;5 years or otherwise uncooperative for the standard exam</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Present in one limb</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Present in two limbs&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><strong>8: Sensation</strong></p>\n<p dir=\"ltr\">Pin-prick test; for children too young or otherwise uncooperative for reporting gradations of sensory loss, observe for any behavioral response to pin prick</p>\n</td>\n<td>\n<p dir=\"ltr\">Normal; no sensory loss</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Mild to moderate sensory loss; patient feels pinprick is less sharp or dull on the affected side, or there is a loss of superficial pain with pinprick but patient is aware he/she is being touched</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Severe to total sensory loss; patient is not aware of being touched in the face, arm, and leg</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>9. Best language</strong></p>\n<p dir=\"ltr\">If age &ge;6 years with normal language development before onset of stroke, ask child to describe picture, to name items, repeat words, read sentences; for children age 2-6 years, score item based on observations of language comprehension and speech during the examination</p>\n</td>\n<td>\n<p dir=\"ltr\">No aphasia, normal</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Mild to moderate aphasia</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Severe aphasia</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Mute, global aphasia; no usable speech or auditory comprehension</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>10. Dysarthria</strong></p>\n<p dir=\"ltr\">Ask patient to read or repeat words</p>\n</td>\n<td>\n<p dir=\"ltr\">Normal</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Mild to moderate; patient slurs at least some words and, at worst, can be understood with some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Severe; patient's speech is so slurred as to be unintelligible in the absence of or out of proportion to any dysphasia, or is mute/anarthric</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Intubated or other physical barrier</p>\n</td>\n<td>\n<p dir=\"ltr\">9</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><strong>11. Extinction and inattention</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">No abnormality</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Visual, tactile, auditory, spatial, or personal inattention or extinction to bilateral simultaneous stimulation in one of the sensory modalities</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Profound hemi-inattention or hemi-inattention to &gt;1 modality; does not recognize own hand or orients to only one side of space</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-0bdcde39-7fff-1369-4e32-dd18195d1d08\"><span id=\"docs-internal-guid-0bdcde39-7fff-1369-4e32-dd18195d1d08\">&nbsp;</p>",
+            "more_info_en": "<p dir=\"ltr\"><strong>Interpretation:</strong></p>\n<p dir=\"ltr\">Higher scores correspond with worse prognosis.<strong></strong></p>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\"><strong>Repetition test: </strong></p>\n<p dir=\"ltr\">Ask patient to&nbsp;repeat the following statements:</p>\n<p dir=\"ltr\"><strong><img src=\"https://cdn-web-img.mdcalc.com/content/naming.png\" width=\"100%\" /></strong></p>\n<p dir=\"ltr\"><strong>Reading test: </strong></p>\n<p dir=\"ltr\">Ask patient to read the following statements:</p>\n<p dir=\"ltr\"><strong><img src=\"https://cdn-web-img.mdcalc.com/content/reading.png\" width=\"100%\" /></strong></p>\n<p dir=\"ltr\"><strong>Naming test:</strong></p>\n<p dir=\"ltr\">Ask patient to name the following items:&nbsp;</p>\n<p dir=\"ltr\" align=\"center\"><img src=\"https://cdn-web-img.mdcalc.com/content/Picture2.png\" style=\"width: 100%;\" /></p>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\"><strong>Fluency test:</strong></p>\n<p dir=\"ltr\">Ask patient to describe what he/she sees:</p>\n<p><img src=\"https://cdn-web-img.mdcalc.com/content/describe.png\" width=\"100%\" /></p>\n<p>Figure from <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/21317270\" target=\"_blank\">Ichord 2011</a>.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21317270",
+                  "text": "Ichord RN, Bastian R, Abraham L, et al. Interrater reliability of the Pediatric National Institutes of Health Stroke Scale (PedNIHSS) in a multicenter study. Stroke. 2011;42(3):613-7."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5049943/",
+                  "text": "Mackay MT, Yock-Corrales A, Churilov L, Monagle P, Donnan GA, Babl FE. Differentiating Childhood Stroke From Mimics in the Emergency Department. Stroke. 2016;47(10):2476-81."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/30661501",
+                  "text": "Lehman LL, Beslow LA, Steinlin M, Kossorotoff M, Mackay MT. What Will Improve Pediatric Acute Stroke Care?. Stroke. 2019;50(2):249-256."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3265644/",
+                  "text": "Beslow LA, Kasner SE, Smith SE, et al. Concurrent validity and reliability of retrospective scoring of the Pediatric National Institutes of Health Stroke Scale. Stroke. 2012;43(2):341-5."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Derek Tam, MD, MPH"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Rebecca N. Ichord",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-bbe02fe9-7fff-76ed-846a-de35187ff572\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The presentation of stroke in younger children can be subtle and include altered mental status, depressed level of consciousness, and apneas, among others.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Posing the questions and tasks in the PedNIHSS as a game may aid motivation in patients, especially younger children.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The developmental age of the child in their pre-morbid state must be considered. Consultation with the child&rsquo;s primary pediatrician may be useful in estimating the child&rsquo;s developmental age; performing a validated developmental screening tool using parental recall may also be helpful.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Assessment of muscle strength in uncooperative patients may be made by careful observation of spontaneous movement, or elicited movement, as compared to a developmentally and neurologically appropriate child of the same age as the patient being evaluated.</p>\n</li>\n</ul>",
+            "use_case_en": "<p>Pediatric patients 2-18 years old with clinical and radiologic signs of acute ischemic stroke.</p>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-dd9332ed-7fff-a6ca-164c-61e47b78c574\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Pediatric stroke is relatively uncommon, but remains an important cause of morbidity and mortality.&nbsp;</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Adult stroke scales have limited sensitivity when translated to a pediatric population (62-67% sensitivity according to one analysis by <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5049943/\" target=\"_blank\">Mackay et al, 2016</a>). PedNIHSS is up to 87% sensitive (<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3265644/\" target=\"_blank\">Beslow 2012</a>).&nbsp;</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Determines the severity of pediatric stroke and can be trended over time to assess recovery.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Initial PedNIHSS may be predictive of future disability at 90 days.</p>\n</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-47dfbcec-7fff-9171-fe37-dc9b91fa4ae2\">Pediatric stroke is overall rare, and the true predictive value of the PedNIHSS is subject to change as the scale continues to be studied. Retrospective application of the PedNIHSS has been shown to be valid and reliable in one cross-sectional study (see <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3265644/\" target=\"_blank\">Beslow 2012</a>).</p>",
+            "critical_actions_en": "<p>Children with sickle cell disease presenting with acute ischemic stroke will likely benefit from emergent blood transfusion to reduce hyperviscosity caused by sickled cells. Early consultation with a pediatric hematologist is recommended in addition to child neurology consult.</p>",
+            "management_en": "<p><span id=\"docs-internal-guid-3e64e5db-7fff-e045-8fb2-aeb4a2fa4c9a\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">This score has not been validated in hemorrhagic stroke; in such cases, the need for emergent neurosurgical consult is clear.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Given the overall rarity of pediatric stroke, the benefit of tPA is not well defined in the literature, emphasizing the importance of expert consultation.</p>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [
+              {
+                "CalculatorId": 10270,
+                "createdAt": "2022-03-21T20:14:59.298Z",
+                "description": "Get up to 10 hours of stroke CME",
+                "id": 127,
+                "link": "https://www.mdcalc.com/stroke-cme",
+                "order": 0,
+                "text": "MDCalc Stroke CME",
+                "updatedAt": "2022-03-21T20:14:59.298Z"
+              }
+            ],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 10270,
+                "createdAt": "2019-11-07T15:34:35.802Z",
+                "description": "Emergency Medicine Practice",
+                "id": 111,
+                "link": "https://www.ebmedicine.net/topics/stroke/pediatric-stroke",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: PedNIHSS",
+                "updatedAt": "2022-03-21T20:14:59.319Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Stroke/TIA"
+        ],
+        "dosing": false,
+        "equation_logic": "895f11ee4d0d94c3c8c1bb649fa3e964",
+        "equation_logic_text": "var calc_output = [];\n\nvar onea = parseFloat(onea);\nvar oneb = parseFloat(oneb);\nvar onec = parseFloat(onec);\nvar two = parseFloat(two);\nvar three = parseFloat(three);\nvar four = parseFloat(four);\nvar fivea = parseFloat(fivea);\nvar fiveb = parseFloat(fiveb);\nvar sixa = parseFloat(sixa);\nvar sixb = parseFloat(sixb);\nvar seven = parseFloat(seven);\nvar eight = parseFloat(eight);\nvar nine = parseFloat(nine);\nvar ten = parseFloat(ten);\nvar eleven = parseFloat(eleven);\n\nvar score = onea + oneb + onec + two + three + four + fivea + fiveb + sixa + sixb + seven + eight + nine + ten + eleven;\n\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: 'Higher scores correspond with worse prognosis'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'Higher scores correspond with worse prognosis'   \n});",
+        "favorite_id": 10270,
+        "full_title_en": "Pediatric NIH Stroke Scale (NIHSS)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "1A. Level of consciousness",
+            "name": "onea",
+            "optional": false,
+            "options": [
+              {
+                "label": "Alert; keenly responsive",
+                "value": 0
+              },
+              {
+                "label": "Not alert but arousable by minor stimulation to obey, answer, or respond",
+                "value": 1
+              },
+              {
+                "label": "Not alert, requires repeated stimulation, or is obtunded and requires strong/painful stimulation to make movements (not stereotyped)",
+                "value": 2
+              },
+              {
+                "label": "Responds only with reflex motor or autonomic effects or totally unresponsive, flaccid, areflexic",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "1B. Ask age and to point out family member",
+            "name": "oneb",
+            "optional": false,
+            "options": [
+              {
+                "label": "Answers both questions correctly",
+                "value": 0
+              },
+              {
+                "label": "Answers one question correctly",
+                "value": 1
+              },
+              {
+                "label": "Answers neither question correctly",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Ask the child “how old are you?”, give credit if child states correct age or shows correct number of fingers for age; ask the child “where is X?” (X = parent or other familiar family member present), give credit if child correctly points/gazes purposefully in the direction of the family member",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "1C. Command to blink eyes and touch nose",
+            "name": "onec",
+            "optional": false,
+            "options": [
+              {
+                "label": "Performs both tasks correctly",
+                "value": 0
+              },
+              {
+                "label": "Performs one task correctly",
+                "value": 1
+              },
+              {
+                "label": "Performs neither task correctly",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "2. Horizontal extraocular movements",
+            "name": "two",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal",
+                "value": 0
+              },
+              {
+                "label": "Partial gaze palsy (abnormal gaze in one or both eyes but no forced deviation or total gaze paresis)",
+                "value": 1
+              },
+              {
+                "label": "Forced deviation or total gaze paresis not overcome by oculocephalic maneuver",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Only assess horizontal gaze",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "3. Visual fields",
+            "name": "three",
+            "optional": false,
+            "options": [
+              {
+                "label": "No visual loss",
+                "value": 0
+              },
+              {
+                "label": "Partial hemianopia",
+                "value": 1
+              },
+              {
+                "label": "Complete hemianopia",
+                "value": 2
+              },
+              {
+                "label": "Bilateral hemianopia (blind including cortical blindness) ",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Use finger counting (if >6 years old) or visual threat (if 2-6 years old) as appropriate",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "4. Facial palsy",
+            "name": "four",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal symmetrical movement",
+                "value": 0
+              },
+              {
+                "label": "Minor paralysis (flattened nasolabial fold, asymmetry on smiling)",
+                "value": 1
+              },
+              {
+                "label": "Partial paralysis (total or near total paralysis of lower face)",
+                "value": 2
+              },
+              {
+                "label": "Complete paralysis of one or both sides (absence of facial movement in the upper and lower face)",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "5A. Left arm motor drift",
+            "name": "fivea",
+            "optional": false,
+            "options": [
+              {
+                "label": "No drift, limb holds 90 (or 45) degrees for full 10 seconds",
+                "value": 0
+              },
+              {
+                "label": "Drift, limb holds 90 (or 45) degrees, but drifts down before full 10 seconds; does not hit bed or other support",
+                "value": 1
+              },
+              {
+                "label": "Some effort against gravity, limb cannot get to or maintain (if cued) 90 (or 45) degrees, drifts down to bed, but has some effort against gravity",
+                "value": 2
+              },
+              {
+                "label": "No effort against gravity, limb falls",
+                "value": 3
+              },
+              {
+                "label": "No movement",
+                "value": 4
+              },
+              {
+                "label": "Amputation, joint fusion",
+                "value": 9
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Drift is scored if the arm falls before 10 sec; for children too young to follow precise directions or uncooperative, grade power by observation of spontaneous or elicited movement",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "5B. Right arm motor drift",
+            "name": "fiveb",
+            "optional": false,
+            "options": [
+              {
+                "label": "No drift, limb holds 90 (or 45) degrees for full 10 seconds",
+                "value": 0
+              },
+              {
+                "label": "Drift, limb holds 90 (or 45) degrees, but drifts down before full 10 seconds; does not hit bed or other support",
+                "value": 1
+              },
+              {
+                "label": "Some effort against gravity, limb cannot get to or maintain (if cued) 90 (or 45) degrees, drifts down to bed, but has some effort against gravity",
+                "value": 2
+              },
+              {
+                "label": "No effort against gravity, limb falls",
+                "value": 3
+              },
+              {
+                "label": "No movement",
+                "value": 4
+              },
+              {
+                "label": "Amputation, joint fusion ",
+                "value": 9
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Drift is scored if the arm falls before 10 sec; for children too young to follow precise directions or uncooperative, grade power by observation of spontaneous or elicited movement",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "6A. Left leg motor drift",
+            "name": "sixa",
+            "optional": false,
+            "options": [
+              {
+                "label": "No drift, leg holds 30 degrees position for full 5 seconds",
+                "value": 0
+              },
+              {
+                "label": "Drift, leg falls by the end of the 5 second period but does not hit bed",
+                "value": 1
+              },
+              {
+                "label": "Leg falls to bed by 5 seconds, but has some effort against gravity",
+                "value": 2
+              },
+              {
+                "label": "No effort against gravity, leg falls to bed immediately",
+                "value": 3
+              },
+              {
+                "label": "No movement",
+                "value": 4
+              },
+              {
+                "label": "Amputation, joint fusion",
+                "value": 9
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Drift is scored if the leg falls before 5 sec; for children too young to follow precise directions or uncooperative, grade power by observation of spontaneous or elicited movement",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "6B. Right leg motor drift",
+            "name": "sixb",
+            "optional": false,
+            "options": [
+              {
+                "label": "No drift, leg holds 30 degrees position for full 5 seconds",
+                "value": 0
+              },
+              {
+                "label": "Drift, leg falls by the end of the 5 second period but does not hit bed",
+                "value": 1
+              },
+              {
+                "label": "Leg falls to bed by 5 seconds, but has some effort against gravity",
+                "value": 2
+              },
+              {
+                "label": "No effort against gravity, leg falls to bed immediately",
+                "value": 3
+              },
+              {
+                "label": "No movement",
+                "value": 4
+              },
+              {
+                "label": "Amputation, joint fusion",
+                "value": 9
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Drift is scored if the the leg falls before 5 sec; for children too young to follow precise directions or uncooperative, power in each limb should be graded by observation of spontaneous or elicited movement",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "7. Limb ataxia",
+            "name": "seven",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Present in one limb",
+                "value": 1
+              },
+              {
+                "label": "Present in two limbs",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Ask child to reach for a toy, or ask child to kick a toy or the examiner’s hand in children <5 years or otherwise uncooperative for the standard exam",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "8: Sensation",
+            "name": "eight",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal; no sensory loss",
+                "value": 0
+              },
+              {
+                "label": "Mild to moderate sensory loss; patient feels pinprick is less sharp or dull on the affected side, or there is a loss of superficial pain with pinprick but patient is aware he/she is being touched",
+                "value": 1
+              },
+              {
+                "label": "Severe to total sensory loss; patient is not aware of being touched in the face, arm, and leg",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Pin-prick test; for children too young or otherwise uncooperative for reporting gradations of sensory loss, observe for any behavioral response to pin prick",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "9. Best language",
+            "name": "nine",
+            "optional": false,
+            "options": [
+              {
+                "label": "No aphasia, normal",
+                "value": 0
+              },
+              {
+                "label": "Mild to moderate aphasia",
+                "value": 1
+              },
+              {
+                "label": "Severe aphasia",
+                "value": 2
+              },
+              {
+                "label": "Mute, global aphasia; no usable speech or auditory comprehension",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "If age ≥6 years with normal language development before onset of stroke, ask child to describe picture, to name items, repeat words, read sentences (see below); for children age 2-6 years, score item based on observations of language comprehension and speech during the examination",
+            "type": "radio"
+          },
+          {
+            "type": "visual",
+            "visual": "<p style = \"font-family:facit;color:rgba(89,89,89,.7);font-size:14px;\">Repetition test:</p><img src=\"https://cdn-web-img.mdcalc.com/content/naming.png\" width=\"100%\" />"
+          },
+          {
+            "type": "visual",
+            "visual": "<p style = \"font-family:facit;color:rgba(89,89,89,.7);font-size:14px;\">Reading test:</p><img src=\"https://cdn-web-img.mdcalc.com/content/reading.png\" width=\"100%\" />"
+          },
+          {
+            "type": "visual",
+            "visual": "<p style = \"font-family:facit;color:rgba(89,89,89,.7);font-size:14px;\">Fluency test:</p><img src=\"https://cdn-web-img.mdcalc.com/content/describe.png\" width=\"100%\" />"
+          },
+          {
+            "type": "visual",
+            "visual": "<p style = \"font-family:facit;color:rgba(89,89,89,.7);font-size:14px;\">Naming test:</p><p align=\"center\"><img src=\"https://cdn-web-img.mdcalc.com/content/Picture2.png\" style=\"width: 75%;\" /></p>"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "10. Dysarthria",
+            "name": "ten",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal",
+                "value": 0
+              },
+              {
+                "label": "Mild to moderate; patient slurs at least some words and, at worst, can be understood with some difficulty",
+                "value": 1
+              },
+              {
+                "label": "Severe; patient's speech is so slurred as to be unintelligible in the absence of or out of proportion to any dysphasia, or is mute/anarthric",
+                "value": 2
+              },
+              {
+                "label": "Intubated or other physical barrier",
+                "value": 9
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Ask patient to read or repeat words (as above)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "11. Extinction and inattention",
+            "name": "eleven",
+            "optional": false,
+            "options": [
+              {
+                "label": "No abnormality",
+                "value": 0
+              },
+              {
+                "label": "Visual, tactile, auditory, spatial, or personal inattention or extinction to bilateral simultaneous stimulation in one of the sensory modalities",
+                "value": 1
+              },
+              {
+                "label": "Profound hemi-inattention or hemi-inattention to >1 modality; does not recognize own hand or orients to only one side of space",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Administer the questions in the order below. In order to improve score accuracy, emphasize with family members the need to refrain from hinting at the correct responses to questions asked.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "cme",
+            "time": "2022-03-21T16:14:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "eb med",
+            "time": "2019-11-07T10:34:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "edited content",
+            "time": "2019-11-06T12:12:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited input",
+            "time": "2019-10-14T12:35:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-10-14T12:31:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-10-14T12:29:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-10-14T12:20:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-10-14T12:15:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "testing",
+            "time": "2019-10-14T12:01:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "removed reviewer",
+            "time": "2019-10-14T11:02:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited reviewer",
+            "time": "2019-10-14T09:56:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited reviewer",
+            "time": "2019-10-14T09:55:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited evidence",
+            "time": "2019-10-14T09:14:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited evidence",
+            "time": "2019-10-14T09:13:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "AD edits",
+            "time": "2019-10-14T09:12:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "AD edits",
+            "time": "2019-10-14T09:05:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "updated evidence",
+            "time": "2019-10-11T10:01:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2019-10-11T09:56:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2019-10-10T21:38:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited images",
+            "time": "2019-10-10T09:59:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added visuals",
+            "time": "2019-10-10T09:58:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-10-10T09:48:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "alpha test edits",
+            "time": "2019-10-10T09:47:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added last image",
+            "time": "2019-10-09T18:54:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited images",
+            "time": "2019-10-09T18:43:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited imaged",
+            "time": "2019-10-09T18:36:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited desc",
+            "time": "2019-10-09T17:55:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited search terms",
+            "time": "2019-10-09T17:53:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-10-09T17:28:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-10-09T17:24:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-10-09T17:17:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content/inputs",
+            "time": "2019-10-09T17:14:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "claiming calc id",
+            "time": "2019-10-09T16:00:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "224be26671cccf6a395210ab214cbe53",
+        "medium_description_en": "<p>Quantifies stroke severity using a child-specific version of the <calculator id=\"715\">NIH Stroke Score</calculator>.</p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "Ped nihss",
+          "peds nihss",
+          "pediatric stroke",
+          "pediatric stroke",
+          "PedNIHSS",
+          "peds nih stroke"
+        ],
+        "search_id": "c-10270",
+        "seo": {
+          "keywords_en": "Ped nihss, peds nihss, pediatric stroke, peds nih stroke, PedNIHSS",
+          "meta_description_en": "The Pediatric NIH Stroke Scale (NIHSS) quantifies stroke severity using a child-specific version of the NIH Stroke Score."
+        },
+        "short_description_en": "Pediatric modification of the NIHSS.",
+        "short_title_en": "PedNIHSS",
+        "slug": "pediatric-nih-stroke-scale-nihss",
+        "specialty_en": [
+          "Emergency Medicine",
+          "Family Practice",
+          "Neurology",
+          "Pediatric Subspecialty",
+          "Pediatrics"
+        ],
+        "system_en": [
+          "Neurologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Derek Tam, MD, MPH, is a pediatric resident at Maimonides Children's Hospital in Brooklyn, NY. Dr. Tam completed an undergraduate degree in cognitive science at Northwestern University in Chicago, IL, and received his MD and MPH from the Northwestern University Feinberg School of Medicine. He will serve as chief resident for the pediatric residency program at Maimonides for the academic year 2019-2020 and plans to pursue a fellowship in pediatric emergency medicine. His academic interests include emergency medicine, pediatric resuscitation, antibiotic stewardship, and epidemiology.</p>",
+          "firstName": "Derek",
+          "hasDisclosure": [],
+          "img": "derek-tam.jpg",
+          "lastName": "Tam",
+          "name": "Derek Tam, MD, MPH",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "derek-tam",
+          "updatedAt": "2023-04-06T20:25:19.744Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Rebecca N. Ichord, MD, is a professor of neurology and an attending neurologist at the Children's Hospital of Philadelphia in Pennsylvania. She is also the director of the Pediatric Stroke Fellowship Program and section chief of the ICU Neurology Consultation Service at the Children's Hospital of Philadelphia. Dr. Ichord’s primary research is focused on pediatric cardiac arrest and stroke.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Rebecca N. Ichord",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-rebecca-ichord.png",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Ichord+RN%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10270/pediatric-nih-stroke-scale-nihss",
+        "description": "The Pediatric NIH Stroke Scale (NIHSS) quantifies stroke severity using a child-specific version of the NIH Stroke Score.",
+        "keywords": "Ped nihss, peds nihss, pediatric stroke, peds nih stroke, PedNIHSS",
+        "title": "Pediatric NIH Stroke Scale (NIHSS)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 715,
+          "short_title_en": "NIH Stroke Scale (NIHSS)",
+          "slug": "nih-stroke-scale-score-nihss"
+        },
+        {
+          "calcId": 2030,
+          "short_title_en": "HAT Score",
+          "slug": "hat-hemorrhage-thrombolysis-score-predicting-post-tpa-hemorrhage"
+        },
+        {
+          "calcId": 2039,
+          "short_title_en": "SEDAN Score",
+          "slug": "sedan-score-post-tpa-hemorrhage"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10270",
+      "pediatric-nih-stroke-scale-nihss"
+    ]
+  },
+  "scriptLoader": []
+}

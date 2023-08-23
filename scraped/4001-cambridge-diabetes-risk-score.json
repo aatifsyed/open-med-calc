@@ -1,0 +1,614 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Fatigue",
+          "Polyuria",
+          "Weight Loss/Gain"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>Probability of having T2DM (HgbA1c ≥7.0%) =</p> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 / (1 + <em>e</em><sup>-(α + β<sub>1</sub>x<sub>1</sub> + β<sub>2</sub>x<sub>2&nbsp;</sub>+ β<sub>3</sub>x<sub>3&nbsp;</sub>+...+ β<sub>n</sub>x<sub>n</sub>)</sup>&nbsp;)</p> <p>Where:</p> <p>α = -6.322, and additional constants and variables are as follows:</p> <p>&nbsp;</p> <table> <tbody> <tr> <td rowspan=\"2\">&nbsp;</td> <td rowspan=\"2\"> <p><strong>β</strong></p> </td> <td colspan=\"2\" rowspan=\"2\"> <p><strong>x</strong></p> </td> </tr> <tr> <td>&nbsp;</td> <td colspan=\"2\">&nbsp;</td> </tr> <tr> <td> <p>1. Gender</p> </td> <td> <p>-0.879</p> </td> <td colspan=\"2\"> <p>0 if Male</p> <p>1 if Female</p> </td> </tr> <tr> <td> <p>2. Prescribed antihypertensive medication</p> </td> <td>&nbsp;1.222</td> <td colspan=\"2\">&nbsp; <p>0 if No</p> <p>1 if Yes</p> </td> </tr> <tr> <td> <p>3. Prescribed steroids </p> </td> <td> <p>2.191</p> </td> <td colspan=\"2\"> <p>0 if No</p> <p>1 if Yes</p> </td> </tr> <tr> <td> <p>4. Age</p> </td> <td> <p>0.063</p> </td> <td colspan=\"2\"> <p>Age in years</p> </td> </tr> <tr> <td> <p>5. BMI, kg/m<sup>2</sup></p> </td> <td colspan=\"3\"> <p>β<sub>5</sub>x<sub>5</sub>= 0 if &lt;25</p> <p>β<sub>5</sub>x<sub>5</sub>= 0.699 if ≥25 and &lt;27.5</p> <p>β<sub>5</sub>x<sub>5</sub>= 1.97 if ≥27.5 and &lt;30</p> <p>β<sub>5</sub>x<sub>5</sub>= 2.518 if ≥30</p> </td> </tr> <tr> <td> <p>6. Family history</p> </td> <td colspan=\"3\"> <p>β<sub>6</sub>x<sub>6 </sub>= 0 if no diabetic 1st-degree relative</p> <p>β<sub>6</sub>x<sub>6</sub>&nbsp;= 0.728 if parent <em>or</em> sibling with diabetes</p> <p>β<sub>6</sub>x<sub>6</sub> = 0.753 if parent <em>and</em> sibling with diabetes</p> </td> </tr> <tr> <td> <p>7. Smoking history</p> </td> <td colspan=\"3\"> <p>β<sub>7</sub>x<sub>7</sub> = 0 if non-smoker</p> <p>β<sub>7</sub>x<sub>7</sub>&nbsp;= -0.218 if ex-smoker</p> <p>β<sub>7</sub>x<sub>7</sub> = 0.855 if current smoker</p> </td> </tr> </tbody> </table>",
+            "more_info_en": "<p>Interpretation:</p> <table> <tbody> <tr> <td> <p><strong>Griffin score cutoff</strong></p> </td> <td> <p><strong>Sensitivity</strong></p> </td> <td> <p><strong>Specificity</strong></p> </td> <td> <p><strong>Positive predictive value</strong></p> </td> <td> <p><strong>Negative predictive value</strong></p> </td> </tr> <tr> <td> <p>0.11</p> </td> <td> <p>85%</p> </td> <td> <p>51%</p> </td> <td> <p>2.2%</p> </td> <td> <p>99.6%</p> </td> </tr> <tr> <td> <p>0.15</p> </td> <td> <p>72%</p> </td> <td> <p>60%</p> </td> <td> <p>2.2%</p> </td> <td> <p>99.4%</p> </td> </tr> <tr> <td> <p>0.17</p> </td> <td> <p>70%</p> </td> <td> <p>64%</p> </td> <td> <p>2.4%</p> </td> <td> <p>99.4%</p> </td> </tr> <tr> <td> <p>0.23</p> </td> <td> <p>63%</p> </td> <td> <p>72%</p> </td> <td> <p>2.8%</p> </td> <td> <p>99.4%</p> </td> </tr> <tr> <td> <p>0.29</p> </td> <td> <p>51%</p> </td> <td> <p>78%</p> </td> <td> <p>2.9%</p> </td> <td> <p>99.2%</p> </td> </tr> </tbody> </table>",
+            "references_list": {
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10867715 ",
+                  "text": "Griffin SJ, Little PS, Hales CN, Kinmonth AL, Wareham NJ. Diabetes risk score: towards earlier detection of type 2 diabetes in general practice. Diabetes Metab Res Rev. 2000;16(3):164-71."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21380593",
+                  "text": "Wareham NJ, Griffin SJ. Risk scores for predicting type 2 diabetes: comparing axes and spades. Diabetologia. 2011;54(5):994-5."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/17490419",
+                  "text": "Simmons RK, Harding AH, Wareham NJ, Griffin SJ. Do simple questions about diet and physical activity help to identify those at risk of Type 2 diabetes?. Diabet Med. 2007;24(8):830-5."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16922706",
+                  "text": "Heldgaard PE, Griffin SJ. Routinely collected general practice data aids identification of people with hyperglycaemia and metabolic syndrome. Diabet Med. 2006;23(9):996-1002."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12518011",
+                  "text": "Spijkerman A, Griffin S, Dekker J, Nijpels G, Wareham NJ. What is the risk of mortality for people who are screen positive in a diabetes screening programme but who do not have diabetes on biochemical testing? Diabetes screening programmes from a public health perspective. J Med Screen. 2002;9(4):187-90."
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12032103",
+                  "text": "Park PJ, Griffin SJ, Sargeant L, Wareham NJ. The performance of a risk score in predicting undiagnosed hyperglycemia. Diabetes Care. 2002;25(6):984-8."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/20822683",
+                  "text": "Chamnan P, Simmons RK, Hori H, et al. A simple risk score using routine data for predicting cardiovascular disease in primary care. Br J Gen Pract. 2010;60(577):e327-34."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/18515811",
+                  "text": "Rahman M, Simmons RK, Harding AH, Wareham NJ, Griffin SJ. A simple risk score identifies individuals at high risk of developing Type 2 diabetes: a prospective cohort study. Fam Pract. 2008;25(3):191-6."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/14693976",
+                  "text": "Spijkerman AM, Yuyun MF, Griffin SJ, Dekker JM, Nijpels G, Wareham NJ. The performance of a risk score as a screening test for undiagnosed hyperglycemia in ethnic minority groups: data from the 1999 health survey for England. Diabetes Care. 2004;27(1):116-22."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24622666",
+                  "text": "Kengne AP, Beulens JW, Peelen LM, et al. Non-invasive risk scores for prediction of type 2 diabetes (EPIC-InterAct): a validation of existing models. Lancet Diabetes Endocrinol. 2014;2(1):19-29."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "name": "Dr. Simon J. Griffin",
+              "qa_en": "<p><strong>Why did you develop the Cambridge Diabetes Risk Score? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p> <p>In the mid-1990s, it was believed that 50% of type 2 diabetes remained undiagnosed, people could have diabetes for up to 12 years before they were diagnosed, and [they] often presented with complications at the point of diagnosis. At the time, I was working on a trial among patients with newly-diagnosed type 2 diabetes. The data collected by practice nurses for this trial suggested to me that these newly-diagnosed patients exhibited characteristics that might help us to identify people with undiagnosed disease. Furthermore, these simple characteristics were either readily available in the medical records or could be easily obtained without the need for expensive medical consultations or blood tests.</p> <p><strong>What pearls, pitfalls and/or tips do you have for users of the Cambridge Diabetes Risk Score? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p> <p>The Cambridge diabetes risk score was originally designed to identify people at high risk of having undiagnosed diabetes. However, it also performs reasonably well at predicting who will develop diabetes and cardiovascular disease, and experience premature mortality. As with most such scores, it is based on a logistic regression equation, hence the score, from 0 to 1, does not by itself provide a measure of absolute risk over a 10 year period, unlike, for, example the Framingham or QRisk cardiovascular scores. So a diabetes risk score of 0.7 does not imply a 70% lifetime or 10 year risk of diabetes.</p> <p><strong>What recommendations do you have for doctors once they have applied the Cambridge Diabetes Risk Score? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p> <p>The score helps to stratify the population so that subsequent testing or preventive interventions can be targeted at those at greatest risk. It can be used as the first step in a population screening or prevention programme. Depending on available resources, those in the higher distribution of the risk score might be offered a diagnostic blood test for diabetes such as glycated hemoglobin (HgbA1c) and advice about how to reduce their risk.</p> <p><strong>How do you use the Cambridge Diabetes Risk Score in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p> <p>In the English NHS Health Checks and Diabetes Prevention Programmes, a similar score developed in Leicester around 10 years after the one that I originally reported is now being used to identify those at high risk of diabetes.</p> <p><strong>According to the score, steroid use increases risk of T2DM. Is this because steroid-induced diabetes was included with T2DM in your analysis?</strong></p> <p>We did not distinguish between the different potential underlying causes of diabetes. In our original analysis, the prescription of steroids was significantly associated with the presence of diabetes. Presumably, this is because the underlying indication for the prescription, or the steroids themselves increase the risk of diabetes. We included any variable that increased the predictive utility of the model, irrespective of whether we understood the underlying mechanism. Unsurprisingly, the obvious known risk factors such as age and body mass index were the variables that most strongly predicted the presence of diabetes.</p> <p><strong>Any other research in the pipeline that you&rsquo;re particularly excited about?</strong></p> <p>We are using similar approaches to develop and validate simple risk scores for cancers such as colorectal and prostate. As with diabetes and cardiovascular disease we are finding that these scores perform surprisingly well and usually rather better than genetic tests.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "",
+            "why_use_en": "<p>Most diabetes risk scores are validated against an outcome of clinically diagnosed diabetes rather than using a design in which the whole study population undergoes the diagnostic test. This leads to bias, as the variables included in risk scores are related to the patient characteristics likely to encourage doctors to undertake diagnostic testing. The Cambridge Diabetes Risk Score is validated in populations that underwent diagnostic testing to reduce this bias.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Guidelines vary, but the threshold for formal screening should be lower in patients with higher risk for undiagnosed diabetes.</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "interests": [
+              {
+                "description": "",
+                "link": "https://www.mdcalc.com/diabetes-practice-pearls",
+                "text": "Practice Pearls: Diabetes"
+              }
+            ]
+          }
+        },
+        "disease_en": [
+          "Diabetes Mellitus"
+        ],
+        "dosing": false,
+        "equation_logic": "bb4141e0466ac2124e704cd4554baa52",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nvar bx1 = parseFloat(gender);\nvar bx2 = parseFloat(anti);\nvar bx3 = parseFloat(steroids);\nvar bx4 = parseFloat(age) * 0.063;\nvar bx5 = parseFloat(bmi);\nvar bx6 = parseFloat(hx);\nvar bx7 = parseFloat(smoker);\n\nif (bx7 == 0.218) {\n\tbx7 = -0.218\n}\n\n//formula\nvar denominator = 1 + Math.exp(-(-6.322 + bx1 + bx2 + bx3 + bx4 + bx5 + bx6 + bx7));\n\nvar result = 100*(1 / denominator);\n\n//interpretation\nvar i = 'Risk score >11% is 85% sensitive for predicting previously undiagnosed hyperglycemia (HbA1c >= 7.0%)'\nvar j = 'Risk Score <11%';\nif(result > 11){\n\tj = 'Risk Score >11%';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: result.toFixed(1),\n    value_text: '%',\n    message: 'Probability of T2DM'\n});\ncalc_output.push({\n    name: 'Result',\n    value: (result).toFixed(1),\n    value_text: '%',\n    message: 'Probability of T2DM in previously undiagnosed patient<br/><br/>Risk scores >11% are 85% sensitive for identifying diabetes (HgbA1c ≥7.0%)'\n});",
+        "favorite_id": 4001,
+        "full_title_en": "Cambridge Diabetes Risk Score",
+        "input_schema": [
+          {
+            "label_en": "Gender",
+            "name": "gender",
+            "optional": false,
+            "options": [
+              {
+                "label": "Male",
+                "value": 0
+              },
+              {
+                "label": "Female",
+                "value": -0.879
+              }
+            ],
+            "show_points": false,
+            "type": "radio"
+          },
+          {
+            "default": 0,
+            "label_en": "Prescribed antihypertensive medication",
+            "name": "anti",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1.222
+              }
+            ],
+            "show_points": false,
+            "type": "radio"
+          },
+          {
+            "default": 0,
+            "label_en": "Prescribed steroids",
+            "name": "steroids",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2.191
+              }
+            ],
+            "show_points": false,
+            "type": "radio"
+          },
+          {
+            "label_en": "Age",
+            "name": "age",
+            "optional": false,
+            "type": "textbox",
+            "unit": "age"
+          },
+          {
+            "default": 0,
+            "label_en": "<calculator id='29'>BMI</calculator>, kg/m²",
+            "name": "bmi",
+            "optional": false,
+            "options": [
+              {
+                "label": "<25",
+                "value": 0
+              },
+              {
+                "label": "≥25 and <27.5",
+                "value": 0.699
+              },
+              {
+                "label": "≥27.5 and <30",
+                "value": 1.97
+              },
+              {
+                "label": "≥30",
+                "value": 2.518
+              }
+            ],
+            "show_points": false,
+            "type": "radio"
+          },
+          {
+            "default": 0,
+            "label_en": "Family history",
+            "name": "hx",
+            "optional": false,
+            "options": [
+              {
+                "label": "No diabetic 1st-degree relative",
+                "value": 0
+              },
+              {
+                "label": "Parent <i>or</i> sibling with diabetes",
+                "value": 0.728
+              },
+              {
+                "label": "Parent <i>and</i> sibling with diabetes",
+                "value": 0.753
+              }
+            ],
+            "show_points": false,
+            "type": "radio"
+          },
+          {
+            "default": 0,
+            "label_en": "Smoking history",
+            "name": "smoker",
+            "optional": false,
+            "options": [
+              {
+                "label": "Non-smoker",
+                "value": 0
+              },
+              {
+                "label": "Ex-smoker",
+                "value": 0.218
+              },
+              {
+                "label": "Current smoker",
+                "value": 0.855
+              }
+            ],
+            "show_points": false,
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "Use to estimate risk that patient currently has undiagnosed diabetes (i.e., NOT future risk of developing diabetes). Study cohort involved mostly white English patients, so use with caution in other populations.",
+        "logs": [],
+        "md5": "5f1fad4c1437ae6a2eeef1ee3e32890b",
+        "medium_description_en": "<p>Predicts risk of having previously undiagnosed type 2 diabetes.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "diabetes risk score",
+          "griffin score",
+          "cambridge risk score",
+          "cambridge diabetes risk score"
+        ],
+        "search_id": "c-4001",
+        "seo": {
+          "keywords_en": "Diabetes risk score, griffin score, findrisc, cambridge",
+          "meta_description_en": "The Cambridge Diabetes Risk Score predicts risk of having previously undiagnosed type 2 diabetes."
+        },
+        "short_description_en": "T2DM risk.",
+        "short_title_en": "Cambridge Diabetes Risk Score",
+        "slug": "cambridge-diabetes-risk-score",
+        "specialty_en": [
+          "Endocrinology",
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Endocrine and Metabolic"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Simon J. Griffin, DM, is professor of general practice at the University of Cambridge, Group Leader in the MRC Epidemiology Unit and an assistant general practitioner at Lensfield Medical Practice in Cambridge, UK. He leads the Prevention of Diabetes and Related Metabolic Disorders Programme. Professor Griffin’s research interests include prevention and early detection of chronic conditions such as diabetes.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Simon J. Griffin",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-simon-griffin.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Griffin+SJ%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4001/cambridge-diabetes-risk-score",
+        "description": "The Cambridge Diabetes Risk Score predicts risk of having previously undiagnosed type 2 diabetes.",
+        "keywords": "Diabetes risk score, griffin score, findrisc, cambridge",
+        "title": "Cambridge Diabetes Risk Score"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 120,
+          "error_max_si": 120,
+          "error_max_us": 120,
+          "error_min": 0.001,
+          "error_min_si": 0.001,
+          "error_min_us": 0.001,
+          "name": "Age",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "age",
+          "units_si": "years",
+          "units_us": "years",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0.1,
+          "warn_min_si": 0.1,
+          "warn_min_us": 0.1
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": "4003",
+          "short_title_en": "DKA MPM Score",
+          "slug": "diabetic-ketoacidosis-mortality-prediction-model-dka-mpm-score"
+        },
+        {
+          "calcId": "4020",
+          "short_title_en": "ADA Diabetes Risk Calculator",
+          "slug": "american-diabetes-association-ada-risk-calculator"
+        },
+        {
+          "calcId": "1868",
+          "short_title_en": "APACHE II Score",
+          "slug": "apache-ii-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4001",
+      "cambridge-diabetes-risk-score"
+    ]
+  },
+  "scriptLoader": []
+}

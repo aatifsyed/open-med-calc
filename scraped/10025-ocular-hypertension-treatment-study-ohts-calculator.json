@@ -1,0 +1,721 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Vision Loss"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "10025.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\"><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/12049574\" target=\"_blank\">Ocular Hypertension Treatment Study (2002)</a>: This randomized controlled trial evaluated 1,636 patients with ocular hypertension without glaucomatous field or optic nerve loss and found that lowering IOP was beneficial in preventing the progression to glaucoma. This study also identified clinical characteristics that predict the onset of primary open angle glaucoma.</p>\n<p dir=\"ltr\">Data from the original OHTS group was pooled with data from the European Glaucoma Prevention Study (EGPS) group to develop with a model to predict five year progression to glaucoma based on characteristics identified in the original study.</p>\n<p><span id=\"docs-internal-guid-f121d0f3-f991-d0db-a257-a845f41d4f24\"></span></p>\n<p dir=\"ltr\">The OHTS/EGPS model has been validated in subsequent studies referenced below.</p>",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"149\" /><col width=\"149\" /><col width=\"74\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Age, years</p>\n</td>\n<td>\n<p dir=\"ltr\">30-44</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">45-54</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">55-64</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">65-74</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;75</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Mean intraocular pressure*, mmHg</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;22</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">22 to &lt;24</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">24 to &lt;26</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">26 to &lt;28</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;28</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Mean central corneal thickness*, &micro;m</p>\n</td>\n<td>\n<p dir=\"ltr\">&gt;600</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">576&ndash;600</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">551&ndash;575</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">526&ndash;550</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&le;525</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Mean vertical cup-to-disc ratio by contour</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;0.3</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0.3 to &lt;0.4</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0.4 to &lt;0.5</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0.5 to &lt;0.6</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;0.6</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Mean pattern standard deviation**, dB</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;1.8</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">1.8 to &lt;2.0</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">2.0 to &lt;2.4</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">2.4 to &lt;2.8</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;2.8</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">*Mean of three measurements per eye.</p>\n<p dir=\"ltr\">**2 measurements per eye of: Humphrey full threshold 30-2, SITA Standard 30-2 or 24-2, or loss of variance from Octopus 32-2.</p>\n<p><span style=\"font-size: 10pt; font-family: Arial; color: #0000ff; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;</span></p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"76\" /><col width=\"186\" /><col width=\"186\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>OHTS Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>5 year risk of developing POAG</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk - Recommendation</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0-6</p>\n</td>\n<td>\n<p dir=\"ltr\">&le;4.0%</p>\n</td>\n<td>\n<p dir=\"ltr\">Low - Recommend observation every 6 months</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">7-8</p>\n</td>\n<td>\n<p dir=\"ltr\">10%</p>\n</td>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Intermediate - Recommend counseling on risks/benefits of treatment versus close observation</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">9-10</p>\n</td>\n<td>\n<p dir=\"ltr\">15%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">11-12</p>\n</td>\n<td>\n<p dir=\"ltr\">20%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;12</p>\n</td>\n<td>\n<p dir=\"ltr\">&ge;33%</p>\n</td>\n<td>\n<p dir=\"ltr\">High - Recommend initiating treatment</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12049574 ",
+                  "text": "Kass MA, Heuer DK, Higginbotham EJ, et al. The Ocular Hypertension Treatment Study A Randomized Trial Determines That Topical Ocular Hypotensive Medication Delays or Prevents the Onset of Primary Open-Angle Glaucoma. Arch Ophthalmol. 2002;120(6):701–713. "
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3117658/ ",
+                  "text": "The Ocular Hypertension Treatment Study Group, European Glaucoma Prevention Study Group. The Accuracy and Clinical Application of Predictive Models for Primary Open-Angle Glaucoma in Ocular Hypertensive Individuals. Ophthalmology. 2008; 115(11): 2030-2036."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12049575 ",
+                  "text": "Gordon MO, Beiser JA, Brandt JD, et al. The Ocular Hypertension Treatment Study Baseline Factors That Predict the Onset of Primary Open-Angle Glaucoma. Arch Ophthalmol. 2002;120(6):714–720. "
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/17095090 ",
+                  "text": "Gordon MO. Ocular Hypertension Treatment Study Group, European Prevention Study Group. Validated prediction model for the development of primary open-angle glaucoma in individuals with ocular hypertension. Ophthalmology. 2007;114:10–9."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Edmund Tsui, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Michael A. Kass",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-2eb6059f-f991-11c7-598b-538f64399ed1\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The original studies used patients with a baseline&nbsp;intraocular pressure (IOP)&nbsp;of 22 to 32 mmHg.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Not validated in patients under 30 years of age or over 80 years of age.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Primarily developed from studies looking at the early development of primary open angle glaucoma (POAG) and has little utility in later stages of glaucoma.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients with potential secondary causes of elevated IOP including pigment dispersion or pseudoexfoliation should be excluded, as well as patients with non-glaucomatous reasons for visual field loss.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">There are other established risk factors for the development of POAG, and these should be taken into account separately.</p>\n</li>\n</ul>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-70c3a4c6-f990-e12b-5b70-d157fe6b358e\">Use in an outpatient setting in patients 30-80 years old with ocular hypertension to assess need for initial treatment to reduce the likelihood of progression to glaucoma.</span></p>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-338637d8-f991-4044-4aed-a64175e8ea47\">Aids in shared decision making with patients regarding whether to initiate treatment for ocular hypertension based on the five-year risk of progression to open angle glaucoma.</span></p>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-9690696e-f991-6d61-b20d-f44cc15cdbce\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients with a score between 0-6 can be observed every 6 months.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients with a score between 7-12 should be counseled about the risks and benefits of starting treatment versus close observation.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients with a score &gt;12 should strongly consider initiating treatment.</p>\n</li>\n</ul>",
+            "critical_actions_en": "",
+            "management_en": "<p><span id=\"docs-internal-guid-fb65ac49-f991-9b53-d172-724ac0abbc68\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Initiation of IOP lowering therapy.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Close monitoring with visual field and optic nerve head imaging every 3-12 months, depending on specific patient parameters.</p>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Glaucoma"
+        ],
+        "dosing": false,
+        "equation_logic": "47a360d8a141e79efc80090d2a39fd51",
+        "equation_logic_text": "var calc_output = [];\n\nvar age = parseFloat(age)\nvar iop = parseFloat(iop)\nvar cct = parseFloat(cct)\nvar cdr = parseFloat(cdr)\nvar stdev = parseFloat(stdev)\n\nvar score = age + iop + cct + cdr + stdev\n\nvar risk\nif (score <= 6) {\n\trisk = '≤4.0'\n}\nelse if (score == 7 || score == 8) {\n\trisk = '10'\n}\nelse if (score == 9 || score == 10) {\n\trisk = '15'\n}\nelse if (score == 11 || score == 12) {\n\trisk = '20'\n}\nelse {\n\trisk = '≥33'\n}\n\nvar group, msg\nif (score <= 6) {\n\tgroup = 'Low'\n\tmsg = 'Recommend observation every 6 months'\n}\nelse if (score >= 7 && score <= 12) {\n\tgroup = 'Intermediate'\n\tmsg = 'Recommend counseling on risks/benefits of treatment versus close observation'\n}\nelse {\n\tgroup = 'High'\n\tmsg = 'Recommend initiating treatment'\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: msg\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'OHTS Score'\n});\ncalc_output.push({\n    name: 'group',\n    value: group,\n    value_text: 'risk',\n    message: msg\n});\ncalc_output.push({\n    name: 'risk',\n    value: risk,\n    value_text: '%',\n    message: '5-year risk of developing primary open angle glaucoma'\n});",
+        "favorite_id": 10025,
+        "full_title_en": "Ocular Hypertension Treatment Study (OHTS) Calculator",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Age, years",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "30-44",
+                "value": 0
+              },
+              {
+                "label": "45-54",
+                "value": 1
+              },
+              {
+                "label": "55-64",
+                "value": 2
+              },
+              {
+                "label": "65-74",
+                "value": 3
+              },
+              {
+                "label": "≥75",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Mean intraocular pressure, mmHg",
+            "name": "iop",
+            "optional": false,
+            "options": [
+              {
+                "label": "<22",
+                "value": 0
+              },
+              {
+                "label": "22 to <24",
+                "value": 1
+              },
+              {
+                "label": "24 to <26",
+                "value": 2
+              },
+              {
+                "label": "26 to <28",
+                "value": 3
+              },
+              {
+                "label": "≥28",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Mean of three measurements per eye",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Mean central corneal thickness, µm",
+            "name": "cct",
+            "optional": false,
+            "options": [
+              {
+                "label": ">600",
+                "value": 0
+              },
+              {
+                "label": "576–600",
+                "value": 1
+              },
+              {
+                "label": "551–575",
+                "value": 2
+              },
+              {
+                "label": "526–550",
+                "value": 3
+              },
+              {
+                "label": "≤525",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Mean of three measurements per eye",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Mean vertical cup-to-disc ratio by contour",
+            "name": "cdr",
+            "optional": false,
+            "options": [
+              {
+                "label": "<0.3",
+                "value": 0
+              },
+              {
+                "label": "0.3 to <0.4",
+                "value": 1
+              },
+              {
+                "label": "0.4 to <0.5",
+                "value": 2
+              },
+              {
+                "label": "0.5 to <0.6",
+                "value": 3
+              },
+              {
+                "label": "≥0.6",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Mean pattern standard deviation, dB",
+            "name": "stdev",
+            "optional": false,
+            "options": [
+              {
+                "label": "<1.8",
+                "value": 0
+              },
+              {
+                "label": "1.8 to <2.0",
+                "value": 1
+              },
+              {
+                "label": "2.0 to <2.4",
+                "value": 2
+              },
+              {
+                "label": "2.4 to <2.8",
+                "value": 3
+              },
+              {
+                "label": "≥2.8",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "2 measurements per eye of: Humphrey full threshold 30-2, SITA Standard 30-2 or 24-2, or loss of variance from Octopus 32-2",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "new calc built",
+            "time": "2018-6-13 10:43 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "version 2",
+            "time": "2018-6-13 10:57 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "version 3",
+            "time": "2018-6-13 11:15 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "equation logic added",
+            "time": "2018-6-14 12:34 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "edit in Evidence",
+            "time": "2018-6-14 4:31 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round testing edits",
+            "time": "2018-6-29 3:01 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2018-6-29 3:04 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2018-6-29 3:36 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Edits from JS testing",
+            "time": "2018-7-11 0:41 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Edits from JS testing",
+            "time": "2018-7-11 9:20 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Edits from RK testing",
+            "time": "2018-7-11 9:47 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "ready to go live",
+            "time": "2018-7-16 11:38 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added meta info",
+            "time": "2018-09-25 12:28 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added disease",
+            "time": "2018-09-25 12:31 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added reviewer",
+            "time": "2019-01-14 03:04 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "removed joshua young",
+            "time": "2019-05-17 02:56 PM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "95a90793d218a62d8610946b015b9e3e",
+        "medium_description_en": "<p>Identifies patients that may benefit from therapy to lower intraocular pressure (IOP).</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "glaucoma",
+          "open-angle glaucoma",
+          "ocular hypertensive",
+          "OHTS",
+          "ocular hypertension treatment study"
+        ],
+        "search_id": "c-10025",
+        "seo": {
+          "keywords_en": "Glaucoma, open-angle glaucoma, ocular hypertensive, OHTS, Ocular hypertension treatment study, POAG",
+          "meta_description_en": "The Ocular Hypertension Treatment Study (OHTS) Calculator identifies patients that may benefit from intraocular pressure (IOP) lowering therapy."
+        },
+        "short_description_en": "Primary open angle glaucoma prevention.",
+        "short_title_en": "OHTS Calculator",
+        "slug": "ocular-hypertension-treatment-study-ohts-calculator",
+        "specialty_en": [
+          "Ophthalmology"
+        ],
+        "system_en": [
+          "HEENT",
+          "Ophthalmic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Edmund Tsui, MD, is an assistant professor of ophthalmology at the Stein Eye Institute at the University of California, Los Angeles. He was previously a uveitis fellow at the Proctor Foundation at the University of California, San Francisco. Dr. Tsui obtained his medical degree from the Geisel School of Medicine at Dartmouth and completed his ophthalmology residency training at NYU where he was elected chief resident. He is also a social media editor for <i>Ophthalmology</i>. His research interests include the use of multimodal ophthalmic imaging to diagnose and monitor uveitis.</p>",
+          "firstName": "Edmund",
+          "hasDisclosure": [],
+          "img": "edmund-tsui.jpg",
+          "lastName": "Tsui",
+          "name": "Edmund Tsui, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "edmund-tsui",
+          "updatedAt": "2023-04-06T20:25:53.319Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Michael A. Kass, MD, is a professor of ophthalmology and chairman of the Department of Ophthalmology and Visual Sciences at Washington University in St. Louis. He is also the director of the Heed Ophthalmic Foundation. Dr. Kass’ primary research is focused on glaucoma, ocular hypertension, and esotropia. </p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Michael A. Kass",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-michael-a-kass.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Kass+MA%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10025/ocular-hypertension-treatment-study-ohts-calculator",
+        "description": "The Ocular Hypertension Treatment Study (OHTS) Calculator identifies patients that may benefit from intraocular pressure (IOP) lowering therapy.",
+        "keywords": "Glaucoma, open-angle glaucoma, ocular hypertensive, OHTS, Ocular hypertension treatment study, POAG",
+        "title": "Ocular Hypertension Treatment Study (OHTS) Calculator"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10071,
+          "short_title_en": "REVEAL Score 2.0 for PAH",
+          "slug": "reveal-registry-risk-score-pulmonary-arterial-hypertension-pah"
+        },
+        {
+          "calcId": 10402,
+          "short_title_en": "VACS 2.0 Index",
+          "slug": "veterans-aging-cohort-study-vacs-2.0-index"
+        },
+        {
+          "calcId": 2201,
+          "short_title_en": "VACS 1.0 Index",
+          "slug": "veterans-aging-cohort-study-vacs-1.0-index"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10025",
+      "ocular-hypertension-treatment-study-ohts-calculator"
+    ]
+  },
+  "scriptLoader": []
+}

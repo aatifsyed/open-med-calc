@@ -1,0 +1,765 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Anxious",
+          "Depressed",
+          "Suicidal"
+        ],
+        "cmeEndDate": "2025-10-11 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-11 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-14 00:00:00+00+00",
+        "cmeVersion": "10169.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\">The Columbia Suicide Severity Rating Scale (C-SSRS) was originally derived by researchers at Columbia University, the University of Pennsylvania, and the University of Pittsburgh (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22193671\" target=\"_blank\" rel=\"noopener\">Posner 2011</a>).</p>\n<p dir=\"ltr\">While suicidal ideation and behavior had previously been conceived one-dimensionally, with passive ideation progressing to active intent and then suicidal behavior, the C-SSRS attempted to separate the two (ideation and behavior) by using four constructs: severity of ideation, intensity of ideation, behavior, and lethality. The constructs were based on factors identified in previous studies found to be predictive of suicide attempts and completed suicide.</p>\n<p dir=\"ltr\">In a study of 3,776 patients who had a baseline C-SSRS and at least one follow-up C-SSRS, sensitivity and specificity of positive reports for identifying suicidal behaviors were found to be 67% and 76%, respectively (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24107762\" target=\"_blank\" rel=\"noopener\">Mundt 2013</a>).</p>\n<p dir=\"ltr\">Similar findings have been reproduced by others. In a longitudinal study of 1,055 adults admitted to a psychiatric hospital, the C-SSRS was found to have excellent internal consistency (alpha = 0.95), with the summary score and total score revealing adequate classification for suicide-related behavior within six months (sensitivity 69%, specificity 65-67%) (<a href=\"https://www.psychiatrist.com/jcp/article/Pages/2016/v77n07/v77n0705.aspx\" target=\"_blank\" rel=\"noopener\">Madan 2016</a>).</p>\n<p dir=\"ltr\"><span id=\"docs-internal-guid-befa962e-7fff-80f9-827f-b97eff8e00cd\"></span></p>\n<p dir=\"ltr\">The C-SSRS has been used in numerous trials and has been extensively validated in several subpopulations, including children as young as five years old (<a href=\"http://europepmc.org/abstract/med/24337449\" target=\"_blank\" rel=\"noopener\">Glennon 2014</a>), veterans with concomitant posttraumatic stress disorder (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25793399\" target=\"_blank\" rel=\"noopener\">Legarreta 2015</a>), and outpatients in a psychiatry clinic (<a href=\"http://europepmc.org/abstract/med/26278339\" target=\"_blank\" rel=\"noopener\">Viguera 2015</a>). The C-SSRS has been translated for use to 30+ languages other than English (<a href=\"https://core.ac.uk/download/pdf/82148274.pdf\" target=\"_blank\" rel=\"noopener\">Gratalup 2013</a>).</p>",
+            "formula_en": "<p dir=\"ltr\"><strong></strong></p>\n<p dir=\"ltr\"><strong>Part 1. Severity of ideation (</strong><strong>select most severe&nbsp;in the past month</strong><strong>):</strong></p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"332\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0. No reported suicidal ideation</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">1. Wish to be dead</p>\n</td>\n</tr>\n<tr></tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">2. Nonspecific active suicidal thoughts</p>\n</td>\n</tr>\n<tr></tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">3. Active suicidal ideation with any methods (not plan) without intent to act</p>\n</td>\n</tr>\n<tr></tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">4. Active suicidal ideation with some intent to act, without specific plan</p>\n</td>\n</tr>\n<tr></tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">5. Active suicidal ideation with specific plan and intent</p>\n</td>\n</tr>\n<tr></tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\"><strong>&nbsp;</strong></p>\n<p dir=\"ltr\"><b>Part 2. Suicidal behavior (select most severe in lifetime):</b></p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"355\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><b>0. No reported suicidal behavior</b></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>1. Actual attempt</strong></p>\n<p dir=\"ltr\">Potentially self-injurious act committed with some wish to die as a result; injury/harm not necessary to be considered &ldquo;attempt&rdquo;</p>\n</td>\n</tr>\n<tr></tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>2. Interrupted attempt</strong></p>\n<p dir=\"ltr\">If not for outside interruption, actual attempt would have occurred</p>\n</td>\n</tr>\n<tr></tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>3. Aborted attempt or self-interrupted attempt</strong></p>\n<p dir=\"ltr\">Takes steps toward suicide attempt but stops self before engaging in actual self-destructive behavior</p>\n</td>\n</tr>\n<tr></tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>4. Preparatory acts or behavior</strong></p>\n<p dir=\"ltr\">Anything beyond verbalization or thought, like assembling specific method (e.g. buying pills or gun) or preparing for death by suicide (e.g. giving things away, writing suicide note)</p>\n</td>\n</tr>\n<tr></tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>5. Suicide*</strong></p>\n<p dir=\"ltr\">Death by suicide occurred</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>*Suicide option is listed for research purposes for patients who have died by suicide.</p>\n</div>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"*\"><col width=\"*\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Suicidal ideation (</strong><strong>most severe&nbsp;in the past month</strong><strong>)</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk of suicide</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Management</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">1-2</p>\n</td>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n<td>\n<p dir=\"ltr\">Behavioral health referral at discharge</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">3, or reported suicidal behavior in lifetime</p>\n</td>\n<td>\n<p dir=\"ltr\">Moderate</p>\n</td>\n<td>\n<p dir=\"ltr\">Behavioral health consult (psychiatric nurse/social worker) and consider patient safety precautions</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">4-5, or reported suicidal behavior&nbsp;within the past three months</p>\n</td>\n<td>\n<p dir=\"ltr\">High</p>\n</td>\n<td>\n<p dir=\"ltr\">Immediate notification of physician and/or behavioral health and patient safety precautions</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22193671 ",
+                  "text": "Posner K, Brown GK, Stanley B, et al. The Columbia–Suicide Severity Rating Scale: initial validity and internal consistency findings from three multisite studies with adolescents and adults. Am J Psychiatry. 2011;168:1266–1277. "
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/33766155/",
+                  "text": "Bjureberg J, Dahlin M, Carlborg A, Edberg H, Haglund A, Runeson B. Columbia-Suicide Severity Rating Scale Screen Version: initial screening for suicide risk in a psychiatric emergency department. Psychol Med. Published online March 26, 2021:1-9."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/19730274",
+                  "text": "Brent DA, Greenhill L, Compton S, et al. The Treatment of Adolescent Suicide Attempters study (TASA): predictors of suicidal events in an open treatment trial. J Am Acad Child Adolesc Psychiatry. 2009;48:987–996. "
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22012169",
+                  "text": "Crosby AE, Han B, Ortega LA, Parks SE, Gfroerer J. Suicidal thoughts and behaviors among adults aged ≥18 years--United States, 2008-2009. MMWR Surveill Summ. 2011;60(13):1-22."
+                },
+                {
+                  "href": "https://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/ucm315156.htm#iii_pROSPECTIVE",
+                  "text": "US Food and Drug Administration. Suicidal Ideation and Behavior: Prospective Assessment of Occurrence in Clinical Trials. Rockville, MD: US Department of Health and Human Services; 2012."
+                },
+                {
+                  "href": "https://core.ac.uk/download/pdf/82148274.pdf",
+                  "text": "Gratalup G, Fernander N, Fuller DS, Posner K. Translation of the Columbia Suicide Severity Rating Scale for Use in 33 Countries. ISCTM 9th Annual Scientific Meeting, Washington DC (2013)."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24107762",
+                  "text": "Mundt JC, Greist JH, Jefferson JW, Federico M, Mann JJ, Posner K. Prediction of suicidal behavior in clinical research by lifetime suicidal ideation and behavior ascertained by the electronic Columbia-Suicide Severity Rating Scale. J Clin Psychiatry. 2013;74(9):887-93."
+                },
+                {
+                  "href": "http://europepmc.org/abstract/med/24337449",
+                  "text": "Glennon J, Purper-ouakil D, Bakker M, et al. Paediatric European RisperiDONE Studies (PERS): context, rationale, objectives, strategy, and challenges. Eur Child Adolesc Psychiatry. 2014;23(12):1149-60."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25793399 ",
+                  "text": "Legarreta M, Graham J, North L, Bueler CE, Mcglade E, Yurgelun-todd D. DSM-5 posttraumatic stress disorder symptoms associated with suicide behaviors in veterans. Psychol Trauma. 2015;7(3):277-85."
+                },
+                {
+                  "href": "http://europepmc.org/abstract/med/26278339",
+                  "text": "Viguera AC, Milano N, Laurel R, et al. Comparison of Electronic Screening for Suicidal Risk With the Patient Health Questionnaire Item 9 and the Columbia Suicide Severity Rating Scale in an Outpatient Psychiatric Clinic. Psychosomatics. 2015;56(5):460-9."
+                },
+                {
+                  "href": "https://www.psychiatrist.com/jcp/article/Pages/2016/v77n07/v77n0705.aspx",
+                  "text": "Madan A, Frueh BC, Allen J, et a. Psychometric Re-evaluation of the Columbia-Suicide Severity Rating Scale: Findings from a Prospective, Inpatient Cohort of Severely Mentally Ill Adults. J Clin Psychiatry 2016;77(7):e867-e873."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Joshua Salvi, MD, PhD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Johan Bjureberg",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Often based entirely on patient-reported items, but also allows for integration of information from other sources (e.g. family and friends, healthcare professionals, hospital records, coroner&rsquo;s report/death certificate).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Best validated in emergency settings (i.e., to triage patients in the emergency department)&nbsp;and also has limited validation in the outpatient psychiatry setting&nbsp;(<a href=\"http://europepmc.org/abstract/med/26278339\" target=\"_blank\" rel=\"noopener\">Viguera 2015</a>).</p>\n</li>\n</ul>",
+            "use_case_en": "<p>Emergency patients in whom there is concern for suicidality.</p>",
+            "why_use_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Suicide risk assessment is complex, and the C-SSRS can assist clinicians with their evalulation of patients in the&nbsp;ER&nbsp;to predict their overall risk and need for admission.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Extensively validated in various patient populations, including children as young as five years old and adolescents.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Recommended and adopted by the US Food and Drug Administration for clinical trials (<a href=\"https://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/ucm315156.htm#iii_pROSPECTIVE\" target=\"_blank\" rel=\"noopener\">FDA 2012</a>) and Centers for Disease Control to define and stratify suicidal ideation and behavior (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22012169\" target=\"_blank\" rel=\"noopener\">Crosby 2011</a>).</p>\n</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-3c72eff4-7fff-0f5e-f362-2d07ac726a59\">Protocols vary by institution, but most suggest complete assessment by a psychiatrist and inpatient admission for high risk patients (level 4-5). Low and moderate risk patients should be reassessed by a trained clinician and may not require admission. </span></p>",
+            "critical_actions_en": "<p><span id=\"docs-internal-guid-83c555db-7fff-5681-9ef3-9658a32b70da\">Should not replace a complete clinical evaluation; may be employed as an initial screener to guide a clinician&rsquo;s suicide risk assessment and to help stratify patients into low, moderate, or high risk categories.</span></p>",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 10169,
+                "createdAt": "2019-11-04T17:11:41.625Z",
+                "description": "Emergency Medicine Practice",
+                "id": 79,
+                "link": "https://www.ebmedicine.net/topics/psychiatric-behavioral/depression-suicidal",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: C-SSRS",
+                "updatedAt": "2019-11-07T15:25:27.974Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Depression/Suicidality"
+        ],
+        "dosing": false,
+        "equation_logic": "5a917b50019873ea242a7c681ded8e67",
+        "equation_logic_text": "var calc_output = [];\n\nvar ideation = parseFloat(ideation);\nvar behavior = parseFloat(behavior);\nvar behavior_when = parseFloat(behavior_when);\n\nvar risk, val, msg;\nif (ideation == 1 || ideation == 2) {\n  risk = 'Low';\n  val = 'risk';\n  msg = 'Behavioral health referral at discharge';\n} else if (ideation == 3) {\n  risk = 'Moderate';\n  val = 'risk';\n  msg = 'Behavioral health consult (psychiatric nurse/social worker) and consider patient safety precautions';\n} else if (ideation == 4 || ideation == 5) {\n  risk = 'High';\n  val = 'risk';\n  msg = 'Immediate notification of physician and/or behavioral health and patient safety precautions';\n} else {\n  risk = \"No ideation\";\n  val = '';\n}\n\nif (ideation <= 2 && behavior > 0 && behavior_when == 0) {\n  risk = 'Moderate';\n  val = 'risk';\n  msg = 'Behavioral health consult (psychiatric nurse/social worker) and consider patient safety precautions';\n} else if (ideation <= 3 && behavior > 0 && behavior_when == 1) {\n  risk = 'High';\n  val = 'risk';\n  msg = 'Immediate notification of physician and/or behavioral health and patient safety precautions';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: risk,\n    value_text: val,\n    message: 'Risk of suicide'\n});\ncalc_output.push({\n    name: 'Score',\n    value: risk,\n    value_text: val,\n    message: msg \n});",
+        "favorite_id": 10169,
+        "full_title_en": "Columbia Suicide Severity Rating Scale (C-SSRS Screener)",
+        "input_schema": [
+          {
+            "subheading": "Part 1. Severity of ideation:",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Select most severe in the past month</p>",
+            "name": "ideation",
+            "optional": false,
+            "options": [
+              {
+                "label": "0. No reported suicidal ideation",
+                "value": 0
+              },
+              {
+                "label": "1. Wish to be dead",
+                "value": 1
+              },
+              {
+                "label": "2. Nonspecific active suicidal thoughts",
+                "value": 2
+              },
+              {
+                "label": "3. Active suicidal ideation with any methods (not plan) without intent to act",
+                "value": 3
+              },
+              {
+                "label": "4. Active suicidal ideation with some intent to act, without specific plan",
+                "value": 4
+              },
+              {
+                "label": "5. Active suicidal ideation with specific plan and intent",
+                "value": 5
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Part 2. Suicidal behavior:",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Select most severe in lifetime</p>",
+            "name": "behavior",
+            "optional": false,
+            "options": [
+              {
+                "label": "0. No reported suicidal behavior",
+                "value": 0
+              },
+              {
+                "label": "1. Actual attempt (potentially self-injurious act committed with some wish to die as a result; injury/harm not necessary to be considered “attempt”)",
+                "value": 1
+              },
+              {
+                "label": "2. Interrupted attempt (if not for outside interruption, actual attempt would have occurred)",
+                "value": 2
+              },
+              {
+                "label": "3. Aborted attempt or self-interrupted attempt (takes steps toward suicide attempt but stops self before engaging in actual self-destructive behavior)",
+                "value": 3
+              },
+              {
+                "label": "4. Preparatory acts or behavior (anything beyond verbalization or thought, like assembling specific method (e.g. buying pills or gun) or preparing for death by suicide (e.g. giving things away, writing suicide note))",
+                "value": 4
+              },
+              {
+                "label": "5. Suicide (death by suicide occurred)",
+                "value": 5
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Suicide option is listed for research purposes for patients who have died by suicide",
+            "type": "radio"
+          },
+          {
+            "conditionality": "behavior > 0",
+            "default": null,
+            "label_en": "<p>Was this behavior within the past three months?</p>",
+            "name": "behavior_when",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Note there are several versions of the C-SSRS; this is the screener version, which is a truncated version of the full scale intended for emergency settings.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "eb med",
+            "time": "2019-11-07T10:25:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "eb med",
+            "time": "2019-11-04T12:11:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "live",
+            "time": "2019-04-25T15:03:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added specialties",
+            "time": "2019-04-25T15:02:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-04-23T17:12:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added note to instructions",
+            "time": "2019-04-23T17:07:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "reverted to screener version",
+            "time": "2019-04-23T17:05:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited title",
+            "time": "2019-04-22T16:28:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-04-16T14:28:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-04-16T14:27:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-04-16T14:09:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited calc layout",
+            "time": "2019-04-16T14:02:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2019-04-09T16:52:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2019-04-09T16:50:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2019-04-09T16:47:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2019-04-09T15:43:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2019-04-09T15:13:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2019-04-09T15:04:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-04-09T15:00:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added defaults",
+            "time": "2019-04-09T14:58:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added refs",
+            "time": "2019-04-09T14:04:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-03-25T11:36:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic/formula",
+            "time": "2019-03-25T11:33:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited calc logic",
+            "time": "2019-03-22T15:57:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-03-22T14:35:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "dded inputs",
+            "time": "2019-03-22T13:59:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added dummy text",
+            "time": "2019-03-22T11:41:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "adding content",
+            "time": "2019-03-22T11:34:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "adding content",
+            "time": "2019-03-22T11:23:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "claiming calc id",
+            "time": "2019-03-15T17:35:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "921e962abcaa7c5f55a56487791735e7",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-019132b0-7fff-73e8-12e1-5708394899de\">Screens for suicidal ideation and behavior.</span></p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "Suicide",
+          "suicidal",
+          "suicide ideation",
+          "columbia scale",
+          "c ssrs",
+          "cssrs",
+          "suicide severity",
+          "ed-safe",
+          "ed safe",
+          "suicidal ideation"
+        ],
+        "search_id": "c-10169",
+        "seo": {
+          "keywords_en": "Suicide, suicidal, suicide ideation, columbia scale, c ssrs, cssrs, suicide severity, PHQ-9, PHQ9, phq 9, Patients Safety Screener, pss3, pss-3, pss 3, ed-safe, ed safe, edsafe",
+          "meta_description_en": "The Columbia Suicide Severity Rating Scale (C-SSRS) screens for suicidal ideation and behavior."
+        },
+        "short_description_en": "<p>Suicidal ideation and behavior.</p>",
+        "short_title_en": "Columbia Suicide Severity Rating Scale Screener",
+        "slug": "columbia-suicide-severity-rating-scale-c-ssrs",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Psychiatry"
+        ],
+        "system_en": [
+          "Psychiatric"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Joshua",
+          "hasDisclosure": [],
+          "img": "https://cdn-web-img.mdcalc.com/people/fellows/josh-salvi.jpg",
+          "lastName": "Salvi",
+          "name": "Joshua Salvi, MD, PhD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "joshua-salvi",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Johan Bjureberg, PhD, is an assistant professor in the Department of Clinical Neuroscience at the Karolinska Institutet in Stockholm, Sweden. He was nominated for the Outstanding Young Research in Psychology Award in 2020. Dr. Bjureberg&rsquo;s primary research is focused on maladaptive behaviors and their underlying mechanisms from a psychotherapeutic and epidemiological perspective.</p>",
+          "createdAt": "2022-09-21T19:05:32.593Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Johan Bjureberg",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-johan-bjureberg.jpeg",
+          "publishedAt": "2022-09-21T19:26:42.160Z",
+          "pubmedLink": "https://pubmed.ncbi.nlm.nih.gov/?term=bjureberg+johan+%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-09-22T16:09:34.748Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10169/columbia-suicide-severity-rating-scale-c-ssrs",
+        "description": "The Columbia Suicide Severity Rating Scale (C-SSRS) screens for suicidal ideation and behavior.",
+        "keywords": "Suicide, suicidal, suicide ideation, columbia scale, c ssrs, cssrs, suicide severity, PHQ-9, PHQ9, phq 9, Patients Safety Screener, pss3, pss-3, pss 3, ed-safe, ed safe, edsafe",
+        "title": "Columbia Suicide Severity Rating Scale (C-SSRS Screener)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10171,
+          "short_title_en": "ED-SAFE PSS-3",
+          "slug": "patient-safety-screener-3-pss-3"
+        },
+        {
+          "calcId": 10195,
+          "short_title_en": "DSM-5 Criteria for Major Depressive Disorder",
+          "slug": "dsm-5-criteria-major-depressive-disorder"
+        },
+        {
+          "calcId": 4058,
+          "short_title_en": "MADRS",
+          "slug": "montgomery-asberg-depression-rating-scale-madrs"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10169",
+      "columbia-suicide-severity-rating-scale-c-ssrs"
+    ]
+  },
+  "scriptLoader": []
+}

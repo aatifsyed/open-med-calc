@@ -1,0 +1,614 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Headache",
+          "Head Injury",
+          "Injury/Trauma"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\"><span>The NEXUS Head CT Instrument decision is determined by the selection of the appropriate criteria:</span><b></b></p>\n<div dir=\"ltr\" align=\"left\">\n<table style=\"width: 100%;\"><colgroup><col style=\"width: 26.4505119453925%;\"><col style=\"width: 73.37883959044369%;\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Detail</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Evidence of significant skull fracture</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Basilar: e.g. periorbital or periauricular ecchymoses, hemotympanum, drainage of clear fluid from ears or nose.&nbsp;</span></p>\n<p dir=\"ltr\"><span>Depressed/diastatic: palpable step-off, stellate laceration from a point source, or any injury produced by an object striking a localized region of the skull (e.g. baseball bat, club, pool cue, golf ball, baseball, pipe)</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Scalp hematoma</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Injuries not involving calvarium (e.g. hematomas limited to the face/neck), are not considered scalp hematomas</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Neurologic deficit</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Any abnormal neurologic finding revealed by detailed exam, e.g. motor or sensory deficits (abnormal weakness/sensation in &ge;1 extremity, cranial nerve abnormality (particularly II through XII), cerebellar abnormality as manifested by ataxia, dysmetria, dysdiadokinesis, or other impairment of cerebellar function (as determined by systematic testing of cerebellar function, including tests of ataxia and finger-nose-finger, heel-to-shin, and rapid alternating movements), gait abnormality or inability to walk normally (due to inadequate strength, loss of balance, or ataxia; perform systematic testing of gait, including tandem and heel-to-toe walking and Romberg testing), or any other impairment of neurologic function</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Altered level of alertness</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>e.g. GCS &le;14; delayed or inappropriate response to external stimuli; excessive somnolence; disorientation to person, place, time, or events; inability to remember three objects at 5 mins; perseverating speech</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Abnormal behavior</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Any inappropriate action, e.g. excessive agitation, inconsolability, refusal to cooperate, lack of affective response to questions or events, violent activity</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Coagulopathy</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Any clotting impairment, e.g. hemophilia, secondary to medications (Coumadin, heparin, aspirin, etc), hepatic insufficiency</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Persistent vomiting</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Recurrent (&ge;1 episode) projectile or forceful emesis, either observed or by history, after trauma</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Age &ge;65 years</span></p>\n</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n</div>\n<p></p>",
+            "more_info_en": "<p dir=\"ltr\"><span>Interpretation:</span><b></b></p>\n<div dir=\"ltr\" align=\"left\">\n<table style=\"width: 93.85665529010238%;\"><colgroup><col style=\"width: 26.36363636363636%;\"><col style=\"width: 38.18181818181818%;\"><col style=\"width: 35.27272727272727%;\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria Present</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk of Significant Intracranial Injuries</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Recommendation</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Low</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>CT not necessary</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>&gt;0</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>High</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>CT necessary</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/16374287/",
+                  "text": "Mower WR, Hoffman JR, Herbert M, et al. Developing a decision instrument to guide computed tomographic imaging of blunt head injury patients. J Trauma. 2005;59(4):954-959."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/28700585/",
+                  "text": "Mower WR, Gupta M, Rodriguez R, Hendey GW. Validation of the sensitivity of the National Emergency X-Radiography Utilization Study (Nexus) Head computed tomographic (Ct) decision instrument for selective imaging of blunt head injury patients: An observational study. PLoS Med. 2017;14(7):e1002313."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. William R. Mower",
+              "qa_en": "<p><strong>Why did you develop the NEXUS Head CT Instrument? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p>\n<p>We developed the NEXUS Head CT instrument to provide clinicians with a single highly reliable tool they could use to make imaging decisions for all blunt head injury patients. Prior rules, such as <calculator id=\"589\">PECARN</calculator> or <calculator id=\"3953\">CHALICE</calculator>, applied only to specific subgroups of patients, while the inclusion and exclusion criteria of other rules, such as the Canadian Head CT Rule, preclude their application in over one-third of blunt head injury cases. We also wanted to address methodological concerns that validation of these earlier rules had been inadequate, with lower confidence intervals for sensitivity falling below 90%, leaving significant potential for serious missed injuries.</p>\n<p>In addition, we wanted to take advantage of the fact that physicians are already very good at identifying and imaging patients with significant injuries (sensitivity approaching 100%), with research showing their performance equals or exceeds existing tools in identifying patients who require imaging. Decision tools provide little benefit, and in some cases because of their impaired sensitivity, could actually prove harmful if used indiscriminately to identify patients who need imaging. On the other hand, physicians frequently order imaging for patients who do not have injuries (physicians exhibit poor specificity) and could benefit from a rule that improves specificity by identifying patients who do not have injuries and who could safely be excluded from imaging. To this end we developed the NEXUS Head CT Instrument as a &ldquo;one-way&rdquo; rule that helps clinicians identify blunt head imaging patients who do not require CT imaging. In clinical application, the NEXUS Instrument should be applied whenever Head CT imaging is being considered in the evaluation of a blunt head injured patient. Low-risk classification would indicate that imaging could be safely omitted, while imaging would proceed for all other cases.</p>\n<p><strong>What tips do you have for users of this tool? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p>\n<p>The optimal use of the tool requires clinicians to conduct an initial evaluation and decide if imaging might be useful. The decision tool should then be applied to determine whether imaging might be safely omitted through &ldquo;low-risk&rdquo; classification. While the NEXUS Head CT tool can be used as a two-way tool, and specifically used to determine who needs imaging, its sensitivity of 100% is no better than the 100% sensitivity of clinical judgment (NEXUS, like other decision tools, provides no improvement over clinical judgment in detecting injuries) but could generate false positive results that would in turn increase unnecessary imaging.</p>\n<p>It is also important to note that NEXUS classification relies on careful assessments of all of the component criteria. Low risk classification is specifically precluded in cases where one or more of the criteria cannot be completely assessed and documented as low risk.</p>\n<p><strong>What recommendations do you have for doctors once they have applied the NEXUS Head CT Instrument? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p>\n<p>Head CT imaging decisions are only a part of the evaluation of blunt head injury patients. Brain injuries can sometimes evolve and initially inconsequential injuries can become significant over time. Physicians need to provide appropriate counseling to all of their patients (whether imaged or not) along with adequate return instructions.</p>\n<p>CT imaging tools such as the NEXUS Head CT instrument provide limited information on concussions and post concussive syndromes. Low risk classification and negative imaging do not preclude concussive injuries that can result in long-term brain injury and impairment. Again, physicians need to provide appropriate counseling to their patients along with appropriate follow up care.</p>\n<p><strong>Do you use this tool in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p>\n<p>Patients with minor head injuries frequently request CT brain imaging. A careful evaluation of the patient, in conjunction with an informative discussion on the manifestations of brain injury and the risks of imaging (primarily lethal malignancy from radiation exposure) can typically resolve most patients&rsquo; concerns. I employ the NEXUS rule in cases where I truly have concerns about potential injuries, and unless the rule provides a low risk classification, I proceed with imaging.</p>\n<p><strong>Any other research in the pipeline that you&rsquo;re particularly excited about?</strong></p>\n<p>We are currently in the process of developing a NEXUS tool to guide abdominal/pelvic imaging of blunt trauma patients. Upon the completion of this project we will have completed the development of tools to guide core (head, neck, chest, abdomen and pelvis) CT imaging of blunt trauma patients. We are also focusing on ways to exploit artificial intelligence and neural networks to provide the next generation of clinical decision support tools.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Patients &ge;18 years old who have sustained blunt head trauma within the past 24 hours and in whom head CT is being considered.</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p><span>Do you use the NEXUS Head CT Instrument and want to contribute your expertise? </span><a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a><span> our contributor team!</span></p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": [],
+          "reviewers": []
+        },
+        "disease_en": [
+          "Trauma",
+          "Traumatic Brain Injury"
+        ],
+        "dosing": false,
+        "equation_logic": "e03c897eb69ae8bf279639438436f9b8",
+        "equation_logic_text": "var calc_output = [];\n\nvar score = parseFloat(skull) + parseFloat(scalp) + parseFloat(neuro) + parseFloat(alert) + parseFloat(behavior) + parseFloat(coag) + parseFloat(vomit) + parseFloat(age);\n\nvar rec;\nvar risk;\n\nif (score == 0){\n    rec = 'CT not necessary';\n    risk = 'Low';\n} else {\n    rec = 'CT necessary';\n    risk = 'High';\n}\n\ncalc_output.push({\n    name: 'mini',\n    value: risk,\n    value_text: 'risk of significant intracranial injuries',\n    message: rec\n});\ncalc_output.push({\n    name: 'Result',\n    value: risk,\n    value_text: 'risk of significant intracranial injuries',\n    message: rec\n});",
+        "favorite_id": 10423,
+        "full_title_en": "NEXUS Head CT Instrument",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Evidence of significant skull fracture</p>",
+            "name": "skull",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "e.g. periorbital or periauricular ecchymoses, hemotympanum, drainage of clear fluid from ears or nose, palpable step-off, stellate laceration (see <a href='#evidence'>Evidence</a> for more detail)",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Scalp hematoma</p>",
+            "name": "scalp",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Injuries not involving calvarium (e.g. hematomas limited to the face/neck), are not considered scalp hematomas",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Neurologic deficit</p>",
+            "name": "neuro",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Any abnormal neurologic finding revealed by detailed exam (see <a href='#evidence'>Evidence</a> for more detail)",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Altered level of alertness</p>",
+            "name": "alert",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "e.g. <calculator id='64'>Glasgow Coma Scale (GCS)</calculator> ≤14; delayed or inappropriate response to external stimuli; excessive somnolence; disorientation to person, place, time, or events; inability to remember three objects at 5 mins; perseverating speech",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Abnormal behavior</p>",
+            "name": "behavior",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Any inappropriate action, e.g. excessive agitation, inconsolability, refusal to cooperate, lack of affective response to questions or events, violent activity",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Coagulopathy</p>",
+            "name": "coag",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Any clotting impairment, e.g. hemophilia, secondary to medications (Coumadin, heparin, aspirin, etc), hepatic insufficiency",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Persistent vomiting</p>",
+            "name": "vomit",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Recurrent (≥1 episode) projectile or forceful emesis, either observed or by history, after trauma",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Age &ge;65 years</p>",
+            "name": "age",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Use in patients &ge;18 years old who have sustained blunt head trauma within the past 24 hours and in whom head CT is being considered.</p>",
+        "logic_language": null,
+        "logs": [],
+        "md5": "cae397ffe45d66f310a3c1697358b5c7",
+        "medium_description_en": "<p>Predicts need for head CT after blunt head injury.</p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "NEXUS II Head CT Instrument",
+          "nexus",
+          "nexus 2",
+          "nexus ii",
+          "head ct",
+          "nexus ii head ct",
+          "nexus head ct",
+          "head injury",
+          "brain imaging",
+          "nexus ii head rule",
+          "nexus head rule",
+          "head ct decision",
+          "nexus ii ct decision",
+          "nexus ct decision",
+          "blunt trauma",
+          "NEXUS Head CT Instrument"
+        ],
+        "search_id": "c-10423",
+        "seo": {
+          "keywords_en": "NEXUS II Head CT Instrument, nexus, nexus 2, nexus ii, head ct, nexus ii head ct, nexus head ct, head injury, brain imaging, nexus ii head rule, nexus head rule, head ct decision, nexus ii ct decision, nexus ct decision, blunt trauma, NEXUS Head CT Instrument",
+          "meta_description_en": "The NEXUS Head CT Instrument predicts need for head CT after blunt head injury."
+        },
+        "short_description_en": "<p>Predicts head CT need.</p>",
+        "short_title_en": "NEXUS Head CT Instrument",
+        "slug": "nexus-head-ct-instrument",
+        "specialty_en": [
+          "Critical Care",
+          "Critical Care (Neurologic)",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Neurology",
+          "Neurosurgery",
+          "Radiology",
+          "Surgery (Trauma)"
+        ],
+        "system_en": [
+          "Neurologic"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>William R. Mower, MD, PhD, is a physician at the UCLA Emergency Medical Center. He is also a professor of medicine at the University of California Geffen School of Medicine. Dr. Mower’s primary research is focused on computed tomography and diagnostic radiology.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. William R. Mower",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-william-r-mower.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Mower+WR%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10423/nexus-head-ct-instrument",
+        "description": "The NEXUS Head CT Instrument predicts need for head CT after blunt head injury.",
+        "keywords": "NEXUS II Head CT Instrument, nexus, nexus 2, nexus ii, head ct, nexus ii head ct, nexus head ct, head injury, brain imaging, nexus ii head rule, nexus head rule, head ct decision, nexus ii ct decision, nexus ct decision, blunt trauma, NEXUS Head CT Instrument",
+        "title": "NEXUS Head CT Instrument"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10078,
+          "short_title_en": "Peds NEXUS II Head CT Decision Instrument",
+          "slug": "pediatric-nexus-ii-head-ct-decision-instrument-blunt-trauma"
+        },
+        {
+          "calcId": 3953,
+          "short_title_en": "CHALICE Rule",
+          "slug": "chalice-childrens-head-injury-algorithm-prediction-important-clinical-events-rule"
+        },
+        {
+          "calcId": 3955,
+          "short_title_en": "Palchak (UC Davis) Rule",
+          "slug": "palchak-uc-davis-rule-pediatric-head-trauma"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10423",
+      "nexus-head-ct-instrument"
+    ]
+  },
+  "scriptLoader": []
+}

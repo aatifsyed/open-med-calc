@@ -1,0 +1,798 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Abdominal Pain",
+          "Agitation",
+          "Bleeding",
+          "Jaundice"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+95",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+95",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "10129.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p><span id=\"docs-internal-guid-cafc254f-7fff-3450-4a51-822a44f1850a\">The Mumtaz Score was derived by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30218583\" target=\"_blank\">Mumtaz et al (2018)</a>&nbsp;&nbsp;in a retrospective study looking at administrative data from 123,011 patients. Patients with diagnoses of cirrhosis and at least one feature of decompensation were included from the Nationwide Readmission Database (NRD). The goal was to develop a validated risk model for early readmission. Outcomes studied were 30-day all cause-readmission rate and most common reasons for readmission. The score model developed through this study enabled patients with decompensated cirrhosis to be stratified into low (&lt;20%), medium, (20-30%) and high (&gt;30%) risk of 30-day readmissions. 123,011 patients were included in the derivation sample (NRD 2013) and 129,154 in the validation sample (NRD 2014). Limitations of the study include retrospective design, variables based on administrative data, and lack of important clinical data to determine the severity of disease.</span></p>",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"217\" /><col width=\"144\" /><col width=\"88\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Age, years</p>\n</td>\n<td>\n<p dir=\"ltr\">18-39</p>\n</td>\n<td>\n<p dir=\"ltr\">7</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">40-64</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;65</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Primary payer</p>\n</td>\n<td>\n<p dir=\"ltr\">Medicare</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Medicaid</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Private insurance</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Self-pay</p>\n</td>\n<td>\n<p dir=\"ltr\">-3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No charge or other</p>\n</td>\n<td>\n<p dir=\"ltr\">-1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Elixhauser Comorbidity Index*</p>\n</td>\n<td>\n<p dir=\"ltr\">&ge;3</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;3</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Non-alcoholic etiology of cirrhosis</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Ascites</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Hepatic encephalopathy</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Variceal bleeding</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">-7</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Hepatocellular carcinoma</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Paracentesis during admission</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Hemodialysis during admission</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">7</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Disposition</p>\n</td>\n<td>\n<p dir=\"ltr\">Routine</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Transfer</p>\n</td>\n<td>\n<p dir=\"ltr\">-1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Home health care</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Against medical advice</p>\n</td>\n<td>\n<p dir=\"ltr\">10</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-18ea6d8a-7fff-da82-a482-670136516b47\"></span><span id=\"docs-internal-guid-18ea6d8a-7fff-da82-a482-670136516b47\">*Elixhauser Comorbidity Index gives one point for each of the following (liver disease is excluded):</span></p>\n<table width=\"391\" height=\"26\">\n<tbody>\n<tr>\n<td>\n<ul>\n<li><span style=\"white-space: pre;\">Congestive heart failure</span></li>\n<li><span style=\"white-space: pre;\">C</span>OPD</li>\n<li>Hypertension</li>\n<li>Obesity</li>\n<li>Diabetes, uncomplicated</li>\n<li>Diabetes with chronic complications</li>\n<li>Peripheral vascular disorders</li>\n<li>Metastatic cancer</li>\n<li>Solid tumor without metastasis</li>\n<li>Lymphoma</li>\n<li>Renal failure</li>\n<li>Alcohol abuse<span style=\"white-space: pre;\"> </span></li>\n<li>Drug abuse</li>\n<li>Valvular disease</li>\n</ul>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n</td>\n<td>\n<ul>\n<li>Paralysis</li>\n<li>Other neurological disorders</li>\n<li>Hypothyroidism</li>\n<li>Coagulopathy</li>\n<li>Peptic ulcer disease&nbsp;without&nbsp;bleeding</li>\n<li>Deficiency anemias</li>\n<li>Depression</li>\n<li>HIV/AIDS<span style=\"white-space: pre;\"> </span></li>\n<li>Rheumatoid arthritis/collagen vascular diseases</li>\n<li>Fluid and electrolyte disorders</li>\n<li>Psychoses</li>\n<li>Weight loss</li>\n<li>Chronic blood loss anemia</li>\n<li>Pulmonary circulation disorders</li>\n</ul>\n<p></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p></p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:&nbsp;</p>\n<div dir=\"ltr\">\n<div dir=\"ltr\">\n<table><colgroup><col width=\"109\" /><col width=\"115\" /><col width=\"110\" /><col width=\"115\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Mumtaz Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>30-day readmission risk</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Mumtaz Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>30-day readmission risk</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-11</p>\n</td>\n<td>9.3%</td>\n<td>\n<p dir=\"ltr\">20</p>\n</td>\n<td>\n<p dir=\"ltr\">32.6%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-10</p>\n</td>\n<td>\n<p dir=\"ltr\">9.7%</p>\n</td>\n<td>\n<p dir=\"ltr\">21</p>\n</td>\n<td>\n<p dir=\"ltr\">33.7%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-9</p>\n</td>\n<td>\n<p dir=\"ltr\">10.2%</p>\n</td>\n<td>\n<p dir=\"ltr\">22</p>\n</td>\n<td>\n<p dir=\"ltr\">34.8%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-8</p>\n</td>\n<td>\n<p dir=\"ltr\">10.6%</p>\n</td>\n<td>\n<p dir=\"ltr\">23</p>\n</td>\n<td>\n<p dir=\"ltr\">36.0%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-7</p>\n</td>\n<td>\n<p dir=\"ltr\">11.1%</p>\n</td>\n<td>\n<p dir=\"ltr\">24</p>\n</td>\n<td>\n<p dir=\"ltr\">37.1%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-6</p>\n</td>\n<td>\n<p dir=\"ltr\">11.6%</p>\n</td>\n<td>\n<p dir=\"ltr\">25</p>\n</td>\n<td>\n<p dir=\"ltr\">38.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-5</p>\n</td>\n<td>\n<p dir=\"ltr\">12.2%</p>\n</td>\n<td>\n<p dir=\"ltr\">26</p>\n</td>\n<td>\n<p dir=\"ltr\">39.5%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-4</p>\n</td>\n<td>\n<p dir=\"ltr\">12.7%</p>\n</td>\n<td>\n<p dir=\"ltr\">27</p>\n</td>\n<td>\n<p dir=\"ltr\">40.7%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-3</p>\n</td>\n<td>\n<p dir=\"ltr\">13.3%</p>\n</td>\n<td>\n<p dir=\"ltr\">28</p>\n</td>\n<td>\n<p dir=\"ltr\">41.9%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-2</p>\n</td>\n<td>\n<p dir=\"ltr\">13.9%</p>\n</td>\n<td>\n<p dir=\"ltr\">29</p>\n</td>\n<td>\n<p dir=\"ltr\">43.1%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-1</p>\n</td>\n<td>\n<p dir=\"ltr\">14.5%</p>\n</td>\n<td>\n<p dir=\"ltr\">30</p>\n</td>\n<td>\n<p dir=\"ltr\">44.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n<td>\n<p dir=\"ltr\">15.1%</p>\n</td>\n<td>\n<p dir=\"ltr\">31</p>\n</td>\n<td>\n<p dir=\"ltr\">45.6%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n<td>\n<p dir=\"ltr\">15.7%</p>\n</td>\n<td>\n<p dir=\"ltr\">32</p>\n</td>\n<td>\n<p dir=\"ltr\">46.8%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n<td>\n<p dir=\"ltr\">16.4%</p>\n</td>\n<td>\n<p dir=\"ltr\">33</p>\n</td>\n<td>\n<p dir=\"ltr\">48.1%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n<td>\n<p dir=\"ltr\">17.1%</p>\n</td>\n<td>\n<p dir=\"ltr\">34</p>\n</td>\n<td>\n<p dir=\"ltr\">49.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n<td>\n<p dir=\"ltr\">17.8%</p>\n</td>\n<td>\n<p dir=\"ltr\">35</p>\n</td>\n<td>\n<p dir=\"ltr\">50.6%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n<td>\n<p dir=\"ltr\">18.6%</p>\n</td>\n<td>\n<p dir=\"ltr\">36</p>\n</td>\n<td>\n<p dir=\"ltr\">51.8%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n<td>\n<p dir=\"ltr\">19.4%</p>\n</td>\n<td>\n<p dir=\"ltr\">37</p>\n</td>\n<td>\n<p dir=\"ltr\">53.1%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">7</p>\n</td>\n<td>\n<p dir=\"ltr\">20.1%</p>\n</td>\n<td>\n<p dir=\"ltr\">38</p>\n</td>\n<td>\n<p dir=\"ltr\">54.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">8</p>\n</td>\n<td>\n<p dir=\"ltr\">21.0%</p>\n</td>\n<td>\n<p dir=\"ltr\">39</p>\n</td>\n<td>\n<p dir=\"ltr\">55.5%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">9</p>\n</td>\n<td>\n<p dir=\"ltr\">21.8%</p>\n</td>\n<td>\n<p dir=\"ltr\">40</p>\n</td>\n<td>\n<p dir=\"ltr\">56.8%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">10</p>\n</td>\n<td>\n<p dir=\"ltr\">22.7%</p>\n</td>\n<td>\n<p dir=\"ltr\">41</p>\n</td>\n<td>\n<p dir=\"ltr\">58.0%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">11</p>\n</td>\n<td>\n<p dir=\"ltr\">23.6%</p>\n</td>\n<td>\n<p dir=\"ltr\">42</p>\n</td>\n<td>\n<p dir=\"ltr\">59.2%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">12</p>\n</td>\n<td>\n<p dir=\"ltr\">24.5%</p>\n</td>\n<td>\n<p dir=\"ltr\">43</p>\n</td>\n<td>\n<p dir=\"ltr\">60.4%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">13</p>\n</td>\n<td>\n<p dir=\"ltr\">25.4%</p>\n</td>\n<td>\n<p dir=\"ltr\">44</p>\n</td>\n<td>\n<p dir=\"ltr\">61.6%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">14</p>\n</td>\n<td>\n<p dir=\"ltr\">26.4%</p>\n</td>\n<td>\n<p dir=\"ltr\">45</p>\n</td>\n<td>\n<p dir=\"ltr\">62.8%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">15</p>\n</td>\n<td>\n<p dir=\"ltr\">27.3%</p>\n</td>\n<td>\n<p dir=\"ltr\">46</p>\n</td>\n<td>\n<p dir=\"ltr\">63.9%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">16</p>\n</td>\n<td>\n<p dir=\"ltr\">28.3%</p>\n</td>\n<td>\n<p dir=\"ltr\">47</p>\n</td>\n<td>\n<p dir=\"ltr\">65.1%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">17</p>\n</td>\n<td>\n<p dir=\"ltr\">29.4%</p>\n</td>\n<td>\n<p dir=\"ltr\">48</p>\n</td>\n<td>\n<p dir=\"ltr\">66.2%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">18</p>\n</td>\n<td>\n<p dir=\"ltr\">30.4%</p>\n</td>\n<td>\n<p dir=\"ltr\">49</p>\n</td>\n<td>\n<p dir=\"ltr\">67.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">19</p>\n</td>\n<td>\n<p dir=\"ltr\">31.5%</p>\n</td>\n<td>\n<p dir=\"ltr\"></p>\n</td>\n<td>\n<p dir=\"ltr\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<p dir=\"ltr\"></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/30218583 ",
+                  "text": "Mumtaz K, Issak A, Porter K, et al. Validation of Risk Score in Predicting Early Readmissions in Decompensated Cirrhotic patients: A Model Based on the Administrative Database. Hepatology. 2018."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Ahmad Khan, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Khalid Mumtaz",
+              "qa_en": "<p dir=\"ltr\"><strong>Why did you develop the Mumtaz Score? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p>\n<p dir=\"ltr\">In our daily clinical practice, we see patients with decompensated cirrhosis (DC). Patients with DC are usually identified based on the presence of ascites, hepatic encephalopathy, variceal bleeding, or spontaneous bacterial peritonitis, etc. Approximately ⅓ of these patients are readmitted within 30 days. Early readmissions in patients with DC lead to an enormous burden on health care utilization. Moreover, patients who are readmitted are at increased risk of calendar year mortality.</p>\n<p dir=\"ltr\">There are risk score models available for patients with other chronic diseases such as congestive heart failure, asthma, etc. However, no validated risk score model is available for patients with DC. Lack of a validated risk model for patients with DC led me to develop the Mumtaz Score.</p>\n<p dir=\"ltr\">Given the economic burden of hospital readmissions, the Patient Protection and Affordable Care Act instituted the Readmission Reduction Program, which required the Centers for Medicare &amp; Medicaid Services (CMS) to reduce payment for hospitals with higher readmission rates. In order to avoid early readmission, it is very important to learn about the risk of readmission and its predictors in patients with DC. The Mumtaz Score has been developed for physicians managing patients with DC to assess the risk of readmission at the time of discharge. It highlights the need for targeted interventions in order to decrease rates of readmission within this population.</p>\n<p dir=\"ltr\"><strong>What pearls, pitfalls and/or tips do you have for users of the Mumtaz Score? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p>\n<p dir=\"ltr\">The Mumtaz Readmission Risk Score has been developed on one of the largest US national readmission databases (2013) and validated on a subsequent year database (2014). A sample of more than 100,000 patients each was used for development and validation of this risk score. Simple variables including demographics, type of insurance, clinical features, interventions and discharge dispositions are used. Therefore, it is generalizable to a large population.</p>\n<p dir=\"ltr\">Patients with high risk of post-discharge death such as those on mechanical ventilation, those receiving a palliative consult, and those admitted for common surgical interventions (cholecystectomy, appendectomy, hernia repair) were excluded. We also excluded patients who were admitted electively for any reason, or who had received a liver transplant before or during the index admission. Therefore, the Mumtaz Score is not applicable to these conditions.</p>\n<p dir=\"ltr\"><strong>What recommendations do you have for doctors once they have applied the Mumtaz Score? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p>\n<p dir=\"ltr\">The Mumtaz Score has to be used at the time of discharge of decompensated cirrhosis patients from the index admission. All the variables included are extracted from the index admission. There are certain conditions that needs to be excluded before using the Mumtaz Score for prediction of readmission in patients with DC. Patients with high risk of post-discharge death, such as those on mechanical ventilation, those receiving a palliative consult, and those admitted for common surgical interventions (cholecystectomy, appendectomy, hernia repair) should be excluded from risk prediction. Patients who were admitted electively for any reason, or who had received a liver transplant before or during the index admission, should also be excluded.</p>\n<p dir=\"ltr\"><strong>How do you use the Mumtaz Score in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p>\n<p dir=\"ltr\">The Mumtaz Score is based on patient demographics, insurance status, clinical features and interventions at the time of index admission. It can be used on inpatients with DC at the time of discharge disposition. An example of a clinical scenario that illustrates the readmission risk score calculation is as follows: A 35-year-old patient (7 points) with decompensated cirrhosis on Medicaid insurance (5 points), with alcoholic liver cirrhosis (0 points), &ge;3 Elixhauser comorbidity index (2 points) with ascites (5 points), receiving paracentesis (4 points), and having a routine discharge (0 points) will have a total score of 23. This patient will have an estimated 36% risk (high risk) of readmission in 30 days.</p>\n<p dir=\"ltr\">Based on patient&rsquo;s risk of readmission (low, medium or high), we try our level best to work on the modifiable readmission predictors. &nbsp;</p>\n<p dir=\"ltr\">I have a chance to use the Mumtaz Score during my inpatient service at Ohio State University and found it useful in predicting the early readmission. If you use it based on the inclusion and exclusion criteria, then its ability to predict early readmission is good.</p>\n<p dir=\"ltr\"><strong>Any other research in the pipeline that you&rsquo;re particularly excited about?</strong></p>\n<p dir=\"ltr\">Yes, we are in the process of developing a protocol to prospectively validate the Mumtaz Score for early readmission in patients with DC. There is no study on prospectively validation of a risk score in patients with DC. In addition to existing variables we are planning to add new variables in our prospective study. Addition of new variables, such as MELD score, child score, liver frailty score, etc. will further improve the predictive ability of our risk score. We are also planning to study various interventions to avoid readmission in patients with DC. &nbsp;</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-f99148b6-7fff-b0b5-df96-0a32dc3bfd1a\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Scores range from -11 to +49, and higher scores suggest higher probability of readmission within 30 days.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The score does not include lab values, unlike the <calculator id=\"78\">MELD</calculator> and <calculator id=\"340\">Child-Pugh Scores</calculator>.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Based on administrative data.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Not yet prospectively validated.</p>\n</li>\n</ul>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-0dd7bafd-7fff-5bd1-4a45-24aaa1395207\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients &gt;18 years old with decompensated cirrhosis at the time of discharge.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Do not use in patients on mechanical ventilation, under palliative care consult, status post liver transplant, or those admitted electively for any reason.</p>\n</li>\n</ul>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-4957f473-7fff-de74-5838-3b27109132d6\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Designed specifically to predict 30-day readmission risk in decompensated cirrhosis.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">May help clinicians identify modifiable factors (e.g. social work support) at the time of discharge to prevent readmission.</p>\n</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-bd4845a3-7fff-11c9-67a6-c68f1c6fde39\">Careful discharge planning is advised for high risk patients with a focus on a proper transitional care management (TCM) system. </span></p>",
+            "critical_actions_en": "<p><span id=\"docs-internal-guid-d8b0a373-7fff-71d1-cc06-ba3a478f002c\"></span></p>\n<p dir=\"ltr\">Patients who decide to leave against medical advice should get their medications before they leave the hospital.</p>",
+            "management_en": "<p dir=\"ltr\">High risk patients may benefit from the following:</p>\n<p><span id=\"docs-internal-guid-239cc4bc-7fff-364c-24a4-c765c6b7fd63\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">A TCM phone call or visit within 7 days about medications refill, adherence, and side effects.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Social worker support for obtaining affordable medications.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Discharge disposition with home health or skilled nursing facility.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Comprehensive education for patient and families.</p>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Cirrhosis"
+        ],
+        "dosing": false,
+        "equation_logic": "400b9e0954ce012bdbfd7c83a056f243",
+        "equation_logic_text": "var calc_output = [];\n\nvar age = parseFloat(age);\nvar payer = parseFloat(payer);\nvar index = parseFloat(index);\nvar et = parseFloat(et);\nvar as = parseFloat(as);\nvar en = parseFloat(en);\nvar bleeding = parseFloat(bleeding);\nvar hcc = parseFloat(hcc);\nvar para = parseFloat(para);\nvar hemo = parseFloat(hemo);\nvar dis = parseFloat(dis);\n\nvar score = age + payer + index + et + as + en + bleeding + hcc + para + hemo + dis;\n\nvar risk = [\n    9.3,\n    9.7,\n    10.2,\n    10.6,\n    11.1,\n    11.6,\n    12.2,\n    12.7,\n    13.3,\n    13.9,\n    14.5,\n    15.1,\n    15.7,\n    16.4,\n    17.1,\n    17.8,\n    18.6,\n    19.4,\n    20.1,\n    21.0,\n    21.8,\n    22.7,\n    23.6,\n    24.5,\n    25.4,\n    26.4,\n    27.3,\n    28.3,\n    29.4,\n    30.4,\n    31.5,\n    32.6,\n    33.7,\n    34.8,\n    36.0,\n    37.1,\n    38.3,\n    39.5,\n    40.7,\n    41.9,\n    43.1,\n    44.3,\n    45.6,\n    46.8,\n    48.1,\n    49.3,\n    50.6,\n    51.8,\n    53.1,\n    54.3,\n    55.5,\n    56.8,\n    58.0,\n    59.2,\n    60.4,\n    61.6,\n    62.8,\n    63.9,\n    65.1,\n    66.2,\n    67.3,\n];\n\nvar risk1 = risk[score+11];\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: risk1 + '% risk of readmission at 30 days'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'Mumtaz Score'   \n    });\ncalc_output.push({\n    name: 'risk1',\n    value: risk1, \n    value_text: '%',\n    message: '30-day readmission risk'\n});\n",
+        "favorite_id": 10129,
+        "full_title_en": "Mumtaz Score for Readmission in Cirrhosis",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Age, years",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "18-39",
+                "value": 7
+              },
+              {
+                "label": "40-64",
+                "value": 4
+              },
+              {
+                "label": "≥65",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 2,
+            "label_en": "Primary payer",
+            "name": "payer",
+            "optional": false,
+            "options": [
+              {
+                "label": "Medicare",
+                "value": 4
+              },
+              {
+                "label": "Medicaid",
+                "value": 5
+              },
+              {
+                "label": "Private insurance",
+                "value": 0
+              },
+              {
+                "label": "Self-pay",
+                "value": -3
+              },
+              {
+                "label": "No charge or other",
+                "value": -1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "Elixhauser Comorbidity Index",
+            "name": "index",
+            "optional": false,
+            "options": [
+              {
+                "label": "≥3",
+                "value": 2
+              },
+              {
+                "label": "<3",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Hypertension, diabetes, COPD, CHF, obesity, renal failure, etc (see <a href='#evidence'>Evidence</a> for full list)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "Non-alcoholic etiology of cirrhosis",
+            "name": "et",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 2
+              },
+              {
+                "label": "No",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "Ascites",
+            "name": "as",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 5
+              },
+              {
+                "label": "No",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "Hepatic encephalopathy",
+            "name": "en",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 4
+              },
+              {
+                "label": "No",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "Variceal bleeding",
+            "name": "bleeding",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": -7
+              },
+              {
+                "label": "No",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "Hepatocellular carcinoma",
+            "name": "hcc",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 3
+              },
+              {
+                "label": "No",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "Paracentesis during admission",
+            "name": "para",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 4
+              },
+              {
+                "label": "No",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "Hemodialysis during admission",
+            "name": "hemo",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 7
+              },
+              {
+                "label": "No",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Disposition",
+            "name": "dis",
+            "optional": false,
+            "options": [
+              {
+                "label": "Routine",
+                "value": 0
+              },
+              {
+                "label": "Transfer",
+                "value": -1
+              },
+              {
+                "label": "Home health care",
+                "value": 1
+              },
+              {
+                "label": "Against medical advice",
+                "value": 10
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p><span id=\"docs-internal-guid-346e60d8-7fff-d8bd-4f47-2f4fc3ebaaa5\">Use in patients &gt;18 years old with decompensated cirrhosis at the time of discharge. Do not use in patients on mechanical ventilation, under palliative care consult, status post liver transplant, or admitted electively for any reason. Use variables from the index admission.</span></p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "building calc",
+            "time": "2019-01-15 11:14 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added all inputs",
+            "time": "2019-01-15 12:30 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-01-15 02:11 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-01-15 02:13 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "link to new window",
+            "time": "2019-01-17 09:36 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added units to calc",
+            "time": "2019-01-17 09:38 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added interview",
+            "time": "2019-01-18 03:17 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "removed period in EA",
+            "time": "2019-01-18 05:44 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-01-28 11:01 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-01-28 11:20 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added new interpretation",
+            "time": "2019-01-29 02:52 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-01-29 03:12 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "GW feedback",
+            "time": "2019-02-12 12:57 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "publish",
+            "time": "2019-02-12 12:57 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "fix typo",
+            "time": "2019-02-12 03:55 PM",
+            "user": "rachel"
+          }
+        ],
+        "md5": "eb18138dbc6114850a0968bd5fa27df4",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-bd1794d2-7fff-383e-f553-e983c37d20a3\">Predicts 30-day readmission risk in patients with cirrhosis.</span></p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "Cirrhosis",
+          "cirrhotic",
+          "readmission risk"
+        ],
+        "search_id": "c-10129",
+        "seo": {
+          "keywords_en": "Cirrhosis, cirrhotic, readmission risk",
+          "meta_description_en": "The Mumtaz Score for Readmission in Cirrhosis predicts 30-day readmission risk in patients with cirrhosis."
+        },
+        "short_description_en": "30-day readmission in cirrhosis.",
+        "short_title_en": "Mumtaz Score",
+        "slug": "mumtaz-score-readmission-cirrhosis",
+        "specialty_en": [
+          "Administration",
+          "Gastroenterology",
+          "Hepatology"
+        ],
+        "system_en": [
+          "Gastrointestinal"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Ahmad",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Khan",
+          "name": "Ahmad Khan, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "Khalid Mumtaz, MBBS, is a hepatologist and gastroenterologist at the Ohio State University Wexner Medical Center. He is also an associate professor of medicine at the Ohio State University. Dr. Mumtaz's primary research is focused on hepatitis, cirrhosis, and fatty liver disease.",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Khalid Mumtaz",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-khalid-mumtaz.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Mumtaz+K%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10129/mumtaz-score-readmission-cirrhosis",
+        "description": "The Mumtaz Score for Readmission in Cirrhosis predicts 30-day readmission risk in patients with cirrhosis.",
+        "keywords": "Cirrhosis, cirrhotic, readmission risk",
+        "title": "Mumtaz Score for Readmission in Cirrhosis"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 78,
+          "short_title_en": "MELD Na (UNOS/OPTN)",
+          "slug": "meld-score-model-end-stage-liver-disease-12-older"
+        },
+        {
+          "calcId": 340,
+          "short_title_en": "Child-Pugh Score",
+          "slug": "child-pugh-score-cirrhosis-mortality"
+        },
+        {
+          "calcId": 87,
+          "short_title_en": "PELD Score",
+          "slug": "peld-score-pediatric-end-stage-liver-disease-younger-12"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10129",
+      "mumtaz-score-readmission-cirrhosis"
+    ]
+  },
+  "scriptLoader": []
+}

@@ -1,0 +1,797 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Headache",
+          "Weakness"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "1756.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li>Several trials have prospectively validated the mNIHSS and found it to perform as well as the original score in predicting which patients are at high risk of hemorrhage if given tPA and which patients are likely to have good clinical outcomes.</li>\n<li>The mNIHSS has superior interrater reliability, with studies showing that &gt;90% of its items have excellent agreement between raters, as opposed to ~66% of the items in the <calculator id=\"715\">NIHSS</calculator>.</li>\n<li>The mNIHSS appears to be more reliable in multiple settings, including calculating scores from medical records, when used via telemedicine, and when used in clinical trials.</li>\n<li>The mNIHSS was developed using individual item analysis of the <calculator id=\"715\">NIHSS</calculator> to identify items that had poor reliability or were redundant. The mNIHSS was then evaluated by scoring it against video recordings originally made for <calculator id=\"715\">NIHSS</calculator> scoring certification for participants in the NINDS trials. These tapes consisted of of 11 stroke patients being evaluated by 4 different examiners. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/2729912\" target=\"blank\">Lyden 2001</a>)\n<ul>\n<li>The number of items with poor interrater reliability decreased 6% when the mNIHSS was applied (from 20% with the NIHSS to 14%).</li>\n<li>The ORs for predicting clinical outcomes at three months were essentially identical for the mNIHSS compared to the original score.</li>\n</ul>\n</li>\n<li>A review article examining several studies comparing the mNIHSS to the NIHSS found that mNIHSS has consistently superior interrater reliability in a variety of settings.\n<ul>\n<li>71% vs. 54% of items had excellent agreement.</li>\n<li>Only 5% vs. 12% of items had poor agreement.</li>\n</ul>\n</li>\n<li>A study found that when using the medical record to estimate a patient&rsquo;s stroke score that the mNIHSS gave an estimate that was closer to the patient&rsquo;s actual score than the the mNIHSS (70% vs. 62% for being within 1 point of the actual score). (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/12574577\" target=\"_blank\" rel=\"noopener\">Kasner 2003</a>)</li>\n</ul>",
+            "formula_en": "<p>Addition of the selected points.</p>",
+            "more_info_en": "<p>In 2001, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/11387492\" target=\"_blank\" rel=\"noopener\">Lyden et. al</a> proposed to modify the NIH Stroke Scale, 'deleting poorly reproducible or redundant items (level of consciousness, face weakness, ataxia, dysarthria) and collapsing the sensory item into 2 responses,'' with the goal of both simplifying the scale, improving its reproducibility and providing more relevance to each assigned point.</p>\n<p>This modified NIH Stroke Scale (mNIHSS) has now been evaluated in several trials (see below) and has begun to achieve acceptance in the stroke community as a reliable tool &mdash; even more reliable and valid, in some studies, than the NIHSS itself (better Kappa scores, suggesting higher levels of agreement in point assignments between raters).</p>\n<p><strong>Language/Aphasia Test</strong></p>\n<p><img style=\"max-width: 100%;\" src=\"https://cdn-web-img.mdcalc.com/dysarthria-test.jpeg\" alt=\"\"></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/11387492",
+                  "text": "Lyden PD, Lu M, Levine SR, Brott TG, Broderick J; NINDS rtPA Stroke Study Group. A modified National Institutes of Health Stroke Scale for use in stroke clinical trials: preliminary reliability and validity. Stroke. 2001 Jun;32(6):1310-7."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2729912/",
+                  "text": "Meyer BC, Lyden PD. The Modified National Institutes of Health Stroke Scale (mNIHSS): Its Time Has Come. Int J Stroke. Aug 2009; 4(4): 267–273. doi: 10.1111/j.1747-4949.2009.00294.x"
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12574577",
+                  "text": "Kasner SE, Cucchiara BL, McGarvey ML, Luciano JM, Liebeskind DS, Chalela JA. Modified National Institutes of Health Stroke Scale can be estimated from medical records. Stroke. 2003 Feb;34(2):568-70. PubMed PMID:12574577"
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/11988601",
+                  "text": "Meyer BC, Hemmen TM, Jackson CM, Lyden PD. Modified National Institutes of Health Stroke Scale for use in stroke clinical trials: prospective reliability and validity. Stroke. 2002 May;33(5):1261-6."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Daniel Runde, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Patrick D. Lyden",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>The Modified National Institutes of Health Stroke Scale (mNIHSS) was designed to eliminate the parts of the <calculator id=\"715\">NIHSS</calculator> that had poor interrater reliability while maintaining the original score&rsquo;s utility in assessing stroke severity.</p>\n<ul>\n<li><b>Lower is better;</b> increasing mNIHSS scores are correlated with more severe strokes and worsened clinical outcomes.</li>\n<li>The mNIHSS performs as well as the original score in predicting patients at high risk of hemorrhage if given tPA and which patients are likely to have good clinical outcomes.</li>\n<li>The mNIHSS has superior interrater reliability (&lt;90%) compared to the original NIHSS (~66%).</li>\n<li>The mNIHSS is more reliable in multiple settings, including calculating scores from medical records, when used via telemedicine, and when used in clinical trials.</li>\n</ul>\n<p><strong>Points to keep in mind:</strong></p>\n<ul>\n<li>Currently, the mNIHSS is used much less frequently than the NIHSS in both the clinical setting and in trials.</li>\n<li>Many guidelines make reference to the NIHSS rather than the mNIHSS, including those making recommendations concerning tPA administration.</li>\n<li>The NIHSS only takes an average of 6 minutes to complete, so some who question the clinical utility of altering a well-validated and widely used scale.</li>\n</ul>",
+            "use_case_en": "<p>The mNIHSS can help physicians quantify the severity of a stroke in the acute setting.</p>",
+            "why_use_en": "<p>There are nearly 800,000 cases of acute stroke in the United States every year, with 130,000 associated deaths (4th leading cause of death in Americans).</p>\n<p>The mNIHSS can help physicians determine the severity of a stroke, predict clinical outcomes and can help guide management.</p>\n<p>The mNIHSS has the same correlation with clinical outcomes as the <calculator id=\"715\">NIHSS</calculator> but with better interrater reliability.</p>"
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "<ul>\n<li>The mNIHSS performs as well as the <calculator id=\"715\">NIHSS</calculator> in predicting clinical outcomes, but it is important to recognize that individual cases will vary and that management decisions must be made in consultation with the patient whenever possible.</li>\n<li>Whenever possible, patients with acute stroke should be transferred to a stroke center for their initial evaluation and treatment, as the holistic care (medical optimization, early initiation of PT and OT, patient and family education and discharge planning) is associated with improved clinical outcomes.</li>\n</ul>",
+            "management_en": "<p>In patients who present with symptoms concerning for ischemic stroke:</p>\n<ul>\n<li>Consult Neurology immediately (if available) for all patients presenting with ischemic stroke.</li>\n<li>Evaluate whether the patient is a potential candidate to receive intravenous thrombolysis (tPA).</li>\n<li>Determine the onset of stroke symptoms (or time patient last felt or was observed normal).</li>\n<li>Consider further imaging including CT, CT angiography and MRI/MRA to evaluate for hemorrhagic stroke.</li>\n<li>In appropriate circumstances and in consultation with both neurology and the patient, consider IV thrombolysis for ischemic strokes in patients with no contraindications.</li>\n<li>Always consider stroke mimics in the differential diagnosis, especially in cases with atypical features (age, risk factors, history, physical exam), including:\n<ul>\n<li>Recrudescence of old stroke from metabolic or infectious stress;</li>\n<li>Todd&rsquo;s paralysis after seizure;</li>\n<li>Complex migraine;</li>\n<li>Pseudoseizure, conversion disorder.</li>\n</ul>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Stroke/TIA"
+        ],
+        "dosing": false,
+        "equation_logic": "5afbc72cdfb93dfa9d4612397d3aed39",
+        "equation_logic_text": "var calc_output=[]; var u=parseFloat(consciousness)+parseFloat(commands)+parseFloat(horizontal_movement)+parseFloat(visual_fields)+parseFloat(left_arm_drift)+parseFloat(right_arm_drift)+parseFloat(left_leg_drift)+parseFloat(right_leg_drift)+parseFloat(sensation)+parseFloat(language)+parseFloat(extinction); calc_output.push({name:'mini',value:u.toFixed(0),value_text:'points',message:'Modified NIH Stroke Scale'}); calc_output.push({name:'Modified NIH Stroke Scale',value:u.toFixed(0),value_text:'points',message:'Modified NIH Stroke Scale'});",
+        "favorite_id": 1756,
+        "full_title_en": "Modified NIH Stroke Scale/Score (mNIHSS)",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "1B: Level of consciousness/orientation questions",
+            "mdcalc_info_concept": null,
+            "name": "consciousness",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Both questions correct",
+                "value": 0
+              },
+              {
+                "label": "1 question correct",
+                "value": 1
+              },
+              {
+                "label": "0 questions correct",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Ask month and age",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "1C: Level of consciousness commands",
+            "mdcalc_info_concept": null,
+            "name": "commands",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Both tasks correct",
+                "value": 0
+              },
+              {
+                "label": "1 task correct",
+                "value": 1
+              },
+              {
+                "label": "0 tasks correct",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "'Blink eyes' & 'squeeze hands' (pantomime commands if communication barrier)",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "2: Test horizontal extra-ocular movements",
+            "mdcalc_info_concept": null,
+            "name": "horizontal_movement",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal",
+                "value": 0
+              },
+              {
+                "label": "Partial gaze palsy",
+                "value": 1
+              },
+              {
+                "label": "Total gaze palsy",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "3: Test visual fields",
+            "mdcalc_info_concept": null,
+            "name": "visual_fields",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No visual loss",
+                "value": 0
+              },
+              {
+                "label": "Partial hemianopia",
+                "value": 1
+              },
+              {
+                "label": "Complete hemianopia",
+                "value": 2
+              },
+              {
+                "label": "Bilateral hemianopia",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "5A: Test left arm motor drift",
+            "mdcalc_info_concept": null,
+            "name": "left_arm_drift",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No drift",
+                "value": 0
+              },
+              {
+                "label": "Drift before 10 seconds",
+                "value": 1
+              },
+              {
+                "label": "Falls before 10 seconds",
+                "value": 2
+              },
+              {
+                "label": "No effort against gravity",
+                "value": 3
+              },
+              {
+                "label": "No movement",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "5B: Test right arm motor drift",
+            "mdcalc_info_concept": null,
+            "name": "right_arm_drift",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No drift",
+                "value": 0
+              },
+              {
+                "label": "Drift before 10 seconds",
+                "value": 1
+              },
+              {
+                "label": "Falls before 10 seconds",
+                "value": 2
+              },
+              {
+                "label": "No effort against gravity",
+                "value": 3
+              },
+              {
+                "label": "No movement",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "6A: Test left leg motor drift",
+            "mdcalc_info_concept": null,
+            "name": "left_leg_drift",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No drift",
+                "value": 0
+              },
+              {
+                "label": "Drift before 5 seconds",
+                "value": 1
+              },
+              {
+                "label": "Falls before 5 seconds",
+                "value": 2
+              },
+              {
+                "label": "No effort against gravity",
+                "value": 3
+              },
+              {
+                "label": "No movement",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "6B: Test right leg motor drift",
+            "mdcalc_info_concept": null,
+            "name": "right_leg_drift",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No drift",
+                "value": 0
+              },
+              {
+                "label": "Drift before 5 seconds",
+                "value": 1
+              },
+              {
+                "label": "Falls before 5 seconds",
+                "value": 2
+              },
+              {
+                "label": "No effort against gravity",
+                "value": 3
+              },
+              {
+                "label": "No movement",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "8: Test sensation",
+            "mdcalc_info_concept": null,
+            "name": "sensation",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal; no sensory loss",
+                "value": 0
+              },
+              {
+                "label": "Abnormal; sensory loss",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "9: Test language/aphasia",
+            "mdcalc_info_concept": null,
+            "name": "language",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal; no aphasia",
+                "value": 0
+              },
+              {
+                "label": "Mild aphasia",
+                "value": 1
+              },
+              {
+                "label": "Severe aphasia",
+                "value": 2
+              },
+              {
+                "label": "Mute/global aphasia",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Describe the scene; name the items; read the sentences (see <a href=\"#evidence\">Evidence</a>)",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "11: Test extinction/inattention/neglect",
+            "mdcalc_info_concept": null,
+            "name": "extinction",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal",
+                "value": 0
+              },
+              {
+                "label": "Mild",
+                "value": 1
+              },
+              {
+                "label": "Severe",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Note: numbering scheme is intentional and reflects differences from the <calculator id=\"715\">original NIHSS</calculator> (i.e., 1A, 7 and 10 are eliminated, and 3 and 4 are combined).</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "45d015328f8cd2a570071b2027b3518e",
+        "medium_description_en": "<p>Shortened, validated version of the NIHSS.</p>",
+        "publishedAt": "2022-04-21T20:29:00.637Z",
+        "purpose_en": [
+          "Diagnosis",
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "tia",
+          "cva",
+          "ich"
+        ],
+        "search_id": "c-1756",
+        "seo": {
+          "keywords_en": "modified NIHSS, mnihss, stroke scale, new stroke scale, rule out stroke, stroke prognosis, modified stroke scale, nihss modified, mnihss stroke score, nih stroke scale, nih stroke score modified, nih stroke scale modified, nih stroke score, stroke rule out nih, stroke r/o nih, short nih stroke, short nih stroke score, stroke nih scale short, r/o stroke nih, r/o cva nih, r/o cva short nih, mnihss cva, modified NIH stroke score, modified nih CVA scale, modified nih stroke scale, modified nih CVA score",
+          "meta_description_en": "The Modified NIH Stroke Scale/Score (mNIHSS) calculates the shortened, validated version of NIH Stroke Scale for quantifying stroke severity."
+        },
+        "short_description_en": "<p>Shortened, validated version of the NIHSS.</p>",
+        "short_title_en": "Modified NIH Stroke Scale",
+        "slug": "modified-nih-stroke-scale-score-mnihss",
+        "specialty_en": [
+          "Critical Care",
+          "Critical Care (Neurologic)",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Neurology"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Neurologic"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "be627cf8-7062-4dc4-944b-fa2acee6ae8e"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Daniel Runde, MD, is currently the assistant residency director and an assistant professor of emergency medicine at the University of Iowa Hospitals and Clinics. He received his medical degree at the University of Iowa Carver College of Medicine and completed residency in emergency medicine at St. Luke’s-Roosevelt Hospital Center in New York. He recently finished his Medical Education Fellowship at the department of emergency medicine at Harbor-UCLA. Dr. Runde is interested in evidence-based medicine with a focus on patient-important clinical outcomes, CT utilization in the emergency department and education and evaluation in medical education. Currently, he is in the process of obtaining a Masters in Medical Education through the Office of Consultation and Research in Medical Education at the University of Iowa Hospitals and Clinics.</p>",
+          "firstName": "Daniel",
+          "hasDisclosure": [],
+          "img": "daniel-runde.jpg",
+          "lastName": "Runde",
+          "name": "Daniel Runde, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "daniel-runde",
+          "updatedAt": "2023-04-06T20:24:46.787Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Patrick D. Lyden, MD is chair of the Department of Neurology, Director of the Stroke Program and holds the Carmen and Louis Warschaw Chair in Neurology at Cedars-Sinai. Previously, he was a professor and vice chairman for clinical neurology at UCSD and served as the Clinical Chief of Neurology and Director of the Stroke Center at UCSD Medical Center. Dr. Lyden has published more than 200 journal articles and abstracts and edited a textbook on stroke intervention.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Patrick D. Lyden",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-patrick-d-lyden.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Lyden+PD%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/1756/modified-nih-stroke-scale-score-mnihss",
+        "description": "The Modified NIH Stroke Scale/Score (mNIHSS) calculates the shortened, validated version of NIH Stroke Scale for quantifying stroke severity.",
+        "keywords": "modified NIHSS, mnihss, stroke scale, new stroke scale, rule out stroke, stroke prognosis, modified stroke scale, nihss modified, mnihss stroke score, nih stroke scale, nih stroke score modified, nih stroke scale modified, nih stroke score, stroke rule out nih, stroke r/o nih, short nih stroke, short nih stroke score, stroke nih scale short, r/o stroke nih, r/o cva nih, r/o cva short nih, mnihss cva, modified NIH stroke score, modified nih CVA scale, modified nih stroke scale, modified nih CVA score",
+        "title": "Modified NIH Stroke Scale/Score (mNIHSS)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 715,
+          "short_title_en": "NIH Stroke Scale (NIHSS)",
+          "slug": "nih-stroke-scale-score-nihss"
+        },
+        {
+          "calcId": 3802,
+          "short_title_en": "sICH Score",
+          "slug": "secondary-intracerebral-hemorrhage-sich-score"
+        },
+        {
+          "calcId": 402,
+          "short_title_en": "Intracerebral Hemorrhage (ICH) Score",
+          "slug": "intracerebral-hemorrhage-ich-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "1756",
+      "modified-nih-stroke-scale-score-mnihss"
+    ]
+  },
+  "scriptLoader": []
+}

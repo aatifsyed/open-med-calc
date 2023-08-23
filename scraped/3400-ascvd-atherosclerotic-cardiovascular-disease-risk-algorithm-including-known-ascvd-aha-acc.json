@@ -1,0 +1,869 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p>This calculator includes inputs based on race, which may or may not provide better estimates, so we have decided to make race optional.&nbsp;<a target=\"_blank\" data-stringify-link=\"https://www.mdcalc.com/race\" delay=\"150\" data-sk=\"tooltip_parent\" href=\"https://www.mdcalc.com/race\" rel=\"noopener noreferrer\">See here</a>&nbsp;for more on our approach to addressing&nbsp;race and bias on MDCalc.</p>\n<p>For the same other inputs, this calculator estimates higher cardiovascular risk for African American patients.</p>",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain",
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>Scoring information is available in <a href=\"https://circ.ahajournals.org/content/circulationaha/129/25_suppl_2/S49.full.pdf\" target=\"_blank\" rel=\"noopener\">Appendix 7 in the Goff, et al. 2014 study</a>.</p>",
+            "more_info_en": "<ul>\n<li>These estimates may underestimate the 10-year risk for some race/ethnic groups, including American Indians, some Asian Americans (e.g., of south Asian ancestry), and some Hispanics (e.g., Puerto Ricans).</li>\n<li>It may overestimate the risk for some Asian Americans (i.e., of east Asian ancestry) and some Hispanics (i.e., Mexican Americans).</li>\n<li>Because the primary use of these risk estimates is to facilitate the very important discussion regarding risk reduction through lifestyle change, the imprecision introduced is small enough to justify proceeding with lifestyle change counseling informed by these results.</li>\n</ul>\n<p><strong>US Preventive Services Task Force (USPSTF) Guidelines</strong></p>\n<p>In 2016, the US Preventive Services Task Force (USPSTF) made similar but slightly different <a href=\"https://jamanetwork.com/journals/jama/fullarticle/2584058\" target=\"_blank\" rel=\"noopener\">recommendations</a> for&nbsp;adults without a history of cardiovascular disease (CVD) to use a low- to moderate-dose statin for the prevention of CVD events and mortality when all of the following criteria are met:</p>\n<ol>\n<li>Age 40 to 75 years</li>\n<li>1 or more CVD risk factors (ie, dyslipidemia, diabetes, hypertension, or smoking)</li>\n<li>Calculated 10-year risk of a cardiovascular event of 10% or greater (B recommendation)</li>\n</ol>\n<p>The USPSTF gave a B recommendation&mdash;indicating high certainty that the benefit is moderate or moderate certainty that the benefit is moderate to substantial&mdash;for starting low- to moderate-dose statins in adults ages 40 to 75 years without a history of cardiovascular disease (CVD) who have one or more CVD risk factors and a 10-year CVD risk of 10% or greater.</p>\n<p>The USPSTF dropped its level of endorsement to C for adults with a lower 1-year risk (7.5%-10%) and made no recommendations for adults 76 years of age and older, explaining that there was insufficient evidence for this age group.</p>\n<p><em>*Thanks to Vijay Shetty, MBBS, for this summary of the 2016 USPSTF guidelines.</em></p>\n<p><strong>Intensity of Statin Therapy</strong></p>\n<div class=\"table-responsive\">\n<table id=\"table_statins\" class=\"table table-bordered table-hover\">\n<tbody>\n<tr>\n<th>Type of Statin</th>\n<th>Taken Daily, Average LDL Lowering Effect</th>\n<th>Types of Medication</th>\n</tr>\n<tr class=\"intensity_high\">\n<td rowspan=\"2\">High-Intensity Statin Therapy</td>\n<td rowspan=\"2\">Approximately &ge;50%</td>\n<td>Atorvastatin 40&ndash;80 mg</td>\n</tr>\n<tr class=\"intensity_high\">\n<td>Rosuvastatin 20-40 mg</td>\n</tr>\n<tr class=\"intensity_medium\">\n<td rowspan=\"8\">Moderate-Intensity Statin Therapy</td>\n<td rowspan=\"8\">Approximately 30% to &lt;50%</td>\n<td>Atorvastatin 10-20 mg</td>\n</tr>\n<tr class=\"intensity_medium\">\n<td>Rosuvastatin 5-10 mg</td>\n</tr>\n<tr class=\"intensity_medium\">\n<td>Simvastatin 20&ndash;40 mg</td>\n</tr>\n<tr class=\"intensity_medium\">\n<td>Pravastatin 40-80 mg</td>\n</tr>\n<tr class=\"intensity_medium\">\n<td>Lovastatin 40 mg</td>\n</tr>\n<tr class=\"intensity_medium\">\n<td>Fluvastatin XL 80 mg</td>\n</tr>\n<tr class=\"intensity_medium\">\n<td>Fluvastatin 40 mg</td>\n</tr>\n<tr class=\"intensity_medium\">\n<td>BID Pitavastatin 2&ndash;4 mg</td>\n</tr>\n<tr class=\"intensity_low\">\n<td rowspan=\"5\">Low-Intensity Statin Therapy</td>\n<td rowspan=\"5\">Approximately &lt;30%</td>\n<td>Simvastatin 10 mg</td>\n</tr>\n<tr class=\"intensity_low\">\n<td>Pravastatin 10&ndash;20 mg</td>\n</tr>\n<tr class=\"intensity_low\">\n<td>Lovastatin 20 mg</td>\n</tr>\n<tr class=\"intensity_low\">\n<td>Fluvastatin 20&ndash;40 mg</td>\n</tr>\n<tr class=\"intensity_low\">\n<td>Pitavastatin 1 mg</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://circ.ahajournals.org/content/circulationaha/129/25_suppl_2/S49.full.pdf",
+                  "text": "Goff DC Jr, et. al. 2013 ACC/AHA Guideline on the Assessment of Cardiovascular Risk A Report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines. Circulation. 2014 Jun 24;129(25 Suppl 2):S49-73. doi: 10.1161/01.cir.0000437741.48606.98. Epub 2013 Nov 12."
+                },
+                {
+                  "href": "https://circ.ahajournals.org/content/circulationaha/129/25_suppl_2/S1.full.pdf",
+                  "text": "Stone NJ, et al.Circulation. 2013 ACC/AHA guideline on the treatment of blood cholesterol to reduce atherosclerotic cardiovascular risk in adults: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines. 2014 Jun 24;129(25 Suppl 2):S1-45. doi: 10.1161/01.cir.0000437738.63853.7a. Epub 2013 Nov 12"
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://jamanetwork.com/journals/jama/fullarticle/2584058",
+                  "text": "US Preventive Services Task Force, Bibbins-Domingo K, Grossman DC, Curry SJ, Davidson KW, Epling JW Jr, García FA, Gillman MW, Kemper AR, Krist AH, Kurth AE, Landefeld CS, LeFevre ML, Mangione CM, Phillips WR, Owens DK, Phipps MG, Pignone MP. Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: US Preventive Services Task Force Recommendation Statement. JAMA. 2016 Nov 15;316(19):1997-2007. doi: 10.1001/jama.2016.15450."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4246627/",
+                  "text": "Chia YC, Lim HM, Ching SM. Validation of the pooled cohort risk score in an Asian population – a retrospective cohort study. BMC Cardiovascular Disorders. 2014;14:163. doi:10.1186/1471-2261-14-163."
+                },
+                {
+                  "href": "https://content.onlinejacc.org/article.aspx?articleid=2510228",
+                  "text": "Henderson K, Kaufman BG, Stearns S, et al. Validation of the Atherosclerotic Cardiovascular Disease (ASCVD) Pooled Cohort Risk Equations by Education Level: The Atheroschlerosis Risk in Communities (ARIC) Study. J Am Coll Cardiol. 2016;67(13_S):1842. doi:10.1016/S0735-1097(16)31843-5."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27151343",
+                  "text": "Rana JS, et al. Accuracy of the Atherosclerotic Cardiovascular Risk Equation in a Large Contemporary, Multiethnic Population. J Am Coll Cardiol. 2016 May 10;67(18):2118-30. doi: 10.1016/j.jacc.2016.02.055."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. David Goff",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>In 2013 the American College of Cardiology (ACC) and the American Heart Association (AHA) <a href=\"https://circ.ahajournals.org/content/129/25_suppl_2/S1\" target=\"_blank\" rel=\"noopener\">released new guidelines for the evaluation and treatment of cholesterol</a> in order to reduce the risk of atherosclerotic cardiovascular disease (ASCVD).</li>\n<li>This calculator provides a simplified way to follow the ASCVD treatment algorithm, which includes specific advice for patients with known ASCVD (defined as: history of ACS, MI, stable angina, coronary/other arterial revascularization, stroke, transient ischemic attack, or PAD from atherosclerosis) and patients with extreme LDL levels (&ge;190 mg/dL / 4.92 mmol/L).</li>\n<li>The <calculator id=\"3398\">ASCVD Risk Calculator</calculator> is only appropriate for patients <em>without</em> ASCVD and with LDL levels 70-189mg/dL (1.81-4.90 mmol/L).</li>\n<li>The treatment algorithm proposed by the ACC/AHA suggests aggressive treatment for many patients, but specifically notes that patients with known ASCVD and patients with extreme LDL levels (&ge;190 mg/dL / 4.92 mmol/L) are at the highest risk; it also provides the &ldquo;intensity&rdquo; of statin treatment based on patients' predicted risk levels.</li>\n</ul>\n<p><strong>Points to keep in mind:</strong></p>\n<ul>\n<li>While the score was developed and validated in a large population, several studies have suggested that the risk calculator substantially over-estimates 10-year risk. Some studies have suggested that its risk estimates are accurate.</li>\n<li>Statins are highly emphasized in the guidelines and recommendations, but lifestyle modifications are likely just as &ndash; if not more &ndash; important to ASCVD risk.</li>\n<li>Sometimes referred to as the Pooled Cohort Equation.</li>\n</ul>",
+            "use_case_en": "<p>Patients at risk for atherosclerotic cardiovascular disease (ASCVD).</p>",
+            "why_use_en": "<p>The ASCVD Risk Algorithm is a standardized guideline to predict risk and recommend management strategies for those at risk of ASCVD.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p><b>When Considering Starting Statins </b></p>\n<p>First, always engage in a clinician-patient discussion of the potential for ASCVD risk reduction, adverse effects, drug-drug interactions, and patient preferences. Consider:</p>\n<ul>\n<li>Potential for ASCVD risk-reduction benefits.</li>\n<li>Potential for adverse effects and drug-drug interactions.</li>\n<li>Heart-healthy lifestyle.</li>\n<li>Management of other risk factors.</li>\n<li>Patient preferences.</li>\n</ul>\n<p><a href=\"https://circ.ahajournals.org/content/129/25_suppl_2/S1#T10\" target=\"_blank\" rel=\"noopener\">See Table 8 for safety recommendations about statin usage.</a></p>\n<p>Statin therapy is not routinely recommended for individuals with New York Heart Association class II to IV heart failure or who are receiving maintenance hemodialysis.</p>\n<p><b>When Considering or Using High-Intensity Statins</b></p>\n<p>The guidelines recommend the treating clinician consider:</p>\n<ul>\n<li>Multiple or serious comorbidities, such as impaired renal or hepatic function.</li>\n<li>A history of previous statin intolerance or muscle disorders.</li>\n<li>Unexplained elevated levels of alanine transaminase greater than three times the upper limit of normal.</li>\n<li>Patient characteristics or concomitant use of medications that affect statin metabolism.</li>\n<li>Age older than 75 years.</li>\n</ul>\n<p><b>When Considering Other Groups for Aggressive Cholesterol-Lowering Medications Besides Those in the Risk Calculator</b></p>\n<p>The guidelines recommend the treating clinician consider patients with:</p>\n<ul>\n<li>A primary LDL-C level of 160 mg per dL (4.14 mmol per L) or greater, or other evidence of genetic hyperlipidemias.</li>\n<li>Family history of premature ASCVD before 55 years of age in a first-degree male relative or before 65 years of age in a first-degree female relative.</li>\n<li>High-sensitivity C-reactive protein level of 2 mg per L (19.05 nmol per L) or greater.</li>\n<li>Coronary artery calcium score of 300 Agatston units or greater, or being in the 75th percentile or greater for age, sex, and ethnicity.</li>\n<li>Ankle-brachial index (ABI) less than 0.9.</li>\n<li>Elevated lifetime risk of ASCVD.</li>\n</ul>\n<p><b>When Monitoring Statin Effects and Side Effects<br></b></p>\n<ul>\n<li>Assess adherence, response to therapy, and adverse effects within 4 to 12 weeks following statin initiation or change in therapy.</li>\n<li>Measure fasting lipid levels.</li>\n<li>Do not routinely monitor alanine transaminase or creatine kinase levels unless symptomatic.</li>\n<li>Screen and treat type 2 diabetes according to current practice guidelines; heart-healthy lifestyle habits should be encouraged to prevent progression to diabetes.</li>\n</ul>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Diabetes Mellitus",
+          "Dyslipidemia",
+          "Myocardial Infarction",
+          "Stroke/TIA"
+        ],
+        "dosing": false,
+        "equation_logic": "f9308a9be63a37b3799cd1fd4fc12836",
+        "equation_logic_text": "var age = age || 0;\nvar ldl = ldl || 0;\nvar age2 = age2 || 0;\nvar diabetes = diabetes || 0;\nvar sex = sex || 0;\nvar race = race || 0;\nvar smoker = smoker || 0;\nvar chol_total = chol_total || 0;\nvar chol_hdl = chol_hdl || 0;\nvar sbp = sbp || 0;\nvar bptreated = bptreated || 0;\n\nvar msg;\n\nvar calc_output = [];\n// baseline variables, no natural logs\nage = parseFloat(age);\nldl = parseFloat(ldl);\nage2 = parseFloat(age2);\ndiabetes = parseFloat(diabetes);\nsex = parseFloat(sex);\nrace = parseFloat(race);\nsmoker = parseFloat(smoker);\nsbp = parseFloat(sbp);\nbptreated = parseFloat(bptreated);\n\nvar ascvd = parseFloat(ascvd);\n\nif (UOMSYSTEM == true) { // US units, so let'em through\nvar cholesterol = parseFloat(chol_total);\nvar hdl = parseFloat(chol_hdl);\n}\nif (UOMSYSTEM == false) { // convert these guys to US units\nvar cholesterol = parseFloat(chol_total) / 0.0259;\nvar hdl = parseFloat(chol_hdl) / 0.0259;\n}\n\nvar statin_add_high = '<br/><br/>To view statin dosages by intensity, see Evidence section.';\nvar statin_add_high_moderate = '<br/><br/>To view statin dosages by intensity, see Evidence section.';\n\nvar statin_add_moderate = '<br/><br/>To view statin dosages by intensity, see Evidence section.';\nvar statin_add_low = '<br/><br/>To view statin dosages by intensity, see Evidence section.';\n\nvar rec = '';\nvar mini_rec = '';\n\nif (ascvd == 1) { // if they have ASCVD you can hide everything else, 'cuz they need some statin\n\n    if (age > 0) {\n\n        if (age < 21) {\n            rec = 'Age must be ≥21.';\n            mini_rec = 'Age must be ≥21.';\n            s = 'N/A';\n        } else {\n            if (age > 75) {\n                rec = 'Moderate-intensity statin recommended because of known ASCVD and age >75.' + statin_add_moderate;\n                mini_rec = 'Moderate-intensity statin recommended...';\n                s = 'N/A';\n\n            }\n\n            if (age <= 75) {\n                rec = 'High-intensity statin recommended; if not tolerated or not a candidate, moderate-intensity recommended because of known ASCVD and age ≤75.' + statin_add_high;\n                mini_rec = 'High-intensity statin recommended...';\n                s = 'N/A';\n            }\n        } // END AGE < 21\n    } // END < 0\n} // END if ASCVD==1\nelse {\n\n\n    //if (ascvd == 0) {\n    //    mdcSetPointsText(\"#res1\", \"\"); // set blank since everything's optional and the calc will automatically result\n    //\n    //    // show the LDL question if q1 is No\n    //    mdcShow('#ldl');\n    //    $('#header_step2').show();\n    //}\n\n\n    if (ldl == 1) { // if they have high LDL you can hide everything else including age 'cuz they need some statin\n\n        rec = 'High-intensity statin recommended; if not tolerated or not a candidate, moderate-intensity recommended because of extreme LDL level but no known ASCVD.' + statin_add_high;\n        mini_rec = 'High-intensity statin recommended...';\n        s = 'N/A';\n\n    } // END if HIGH LDL\n    else {\n\n        if (ldl == 0) {\n            // go ahead and do the ASCVD calculation then\n\n\n            //calculator variables\n            var e = 2.718281828;\n            var index;\n            var s;\n            var sum;\n            var mean;\n\n            if (cholesterol > 0 && hdl > 0 && sbp > 0) {\n\n                // set natural log elements\n                var lnage = Math.log(age2);\n                var lncholesterol = Math.log(cholesterol);\n                var lnhdl = Math.log(hdl);\n                var lnsbp = Math.log(sbp);\n                var lnageage = lnage * lnage;\n                var lnagetotal = lnage * lncholesterol;\n                var lnagehdl = lnage * lnhdl;\n                var lnagesbp = lnage * lnsbp;\n                var lnagesmoker = lnage * smoker;\n\n                // if male\n\n                if (sex == 1) {\n                    if (race == 1 || race == 3) {\n                        lnage = lnage * 12.344; \n                        lncholesterol = lncholesterol * 11.853; \n                        lnagetotal = lnagetotal * -2.664; \n                        lnhdl = lnhdl * -7.990; \n                        lnagehdl = 1.769 * lnagehdl; \n                        if (bptreated == 1) {\n                            lnsbp = lnsbp * 1.797; \n                        } else {\n                            lnsbp = lnsbp * 1.764; \n                        }\n                        smoker = smoker * 7.837; \n                        lnagesmoker = lnagesmoker * -1.795; \n                        diabetes = diabetes * 0.658; \n                        sum = (lnage) + (lncholesterol) + (lnagetotal) + (lnhdl) + (lnagehdl) + (lnsbp) + (lnagesmoker) + (smoker) + (diabetes);\n                        mean = 61.1816;\n                        index = sum - mean;\n                        s = (100 * (1 - Math.pow(0.91436, Math.exp(index)))).toFixed(1);\n                    }\n                    if (race == 2) {\n                        lnage = lnage * 2.469; \n                        lncholesterol = lncholesterol * 0.302; \n                        lnhdl = lnhdl * -0.307; \n                        if (bptreated == 1) {\n                            lnsbp = lnsbp * 1.916; \n                        } else {\n                            lnsbp = lnsbp * 1.809; \n                        }\n                        smoker = smoker * 0.549; \n                        diabetes = diabetes * 0.645; \n                        sum = (lnage) + (lncholesterol) + (lnhdl) + (lnsbp) + (smoker) + (diabetes);\n                        mean = 19.5425;\n                        index = sum - mean;\n                        s = (100 * (1 - Math.pow(0.89536, Math.exp(index)))).toFixed(1);\n                    }\n                    if (race == 0) {\n                        var lnage1 = lnage * 12.344; \n                        var lncholesterol1 = lncholesterol * 11.853; \n                        var lnagetotal1 = lnagetotal * -2.664; \n                        var lnhdl1 = lnhdl * -7.990; \n                        var lnagehdl1 = 1.769 * lnagehdl; \n                        if (bptreated == 1) {\n                            var lnsbp1 = lnsbp * 1.797; \n                        } else {\n                            var lnsbp1 = lnsbp * 1.764; \n                        }\n                        var smoker1 = smoker * 7.837; \n                        var lnagesmoker1 = lnagesmoker * -1.795; \n                        var diabetes1 = diabetes * 0.658; \n                        var sum1 = (lnage1) + (lncholesterol1) + (lnagetotal1) + (lnhdl1) + (lnagehdl1) + (lnsbp1) + (lnagesmoker1) + (smoker1) + (diabetes1);\n                        var mean1 = 61.1816;\n                        var index1 = sum1 - mean1;\n                        var s1 = (100 * (1 - Math.pow(0.91436, Math.exp(index1)))).toFixed(1);\n\n                        var lnage2 = lnage * 2.469; \n                        var lncholesterol2 = lncholesterol * 0.302; \n                        var lnhdl2 = lnhdl * -0.307; \n                        if (bptreated == 1) {\n                            var lnsbp2 = lnsbp * 1.916; \n                        } else {\n                            var lnsbp2 = lnsbp * 1.809; \n                        }\n                        var smoker2 = smoker * 0.549; \n                        var diabetes2 = diabetes * 0.645; \n                        var sum2 = (lnage2) + (lncholesterol2) + (lnhdl2) + (lnsbp2) + (smoker2) + (diabetes2);\n                        var mean2 = 19.5425;\n                        var index2 = sum2 - mean2;\n                        var s2 = (100 * (1 - Math.pow(0.89536, Math.exp(index2)))).toFixed(1);\n                    }\n                }\n\n                //if female\n\n                if (sex == 0) {\n                    if (race == 1 || race == 3) {\n                        lnage = lnage * -29.799; \n                        lnageage = lnageage * 4.884; \n                        lncholesterol = lncholesterol * 13.540; \n                        lnagetotal = lnagetotal * -3.114; \n                        lnhdl = lnhdl * -13.578; \n                        lnagehdl = lnagehdl * 3.149; \n                        if (bptreated == 1) {\n                            lnsbp = lnsbp * 2.019; \n                        } else {\n                            lnsbp = lnsbp * 1.957; \n                        }\n                        smoker = smoker * 7.574; \n                        lnagesmoker = lnagesmoker * -1.665; \n                        diabetes = diabetes * 0.661; \n                        sum = (lnage) + (lnageage) + (lncholesterol) + (lnagetotal) + (lnhdl) + (lnagehdl) + (lnsbp) + (lnagesmoker) + (smoker) + (diabetes);\n                        mean = -29.1817;\n                        index = sum - mean;\n                        s = (100 * (1 - Math.pow(0.96652, Math.exp(index)))).toFixed(1);\n                    }\n                    if (race == 2) {\n                        lnage = lnage * 17.114; \n                        lncholesterol = lncholesterol * 0.940; \n                        lnhdl = lnhdl * -18.920; \n                        lnagehdl = lnagehdl * 4.475; \n                        if (bptreated == 1) {\n                            lnsbp = lnsbp * 29.291; \n                            lnagesbp = lnagesbp * -6.432; \n                        } else {\n                            lnsbp = lnsbp * 27.820; \n                            lnagesbp = lnagesbp * -6.087; \n                        }\n                        smoker = smoker * 0.691; \n                        diabetes = diabetes * 0.874; \n                        sum = (lnage) + (lncholesterol) + (lnhdl) + (lnagehdl) + (lnsbp) + (lnagesbp) + (smoker) + (diabetes);\n                        mean = 86.6081;\n                        index = sum - mean;\n                        s = (100 * (1 - Math.pow(0.95334, Math.exp(index)))).toFixed(1);\n                    }\n                    if (race == 0){\n                        var lnage1 = lnage * -29.799; \n                        var lnageage1 = lnageage * 4.884; \n                        var lncholesterol1 = lncholesterol * 13.540; \n                        var lnagetotal1 = lnagetotal * -3.114; \n                        var lnhdl1 = lnhdl * -13.578; \n                        var lnagehdl1 = lnagehdl * 3.149; \n                        if (bptreated == 1) {\n                            var lnsbp1 = lnsbp * 2.019; \n                        } else {\n                            var lnsbp1 = lnsbp * 1.957; \n                        }\n                        var smoker1 = smoker * 7.574; \n                        var lnagesmoker1 = lnagesmoker * -1.665; \n                        var diabetes1 = diabetes * 0.661; \n                        var sum1 = (lnage1) + (lnageage1) + (lncholesterol1) + (lnagetotal1) + (lnhdl1) + (lnagehdl1) + (lnsbp1) + (lnagesmoker1) + (smoker1) + (diabetes1);\n                        var mean1 = -29.1817;\n                        var index1 = sum1 - mean1;\n                        var s1 = (100 * (1 - Math.pow(0.96652, Math.exp(index1)))).toFixed(1);\n\n                        var lnage2 = lnage * 17.114; \n                        var lncholesterol2 = lncholesterol * 0.940; \n                        var lnhdl2 = lnhdl * -18.920; \n                        var lnagehdl2 = lnagehdl * 4.475; \n                        if (bptreated == 1) {\n                            var lnsbp2 = lnsbp * 29.291; \n                            var lnagesbp2 = lnagesbp * -6.432; \n                        } else {\n                            var lnsbp2 = lnsbp * 27.820; \n                            var lnagesbp2 = lnagesbp * -6.087; \n                        }\n                        var smoker2 = smoker * 0.691; \n                        var diabetes2 = diabetes * 0.874; \n                        var sum2 = (lnage2) + (lncholesterol2) + (lnhdl2) + (lnagehdl2) + (lnsbp2) + (lnagesbp2) + (smoker2) + (diabetes2);\n                        var mean2 = 86.6081;\n                        var index2 = sum2 - mean2;\n                        var s2 = (100 * (1 - Math.pow(0.95334, Math.exp(index2)))).toFixed(1);\n                    }\n                }\n                if (race > 0){\n                    if (diabetes == 0) {\n                        if (age2 < 40) {\n                            mini_rec ='No statin recommended because age <40.';\n                            rec = 'No statin recommended because age <40; always encourage healthy cardiovascular lifestyle choices. Some patients with other high risk features may still be appropriate for treatment.';\n                        }\n                        else if (age2 > 75) {\n                            mini_rec ='No statin recommended because age >75.';\n                            rec = 'No statin recommended because age >75; always encourage healthy cardiovascular lifestyle choices. Some patients with other high risk features may still be appropriate for treatment.';\n                        }\n                        else {\n                            if (s < 5) {\n                                mini_rec = 'No statin recommended because 10-year risk <5%.';\n                                rec = 'No statin recommended because 10-year risk <5%; always encourage healthy cardiovascular lifestyle choices. Some patients with other high risk features may still be appropriate for treatment.';\n                            }\n                            if (s >= 5 && s < 7.5) {\n                                mini_rec = 'Moderate-intensity statin recommended.';\n                                rec = 'Moderate-intensity statin recommended because of 10-year risk between 5-7.5%.' + statin_add_moderate;\n                            }\n                            if (s >= 7.5 && s <= 10) {\n                                mini_rec = 'Moderate- to high-intensity statin recommended.';\n                                rec = 'Moderate- to high-intensity statin recommended because 10-year risk >7.5% <br><br> ACC/AHA recommends initiating statins at this risk level, but the USPSTF recommends a trial of lifestyle intervention first - use clinician judgment and shared decision making in deciding whether or not to start a statin' + statin_add_high_moderate;\n                            }\n                            else if (s > 10) {\n                                mini_rec = 'Moderate- to high-intensity statin recommended.';\n                                rec = 'Moderate- to high-intensity statin recommended because 10-year risk >7.5%' + statin_add_high_moderate;\n                            }\n                        }\n                    }\n\n                    else {\n                        if (age2 < 40 || age2 > 75) {\n                            rec = 'In diabetic patients ages <40 or >75, consider additional factors like lifestyle and risk-benefits before starting statins.'; \n                            mini_rec='In diabetic patients ages <40 or >75, consider additional factors before starting statins.';} \n                        else {\n                            if (s >= 7.5 && s <= 10) {\n                                mini_rec = 'High-intensity statin recommended.';\n                                rec = 'High-intensity statin recommended because of known diabetes and 10-year risk >7.5%.<br/><br/> If LDL <70mg/dl (1.81 mmol/L), additional factors like lifestyle and risk-benefits can be considered before starting statins <br><br> ACC/AHA recommends initiating statins at this risk level, but the USPSTF recommends a trial of lifestyle intervention first - use clinician judgment and shared decision making in deciding whether or not to start a statin' + statin_add_high;\n                            }\n                            if (s > 10) {\n                                mini_rec = 'High-intensity statin recommended.';\n                                rec = 'High-intensity statin recommended because of known diabetes and 10-year risk >7.5%.<br/><br/> If LDL <70mg/dl (1.81 mmol/L), additional factors like lifestyle and risk-benefits can be considered before starting statins' + statin_add_high;\n                            }\n                            if (s < 7.5) {\n                                mini_rec = 'Moderate-intensity statin recommended.'; \n                                rec = 'Moderate-intensity statin recommended because of known diabetes but 10-year risk <7.5%.<br/><br/> If LDL <70mg/dl (1.81 mmol/L), additional factors like lifestyle and risk-benefits can be considered before starting statins.' + statin_add_moderate;\n                            }\n                        }\n                    }\n\n\n                    msg = 'Risk of cardiovascular event (coronary or stroke death or non-fatal MI or stroke) in next 10 years.';\n                    if (race == 3) {\n                        msg += '<br/><br/>Note: These estimates may underestimate or overestimate the 10-year risk for some race/ethnic groups. See Evidence section for more information.';\n                    }\n                }\n                if (race == 0){\n                    if (diabetes == 0) {\n                        if (age2 < 40) {\n                            mini_rec ='No statin recommended because age <40.';\n                            rec = 'No statin recommended because age <40; always encourage healthy cardiovascular lifestyle choices. Some patients with other high risk features may still be appropriate for treatment.';\n                        }\n                        else if (age2 > 75) {\n                            mini_rec ='No statin recommended because age >75.';\n                            rec = 'No statin recommended because age >75; always encourage healthy cardiovascular lifestyle choices. Some patients with other high risk features may still be appropriate for treatment.';\n                        }\n                        else {\n                            if (s1 < 5 && s2 < 5) {\n                                mini_rec = 'No statin recommended because 10-year risk <5%.';\n                                rec = 'No statin recommended because 10-year risk <5%; always encourage healthy cardiovascular lifestyle choices. Some patients with other high risk features may still be appropriate for treatment.';\n                            }\n                            if (s1 <5 && s2 >= 5 && s2 < 7.5){\n                                mini_rec = 'Moderate-intensity or lower statin recommended';\n                                rec = 'Moderate-intensity or lower statin recommended because of 10-year risk <7.5%.' + statin_add_moderate;\n                            }\n                            if (s1 <5 && s2 >= 7.5){\n                                mini_rec = 'See Evidence for recommendation as risk crosses several thresholds.'\n                                rec = 'See Evidence for recommendation as risk range crosses several thresholds.'\n                            }\n                            if (s1 >= 5 && s1 < 7.5 && s2 >= 5 && s2 < 7.5) {\n                                mini_rec = 'Moderate-intensity statin recommended.';\n                                rec = 'Moderate-intensity statin recommended because of 10-year risk between 5-7.5%.' + statin_add_moderate;\n                            }\n                            if (s1 >= 5 && s1 < 7.5 && s2 >= 7.5 && s2 < 10) {\n                                mini_rec = 'Moderate- to high-intensity statin recommended.';\n                                rec = 'Moderate- to high-intensity statin recommended because 10-year risk >5%.' + statin_add_high_moderate;\n                            }\n                            if (s1 >= 7.5 && s1 <= 10 && s2 >= 7.5 && s2 <= 10) {\n                                mini_rec = 'Moderate- to high-intensity statin recommended.';\n                                rec = 'Moderate- to high-intensity statin recommended because 10-year risk >7.5% <br><br> ACC/AHA recommends initiating statins at this risk level, but the USPSTF recommends a trial of lifestyle intervention first - use clinician judgment and shared decision making in deciding whether or not to start a statin' + statin_add_high_moderate;\n                            }\n                            else if (s1 > 10 && s2 > 10) {\n                                mini_rec = 'Moderate- to high-intensity statin recommended.';\n                                rec = 'Moderate- to high-intensity statin recommended because 10-year risk >7.5%' + statin_add_high_moderate;\n                            }\n                        }\n                    }\n\n                    else {\n                        if (age2 < 40 || age2 > 75) {\n                            rec = 'In diabetic patients ages <40 or >75, consider additional factors like lifestyle and risk-benefits before starting statins.'; \n                            mini_rec='In diabetic patients ages <40 or >75, consider additional factors before starting statins.';} \n                        else {\n                            if (s1 >= 7.5 && s1 <= 10 && s2 >= 7.5 && s2 <= 10) {\n                                mini_rec = 'High-intensity statin recommended.';\n                                rec = 'High-intensity statin recommended because of known diabetes and 10-year risk >7.5%.<br/><br/> If LDL <70mg/dl (1.81 mmol/L), additional factors like lifestyle and risk-benefits can be considered before starting statins <br><br> ACC/AHA recommends initiating statins at this risk level, but the USPSTF recommends a trial of lifestyle intervention first - use clinician judgment and shared decision making in deciding whether or not to start a statin' + statin_add_high;\n                            }\n                            if (s1 >= 5 && s1 < 7.5 && s2 >= 7.5 && s2 < 10){\n                                mini_rec = 'Moderate- to high-intensity statin recommended.';\n                                rec = 'Moderate- to high-intensity statin recommended because of known diabetes and 10-year risk >5%.<br/><br/> If LDL <70mg/dl (1.81 mmol/L), additional factors like lifestyle and risk-benefits can be considered before starting statins' + statin_add_high;\n                            }\n                            if (s1 < 7.5 && s2 >= 7.5 && s2 > 10){\n                                mini_rec = 'See Evidence for recommendation as risk crosses several thresholds.'\n                                rec = 'See Evidence for recommendation as risk range crosses several thresholds.'\n                            }\n                            if (s1 >= 7.5 && s1 <= 10 && s2 > 10){\n                                mini_rec = 'Moderate- to high-intensity statin recommended.';\n                                rec = 'Moderate- to high-intensity statin recommended because of known diabetes and 10-year risk >7.5%.<br/><br/> If LDL <70mg/dl (1.81 mmol/L), additional factors like lifestyle and risk-benefits can be considered before starting statins' + statin_add_high;\n                            }\n                            if (s1 > 10 && s2 > 10) {\n                                mini_rec = 'High-intensity statin recommended.';\n                                rec = 'High-intensity statin recommended because of known diabetes and 10-year risk >7.5%.<br/><br/> If LDL <70mg/dl (1.81 mmol/L), additional factors like lifestyle and risk-benefits can be considered before starting statins' + statin_add_high;\n                            }\n                            if (s1 < 7.5 && s2 < 7.5) {\n                                mini_rec = 'Moderate-intensity statin recommended.'; \n                                rec = 'Moderate-intensity statin recommended because of known diabetes and 10-year risk <7.5%.<br/><br/> If LDL <70mg/dl (1.81 mmol/L), additional factors like lifestyle and risk-benefits can be considered before starting statins.' + statin_add_moderate;\n                            }\n                        }\n                    }\n\n\n                    msg = 'Risk of cardiovascular event (coronary or stroke death or non-fatal MI or stroke) in next 10 years.';\n                    if (race == 3) {\n                        msg += '<br/><br/>Note: These estimates may underestimate or overestimate the 10-year risk for some race/ethnic groups. See Evidence section for more information.';\n                    }\n                }\n            }\n    }\n}\n}\nif (race > 0){\n       calc_output.push({\n        name: 'mini',\n        value: ' ',\n        value_text: ' ',\n        message: mini_rec\n    });\n    calc_output.push({\n        name: '3400_ASCVD Risk Algorithm_result (rec)',\n        value: '',\n        value_text: '',\n        message: rec\n    });\n    if (ascvd == 1 || (ascvd == 0 && ldl == 1)) {\n        calc_output.push({\n        name: '',\n        value: '',\n        value_text: '',\n        message: ''\n    });\n    }\n    else {\n        calc_output.push({\n        name: '3400_ASCVD Risk Algorithm_result (risk)',\n        value: s + '%',\n        value_text: '',\n        message: msg\n    });\n    } \n}\nif (race == 0){\n       calc_output.push({\n        name: 'mini',\n        value: ' ',\n        value_text: ' ',\n        message: mini_rec\n    });\n    calc_output.push({\n        name: '3400_ASCVD Risk Algorithm_result (rec)',\n        value: '',\n        value_text: '',\n        message: rec\n    });\n    if (ascvd == 1 || (ascvd == 0 && ldl == 1)) {\n        calc_output.push({\n        name: '',\n        value: '',\n        value_text: '',\n        message: ''\n    });\n    }\n    else {\n        calc_output.push({\n        name: '3400_ASCVD Risk Algorithm_result (risk)',\n        value: s1 + '-' + s2 + '%',\n        value_text: '',\n        message: msg\n    });\n    } \n}",
+        "favorite_id": 3400,
+        "full_title_en": "ASCVD (Atherosclerotic Cardiovascular Disease) Risk Algorithm including Known ASCVD from AHA/ACC",
+        "input_schema": [
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Step 1: High-Risk Criteria: History of ASCVD",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "History of ASCVD",
+            "md_calc_info_concept": null,
+            "name": "ascvd",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "History of acute coronary syndrome (ACS), myocardial infarction (MI), stable angina, coronary/other arterial revascularization, stroke, transient ischemic attack, or Peripheral Arterial Disease (PAD) from atherosclerosis",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "ascvd == 1",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "Age",
+            "name": "age",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "age_ascvd"
+          },
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Step 2: High-Risk Criteria: Extreme LDL",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "ascvd == 0",
+            "default": null,
+            "label_en": "LDL Cholesterol ≥190mg/dL (4.92 mmol/L)",
+            "md_calc_info_concept": null,
+            "name": "ldl",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Step 3: ASCVD Risk Criteria; Only Apply When LDL 70-189mg/dL (1.81-4.90 mmol/L)",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "ldl == 0",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "Age",
+            "name": "age2",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "age_ascvd"
+          },
+          {
+            "conditionality": "ldl == 0",
+            "default": 0,
+            "label_en": "Diabetes",
+            "md_calc_info_concept": null,
+            "name": "diabetes",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "ldl == 0",
+            "default": null,
+            "label_en": "Sex",
+            "md_calc_info_concept": null,
+            "name": "sex",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Female",
+                "value": 0
+              },
+              {
+                "label": "Male",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "ldl == 0",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "Total Cholesterol",
+            "name": "chol_total",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "chol_total"
+          },
+          {
+            "conditionality": "ldl == 0",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "HDL Cholesterol",
+            "name": "chol_hdl",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "chol_hdl"
+          },
+          {
+            "conditionality": "ldl == 0",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "Systolic Blood Pressure",
+            "name": "sbp",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "sbp"
+          },
+          {
+            "conditionality": "ldl == 0",
+            "default": 0,
+            "label_en": "Treatment for Hypertension",
+            "md_calc_info_concept": null,
+            "name": "bptreated",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "ldl == 0",
+            "default": 0,
+            "label_en": "Smoker",
+            "md_calc_info_concept": null,
+            "name": "smoker",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "ldl == 0",
+            "default": null,
+            "label_en": "Race",
+            "mdcalc_info_concept": null,
+            "name": "race",
+            "option_fhir_rules": null,
+            "optional": true,
+            "options": [
+              {
+                "label": "White",
+                "value": 1
+              },
+              {
+                "label": "African American",
+                "value": 2
+              },
+              {
+                "label": "Other",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Race may/may not provide better estimates of CV risk; optional",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited logic for race",
+            "time": "2021-09-28T17:45:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "adjusted instructions",
+            "time": "2020-11-12T09:59:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "removed error characters",
+            "time": "2020-11-11T15:00:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "race input edits",
+            "time": "2020-07-30T13:47:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added pharmacy tag",
+            "time": "2019-02-18T18:16:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Added disease tag",
+            "time": "2019-01-07T13:20:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added chief complaint tag",
+            "time": "2019-01-07T13:18:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added search terms",
+            "time": "2018-10-29T10:21:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "edited eq logic",
+            "time": "2018-09-27T17:22:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added to pearls/pitfalls",
+            "time": "2018-09-27T12:19:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "7efcc5316be1cbd50d9ee11a689ae656",
+        "medium_description_en": "<p>Determines 10-year risk of heart disease or stroke and provides statin recommendations.</p>",
+        "publishedAt": "2022-04-21T20:29:16.909Z",
+        "purpose_en": [
+          "Algorithm",
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "Acs",
+          "mi",
+          "stroke",
+          "cva",
+          "tia",
+          "ten",
+          "ldl",
+          "diabetes",
+          "pooled cohort equation",
+          "ASCVD Risk Algorithm",
+          "ascvd"
+        ],
+        "search_id": "c-3400",
+        "seo": {
+          "keywords_en": "ascvd, stroke risk, heart disease risk, pooled cohort equation, ASCVD Risk Algorithm",
+          "meta_description_en": "ASCVD (Atherosclerotic Cardiovascular Disease) Risk Algorithm including Known ASCVD from AHA/ACC determines 10-year risk of heart disease or stroke and provides statin recommendations."
+        },
+        "short_description_en": "<p>10-year heart disease or stroke risk and statin recommendations.</p>",
+        "short_title_en": "ASCVD Risk Algorithm",
+        "slug": "ascvd-atherosclerotic-cardiovascular-disease-risk-algorithm-including-known-ascvd-aha-acc",
+        "specialty_en": [
+          "Cardiology",
+          "Family Practice",
+          "Internal Medicine",
+          "Pharmacy",
+          "Primary Care"
+        ],
+        "system_en": [
+          "Cardiac"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "a9d89536-7a31-448b-9733-80095355d715"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>David C. Goff, Jr., MD, PhD, is a professor of epidemiology at the University of Colorado and is the dean of the Colorado School of Public Health. He is a former recipient of the Public Policy Award from the National Forum for Heart Disease and Stroke Prevention, and he is currently the Interim Chair of the ASPPH accreditation and credentialing committee. His research interests include the prevention and understanding of heart disease and stroke.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. David Goff",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-david-goff.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Goff+DC%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3400/ascvd-atherosclerotic-cardiovascular-disease-risk-algorithm-including-known-ascvd-aha-acc",
+        "description": "ASCVD (Atherosclerotic Cardiovascular Disease) Risk Algorithm including Known ASCVD from AHA/ACC determines 10-year risk of heart disease or stroke and provides statin recommendations.",
+        "keywords": "ascvd, stroke risk, heart disease risk, pooled cohort equation, ASCVD Risk Algorithm",
+        "title": "ASCVD (Atherosclerotic Cardiovascular Disease) Risk Algorithm including Known ASCVD from AHA/ACC"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 79,
+          "error_max_si": 79,
+          "error_max_us": 79,
+          "error_min": 20,
+          "error_min_si": 20,
+          "error_min_us": 20,
+          "name": "Age",
+          "normal_max_si": 79,
+          "normal_max_us": 79,
+          "normal_min_si": 20,
+          "normal_min_us": 20,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "age_ascvd",
+          "units_si": "years",
+          "units_us": "years",
+          "updatedAt": "2022-11-01T18:31:21.414Z",
+          "warn_max": 79,
+          "warn_max_si": 79,
+          "warn_max_us": 79,
+          "warn_min": 20,
+          "warn_min_si": 20,
+          "warn_min_us": 20
+        },
+        {
+          "conversion": "0.02586",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 150,
+          "error_max_si": 3.879,
+          "error_max_us": 150,
+          "error_min": 1,
+          "error_min_si": 0.02586,
+          "error_min_us": 1,
+          "name": "HDL Cholesterol",
+          "normal_max_si": 1.55,
+          "normal_max_us": 60,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "chol_hdl",
+          "units_si": "mmol/L",
+          "units_us": "mg/dL",
+          "updatedAt": "2022-07-22T16:21:56.681Z",
+          "warn_max": 95,
+          "warn_max_si": 2.4567,
+          "warn_max_us": 95,
+          "warn_min": 1,
+          "warn_min_si": 0.02586,
+          "warn_min_us": 1
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 300,
+          "error_max_si": 300,
+          "error_max_us": 300,
+          "error_min": 30,
+          "error_min_si": 30,
+          "error_min_us": 30,
+          "name": "Systolic BP",
+          "normal_max_si": 120,
+          "normal_max_us": 120,
+          "normal_min_si": 100,
+          "normal_min_us": 100,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "sbp",
+          "units_si": "mm Hg",
+          "units_us": "mm Hg",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 250,
+          "warn_max_si": 250,
+          "warn_max_us": 250,
+          "warn_min": 40,
+          "warn_min_si": 40,
+          "warn_min_us": 40
+        },
+        {
+          "conversion": "0.02586",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 1000,
+          "error_max_si": 25.86,
+          "error_max_us": 1000,
+          "error_min": 100,
+          "error_min_si": 2.5860000000000003,
+          "error_min_us": 100,
+          "name": "Total Cholesterol",
+          "normal_max_si": 5.2,
+          "normal_max_us": 200,
+          "normal_min_si": 3.9,
+          "normal_min_us": 150,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "chol_total",
+          "units_si": "mmol/L",
+          "units_us": "mg/dL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 500,
+          "warn_max_si": 12.93,
+          "warn_max_us": 500,
+          "warn_min": 150,
+          "warn_min_si": 3.879,
+          "warn_min_us": 150
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 3398,
+          "short_title_en": "2013 ASCVD Risk Calculator",
+          "slug": "ascvd-atherosclerotic-cardiovascular-disease-2013-risk-calculator-aha-acc"
+        },
+        {
+          "calcId": 40,
+          "short_title_en": "CHADS<sub>2</sub> Score",
+          "slug": "chads2-score-atrial-fibrillation-stroke-risk"
+        },
+        {
+          "calcId": 2201,
+          "short_title_en": "VACS 1.0 Index",
+          "slug": "veterans-aging-cohort-study-vacs-1.0-index"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3400",
+      "ascvd-atherosclerotic-cardiovascular-disease-risk-algorithm-including-known-ascvd-aha-acc"
+    ]
+  },
+  "scriptLoader": []
+}

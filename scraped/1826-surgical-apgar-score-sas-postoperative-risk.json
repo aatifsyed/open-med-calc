@@ -1,0 +1,575 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Abdominal Pain"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul> <li>The Surgical Apgar Score has been validated in other surgical populations requiring “major surgery” or general or epidural anesthesia including trauma, head and neck, oncology, orthopedic, and transplant surgery with good correlations with survival at 7, 30, and 90 days.</li> <li><a href='http://www.ncbi.nlm.nih.gov/pubmed/22546967'>Some authors have found similar correlations</a> of survival/mortality with a cohort of “triple low” (low blood pressure, low bispectral index, and low minimum alveolar concentration of volatile anesthesia) patients and suggest these two scores could be combined to risk stratify patients even further.</li> <li>Of note, the SAS seemed to correlate least well with patients undergoing major burn surgery.</li> </ul>",
+            "formula_en": "<p>Addition of the selected points; points assigned below:</p>",
+            "more_info_en": "<div class=\"table-responsive\">\n<table class=\"table table-bordered table-hover\">\n<tbody>\n<tr>\n<th style=\"text-align: left;\">\n<p>Criteria</p>\n</th>\n<th style=\"text-align: left;\">Value</th>\n<th style=\"text-align: left;\">Points</th>\n</tr>\n<tr>\n<td rowspan=\"4\">Estimated blood loss (mL)</td>\n<td>&gt;1,000</td>\n<td>0</td>\n</tr>\n<tr>\n<td>600-1,000</td>\n<td>+ 1</td>\n</tr>\n<tr>\n<td>101-600</td>\n<td>+ 2</td>\n</tr>\n<tr>\n<td>&le;100</td>\n<td>+ 3</td>\n</tr>\n<tr>\n<td rowspan=\"4\">Lowest mean arterial pressure (mmHg)</td>\n<td>&lt;40</td>\n<td>0</td>\n</tr>\n<tr>\n<td>40-54</td>\n<td>+ 1</td>\n</tr>\n<tr>\n<td>55-69</td>\n<td>+ 2</td>\n</tr>\n<tr>\n<td>&ge;70</td>\n<td>+ 3</td>\n</tr>\n<tr>\n<td rowspan=\"5\">Lowest heart rate (beats / min)</td>\n<td>&gt;85</td>\n<td>0</td>\n</tr>\n<tr>\n<td>76-85</td>\n<td>+ 1</td>\n</tr>\n<tr>\n<td>66-75</td>\n<td>+ 2</td>\n</tr>\n<tr>\n<td>56-65</td>\n<td>+ 3</td>\n</tr>\n<tr>\n<td>&le;55</td>\n<td>+ 4</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>Complications in this study were defined as:</p>\n<ul>\n<li>Acute renal failure,</li>\n<li>Bleeding requiring &ge; 4 U red cell transfusion within 72 hours after operation</li>\n<li>Cardiac arrest requiring CPR</li>\n<li>Coma for 24 hours or longer</li>\n<li>Deep venous thrombosis</li>\n<li>Septic shock</li>\n<li>MI</li>\n<li>Unplanned intubation</li>\n<li>Ventilator use for &ge;48 hours</li>\n<li>Pneumonia</li>\n<li>Pulmonary embolism</li>\n<li>Stroke</li>\n<li>Wound disruption</li>\n<li>Deep or organ-space surgical site infection,</li>\n<li>Sepsis</li>\n<li>Systemic inflammatory response syndrome and</li>\n<li>Vascular graft failure, according to NSQIP&rsquo;s established definitions</li>\n</ul>\n<p>All deaths were considered major complications.</p>\n<p>Patients having complications categorized in the database as &ldquo;other occurrence&rdquo; were reviewed individually to determine the severity of the complication. Anastomotic leak, cystic duct leak after cholecystectomy, pericardial effusion requiring drainage, and gastric outlet obstruction requiring reoperation were identified on review of these individual occurrences and classified as major complications.</p>\n<p>Superficial surgical site infection and urinary tract infection were not major complications.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/17254923",
+                  "text": "Gawande AA, Kwaan MR, Regenbogen SE, Lipsitz SA, Zinner MJ. An Apgar score for surgery. J Am Coll Surg. 2007 Feb;204(2):201-8. Epub 2006 Dec 27. PubMed PMID: 17254923."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/23744956",
+                  "text": "Sobol JB, Gershengorn HB, Wunsch H, Li G. The surgical Apgar score is strongly associated with intensive care unit admission after high-risk intraabdominal surgery. Anesth Analg. 2013 Aug;117(2):438-46. doi: 10.1213/ANE.0b013e31829180b7. Epub 2013 Jun 6. PubMed PMID: 23744956; PubMed Central PMCID: PMC4020414."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/21502856",
+                  "text": "Reynolds PQ, Sanders NW, Schildcrout JS, Mercaldo ND, St Jacques PJ. Expansion of the surgical Apgar score across all surgical subspecialties as a means to predict postoperative mortality. Anesthesiology. 2011 Jun;114(6):1305-12. doi:10.1097/ALN.0b013e318219d734. PubMed PMID: 21502856."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Atul Gawande",
+              "qa_en": ""
+            },
+            {
+              "approved": false,
+              "name": "Dr. Scott E. Regenbogen",
+              "qa_en": "<p dir=\"ltr\"><strong>Why did you develop the Surgical Apgar Score? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p>\n<p dir=\"ltr\">We sought to develop a surgical outcome score that would be: (i) simple for teams to collect immediately upon completion of an operation for any patient in any setting, regardless of resource and technological capacity; (ii) valid for predicting major postoperative complications and death; and (iii) applicable throughout at least the fields of general and vascular surgery.&nbsp;</p>\n<p dir=\"ltr\">Even after accounting for fixed preoperative risk&mdash;due to patients&rsquo; acute condition, comorbidities and/or operative complexity&mdash;the Surgical Apgar Score appears to detect differences in intraoperative management that reduce odds of major complications by half, or increase them by nearly three-fold.</p>\n<p dir=\"ltr\">The Surgical Apgar Score, therefore, conveys useful prognostic information, either in isolation or in combination with assessments of the risks that patients brought to the operating room. It also may provide an immediate assessment of how well or poorly the operation has gone for a patient.</p>\n<p dir=\"ltr\"><strong>What pearls, pitfalls and/or tips do you have for users of the Surgical Apgar Score? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p>\n<p dir=\"ltr\">The score is just a measure of intraoperative hemodynamic stability. It was developed in general and vascular surgery and has been extended to a variety of other operations. However, it is not likely to be associated with outcomes of some other operations, and may not predict long-term outcomes.</p>\n<p dir=\"ltr\"><strong>What recommendations do you have for doctors once they have applied the Surgical Apgar Score? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p>\n<p dir=\"ltr\">It can be a useful perioperative communication tool and prognostic indicator. It could be used for triage of perioperative care and it might allow for tiered surveillance for postoperative complications but it probably should not supersede clinical judgment and intuition.</p>\n<p dir=\"ltr\"><strong>How do you use the Surgical Apgar Score in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p>\n<p dir=\"ltr\">The Surgical Apgar Score has been used both to evaluate unexpected low (high risk) scores, and possible overtreatment of high (low risk) scoring patients.</p>\n<p dir=\"ltr\">In particular, at Brigham and Women's Hospital, we would review all elective operations with scores of 4 or less and all patients admitted to the ICU after operations with scores of 8 or greater.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>The “Apgar Score for Surgery“ (or “Surgical Apgar Score“) was developed by Gawande et. al in 2007 to try to predict risk of complication and poor outcome after major surgery, instead of using subjective measures to gauge risk (as is often done by surgeons). They wanted to develop a simple score that could be quickly and easily calculated “to grade the condition of patients at the end of any general or vascular surgery procedure.“ It is named after the <calculator id='23'>APGAR Score</calculator> used by obstetricians to rate neonatal outcome.</p> <ul> <li>It was developed by collecting and analyzing 99 pre-, intra-, and post-operative variables in patients undergoing major general or vascular surgery.</li> <li>It was developed first in two cohorts of colectomy patients (chosen due to the procedure's known high risk of complications) and then validated in a cohort of general and vascular surgery patients (n = 767).</li> <li>The Surgical Apgar Score correlates directly with outcome -- the higher the score, the lower the risk of complication.</li> <li>Scoring was developed without the use of an electronic anesthesia record, which may document more fluctuations in vital signs; the authors report they are currently developing a model for use with electronic anesthesia records.</li> </ul>",
+            "use_case_en": "<p>The SAS can be applied to any patient who is postop from major surgery.</p>",
+            "why_use_en": "<p>The SAS can often predict the risk of complication more objectively than clinician gestalt; in one study, it correlated well with admission to an ICU setting (when not initially admitted to an intensive care setting).</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Consider admission to a closely monitored setting (ICU, stepdown unit) for patients with low Surgical Apgar Scores as they are high risk for requiring ICU-level care within the next 72 hours.</p>",
+            "critical_actions_en": "<p>Patients with a score of 6 or less are high risk for major complication, and patients with a score of 4 or less are very high risk and should be considered at high risk of decompensation and monitored very closely, often in an ICU setting.</p>",
+            "management_en": "<ul> <li>For patients with scores ≥ 7, consider usual care.</li> <li>Patients with scores ≤6, consider close observation with a low-threshold for testing if or when a patient begins to show signs of surgical complication, given they are at high risk for complication, along with usual standard of care. It may also be useful to make nursing aware of these patients who are particularly high risk so the care team can be notified early of any signs of decompensation.</li> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Appendicitis",
+          "Bleeding/Hemorrhage",
+          "Cholecystitis",
+          "Hernia"
+        ],
+        "dosing": false,
+        "equation_logic_text": "var calc_output = [];\nvar u = parseFloat(estimated_blood_loss) + parseFloat(lowest_mean_arterial_pressure) + parseFloat(lowest_heart_rate);\nvar msg = '';\nvar msgalt = '';\nvar mini_msg = '';\nif (u < 3) {\n    msg = 'Very high risk patient of poor outcome. 14% mortality rate, overall 75% risk of major complication including death.';\n    msgalt = '<br/><br/>In one follow-up study, patients with scores \\u22644 were 97% specific for post-operative ICU admission if not initially admitted there.';\n    mini_msg = 'Very high risk'\n} else if (u < 5) {\n    msg = 'Very high risk patient of poor outcome. 14% mortality rate, overall 56% risk of major complication including death.';\n    msgalt = '<br/><br/>In one follow-up study, patients with scores \\u22644 were 97% specific for post-operative ICU admission if not initially admitted there.';\n    mini_msg = 'Very high risk'\n} else if (u < 7) {\n    msg = 'High risk patient of poor outcome. 4% mortality rate, overall 16% risk of major complication including death.';\n    mini_msg = 'High risk'\n} else if (u < 9) {\n    msg = 'Moderate risk patient of poor outcome. 1% mortality rate, overall 6% risk of major complication including death.';\n    mini_msg = 'Moderate risk'\n} else {\n    msg = 'Low risk patient of poor outcome. 0% mortality rate, overall <4% risk of major complication including death.';\n    mini_msg = 'Low risk'\n}\ncalc_output.push({ name: 'mini', value: u.toFixed(0), value_text: 'points', message: mini_msg });\ncalc_output.push({ name: 'Surgical Apgar Score', value: u.toFixed(0), value_text: 'points', message: msg + msgalt });",
+        "favorite_id": 1826,
+        "full_title_en": "Surgical Apgar Score (SAS) for Postoperative Risk",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Estimated blood loss (EBL)",
+            "name": "estimated_blood_loss",
+            "optional": false,
+            "options": [
+              {
+                "label": ">1000 mL",
+                "value": 0
+              },
+              {
+                "label": "601-1000 mL",
+                "value": 1
+              },
+              {
+                "label": "101-600 mL",
+                "value": 2
+              },
+              {
+                "label": "≤100 mL",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<calculator id='74'>Lowest mean arterial pressure</calculator>",
+            "name": "lowest_mean_arterial_pressure",
+            "optional": false,
+            "options": [
+              {
+                "label": "<40 mmHg",
+                "value": 0
+              },
+              {
+                "label": "40-54 mmHg",
+                "value": 1
+              },
+              {
+                "label": "55-69 mmHg",
+                "value": 2
+              },
+              {
+                "label": "≥70 mmHg",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Lowest heart rate",
+            "name": "lowest_heart_rate",
+            "optional": false,
+            "options": [
+              {
+                "label": ">85 bpm",
+                "value": 0
+              },
+              {
+                "label": "76-85 bpm",
+                "value": 1
+              },
+              {
+                "label": "66-75 bpm",
+                "value": 2
+              },
+              {
+                "label": "56-65 bpm",
+                "value": 3
+              },
+              {
+                "label": "≤55 bpm",
+                "value": 4
+              },
+              {
+                "label": "Pathologic bradyarrhythmia or asystole",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "'Pathologic Bradyarrhythmia’ includes sinus arrest, AV (atrioventricular) block or dissociation, junctional or ventricular escape rhythm",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "re-saving",
+            "time": "2019-09-19T10:57:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited interview",
+            "time": "2019-08-21T10:27:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added interview",
+            "time": "2019-08-21T10:17:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added creator",
+            "time": "2019-07-23T16:38:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edit to description",
+            "time": "2018-10-26T00:12:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edit to title",
+            "time": "2018-10-26T00:02:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "",
+        "medium_description_en": "<p>Predicts postoperative risk of major complication, including death.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "surgery",
+          "mortality",
+          "m&m",
+          "gawande"
+        ],
+        "search_id": "c-1826",
+        "seo": {
+          "keywords_en": "Surgical Apgar Score, post-op risk score, gawande surgery score, apgar predict, apgar score, surgical score, apgar surgery, apgar prognosis, apgar major surgery, surgical score, gawande score, post-operative complications score, post-op surgery score, post-op apgar score",
+          "meta_description_en": "The Surgical Apgar Score (SAS) predicts postoperative risk of major complication, including death in patients undergoing major surgery."
+        },
+        "short_description_en": "Predicts postoperative risk.",
+        "short_title_en": "Surgical Apgar Score (SAS)",
+        "slug": "surgical-apgar-score-sas-postoperative-risk",
+        "specialty_en": [
+          "Anesthesiology",
+          "Critical Care",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Any/All"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Atul Gawande, MD, MPH, is a surgeon, writer, and public health researcher. He is most widely known as the critically acclaimed author of Complications: A Surgeon’s Notes on an Imperfect Science as well as several other bestsellers, including Being Mortal; The Checklist Manifesto: How to Get Things Right; and Better. He practices general and endocrine surgery at Brigham and Women’s Hospital and is professor in both the Department of Health Policy and Management at the Harvard School of Public Health and the Department of Surgery at Harvard Medical School. He is Executive Director of Ariadne Labs, a joint center for health systems innovation, and Chairman of Lifebox, a nonprofit organization making surgery safer globally.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Atul Gawande",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-atul-gawande.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Gawande+AA%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T15:13:40.102Z"
+        },
+        {
+          "about_en": "<p>Scott E. Regenbogen, MD, MPH, is an associate professor of surgery at the University of Michigan in Ann Arbor, MI. He is also the chief of the division of colorectal surgery and the associate chief clinical officer for surgical specialties at the University of Michigan Medical Group. Dr. Regenbogen’s primary research is focused on surgical management of colon cancer.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Scott E. Regenbogen",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-scott-regenbogen.png",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Regenbogen+SE%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/1826/surgical-apgar-score-sas-postoperative-risk",
+        "description": "The Surgical Apgar Score (SAS) predicts postoperative risk of major complication, including death in patients undergoing major surgery.",
+        "keywords": "Surgical Apgar Score, post-op risk score, gawande surgery score, apgar predict, apgar score, surgical score, apgar surgery, apgar prognosis, apgar major surgery, surgical score, gawande score, post-operative complications score, post-op surgery score, post-op apgar score",
+        "title": "Surgical Apgar Score (SAS) for Postoperative Risk"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3927,
+          "short_title_en": "POSSUM Calculator",
+          "slug": "possum-operative-morbidity-mortality-risk"
+        },
+        {
+          "calcId": 4038,
+          "short_title_en": "Gupta Perioperative Risk",
+          "slug": "gupta-perioperative-risk-myocardial-infarction-cardiac-arrest-mica"
+        },
+        {
+          "calcId": 23,
+          "short_title_en": "APGAR Score",
+          "slug": "apgar-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "1826",
+      "surgical-apgar-score-sas-postoperative-risk"
+    ]
+  },
+  "scriptLoader": []
+}

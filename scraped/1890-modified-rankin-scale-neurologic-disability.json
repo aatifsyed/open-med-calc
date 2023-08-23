@@ -1,0 +1,572 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Weakness"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "1890.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li>The original scale was introduced in 1957 by Dr. John Rankin and was actually changed to its current modified Rankin Scale Form for use in the UK-TIA Study. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/3363593\" target=\"_blank\" rel=\"noopener\">van Swieten JC 1988</a>)</li>\n<li>The interrater reliability of the mRS was first assessed in a trial of 100 stroke patients who each participated in two separate interviews that were conducted by pairs of raters drawn from a group of 10 staff neurologists and 24 neurology residents.\n<ul>\n<li>Overall kappa was 0.56, with a weighted kappa of 0.91.</li>\n</ul>\n</li>\n<li>A 2002 trial of 63 stroke patients evaluated by two observers found that using structured interviews to conduct the mRS improved reliability and decreased variability and bias. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/12215594\" target=\"_blank\" rel=\"noopener\">Wilson JT 2002</a>)</li>\n<li>A similar trial in 2005 of 113 patients assessed by a pair of trained raters found that without using a structured interview the observers agreed only 43% of the time (kappa = 0.25), but that agreement improved markedly (kappa = 0.74) when a structured interview was used. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15718510\" target=\"_blank\" rel=\"noopener\">Wilson JT 2005</a>)</li>\n<li>A 2007 literature review and systematic analysis of 50 trials found an overall moderate interrater reliability for the mRS (kappa = 0.56) that improved when structured interviews were used (kappa = 0.78). (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/17272767\" target=\"_blank\" rel=\"noopener\">Banks 2007</a>)</li>\n<li>Among 50 patients assessed using a simplified mRS had good agreement between raters (kappa = 0.72) and that the average time to complete an assessment was 1 minute and 40 seconds as opposed to 5 minutes for the regular mRS. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20224060\" target=\"_blank\" rel=\"noopener\">Bruno 2010</a>)</li>\n<li>A 2009 systematic review that included 10 trials found wide variability in the interrater reliability (kappa = 0.25-0.95) and an overall only moderate reliability (kappa = 0.46). (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19679846\" target=\"_blank\" rel=\"noopener\">Quinn TJ 2009</a>)</li>\n<li>Among 74 stroke patients interviewed by 2 interviewers, a 2012 study found reliability for a standard mRS interview was 56% agreement, kw=0.55 (95% CI 0.39-0.71) and 70%, kw=0.70 (95% CI, 0.53-0.87), for prestroke assessment, raising concerns&nbsp;of poor correlation of prestroke mRS with certain markers of function, and that \"relying on mRS alone may be a suboptimal measure of prestroke function and could potentially bias trial samples\" (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23150650\" target=\"_blank\" rel=\"noopener\">Fearon 2012</a>).</li>\n<li>A 2015 trial comparing the mRS assessments of local evaluators compared to central evaluators who used phone or video interviews found that video assessment was superior to phone assessment&nbsp;(kw 0.92, 95% CI 0.88-0.96) versus 0.77, 95% CI 0.72-0.83) and demonstrated the potential utility of video interview mRS assessments (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26542697\" target=\"_blank\" rel=\"noopener\">L&oacute;pez-Cancio 2015</a>).</li>\n</ul>",
+            "formula_en": "<p>Assignation of points based on severity of disability.</p>",
+            "more_info_en": "<p><b>Standardized Interview for the mRS:</b></p>\n<p>Ask these Yes/No Questions:</p>\n<ul>\n<li>Do you have any symptoms that are bothering you?</li>\n<li>Are you able to do the same work as before?</li>\n<li>Are you able to keep up with your hobbies?</li>\n<li>Have you maintained your ties to friends and family?</li>\n<li>Do you need help making a simple meal, doing household chores, or balancing a checkbook?</li>\n<li>Do you need help with shopping or traveling close to home?</li>\n<li>Do you need another person to help you walk?</li>\n<li>Do you need help with eating, going to the toilet, or bathing?</li>\n<li>Do you stay in bed most of the day and need constant nursing care?</li>\n</ul>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/3363593",
+                  "text": "van Swieten JC, Koudstaal PJ, Visser MC, Schouten HJ, van Gijn J. Interobserver agreement for the assessment of handicap in stroke patients. Stroke. 1988 May;19(5):604-7."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12215594",
+                  "text": "Wilson JT, Hareendran A, Grant M, Baird T, Schulz UG, Muir KW, Bone I. Improving the assessment of outcomes in stroke: use of a structured interview to assign grades on the modified Rankin Scale. Stroke. 2002 Sep;33(9):2243-6."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/15718510",
+                  "text": "Wilson JT, Hareendran A, Hendry A, Potter J, Bone I, Muir KW. Reliability of the modified Rankin Scale across multiple raters: benefits of a structured interview. Stroke. 2005 Apr;36(4):777-81. Epub 2005 Feb 17."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/20224060",
+                  "text": "Bruno A, Shah N, Lin C, Close B, Hess DC, Davis K, Baute V, Switzer JA, Waller JL, Nichols FT. Improving modified Rankin Scale assessment with a simplified questionnaire. Stroke. 2010 May;41(5):1048-50. doi: 10.1161/STROKEAHA.109.571562. Epub 2010 Mar 11."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/1783914",
+                  "text": "Farrell B, Godwin J, Richards S, Warlow C. The United Kingdom transient ischaemic attack (UK-TIA) aspirin trial: final results. J Neurol Neurosurg Psychiatry. 1991 Dec;54(12):1044-54. PubMed PMID: 1783914."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/19679846",
+                  "text": "Quinn TJ, Dawson J, Walters MR, Lees KR. Reliability of the modified Rankin Scale: a systematic review. Stroke. 2009 Oct;40(10):3393-5. doi: 10.1161/STROKEAHA.109.557256. Epub 2009 Aug 13. Review. PubMed PMID: 19679846."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/17272767",
+                  "text": "Banks JL, Marotta CA. Outcomes validity and reliability of the modified Rankin scale: implications for stroke clinical trials: a literature review and synthesis. Stroke. 2007 Mar;38(3):1091-6. Epub 2007 Feb 1."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23150650",
+                  "text": "Fearon P, McArthur KS, Garrity K, et al. Prestroke modified Rankin stroke scale has moderate interobserver reliability and validity in an acute stroke setting. Stroke. 2012;43(12):3184-8."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26542697",
+                  "text": "López-Cancio E, Salvat M, Cerdà N, et al. Phone and Video-Based Modalities of Central Blinded Adjudication of Modified Rankin Scores in an Endovascular Stroke Trial. Stroke. 2015;46(12):3405-10."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Daniel Runde, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. John van Swieten",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>The Modified Rankin Scale (mRS) assesses disability in patients who have suffered a stroke and is compared over time to check for recovery and degree of continued disability. A score of 0 is no disability, 5 is disability requiring constant care for all needs; 6 is death.</p>\n<ul>\n<li>The mRS has been used in clinical research for over 30 years and is a common standard for assessing functional outcomes in patients with stroke.</li>\n<li>Multiple studies have shown that the mRS correlates with physiological indicators such as stroke type, lesion size and neurological impairment as assessed by other stroke evaluation scales.</li>\n</ul>\n<p><strong>Points to keep in mind:</strong></p>\n<ul>\n<li>There is criticism that the mRS contains subject components that results in variability and bias that lowers the score&rsquo;s reliability.</li>\n<li>The use of structured interviews when assessing the mRS appears to result in improved interrater reliability though this effect is not completely consistent.</li>\n</ul>",
+            "use_case_en": "<p>The mRS can help users determine the degree of disability in patients who have suffered a stroke.</p>",
+            "why_use_en": "<p>There are nearly 800,000 cases of acute stroke in the United States every year, with 130,000 associated deaths (4th leading cause of death in Americans).</p>\n<p>The mRS is a widely used measure to assess the functional outcomes for patients who have suffered a stroke. It can also provide a common language for describing the degree of disability.</p>"
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "<p>The mRS is used to evaluate the degree of disability in patients who have suffered a stroke, but individual quality of life and independence are influenced by a wide variety of factors including the presence of comorbidities and socioeconomic status.</p>\n<p>The use of a structured interview may lead to increased reliability among those conducting assessments using the mRS.</p>",
+            "management_en": "<p>Decisions about further medical management, the need for PT/OT therapy and the degree of care that a patient requires can be partially informed by the mRS, but final determinations should be made on an individual basis.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 1890,
+                "createdAt": "2019-11-04T17:03:38.486Z",
+                "description": "Emergency Medicine Practice Extra",
+                "id": 66,
+                "link": "https://www.ebmedicine.net/topics/stroke/ManagementAfter3Hours/calculators",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: mRS",
+                "updatedAt": "2019-11-07T15:27:25.920Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Stroke/TIA"
+        ],
+        "dosing": false,
+        "equation_logic": "d6d3dbfae48ba573bb502ba1b18c17cb",
+        "equation_logic_text": "var calc_output=[]; calc_output.push({name:'mini',value:parseFloat(baseline_activity),value_text:'points',message:'Modified Rankin Scale'}); calc_output.push({name:'Modified Rankin Scale',value:parseFloat(baseline_activity),value_text:'points',message:'Modified Rankin Scale'});",
+        "favorite_id": 1890,
+        "full_title_en": "Modified Rankin Scale for Neurologic Disability",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Patient's Baseline Activity",
+            "mdcalc_info_concept": null,
+            "name": "baseline_activity",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No symptoms at all",
+                "value": 0
+              },
+              {
+                "label": "No significant disability despite symptoms; able to carry out all usual duties and activities",
+                "value": 1
+              },
+              {
+                "label": "Slight disability; unable to carry out all previous activities, but able to look after own affairs without assistance",
+                "value": 2
+              },
+              {
+                "label": "Moderate disability; requiring some help, but able to walk without assistance",
+                "value": 3
+              },
+              {
+                "label": "Moderately severe disability; unable to walk and attend to bodily needs without assistance",
+                "value": 4
+              },
+              {
+                "label": "Severe disability; bedridden, incontinent and requiring constant nursing care and attention",
+                "value": 5
+              },
+              {
+                "label": "Dead",
+                "value": 6
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Choose best fit of patient's ability",
+            "type": "radio"
+          },
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "A standardized interview also exists to try to reduce subjectivity or variability in score assignments. See the “About” section for more information.",
+            "subheading_instructions": "",
+            "type": "subheading"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "eb med",
+            "time": "2019-11-07T10:27:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "eb med link",
+            "time": "2019-11-04T12:03:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "dan runde edits",
+            "time": "2019-06-21T12:18:00.000Z",
+            "user": "rachel"
+          }
+        ],
+        "md5": "f5dcd063dd64719e936b1df1f852a45e",
+        "medium_description_en": "<p>Measures the degree of disability or dependence in the daily activities of people who have suffered a stroke or other causes of neurological disability.</p>",
+        "publishedAt": "2022-04-21T20:29:04.297Z",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "disability",
+          "stroke",
+          "TIA",
+          "CVA",
+          "neuro",
+          "mRS"
+        ],
+        "search_id": "c-1890",
+        "seo": {
+          "keywords_en": "mRS scale, modified rankin scale, s/p stroke prognosis, stroke prognosis, MRS stroke, rankin stroke, ranking scale, rankin CVA, rankin TIA, rankin prognosis, stroke quality of life, stroke disability score, rankin disability, neuro disability stroke, disability stroke prognosis, disability stroke px, disability cva px, disability cva prognosis, rankin modified, rankin stroke modified, rankin score stroke, rankin neuro disable",
+          "meta_description_en": "The Modified Rankin Scale (mRS) measures degree of disability/dependence after a stroke."
+        },
+        "short_description_en": "<p>Disability/dependence after a stroke.</p>",
+        "short_title_en": "Modified Rankin Scale",
+        "slug": "modified-rankin-scale-neurologic-disability",
+        "specialty_en": [
+          "Critical Care",
+          "Critical Care (Neurologic)",
+          "Emergency Medicine",
+          "Internal Medicine",
+          "Neurology",
+          "Rehabilitation Medicine"
+        ],
+        "system_en": [
+          "Neurologic"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "b34097ef-e2dd-4911-be12-0f8d46a178dd"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Daniel Runde, MD, is currently the assistant residency director and an assistant professor of emergency medicine at the University of Iowa Hospitals and Clinics. He received his medical degree at the University of Iowa Carver College of Medicine and completed residency in emergency medicine at St. Luke’s-Roosevelt Hospital Center in New York. He recently finished his Medical Education Fellowship at the department of emergency medicine at Harbor-UCLA. Dr. Runde is interested in evidence-based medicine with a focus on patient-important clinical outcomes, CT utilization in the emergency department and education and evaluation in medical education. Currently, he is in the process of obtaining a Masters in Medical Education through the Office of Consultation and Research in Medical Education at the University of Iowa Hospitals and Clinics.</p>",
+          "firstName": "Daniel",
+          "hasDisclosure": [],
+          "img": "daniel-runde.jpg",
+          "lastName": "Runde",
+          "name": "Daniel Runde, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "daniel-runde",
+          "updatedAt": "2023-04-06T20:24:46.787Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>John van Swieten, MD, PhD, is a professor in the Department of Neurology at Erasmus University Medical Center in Rotterdam. His research has focused on several aspects of dementia, especially frontotemporal dementia (FTD), and he has studied clinical, genetic and pathological aspects of FTD in a large nation-wide cohort over the last 15 years. </p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. John van Swieten",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-john-van-swieten.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=van+Swieten+JC%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/1890/modified-rankin-scale-neurologic-disability",
+        "description": "The Modified Rankin Scale (mRS) measures degree of disability/dependence after a stroke.",
+        "keywords": "mRS scale, modified rankin scale, s/p stroke prognosis, stroke prognosis, MRS stroke, rankin stroke, ranking scale, rankin CVA, rankin TIA, rankin prognosis, stroke quality of life, stroke disability score, rankin disability, neuro disability stroke, disability stroke prognosis, disability stroke px, disability cva px, disability cva prognosis, rankin modified, rankin stroke modified, rankin score stroke, rankin neuro disable",
+        "title": "Modified Rankin Scale for Neurologic Disability"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 357,
+          "short_title_en": "ABCD<sup>2</sup> Score",
+          "slug": "abcd2-score-tia"
+        },
+        {
+          "calcId": 1706,
+          "short_title_en": "THRIVE Score",
+          "slug": "thrive-score-stroke-outcome"
+        },
+        {
+          "calcId": 715,
+          "short_title_en": "NIH Stroke Scale (NIHSS)",
+          "slug": "nih-stroke-scale-score-nihss"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "1890",
+      "modified-rankin-scale-neurologic-disability"
+    ]
+  },
+  "scriptLoader": []
+}

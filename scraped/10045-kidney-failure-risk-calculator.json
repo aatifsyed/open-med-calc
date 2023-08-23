@@ -1,0 +1,732 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Dysuria",
+          "Extremity Edema",
+          "Shortness of Breath",
+          "Vomiting",
+          "Weakness"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"149\" /><col width=\"103\" /><col width=\"66\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable </strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"10\">\n<p dir=\"ltr\">eGFR, mL/min/1.73m&sup2;</p>\n<br /><br /></td>\n<td>\n<p dir=\"ltr\">10-14</p>\n</td>\n<td>\n<p dir=\"ltr\">-35</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">15-19</p>\n</td>\n<td>\n<p dir=\"ltr\">-30</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">20-24</p>\n</td>\n<td>\n<p dir=\"ltr\">-25</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">25-29</p>\n</td>\n<td>\n<p dir=\"ltr\">-20</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">30-34</p>\n</td>\n<td>\n<p dir=\"ltr\">-15</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">35-39</p>\n</td>\n<td>\n<p dir=\"ltr\">-10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">40-44</p>\n</td>\n<td>\n<p dir=\"ltr\">-5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">45-49</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">50-54</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">55-59</p>\n</td>\n<td>\n<p dir=\"ltr\">10</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Sex</p>\n</td>\n<td>\n<p dir=\"ltr\">Female</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Male</p>\n</td>\n<td>\n<p dir=\"ltr\">-2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Urine albumin-to-creatinine ratio, mg/g</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;30</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">30-300</p>\n</td>\n<td>\n<p dir=\"ltr\">-14</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;300</p>\n</td>\n<td>\n<p dir=\"ltr\">-22</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"8\">\n<p dir=\"ltr\">Age, years</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;30</p>\n</td>\n<td>\n<p dir=\"ltr\">-4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">30-39</p>\n</td>\n<td>\n<p dir=\"ltr\">-2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">40-49</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">50-59</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">60-69</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">70-79</p>\n</td>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">80-89</p>\n</td>\n<td>\n<p dir=\"ltr\">8</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;90</p>\n</td>\n<td>\n<p dir=\"ltr\">10</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Serum albumin, g/dL</p>\n</td>\n<td>\n<p dir=\"ltr\">&le;2.5</p>\n</td>\n<td>\n<p dir=\"ltr\">-5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">2.6-3 0</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">3.1-3.5</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;3.6</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Serum phosphorus,&nbsp;mg/dL</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;3.5</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">3.5-4.5</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">4.6-5.5</p>\n</td>\n<td>\n<p dir=\"ltr\">-3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;5.5</p>\n</td>\n<td>\n<p dir=\"ltr\">-5</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Serum bicarbonate, mEq/L</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;18</p>\n</td>\n<td>\n<p dir=\"ltr\">-7</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">18-22</p>\n</td>\n<td>\n<p dir=\"ltr\">-4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">23-25</p>\n</td>\n<td>\n<p dir=\"ltr\">-1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;25</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Serum calcium, mg/dL</p>\n</td>\n<td>\n<p dir=\"ltr\">&le;8.5</p>\n</td>\n<td>\n<p dir=\"ltr\">-3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">8.6-9.5</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;9.6</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"139\" /><col width=\"181\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Kidney Failure Risk Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Probability of kidney failure at 5 years</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;-41</p>\n</td>\n<td>\n<p dir=\"ltr\">&gt;90.0%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-41</p>\n</td>\n<td>\n<p dir=\"ltr\">89.0%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-40</p>\n</td>\n<td>\n<p dir=\"ltr\">86.9%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-39</p>\n</td>\n<td>\n<p dir=\"ltr\">84.1%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-38</p>\n</td>\n<td>\n<p dir=\"ltr\">81.0%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-37</p>\n</td>\n<td>\n<p dir=\"ltr\">81.0%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-36</p>\n</td>\n<td>\n<p dir=\"ltr\">74.4%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-35</p>\n</td>\n<td>\n<p dir=\"ltr\">70.9%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-34</p>\n</td>\n<td>\n<p dir=\"ltr\">67.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-33</p>\n</td>\n<td>\n<p dir=\"ltr\">63.6%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-32</p>\n</td>\n<td>\n<p dir=\"ltr\">59.9%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-31</p>\n</td>\n<td>\n<p dir=\"ltr\">56.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-30</p>\n</td>\n<td>\n<p dir=\"ltr\">52.8%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-29</p>\n</td>\n<td>\n<p dir=\"ltr\">49.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-28</p>\n</td>\n<td>\n<p dir=\"ltr\">45.9%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-27</p>\n</td>\n<td>\n<p dir=\"ltr\">42.7%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-26</p>\n</td>\n<td>\n<p dir=\"ltr\">39.6%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-25</p>\n</td>\n<td>\n<p dir=\"ltr\">36.6%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-24</p>\n</td>\n<td>\n<p dir=\"ltr\">33.8%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-23</p>\n</td>\n<td>\n<p dir=\"ltr\">31.2%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-22</p>\n</td>\n<td>\n<p dir=\"ltr\">28.7% </p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-21</p>\n</td>\n<td>\n<p dir=\"ltr\">26.4%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-20</p>\n</td>\n<td>\n<p dir=\"ltr\">24.2%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-19</p>\n</td>\n<td>\n<p dir=\"ltr\">22.2%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-18</p>\n</td>\n<td>\n<p dir=\"ltr\">20.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-17</p>\n</td>\n<td>\n<p dir=\"ltr\">18.6%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-16</p>\n</td>\n<td>\n<p dir=\"ltr\">17.0%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-15</p>\n</td>\n<td>\n<p dir=\"ltr\">15.5%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-14</p>\n</td>\n<td>\n<p dir=\"ltr\">14.1%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-13</p>\n</td>\n<td>\n<p dir=\"ltr\">12.9%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-12</p>\n</td>\n<td>\n<p dir=\"ltr\">11.7%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-11</p>\n</td>\n<td>\n<p dir=\"ltr\">10.7%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-10</p>\n</td>\n<td>\n<p dir=\"ltr\">9.7%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-9</p>\n</td>\n<td>\n<p dir=\"ltr\">8.8%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-8</p>\n</td>\n<td>\n<p dir=\"ltr\">8.0%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-7</p>\n</td>\n<td>\n<p dir=\"ltr\">7.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-6</p>\n</td>\n<td>\n<p dir=\"ltr\">6.6%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-5</p>\n</td>\n<td>\n<p dir=\"ltr\">6.0%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-4</p>\n</td>\n<td>\n<p dir=\"ltr\">5.5%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;-3</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;5.0%</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://jamanetwork.com/journals/jama/fullarticle/897102",
+                  "text": "Tangri N, Stevens LA, Griffith J, et al. A predictive model for progression of chronic kidney disease to kidney failure. JAMA. 2011;305(15):1553-9."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26757465",
+                  "text": "Tangri N, Grams ME, Levey AS, et al. Multinational Assessment of Accuracy of Equations for Predicting Risk of Kidney Failure: A Meta-analysis. JAMA. 2016;315(2):164-74."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": false,
+              "id": 373,
+              "name": "Dr. Navdeep Tangri",
+              "priority": 0,
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>Derived and initially validated in data from patients in nephrology clinics; likely has limited validity in patients who are acutely ill.</p>",
+            "use_case_en": "",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "",
+            "management_en": "<p>Lower-risk patients may be best managed by a primary care physician, with higher-risk patients likely benefiting from&nbsp;management by a nephrologist.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Renal Failure"
+        ],
+        "dosing": false,
+        "equation_logic_text": "var calc_output = [];\n\nvar gfr = parseFloat(gfr)\nvar sex = parseFloat(sex)\nvar acr = parseFloat(acr)\nvar age = parseFloat(age)\nvar albumin = parseFloat(albumin)\nvar phosphorous = parseFloat(phosphorous)\nvar bicarbonate = parseFloat(bicarbonate)\nvar calcium = parseFloat(calcium)\n\nvar score = gfr + sex + acr + age + albumin + phosphorous + bicarbonate + calcium\n\nvar risk = [\n\"89.0\",\n\"86.9\",\n\"84.1\",\n\"81.0\",\n\"81.0\",\n\"74.4\",\n\"70.9\",\n\"67.3\",\n\"63.6\",\n\"59.9\",\n\"56.3\",\n\"52.8\",\n\"49.3\",\n\"45.9\",\n\"42.7\",\n\"39.6\",\n\"36.6\",\n\"33.8\",\n\"31.2\",\n\"28.7\",\n\"26.4\",\n\"24.2\",\n\"22.2\",\n\"20.3\",\n\"18.6\",\n\"17.0\",\n\"15.5\",\n\"14.1\",\n\"12.9\",\n\"11.7\",\n\"10.7\",\n\"9.7\",\n\"8.8\",\n\"8.0\",\n\"7.3\",\n\"6.6\",\n\"6.0\",\n\"5.5\",\n]\n\nvar hcc\n\nif (score <-41) {\nhcc = '>90.0'\n}\nelse if (score >= -3) {\nhcc = '<5.0'\n}\nelse {\nhcc = risk[score+41]\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: hcc + '% risk'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'Kidney Failure Risk Score'\n});\ncalc_output.push({\n    name: 'hcc',\n    value: hcc,\n    value_text: '%',\n    message: '5-year risk of kidney failure'\n});",
+        "favorite_id": 10045,
+        "full_title_en": "Kidney Failure Risk Calculator",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<abbr title='Estimated glomerular filtration rate'>eGFR</abbr>, mL/min/1.73m²",
+            "name": "gfr",
+            "optional": false,
+            "options": [
+              {
+                "label": "10-14",
+                "value": -35
+              },
+              {
+                "label": "15-19",
+                "value": -30
+              },
+              {
+                "label": "20-24",
+                "value": -25
+              },
+              {
+                "label": "25-29",
+                "value": -20
+              },
+              {
+                "label": "30-34",
+                "value": -15
+              },
+              {
+                "label": "35-39",
+                "value": -10
+              },
+              {
+                "label": "40-44",
+                "value": -5
+              },
+              {
+                "label": "45-49",
+                "value": 0
+              },
+              {
+                "label": "50-54",
+                "value": 5
+              },
+              {
+                "label": "55-59",
+                "value": 10
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Sex",
+            "name": "sex",
+            "optional": false,
+            "options": [
+              {
+                "label": "Female",
+                "value": 0
+              },
+              {
+                "label": "Male",
+                "value": -2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Urine albumin-to-creatinine ratio, mg/g",
+            "name": "acr",
+            "optional": false,
+            "options": [
+              {
+                "label": "<30",
+                "value": 0
+              },
+              {
+                "label": "30-300",
+                "value": -14
+              },
+              {
+                "label": ">300",
+                "value": -22
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Age, years",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "<30",
+                "value": -4
+              },
+              {
+                "label": "30-39",
+                "value": -2
+              },
+              {
+                "label": "40-49",
+                "value": 0
+              },
+              {
+                "label": "50-59",
+                "value": 2
+              },
+              {
+                "label": "60-69",
+                "value": 4
+              },
+              {
+                "label": "70-79",
+                "value": 6
+              },
+              {
+                "label": "80-89",
+                "value": 8
+              },
+              {
+                "label": " ≥90",
+                "value": 10
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Serum albumin, g/dL (g/L)",
+            "name": "albumin",
+            "optional": false,
+            "options": [
+              {
+                "label": "≤2.5 (≤25)",
+                "value": -5
+              },
+              {
+                "label": "2.6-30 (26-30)",
+                "value": 0
+              },
+              {
+                "label": "3.1-3.5 (31-35)",
+                "value": 2
+              },
+              {
+                "label": "≥3.6 (≥36)",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Serum phosphorus, mg/dL (mmol/L)",
+            "name": "phosphorous",
+            "optional": false,
+            "options": [
+              {
+                "label": "<3.5 (<1.13)",
+                "value": 3
+              },
+              {
+                "label": "3.5-4.5 (1.13-1.45)",
+                "value": 0
+              },
+              {
+                "label": "4.6-5.5 (1.49-1.78)",
+                "value": -3
+              },
+              {
+                "label": ">5.5 (>1.78)",
+                "value": -5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Serum bicarbonate, mEq/L (mmol/L)",
+            "name": "bicarbonate",
+            "optional": false,
+            "options": [
+              {
+                "label": "<18 (<18)",
+                "value": -7
+              },
+              {
+                "label": "18-22 (18-22)",
+                "value": -4
+              },
+              {
+                "label": "23-25 (23-25)",
+                "value": -1
+              },
+              {
+                "label": ">25 (>25)",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Serum calcium, mg/dL (mmol/L)",
+            "name": "calcium",
+            "optional": false,
+            "options": [
+              {
+                "label": "≤8.5 (≤2.12)",
+                "value": -3
+              },
+              {
+                "label": "8.6-9.5 (2.12-2.37)",
+                "value": 0
+              },
+              {
+                "label": "≥9.6 (≥2.4)",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "added SI units",
+            "time": "2021-12-06T11:01:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited description",
+            "time": "2021-03-19T16:09:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "GW edits",
+            "time": "2018-08-13T12:59:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-07-19T17:24:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits from RK review",
+            "time": "2018-07-05T13:52:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "equation logic added",
+            "time": "2018-06-28T11:24:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Defaults edited",
+            "time": "2018-06-27T11:00:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Finished building calc",
+            "time": "2018-06-26T11:48:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Built new calc",
+            "time": "2018-06-25T18:00:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Claiming the calc",
+            "time": "2018-06-25T16:45:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "",
+        "medium_description_en": "<p>Predicts progression to kidney failure in patients with chronic kidney disease (CKD).</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "CKD",
+          "chronic kidney disease",
+          "kidney failure risk",
+          "renal failure"
+        ],
+        "search_id": "c-10045",
+        "seo": {
+          "keywords_en": "CKD, chronic kidney disease, kidney failure risk",
+          "meta_description_en": "The Kidney Failure Risk Calculator predicts progression to kidney failure in patients with chronic kidney disease (CKD)."
+        },
+        "short_description_en": "Kidney failure risk in CKD. ",
+        "short_title_en": "Kidney Failure Risk Calculator",
+        "slug": "kidney-failure-risk-calculator",
+        "specialty_en": [
+          "Nephrology"
+        ],
+        "system_en": [
+          "Renal"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Navdeep Tangri, MD, PhD, FRCPC, is a physician and medical researcher at Seven Oaks General Hospital in Winnipeg, Canada. He is also an associate professor in the nephrology division at the University of Manitoba in Canada. Dr. Tangri's primary research is focused on the epidemiology of chronic kidney disease and end-stage renal disease.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Navdeep Tangri",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-navdeep-tangri.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Tangri+N%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10045/kidney-failure-risk-calculator",
+        "description": "The Kidney Failure Risk Calculator predicts progression to kidney failure in patients with chronic kidney disease (CKD).",
+        "keywords": "CKD, chronic kidney disease, kidney failure risk",
+        "title": "Kidney Failure Risk Calculator"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3939,
+          "short_title_en": "CKD-EPI Equations for GFR",
+          "slug": "ckd-epi-equations-glomerular-filtration-rate-gfr"
+        },
+        {
+          "calcId": 60,
+          "short_title_en": "FENa",
+          "slug": "fractional-excretion-sodium-fena"
+        },
+        {
+          "calcId": 10471,
+          "short_title_en": "Thakar Score",
+          "slug": "acute-renal-failure-cardiac-surgery-thakar-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "pearlsPitfallsViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10045",
+      "kidney-failure-risk-calculator"
+    ]
+  },
+  "scriptLoader": []
+}

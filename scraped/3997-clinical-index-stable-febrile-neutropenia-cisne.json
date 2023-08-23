@@ -1,0 +1,566 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Fever"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>Addition of the selected points:</p> <div class=\"table-responsive\"> <table class=\"table table-bordered\"> <tbody> <tr> <td>&nbsp;</td> <td> <p><strong>0 points</strong></p> </td> <td> <p><strong>1 point</strong></p> </td> <td> <p><strong>2 points</strong></p> </td> </tr> <tr> <td> <p><calculator id=\"3170\">ECOG Performance Status</calculator></p> </td> <td> <p>&lt;2</p> </td> <td> <p>--</p> </td> <td> <p>≥2</p> </td> </tr> <tr> <td> <p>Stress-induced hyperglycemia</p> </td> <td> <p>No</p> </td> <td> <p>--</p> </td> <td> <p>Yes</p> </td> </tr> <tr> <td> <p>COPD</p> </td> <td> <p>No</p> </td> <td> <p>Yes</p> </td> <td> <p>--</p> </td> </tr> <tr> <td> <p>Cardiovascular disease history</p> </td> <td> <p>No</p> </td> <td> <p>Yes</p> </td> <td> <p>--</p> </td> </tr> <tr> <td> <p>NCI mucositis grade ≥2</p> </td> <td> <p>No</p> </td> <td> <p>Yes</p> </td> <td> <p>--</p> </td> </tr> <tr> <td> <p>Monocytes</p> </td> <td> <p>≥200/µL</p> </td> <td> <p>&lt;200/µL</p> </td> <td> <p>--</p> </td> </tr> </tbody> </table> </div>",
+            "more_info_en": "<p>Interpretation:</p> <div class=\"table-responsive\"> <table class=\"table table-bordered\"> <tbody> <tr> <td> <p><strong>CISNE</strong></p> </td> <td> <p><strong>Risk category</strong></p> </td> <td> <p><strong>Risk of complications*</strong></p> </td> <td> <p><strong>Recommendation</strong></p> </td> </tr> <tr> <td> <p>0</p> </td> <td> <p>I (Low)</p> </td> <td> <p>1.1%</p> </td> <td> <p>Consider discharge with oral antibiotics after discussion with oncology.</p> </td> </tr> <tr> <td> <p>1-2</p> </td> <td> <p>II (Intermediate)</p> </td> <td> <p>6.2%</p> </td> <td> <p>Use clinical judgment regarding admission. Consider oncology consultation.</p> </td> </tr> <tr> <td> <p>≥3</p> </td> <td> <p>III (High)</p> </td> <td> <p>36%</p> </td> <td> <p>Admit for further investigation, including blood cultures.</p> </td> </tr> </tbody> </table> <p>*Any of the following complications within 7 days minumum, from ED arrival until complete resolution of the episode, defined as \"disappearance of all signs of infection with recovery from neutropenia (≥1,500 neutrophils/μL) and absence of fever for 48 hours, including home surveillance if patient was discharged early\":</p> <ul> <ul> <li><strong>Hypotension: </strong>persistent systolic blood pressure &lt;90 mmHg requiring inotropes or aggressive fluid resuscitation.</li> <li><strong>Acute respiratory failure: </strong>SaO<sub>2</sub> &lt;90%, PaO<sub>2</sub> &lt;60 mmHg, or PaCO<sub>2</sub> ≥45 mmHg.</li> <li><strong>Acute renal failure: </strong>increase in creatinine &gt;0.3 mg/dL within 48 hours, increase in creatinine to ≥1.5× baseline within prior 7 days, or urine volume &lt;0.5 mL/kg per hour for 6 hours.</li> <li><strong>Acute heart failure:</strong> rapid onset of dyspnea, pulmonary edema, and oxygen desaturation requiring urgent therapy.</li> <li><strong>Arrhythmia: </strong>any that alter cardiovascular stability.</li> <li><strong>Major bleeding:</strong> episodes associated with death, occurring in critical localization (intracranial, intraspinal, intraocular, retroperitoneal, or pericardial), or associated with reduction in hemoglobin values ≥2 g/dL or bleeding requiring transfusion of two units RBCs.</li> <li><strong>Delirium:</strong> acute, fluctuating alteration of mental state with cognitive impairment.</li> <li><strong>Acute abdomen: </strong>requiring urgent medical or surgical management.</li> <li><strong>Disseminated intravascular coagulation.</strong></li> </ul> </ul> </div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "http://ascopubs.org/doi/full/10.1200/jco.2012.45.8661",
+                  "text": "Flowers CR, Seidenfeld J, Bow EJ, et al. Antimicrobial prophylaxis and outpatient management of fever and neutropenia in adults treated for malignancy: American Society of Clinical Oncology clinical practice guideline. J Clin Oncol. 2013;31(6):794-810."
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21811253 ",
+                  "text": "Carmona-bayonas A, Gómez J, González-billalabeitia E, et al. Prognostic evaluation of febrile neutropenia in apparently stable adult cancer patients. Br J Cancer. 2011;105(5):612-7."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4891503/",
+                  "text": "Fonseca PJ, Carmona-bayonas A, García IM, et al. A nomogram for predicting complications in patients with solid tumours and seemingly stable febrile neutropenia. Br J Cancer. 2016;114(11):1191-8."
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25559804 ",
+                  "text": "Carmona-bayonas A, Jiménez-fonseca P, Virizuela echaburu J, et al. Prediction of serious complications in patients with seemingly stable febrile neutropenia: validation of the Clinical Index of Stable Febrile Neutropenia in a prospective cohort of patients from the FINITE study. J Clin Oncol. 2015;33(5):465-71."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28041827",
+                  "text": "Coyne CJ, Le V, Brennan JJ, et al. Application of the MASCC and CISNE Risk-Stratification Scores to Identify Low-Risk Febrile Neutropenic Patients in the Emergency Department. Ann Emerg Med. 2017;69(6):755-764."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "name": "Dr. Alberto Carmona-Bayonas",
+              "qa_en": "<p><em>Interview provided by Dr. Carmona-Bayonas and Dr. Jiménez Fonseca.</em></p><p><strong>Why did you develop the CISNE? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p> <p>CISNE means &ldquo;swan&rdquo; in Spanish, and in fact, the metaphor of <a href=\"https://en.wikipedia.org/wiki/The_Black_Swan:_The_Impact_of_the_Highly_Improbable\" target=\"_blank\">Nassim Nicholas Taleb's black swan theory</a> is applicable to this clinical scenario, since complications in patients with apparently stable febrile neutropenia have a high impact. These complications are difficult to predict through routine clinical inspection because of the frequent absence of symptoms and/or signs. When they have already occurred, someone may think in hindsight that they could have been avoided with an appropriate classification. It's therefore an inspiring philosophical argument.</p> <p>The idea of the CISNE Score arose in the emergency department of a high-volume hospital. We hypothesized that not all cases with febrile neutropenia had the same degree of prognostic uncertainty. Dying patients, or those with very serious infections, did not really require a stratification tool to provide additional information about a clinical picture that was already expressive enough to guide admission. </p> <p>However, as a result of immunosuppression, the human body is temporarily unable to generate inflammatory reactions. As a consequence, in the early stages of neutropenic infections, some patients may show a deceptive state of health. The aim of the CISNE Score is to provide a greater degree of certainty about whether or not the apparent stability is real, which may prevent early discharges from hospital in patients at risk and may assist the physician in decision-making, something that other models do not perform.</p> <p><strong>What pearls, pitfalls and/or tips do you have for users of the CISNE? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p> <p>The misuse of CISNE should result in decision-making errors, and we have detected some examples of this kind. First, patients should not be evaluated only with a numerical score&mdash;it is essential to take full account of the general principles of febrile syndromes in immunocompromised patients. The overall picture needs to be addressed, not just a number. It seems obvious, but when one reviews the literature, there is a strong tendency to believe that decisions are made by numbers alone. In this sense, CISNE is safe because it is based on low-risk criteria that are pre-established in the literature (e.g. <a href=\"http://ascopubs.org/doi/full/10.1200/jco.2012.45.8661\" target=\"_blank\">ASCO&rsquo;s clinical guide on febrile neutropenia, Flowers 2013</a>). In contrast to other scores, CISNE reinforces the safety of these appraisals, providing additional information, but does not contradict them, since it has been developed specifically for patients considered apparently stable by other methods including vital signs and physical examination. </p> <p>The second problem we have observed is that some researchers are tempted to also apply CISNE to the group of unstable patients, but the model was not designed for them. In fact, there is no point in using CISNE to evaluate the prognosis of immunosuppressed patients that we already know are at high risk before applying the model. That has nothing to do with CISNE's philosophy, and obviously, the model will not give the right results after a poorly formulated question.</p> <p>Finally, CISNE's aim is to delay the premature discharge of patients with potential risk until the apparent stability has been confirmed as real. Instead, some authors try to use it to directly select low-risk subjects for reductions in the level of supportive treatment, which is not the focus of the calculator.</p> <p><strong>What recommendations do you have for doctors once they have applied the CISNE? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p> <p>First, keep in mind that febrile neutropenia involves two distinct problems. You must get an idea of the risk of unexpected serious complications, but on the other hand you should also consider the probability of strains of resistant or unusual pathogens. These are two absolutely different factors, but they must be integrated into the decision-making process at the same time, since there is a risk of turning a low-risk individual into a high-risk patient as a result of failure to categorize either of them. </p> <p>Second, I recommend that the starting point should be the general principles of febrile syndrome assessment of the immunocompromised patient in the ED. For me, the best guide is the <a href=\"http://ascopubs.org/doi/full/10.1200/jco.2012.45.8661\" target=\"_blank\">ASCO clinical practice guideline</a> (Flowers 2013), which has a concise table with all the clinical criteria to systematically consider whether a patient is at high or low risk. </p> <p>Third, CISNE can be used as a clinical aid, but not as a unique decision-making tool. It should also be noted that the CISNE calculator was <em>not</em> designed to select patients for outpatient management, but rather to delay the early discharge of doubtful patients until the apparent stability is confirmed as real.</p> <p><strong>How do you use the CISNE in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p> <p>In my routine practice, I use the CISNE Score when, through other criteria, I have come to the conclusion that the patient may be a candidate for some type of reduction in supportive treatment. In that case, I use CISNE's high-risk criterion as a screening tool, to delay that early discharge decision until I have checked the negativity of blood cultures, and have ensured through hospital observation for a reasonable period of time that the apparent stability is not fictitious. On the contrary, I would never use it as an exclusive criterion for decision making, or in patients who, for additional reasons, would not be candidates for reduction in support.</p> <p><strong>What are your thoughts on using CISNE over the MASCC Risk Index for febrile neutropenia?</strong></p> <p>My personal thought is that people evaluate the MASCC model and leave it written in the medical record, but decisions are almost never made based on its prediction. The MASCC score has been validated on multiple occasions, and is recommended by most international scientific societies. However, it is virtually useless in providing additional information about these patients because it was not designed to be useful. Among its recognized limitations, the heaviest predictor is hypotension, which coincides exactly with the most frequent endpoint (also hypotension), making the prediction result useless (the variable oddly predicts itself). If hypotensive subjects are eliminated, the sensitivity drops to about 30%. </p> <p>As if that were not enough, two other predictors (solid tumor and ambulatory episode) are not useful for medical oncologists who evaluate subjects in the ED, as the variables are always present. The MASCC sample was not truly representative of patients with solid tumors because it included a very high proportion of patients with bone marrow transplant or acute leukemia in induction therapy. Nor does it serve to select candidates for outpatient management because many of them had very serious clinical conditions from the beginning, so they would never have been candidates for the therapeutic strategy that the model ultimately claims. </p> <p>The &ldquo;burden of disease&rdquo; variable is subjective; between a 59- and 60-year-old patient, we don't think there is any real difference, etc. With these premises, it does not even make sense to consider the predictive values of this model. Instead, CISNE tries to provide useful information that cannot actually be obtained in any other way at present, and includes variables that may make sense, such as stress hyperglycemia, a biomarker of poor clinical outcomes known since <a href=\"https://en.wikipedia.org/wiki/Claude_Bernard\" target='_blank'>Claude Bernard</a>'s time.</p> <p><strong>The risk percentages for complications quoted in the FINITE study are slightly different from the ones on the official CISNE calculator. Where did that data come from?</strong></p> <p>The method followed in the construction of the official CISNE calculator is explained in an article in the <a href=\"http://www.nature.com/bjc/journal/v114/n11/full/bjc2016118a.html\" target=\"_blank\"><em>British Journal of Cancer</em></a> published after the publication in the <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25559804\" target=\"_blank\"><em>Journal of Clinical Oncology</em></a>, with data from the original FINITE study.</p> <p>Basically, the small differences are due to the fact that to build the nomogram, the models' coefficients were updated and retrained, bearing in mind the entire FINITE series (<em>n</em> = 1,133). Subsequently, the results were validated by Dr. Ignacio Matos in an external registry of the Complejo Asistencial Universitario de Salamanca. This model provides a continuous probability of risk. However, the predictions are basically the same. A probability of serious complications above 12-13% in the <a href=\"http://www.iricom.es/prognostictools/cisne/inicio.aspx\" target='_blank'>official calculator</a> is equivalent to the simplified high risk criterion on MDCalc, and decision-making should be equivalent.</p> <p><strong>Any other research in the pipeline you're particularly excited about?</strong></p> <p>At ESMO 2017, we learned that a British group is trying to evaluate an algorithm based on pragmatic eligibility criteria, which relies on the CISNE Score only as the clinical aid for the decision. We agree with this criterion, and believe that like any other tool, the degree of certainty will depend on other independent groups progressively contributing their experience in this regard. In any case, all experiences are interesting if you can learn from them, and they will be welcomed.</p>"
+            },
+            {
+              "name": "Dr. Paula Jiménez Fonseca",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>While only solid tumors were included in the original study, an external validation study including both solid and hematologic malignancies showed no significant difference in outcomes for low-risk patients with either type.</li> <li>Complications included hypotension, acute organ failure, arrhythmia, major bleeding, delirium, acute abdomen, <abbr title=\"disseminated intravascular coagulation\">DIC</abbr>, and “other events considered severe” (see Facts &amp; Figures for full definitions).</li> <li>Uses mostly objective variables.</li> </ul>",
+            "use_case_en": "<ul> <li>Adult outpatients ≥18 years old with solid tumor, fever ≥38°C (100.4°F) over 1 hour, and neutropenia (500 cells/mm³or fewer, or 1,000 cells/mm³ with expected decrease to 500).</li> <li>Should not be used in patients who are obviously unwell, defined by the original study authors as any of the following:</li> <ul> <li>Acute organ failure (renal, cardiac, and respiratory).</li> <li>Decompensation of chronic organ insufficiency.</li> <li>Septic shock and hypotension (systolic BP &lt;90 mmHg).</li> <li>Known severe infection.</li> <li>Other serious complications that would themselves require admission.</li> </ul> </ul>",
+            "why_use_en": "<p>More specific than the <calculator id=\"3913\">MASCC Risk Index</calculator>. </p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Higher scores indicate higher risk for complications.</p>",
+            "critical_actions_en": "",
+            "management_en": "<p>As with all prediction tools, use clinical judgment and err on the side of caution when scores are equivocal.</p>"
+          }
+        },
+        "disease_en": [
+          "Cancer",
+          "CML",
+          "HIV/AIDS"
+        ],
+        "dosing": false,
+        "equation_logic": "d6b0cc4d5a8e0711d09f36ca0c35da2c",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nvar score = parseFloat(ecog) + parseFloat(stress) + parseFloat(copd) + parseFloat(cvd) + parseFloat(nci) + parseFloat(mono);\n\nvar risk, risk2, comp, rec;\nif(score === 0){\n\trisk = 'I';\n\trisk2 = 'Low';\n\tcomp = '1.1%';\n\trec = 'Consider discharge with oral antibiotics after discussion with oncology.';\n}else if(score === 1 || score ===2 ){\n\trisk = 'II';\n\trisk2 = 'Intermediate';\n\tcomp = '6.2%';\n\trec = 'Use clinical judgment regarding admission. Consider oncology consultation.';\n}else if(score >= 3){\n\trisk = 'III';\n\trisk2 = 'High';\n\tcomp = '36%';\n\trec = 'Admit for further investigation, including blood cultures.';\n}\n\n\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: risk2\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: rec\n});\ncalc_output.push({\n    name: 'Result',\n    value: risk2,\n    value_text: 'risk',\n    message: 'Risk category ' + risk +'<br/><br/>'+ comp + ' risk of complications within a minimum of 7 days (hypotension, organ failure, etc.—see Facts & Figures for details)'\n});",
+        "favorite_id": 3997,
+        "full_title_en": "Clinical Index of Stable Febrile Neutropenia (CISNE)",
+        "input_schema": [
+          {
+            "default": 0,
+            "label_en": "<calculator id='3170'>ECOG Performance Status</calculator>",
+            "name": "ecog",
+            "optional": false,
+            "options": [
+              {
+                "label": "<2",
+                "value": 0
+              },
+              {
+                "label": "≥2",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "ECOG PS 2 = Capable of all self care, but no work activities, out of bed >50% of day",
+            "type": "radio"
+          },
+          {
+            "default": 0,
+            "label_en": "Stress-induced hyperglycemia",
+            "name": "stress",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Initial blood glucose ≥121 mg/dL (6.7 mmol/L), or ≥250 mg/dL (13.9 mmol/L) in diabetics or if on steroids",
+            "type": "radio"
+          },
+          {
+            "default": 0,
+            "label_en": "<abbr title='Chronic obstructive pulmonary disease'>COPD</abbr>",
+            "name": "copd",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "COPD diagnosis on therapy with ≥1 of the following: steroids, supplemental O₂, bronchodilators",
+            "type": "radio"
+          },
+          {
+            "default": 0,
+            "label_en": "Cardiovascular disease history",
+            "name": "cvd",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Chronic heart conditions (e.g., cor pulmonale, heart failure, cardiomyopathy, hypertensive heart disease, arrhythmias, valvular disease, other structural malformations), EXCLUDING history of single uncomplicated episode of AFib",
+            "type": "radio"
+          },
+          {
+            "default": 0,
+            "label_en": "NCI mucositis grade ≥2",
+            "name": "nci",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Painful erythema, edema, or ulcers, but eating/swallowing possible",
+            "type": "radio"
+          },
+          {
+            "default": 0,
+            "label_en": "Monocytes",
+            "name": "mono",
+            "optional": false,
+            "options": [
+              {
+                "label": "≥200/µL",
+                "value": 0
+              },
+              {
+                "label": "<200/µL",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use in adult outpatients at least 18 years old with solid tumor, fever at least 38°C (100.4°F) over 1 hr, and <calculator id=\"19\">neutropenia</calculator> (500 cells/mm³or fewer, or 1,000 cells/mm³ with expected decrease to 500). Do not use in patients with acute organ failure, severe infection, hypotension, or other reason for admission.</p>",
+        "logs": [],
+        "md5": "dc2d161ba88ebd850024ad7854a298f2",
+        "medium_description_en": "<p>Identifies febrile neutropenia patients at low risk of serious complications.</p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "cisne",
+          "clinical index",
+          "clinical index of stable febrile neutropenia",
+          "stable febrile neutropenia",
+          "febrile neutropenia"
+        ],
+        "search_id": "c-3997",
+        "seo": {
+          "keywords_en": "Cisne, clinical index, clinical index of stable febrile neutropenia, stable febrile neutropenia, febrile neutropenia",
+          "meta_description_en": "The Clinical Index of Stable Febrile Neutropenia (CISNE) identifies febrile neutropenia patients at low risk of serious complications."
+        },
+        "short_description_en": "Low-risk febrile neutropenia.",
+        "short_title_en": "CISNE",
+        "slug": "clinical-index-stable-febrile-neutropenia-cisne",
+        "specialty_en": [
+          "Critical Care",
+          "Family Practice",
+          "Hematology and Oncology",
+          "Infectious Disease",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Immunologic",
+          "Infectious",
+          "Oncologic"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Alberto Carmona-Bayonas, MD, PhD, is a medical oncologist in the department of hematology and medical oncology at Hospital General Universitario Morales Meseguer in Murcia, Spain. Dr. Carmona-Bayonas’ research interests include gastrointestinal cancers and febrile neutropenia.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Alberto Carmona-Bayonas",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-alberto-carmona-bayonas.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Carmona-Bayonas+A%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "about_en": "<p>Paula Jiménez Fonseca, MD, PhD, is a medical oncologist at the Hospital Universitario Central de Asturias in Oviedo, Spain. She has authored or co-authored dozens of studies in solid tumor oncology, particularly in the area of febrile neutropenia. Dr. Jiménez Fonseca is a member of the Spanish Society of Medical Oncology (SEOM).</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Paula Jiménez Fonseca",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-paula-jimenez-fonseca.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Jim%C3%A9nez+Fonseca+P%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3997/clinical-index-stable-febrile-neutropenia-cisne",
+        "description": "The Clinical Index of Stable Febrile Neutropenia (CISNE) identifies febrile neutropenia patients at low risk of serious complications.",
+        "keywords": "Cisne, clinical index, clinical index of stable febrile neutropenia, stable febrile neutropenia, febrile neutropenia",
+        "title": "Clinical Index of Stable Febrile Neutropenia (CISNE)"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3913,
+          "short_title_en": "MASCC Risk Index",
+          "slug": "mascc-risk-index-febrile-neutropenia"
+        },
+        {
+          "calcId": 19,
+          "short_title_en": "Absolute Neutrophil Count",
+          "slug": "absolute-neutrophil-count-anc"
+        },
+        {
+          "calcId": 1801,
+          "short_title_en": "Step-by-Step Approach to Fever",
+          "slug": "step-step-approach-febrile-infants"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3997",
+      "clinical-index-stable-febrile-neutropenia-cisne"
+    ]
+  },
+  "scriptLoader": []
+}

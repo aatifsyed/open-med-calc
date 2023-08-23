@@ -1,0 +1,749 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain",
+          "Cough",
+          "Palpitations",
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+124",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+124",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "1304.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p><strong>Derivation/Validation</strong> (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16020800\" target=\"_blank\" rel=\"noopener\">Aujesky D, 2005</a>)</p>\n<ul>\n<li>The primary evaluation was designed to develop a prediction rule which classifies patients already diagnosed with pulmonary embolism on risk of mortality and morbidity.</li>\n<li>Short-term mortality is cited to range from 2-95% based on severity of PE (submassive vs. cardiorespiratory arrest).</li>\n<li>Patients were retrospectively identified from a healthcare database of inpatients &gt;18 years old with a primary or secondary diagnosis of PE (plus a diagnosis of PE related complication, i.e., arrest, shock, pulmonary hypertension) from 2000-2002.</li>\n<li>15,531 patients from 186 hospitals were identified, with 10,354 (67%) randomly selected for derivation and 5,177 (33%) held for internal validation. The authors derived 11 criteria with regression analysis based on a main outcome of 30-day mortality.</li>\n<li>Criteria: male sex, cancer, CHF, lung disease, pulse &ge;110, SBP &lt;100, RR &ge;30, temp &lt;36&deg;C, ams, and O<sub>2</sub> SAT &lt; 90 mmHg.</li>\n<li>Created 5 classes:\n<ol>\n<li>Class I - Scores &le; 65 indicate very low risk.</li>\n<li>Class II - Scores of 66-85 indicate low risk.</li>\n<li>Class III - Scores of 86-105 indicate intermediate risk.</li>\n<li>Class IV - Scores of 106-125 indicate high risk.</li>\n<li>Class V - Scores &gt;125 indicate very high risk.</li>\n</ol>\n</li>\n<li>Externally validated in 221 ED patients in Switzerland and France, confirmed with CT scan and followed up for mortality and complications.</li>\n<li>30-day mortality rate for the derivation was 9.2% and for the internal validation was 9.5%. The external validation has a 30-day mortality rate of 2.7% but is complicated by a lower prevalence &nbsp;of comorbidities.\n<ul>\n<li>Derivation mortality risk for level: I) 1.1%, II) 3.1%, III) 6.5%, IV) 10.4%, V) 24.5%.</li>\n<li>Internal validation mortality risk for level: I) 1.6%, II) 3.5%, III) 7.1%, IV) 11.4%, V) 23.9%.</li>\n<li>External validation mortality risk for level: I) 0%, II) 1.7%, III) 3.2%, IV) 4%, V) 10.0%.</li>\n</ul>\n</li>\n<li>Nonfatal cardiogenic shock or cardiorespiratory arrest occurred in less than 1.3% (derivation) of Class II, and less than 1.0% (internal validation) of Class I.</li>\n</ul>\n<p><strong>Prospective Validation</strong> (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/18989542\" target=\"_blank\" rel=\"noopener\">Donz&eacute; J, 2008</a>)</p>\n<ul>\n<li>Prospectively enrolled patients during a clinical trial for a PE diagnostic algorithm.</li>\n<li>Enrolled patients from 6 ED&rsquo;s in Switzerland, France and Belgium between 2005 and 2006. ED patients with clinical suspicion of PE were included. Exclusion was contraindication to spiral CT or terminal illness, as well as prior diagnosis of PE.</li>\n<li>Diagnosis included positive CT, angiography, V/Q scan or DVT with US.</li>\n<li>357 patients had confirmed PE. 186 (52%) were classified as Class I or II. 91 (25%) were Class III, 41 (11%) were Class IV and 39 (11%) were Class V.</li>\n<li>No patients were lost to follow up. 8 (2%) received thrombolytics. 21 (5.9%) died - 9 (43%) of these with likely or definite PE.</li>\n<li>No patients from risk Class I died. 2 (2%) from Class II died and both were from&nbsp;likely or definite PE. 7 (7.7%) from Class III, 5&nbsp;(12.2%) from Class IV and 7&nbsp;(17.9%) from Class V died.</li>\n<li>When comparing low risk to high risk patients, PESI had a negative predictive value of 99% with a negative likelihood ratio of 0.2 for mortality.</li>\n<li>Overall mortality for low risk (Class I and II) at 7 days was 0.5% and at 90 days was 1.1%. However, this study excluded high risk patients such as those with terminal illness or renal failure.</li>\n</ul>\n<p><strong>Outpatient Management Trial</strong> (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/21703676\" target=\"_blank\" rel=\"noopener\">Aujesky D, 2011</a>)</p>\n<ul>\n<li>Open-label non-inferiority trial in 19 EDs in Switzerland, France, Belgium and USA.</li>\n<li>Randomly assigned patients who had been diagnosed with symptomatic PE and low risk PESI scores (Class I or II) to inpatient or outpatient groups between 2007 and 2010.&nbsp;Excluded those in shock, hypoxia or bleeding risk.</li>\n<li>Everyone got subcutaneous <abbr title=\"Low Molecular Weight Heparin\">LMWH</abbr> and then oral anticoagulation.</li>\n<li>334 patients enrolled. 171 were treated as outpatients, and 168 were treated as in-patients. 1 patient (0.6%) in each group died within 90 days. 1 (0.6%) outpatient and 0 inpatients had a recurrent PE. 3 (1.8%) outpatients and 0 inpatients had major bleeding events in 90 days.</li>\n<li>Demonstrated non-inferiority of outpatient management for recurrent PE and death. Outpatient management was also effective for major bleeding up to 14 days, but an additional bleeding event (1 patient) 50 days after treatment did not allow the authors to show non-inferiority of out-patient management for bleeding to 90 days.</li>\n</ul>",
+            "formula_en": "<p>Addition of the assigned points.</p>",
+            "more_info_en": "<p><strong>Interpretation:</strong></p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered table-hover\">\n<tbody>\n<tr>\n<th style=\"text-align: left;\">\n<p>PESI Score</p>\n</th>\n<th style=\"text-align: left;\">Class</th>\n<th style=\"text-align: left;\">Risk 30 day mortality</th>\n</tr>\n<tr>\n<td>\n<p>0-65</p>\n</td>\n<td>I</td>\n<td>0.0-1.6%</td>\n</tr>\n<tr>\n<td>\n<p>66-85</p>\n</td>\n<td>II</td>\n<td>1.7-3.5%</td>\n</tr>\n<tr>\n<td>\n<p>86-105</p>\n</td>\n<td>III</td>\n<td>3.2-7.1%</td>\n</tr>\n<tr>\n<td>\n<p>106-125</p>\n</td>\n<td>IV</td>\n<td>4.0-11.4%</td>\n</tr>\n<tr>\n<td>\n<p>&ge;125</p>\n</td>\n<td>V</td>\n<td>10-24.5%</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16020800",
+                  "text": "Aujesky D, Obrosky DS, Stone RA, Auble TE, Perrier A, Cornuz J, Roy PM, Fine MJ. Derivation and validation of a prognostic model for pulmonary embolism. Am J Respir Crit Care Med. 2005 Oct 15;172(8):1041-6. Epub 2005 Jul 14. PubMed PMID: 16020800; PubMed Central PMCID: PMC2718410."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21703676",
+                  "text": "Aujesky D, Roy PM, Verschuren F, Righini M, Osterwalder J, Egloff M, Renaud B,Verhamme P, Stone RA, Legall C, Sanchez O, Pugh NA, N'gako A, Cornuz J, Hugli O, Beer HJ, Perrier A, Fine MJ, Yealy DM. Outpatient versus inpatient treatment for patients with acute pulmonary embolism: an international, open-label, randomised,non-inferiority trial. Lancet. 2011 Jul 2;378(9785):41-8."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/18989542",
+                  "text": "Donzé J, Le Gal G, Fine MJ, Roy PM, Sanchez O, Verschuren F, Cornuz J, Meyer G, Perrier A, Righini M, Aujesky D. Prospective validation of the Pulmonary Embolism Severity Index. A clinical prognostic model for pulmonary embolism. Thromb Haemost. 2008 Nov;100(5):943-8"
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Benjamin Slovis, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Drahomir Aujesky",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>The Pulmonary Embolism Severity Index (PESI) is a risk stratification tool that has been externally validated to determine the mortality and outcome of patients with newly diagnosed pulmonary embolism (PE).</p>\n<p>In the setting of a patient with renal failure or severe comorbidities, clinical judgement should be used over the PESI, as these patients were excluded in the validation study.</p>\n<ul>\n<li>The PESI score determines risk of mortality and severity of complications.</li>\n<li>The score does not require laboratory variables.</li>\n<li>It is meant to aid in decision making, not replace it. Clinical judgement should always take precedence.</li>\n<li>The PESI score determines clinical severity and can influence treatment setting for management of PE.\n<ul>\n<li>Class I and II patients may possibly be safely treated as outpatients <b>in the right clinical setting.</b></li>\n</ul>\n</li>\n</ul>",
+            "use_case_en": "<p>In the setting of a patient diagnosed with PE, the PESI can be utilized to determine mortality and long term morbidity. For those determined to be very low risk (score &le; 65), all studies showed a 30-day mortality &lt;2%. In the validation, low risk (Class I and II) had a 90-day mortality of 1.1%. The non-inferiority trial demonstrated Class I and II could have been treated as outpatients assuming no other issues.</p>",
+            "why_use_en": "<p>The PESI is designed to risk stratify patients who have been diagnosed with a PE in order to determine the severity of their disease. This can help physicians make decisions on the management of those patients who could potentially be treated as out-patient, as well as raise concern for those who are determined to be high-risk and could benefit from higher levels of care.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>Social situation should also be taken into account before considering outpatient management (including the appropriate administration of anticoagulants).</li>\n<li>Given low mortality of low risk PE, outpatient management would save significant funds over hospitalization (cited as $4,500 per avoided admission).</li>\n<li>The non-inferiority trial showed successful and safe outpatient management of Class I and II patients.</li>\n</ul>",
+            "critical_actions_en": "<ul>\n<li>The PESI is only meant for risk stratification of pulmonary embolism after the diagnosis has been made.</li>\n<li>Findings which could point toward clinically significant PE should not be overlooked in the setting of a low PESI score.</li>\n<li>Additional pathology which could lead to morbidity or mortality should not be overlooked in the setting of a low PESI score.</li>\n<li>All results for the validation of the PESI were made with patients who were treated for PE initially with enoxaparin, and then encouraged to transition to vitamin K antagonists.</li>\n</ul>",
+            "management_en": "<ul>\n<li>If the patient is considered very low (&le; 65) or low risk (66-85) by the PESI score.\n<ul>\n<li>Patient has an overall low risk of mortality or severe morbidity.</li>\n<li>Consider outpatient management of PE if clinically appropriate and social factors allow for it.</li>\n</ul>\n</li>\n<li>If the patient is considered intermediate (86-105), high risk (106-125) or very high risk (&gt;125) by the PESI.\n<ul>\n<li>Patient has an overall high risk of mortality and severe morbidity.</li>\n<li>Consider higher levels of care (e.g., ICU) for those with higher scores.</li>\n</ul>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Pulmonary Embolism"
+        ],
+        "dosing": false,
+        "equation_logic": "926647ee025d08e34d562fa31ec6d3a8",
+        "equation_logic_text": "var calc_output=[]; \n\nvar u=parseInt(age)+parseInt(sex)+parseInt(cancer)+parseInt(heart_failure)+parseInt(chronic_lung_disease)+parseInt(heart_rate_110)+parseInt(systolic_blood_pressure_100)+parseInt(respiratory_rate_30)+parseInt(temperature_36)+parseInt(altered_mental_status)+parseInt(o2_saturation_90);\n\nvar msg='';\nvar mini_msg=''; \n\nif(u<66){\n    msg='Class I, Very Low Risk: 0-1.6% 30-day mortality in this group.';\n    mini_msg='Very Low Risk.'\n} \nif(u>65&&u<86){\n    msg='Class II, Low Risk: 1.7-3.5% 30-day mortality in this group.';\n    mini_msg='Low Risk.'\n} \nif(u>85&&u<106){\n    msg='Class III, Intermediate Risk: 3.2-7.1% 30-day mortality in this group.';\n    mini_msg='Intermediate Risk.'\n} \nif(u>105&&u<126){\n    msg='Class IV, High Risk: 4.0-11.4% 30-day mortality in this group.';\n    mini_msg='High Risk.'\n} \nif(u>125){\n    msg='Class V, Very High Risk: 10.0-24.5% 30-day mortality in this group.';\n    mini_msg='Very High Risk.'\n} \n\ncalc_output.push({\n    name:'mini',\n    value:u,\n    value_text:'points',\n    message:mini_msg\n}); \ncalc_output.push({\n    name:'1304_PESI Score_result',\n    value:u,\n    value_text:'points',\nmessage:msg\n});",
+        "favorite_id": 1304,
+        "full_title_en": "Pulmonary Embolism Severity Index (PESI)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "Age",
+            "name": "age",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "age"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Sex",
+            "md_calc_info_concept": null,
+            "name": "sex",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Female",
+                "value": 0
+              },
+              {
+                "label": "Male",
+                "value": 10
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "History of cancer",
+            "md_calc_info_concept": null,
+            "name": "cancer",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 30
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "History of heart failure",
+            "md_calc_info_concept": null,
+            "name": "heart_failure",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 10
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "History of chronic lung disease",
+            "md_calc_info_concept": null,
+            "name": "chronic_lung_disease",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 10
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Heart rate ≥110",
+            "md_calc_info_concept": null,
+            "name": "heart_rate_110",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 20
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Systolic BP <100 mmHg",
+            "md_calc_info_concept": null,
+            "name": "systolic_blood_pressure_100",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 30
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Respiratory rate ≥30",
+            "md_calc_info_concept": null,
+            "name": "respiratory_rate_30",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 20
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Temperature <36°C/96.8°F",
+            "md_calc_info_concept": null,
+            "name": "temperature_36",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 20
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Altered mental status (disorientation, lethargy, stupor, or coma)",
+            "md_calc_info_concept": null,
+            "name": "altered_mental_status",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 60
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "O2 saturation <90%",
+            "md_calc_info_concept": null,
+            "name": "o2_saturation_90",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 20
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited f7f",
+            "time": "2019-08-28T14:44:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited F&F",
+            "time": "2019-08-28T14:38:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "sentence cased inputs",
+            "time": "2018-09-26T10:37:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "ea5eaa165bb4f9e7ee7ee5bef121735c",
+        "medium_description_en": "<p>Predicts 30-day outcome of patients with pulmonary embolism using 11 clinical criteria.</p>",
+        "publishedAt": "2022-04-21T20:28:57.994Z",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "PE"
+        ],
+        "search_id": "c-1304",
+        "seo": {
+          "keywords_en": "rule out PE, prognosis PE, prognosis pulmonary embolism, pulmonary embolism, PESI, mortatlity PE, 30 day mortality PE, pulmonary embolism severity, pe severity, pe severity index, PESI score, PESI long, PESI calc, pesi index, pesi mdcalc, pulmonary embolism prognosis, pulmonary embolism mortality.",
+          "meta_description_en": "The Pulmonary Embolism Severity Index (PESI) predicts 30-day outcome of patients with pulmonary embolism using 11 clinical criteria."
+        },
+        "short_description_en": "<p>Mortality from PE.</p>",
+        "short_title_en": "PESI Score",
+        "slug": "pulmonary-embolism-severity-index-pesi",
+        "specialty_en": [
+          "Cardiology",
+          "Critical Care",
+          "Emergency Medicine",
+          "Hematology and Oncology",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Pulmonology",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Hematologic",
+          "Oncologic",
+          "Respiratory"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "f0bfe2c3-e056-4688-ab27-daa454270778"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Benjamin H. Slovis, MD, MA, is an emergency medicine physician and informatician in the department of emergency medicine at Thomas Jefferson University in Philadelphia. A native of New Jersey, Dr. Slovis attended Cornell University for his undergraduate studies and received his MD from UMDNJ–Robert Wood Johnson Medical School. He completed his residency at the Icahn School of Medicine at Mount Sinai and a National Library of Medicine Post-Doctoral Research Fellowship with a masters degree from the department of Biomedical Informatics at Columbia University. His research interests include clinical decision support systems, health-information exchange, and medical education.</p>",
+          "firstName": "Benjamin",
+          "hasDisclosure": [],
+          "img": "ben-slovis.jpeg",
+          "lastName": "Slovis",
+          "name": "Benjamin Slovis, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "benjamin-slovis",
+          "updatedAt": "2023-04-06T20:24:56.957Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Drahomir Aujesky, MD, MS, is an active clinician-investigator who predominantly researches venous thromboembolism. He was previously a full-time clinician at the University of Lausanne in Switzerland and completed the intensive Clinical Research Training Program (CRTP) under the direction of <calculator id='33'>Dr. Michael Fine</calculator> at the University of Pittsburgh.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Drahomir Aujesky",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-drahomir-aujesky.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Aujesky+D%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/1304/pulmonary-embolism-severity-index-pesi",
+        "description": "The Pulmonary Embolism Severity Index (PESI) predicts 30-day outcome of patients with pulmonary embolism using 11 clinical criteria.",
+        "keywords": "rule out PE, prognosis PE, prognosis pulmonary embolism, pulmonary embolism, PESI, mortatlity PE, 30 day mortality PE, pulmonary embolism severity, pe severity, pe severity index, PESI score, PESI long, PESI calc, pesi index, pesi mdcalc, pulmonary embolism prognosis, pulmonary embolism mortality.",
+        "title": "Pulmonary Embolism Severity Index (PESI)"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 120,
+          "error_max_si": 120,
+          "error_max_us": 120,
+          "error_min": 0.001,
+          "error_min_si": 0.001,
+          "error_min_us": 0.001,
+          "name": "Age",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "age",
+          "units_si": "years",
+          "units_us": "years",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0.1,
+          "warn_min_si": 0.1,
+          "warn_min_us": 0.1
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 1247,
+          "short_title_en": "Simplified PESI",
+          "slug": "simplified-pesi-pulmonary-embolism-severity-index"
+        },
+        {
+          "calcId": 10343,
+          "short_title_en": "Altitude-Adjusted PERC Rule",
+          "slug": "altitude-adjusted-perc-rule"
+        },
+        {
+          "calcId": 347,
+          "short_title_en": "PERC Rule",
+          "slug": "perc-rule-pulmonary-embolism"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "1304",
+      "pulmonary-embolism-severity-index-pesi"
+    ]
+  },
+  "scriptLoader": []
+}

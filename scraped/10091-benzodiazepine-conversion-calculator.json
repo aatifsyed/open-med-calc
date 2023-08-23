@@ -1,0 +1,792 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p><span id=\"docs-internal-guid-261967d6-7fff-5786-91e0-dbef6f66fee3\">This calculator should be used as a reference for oral benzodiazepine conversions. Equipotent benzodiazepine doses are reported as ranges due to paucity of literature supporting exact conversions, thus reported ranges are based on expert opinion and clinical experience published in psychiatric literature.</span></p>",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Anxious",
+          "Seizure"
+        ],
+        "cmeEndDate": "2025-10-11 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-11 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-14 00:00:00+00+00",
+        "cmeVersion": "10091.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p></p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"165\"><col width=\"136\"><col width=\"113\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Benzodiazepine</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Duration of action</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">ALPRAZolam (Xanax)</p>\n</td>\n<td>\n<p dir=\"ltr\">Short</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">ChlordiazePOXIDE (Librium)</p>\n</td>\n<td>\n<p dir=\"ltr\">Long</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">DiazePAM (Valium)</p>\n</td>\n<td>\n<p dir=\"ltr\">Long</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">ClonazePAM (KlonoPIN)</p>\n</td>\n<td>\n<p dir=\"ltr\">Long</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">LORazepam (Ativan)</p>\n</td>\n<td>\n<p dir=\"ltr\">Intermediate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Oxazepam (Serax)</p>\n</td>\n<td>\n<p dir=\"ltr\">Short</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Temazepam (Restoril)</p>\n</td>\n<td>\n<p dir=\"ltr\">Intermediate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Triazolam (Halcion)</p>\n</td>\n<td>\n<p dir=\"ltr\">Short</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p></p>\n<p><strong>Conversion factors (highlighted cell is used for example below):</strong></p>\n<p><strong><img src=\"https://cdn-web-img.mdcalc.com/content/benzo3.png\" width=\"100%\"></strong></p>\n<p dir=\"ltr\"><strong>Example (highlighted&nbsp;cell):</strong></p>\n<p dir=\"ltr\">To convert 1 mg Xanax to Librium, multiply 1 mg x 25. For a range of equipotent doses, multiply by 15 and 50.</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">1 mg Xanax &asymp; 25 mg Librium</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">15-50 mg &asymp; range of Librium dose equipotent to 1 mg Xanax</p>\n</li>\n</ul>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://books.google.com/books?id=z0AqKQAACAAJ&newbks=0&hl=en&source=newbks_fb",
+                  "text": "Gelenberg AJ, Bassuk, EL. Practitioner's Guide to Psychoactive Drugs. 4th Edition. Springer, 1997. "
+                },
+                {
+                  "href": "https://www.benzo.org.uk/manual/index.htm",
+                  "text": "Ashton H. Benzodiazepines: How they work and how to withdraw. The Ashton Manual, 2002."
+                },
+                {
+                  "href": "https://students.aiu.edu/submissions/profiles/resources/onlineBook/P4d5d5_Substance_Use_Disorders.pdf",
+                  "text": "Gitlow S. Practical Guides in Psychiatry: Substance Use Disorders, 2nd Edition. Lippincott Williams & Wilkins, 2006."
+                },
+                {
+                  "href": "https://www.google.com/books/edition/Cambridge_Textbook_of_Effective_Treatmen/HLPXELjTgdEC?hl=en",
+                  "text": "Tyrer PJ, Silk KR. Cambridge Textbook of Effective Treatments in Psychiatry. Cambridge University Press, 2008."
+                },
+                {
+                  "href": "https://academic.oup.com/book/30037",
+                  "text": "Latt N, Conigrave K, Saunders JB, Marshall EJ, Nutt D. Addition Medicine, 2nd Edition. Oxford Specialist Handbooks, 2009."
+                },
+                {
+                  "href": "https://www.wolterskluwer.com/en/solutions/ovid/handbook-of-psychiatric-drug-therapy-4882?",
+                  "text": "Labatte LA, Fava M, Rosenbaum JF, Arana GW. Handbook of Psychiatric Drug Therapy, 6th Edition. Lippincott Williams & Wilkins, 2010."
+                },
+                {
+                  "href": "",
+                  "text": "LORazepam [package insert]. Corona (CA): Watson Laboratories, 2010."
+                },
+                {
+                  "href": "",
+                  "text": "DiazePAM [package insert]. San Francisco (CA): Genentech Laboratories, 2016."
+                },
+                {
+                  "href": "https://pubengine2.s3.eu-central-1.amazonaws.com/preview/99.110005/9781616764968_preview.pdf",
+                  "text": "Procyshyn RM, Bezchlibnyk-Butler KZ, Jeffries JJ. Clinical Handbook of Psychotropic Drugs, 22nd Edition. Hogrefe, 2017."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Jenny L. Koehl, PharmD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "OTHER",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-833ccba8-7fff-560a-7fb0-530c9f649b0d\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Durations of action:</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Very short acting: &lt;6 hours.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Short acting: 6-12 hours (ALPRAZolam, oxazepam, triazolam).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Intermediate acting: 12-24 hours (LORazepam, temazepam).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Long acting: &gt;24 hours (chlordiazePOXIDE, diazePAM, clonazePAM).</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">This calculator does not account for age, organ function, and inter-patient variability that may alter the pharmacokinetics, peak effect, and duration of action.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Selecting doses on the lower end of the reported range may result in lower risk of unwanted oversedation.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Dosing conversions may not be adequate when treating such conditions as status epilepticus or alcohol withdrawal. Disease-state specific guidelines should be utilized. &nbsp;</p>\n</li>\n</ul>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-b60e9585-7fff-2a44-0e65-46ada8a7ff99\">Intended for use when interchanging benzodiazepines and should not be used to help calculate an initial dose for a benzodiazepine na&iuml;ve patient. </span></p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-35d91094-7fff-71a3-13d9-15eabd077d3c\">Abrupt discontinuation of benzodiazepines should be avoided as this can precipitate withdrawal symptoms, including severe agitation and seizure activity. </span></p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Alcoholism",
+          "Anxiety",
+          "Dementia",
+          "Depression/Suicidality",
+          "Epilepsy",
+          "Seizure Disorder"
+        ],
+        "dosing": true,
+        "equation_logic": "bb1735bf37c5512137c54b0e5bbb9bf9",
+        "equation_logic_text": "var calc_output = [];\n\nvar from = parseFloat(from);\nvar dose = parseFloat(dose);\nvar to = parseFloat(to);\nvar conversion;\nvar conversion_lower;\nvar conversion_upper;\nvar name_from;\nvar name_to;\n\nif(from == 0){name_from = 'Xanax'}\n\telse if(from == 1){name_from = 'Librium'}\n\telse if(from == 2){name_from = 'Valium'}\n\telse if(from == 3){name_from = 'Klonopin'}\n\telse if(from == 4){name_from = 'Ativan'}\n\telse if(from == 5){name_from = 'Serax'}\n\telse if(from == 6){name_from = 'Restoril'}\n\telse if(from == 7){name_from = 'Halcion'}\n\nif(to == 0){name_to = 'Xanax'}\n\telse if(to == 1){name_to = 'Librium'}\n\telse if(to == 2){name_to = 'Valium'}\n\telse if(to == 3){name_to = 'Klonopin'}\n\telse if(to == 4){name_to = 'Ativan'}\n\telse if(to == 5){name_to = 'Serax'}\n\telse if(to == 6){name_to = 'Restoril'}\n\telse if(to == 7){name_to = 'Halcion'}\n\n//********Xanax (0) to 0-7********//\nif (from == 0 && to == 0) {\n\tconversion = 1\n\tconversion_lower = 1\n\tconversion_upper = 1\n\t}\nelse if (from == 0 && to == 1) {\n\tconversion = 25\n\tconversion_lower = 15\n\tconversion_upper = 50 \n\t}\nelse if (from == 0 && to == 2) {\n\tconversion = 10\n\tconversion_lower = 5 \n\tconversion_upper = 20\n\t} \nelse if (from == 0 && to == 3) {\n\tconversion = 2\n\tconversion_lower = 0.5\n\tconversion_upper =  4\n\t}\nelse if (from == 0 && to == 4) {\n\tconversion = 2\n\tconversion_lower = 1 \n\tconversion_upper = 4 \n\t}\nelse if (from == 0 && to == 5) {\n\tconversion = 20\n\tconversion_lower = 5 \n\tconversion_upper = 40\n\t}\nelse if (from == 0 && to == 6) {\n\tconversion = 20\n\tconversion_lower = 5\n\tconversion_upper = 40 \n\t}\nelse if (from == 0 && to == 7) {\n\tconversion = 0.5\n\tconversion_lower = 1\n\tconversion_upper = 0.25\n\t}\n\n//********librium (1) to 0-7********//\nelse if (from == 1 && to == 0) {\n\tconversion = 0.04\n\tconversion_lower = 0.06667\n\tconversion_upper = 0.02 \n\t} \nelse if (from == 1 && to == 1) {\n\tconversion = 1\n\tconversion_lower = 1\n\tconversion_upper = 1\n}\t\nelse if (from == 1 && to == 2) {\n\tconversion = 1/3;\n\tconversion_lower = 1/1.25;\n\tconversion_upper = 1/5;\n\t}\nelse if (from == 1 && to == 3) {\n\tconversion = 0.05;\n\tconversion_lower = 0.16; \n\tconversion_upper = 0.02;\n\t}\nelse if (from == 1 && to == 4) {\n\tconversion = 0.1\n\tconversion_lower = 0.16\n\tconversion_upper = 0.04 \n\t}\nelse if (from == 1 && to == 5) {\n\tconversion = 0.5\n\tconversion_lower = 0.2 \n\tconversion_upper =  1.6\n\t}\nelse if (from == 1 && to == 6) {\n\tconversion = 0.5\n\tconversion_lower = 0.2\n\tconversion_upper = 1.6\n\t}\nelse if (from == 1 && to == 7) {\n\tconversion = 0.013333\n\tconversion_lower = 0.04\n\tconversion_upper = 0.01\n\t}\t\n//********valium (2) to 0-7********//\nelse if (from == 2 && to == 0) {\n\tconversion = 0.1;\n\tconversion_lower = 0.2;\n\tconversion_upper = 0.05; \n\t} \nelse if (from == 2 && to == 1) {\n\tconversion = 3\n\tconversion_lower = 1.25\n\tconversion_upper = 5\n}\t\nelse if (from == 2 && to == 2) {\n\tconversion = 1\n\tconversion_lower = 1\n\tconversion_upper = 1\n\t}\nelse if (from == 2 && to == 3) {\n\tconversion = 0.1\n\tconversion_lower = 0.4\n\tconversion_upper =  0.05\n\t}\nelse if (from == 2 && to == 4) {\n\tconversion = 0.16667\n\tconversion_lower = 0.4\n\tconversion_upper = 0.1\n\t}\nelse if (from == 2 && to == 5) {\n\tconversion = 2\n\tconversion_lower = 0.5\n\tconversion_upper =  4\n\t}\nelse if (from == 2 && to == 6) {\n\tconversion = 2\n\tconversion_lower = 0.5\n\tconversion_upper = 4\n\t}\nelse if (from == 2 && to == 7) {\n\tconversion = 0.05\n\tconversion_lower = 0.1\n\tconversion_upper = 0.025\n\t}\n\n\n//******** klonopin (3) to 0-7********//\nelse if (from == 3 && to == 0) {\n\tconversion = 0.5\n\tconversion_lower = 2\n\tconversion_upper = 0.25\n\t} \nelse if (from == 3 && to == 1) {\n\tconversion = 20\n\tconversion_lower = 6.25\n\tconversion_upper = 50\n}\t\nelse if (from == 3 && to == 2) {\n\tconversion = 10\n\tconversion_lower = 2.5\n\tconversion_upper = 20\n\t}\nelse if (from == 3 && to == 3) {\n\tconversion = 1\n\tconversion_lower = 1\n\tconversion_upper = 1\n\t}\nelse if (from == 3 && to == 4) {\n\tconversion = 2\n\tconversion_lower = 0.5\n\tconversion_upper = 4\n\t}\nelse if (from == 3 && to == 5) {\n\tconversion = 20\n\tconversion_lower = 2.5\n\tconversion_upper =  40\n\t}\nelse if (from == 3 && to == 6) {\n\tconversion = 20\n\tconversion_lower = 2.5\n\tconversion_upper = 40\n\t}\nelse if (from == 3 && to == 7) {\n\tconversion = 0.25\n\tconversion_lower = 1\n\tconversion_upper = 0.125\n\t}\n\n//******** ativan (4) to 0-7********//\nelse if (from == 4 && to == 0) {\n\tconversion = 0.5\n\tconversion_lower = 1\n\tconversion_upper = 0.25\n\t} \nelse if (from == 4 && to == 1) {\n\tconversion = 10\n\tconversion_lower = 6.25\n\tconversion_upper = 25\n}\t\nelse if (from == 4 && to == 2) {\n\tconversion = 6\n\tconversion_lower = 2.5\n\tconversion_upper = 10\n\t}\nelse if (from == 4 && to == 3) {\n\tconversion = 0.5\n\tconversion_lower = 2\n\tconversion_upper = 0.25\n\t}\nelse if (from == 4 && to == 4) {\n\tconversion = 1\n\tconversion_lower = 1\n\tconversion_upper = 1\n\t}\nelse if (from == 4 && to == 5) {\n\tconversion = 10\n\tconversion_lower = 2.5\n\tconversion_upper =  20\n\t}\nelse if (from == 4 && to == 6) {\n\tconversion = 10\n\tconversion_lower = 2.5\n\tconversion_upper = 20\n\t}\nelse if (from == 4 && to == 7) {\n\tconversion = 0.25\n\tconversion_lower = 0.5\n\tconversion_upper = 0.125\n\t}\n\n//******** serax (5) to 0-7********//\nelse if (from == 5 && to == 0) {\n\tconversion = 0.05\n\tconversion_lower = 0.2\n\tconversion_upper = 0.025\n\t} \nelse if (from == 5 && to == 1) {\n\tconversion = 2\n\tconversion_lower = 5\n\tconversion_upper = 0.625\n}\t\nelse if (from == 5 && to == 2) {\n\tconversion = 0.5\n\tconversion_lower = 2\n\tconversion_upper = 0.25\n\t}\nelse if (from == 5 && to == 3) {\n\tconversion = 0.05\n\tconversion_lower = 0.4\n\tconversion_upper = 0.025\n\t}\nelse if (from == 5 && to == 4) {\n\tconversion = 0.1\n\tconversion_lower = 0.4\n\tconversion_upper = 0.05\n\t}\nelse if (from == 5 && to == 5) {\n\tconversion = 1\n\tconversion_lower = 1\n\tconversion_upper = 1\n\t}\nelse if (from == 5 && to == 6) {\n\tconversion = 1\n\tconversion_lower = 0.25\n\tconversion_upper = 4\n\t}\nelse if (from == 5 && to == 7) {\n\tconversion = 0.025\n\tconversion_lower = 0.1\n\tconversion_upper = 0.0125\n\t}\n\n//******** Restoril (6) to 0-7********//\nelse if (from == 6 && to == 0) {\n\tconversion = 0.05\n\tconversion_lower = 0.2\n\tconversion_upper = 0.025\n\t} \nelse if (from == 6 && to == 1) {\n\tconversion = 2\n\tconversion_lower = 5\n\tconversion_upper = 0.625\n}\t\nelse if (from == 6 && to == 2) {\n\tconversion = 0.5\n\tconversion_lower = 2\n\tconversion_upper = 0.25\n\t}\nelse if (from == 6 && to == 3) {\n\tconversion = 0.05\n\tconversion_lower = 0.4\n\tconversion_upper = 0.025\n\t}\nelse if (from == 6 && to == 4) {\n\tconversion = 0.1\n\tconversion_lower = 0.4\n\tconversion_upper = 0.05\n\t}\nelse if (from == 6 && to == 5) {\n\tconversion = 1\n\tconversion_lower = 4\n\tconversion_upper = 0.25\n\t}\nelse if (from == 6 && to == 6) {\n\tconversion = 1\n\tconversion_lower = 1\n\tconversion_upper = 1\n\t}\nelse if (from == 6 && to == 7) {\n\tconversion = 0.025\n\tconversion_lower = 0.1\n\tconversion_upper = 0.0125\n\t}\t\n\n//******** Halcion (7) to 0-7********//\nelse if (from == 7 && to == 0) {\n\tconversion = 2\n\tconversion_lower = 1\n\tconversion_upper = 4\n\t} \nelse if (from == 7 && to == 1) {\n\tconversion = 75\n\tconversion_lower = 25\n\tconversion_upper = 100\n}\t\nelse if (from == 7 && to == 2) {\n\tconversion = 20\n\tconversion_lower = 10\n\tconversion_upper = 40\n\t}\nelse if (from == 7 && to == 3) {\n\tconversion = 4\n\tconversion_lower = 1\n\tconversion_upper = 8\n\t}\nelse if (from == 7 && to == 4) {\n\tconversion = 4\n\tconversion_lower = 2\n\tconversion_upper = 8\n\t}\nelse if (from == 7 && to == 5) {\n\tconversion = 40\n\tconversion_lower = 10\n\tconversion_upper = 80\n\t}\nelse if (from == 7 && to == 6) {\n\tconversion = 40\n\tconversion_lower = 10\n\tconversion_upper = 80\n\t}\t\nelse if (from == 7 && to == 7) {\n\tconversion = 1\n\tconversion_lower = 1\n\tconversion_upper = 1\n\t}\n\nvar new_dose = dose * conversion;\nvar range_lower = dose * conversion_lower;\nvar range_upper = dose * conversion_upper;\n\tif(range_lower < range_upper){\n\tvar range = range_lower.toFixed(1) + '-' + range_upper.toFixed(1);}\n\telse{var range = range_upper.toFixed(1) + '-' + range_lower.toFixed(1);}\n\n\t// Math.floor(num)  ex Math.floor(1.3) => 1 or maybe 1.0\n\t// Math.ceil\n\n\n//results \nif (from !== to) {\n  calc_output.push({\n      name: 'mini',\n      value: new_dose.toFixed(1),\n      value_text: 'mg',\n      message: range + ' mg'\n      });\n}\nif (from !== to) {\n  calc_output.push({\n      name: 'new_dose',\n      value: new_dose.toFixed(1),\n      value_text: 'mg',\n      message: name_to + ' dose equivalent to ' + dose + ' mg ' + name_from\n      });\n}\nif (from !== to) {\n  calc_output.push({\n      name: 'range',\n      value: range,\n      value_text: 'mg',\n      message: 'Range of ' + name_to + ' dose equivalent to ' + dose + ' mg ' + name_from\n      });\n}\nif (from == to) {\n  calc_output.push({\n      name: 'mini',\n      value: 'N/A',\n      value_text:'',\n      message: 'Conversion not applicable if converting between the same benzodiazepine'\n      });\n}\nif (from == to) {\n  calc_output.push({\n      name: 'new_dose',\n      value: 'N/A',\n      value_text: '',\n      message: 'Conversion not applicable if converting between the same benzodiazepine'\n      });\n}",
+        "favorite_id": 10091,
+        "full_title_en": "Benzodiazepine Conversion Calculator",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Converting from:</p>",
+            "mdcalc_info_concept": null,
+            "name": "from",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "ALPRAZolam (Xanax)",
+                "value": 0
+              },
+              {
+                "label": "ChlordiazePOXIDE (Librium)",
+                "value": 1
+              },
+              {
+                "label": "DiazePAM (Valium)",
+                "value": 2
+              },
+              {
+                "label": "ClonazePAM (KlonoPIN)",
+                "value": 3
+              },
+              {
+                "label": "LORazepam (Ativan)",
+                "value": 4
+              },
+              {
+                "label": "Oxazepam (Serax)",
+                "value": 5
+              },
+              {
+                "label": "Temazepam (Restoril)",
+                "value": 6
+              },
+              {
+                "label": "Triazolam (Halcion)",
+                "value": 7
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Total daily drug dosage (mg)</p>",
+            "name": "dose",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "drugmg"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Converting to:</p>",
+            "mdcalc_info_concept": null,
+            "name": "to",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "ALPRAZolam (Xanax)",
+                "value": 0
+              },
+              {
+                "label": " ChlordiazePOXIDE (Librium)",
+                "value": 1
+              },
+              {
+                "label": "DiazePAM (Valium)",
+                "value": 2
+              },
+              {
+                "label": "ClonazePAM (KlonoPIN)",
+                "value": 3
+              },
+              {
+                "label": "LORazepam (Ativan)",
+                "value": 4
+              },
+              {
+                "label": "Oxazepam (Serax)",
+                "value": 5
+              },
+              {
+                "label": "Temazepam (Restoril)",
+                "value": 6
+              },
+              {
+                "label": "Triazolam (Halcion)",
+                "value": 7
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p><span id=\"docs-internal-guid-45731312-7fff-8938-f5c5-429acbe2d8fe\">Do not use to calculate initial dose for a benzo-na&iuml;ve patient.</span></p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited contributor",
+            "time": "2019-08-12T19:28:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited P/P",
+            "time": "2019-08-12T19:19:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited evidence ",
+            "time": "2019-07-29T15:48:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "publish",
+            "time": "2019-03-07T11:26:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "reviewer edits",
+            "time": "2019-02-28T11:15:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added reviewer",
+            "time": "2019-02-26T16:25:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "replaced table with image",
+            "time": "2019-02-22T17:57:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-01-24T16:48:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-01-24T16:25:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-01-24T16:20:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-01-11T14:31:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula and results",
+            "time": "2019-01-11T14:27:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added note about example cell",
+            "time": "2018-12-21T09:42:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "AD edits in changelog + tech team review",
+            "time": "2018-11-30T15:26:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "save",
+            "time": "2018-11-30T11:41:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "table minor edits",
+            "time": "2018-11-02T11:45:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "table updated, going to once over still ",
+            "time": "2018-11-02T11:04:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "need to update formula",
+            "time": "2018-10-26T18:12:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "minor edits in contrib info",
+            "time": "2018-10-26T18:08:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "no creator",
+            "time": "2018-10-26T18:04:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "my baby works",
+            "time": "2018-10-26T16:56:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "eq logic for all inputs in and functioning",
+            "time": "2018-10-26T15:44:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "eq logic in process--functioning at this point",
+            "time": "2018-10-26T11:34:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "edited KlonoPIN and valium in formula",
+            "time": "2018-10-25T17:53:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "inputs numbered correctly",
+            "time": "2018-10-25T17:04:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "sentence case in formula",
+            "time": "2018-10-12T12:04:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "values for 'from' inputs got deleted somehow; reenetered",
+            "time": "2018-09-19T11:21:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "uncapitalized long/short acting",
+            "time": "2018-09-13T13:42:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "inputs good, needs equation logic",
+            "time": "2018-09-13T12:55:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "radio or textbox?",
+            "time": "2018-09-13T12:46:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "starting on inputs",
+            "time": "2018-09-13T12:44:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "claim save",
+            "time": "2018-09-13T12:32:00.000Z",
+            "user": "natalie"
+          }
+        ],
+        "md5": "ec13500d52741cf01525de0ac743acc0",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-1521c044-7fff-0fa2-49b4-3b1ade6b71ff\">Provides equivalents between different benzodiazepines.</span></p>",
+        "publishedAt": "2022-04-21T20:28:17.626Z",
+        "purpose_en": [
+          "Calculation",
+          "Treatment"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "Benzodiazepine",
+          "conversion calculator",
+          "benzo conversion"
+        ],
+        "search_id": "c-10091",
+        "seo": {
+          "keywords_en": "Benzodiazepine, conversion",
+          "meta_description_en": "The benzodiazepine conversion calculator adjusts doses between converting oral benzodiazepines."
+        },
+        "short_description_en": "<p>Benzodiazepine conversion.</p>",
+        "short_title_en": "Benzodiazepine Conversion Calculator",
+        "slug": "benzodiazepine-conversion-calculator",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Pharmacy",
+          "Primary Care",
+          "Psychiatry",
+          "Toxicology"
+        ],
+        "system_en": [
+          "Neurologic",
+          "Psychiatric"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "8f805052-fbad-4535-8b3c-04806a637c36"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Jenny",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Koehl",
+          "name": "Jenny L. Koehl, PharmD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Other creator.</p>",
+          "createdAt": "2022-04-08T13:27:37.821Z",
+          "deceased": true,
+          "firstName": "",
+          "lastName": "",
+          "name": "OTHER",
+          "photo_en": null,
+          "publishedAt": "2023-01-10T18:10:35.625Z",
+          "pubmedLink": null,
+          "signedCOI": false,
+          "updatedAt": "2023-01-10T18:11:49.358Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10091/benzodiazepine-conversion-calculator",
+        "description": "The benzodiazepine conversion calculator adjusts doses between converting oral benzodiazepines.",
+        "keywords": "Benzodiazepine, conversion",
+        "title": "Benzodiazepine Conversion Calculator"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 100000,
+          "error_max_si": 100000,
+          "error_max_us": 100000,
+          "error_min": -1,
+          "error_min_si": -1,
+          "error_min_us": -1,
+          "name": "Dosage",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "drugmg",
+          "units_si": "mg",
+          "units_us": "mg",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 1000,
+          "warn_max_si": 1000,
+          "warn_max_us": 1000,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 10170,
+          "short_title_en": "Morphine Milligram Equivalents",
+          "slug": "morphine-milligram-equivalents-mme-calculator"
+        },
+        {
+          "calcId": 10446,
+          "short_title_en": "BAWS",
+          "slug": "brief-alcohol-withdrawal-scale-baws"
+        },
+        {
+          "calcId": 10043,
+          "short_title_en": "HAM-D",
+          "slug": "hamilton-depression-rating-scale-ham-d"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10091",
+      "benzodiazepine-conversion-calculator"
+    ]
+  },
+  "scriptLoader": []
+}

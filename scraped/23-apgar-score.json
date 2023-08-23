@@ -1,0 +1,589 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Abdominal Pain"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+15",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+15",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "23.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul> <li>The original 1953 series included 1,021 newborns from a single hospital center.</li> <li>The sample included all live singleton/twin neonates with birth weights &gt;500 grams as a result of any spontaneous, instrument/surgically-assisted delivery using multiple anesthesia methods.</li> <li>Two raters were used for each assessment point. <ul> <li>Despite no published measure of inter-rater reliability, variability between observers was only ±1 point.</li> <li>Variation was most common in the mildly depressed range (i.e., 5-7).</li> </ul> </li> <li>To assess for score “accuracy”, the sample was subcategorized into 3 groups. Percent death by category was 14% with score 0-2, 1.1% death in those 3-7, and 0.13% with score 8-10. <ul> <li>Though intended to convey clinical status during a moment in time, the original article did make mention of prognosis.</li> </ul> </li> <li>Apgar’s Second Report in 1958 internally validated the scoring system and compared it to UA blood gas samples in &gt;15,000 newborns. <ul> <li>Death rates were similar by score category to the initial paper.</li> <li>Lower scores associated with “chemical findings characteristic of asphyxia…”</li> <li>Concluded score was particularly beneficial in determining need for resuscitation.</li> </ul> </li> <li>The 2001 study validated the original measure on &gt;150,000 mothers of singleton newborns born at &gt;26 weeks GA. <ul> <li>In premature newborns, those with 5 minute APGAR scores of 0-3 had a relative risk of neonatal death of 59 (95% CI 40-87) compared to a score of 7-10. In term newborns, the RR was 1460 (95% CI 835-2555).</li> <li>After accounting for GA, the lower 5 minute APGAR score was still significantly correlated with increased risk of neonatal mortality.</li> <li>APGAR score was a better predictor of neonatal mortality than degree of acidemia on UA blood gas. Scores of 0-3 plus pH &lt; 7.0 almost doubled the risk of neonatal mortality.</li> <li>Scores of 0-3 was significantly correlated with early death (i.e., &gt;24 hours of life) in all GAs.</li> <li>In term infants with 5 minute scores of 0-3, RR of death by Hypoxic-Ischemic Encephalopathy was 13 (95% CI 3-58).</li> </ul> </li> </ul>",
+            "formula_en": "<p>Addition of assigned points.</p> <ul> <li>5 independent items, each scored 0 (Absent), 1 (Intermediate), or 2 (Present)</li> <li>Minimum score = 0; maximum = 10</li> <li>Initial testing for “Reflex Irritability” was nasal and oropharyngeal suctioning with rubber catheter meant to elicit grimace, sneeze, or cough. <ul> <li>Later, a rapid, tangential slap of the sole of the foot was found to be an easier and more effective stimulus.</li> </ul> </li> </ul>",
+            "more_info_en": "<p><strong>Score interpretation:</strong></p> <ul> <li>Scores ≥7; generally normal</li> <li>Score of 4 to 6; fairly low</li> <li>Scores ≤3; critically low, needs intervention</li> </ul>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/13083014",
+                  "text": " Apgar V. A proposal for a new method of evaluation of the newborn infant. Curr. Res. Anesth. Analg. 1953;32(4): 260–267. doi:10.1213/00000539-195301000-00041. PMID 13083014."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/13598635",
+                  "text": "Apgar V, Holaday D, Stanley James L, et al. Evaluation of the Newborn Infant – Second Report. JAMA. 1958; 168(15): 1985-8."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/11172187",
+                  "text": "Casey BM, McIntire DD Leveno KJ The continuing value of the Apgar score for the assessment of newborn infants. N Engl J Med. 2001; 344 (7): 467–471.doi:10.1056/NEJM200102153440701. PMID 11172187"
+                },
+                {
+                  "href": "https://pediatrics.aappublications.org/content/136/4/819",
+                  "text": "The American Academy of Pediatrics Committee on Fetus and Newborn, The American College of Obstetricians and Gynecologists Committee on Obstetric Practice. The Apgar Score. Pediatrics. 2015; 136: 819-22."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/15791116",
+                  "text": " Finster M, Wood M. The Apgar score has survived the test of time. Anesthesiology. 2005;102 (4): 855–857. doi:10.1097/00000542-200504000-00022. PMID 15791116."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Joshua Beiner, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Virginia Apgar",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>The APGAR Score was developed to provide a simple and reliable grading scheme of newborns to communicate effects of obstetrical practices, maternal analgesia, and resuscitative efforts.</li> <li>5 objective signs were chosen for easy determination without interfering in patient care.</li> <li>It should NOT be used to predict individual risk of mortality and adverse neurologic outcome.</li> <li>Gestational age (GA), maternal sedation, congenital malformations, trauma, inter-observer variability may affect APGAR scoring.</li> </ul>",
+            "use_case_en": "<p>Perform on every live newborn, regardless of GA, at 1 and 5 minutes of life.</p> <ul> <li>60 seconds after complete delivery of the newborn was deemed the point of most marked depression.</li> <li>Per Neonatal Resuscitation Program (NRP), scoring continues at 5 minute intervals until reaching a score of 7 or until 20 minutes of life is encountered.</li> <li>Scored by any provider with direct patient contact at the specified time.</li> </ul>",
+            "why_use_en": "<ul> <li>Convenient and validated method to report status of a newborn and response to resuscitation.</li> <li>Simple to teach in the delivery room. 1958 Second Report used ratings of house officers, nurses, and medical/nursing students.</li> <li>Reliable to use, as variability between independent raters was minimal.</li> <li>Useful in preterm and term newborns.</li> <li>Corroborated by biochemical lab data.</li> </ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>The 5 criteria are not of equal significance. The original article noted that HR and respiratory effort were most important, while color was least important. <ul> <li>To improve ease and utility, the criteria were not weighted for item importance.</li> </ul> </li> <li>The 5 minute score is regarded as the better predictor of survival.</li> <li>Multiple publications from the American Congress of Obstetricians and Gynecologists (ACOG) and the American Academy of Pediatrics (AAP) since 1996 including “Use and Abuse of APGAR” have emphasized limitations of APGAR to identify birth asphyxia and neurologic prognosis. <ul> <li>Score of 0-3 at ≥5 minutes is nonspecific marker of illness, “which may be one of the first indications of encephalopathy” but is not specific for asphyxia (<a href=\"https://pediatrics.aappublications.org/content/136/4/819\" target=\"_blank\">Pediatrics 2015</a>).</li> <li>Asphyxia is only considered with evidence of impaired intrapartum or immediate postpartum gas exchange based on clinical condition and lab data. <ul> <li>Non-reassuring fetal HR tracings, imaging studies, EEG tracings, placental pathology may aid diagnosis.</li> </ul> </li> <li>Scores of ≤5 at 5 minutes and 10 minutes are associated with increased population risk of cerebral palsy (20-100 fold) and poor neurologic outcome, respectively. <ul> <li>Such population risks should not be extrapolated for any individual.</li> </ul> </li> </ul> </li> </ul>",
+            "critical_actions_en": "",
+            "management_en": "<ul> <li>Per NRP protocol, resuscitation should commence prior to 1 minute, so APGAR score should not dictate need for initial resuscitation or specific interventions.</li> <li>A 2014 Neonatal Encephalopathy &amp; Neurologic Outcome report defines 5 minute score of 7-10 as reassuring, 4-6 as moderately abnormal, and 0-3 as low.</li> <li>If score is ≤5 at 5 minutes, obtain an umbilical artery (UA) blood gas.</li> <li>2015 ACOG/AAP publications and 2011 NRP reiterate that a score of 0 at 10 minutes may help decide whether continued resuscitative efforts are indicated due to poor prognosis.</li> <li>Score during resuscitation is different than for a spontaneously breathing newborn. <ul> <li>Expanded score reporting during resuscitation is encouraged (<a href=\"https://pediatrics.aappublications.org/content/136/4/819\" target=\"_blank\">Pediatrics 2015</a>).</li> </ul> </li> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Pregnancy"
+        ],
+        "dosing": false,
+        "equation_logic": "74ae5c54879515205209b563992bd561",
+        "equation_logic_text": "var calc_output = []; var v = parseFloat(activity) + parseFloat(pulse) + parseFloat(grimace) + parseFloat(appearance) + parseFloat(respirations); var msg = ''; if (v >= 7) {msg = 'Scores \\u2265 7 are typically \\u201cnormal\\u201d for neonates'; } if (v < 7) {msg = 'Scores < 7 suggest potential need for medical intervention, like suction, drying, warming, and stimulating the neonate. Supplemental oxygen may be indicated as well.'; } calc_output.push({name: 'mini', value: v.toFixed(0), value_text: 'points', message: 'APGAR Score'}); calc_output.push({name: 'APGAR Score', value: v.toFixed(0), value_text: 'points', message: msg });",
+        "favorite_id": 23,
+        "full_title_en": "APGAR Score",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Activity/muscle tone",
+            "name": "activity",
+            "optional": false,
+            "options": [
+              {
+                "label": "Active",
+                "value": 2
+              },
+              {
+                "label": "Some extremity flexion",
+                "value": 1
+              },
+              {
+                "label": "Limp",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Pulse",
+            "name": "pulse",
+            "optional": false,
+            "options": [
+              {
+                "label": "≥100 BPM",
+                "value": 2
+              },
+              {
+                "label": "<100 BPM",
+                "value": 1
+              },
+              {
+                "label": "Absent",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Grimace",
+            "name": "grimace",
+            "optional": false,
+            "options": [
+              {
+                "label": "Sneeze/cough",
+                "value": 2
+              },
+              {
+                "label": "Grimace",
+                "value": 1
+              },
+              {
+                "label": "None",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Appearance/color",
+            "name": "appearance",
+            "optional": false,
+            "options": [
+              {
+                "label": "All pink",
+                "value": 2
+              },
+              {
+                "label": "Blue extremities, pink body",
+                "value": 1
+              },
+              {
+                "label": "Blue/pale",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Respirations",
+            "name": "respirations",
+            "optional": false,
+            "options": [
+              {
+                "label": "Good/crying",
+                "value": 2
+              },
+              {
+                "label": "Irregular/slow",
+                "value": 1
+              },
+              {
+                "label": "Absent",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "3a60a06b9a906e0955622984f682c246",
+        "medium_description_en": "<p>Assesses neonates 1 and 5 minutes after birth.</p>",
+        "purpose_en": [
+          "Calculation",
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "peds",
+          "newborn",
+          "neonate"
+        ],
+        "search_id": "c-23",
+        "seo": {
+          "keywords_en": "apgar score, apgar calc, apgar neonates, apgar newborns, newborn assessment, newborn assessment calc, neonate assessment, birth assessment, birth calc, birth assessment calc, apgar score calc, apgar mdcalc, newborn mdcalc, newborn assessment mdcalc, newborn apgar score, activity neonate, activity neonate, activity assessment neonate, activity assessment newborn, mucsle tone neonate, activity neonate, mucsle tone assessment neonate, mucsle tone assessment newborn, pulse neonate, pulse neonate, pulse assessment neonate, pulse assessment newborn, grimace neonate, grimace neonate, grimace assessment neonate, grimace assessment newborn, appearance neonate, appearance neonate, appearance assessment neonate, appearance assessment newborn, respirations neonate, respirations neonate, respirations assessment neonate, respirations assessment newborn, apgar prognosis, neonate prognosis, newborn prognosis, newborn prognosis calc, newborn prognosis score",
+          "meta_description_en": "The APGAR Score assesses neonates vitality at 1 and 5 minutes after birth."
+        },
+        "short_description_en": "Assesses neonates 1 & 5 mins postpartum.",
+        "short_title_en": "APGAR Score",
+        "slug": "apgar-score",
+        "specialty_en": [
+          "Critical Care",
+          "Critical Care (Neonatal)",
+          "Emergency Medicine",
+          "OB-Gyn",
+          "Pediatrics"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Neurologic",
+          "Respiratory"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Joshua Beiner, MD, is an attending physician and assistant professor of clinical emergency medicine and pediatrics at NYU. A native New Yorker, Dr. Beiner moved to New Orleans to study at Tulane University before traveling to Israel where he received his medical degree from Sackler School of Medicine at Tel Aviv University. He returned to New York to complete residency training in pediatrics at Albert Einstein – Jacobi Medical Center. His research interests include pediatric sepsis, clinical decision rules, evidence-based medicine, and emergency ultrasound.</p>",
+          "firstName": "Joshua",
+          "hasDisclosure": [],
+          "img": "joshua-beiner.jpeg",
+          "lastName": "Beiner",
+          "name": "Joshua Beiner, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "joshua-beiner",
+          "updatedAt": "2023-04-06T20:17:28.001Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Virginia Apgar, MD, (d. 1974) was an obstetrical anesthesiologist. Her eponymous score was the first to rate baby health at the time of birth. Through work at the March of Dimes, she was the first to shine light on the problem of premature birth.  She was the first woman to be named Full Professor at Columbia University’s College of Physicians and Surgeons and is famously credited as saying that “women are liberated from the time they leave the womb.”</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": true,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Virginia Apgar",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-virginia-apgar.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=APGAR+V%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-11-04T18:59:59.235Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/23/apgar-score",
+        "description": "The APGAR Score assesses neonates vitality at 1 and 5 minutes after birth.",
+        "keywords": "apgar score, apgar calc, apgar neonates, apgar newborns, newborn assessment, newborn assessment calc, neonate assessment, birth assessment, birth calc, birth assessment calc, apgar score calc, apgar mdcalc, newborn mdcalc, newborn assessment mdcalc, newborn apgar score, activity neonate, activity neonate, activity assessment neonate, activity assessment newborn, mucsle tone neonate, activity neonate, mucsle tone assessment neonate, mucsle tone assessment newborn, pulse neonate, pulse neonate, pulse assessment neonate, pulse assessment newborn, grimace neonate, grimace neonate, grimace assessment neonate, grimace assessment newborn, appearance neonate, appearance neonate, appearance assessment neonate, appearance assessment newborn, respirations neonate, respirations neonate, respirations assessment neonate, respirations assessment newborn, apgar prognosis, neonate prognosis, newborn prognosis, newborn prognosis calc, newborn prognosis score",
+        "title": "APGAR Score"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": "3320",
+          "short_title_en": "Bishop Score",
+          "slug": "bishop-score-vaginal-delivery-induction-labor"
+        },
+        {
+          "calcId": "3937",
+          "short_title_en": "BWH Egg Freezing Counseling Tool",
+          "slug": "bwh-egg-freezing-counseling-tool-efct"
+        },
+        {
+          "calcId": "4024",
+          "short_title_en": "BPP Score",
+          "slug": "fetal-biophysical-profile-bpp-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "23",
+      "apgar-score"
+    ]
+  },
+  "scriptLoader": []
+}

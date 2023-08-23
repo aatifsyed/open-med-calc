@@ -1,0 +1,2489 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Agitation",
+          "AMS"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+35",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+35",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "10172.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\"><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24145848\" target=\"_blank\">Traube et al (2014)</a> first developed and tested the CAPD in a single-institution study of 111 children admitted to a tertiary center&rsquo;s PICU. The scale showed good sensitivity (94% overall) across a wide range of pediatric age groups, including infants. They also did not use developmental delay as a screening factor; while the false positive rate was higher in delayed children, the scale was still viewed as helpful in assessing for the presence of delirium.</p>\n<p dir=\"ltr\">The scale showed good interrater reliability and external validity when compared to diagnoses of delirium made by child psychiatrists using <abbr title=\"Diagnostic and Statistical Manual of Mental Disorders\">DSM-IV</abbr> criteria. The specificity of the score was relatively high for a screening tool (79%), but suggests that the CAPD is less useful as a diagnostic tool.<br /><span id=\"docs-internal-guid-10a85525-7fff-d620-bbe4-01bcafa1e15e\"></p>",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points,&nbsp;<span id=\"docs-internal-guid-750ed169-7fff-357d-0daa-d93913711041\">based on interactions with the patient over the course of one nursing shift. Note that the \"best\" scores&nbsp;(i.e., associated with <em>absence</em> of delirium) are listed first, e.g. Makes eye contact - always (0 points), Inconsolable - never (0 points).<br /></p>\n<div dir=\"ltr\">\n<table width=\"451\" height=\"1597\"><colgroup><col width=\"256\" /><col width=\"128\" /><col width=\"65\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Makes eye contact with caregiver</p>\n</td>\n<td>\n<p dir=\"ltr\">Always</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Often</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Sometimes</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Rarely</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Never</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Actions are purposeful</p>\n</td>\n<td>\n<p dir=\"ltr\">Always</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Often</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Sometimes</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Rarely</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Never</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Aware of surroundings</p>\n</td>\n<td>\n<p dir=\"ltr\">Always</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Often</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Sometimes</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Rarely</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Never</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Communicates needs and wants</p>\n</td>\n<td>\n<p dir=\"ltr\">Always</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Often</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Sometimes</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Rarely</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Never</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Restless</p>\n</td>\n<td>\n<p dir=\"ltr\">Never</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Rarely</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Sometimes</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Often</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Always</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Inconsolable</p>\n</td>\n<td>\n<p dir=\"ltr\">Never</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Rarely</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Sometimes</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Often</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Always</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Underactive (very little movement while awake)</p>\n</td>\n<td>\n<p dir=\"ltr\">Never</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Rarely</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Sometimes</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Often</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Always</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Takes long time to respond to interactions</p>\n</td>\n<td>\n<p dir=\"ltr\">Never</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Rarely</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Sometimes</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Often</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Always</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>Refer to&nbsp;Fig 2 in <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25127028\" target=\"_blank\">Silver 2015</a>&nbsp;for developmental anchor points based on age.</p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"125\" /><col width=\"104\" /><col width=\"219\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>CAPD Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Delirium </strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Recommendation</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;9</p>\n</td>\n<td>\n<p dir=\"ltr\">Present</p>\n</td>\n<td>\n<p dir=\"ltr\">Investigate and treat underlying medical condition(s) causing delirium, consider interventions with parents and child life services, and/or consult to psychiatry or palliative care as appropriate, consider medications like melatonin or QUEtiapine (SEROquel) in select cases</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;9</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">Continue usual care and monitoring</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24145848",
+                  "text": "Traube C, Silver G, Kearney J, et al. Cornell Assessment of Pediatric Delirium: a valid, rapid, observational tool for screening delirium in the PICU*. Crit Care Med. 2014;42(3):656-63."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://ccforum.biomedcentral.com/articles/10.1186/s13054-014-0489-x",
+                  "text": "Daoud A, Duff JP, Joffe AR. Diagnostic accuracy of delirium diagnosis in pediatric intensive care: a systematic review. Crit Care. 2014;18(5):489."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25127028",
+                  "text": "Silver G, Kearney J, Traube C, Hertzig M. Delirium screening anchored in child development: The Cornell Assessment for Pediatric Delirium. Palliat Support Care. 2015;13(4):1005-11."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Derek Tam, MD, MPH"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Chani Traube",
+              "qa_en": "<p dir=\"ltr\"><strong>Why did you develop the Cornell Assessment of Pediatric Delirium (CAPD)? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p>\n<p dir=\"ltr\">In my role as a pediatric intensivist, I noted that many of my patients were not acting appropriately for age&mdash;some were extremely agitated and others inappropriately docile. From reading the literature, I knew that delirium was a frequent and severe complication of critical illness in adults. However, this was not well described within pediatrics, mostly due to the absence of a feasible bedside screening tool that could be used in children of all ages. In collaboration with Dr. Gabrielle Silver, an expert child psychiatrist, we developed the Cornell Assessment of Pediatric Delirium (CAPD) to fill that void.</p>\n<p dir=\"ltr\"><strong>What pearls, pitfalls and/or tips do you have for users of the Cornell Assessment of Pediatric Delirium (CAPD)? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p>\n<p dir=\"ltr\">Score the CAPD based on your observation of the child over several hours, not as a single-point-in-time screen.</p>\n<p dir=\"ltr\"><em>How do I score the CAPD in children with developmental delay?</em></p>\n<p dir=\"ltr\">SCORE IT AS YOU SEE IT! No need to interpret or adjust for baseline (e.g. if the child never makes eye contact, score as &ldquo;never&rdquo;). We do not automatically assume that a CAPD score &gt;9 means delirium in a child with developmental delay, but the numerical score is important and something we trend.</p>\n<p dir=\"ltr\"><em>How do I score the CAPD in very young children?</em></p>\n<p dir=\"ltr\">A developmental anchor points chart is available for kids under 2 years of age, to use as a reference if you need it, when scoring the individual items (see Evidence section).</p>\n<p dir=\"ltr\"><em>Who needs to be screened for delirium?</em></p>\n<p dir=\"ltr\">EVERY PATIENT, EVERY SHIFT, especially on the day of admission, and even on the day of discharge. The only exclusions are children who are unarousable to verbal stimulation as they cannot be assessed.</p>\n<p dir=\"ltr\"><strong>What recommendations do you have for doctors once they have applied the Cornell Assessment of Pediatric Delirium (CAPD)? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p>\n<p dir=\"ltr\">Some keys to success:</p>\n<p dir=\"ltr\">1. Implement delirium screening as standard of care in your unit. Every patient, every shift.</p>\n<p dir=\"ltr\">2. Get your colleagues educated and onboard. The nurses will not comply with screening if they present delirium scores on rounds and the doctors don&rsquo;t know what to do with the information.</p>\n<p dir=\"ltr\">3. Add the CAPD tool to your electronic medical record as part of the flowsheet. This will make it much easier for the nurses to score and will allow for monitoring of compliance.</p>\n<p dir=\"ltr\">4. Monitor compliance intensively for the first few months.</p>\n<p dir=\"ltr\">5. EARLY SUCCESS: a few key patients will make this all work. Your team will recognize and address delirium, and the child will get better. Then they will become believers!</p>\n<p dir=\"ltr\"><strong>How do you use the Cornell Assessment of Pediatric Delirium (CAPD) in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p>\n<p dir=\"ltr\">Every patient, every shift. Our nurses score the CAPD on every child at approximately 6 pm (end of day shift) and approximately 6 am (end of night shift).</p>\n<p dir=\"ltr\"><strong>Any other research in the pipeline that you&rsquo;re particularly excited about?</strong></p>\n<p dir=\"ltr\">So much work to be done! We are particularly excited about addressing the modifiable factors for delirium. For example: prescribing practices (including benzodiazepines and anticholinergics) and sleep disruption. We are also very interested in the long-term effects of delirium on children's cognition and psychological health.</p>"
+            },
+            {
+              "approved": null,
+              "name": "Dr. Gabrielle Silver",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-96274964-7fff-25e6-14ae-3a86e3b87d43\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Pediatric delirium often presents differently than that of adults. Children may be more likely to have a catatonia-like presentation, with general listlessness and paucity of speech.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Children with developmental delay are at higher risk of developing delirium than non-delayed children, and therefore should be monitored more closely for delirium symptoms.</p>\n</li>\n</ul>",
+            "use_case_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In critically ill pediatric patients aged 0-21 years.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">May be used in both developmentally normal and delayed patients.</p>\n</li>\n</ul>",
+            "why_use_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">As in adults, hospitalized children, particularly those in the PICU, are at high risk of developing delirium.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In turn, delirium in children is associated with complications such as increased length of stay, post-traumatic stress symptoms, and possible long-term neurodevelopmental issues.</p>\n</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-c14b2d83-7fff-6f7c-e843-554941cde1b9\">While all children in the PICU should receive behavioral interventions to prevent potential delirium, making the diagnosis of delirium is often difficult in children. This score can assist the clinician in screening for delirium.</p>",
+            "critical_actions_en": "<p><span id=\"docs-internal-guid-a28b2231-7fff-b432-8b97-d34a84f90c27\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Monitor especially closely for delirium in developmentally delayed children, who are at higher risk than non-delayed children.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">A positive CAPD screen for delirium should prompt additional intervention and investigation. Consultation with child life specialists or child psychiatry may be beneficial.</p>\n</li>\n</ul>",
+            "management_en": "<p><span id=\"docs-internal-guid-59548bb6-7fff-9477-0c7b-a37f44ac26d8\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Reorientation with familiar toys, games, and routines is helpful in managing delirium.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Maintenance of normal day/night cycle-based lighting in ICU rooms can be difficult but helpful in the prevention and management of delirium for both children and adults.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Pediatric delirium that threatens the safety of the patient, family, or staff, or delirium refractory to behavioral and environmental interventions, may require pharmacologic treatment.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Avoidance of early morning blood draws and other testing, which can disrupt normal sleep patterns, can help reduce the risk or severity of delirium.</p>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Delirium"
+        ],
+        "dosing": false,
+        "equation_logic": "f4048e069d3f1c8539bb3219757a8e98",
+        "equation_logic_text": "var calc_output = [];\nvar age = parseFloat(age);\n\nvar time1 = parseFloat(time1) || 0;\nvar under1 = parseFloat(under1) || 0;\nvar incon1 = parseFloat(incon1) || 0;\nvar restless1 = parseFloat(restless1) || 0;\nvar communication1 = parseFloat(communication1) || 0;\nvar aware1 = parseFloat(aware1) || 0;\nvar purpose1 = parseFloat(purpose1) || 0;\nvar eye1 = parseFloat(eye1) || 0;\n\nvar time2 = parseFloat(time2) || 0;\nvar under2 = parseFloat(under2) || 0;\nvar incon2 = parseFloat(incon2) || 0;\nvar restless2 = parseFloat(restless2) || 0;\nvar communication2 = parseFloat(communication2) || 0;\nvar aware2 = parseFloat(aware2) || 0;\nvar purpose2 = parseFloat(purpose2) || 0;\nvar eye2 = parseFloat(eye2) || 0;\n\nvar time3 = parseFloat(time3) || 0;\nvar under3 = parseFloat(under3) || 0;\nvar incon3 = parseFloat(incon3) || 0;\nvar restless3 = parseFloat(restless3) || 0;\nvar communication3 = parseFloat(communication3) || 0;\nvar aware3 = parseFloat(aware3) || 0;\nvar purpose3 = parseFloat(purpose3) || 0;\nvar eye3 = parseFloat(eye3) || 0;\n\nvar time4 = parseFloat(time4) || 0;\nvar under4 = parseFloat(under4) || 0;\nvar incon4 = parseFloat(incon4) || 0;\nvar restless4 = parseFloat(restless4) || 0;\nvar communication4 = parseFloat(communication4) || 0;\nvar aware4 = parseFloat(aware4) || 0;\nvar purpose4 = parseFloat(purpose4) || 0;\nvar eye4 = parseFloat(eye4) || 0;\n\nvar time5 = parseFloat(time5) || 0;\nvar under5 = parseFloat(under5) || 0;\nvar incon5 = parseFloat(incon5) || 0;\nvar restless5 = parseFloat(restless5) || 0;\nvar communication5 = parseFloat(communication5) || 0;\nvar aware5 = parseFloat(aware5) || 0;\nvar purpose5 = parseFloat(purpose5) || 0;\nvar eye5 = parseFloat(eye5) || 0;\n\nvar time6 = parseFloat(time6) || 0;\nvar under6 = parseFloat(under6) || 0;\nvar incon6 = parseFloat(incon6) || 0;\nvar restless6 = parseFloat(restless6) || 0;\nvar communication6 = parseFloat(communication6) || 0;\nvar aware6 = parseFloat(aware6) || 0;\nvar purpose6 = parseFloat(purpose6) || 0;\nvar eye6 = parseFloat(eye6) || 0;\n\nvar time7 = parseFloat(time7) || 0;\nvar under7 = parseFloat(under7) || 0;\nvar incon7 = parseFloat(incon7) || 0;\nvar restless7 = parseFloat(restless7) || 0;\nvar communication7 = parseFloat(communication7) || 0;\nvar aware7 = parseFloat(aware7) || 0;\nvar purpose7 = parseFloat(purpose7) || 0;\nvar eye7 = parseFloat(eye7) || 0;\n\nvar score; \nswitch(age) {\n  case 1:\n  \tscore = time1 + under1 + incon1 + restless1 + communication1 + aware1 + purpose1 + eye1;\n    break;\n  case 2:\n  \tscore = time2 + under2 + incon2 + restless2 + communication2 + aware2 + purpose2 + eye2;\n    break;\n  case 3:\n  \tscore = time3 + under3 + incon3 + restless3 + communication3 + aware3 + purpose3 + eye3;\n    break;\n  case 4:\n  \tscore = time4 + under4 + incon4 + restless4 + communication4 + aware4 + purpose4 + eye4;\n    break;\n  case 5:\n  \tscore = time5 + under5 + incon5 + restless5 + communication5 + aware5 + purpose5 + eye5;\n    break;\n  case 6:\n  \tscore = time6 + under6 + incon6 + restless6 + communication6 + aware6 + purpose6 + eye6;\n    break;\n  case 7:\n  \tscore = time7 + under7 + incon7 + restless7 + communication7 + aware7 + purpose7 + eye7;\n}\n\nvar diag;\n\nvar rec;\n\nvar mini_diag;\n\nif (score >= 9) {\n  diag = 'Present';\n  mini_diag = 'present';\n  rec = '<br/><br/>Investigate and treat underlying medical condition(s) causing delirium, consider interventions with parents and child life services, and/or consult to psychiatry or palliative care as appropriate, consider medications like melatonin or quetiapine (Seroquel) in select cases';\n} else {\n  diag = 'Absent';\n  mini_diag = 'absent';\n  rec = '<br/><br/>Continue usual care and monitoring';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: 'Delirium ' + mini_diag\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'CAPD Score'   \n    });\ncalc_output.push({\n    name: 'risk1',\n    value: diag, \n    value_text: '',\n    message: 'Pediatric delirium ' + mini_diag + rec\n});\n",
+        "favorite_id": 10172,
+        "full_title_en": "Cornell Assessment of Pediatric Delirium (CAPD)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Age",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "Newborn ",
+                "value": 1
+              },
+              {
+                "label": "4 weeks",
+                "value": 2
+              },
+              {
+                "label": "6 weeks",
+                "value": 3
+              },
+              {
+                "label": "8 weeks",
+                "value": 4
+              },
+              {
+                "label": "28 weeks",
+                "value": 5
+              },
+              {
+                "label": "1 year",
+                "value": 6
+              },
+              {
+                "label": "2 years",
+                "value": 7
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Select closest",
+            "type": "radio"
+          },
+          {
+            "subheading": "Assess patient based on interactions over one nursing shift:",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "age == 1",
+            "default": 0,
+            "label_en": "Makes eye contact with caregiver",
+            "name": "eye1",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Fixates on face",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 1",
+            "default": 0,
+            "label_en": "Actions are purposeful",
+            "name": "purpose1",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Moves head to side, dominated by primitive reflexes",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 1",
+            "default": 0,
+            "label_en": "Aware of surroundings",
+            "name": "aware1",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Calm awake time",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 1",
+            "default": 0,
+            "label_en": "Communicates needs and wants",
+            "name": "communication1",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Cries when hungry or uncomfortable",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 1",
+            "default": 0,
+            "label_en": "Restless",
+            "name": "restless1",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "No sustained awake alert state",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 1",
+            "default": 0,
+            "label_en": "Inconsolable",
+            "name": "incon1",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not soothed by parental rocking, singing, feeding, comforting actions",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 1",
+            "default": 0,
+            "label_en": "Underactive (very little movement while awake)",
+            "name": "under1",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Little if any flexed and then relaxed state with primitive reflexes   (child should be sleeping comfortably most of the time)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 1",
+            "default": 0,
+            "label_en": "Takes long time to respond to interactions",
+            "name": "time1",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not making sounds or reflexes active as expected (grasp, suck, moro)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 2",
+            "default": 0,
+            "label_en": "Makes eye contact with caregiver",
+            "name": "eye2",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Holds gaze briefly, follows 90°",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 2",
+            "default": 0,
+            "label_en": "Actions are purposeful",
+            "name": "purpose2",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Reaches (with some discoordination)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 2",
+            "default": 0,
+            "label_en": "Aware of surroundings",
+            "name": "aware2",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Awake alert time, turns to primary caretaker’s voice, may turn to smell of primary caretaker",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 2",
+            "default": 0,
+            "label_en": "Communicates needs and wants",
+            "name": "communication2",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Cries when hungry or uncomfortable",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 2",
+            "default": 0,
+            "label_en": "Restless",
+            "name": "restless2",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "No sustained calm state",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 2",
+            "default": 0,
+            "label_en": "Inconsolable",
+            "name": "incon2",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not soothed by parental rocking, singing, feeding, comforting actions",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 2",
+            "default": 0,
+            "label_en": "Underactive (very little movement while awake)",
+            "name": "under2",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Little if any reaching, kicking, grasping (still may be somewhat discoordinated)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 2",
+            "default": 0,
+            "label_en": "Takes long time to respond to interactions",
+            "name": "time2",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not making sounds or reflexes active as expected (grasp, suck, moro)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 3",
+            "default": 0,
+            "label_en": "Makes eye contact with caregiver",
+            "name": "eye3",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Holds gaze",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 3",
+            "default": 0,
+            "label_en": "Actions are purposeful",
+            "name": "purpose3",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Reaches",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 3",
+            "default": 0,
+            "label_en": "Aware of surroundings",
+            "name": "aware3",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Increasing awake alert time, turns to primary caretaker’s voice, may turn to smell of primary caretaker",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 3",
+            "default": 0,
+            "label_en": "Communicates needs and wants",
+            "name": "communication3",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Cries when hungry or uncomfortable",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 3",
+            "default": 0,
+            "label_en": "Restless",
+            "name": "restless3",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "No sustained calm state",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 3",
+            "default": 0,
+            "label_en": "Inconsolable",
+            "name": "incon3",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not soothed by parental rocking, singing, feeding, comforting actions",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 3",
+            "default": 0,
+            "label_en": "Underactive (very little movement while awake)",
+            "name": "under3",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Little if any reaching, kicking, grasping (may begin to be more coordinated)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 3",
+            "default": 0,
+            "label_en": "Takes long time to respond to interactions",
+            "name": "time3",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not kicking or crying with noxious stimuli",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 4",
+            "default": 0,
+            "label_en": "Makes eye contact with caregiver",
+            "name": "eye4",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Follows moving object/caregiver past midline, regards examiner’s hand holding object, focused attention",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 4",
+            "default": 0,
+            "label_en": "Actions are purposeful",
+            "name": "purpose4",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Symmetric movements, will passively grasp handed object",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 4",
+            "default": 0,
+            "label_en": "Aware of surroundings",
+            "name": "aware4",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Facial brightening or smile in response to nodding head, frown to bell, coos",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 4",
+            "default": 0,
+            "label_en": "Communicates needs and wants",
+            "name": "communication4",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Cries when hungry or uncomfortable",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 4",
+            "default": 0,
+            "label_en": "Restless",
+            "name": "restless4",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "No sustained calm state",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 4",
+            "default": 0,
+            "label_en": "Inconsolable",
+            "name": "incon4",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not soothed by parental rocking, singing, feeding, comforting actions",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 4",
+            "default": 0,
+            "label_en": "Underactive (very little movement while awake)",
+            "name": "under4",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Little if any purposive grasping, control of head and arm movements, such as pushing things that are noxious away",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 4",
+            "default": 0,
+            "label_en": "Takes long time to respond to interactions",
+            "name": "time4",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not cooing, smiling, or focusing gaze in response to interactions",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 5",
+            "default": 0,
+            "label_en": "Makes eye contact with caregiver",
+            "name": "eye5",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Holds gaze, prefers primary parent, looks at speaker",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 5",
+            "default": 0,
+            "label_en": "Actions are purposeful",
+            "name": "purpose5",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Reaches with coordinated smooth movement",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 5",
+            "default": 0,
+            "label_en": "Aware of surroundings",
+            "name": "aware5",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Strongly prefers mother, then other familiars, differentiates between novel and familiar objects",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 5",
+            "default": 0,
+            "label_en": "Communicates needs and wants",
+            "name": "communication5",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Vocalizes/indicates about needs, e.g. hunger, discomfort, curiosity in objects, or surroundings",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 5",
+            "default": 0,
+            "label_en": "Restless",
+            "name": "restless5",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "No sustained calm state",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 5",
+            "default": 0,
+            "label_en": "Inconsolable",
+            "name": "incon5",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not soothed by usual methods, e.g. singing, holding, talking",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 5",
+            "default": 0,
+            "label_en": "Underactive (very little movement while awake)",
+            "name": "under5",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Little if any reaching, grasping, moving around in bed, pushing things away",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 5",
+            "default": 0,
+            "label_en": "Takes long time to respond to interactions",
+            "name": "time5",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not babbling or smiling/laughing in social interactions (or even actively rejecting an interaction)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 6",
+            "default": 0,
+            "label_en": "Makes eye contact with caregiver",
+            "name": "eye6",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Holds gaze, prefers primary parent, looks at speaker",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 6",
+            "default": 0,
+            "label_en": "Actions are purposeful",
+            "name": "purpose6",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Reaches and manipulates objects, tries to change position, if mobile, may try to get up",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 6",
+            "default": 0,
+            "label_en": "Aware of surroundings",
+            "name": "aware6",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Prefers primary parent, then other familiars, upset when separated from preferred caretakers, comforted by familiar objects especially favorite blanket or stuffed animal",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 6",
+            "default": 0,
+            "label_en": "Communicates needs and wants",
+            "name": "communication6",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Uses single words, or signs",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 6",
+            "default": 0,
+            "label_en": "Restless",
+            "name": "restless6",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "No sustained calm state",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 6",
+            "default": 0,
+            "label_en": "Inconsolable",
+            "name": "incon6",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not soothed by usual methods, e.g. singing, holding, talking, reading",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 6",
+            "default": 0,
+            "label_en": "Underactive (very little movement while awake)",
+            "name": "under6",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Little if any play, efforts to sit up, pull up, and if mobile, crawl or walk around",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 6",
+            "default": 0,
+            "label_en": "Takes long time to respond to interactions",
+            "name": "time6",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not following simple directions, if verbal, not engaging in simple dialogue with words or jargon",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 7",
+            "default": 0,
+            "label_en": "Makes eye contact with caregiver",
+            "name": "eye7",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Holds gaze, prefers primary parent, looks at speaker",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 7",
+            "default": 0,
+            "label_en": "Actions are purposeful",
+            "name": "purpose7",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Reaches and manipulates objects, tries to change position, if mobile, may try to get up and walk",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 7",
+            "default": 0,
+            "label_en": "Aware of surroundings",
+            "name": "aware7",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Prefers primary parent, then other familiars, upset when separated from preferred care takers, comforted by familiar objects especially favorite blanket or stuffed animal",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 7",
+            "default": 0,
+            "label_en": "Communicates needs and wants",
+            "name": "communication7",
+            "optional": false,
+            "options": [
+              {
+                "label": "Always",
+                "value": 0
+              },
+              {
+                "label": "Often",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Rarely",
+                "value": 3
+              },
+              {
+                "label": "Never",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Uses 3-4 word sentences, or signs, may indicate toilet needs, calls self or me",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 7",
+            "default": 0,
+            "label_en": "Restless",
+            "name": "restless7",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "No sustained calm state",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 7",
+            "default": 0,
+            "label_en": "Inconsolable",
+            "name": "incon7",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not soothed by usual methods, e.g. singing, holding, talking, reading (may tantrum, but can organize)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 7",
+            "default": 0,
+            "label_en": "Underactive (very little movement while awake)",
+            "name": "under7",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Little if any more elaborate play, efforts to sit up and move around, and if able to stand, walk or jump",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age == 7",
+            "default": 0,
+            "label_en": "Takes long time to respond to interactions",
+            "name": "time7",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never",
+                "value": 0
+              },
+              {
+                "label": "Rarely",
+                "value": 1
+              },
+              {
+                "label": "Sometimes",
+                "value": 2
+              },
+              {
+                "label": "Often",
+                "value": 3
+              },
+              {
+                "label": "Always",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Not following  1-2 step simple commands, if verbal, not engaging in more complex dialogue",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Do not use in patients with <calculator id=\"1872\">Richmond Agitation-Sedation Scale (RASS)</calculator>&nbsp;&le;-4 (deep sedation: no response to voice, but movement or eye opening to physical stimulation, or unarousable: no response to voice or physical stimulation). Includes developmental anchor points for children at 8 weeks and 1 year to improve screening accuracy in very young patients.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "claiming calc id",
+            "time": "2019-03-21 11:40 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2019-03-21 11:51 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added inputs",
+            "time": "2019-03-21 11:55 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-03-21 11:57 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-03-21 12:05 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2019-03-22 11:08 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added tips",
+            "time": "2019-03-28 11:28 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "first round edits ",
+            "time": "2019-04-02 10:30 AM",
+            "user": "sang"
+          },
+          {
+            "message": "edited instructions",
+            "time": "2019-04-02 10:32 AM",
+            "user": "sang"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-04-02 10:33 AM",
+            "user": "sang"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-04-02 10:37 AM",
+            "user": "sang"
+          },
+          {
+            "message": "edited instructions",
+            "time": "2019-04-02 10:37 AM",
+            "user": "sang"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-04-09 11:46 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-04-09 11:53 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-04-09 12:24 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round eidts",
+            "time": "2019-04-09 12:55 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "GW edits",
+            "time": "2019-04-12 11:40 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "publish",
+            "time": "2019-04-12 11:43 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added creator interview",
+            "time": "2019-05-15 12:55 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "publish creator interview",
+            "time": "2019-05-16 03:23 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added new inputs + logic",
+            "time": "2019-05-22 11:58 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added conditionality",
+            "time": "2019-05-22 12:05 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-05-22 01:19 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added tips",
+            "time": "2019-06-05 01:41 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added note in formula",
+            "time": "2019-06-05 01:47 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited tips",
+            "time": "2019-06-05 01:52 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited tips",
+            "time": "2019-06-05 01:59 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited tips",
+            "time": "2019-06-05 02:10 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-06-05 02:13 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited when to us",
+            "time": "2019-06-13 10:12 AM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "fdb36be562d065ce7ada11bc6cc1ba52",
+        "medium_description_en": "<p>Screens for pediatric delirium.</p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "Peds",
+          "pediatric delirium",
+          "delirium screen",
+          "pediatric delirium screen",
+          "capd",
+          "Cornell Assessment of Pediatric Delirium"
+        ],
+        "search_id": "c-10172",
+        "seo": {
+          "keywords_en": "Peds, pediatric delirium, delirium screen, pediatric delirium screen, capd, Cornell Assessment of Pediatric Delirium",
+          "meta_description_en": "The Cornell Assessment of Pediatric Delirium (CAPD) screens for pediatric delirium."
+        },
+        "short_description_en": "Pediatric delirium screen.",
+        "short_title_en": "Cornell Assessment of Pediatric Delirium (CAPD)",
+        "slug": "cornell-assessment-pediatric-delirium-capd",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Family Practice",
+          "Neurology",
+          "Pediatrics",
+          "Psychiatry"
+        ],
+        "system_en": [
+          "Neurologic",
+          "Psychiatric"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Derek Tam, MD, MPH, is a pediatric resident at Maimonides Children's Hospital in Brooklyn, NY. Dr. Tam completed an undergraduate degree in cognitive science at Northwestern University in Chicago, IL, and received his MD and MPH from the Northwestern University Feinberg School of Medicine. He will serve as chief resident for the pediatric residency program at Maimonides for the academic year 2019-2020 and plans to pursue a fellowship in pediatric emergency medicine. His academic interests include emergency medicine, pediatric resuscitation, antibiotic stewardship, and epidemiology.</p>",
+          "firstName": "Derek",
+          "hasDisclosure": [],
+          "img": "derek-tam.jpg",
+          "lastName": "Tam",
+          "name": "Derek Tam, MD, MPH",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "derek-tam",
+          "updatedAt": "2023-04-06T20:25:19.744Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Chani Traube, MD, is an assistant professor of pediatrics in the department of critical care medicine at Weill Cornell Medical College. She is also a pediatrician at New York-Presbyterian Hospital. Dr. Traube’s primary research is focused on pediatric respiratory failure, shock, and delirium.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Chani Traube",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-chani-traube.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Traube+C%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "about_en": "<p>Gabrielle Silver, MD, is a practicing child and adolescent psychiatrist at New York Presbyterian Hospital. She is also a clinical associate professor of psychiatry at the Weill Cornell Medical College. Dr. Silver’s primary research is focused on screening critically ill children for delirium.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Gabrielle Silver",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/gabrielle-silver.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Silver+G%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10172/cornell-assessment-pediatric-delirium-capd",
+        "description": "The Cornell Assessment of Pediatric Delirium (CAPD) screens for pediatric delirium.",
+        "keywords": "Peds, pediatric delirium, delirium screen, pediatric delirium screen, capd, Cornell Assessment of Pediatric Delirium",
+        "title": "Cornell Assessment of Pediatric Delirium (CAPD)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 1872,
+          "short_title_en": "Richmond Agitation-Sedation Scale (RASS)",
+          "slug": "richmond-agitation-sedation-scale-rass"
+        },
+        {
+          "calcId": 10090,
+          "short_title_en": "AWOL Score for Delirium",
+          "slug": "awol-score-delirium"
+        },
+        {
+          "calcId": 3982,
+          "short_title_en": "4AT",
+          "slug": "4-test-delirium-assessment"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10172",
+      "cornell-assessment-pediatric-delirium-capd"
+    ]
+  },
+  "scriptLoader": []
+}

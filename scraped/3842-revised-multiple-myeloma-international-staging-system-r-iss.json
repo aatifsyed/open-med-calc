@@ -1,0 +1,585 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Weakness"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "3842.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul> <li>The revised ISS is based on the original ISS for MM and has been refined further to include validated and reliable prognostic factors for MM, including ISS score, cytogenetic abnormalities, and LDH.</li> <li>It identifies 3 groups with clearly different outcomes and recharacterized ~25% of patients who would have been identified as good risk (misclassified as &ldquo;good prognosis&rdquo;) using only one of the validated factors into a higher risk category.</li> <li>Unlike several other studies, the data set includes many patients (40%) that were not transplant eligible, thus reflecting a &ldquo;real-world&rdquo; population.</li> </ul>",
+            "formula_en": "<p dir=\"ltr\">First, assign ISS stage:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"107\" /><col width=\"60\" /><col width=\"66\" /><col width=\"73\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\" rowspan=\"2\"></td>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Serum albumin, g/dL</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><em>&ge;3.5 </em></p>\n</td>\n<td>\n<p dir=\"ltr\"><em>&lt;3.5</em></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><strong>Serum &beta;2 microglobulin, mg/L</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><em>&lt;3.5</em></p>\n</td>\n<td>\n<p dir=\"ltr\">ISS I</p>\n</td>\n<td>\n<p dir=\"ltr\">ISS II</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><em>3.5-5.4</em></p>\n</td>\n<td>\n<p dir=\"ltr\">ISS II</p>\n</td>\n<td>\n<p dir=\"ltr\">ISS II</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><em>&ge;5.5</em></p>\n</td>\n<td>\n<p dir=\"ltr\">ISS III</p>\n</td>\n<td>\n<p dir=\"ltr\">ISS III</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p></p>\n<p dir=\"ltr\">Then, stage R-ISS according to iFISH and LDH:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"91\" /><col width=\"90\" /><col width=\"88\" /><col width=\"91\" /><col width=\"45\" /></colgroup>\n<tbody>\n<tr>\n<td rowspan=\"2\"></td>\n<td colspan=\"2\"><br />\n<p dir=\"ltr\"><strong>High-risk cytogenetic abnormalities by iFISH*</strong></p>\n</td>\n<td colspan=\"2\" rowspan=\"2\"></td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><em>No</em></p>\n</td>\n<td>\n<p dir=\"ltr\"><em>Yes</em></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>ISS I</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">R-ISS I</p>\n</td>\n<td>\n<p dir=\"ltr\">R-ISS II</p>\n</td>\n<td>\n<p dir=\"ltr\"><em>Normal</em></p>\n</td>\n<td rowspan=\"6\">\n<p dir=\"ltr\"><strong>LDH</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">R-ISS II</p>\n</td>\n<td>\n<p dir=\"ltr\">R-ISS II</p>\n</td>\n<td>\n<p dir=\"ltr\"><em>High</em></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>ISS II</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">R-ISS II</p>\n</td>\n<td>\n<p dir=\"ltr\">R-ISS II</p>\n</td>\n<td>\n<p dir=\"ltr\"><em>Normal</em></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">R-ISS II</p>\n</td>\n<td>\n<p dir=\"ltr\">R-ISS II</p>\n</td>\n<td>\n<p dir=\"ltr\"><em>High</em></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>ISS III</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">R-ISS II</p>\n</td>\n<td>\n<p dir=\"ltr\">R-ISS III</p>\n</td>\n<td>\n<p dir=\"ltr\"><em>Normal</em></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">R-ISS III</p>\n</td>\n<td>\n<p dir=\"ltr\">R-ISS III</p>\n</td>\n<td>\n<p dir=\"ltr\"><em>High</em></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p></p>\n<p dir=\"ltr\">*High-risk&nbsp;= presence of del(17p) and/or translocation t(4;14) and/or translocation t(14;16).</p>",
+            "more_info_en": "<p><strong>R-ISS interpretation:</strong></p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered table-hover\">\n<tbody>\n<tr>\n<th>R-ISS Stage</th>\n<th>Median progression-free survival</th>\n</tr>\n<tr>\n<td>I</td>\n<td>66 months</td>\n</tr>\n<tr>\n<td>II</td>\n<td>42 months</td>\n</tr>\n<tr>\n<td>III</td>\n<td>29 months</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://jco.ascopubs.org/content/33/26/2863",
+                  "text": "Palumbo A, et. al. Revised International Staging System for Multiple Myeloma: a Report From International Myeloma Working Group. JCO 2015; 33: 2863-2869."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.myeloma.org/publications",
+                  "text": "International Myeloma Foundation. International Staging System. April 2002."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/15809451",
+                  "text": "Greipp PR, et. al. International Staging System for Multiple Myeloma. JCO 2005; 23:3412-3420."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Randall Pierce, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Antonio Palumbo",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>The revised International Staging System (R-ISS) for multiple myeloma was developed to better prognosticate long term outcomes of myeloma patients using easily obtained and routinely used prognostic variables.</li> <li>It includes the parameters from the International Staging System (ISS), as well as cytogenetic abnormalities (CA) serum lactate dehydrogenase (LDH).</li> <li>The R-ISS creates 3 subgroups with significantly different overall survival: <ul> <li>Stage I: 82%</li> <li>Stage II: 62%</li> <li>Stage III: 40%</li> </ul> </li> <li>It risk-stratifies multiple myeloma patients better than the original ISS.</li> <li>40% of patients in the data set were not transplant eligible, which reflects a more real-world population than does previous studies</li> </ul>",
+            "use_case_en": "<p>Newly diagnosed MM patients. Its utility has NOT been validated in relapsed myeloma, smoldering myeloma or MGUS patients.</p>",
+            "why_use_en": "<ul><li>Provides better discrimination of prognosis for MM by using simple, readily available variables.</li><li>Reliable, validated tool that may have a role in upfront risk stratification in future clinical trials, and also may help patients understand their prognosis better.</li></ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Many MM patients are treated through clinical trials. Physicians may consider referring patients to academic treatment centers if they are eligible and willing to receive transplantation, not only to discuss standard treatment options, but also to consider clinical trial options.</p>",
+            "critical_actions_en": "",
+            "management_en": "<ul> <li>Current staging systems provide prognostic information and are useful for stratification and data assessments/comparisons.</li> <li>The R-ISS, though a more robust powerful prognostic tool compared to ISS, is NOT directly used to alter treatment recommendations outside of a clinical trial at this time.</li> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Cancer",
+          "Hematologic Malignancy",
+          "Multiple Myeloma"
+        ],
+        "dosing": false,
+        "equation_logic": "252cb055949bdec2d5a8eaca29f434cc",
+        "equation_logic_text": "var calc_output = [];\n\nvar micro = parseFloat(micro);\nvar alb = parseFloat(alb);\nvar ca = parseFloat(ca);\nvar ldh = parseFloat(ldh);\n\nvar iss_stage\n\nif (micro == 0) {\n\tif (alb == 1) { // normal (high) albumin\n\t\tiss_stage = 1\n\t} else if (alb == 0) { // abnormal (low) albumin\n\t\tiss_stage = 2\n\t}\n} else if (micro == 1) {\n\tiss_stage = 2\n} else if (micro == 2) {\n\tiss_stage = 3\n}\n\nvar riss;\n\nif (iss_stage == 1 && (ca + ldh == 0)) {\n\triss = 'R-ISS Stage I'\n} else if (iss_stage == 1 && (ca + ldh > 0)) {\n\triss = 'R-ISS Stage II'\n} else if (iss_stage == 2) {\n\triss = 'R-ISS Stage II'\n} else if (iss_stage == 3 && (ca + ldh == 0)) {\n\triss = 'R-ISS Stage II'\n} else if (iss_stage == 3 && (ca + ldh > 0)) {\n\triss = 'R-ISS Stage III'\n}\n\nvar pfs\n\nif (riss == 'R-ISS Stage I') {\n\tpfs = 66 \n} \nif (riss == 'R-ISS Stage II') {\n\tpfs = 42\n}\nif (riss == 'R-ISS Stage III') {\n\tpfs = 29\n}\n\ncalc_output.push({\n    name: 'mini',\n    value: riss,\n    value_text: ' ',\n    message: \"Multiple Myeloma\"\n});\ncalc_output.push({\n    name: 'R-ISS',\n    value: riss,\n    value_text: ' ',\n    message: pfs + ' months median progression-free survival'\n});",
+        "favorite_id": 3842,
+        "full_title_en": "Revised Multiple Myeloma International Staging System (R-ISS)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Serum β2 microglobulin",
+            "name": "micro",
+            "optional": false,
+            "options": [
+              {
+                "label": "<3.5 mg/L",
+                "value": 0
+              },
+              {
+                "label": "3.5-5.4  mg/L",
+                "value": 1
+              },
+              {
+                "label": ">5.4 mg/L",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Serum albumin",
+            "name": "alb",
+            "optional": false,
+            "options": [
+              {
+                "label": "<3.5 g/dL",
+                "value": 0
+              },
+              {
+                "label": "≥3.5 g/dL",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "CA by iFISH",
+            "name": "ca",
+            "optional": false,
+            "options": [
+              {
+                "label": "Standard risk",
+                "value": 0
+              },
+              {
+                "label": "High risk",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "High risk defined as: presence of del(17p) and/or translocation t(4;14) and/or translocation t(14;16)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "LDH",
+            "name": "ldh",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal (< upper limit of normal)",
+                "value": 0
+              },
+              {
+                "label": "High (> upper limit of normal)",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use only in patients recently diagnosed with multiple myeloma. Do not use in patients with relapsed myeloma, smoldering myeloma or MGUS.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "eq logic tweaking",
+            "time": "2018-12-10 02:03 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "eq logic tweaking",
+            "time": "2018-12-10 02:12 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "eq logic tweaking",
+            "time": "2018-12-10 02:15 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added disease",
+            "time": "2019-02-05 12:16 PM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "217282355d5fcff424bf22e3035040c8",
+        "medium_description_en": "<p>Prognostication tool for myeloma patients based on the genetics and other routinely used lab values in conjunction with the original ISS Staging System.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "myeloma",
+          "microglobulin",
+          "albumin",
+          "multiple myeloma",
+          "mm",
+          "riss",
+          "revised myeloma"
+        ],
+        "search_id": "c-3842",
+        "seo": {
+          "keywords_en": "MISS, Multiple Myeloma staging system, multiple myeloma International Prognostic Index, ISS, MMISS, MM, r-iss, revised ISS, revised myeloma staging",
+          "meta_description_en": "The Revised multiple Myeloma International Staging System (ISS) stages multiple myeloma patients based on genetics and routine lab values in conjunction with the original ISS."
+        },
+        "short_description_en": "Prognostication of myeloma.",
+        "short_title_en": "Revised Myeloma ISS",
+        "slug": "revised-multiple-myeloma-international-staging-system-r-iss",
+        "specialty_en": [
+          "Hematology and Oncology",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Hematologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Randall (Randy) Pierce is in private practice with Northwest Georgia Oncology Centers in Carrollton, Georgia, where he has been in practice since 1998. After graduating from the University of Georgia in 1988, he attended medical school at the Medical College of Georgia. His internal medicine residency and hematology/oncology training were completed at Wake Forest University/Baptist Medical Center in 1998. Dr. Pierce treats most malignancies and has a special interest in myeloma and lymphoma. He is married, has 3 children, and enjoys playing tennis and deep sea fishing.</p>",
+          "firstName": "Randall",
+          "hasDisclosure": [],
+          "img": "randall-pierce.jpg",
+          "lastName": "Pierce",
+          "name": "Randall Pierce, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Past",
+          "target": "randall-pierce",
+          "updatedAt": "2023-04-06T20:27:26.521Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Antonio Palumbo is chief of the Myeloma Unit of the Department of Oncology, Section of Hematology at the University of Torino. He is currently a member of the Board of Directors of the International Myeloma Society. Dr. Palumbo's research focuses on plasma cell dyscrasia, and the pathogenesis and treatment of multiple myeloma.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Antonio Palumbo",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/Dr.-Antonio-Palumbo1.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Palumbo+A%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3842/revised-multiple-myeloma-international-staging-system-r-iss",
+        "description": "The Revised multiple Myeloma International Staging System (ISS) stages multiple myeloma patients based on genetics and routine lab values in conjunction with the original ISS.",
+        "keywords": "MISS, Multiple Myeloma staging system, multiple myeloma International Prognostic Index, ISS, MMISS, MM, r-iss, revised ISS, revised myeloma staging",
+        "title": "Revised Multiple Myeloma International Staging System (R-ISS)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3841,
+          "short_title_en": "Multiple Myeloma ISS",
+          "slug": "multiple-myeloma-international-staging-system-iss"
+        },
+        {
+          "calcId": 3929,
+          "short_title_en": "Asymptomatic Myeloma Prognosis",
+          "slug": "asymptomatic-myeloma-prognosis"
+        },
+        {
+          "calcId": 10233,
+          "short_title_en": "Multiple Myeloma Diagnostic Criteria",
+          "slug": "multiple-myeloma-diagnostic-criteria"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3842",
+      "revised-multiple-myeloma-international-staging-system-r-iss"
+    ]
+  },
+  "scriptLoader": []
+}

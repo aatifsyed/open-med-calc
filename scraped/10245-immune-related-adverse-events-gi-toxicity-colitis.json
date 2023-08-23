@@ -1,0 +1,579 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Abdominal Pain",
+          "Diarrhea"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p><span id=\"docs-internal-guid-145ad2b8-7fff-f8ad-24e1-f92aa2533e2d\">Guidelines for IRAE in GI toxicity (colitis) were developed by a multidisciplinary, multi-organizational panel of experts in medical oncology based on a systematic review of the medical literature.</p>",
+            "formula_en": "<table>\n<tbody>\n<tr>\n<td>\n<p><strong>CTCAE for diarrhea</strong></p>\n</td>\n<td><strong>Colitis grade</strong></td>\n</tr>\n<tr>\n<td>Increase of &lt;4 stools per day over baseline; mild increase in ostomy output compared with baseline</td>\n<td>\n<p>G1</p>\n</td>\n</tr>\n<tr>\n<td>Increase of 4-6 stools per day over baseline; moderate increase in ostomy output compared with baseline</td>\n<td>\n<p>G2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Increase of &ge;7 stools per day over baseline; incontinence; hospitalization indicated; severe increase in ostomy output compared with baseline; limiting self-care/activities of daily living</p>\n</td>\n<td>\n<p>G3</p>\n</td>\n</tr>\n<tr>\n<td>Life-threatening consequences; urgent intervention indicated</td>\n<td>\n<p>G4</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>See Next Steps for details on management.</p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/29442540",
+                  "text": "Brahmer JR, Lacchetti C, Schneider BJ, et al. Management of Immune-Related Adverse Events in Patients Treated With Immune Checkpoint Inhibitor Therapy: American Society of Clinical Oncology Clinical Practice Guideline. J Clin Oncol. 2018;36(17):1714-1768."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Nazli Dizman, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Julie R. Brahmer",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-fd851c23-7fff-c749-6df6-dcfa91b0e1c4\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Immune checkpoint inhibitor (ICPi) colitis should be suspected in patients with symptoms of colitis (e.g. change in bowel habits, abdominal pain, blood and mucus in stool, fever, abdominal distension, obstipation, constipation) while on treatment with immune checkpoint inhibitors.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">May occur at any time during immune checkpoint inhibitor treatment, but is most frequently seen 5-10 weeks following treatment initiation.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">More frequently seen with anti-CTLA-4 agents, but is also an important adverse event caused by anti-PD-1 and anti-PD-L1 agents.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Management of ICPi colitis is based on the grade of colitis.</p>\n</li>\n</ul>",
+            "use_case_en": "<p>Adult patients with colitis symptoms that developed while on treatment with immune checkpoint inhibitors including agents against PD-1 (i.e., pembrolizumab, nivolumab), PD-L1 (i.e., atezolizumab, avelumab, durvalumab), or CTLA-4 (i.e., ipilimumab).</p>",
+            "why_use_en": "<p>ICPi colitis is the most common cause of hospital admissions due to immune related adverse events. This tool aids in the decision to discontinue ICPi, further diagnostic work-up, and immunosuppressant treatment initiation.&nbsp;</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p dir=\"ltr\"><strong>Grade 1:</strong> Further diagnostic work-up not recommended.</p>\n<p dir=\"ltr\"><strong>Grade 2: </strong>Further diagnostic work-up is recommended as following:</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Blood studies: CBC, comprehensive metabolic panel, thyroid-stimulating hormone, erythrocyte sedimentation rate, C-reactive protein.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Stool studies: culture, Clostridium difficile, parasite, cytomegalovirus (CMV) or other viral etiology, ova and parasite.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Lactoferrin &ndash; aids in patient stratification to determine who needs more urgent endoscopy.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Calprotectin &ndash; aids in follow up of disease activity.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Screening for HIV, hepatitis A and B, and blood quantiferon for tuberculosis in patients at high risk for infections &ndash; aids in preparation of patients to start infliximab.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Consider imaging (i.e., CT scan of abdomen and pelvis and gastrointestinal endoscopy with biopsy) &ndash; presence of ulceration can predict corticosteroid refractory disease, which may require early infliximab.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Consider repeat endoscopy for patients who do not respond to immunosuppressive agents.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Consider repeat endoscopy for disease monitoring when clinically indicated and when planning to resume therapy.</p>\n</li>\n</ul>\n<p dir=\"ltr\"><strong>Grade 3-4:</strong></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Above work-up for grade 2 colitis should be immediately completed for grade 3-4 colitis.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Consider repeat endoscopy for patients who do not respond to immunosuppressive agents.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Consider repeat endoscopy for disease monitoring only when clinically indicated and when planning to resume therapy.</p>\n</li>\n</ul>",
+            "critical_actions_en": "",
+            "management_en": "<p dir=\"ltr\"><strong><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29442540\" target=\"_blank\">ASCO guidelines for IRAE - colitis</a>:</strong></p>\n<p dir=\"ltr\"><strong>All patients:</strong></p>\n<p dir=\"ltr\">Counsel all patients to be aware of and inform their health care provider immediately if they experience any of the following:</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Abdominal pain, nausea, cramping, blood or mucus in stool, or changes in bowel habits.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Fever, abdominal distention, obstipation, or constipation.</p>\n</li>\n</ul>\n<p dir=\"ltr\">For grade &ge;2, consider permanently discontinuing CTLA-4 agents and may restart PD-1, PD- L1 agents if patient can recover to grade &le;1; concurrent immunosuppressant maintenance therapy should be considered only if clinically indicated in individual cases.</p>\n<p dir=\"ltr\"><strong>Grade 1:</strong></p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Continue ICPi (or, hold temporarily and resume if toxicity does not exceed grade 1).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Monitor for dehydration; recommend dietary changes.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Facilitate expedited phone contact with patient/caregiver.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">May obtain GI consult for prolonged grade 1 cases.</p>\n</li>\n</ol>\n<p dir=\"ltr\"><strong>Grade 2:</strong></p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Should hold immune checkpoint inhibitor until symptoms recover to grade 1; can consider permanently discontinuing CTLA-4 agents and may restart PD-1, PD-L1 agents if patient can recover to grade &le;1.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Concurrent immunosuppressant maintenance therapy (&lt;10 mg prednisone equivalent dose) may be offered only if clinically indicated in individual cases.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">May include supportive care with medications such as loperamide if infection has been ruled out.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Should consult with GI for grade &ge;2.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Administer corticosteroids, unless diarrhea is transient, starting with an initial dose of <calculator id=\"2040\">1 mg/kg/day prednisone</calculator> or equivalent.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When symptoms improve to grade &le;1, taper corticosteroids over at least 4-6 weeks before resuming treatment, although resuming treatment while on low-dose corticosteroid may also be an option after an evaluation of the risks and benefits.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Esophagogastroduodenoscopy/colonoscopy, endoscopy evaluation should be highly recommended for cases grade &ge;2 to stratify for early infliximab treatment based on endoscopic findings and to determine safety of resuming PD-1, PD-L1 therapy.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Can consider stool inflammatory markers (lactoferrin and calprotectin) in cases of grade &ge;2 to differentiate functional vs inflammatory diarrhea, and use calprotectin to monitor treatment response if provider prefers.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Repeat colonoscopy optional for cases of grade &ge;2 to monitor disease activity for complete remission, especially if plan to resume ICPi.</p>\n</li>\n</ol>\n<p dir=\"ltr\"><strong>Grade 3:</strong></p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Should consider permanently discontinuing CTLA-4 agents and may restart PD-1, PD-L1 agents if patient can recover to grade &le;1.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Administer corticosteroids (initial dose of 1&ndash;2 mg/kg/day prednisone or equivalent).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Consider hospitalization or outpatient facility if dehydration or electrolyte imbalance.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">If symptoms persist 3&ndash;5 days or recur after improvement, consider IV corticosteroid or noncorticosteroid (e.g. infliximab) treatment.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Consider colonoscopy if patient on immunosuppression and at risk for opportunistic infections as an independent cause for diarrhea (i.e., CMV colitis) or if on anti-TNF or corticosteroid refractory.</p>\n</li>\n</ol>\n<p dir=\"ltr\"><strong>Grade 4:</strong></p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Permanently discontinue treatment.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Should admit patient when clinically indicated; patients managed as outpatients should be very closely monitored.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Administer 1&ndash;2 mg/kg/day methylprednisolone or equivalent until symptoms improve to grade 1, and then start taper over 4&ndash;6 weeks.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Consider early infliximab 5&ndash;10 mg/kg if symptoms refractory to corticosteroid within 2&ndash;3 days.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Consider lower GI endoscopy if symptoms are refractory despite treatment or there is concern of new infections.</p>\n</li>\n</ol>\n<p dir=\"ltr\"><strong>Additional considerations:</strong></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Vedolizumab may be considered in patients refractory to infliximab and/or contraindicated to TNF-&alpha; blocker. Decision should be made on individual basis from GI and oncology evaluation. This is based on case series showing promising results.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients with hepatitis and IRAE colitis are rare, and management should include permanently discontinuing immune checkpoint inhibitors and offering other immunosuppressant agents that work systemically for both conditions.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Currently, enteritis alone as the cause of diarrhea is uncommon and requires small bowel biopsy to evaluate. It may be managed similar as colitis, including corticosteroid and/or infliximab, etc.</p>\n</li>\n</ul>\n<p dir=\"ltr\">See <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29442540\" target=\"_blank\">Brahmer 2018</a> for full ASCO guidelines.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Cancer",
+          "Colitis"
+        ],
+        "dosing": false,
+        "equation_logic_text": "var calc_output = [];\n\nvar grading = parseFloat(grading);\nvar rec;\n\nswitch (grading) {\n  case 1:\n    rec = 'Continue ICPi (or hold temporarily and resume if toxicity remains grade ≤1); monitor for dehydration; recommend dietary changes; GI consult for prolonged cases; see Next Steps for details';\n    break;\n  case 2:\n    rec = 'Hold ICPi until pt recovers to grade 1; consider permanently d/c CTLA-4; may restart PD-1, PD-L1 if pt recovers to grade ≤1; consider steroids; consider loperamide if infection is ruled out; If diarrhea is not transient, start steroids, then taper if symptoms improve to grade ≤1; GI consult; consider EGD/colonoscopy; see Next Steps for details';\n    break;\n  case 3:\n    rec = 'Consider permanently d/c CTLA-4; may restart PD-1, PD-L1 if pt recovers to grade ≤1; start steroids; consider admission or outpatient facility if dehydration/electrolyte imbalance; consider IV steroids or infliximab if persistent/recurrent symptoms; consider colonoscopy if on immunosuppression; see Next Steps for details';\n    break;\n  case 4:\n    rec = 'Permanently d/c ICPis; admit if clinically indicated (monitor closely if outpatient); start steroids and give until symptoms improve, then taper; consider early infliximab if steroid-refractory; consider lower GI endoscopy if refractory symptoms or concern for new infections; see Next Steps for details';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: 'G'+grading,\n    value_text: '',\n    message: 'Colitis grade'   \n});\ncalc_output.push({\n    name: 'Score',\n    value: 'G'+grading,\n    value_text: '',\n    message: 'Colitis grade'   \n});\ncalc_output.push({\n    name: 'risk1',\n    value: '', \n    value_text: '',\n    message: rec\n});\n",
+        "favorite_id": 10245,
+        "full_title_en": "Immune-Related Adverse Events for GI Toxicity - Colitis",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<abbr title = \"Common Terminology Criteria for Adverse Events\">CTCAE</abbr> for diarrhea",
+            "name": "grading",
+            "optional": false,
+            "options": [
+              {
+                "label": "Increase of <4 stools per day over baseline; mild increase in ostomy output compared with baseline",
+                "value": 1
+              },
+              {
+                "label": "Increase of 4-6 stools per day over baseline; moderate increase in ostomy output compared with baseline",
+                "value": 2
+              },
+              {
+                "label": "Increase of ≥7 stools per day over baseline; incontinence; hospitalization indicated; severe increase in ostomy output compared with baseline; limiting self-care/activities of daily living",
+                "value": 3
+              },
+              {
+                "label": "Life-threatening consequences; urgent intervention indicated",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use in adult patients with colitis symptoms that developed while on treatment with immune checkpoint inhibitors.</p>",
+        "logs": [
+          {
+            "message": "added contributor",
+            "time": "2020-04-06T19:08:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "GW feedback",
+            "time": "2019-12-05T15:49:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-08-06T12:23:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited result",
+            "time": "2019-07-30T10:39:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2019-07-30T10:37:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2019-07-30T10:23:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2019-07-30T10:20:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2019-07-30T10:07:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added creator",
+            "time": "2019-07-29T15:40:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added creator",
+            "time": "2019-07-29T15:37:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added contributor",
+            "time": "2019-07-29T15:17:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "finalized content",
+            "time": "2019-07-29T12:17:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added formula table",
+            "time": "2019-07-29T12:13:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited input",
+            "time": "2019-07-29T12:10:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added creator",
+            "time": "2019-07-29T12:09:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added links to results",
+            "time": "2019-07-29T12:08:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-07-29T12:05:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-07-29T12:01:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added inpyt",
+            "time": "2019-07-29T11:53:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2019-07-29T11:39:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "",
+        "medium_description_en": "<p>Grades severity of colitis secondary to immune checkpoint inhibitor therapy.</p>",
+        "purpose_en": [
+          "Diagnosis",
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "IRAE for GI Toxicity - Colitis",
+          "Immune-Related Adverse Events for GI Toxicity - Colitis",
+          "irae for colitis",
+          "irae colitis",
+          "colitis",
+          "irae gi toxicity"
+        ],
+        "search_id": "c-10245",
+        "seo": {
+          "keywords_en": "IRAE for GI Toxicity - Colitis, Immune-Related Adverse Events for GI Toxicity - Colitis, irae for colitis, irae colitis, colitis, irae gi toxicity",
+          "meta_description_en": "The Immune-Related Adverse Events for GI Toxicity - Colitis grades severity of colitis secondary to immune checkpoint inhibitor therapy."
+        },
+        "short_description_en": "Colitis severity (immune checkpoint inhibitors).",
+        "short_title_en": "Immune-Related Adverse Events (IRAE) - Colitis",
+        "slug": "immune-related-adverse-events-gi-toxicity-colitis",
+        "specialty_en": [
+          "Gastroenterology",
+          "Hematology and Oncology",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Gastrointestinal"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Nazli",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Dizman",
+          "name": "Nazli Dizman, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Julie R. Brahmer, MSc, MD, is the co-director of the upper aerodigestive department at Johns Hopkins Medicine in Baltimore, MD. She is also a professor of oncology at Johns Hopkins Medicine. Dr. Brahmer’s primary research is focused on treatment of lung cancer and mesothelioma.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Julie R. Brahmer",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-julie-brahmer.png",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Brahmer+JR%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10245/immune-related-adverse-events-gi-toxicity-colitis",
+        "description": "The Immune-Related Adverse Events for GI Toxicity - Colitis grades severity of colitis secondary to immune checkpoint inhibitor therapy.",
+        "keywords": "IRAE for GI Toxicity - Colitis, Immune-Related Adverse Events for GI Toxicity - Colitis, irae for colitis, irae colitis, colitis, irae gi toxicity",
+        "title": "Immune-Related Adverse Events for GI Toxicity - Colitis"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10237,
+          "short_title_en": "Montreal Classification for IBD",
+          "slug": "montreal-classification-inflammatory-bowel-disease-ibd"
+        },
+        {
+          "calcId": 10393,
+          "short_title_en": "GI-GPA",
+          "slug": "graded-prognostic-assessment-for-gastrointestinal-cancer-gigpa"
+        },
+        {
+          "calcId": 10313,
+          "short_title_en": "Rome IV for Narcotic Bowel Syndrome",
+          "slug": "rome-iv-diagnostic-criteria-narcotic-bowel-syndrome-"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10245",
+      "immune-related-adverse-events-gi-toxicity-colitis"
+    ]
+  },
+  "scriptLoader": []
+}

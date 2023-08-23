@@ -1,0 +1,662 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Cough",
+          "Dyspnea",
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+149",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+149",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "3962.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The original study by <a href=\"http://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-13-268\" target=\"_blank\" rel=\"noopener\">Shorr et al</a> was a retrospective study of 5,975 patients admitted for pneumonia at 62 hospitals in the US. Only patients with documented diagnosis of pneumonia and laboratory evidence of bacterial infection were included. &nbsp;</p>\n<p>Two thirds of the cohort were randomly assigned to determine the eight variables (including demographics, prior healthcare exposures, disease acuity and select comorbid conditions) used for the 10 point risk stratification score for MRSA pneumonia with three separate tiers. The remaining third of patients were used to internally validate the risk score.</p>\n<p>The derivation and validation cohorts both showed increasing relative risk with increased Shorr Score at each of the three tiers. The pretest probability of MRSA was 14% in the study, and when used as a screening test with score &le;1 vs &gt;1, the sensitivity and specificity were 59.1% and 60%, respectively, with PPV of 19.2%, but high NPV of 90.1%. Both cohorts demonstrated a predictive risk score, with AUROCs of 0.66 and 0.64, respectively.</p>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24885158\" target=\"_blank\" rel=\"noopener\">Minejima et al (2014)</a> retrospectively evaluated 134 MRSA patients compared to 134 non MRSA patients at a single hospital admitted for pneumonia. When the Shorr Score was applied, they found 93% sensitivity (for risk score &gt;1), although the specificity was only 55%. NPV and PPV were 89% and 68%, respectively. The discriminative ability of low (&lt;1) and high (&gt;6) Shorr Scores to predict absence and presence of MRSA pneumonia, respectively, was better than in the original study.</p>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26385225\" target=\"_blank\" rel=\"noopener\">Teshome et al (2015)</a> also did a retrospective study using &gt;80,000 patients admitted to &gt;150 Veterans Health Administration Hospitals into MRSA therapy and non-MRSA therapy groups after being risk stratified with a modified version of the Shorr Score specific to their cohort (e.g. all patients were &ge;65 years old, so the age &lt;30 criteron was removed). The primary outcome was all-cause 30 day mortality. They showed that MRSA therapy was associated with lower 30 day mortality in the high risk group using the modified Shorr Score.</p>",
+            "formula_en": "<p>Addition of the selected points:</p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<td>&nbsp;</td>\n<td>\n<p><strong>0 points</strong></p>\n</td>\n<td>\n<p><strong>1 point</strong></p>\n</td>\n<td>\n<p><strong>2 points</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Age &lt;30 years or &gt;79 years</strong></p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Nursing home, skilled nursing facility, or long term acute care exposure </strong></p>\n<p>Within 90 days</p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Prior IV antibiotic therapy </strong></p>\n<p>Within 30 days</p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Hospitalization for &ge;2 days </strong></p>\n<p>Within 90 days</p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>ICU admission</strong></p>\n<p>On or before index culture</p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Any cerebrovascular disease </strong></p>\n<p>Prior to admission</p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Dementia</strong></p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Female with diabetes mellitus</strong></p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "more_info_en": "<p>Interpretation:</p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<td>\n<p><strong>Shorr Score</strong></p>\n</td>\n<td>\n<p><strong>Risk for MRSA</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>0-1</strong></p>\n</td>\n<td>\n<p>Low risk for MRSA. Consider routine antibiotic coverage.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>2-5</strong></p>\n</td>\n<td>\n<p>Intermediate risk for MRSA. Use clinical judgment regarding antibiotic coverage.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>6-10</strong></p>\n</td>\n<td>\n<p>High risk for MRSA. Consider extended antibiotic coverage.</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-13-268 ",
+                  "text": "Shorr AF, Myers DE, Huang DB, Nathanson BH, Emons MF, Kollef MH. A risk score for identifying methicillin-resistant Staphylococcus aureus in patients presenting to the hospital with pneumonia. BMC Infect Dis. 2013;13:268."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22109951 ",
+                  "text": "Shorr AF, Zilberberg MD, Reichley R, et al. Validation of a clinical score for assessing the risk of resistant pathogens in patients with pneumonia presenting to the emergency department. Clin Infect Dis. 2012;54(2):193-8."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24885158 ",
+                  "text": "Minejima E, Lou M, Nieberg P, Wong-beringer A. Patients presenting to the hospital with MRSA pneumonia: differentiating characteristics and outcomes with empiric treatment. BMC Infect Dis. 2014;14:252."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26385225 ",
+                  "text": "Teshome BF, Lee GC, Reveles KR, et al. Application of a methicillin-resistant Staphylococcus aureus risk score for community-onset pneumonia patients and outcomes with initial treatment. BMC Infect Dis. 2015;15:380."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Elias Wan, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Andrew Shorr",
+              "qa_en": "<p><strong>Why is it so difficult to nail down a practical and useful definition for HCAP; i.e., one that can reliably be used to make clinical decisions?</strong></p> <p><span style=\"font-weight: 400;\">I think the issue with the concept of healthcare-associated pneumonia is that everybody is concerned about resistance in pneumonia that presents to the hospital, but everyone faces a different pre-test probability. For example, in the United Kingdom, where there is no MRSA, your pre-test probability for MRSA in pneumonia patients who come to the hospital is essentially zero. So of course you&rsquo;re not going to agree on what the score should be, because you don&rsquo;t think it&rsquo;s a problem in the first place. But in the United States, where MRSA is much more prevalent, and you&rsquo;re taking patients from nursing homes or patients who&rsquo;ve been recently hospitalized, you&rsquo;ve got to sort out how to do that.</p> <p><span style=\"font-weight: 400;\">It&rsquo;s the classic dilemma of &ldquo;where you sit determines what where you stand&rdquo;, and so a lot of the divergence about the concept of HCAP is based on what you perceive as the probable pathogens in those patients. And if you look at the <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27418577\" target='_blank'><span style=\"font-weight: 400;\">most recent guidelines on nosocomial pneumonia</a><span style=\"font-weight: 400;\"> from the Infectious Disease Society of America and the American Thoracic Society, they&rsquo;ve really abandoned the concept of HCAP, because it can lead to too much broad and indiscriminate use of antibiotics, but they say you should adopt the concept of looking at patients presenting to the hospital with risk for resistant pathogens. Which, if you think about it, is how the concept of HCAP came to be in the first place, and strikes me as sort of a false dichotomy. No one&rsquo;s saying that these pathogens don&rsquo;t exist; we&rsquo;re just trying to figure out ways to more precisely define who these patients are so we don&rsquo;t overtreat unnecessarily, but more importantly, so we don&rsquo;t miss patients who have these pathogens and give them antibiotics that are not going to be active, and expose them to a higher risk of death.</p> <p><strong>What pearls or pitfalls do you have for using the Shorr Score? Specifically, do you know of any cases when it&rsquo;s been applied or interpreted inappropriately? </strong></p> <p><span style=\"font-weight: 400;\">I don&rsquo;t know of many cases where it&rsquo;s been applied inappropriately, but the pitfall is to understand is that we validated the score in a population where there was an intermediate pre-test probability of MRSA as a pathogen. A percentage of the patients who showed up to our ICU were that sick and had MRSA pneumonia&mdash;it wasn&rsquo;t 100% or 80% or even 50%, but it wasn&rsquo;t 2% either. The point is, it was a moderate pre-test probability population, which is really where you need these tools to help you discriminate. At the same time, they&rsquo;re validated in a population that&rsquo;s very sick, where if you miss giving the antibiotic, there&rsquo;s a price to pay. We&rsquo;re not talking about this for a low-risk skin infection, where you have other choices, and if it takes you a day to figure it out, there&rsquo;s no mortality associated with it. So it&rsquo;s important to remember that we&rsquo;re talking about a specific disease state in a specific risk population, with a specific pre-test probability.</p> <p><strong>What does the Shorr Score add over clinician gestalt in deciding to start antibiotics?</strong></p> <p><span style=\"font-weight: 400;\">I think it adds a lot, because at this point, clinician gestalt is to just treat everyone for everything. And that leads to antibiotic resistance, side effects, cost&mdash;in most U.S. hospitals right now, if you&rsquo;re sick they will reflexively give you piperacillin-tazobactam and vancomycin. My joke is, that&rsquo;s the jello on the tray for the patient. We can&rsquo;t do that anymore. It&rsquo;s how we got into this mess in the first place.</p> <p><strong>Are there any adjustments or updates you would make to the score based on new data or practice changes? </strong></p> <p><span style=\"font-weight: 400;\">The only update is that the <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27418577\" target='_blank'><span style=\"font-weight: 400;\">score is now more refined</a><span style=\"font-weight: 400;\"> in terms of looking at a broader array of pathogens that might be resistant instead of just MRSA. There are still people who come to the hospital with pure community-acquired pneumonia, and all they need is cefTRIAXone and azithromycin. They don&rsquo;t need piperacillin-tazobactam or imipenem and vancomycin. So I think that&rsquo;s been the biggest refinement&mdash;validating the risk score more broadly as a tool for looking at resistant infections generally, and doing it in a completely different data set. </p> <p><strong>The score uses ICU admission as a dichotomous variable to represent severity of illness. How did you choose this, and was there any consideration given to validated scores like the <calculator id='33'>PSI Score</calculator></strong></a><strong>?</strong></p> <p><span style=\"font-weight: 400;\">We picked ICU admission&mdash;it&rsquo;s certainly true that what gets you into my ICU might not be what gets you into your ICU, but we picked it because it&rsquo;s easy for a clinician to apply immediately. To use a score where you have to calculate another score is not very useful. But you pretty much know if a patient&rsquo;s going to the ICU or not within 30 minutes of evaluating them. We did look at other tools for severity, but they didn&rsquo;t provide any better resolution. Those risk scores are co-linear: higher PSI Score, higher likelihood of going to the ICU. Because it didn&rsquo;t add anything to the score, and actually made the score more cumbersome, we went with the simplest approach that didn&rsquo;t sacrifice any accuracy. </p> <p><strong>How do you use the Shorr Score in your own clinical practice? </strong></p> <p><span style=\"font-weight: 400;\">It&rsquo;s very limited, because I only see the patients who come to the ICU. If you&rsquo;re in the ICU for severe pneumonia, our pre-test probability for MRSA is already 20-30%, so we&rsquo;re going to treat you empirically if you come to the ICU. It&rsquo;s really a tool for the ER prescriber or for patients on the floor, so I can&rsquo;t really comment on how it&rsquo;s used outside the ICU. &nbsp;</p> <p><strong>What other research are you working on at the moment that you&rsquo;re particularly excited about?</strong></p> <p><span style=\"font-weight: 400;\">We&rsquo;re looking at some outcomes data to help people understand what the burden is of missing a severe resistant infection and not giving it the right antibiotic up front, and helping people understand that perhaps the most expensive infection out there is not the one that we treat with the most expensive antibiotic, but the one that&rsquo;s treated with an antibiotic that doesn&rsquo;t kill the bug. If you have MRSA pneumonia and you give them cefTRIAXone, great, you used an inexpensive antibiotic. But if the patient survives, they&rsquo;re now going to take a long time to get better, and that&rsquo;s going to make their length of stay higher and their chance of being readmitted higher. That may be a logical mentality from the budget standpoint, but it&rsquo;s bad for the system. </p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>The Shorr Score for MRSA Pneumonia was developed to assess risk of MRSA pneumonia in admitted patients for whom the reason for admission was pneumonia, in order to determine who might benefit from adding MRSA coverage.</li>\n</ul>\n<ul>\n<li>Developed specifically to risk-stratify MRSA pneumonia patients, compared to the original health care associated pneumonia (HCAP) definition.</li>\n<li>Also differentiates between MRSA and drug-resistant gram-negative pneumonia, which HCAP does not.</li>\n</ul>",
+            "use_case_en": "<p>Patients &gt;18 years old admitted for pneumonia.</p>",
+            "why_use_en": "<ul>\n<li>Pneumonia etiology varies for patients admitted for the diagnosis. Previous HCAP definition does not differentiate between drug resistant pathogens such as MRSA and other gram negative bacteria, which have different risk factors and treatments.</li>\n</ul>\n<ul>\n<li>Can help reduce overtreatment of MRSA pneumonia.</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>Risk factors for MRSA (infection with MRSA in the past year, known colonization, necrotizing or cavitary pneumonia, high severity-of-illness scores e.g. <calculator id=\"33\">PSI/PORT</calculator> or <calculator id=\"1868\">APACHE II</calculator>, preceding or concurrent influenza), should also be taken into account when deciding if MRSA treatment is warranted.</li>\n</ul>\n<ul>\n<li>Intended to guide the decision of MRSA treatment initiation. Confirmation studies and clinical judgment should be used to decide if continued MRSA treatment is needed.</li>\n</ul>",
+            "critical_actions_en": "",
+            "management_en": "<p>Options for MRSA treatment include vancomycin, linezolid, and clindamycin.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [
+              {
+                "CalculatorId": 3962,
+                "createdAt": "2019-07-02T20:19:23.085Z",
+                "description": "PulmCrit",
+                "id": 4,
+                "link": "https://emcrit.org/pulmcrit/pneumonia-mrsa/",
+                "order": 0,
+                "text": "Which patients admitted for pneumonia need MRSA coverage?",
+                "updatedAt": "2020-03-18T03:48:27.252Z"
+              }
+            ],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Coronavirus",
+          "COVID-19",
+          "Pneumonia",
+          "Respiratory Distress"
+        ],
+        "dosing": false,
+        "equation_logic": "7539a90f7d133f5aa21696b7ca1b76c7",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nvar age = parseFloat(age);\nvar nursing = parseFloat(nursing);\nvar prioriv = parseFloat(prioriv);\nvar hospital = parseFloat(hospital);\nvar icu = parseFloat(icu);\nvar cereb = parseFloat(cereb);\nvar dementia = parseFloat(dementia);\nvar fdiabetes = parseFloat(fdiabetes);\n\n//add points up\nvar u = age + nursing + prioriv + hospital + icu + cereb + dementia + fdiabetes;\n\n//results\nvar risk, minirisk, msg;\nif (u < 2){\n\trisk = 'Low';\n    minirisk = 'Low';\n\tmsg = 'Consider routine antibiotic coverage.';\n}else if(1 < u < 6){\n\trisk = 'Intermediate';\n    minirisk = 'Medium';\n\tmsg = 'Use clinical judgment regarding antibiotic coverage.';\n}\nif(u > 5){\n\trisk = 'High';\n    minirisk = 'High';\n\tmsg = 'Consider extended antibiotic coverage.';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: minirisk,\n    value_text: '',\n    message: 'Risk for MRSA'\n});\ncalc_output.push({\n    name: 'Score',\n    value: u,\n    value_text: 'points',\n    message: 'Shorr Score'\n});\ncalc_output.push({\n    name: 'Risk',\n    value: risk,\n    value_text: 'risk',\n    message: msg\n});\n",
+        "favorite_id": 3962,
+        "full_title_en": "Shorr Score for MRSA Pneumonia",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Age 19-29 or &gt;79 years</p>",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Nursing home, skilled nursing facility, or long term acute care exposure</p>",
+            "name": "nursing",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Within 90 days",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Prior IV antibiotic therapy</p>",
+            "name": "prioriv",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Within 30 days",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Hospitalization for &ge;2 days</p>",
+            "name": "hospital",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Within 90 days",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>ICU admission</p>",
+            "name": "icu",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "On or before index culture",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Any cerebrovascular disease</p>",
+            "name": "cereb",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Prior to admission",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Dementia</p>",
+            "name": "dementia",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Female with diabetes mellitus</p>",
+            "name": "fdiabetes",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited covid",
+            "time": "2020-03-17T23:48:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added covid messaging",
+            "time": "2020-03-17T14:00:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "328ee39b25407a9663343656d4eb1fc4",
+        "medium_description_en": "<p>Identifies pneumonia patients at low risk for MRSA.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "Shorr score",
+          "shor score",
+          "shorr",
+          "penumonia",
+          "chest infection",
+          "CAP",
+          "HCAP",
+          "pna",
+          "icu",
+          "severity",
+          "covid-19",
+          "coronavirus",
+          "covid 19",
+          "covid19"
+        ],
+        "search_id": "c-3962",
+        "seo": {
+          "keywords_en": "SOAR score, soar, pneumonia, chest infection, CAP, HCAP, pna, icu, severity, shorr, shorr score, park score",
+          "meta_description_en": "The Shorr Score for MRSA Pneumonia rules out MRSA in patients presenting with pneumonia."
+        },
+        "short_description_en": "<p>Rules out MRSA pneumonia.</p>",
+        "short_title_en": "Shorr Score",
+        "slug": "shorr-score-mrsa-pneumonia",
+        "specialty_en": [
+          "Critical Care",
+          "Geriatrics",
+          "Hospitalist Medicine",
+          "Infectious Disease",
+          "Internal Medicine",
+          "Pulmonology"
+        ],
+        "system_en": [
+          "Infectious",
+          "Respiratory"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Elias",
+          "hasDisclosure": [],
+          "img": "https://cdn-web-img.mdcalc.com/people/elias-wan.jpg",
+          "lastName": "Wan",
+          "name": "Elias Wan, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "elias-wan",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Andrew Shorr, MD, MPH, is an associate director of pulmonary and critical care medicine and the chief of the Pulmonary Clinic at MedStar Washington Hospital Center in Washington, DC. Dr. Shorr's research interests include resistant pathogens and healthcare-associated bacteremia, and he has published more than 140 original studies.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Andrew Shorr",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/andrew-f-shorr.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Shorr%20AF%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T15:03:33.191Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3962/shorr-score-mrsa-pneumonia",
+        "description": "The Shorr Score for MRSA Pneumonia rules out MRSA in patients presenting with pneumonia.",
+        "keywords": "SOAR score, soar, pneumonia, chest infection, CAP, HCAP, pna, icu, severity, shorr, shorr score, park score",
+        "title": "Shorr Score for MRSA Pneumonia"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10278,
+          "short_title_en": "PIRO Score for CAP",
+          "slug": "piro-score-community-acquired-pneumonia"
+        },
+        {
+          "calcId": 33,
+          "short_title_en": "PSI/PORT Score",
+          "slug": "psi-port-score-pneumonia-severity-index-cap"
+        },
+        {
+          "calcId": 4050,
+          "short_title_en": "DRIP Score",
+          "slug": "drug-resistance-pneumonia-drip-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3962",
+      "shorr-score-mrsa-pneumonia"
+    ]
+  },
+  "scriptLoader": []
+}

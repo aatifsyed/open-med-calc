@@ -1,0 +1,602 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "diagnostic_criteria",
+        "chief_complaint_en": [
+          "Abdominal Pain"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li>The modified Response Evaluation Criteria in Solid Tumors (mRECIST) was developed in <a href=\"https://jnci.oxfordjournals.org/content/100/10/698.long\" target=\"_blank\" rel=\"noopener\">2008</a> by the American Association for the Study of Liver Disease (AASLD) as an amended version of the RECIST, a method of measuring tumor response to treatment. mRECIST was developed specifically for HCC.</li>\n<li><a href=\"https://jnci.oxfordjournals.org/content/100/10/698.long\" target=\"_blank\" rel=\"noopener\">Llovet and colleagues in 2008</a> developed a framework for design of clinical trials in HCC, which included mRECIST. The original RECIST was developed in 1981 by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/7459811\" target=\"_blank\" rel=\"noopener\">Miller et al</a> and did not account for measures of tumor activity other than size.</li>\n<li>Both RECIST and mRECIST are criteria developed from expert consensus and, though widely used, have not been validated against the gold standard of pathologic studies of explanted livers.</li>\n</ul>",
+            "formula_en": "<p><span>Responses are defined as the following (RECIST is listed for comparison):</span></p>\n<table>\n<tbody>\n<tr>\n<td>&nbsp;</td>\n<td>\n<p><strong>RECIST</strong></p>\n</td>\n<td>\n<p><strong>mRECIST</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Complete response</strong></p>\n</td>\n<td>\n<p><span>Disappearance of all target lesions</span></p>\n</td>\n<td>\n<p><span>Disappearance of any intratumoral arterial enhancement in all target lesions</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Partial response</strong></p>\n</td>\n<td>\n<p><span>At least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum of the diameters of target lesions</span></p>\n</td>\n<td>\n<p><span>&thinsp;At least a 30% decrease in the sum of diameters of viable (enhancement in the arterial phase) target lesions, taking as reference the baseline sum of the diameters of target lesions</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Stable disease</strong></p>\n</td>\n<td>\n<p><span>Any cases that do not qualify for either partial response or progressive disease</span></p>\n</td>\n<td>\n<p><span>Any cases that do not qualify for either partial response or progressive disease</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Progressive disease</strong></p>\n</td>\n<td>\n<p><span>An increase of at least 20% in the sum of the diameters of target lesions, taking as reference the smallest sum of the diameters of target lesions recorded since treatment started</span></p>\n</td>\n<td>\n<p><span>An increase of at least 20% in the sum of the diameters of viable (enhancing) target lesions, taking as reference the smallest sum of the diameters of viable (enhancing) target lesions recorded since treatment started</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://jnci.oxfordjournals.org/content/100/10/698.long",
+                  "text": "Llovet JM, Di Bisceglie AM, Bruix J, Kramer BS, Lencioni R, Zhu AX, Sherman M, Schwartz M, Lotze M, Talwalkar J, Gores GJ; Panel of Experts in HCC-Design Clinical Trials. Design and endpoints of clinical trials in hepatocellular carcinoma.J Natl Cancer Inst. 2008 May 21;100(10):698-711. doi: 10.1093/jnci/djn134. Epub 2008 May 13."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://pubs.rsna.org/doi/pdf/10.1148/rg.335125214",
+                  "text": "Tirkes T, Hollar MA, Tann M, Kohli MD, Akisik F, Sandrasegaran K. Response criteria in oncologic imaging: review of traditional and new criteria. Radiographics. 2013 Sep-Oct;33(5):1323-41. doi: 10.1148/rg.335125214."
+                },
+                {
+                  "href": "https://www.aasld.org/sites/default/files/guideline_documents/HCCUpdate2010.pdf",
+                  "text": "Bruix J, Sherman M; American Association for the Study of Liver Diseases. Management of hepatocellular carcinoma: an update.Hepatology. 2011 Mar;53(3):1020-2. doi: 10.1002/hep.24199."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/7459811",
+                  "text": "Miller AB, Hoogstraten B, Staquet M, Winkler A. Reporting results of cancer treatment. Cancer 1981;47(1):207-214."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/20175033",
+                  "text": "Lencioni R, Llovet JM. Modified RECIST (mRECIST) assessment for hepatocellular carcinoma. Semin Liver Dis. 2010;30(1):52-60."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Josep Llovet",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>Can identify patients who are not responding to therapy, in order to help guide decisions about modification of therapy, more quickly than traditional endpoints like morbidity and mortality.</li>\n<li>Tumor response, while an important surrogate for efficacy of cancer treatment, is not equivalent to overall survival.</li>\n<li>Specific to HCC, unlike the original RECIST.</li>\n<li>Based on expert consensus and not yet validated against gold standard (pathologic examination of explanted livers), though widely used.</li>\n</ul>",
+            "use_case_en": "<p>Patients with hepatocellular carcinoma (HCC) who have undergone treatment (systemic, locoregional, and/or surgical).</p>",
+            "why_use_en": "<ul>\n<li>HCC patients undergo complex multimodal therapies, including systemic cytotoxic chemotherapy, targeted therapy like sorafenib, locoregional treatment like transarterial chemoembolization (TACE) and radioembolization with Y90), and surgical resection. Imaging criteria (versus traditional endpoints of morbidity and mortality) can more quickly identify patients who are not responding to therapy to help guide decisions about modification of therapy.</li>\n<li>Offers improved accuracy over previous criteria for tumor response (WHO and RECIST), which were developed based on data from patients receiving cytotoxic chemotherapy only.</li>\n<li>Accounts for tumor necrosis induced by treatment (which can be misinterpreted as living tumor by WHO classification).</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>Contrast-enhanced CT or MRI is the imaging modality of choice for evaluating lesions.</li>\n<li>European Association for the Study of the Liver (EASL) guidelines recommend evaluating for mRECIST criteria 1 month after undergoing treatment (surgery, locoregional therapy or initiation of systemic chemotherapy).</li>\n</ul>",
+            "critical_actions_en": "",
+            "management_en": "<p><img style=\"max-width: 100%;\" src=\"https://cdn-web-img.mdcalc.com/content/modified-response-evaluation-criteria-solid-tumors-mrecist-visual.jpg\" alt=\"\"> CR, complete response. PR, partial response. SD, stable disease. PD, progressive disease. IR, incomplete response.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Hepatocellular Carcinoma"
+        ],
+        "dosing": false,
+        "equation_logic": "5ce310a6b713b53493cc7d271537907d",
+        "equation_logic_text": "var b2 = parseFloat(b2) || 0\nvar b3 = parseFloat(b3) || 0\nvar b4 = parseFloat(b4) || 0\nvar b5 = parseFloat(b5) || 0\nvar c2 = parseFloat(c2) || 0\nvar c3 = parseFloat(c3) || 0\nvar c4 = parseFloat(c4) || 0\nvar c5 = parseFloat(c5) || 0\n\nvar calc_output = [];\n\nvar a = parseFloat(b1);\nvar b = b2;\nvar c = b3;\nvar d = b4;\nvar e = b5;\nvar f = parseFloat(c1);\nvar g = c2;\nvar h = c3;\nvar i = c4;\nvar j = c5;\nvar k = (a + b + c + d + e);\nvar l = (f + g + h + i + j);\n\nvar diff = l - k;\nvar change = ((l - k) / k) * 100;\n\nvar r = (f + g + h + i + j);\n\nvar rb = (a + b + c + d + e);\n\nvar T;\nvar type;\n\nif (rb == 0 && a == 0 && f > 0) {\n  T = 'Progressive';\n  type = ' disease';\n}\nelse if (rb == 0 && b == 0 && g > 0) {\n  T = 'Progressive';\n  type = ' disease';\n}\nelse if (rb == 0 && c == 0 && h > 0) {\n  T = 'Progressive';\n  type = ' disease';\n}\nelse if (rb == 0 && d == 0 && i > 0) {\n  T = 'Progressive';\n  type = ' disease';\n}\nelse if (rb == 0 && e == 0 && j > 0) {\n  T = 'Progressive';\n  type = ' disease';\n}\nelse if (l == 0) {\n  T = 'Complete';\n  type = ' response';\n}\nelse if (r == 0) {\n  T = 'Complete';\n  type = ' response';\n}\nelse if (change >= +20 && diff >= 5) {\n  T = 'Progressive';\n  type = ' disease';\n}\nelse if (change <= -30) {\n  T = 'Partial';\n  type = ' response';\n}\nelse if (change > -30) {\n  T = 'Stable';\n  type = ' disease';\n}\n\n\ncalc_output.push({ \n  name: 'mini', \n  value: T, \n  value_text: type, \n  message: '' \n});\ncalc_output.push({ \n  name: 'mRECIST', \n  value: T + type, \n  value_text: '', \n  message: 'Hepatocellular Carcinoma' \n});\n",
+        "favorite_id": 3824,
+        "full_title_en": "Modified Response Evaluation Criteria in Solid Tumors (mRECIST)",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Tumor 1 size at baseline</p>",
+            "name": "b1",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "length_si_mm"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Tumor 1 current size</p>",
+            "name": "c1",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "length_si_mm"
+          },
+          {
+            "conditionality": "b1 != null && c1 != null",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Tumor 2 size at baseline</p>",
+            "name": "b2",
+            "optional": true,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "length_si_mm"
+          },
+          {
+            "conditionality": "b1 != null && c1 != null",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Tumor 2 current size</p>",
+            "name": "c2",
+            "optional": true,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "length_si_mm"
+          },
+          {
+            "conditionality": "b2 != null && c2 != null",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Tumor 3 size at baseline</p>",
+            "name": "b3",
+            "optional": true,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "length_si_mm"
+          },
+          {
+            "conditionality": "b2 != null && c2 != null",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Tumor 3 current size</p>",
+            "name": "c3",
+            "optional": true,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "length_si_mm"
+          },
+          {
+            "conditionality": "b3 != null && c3 != null",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Tumor 4 size at baseline</p>",
+            "name": "b4",
+            "optional": true,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "length_si_mm"
+          },
+          {
+            "conditionality": "b3 != null && c3 != null",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Tumor 4 current size</p>",
+            "name": "c4",
+            "optional": true,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "length_si_mm"
+          },
+          {
+            "conditionality": "b4 != null && c4 != null",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Tumor 5 size at baseline</p>",
+            "name": "b5",
+            "optional": true,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "length_si_mm"
+          },
+          {
+            "conditionality": "b4 != null && c4 != null",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Tumor 5 current size</p>",
+            "name": "c5",
+            "optional": true,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "length_si_mm"
+          }
+        ],
+        "instructions_en": "<p><span>Use in liver lesions meeting the following criteria:</span></p>\n<ul>\n<li><span>Can be accurately measured in at least one dimension as 10 mm or more (measure longest diameter).</span></li>\n<li><span>Suitable for repeat measurement.</span></li>\n<li><span>Intratumoral arterial enhancement on contrast-enhanced CT or MRI.</span></li>\n</ul>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "bad9464a4e44e4e3871f5d227d35d699",
+        "medium_description_en": "<p>Measures treatment response, specifically to cytotoxic drugs, based on tumor shrinkage.</p>",
+        "publishedAt": "2022-04-21T20:29:21.357Z",
+        "purpose_en": [
+          "Prognosis",
+          "Treatment"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "hcc"
+        ],
+        "search_id": "c-3824",
+        "seo": {
+          "keywords_en": "hcc, treatment response, cytotoxic drugs, hoc treatment",
+          "meta_description_en": "The mRECIST Criteria Measures treatment response, specifically to cytotoxic drugs, based on tumor shrinkage."
+        },
+        "short_description_en": "<p>Measures treatment response by HCC tumor size.</p>",
+        "short_title_en": "mRECIST",
+        "slug": "modified-response-evaluation-criteria-solid-tumors-mrecist",
+        "specialty_en": [
+          "Hematology and Oncology",
+          "Hepatology",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Gastrointestinal"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "bf601357-744b-44cd-a007-2e3268561d2c"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Josep Llovet, MD, is a professor of medicine and founder and director of the Liver Cancer Program at Mount Sinai Hospital. He was the president, secretary and founder of the International Liver Cancer Association (ILCA) and Chairman of the European Clinical Practice Guidelines of management of liver cancer (EASL-EORTC). He is an active researcher investigating the pathogenesis and treatment of liver cancer.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Josep Llovet",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/default.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Llovet+JM%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3824/modified-response-evaluation-criteria-solid-tumors-mrecist",
+        "description": "The mRECIST Criteria Measures treatment response, specifically to cytotoxic drugs, based on tumor shrinkage.",
+        "keywords": "hcc, treatment response, cytotoxic drugs, hoc treatment",
+        "title": "Modified Response Evaluation Criteria in Solid Tumors (mRECIST)"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 10000,
+          "error_max_si": 10000,
+          "error_max_us": 10000,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Length",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "length_si_mm",
+          "units_si": "mm",
+          "units_us": "mm",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 1000,
+          "warn_max_si": 1000,
+          "warn_max_us": 1000,
+          "warn_min": 0.1,
+          "warn_min_si": 0.1,
+          "warn_min_us": 0.1
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 3825,
+          "short_title_en": "BCLC Staging Classification",
+          "slug": "barcelona-clinic-liver-cancer-bclc-staging-classification-treatment-guidelines"
+        },
+        {
+          "calcId": 3823,
+          "short_title_en": "Metroticket Calculator",
+          "slug": "metroticket-calculator-hepatocellular-carcinoma-survival"
+        },
+        {
+          "calcId": 10031,
+          "short_title_en": "REACH-B Score",
+          "slug": "reach-b-score-hepatocellular-carcinoma-hcc"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3824",
+      "modified-response-evaluation-criteria-solid-tumors-mrecist"
+    ]
+  },
+  "scriptLoader": []
+}

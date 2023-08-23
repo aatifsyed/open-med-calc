@@ -1,0 +1,1227 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "diagnostic_criteria",
+        "chief_complaint_en": [
+          "Depressed"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\"><strong>Manic, hypomanic, and major depressive episodes defined below.</strong></p>\n<p dir=\"ltr\"><strong>&nbsp;</strong></p>\n<p dir=\"ltr\"><strong>DSM-5 Criteria for Bipolar I Disorder (must have both A-B):</strong></p>\n<table><colgroup><col width=\"*\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">A. &ge;1 manic episode (may also have hypomanic and/or major depressive episodes).</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">B. Episode(s) not better explained by schizoaffective disorder, schizophrenia, schizophreniform disorder, delusional disorder, or other specified or unspecified schizophrenia spectrum and other psychotic disorder.</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"ltr\"><strong>&nbsp;</strong></p>\n<p dir=\"ltr\"><strong>DSM-5 Criteria for Bipolar II Disorder (must have all A-C):</strong></p>\n<table><colgroup><col width=\"*\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">A. &ge;1 hypomanic episode <strong>and</strong> &ge;1 major depressive episode.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">B. No history of manic episode.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">C. Episode(s) not better explained by schizoaffective disorder, schizophrenia, schizophreniform disorder, delusional disorder, or other specified or unspecified schizophrenia spectrum and other psychotic disorder.</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"ltr\"><strong>&nbsp;</strong></p>\n<p dir=\"ltr\"><strong>Manic episode (must have all A-D to qualify as manic episode):</strong></p>\n<table><colgroup><col width=\"*\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>A.</strong> <strong>Distinct period of mood disturbance.</strong></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">&ge;1 week of abnormally and persistently elevated, expansive, or irritable mood and abnormally and persistently increased activity or energy. Present most of the day, nearly every day (or any duration, if hospitalization needed).</p>\n</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>B. Manic symptoms:</strong> during period of mood disturbance and increased energy/activity, &ge;3 of the following symptoms (4 if the mood is only irritable) present to a significant degree and are a noticeable change from usual behavior:</p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Inflated self-esteem or grandiosity.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Decreased need for sleep (e.g. feels rested after only 3 hrs sleep).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">More talkative than usual, or pressure to keep talking.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Flight of ideas or subjectively racing thoughts.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Distractibility (i.e., attention too easily drawn to unimportant or irrelevant external stimuli), as reported or observed.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Increase in goal directed activity (either socially, at work or school, or sexually) or psychomotor agitation (i.e., purposeless non-goal directed activity).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Excessive involvement in activities with high potential for painful consequences (e.g. unrestrained buying sprees, sexual indiscretions, foolish business investments).</p>\n</li>\n</ol>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>C. Mood disturbance sufficiently severe to cause marked impairment in social/occupational functioning, or needs hospitalization to prevent harm to self or others, or there are psychotic features.</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>D. Episode not attributable to a substance (e.g. drug of abuse, medication, other treatment) or other medical condition.</strong></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p><strong>&nbsp;</strong></p>\n<p><strong>Hypomanic episode (must have all A-F to qualify as hypomanic episode):</strong></p>\n<table><colgroup><col width=\"*\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p><strong>Criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>A. Distinct period of mood disturbance.</strong></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">&ge;4 consecutive days of abnormally and persistently elevated, expansive, or irritable mood and abnormally and persistently increased activity or energy. Present most of the day, nearly every day (or any duration, if hospitalization needed).</p>\n</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>B. Manic symptoms:</strong> during period of mood disturbance and increased energy/activity, &ge;3 of the following symptoms (4 if the mood is only irritable) present to a significant degree and are a noticeable change from usual behavior:</p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Inflated self-esteem or grandiosity.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Decreased need for sleep (e.g. feels rested after only 3 hrs sleep).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">More talkative than usual, or pressure to keep talking.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Flight of ideas or subjectively racing thoughts.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Distractibility (i.e., attention too easily drawn to unimportant or irrelevant external stimuli), as reported or observed.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Increase in goal directed activity (either socially, at work or school, or sexually) or psychomotor agitation (i.e., purposeless, non-goal directed activity).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Excessive involvement in activities with high potential for painful consequences (e.g. unrestrained buying sprees, sexual indiscretions, foolish business investments).</p>\n</li>\n</ol>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>C. Episode associated with an unequivocal change in functioning uncharacteristic of person when not symptomatic.</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>D. Mood disturbance and change in functioning are observable by others.</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>E. Episode not severe enough to cause marked impairment in social/occupational functioning or to necessitate hospitalization (if psychotic features present, the episode is manic).</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>F. Episode not attributable to a substance (e.g. drug of abuse, medication, other treatment) or other medical condition.</strong></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"ltr\"><strong>&nbsp;</strong></p>\n<p dir=\"ltr\"><strong>Major depressive episode (must have all A-C to qualify as major depressive episode):</strong></p>\n<table><colgroup><col width=\"*\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>A.</strong> <strong>Depressive symptoms:</strong> &ge;5 symptoms during the same 2-week period that are a change from previous functioning. Depressed mood (#1) and/or loss of interest/pleasure (#2) must be present. Exclude symptoms clearly attributable to another medical condition.</p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\"><strong>Depressed mood.</strong></p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Most of the day, nearly every day. May be subjective (e.g. feels sad/empty/hopeless) or observed by others (e.g. appears tearful). In children and adolescents, can be irritable mood.</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\"><strong>Loss of interest/pleasure.</strong></p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Markedly diminished interest/pleasure in all (or almost all) activities most of the day, nearly every day. May be subjective or observed by others.</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\"><strong>Weight loss or gain.</strong></p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Significant weight loss without dieting, or weight gain (change of &gt;5% body weight in a month), or decreased/increased appetite nearly every day. In children, may be failure to gain weight as expected.</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\"><strong>Insomnia or hypersomnia.</strong></p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Nearly every day.</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\"><strong>Psychomotor agitation or retardation.</strong></p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Nearly every day and observable by others (not merely subjectively restless or slow).</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\"><strong>Fatigue.</strong></p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Or loss of energy, nearly every day.</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\"><strong>Feeling worthless or excessive/inappropriate guilt.</strong></p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Nearly every day. Guilt may be delusional. Not merely self reproach or guilt about being sick.</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\"><strong>Decreased concentration.</strong></p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Nearly every day. May be indecisiveness. May be subjective or observed by others.</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\"><strong>Thoughts of death/suicide.</strong></p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Recurrent thoughts of death (not just fear of dying), recurrent suicidal ideation without specific plan, or suicide attempt, or a specific plan for suicide.</p>\n</li>\n</ul>\n</ol>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>B. Symptoms cause clinically significant distress or impairment in social, occupational, or other important areas of functioning.</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>C. Episode not attributable to physiological effects of a substance or another medical condition.</strong></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p></p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.psychiatry.org/psychiatrists/practice/dsm",
+                  "text": "American Psychiatric Association: Desk Reference to the Diagnostic Criteria From DSM-5. Arlington, VA, American Psychiatric Association, 2013."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "OTHER",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the DSM-5 Criteria for BPD&nbsp;and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the&nbsp;DSM-5 Criteria for BPD&nbsp;and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Bipolar Disorder",
+          "Depression/Suicidality"
+        ],
+        "dosing": false,
+        "equation_logic": "b41f58fde8a58fdb002f9a95668f1876",
+        "equation_logic_text": "var calc_output = [];\n\nvar manicsymptom1 = parseFloat(manicsymptom1);\nvar manicsymptom2 = parseFloat(manicsymptom2);\nvar manicsymptom3 = parseFloat(manicsymptom3);\nvar manicsymptom4 = parseFloat(manicsymptom4);\nvar manicsymptom5 = parseFloat(manicsymptom5);\nvar manicsymptom6 = parseFloat(manicsymptom6);\nvar manicsymptom7 = parseFloat(manicsymptom7);\nvar manic1 = parseFloat(manic1);\nvar manic2 = parseFloat(manic2);\nvar manic3 = parseFloat(manic3);\nvar hypomanicsymptom1 = parseFloat(hypomanicsymptom1);\nvar hypomanicsymptom2 = parseFloat(hypomanicsymptom2);\nvar hypomanicsymptom3 = parseFloat(hypomanicsymptom3);\nvar hypomanicsymptom4 = parseFloat(hypomanicsymptom4);\nvar hypomanicsymptom5 = parseFloat(hypomanicsymptom5);\nvar hypomanicsymptom6 = parseFloat(hypomanicsymptom6);\nvar hypomanicsymptom7 = parseFloat(hypomanicsymptom7);\nvar hypomanic1 = parseFloat(hypomanic1);\nvar hypomanic2 = parseFloat(hypomanic2);\nvar hypomanic3 = parseFloat(hypomanic3);\nvar hypomanic4 = parseFloat(hypomanic4);\nvar hypomanic5 = parseFloat(hypomanic5);\nvar mood = parseFloat(mood);\nvar loss = parseFloat(loss);\nvar weight = parseFloat(weight);\nvar insomnia = parseFloat(insomnia);\nvar psycho = parseFloat(psycho);\nvar fatigue = parseFloat(fatigue);\nvar guilt = parseFloat(guilt);\nvar concentration = parseFloat(concentration);\nvar suicide = parseFloat(suicide);\nvar two = parseFloat(two);\nvar three = parseFloat(three);\n\nvar manic_diag, hypomanic_diag, depressed_diag, diag, mini_diag;\n\nvar manic = manic1 + manic2 + manic3;\nvar manic_symp = manicsymptom1 +\nmanicsymptom2 +\nmanicsymptom3 +\nmanicsymptom4 +\nmanicsymptom5 +\nmanicsymptom6 +\nmanicsymptom7;\n\nif (manic == 3 && manic_symp >= 3) {\n\tmanic_diag = 1;\n} else {\n\tmanic_diag = 0;\n}\n\nvar hypomanic = hypomanic1 + hypomanic2 + hypomanic3 + hypomanic4 + hypomanic5;\n\nvar hypomanic_symp = hypomanicsymptom1 + hypomanicsymptom2 + hypomanicsymptom3 + hypomanicsymptom4 + hypomanicsymptom5 + hypomanicsymptom6 + hypomanicsymptom7;\n\nif (hypomanic == 5 && hypomanic_symp >= 3) {\n\thypomanic_diag = 1;\n} else {\n\thypomanic_diag = 0;\n}\n\nvar depressed = two + three;\nvar depressed_symp = mood + loss + weight + insomnia + psycho + fatigue + guilt + concentration + suicide;\n\nif (depressed == 2 && depressed_symp >= 5 && (mood + loss > 0)) {\n\tdepressed_diag = 1;\n} else {\n\tdepressed_diag = 0;\n}\n\nif (manic_diag == 1) {\n\tmini_diag = 'bipolar I disorder';\n\tdiag = 'Positive';\n} else if (hypomanic_diag == 1 && manic_diag == 0 && depressed_diag == 1) {\n\tmini_diag = 'bipolar II disorder';\n\tdiag = 'Positive';\n} else {\n\tmini_diag = 'bipolar I/II disorder';\n\tdiag = 'Not positive';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: diag,\n    value_text: '',\n    message: diag + ' for ' + mini_diag\n});\ncalc_output.push({\n    name: 'Score',\n    value: diag,\n    value_text: '',\n    message: diag + ' for ' + mini_diag + ' by DSM-5 Criteria'   \n});",
+        "favorite_id": 10196,
+        "full_title_en": "DSM-5 Criteria for Bipolar Disorder",
+        "input_schema": [
+          {
+            "type": "visual",
+            "visual": "<img src = \"https://cdn-web-img.mdcalc.com/content/DSMBPD.png\" width = \"100%\">"
+          },
+          {
+            "subheading": "Manic episode",
+            "subheading_instructions": "Manic symptoms: during period of mood disturbance and increased energy/activity, ≥3 of the following symptoms (4 if the mood is only irritable) present to a significant degree and are a noticeable change from usual behavior",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Inflated self-esteem or grandiosity",
+            "name": "manicsymptom1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Decreased need for sleep (e.g. feels rested after only 3 hrs sleep)",
+            "name": "manicsymptom2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "More talkative than usual, or pressure to keep talking",
+            "name": "manicsymptom3",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Flight of ideas or subjectively racing thoughts",
+            "name": "manicsymptom4",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Distractibility (i.e., attention too easily drawn to unimportant or irrelevant external stimuli), as reported or observed",
+            "name": "manicsymptom5",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Increase in goal directed activity (either socially, at work or school, or sexually) or psychomotor agitation (i.e., purposeless non-goal directed activity)",
+            "name": "manicsymptom6",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Excessive involvement in activities with high potential for painful consequences (e.g. unrestrained buying sprees, sexual indiscretions, foolish business investments)",
+            "name": "manicsymptom7",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "subheading": "",
+            "subheading_instructions": "Additional required criteria",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Distinct period of mood disturbance",
+            "name": "manic1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "≥1 week of abnormally and persistently elevated, expansive, or irritable mood and abnormally and persistently increased activity or energy; present most of the day, nearly every day (or any duration, if hospitalization needed)",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Mood disturbance sufficiently severe to cause marked impairment in social/occupational functioning, or needs hospitalization to prevent harm to self or others, or there are psychotic features",
+            "name": "manic2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Episode not attributable to a substance (e.g. drug of abuse, medication, other treatment) or other medical condition",
+            "name": "manic3",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "subheading": "Hypomanic episode",
+            "subheading_instructions": "Manic symptoms: during period of mood disturbance and increased energy/activity, ≥3 of the following symptoms (4 if the mood is only irritable) present to a significant degree and are a noticeable change from usual behavior",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Inflated self-esteem or grandiosity",
+            "name": "hypomanicsymptom1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Decreased need for sleep (e.g. feels rested after only 3 hrs sleep)",
+            "name": "hypomanicsymptom2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "More talkative than usual, or pressure to keep talking",
+            "name": "hypomanicsymptom3",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Flight of ideas or subjectively racing thoughts",
+            "name": "hypomanicsymptom4",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Distractibility (i.e., attention too easily drawn to unimportant or irrelevant external stimuli), as reported or observed",
+            "name": "hypomanicsymptom5",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Increase in goal directed activity (either socially, at work or school, or sexually) or psychomotor agitation (i.e., purposeless, non-goal directed activity)",
+            "name": "hypomanicsymptom6",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Excessive involvement in activities with high potential for painful consequences (e.g. unrestrained buying sprees, sexual indiscretions, foolish business investments)",
+            "name": "hypomanicsymptom7",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "subheading": "",
+            "subheading_instructions": "Additional required criteria",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Distinct period of mood disturbance",
+            "name": "hypomanic1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "≥4 consecutive days of abnormally and persistently elevated, expansive, or irritable mood and abnormally and persistently increased activity or energy; present most of the day, nearly every day (or any duration, if hospitalization needed)",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Episode associated with an unequivocal change in functioning uncharacteristic of person when not symptomatic",
+            "name": "hypomanic2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Mood disturbance and change in functioning are observable by others",
+            "name": "hypomanic3",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Episode not severe enough to cause marked impairment in social/occupational functioning or to necessitate hospitalization (if psychotic features present, the episode is manic)",
+            "name": "hypomanic4",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Episode not attributable to a substance (e.g. drug of abuse, medication, other treatment) or other medical condition",
+            "name": "hypomanic5",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "subheading": "Major depressive episode",
+            "subheading_instructions": "Depressive symptoms: ≥5 symptoms during the same 2-week period that are a change from previous functioning; depressed mood and/or loss of interest/pleasure must be present; exclude symptoms clearly attributable to another medical condition",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Depressed mood",
+            "name": "mood",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Most of the day, nearly every day; may be subjective (e.g. feels sad/empty/hopeless) or observed by others (e.g. appears tearful); in children and adolescents, can be irritable mood",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Loss of interest/pleasure",
+            "name": "loss",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Markedly diminished interest/pleasure in all (or almost all) activities most of the day, nearly every day; may be subjective or observed by others",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Weight loss or gain",
+            "name": "weight",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Significant weight loss without dieting, or weight gain (change of >5% body weight in a month), or decreased/increased appetite nearly every day; in children, may be failure to gain weight as expected",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Insomnia or hypersomnia",
+            "name": "insomnia",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Nearly every day",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Psychomotor agitation or retardation",
+            "name": "psycho",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Nearly every day and observable by others (not merely subjectively restless or slow)",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Fatigue",
+            "name": "fatigue",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Or loss of energy, nearly every day",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Feeling worthless or excessive/inappropriate guilt",
+            "name": "guilt",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Nearly every day; guilt may be delusional; not merely self reproach or guilt about being sick",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Decreased concentration",
+            "name": "concentration",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Nearly every day; may be indecisiveness; may be subjective or observed by others",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Thoughts of death/suicide",
+            "name": "suicide",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Recurrent thoughts of death (not just fear of dying), recurrent suicidal ideation without specific plan, or suicide attempt, or a specific plan for suicide",
+            "type": "toggle"
+          },
+          {
+            "subheading": "",
+            "subheading_instructions": "Additional required criteria",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Symptoms cause clinically significant distress or impairment in social, occupational, or other important areas of functioning",
+            "name": "two",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Episode not attributable to physiological effects of a substance or another medical condition",
+            "name": "three",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Episode(s) not better explained by schizoaffective disorder, schizophrenia, schizophreniform disorder, delusional disorder, or other specified or unspecified schizophrenia spectrum and other psychotic disorder.</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "return removed empty spaces for testing",
+            "time": "2019-07-17T11:46:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "removed empty space from src=",
+            "time": "2019-07-17T11:38:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edited search terms",
+            "time": "2019-07-16T14:26:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "testing",
+            "time": "2019-07-16T11:12:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round eidts",
+            "time": "2019-07-16T11:05:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-07-16T10:39:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-07-16T10:24:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added diagram",
+            "time": "2019-06-25T14:10:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added diagram",
+            "time": "2019-06-25T13:55:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-06-25T13:44:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-06-25T13:40:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added diagram",
+            "time": "2019-06-25T13:35:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-05-14T13:19:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-05-14T12:58:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added all inputs",
+            "time": "2019-05-13T17:49:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added some more inputs",
+            "time": "2019-05-13T17:35:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited tip",
+            "time": "2019-05-13T17:25:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2019-05-13T17:17:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "db77f3c8f39b50d0210cf00322f53a1b",
+        "medium_description_en": "<p>Diagnostic criteria for bipolar disorder (BPD).</p>",
+        "publishedAt": "2022-04-21T20:28:33.168Z",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "Bipolar disorder",
+          "bpd",
+          "dsm5",
+          "dsm 5",
+          "dsm-5",
+          "dsm-v",
+          "dsm criteria",
+          "dsm v"
+        ],
+        "search_id": "c-10196",
+        "seo": {
+          "keywords_en": "Bipolar disorder, bpd, dsm5, dsm 5, dsm-5, dsm-v, dsm criteria, dsm v",
+          "meta_description_en": "The DSM-5 Criteria for Bipolar Disorder is a set of diagnostic criteria for bipolar disorder (BPD)."
+        },
+        "short_description_en": "<p>Diagnosis of BPD.</p>",
+        "short_title_en": "DSM-5 Criteria for BPD",
+        "slug": "dsm-5-criteria-bipolar-disorder",
+        "specialty_en": [
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Psychiatry"
+        ],
+        "system_en": [
+          "Psychiatric"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "f8cae784-bd03-4a6b-a921-b897ef4040ca"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Other creator.</p>",
+          "createdAt": "2022-04-08T13:27:37.821Z",
+          "deceased": true,
+          "firstName": "",
+          "lastName": "",
+          "name": "OTHER",
+          "photo_en": null,
+          "publishedAt": "2023-01-10T18:10:35.625Z",
+          "pubmedLink": null,
+          "signedCOI": false,
+          "updatedAt": "2023-01-10T18:11:49.358Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10196/dsm-5-criteria-bipolar-disorder",
+        "description": "The DSM-5 Criteria for Bipolar Disorder is a set of diagnostic criteria for bipolar disorder (BPD).",
+        "keywords": "Bipolar disorder, bpd, dsm5, dsm 5, dsm-5, dsm-v, dsm criteria, dsm v",
+        "title": "DSM-5 Criteria for Bipolar Disorder"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10153,
+          "short_title_en": "DSM-5 Criteria for Binge Eating Disorder",
+          "slug": "dsmv-diagnostic-criteria-for-binge-eating-disorder"
+        },
+        {
+          "calcId": 10211,
+          "short_title_en": "DSM-5 Criteria for PTSD",
+          "slug": "dsm-5-criteria-posttraumatic-stress-disorder"
+        },
+        {
+          "calcId": 10195,
+          "short_title_en": "DSM-5 Criteria for Major Depressive Disorder",
+          "slug": "dsm-5-criteria-major-depressive-disorder"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10196",
+      "dsm-5-criteria-bipolar-disorder"
+    ]
+  },
+  "scriptLoader": []
+}

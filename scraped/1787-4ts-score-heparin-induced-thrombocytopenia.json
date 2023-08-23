@@ -1,0 +1,565 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Bleeding"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+00",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+00",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "1787.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>The 4TS Score is calculated by the addition of the selected points:</p>\n<table class=\"table table-bordered\" style=\"width: 515px; height: 655.985px;\">\n<tbody>\n<tr style=\"height: 22.3984px;\">\n<th style=\"width: 130.648px; height: 22.3984px;\">Category</th>\n<th style=\"width: 116.898px; height: 22.3984px;\">2 points</th>\n<th style=\"width: 133.594px; height: 22.3984px;\">1 point</th>\n<th style=\"width: 77.6719px; height: 22.3984px;\">0 points</th>\n</tr>\n<tr style=\"height: 153.461px;\">\n<td style=\"width: 130.648px; height: 153.461px;\">Thrombocytopenia</td>\n<td style=\"width: 116.898px; height: 153.461px;\">Platelet count fall &gt;50% AND platelet nadir &ge;20 &times; 10<sup>9</sup>&nbsp;L<sup>&minus;1</sup></td>\n<td style=\"width: 133.594px; height: 153.461px;\">Platelet count fall 30%&ndash;50% OR platelet nadir 10&ndash;19 &times; 10<sup>9</sup>&nbsp;L<sup>&minus;1</sup></td>\n<td style=\"width: 77.6719px; height: 153.461px;\">Platelet count fall &lt;30% OR platelet nadir &lt;10 &times; 10<sup>9</sup>&nbsp;L<sup>&minus;1</sup></td>\n</tr>\n<tr style=\"height: 210.258px;\">\n<td style=\"width: 130.648px; height: 210.258px;\">Timing of platelet count fall</td>\n<td style=\"width: 116.898px; height: 210.258px;\">Clear onset between days 5 and 10 OR platelet fall &le;1 day (prior heparin exposure within 30 days)</td>\n<td style=\"width: 133.594px; height: 210.258px;\">Consistent with days 5&ndash;10 fall, but not clear (e.g. missing platelet counts) OR onset after day 10 OR fall &le;1 day (prior heparin exposure 30&ndash;100 days ago)</td>\n<td style=\"width: 77.6719px; height: 210.258px;\">Platelet count fall &lt;4 days without recent heparin exposure</td>\n</tr>\n<tr style=\"height: 225.055px;\">\n<td style=\"width: 130.648px; height: 225.055px;\">Thrombosis or other sequelae</td>\n<td style=\"width: 116.898px; height: 225.055px;\">New thrombosis (confirmed) OR skin necrosis at heparin injection sites OR acute systemic reaction after intravenous heparin bolus</td>\n<td style=\"width: 133.594px; height: 225.055px;\">Progressive or recurrent thrombosis or nonnecrotizing (erythematous) skin lesions or suspected thrombosis (not proven)</td>\n<td style=\"width: 77.6719px; height: 225.055px;\">None</td>\n</tr>\n<tr style=\"height: 44.8125px;\">\n<td style=\"width: 130.648px; height: 44.8125px;\">Other causes for thrombocytopenia</td>\n<td style=\"width: 116.898px; height: 44.8125px;\">None apparent</td>\n<td style=\"width: 133.594px; height: 44.8125px;\">Possible</td>\n<td style=\"width: 77.6719px; height: 44.8125px;\">Definite</td>\n</tr>\n</tbody>\n</table>",
+            "more_info_en": "<ul>\n<li>&le;3 points: low probability for HIT (&le;5% in original study, &lt;1% in meta-analysis).</li>\n<li>4-5 points: intermediate probability (~14% probability of HIT).</li>\n<li>6-8 points: high probability (~64% probability of HIT).</li>\n</ul>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16634744",
+                  "text": "Lo GK, Juhl D, Warkentin TE, Sigouin CS, Eichler P, Greinacher A. Evaluation of pretest clinical score (4 Ts) for the diagnosis of heparin-induced thrombocytopenia in two clinical settings. J Thromb Haemost 2006; 4: 759–65."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23322137",
+                  "text": "Vatanparast R, Lantz S, Ward K, Crilley PA, Styler M. Evaluation of a pretest scoring system (4Ts) for the diagnosis of heparin-induced thrombocytopenia in a university hospital setting. Postgrad Med. 2012 Nov;124(6):36-42."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Calvin Hwang, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Andreas Greinacher",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>The 4Ts for the diagnosis of heparin-induced thrombocytopenia (HIT) is a tool developed to help clinicians rule out HIT in patients who develop thrombocytopenia in the clinical setting.</p>\n<ul>\n<li>Included patients being evaluated for thrombocytopenia or suspected HIT in two clinical settings: inpatients at Hamilton General Hospital (HGH) in Canada and various clinicians in a variety of healthcare settings in Germany and Austria.</li>\n<li>The study prospectively applied previously developed scoring systems using various clinical features of HIT.</li>\n<li>Scoring system consisted of four criteria, each of which was worth 0, 1, or 2 points.</li>\n<li>Study used &le;3 points to define low probability group (&le;5%) for HIT, 4-5 points for intermediate and 6-8 points for high.</li>\n<li>Gold standard for diagnosis of HIT was either:\n<ul>\n<li>A platelet serotonin release assay (SRA) and a PF4/polyanion-enzyme immunoassay (EIA) with &ge;50% serotonin release and positive EIA, OR</li>\n<li>A positive heparin-induced platelet activation (HIPA) test in at least three of four donor platelets.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Points to keep in mind:</strong></p>\n<ul>\n<li>Scoring system criteria for HIT was slightly different between the two main sites.</li>\n<li>The study used two different tests to diagnose HIT, depending on the site.</li>\n<li>One of the four components of their scoring system, other causes for thrombocytopenia, is subjective.</li>\n<li>Results between the two sites in the intermediate and high probability groups were statistically different.</li>\n</ul>\n<p>A subsequent review and meta-analysis of the 4Ts scoring system for HIT found that patients in the low-risk group had a negative predictive value of 0.998, irrespective of type of clinician, prevalence of HIT, or patient population.</p>",
+            "use_case_en": "<ul>\n<li>Consider using the 4Ts scoring system to stratify patients&rsquo; risk for HIT in patients with thrombocytopenia who are currently or were recently on heparin derived agents.</li>\n<li>Patients falling into the low-risk category frequently do not need further testing for HIT.</li>\n<li>Consider further laboratory evaluation for HIT or switching to a non-heparin derived anti-coagulant in those patients in the intermediate or high-risk groups.</li>\n</ul>",
+            "why_use_en": "<p>Consider using the 4Ts scoring system as an alternative evaluation tool prior to time-consuming antibody testing for HIT or empiric substitution of heparin for another anti-coagulant.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the 4Ts Score for Heparin-Induced Thrombocytopenia and want to contribute your expertise? <a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a>&nbsp;our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Bleeding/Hemorrhage",
+          "Thrombocytopenia"
+        ],
+        "dosing": false,
+        "equation_logic": "5b369ce1613eb39e62bd5522db26c723",
+        "equation_logic_text": "var calc_output = [];\nvar msg, mini_msg, percent;\nvar output_score = parseInt(thrombocytopenia) + parseInt(platelet_fall_timing) + parseInt(thrombosis) + parseInt(other_causes_thrombocytopenia);\nif (output_score < 4) {\n    mini_msg = 'Low Probability of HIT';\n    percent = '<5%';\n    msg = 'Low Probability of HIT (<5%)'\n}\nif (output_score == 4 || output_score == 5) {\n    mini_msg = 'Intermediate Probability of HIT';\n    percent = '~14%';\n    msg = 'Intermediate Probability of HIT (~14%)'\n}\nif (output_score > 5) {\n    mini_msg = 'High Probability of HIT';\n    percent = '~64%';\n    msg = 'High Probability of HIT (~64%)'\n}\ncalc_output.push({\n    name: 'mini',\n    value: percent,\n    value_text: ' ',\n    message: mini_msg\n});\ncalc_output.push({\n    name: '1787_4Ts for HIT_result',\n    value: output_score,\n    value_text: 'points',\n    message: msg\n});",
+        "favorite_id": 1787,
+        "full_title_en": "4Ts Score for Heparin-Induced Thrombocytopenia",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": 2,
+            "label_en": "Thrombocytopenia",
+            "mdcalc_info_concept": null,
+            "name": "thrombocytopenia",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Platelet count fall >50% AND platelet nadir ≥20",
+                "value": 2
+              },
+              {
+                "label": "Platelet count fall 30–50% OR platelet nadir 10–19",
+                "value": 1
+              },
+              {
+                "label": "Platelet count fall <30% OR platelet nadir <10",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 2,
+            "label_en": "Timing of platelet count fall",
+            "mdcalc_info_concept": null,
+            "name": "platelet_fall_timing",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Clear onset between days 5–10 OR platelet fall ≤1 day (prior heparin exposure within 30 days)",
+                "value": 2
+              },
+              {
+                "label": "Consistent with days 5–10 fall, but not clear; onset after day 10 OR fall ≤1 day (prior heparin exposure 30–100 days ago)",
+                "value": 1
+              },
+              {
+                "label": "Platelet count fall <4 days without recent exposure",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 2,
+            "label_en": "Thrombosis or other sequelae",
+            "mdcalc_info_concept": null,
+            "name": "thrombosis",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "New thrombosis OR skin necrosis; acute systemic reaction post-IV heparin bolus",
+                "value": 2
+              },
+              {
+                "label": "Progressive OR recurrent thrombosis; non-necrotizing skin lesions; suspected thrombosis (not proven)",
+                "value": 1
+              },
+              {
+                "label": "None",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 2,
+            "label_en": "Other causes for thrombocytopenia",
+            "mdcalc_info_concept": null,
+            "name": "other_causes_thrombocytopenia",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "None apparent",
+                "value": 2
+              },
+              {
+                "label": "Possible",
+                "value": 1
+              },
+              {
+                "label": "Definite",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "4852608c83b4b90c941556d441664830",
+        "medium_description_en": "<p>Differentiates patients with HIT from those with other causes of thrombocytopenia.</p>",
+        "publishedAt": "2022-04-21T20:29:01.352Z",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "plt",
+          "HIT"
+        ],
+        "search_id": "c-1787",
+        "seo": {
+          "keywords_en": "4 Ts for HIT, HIT calculator, heparin score, diagnosis HIT calc, heparin induced calculator, heparin coagulopathy score, heparin thrombocytopenia score",
+          "meta_description_en": "The 4Ts Score is a clinical scoring system to differentiate patients with HIT from those with other causes of thrombocytopenia."
+        },
+        "short_description_en": "<p>HIT vs other causes of thrombocytopenia.</p>",
+        "short_title_en": "4Ts for HIT",
+        "slug": "4ts-score-heparin-induced-thrombocytopenia",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Hematology and Oncology",
+          "Hospitalist Medicine"
+        ],
+        "system_en": [
+          "Hematologic"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "a626fde9-ad46-4d72-9f4c-6516b769ab25"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Calvin Hwang, MD, is a clinical assistant professor in the department of orthopaedic surgery at the Stanford University School of Medicine. A native Californian, Dr. Hwang grew up in San Diego and attended Stanford University before venturing off to Case Western Reserve University School of Medicine, where he received his medical degree. He completed his residency at the Stanford/Kaiser Emergency Medicine program and fellowship in sports medicine at Stanford. He is currently a team physician for the Golden State Warriors, Stanford Football and Stanford Volleyball.</p>",
+          "firstName": "Calvin",
+          "hasDisclosure": [],
+          "img": "calvin-hwang.jpg",
+          "lastName": "Hwang",
+          "name": "Calvin Hwang, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Past",
+          "target": "calvin-hwang",
+          "updatedAt": "2023-04-06T20:26:46.100Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Andreas Greinacher, MD, is the head of the Institute of Immunology and Transfusion Medicine at the University Hospital Greifswald, Germany. He has interests in hereditary and acquired platelet disorders, bridging immuno-hematology and hemostasis. His recent work is on adopting nanotechnology and biophysical methods to investigate platelets and protein changes.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Andreas Greinacher",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-andreas-greinacher.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Greinacher+A%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/1787/4ts-score-heparin-induced-thrombocytopenia",
+        "description": "The 4Ts Score is a clinical scoring system to differentiate patients with HIT from those with other causes of thrombocytopenia.",
+        "keywords": "4 Ts for HIT, HIT calculator, heparin score, diagnosis HIT calc, heparin induced calculator, heparin coagulopathy score, heparin thrombocytopenia score",
+        "title": "4Ts Score for Heparin-Induced Thrombocytopenia"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 1789,
+          "short_title_en": "HIT Expert Probability (HEP) Score",
+          "slug": "hit-expert-probability-hep-score-heparin-induced-thrombocytopenia"
+        },
+        {
+          "calcId": 4034,
+          "short_title_en": "Corrected Count Increment (CCI) ",
+          "slug": "corrected-count-increment-cci-platelet-transfusion"
+        },
+        {
+          "calcId": 10203,
+          "short_title_en": "ISTH Criteria for DIC",
+          "slug": "isth-criteria-disseminated-intravascular-coagulation-dic"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "1787",
+      "4ts-score-heparin-induced-thrombocytopenia"
+    ]
+  },
+  "scriptLoader": []
+}

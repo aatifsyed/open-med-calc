@@ -1,0 +1,1058 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Dizziness",
+          "Weakness"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "1934.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul> <li>The majority of the exclusion criteria are based on patients who were excluded from the original NINDS I and II trials. (<a href=\"http://circ.ahajournals.org/content/94/5/1167.full\" target=\"_blank\">Adams 1996</a>)</li> <li>Current guidelines suggest that tPA may be considered in patients with 1 or more relative contraindications, though only after making a considered risk/benefit analysis and in consultation with the patient and/or their family whenever possible. (<a href=\"http://stroke.ahajournals.org/content/44/3/870.full\" target=\"_blank\">Jauch 2013</a>)</li> <li>An article reviewing the literature found only 5 reports since 2006 of cardiac tamponade after receiving tPA for stroke, considering this and a review of data on natural history of cardiac healing after MI, the authors recommend that the current recommendation against tPA for patients with recent MI be shortened from 3 months to 7 weeks. (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/21490319\" target=\"_blank\">De Silva 2011</a>)</li> <li>There is a case report of a patient with seizures at stroke outset who received tPA after MRI confirmed acute ischemic stroke who had a good clinical outcome. The authors recommend using more advanced neuroimaging to identify patients with seizure who could safely be given tPA. (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/12097852\" target=\"_blank\">Selim 2003</a>)</li> </ul>",
+            "formula_en": "<p>Series of Yes/No questions.</p>",
+            "more_info_en": "<p>For the entire list of inclusion/exclusion criteria, go to the <a href=\"http://www.stroke-site.org/guidelines/tPA_guidelines.html\" target=\"_blank\">Official NINDS website</a>.</p> <p>For the National Stroke Guidelines, go to the <a href=\"http://www.stroke-site.org/guidelines/\" target=\"_blank”\">Brain Attack website</a>.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://stroke.ahajournals.org/content/44/3/870.full",
+                  "text": "Jauch ED, et al. Guidelines for the early management of patients with acute ischemic stroke: A Guideline for healthcare professionals from the American Heart Association/American Stroke Association. Stroke. 2013; 44: 870-947."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/21490319",
+                  "text": "De Silva DA, Manzano JJ, Chang HM, Wong MC. Reconsidering recent myocardial infarction as a contraindication for IV stroke thrombolysis. Neurology. 2011 May 24;76(21):1838-40."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/12097852",
+                  "text": "Selim M, Kumar S, Fink J, Schlaug G, Caplan LR, Linfante I. Seizure at stroke onset: should it be an absolute contraindication to thrombolysis? Cerebrovasc Dis. 2002;14(1):54-7."
+                },
+                {
+                  "href": "ncbi.nlm.nih.gov/pmc/articles/PMC4530420/",
+                  "text": "Fugate JE, Rabinstein AA. Absolute and Relative Contraindications to IV rt-PA for Acute Ischemic Stroke. Neurohospitalist. 2015;5(3):110-21."
+                },
+                {
+                  "href": "http://stroke.ahajournals.org/content/early/2015/12/22/STR.0000000000000086.full.pdf+html",
+                  "text": "Demaerschalk BM, et al. Scientific Rationale for the Inclusion and Exclusion Criteria for Intravenous Alteplase in Acute Ischemic Stroke: A Statement for Healthcare Professionals From the American Heart Association/American Stroke Association. Stroke. 2016 Feb;47(2):581-641."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "http://circ.ahajournals.org/content/94/5/1167.full",
+                  "text": "Adams HP, et. al. Guidelines for Thrombolytic Therapy for Acute Stroke: A Supplement to the Guidelines for the Management of Patients With Acute Ischemic Stroke: A Statement for Healthcare Professionals From a Special Writing Group of the Stroke Council, American Heart Association. Circulation. 1996;94:1167-1174."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Daniel Runde, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Edward C. Jauch",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>There are strict protocols concerning the appropriate administration of tPA in patients with ischemic stroke, including a list of absolute and relative contraindications.</p> <ul> <li>Because of the risk of hemorrhage is thought to outweigh any potential benefits, patients with any absolute contraindication should not be given tPA.</li> <li>For patients within the 3-hour window who meet the inclusion criteria and have no contraindications, earlier administration of tPA was associated with improved outcomes in one randomized trial (NINDS II).</li> </ul> <p><strong>Points to keep in mind:</strong></p> <ul> <li>tPA for patients with acute ischemic stroke is associated with a significant increase in symptomatic intracranial hemorrhage, so it is essential to adhere to accepted protocols and to engage in shared decision making with the patient or their family when considering administering tPA.</li> <li>The evidence and strength of recommendations for giving tPA in the 3-4.5 hour window is less robust than for giving thrombolytics inside the 180 minutes from onset of symptoms.</li> </ul>",
+            "use_case_en": "<p>The list of absolute and relative contraindications to tPA <strong>should be reviewed in any patient with an acute ischemic stroke in whom thrombolysis is being considered.</strong></p>",
+            "why_use_en": "<p>The principal risk of tPA is symptomatic or fatal hemorrhage. It is essential that patients be evaluated for any history or risk factors that would put them at an increased risk of a hemorrhagic outcome.</p> "
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "<ul> <li>Patients presenting with a potential acute ischemic stroke should have a non-contrast CT scan of the head performed as soon as is safely possible.</li> <li>If the patient is a candidate for thrombolysis with tPA they should be carefully evaluated for any absolute or relative contraindications.</li> <li>The <calculator id=\"715\">NIHSS</calculator> should be performed as part of their evaluation, by a <calculator id=\"715\">NIHSS</calculator> certified provider if one is available.</li> <li>While a high <calculator id=\"715\">NIHSS</calculator> score (&gt;22) is not an absolute contraindication to tPA within the 3 hour window, be aware that the rate of symptomatic or fatal intracranial hemorrhage is higher among this cohort.</li> <li>If the patient has an elevated blood pressure (SBP &gt;185 or DBP &gt;110) as their only contraindication to receiving tPA, consider using parenteral medication to lower their blood pressure to an acceptable level. If the blood pressure can be adequately controlled, the patient may be safely given tPA if they meet the inclusion criteria and have no other contraindications.</li> <li>When considering giving tPA in the extended window (3-4.5 hours), remember that an <calculator id=\"715\">NIHSS</calculator> score of &gt;25 is considered a contraindication to thrombolysis.</li> </ul> ",
+            "management_en": "<p>In patients who present with symptoms concerning for ischemic stroke:</p> <ul> <li>Consult neurology.</li> <li>Determine the onset of stroke symptoms (or time patient last felt or was observed normal).</li> <li>Obtain a stat head CT to evaluate for hemorrhagic stroke.</li> <li>In appropriate circumstances and in consultation with both neurology and the patient, consider IV thrombolysis for ischemic strokes in patients with no contraindications.</li> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Intracranial Hemorrhage",
+          "Stroke/TIA",
+          "Subarachnoid Hemorrhage"
+        ],
+        "dosing": false,
+        "equation_logic": "31c990aa747b11d555cb7c845b8cd991",
+        "equation_logic_text": "var calc_output = [];\nvar inc, abs, rel, rel3;\nvar val = 'Patient does NOT meet inclusion criteria for tPA.';\nvar mini_val = 'TPA administration NOT indicated.';\ninc = 0;\nabs = 0;\nrel = 0;\nrel3 = 0;\nif (age_18 == 1 & diagnosis == 1 & symptom_onset == 1) { inc = 1 }\nif (hemorrhage == 1 || sub_hemorrhage == 1 || surg_trauma_stroke == 1 || hypertension == 1 || hist_hemorr == 1 || endocarditis == 1 || malformation == 1 || bleeding == 1 || diathesis == 1 || glucose == 1) { abs = 1 }\nif (minor_stroke == 1 || surgery == 1 || gastro == 1 || seizure == 1 || art_puncture == 1 || lumb_puncture == 1 || pericarditis == 1 || pregnancy == 1) { rel = 1 }\nif (age_80 == 1 || stroke == 1 || anticoagulant == 1 || nihss_25 == 1 || multi_infarction == 1) { rel3 = 1 }\nif (inc == 1) { val = 'Patient eligible for tPA';\n    mini_val = 'Patient eligible for tPA';\n    if (rel3 == 1 || rel == 1) {\n        if (rel3 == 1 && rel != 1) { val += ' but has contraindications if onset >3 hours; consider and discuss risk/benefit with patient, family, and neurology consultation.';\n            mini_val += ' but has contraindications.' }\n        if (rel == 1) { val += ' but has relative contraindications; consider and discuss risk/benefit with patient, family, and neurology consultation.';\n            mini_val += ' but has contraindications.' } } else { val += '.';\n        mini_val += '.' }\n    if (abs == 1) { val = 'Patient has absolute contraindications to tPA and it should NOT be given.';\n        mini_val = 'TPA administration NOT indicated.' } }\ncalc_output.push({ name: 'mini', value: ' ', value_text: ' ', message: mini_val });\ncalc_output.push({ name: 'TPA Contraindications', value: ' ', value_text: ' ', message: val });",
+        "favorite_id": 1934,
+        "full_title_en": "tPA Contraindications for Ischemic Stroke",
+        "input_schema": [
+          {
+            "subheading": "Eligibility for tPA",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Age ≥18",
+            "name": "age_18",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Clinical diagnosis of ischemic stroke causing neurological deficit",
+            "name": "diagnosis",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Time of symptom onset <4.5 hours",
+            "name": "symptom_onset",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "See Additional Warnings to tPA at 3-4.5hr below",
+            "type": "toggle"
+          },
+          {
+            "subheading": "Absolute Contraindications to tPA",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Intracranial hemorrhage on CT",
+            "name": "hemorrhage",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Clinical presentation suggests subarachnoid hemorrhage",
+            "name": "sub_hemorrhage",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Neurosurgery, head trauma, or stroke in past 3 months",
+            "name": "surg_trauma_stroke",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Uncontrolled hypertension (>185 mmHg SBP or >110 mmHg DBP)",
+            "name": "hypertension",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "History of intracranial hemorrhage",
+            "name": "hist_hemorr",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Known intracranial arteriovenous malformation, neoplasm, or aneurysm",
+            "name": "malformation",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Active internal bleeding",
+            "name": "bleeding",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Suspected/confirmed endocarditis",
+            "name": "endocarditis",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Known bleeding diathesis",
+            "name": "diathesis",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "(1) Platelet count < 100,000; (2) Patient has received heparin within 48 hours and has an elevated aPTT (greater than upper limit of normal for laboratory); (3) Current use of oral anticoagulants (ex: warfarin) and INR >1.7; (4)Current use of direct thrombin inhibitors or direct factor Xa inhibitors",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Abnormal blood glucose (<50 mg/dL)",
+            "name": "glucose",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "subheading": "Relative Contraindications/Warnings to tPA",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Only minor or rapidly improving stroke symptoms",
+            "name": "minor_stroke",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Major surgery or serious non-head trauma in the previous 14 days",
+            "name": "surgery",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "History of gastrointestinal or urinary tract hemorrhage within 21 days",
+            "name": "gastro",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Seizure at stroke onset",
+            "name": "seizure",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Recent arterial puncture at a noncompressible site",
+            "name": "art_puncture",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Recent lumbar puncture",
+            "name": "lumb_puncture",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Post myocardial infarction pericarditis",
+            "name": "pericarditis",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Pregnancy",
+            "name": "pregnancy",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "subheading": "Additional Warnings to tPA >3hr Onset",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Age >80 years",
+            "name": "age_80",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "History of prior stroke and diabetes",
+            "name": "stroke",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Any active anticoagulant use (even with INR <1.7) ",
+            "name": "anticoagulant",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<calculator id='715'>NIHSS</calculator> >25",
+            "name": "nihss_25",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "CT shows multilobar infarction (hypodensity >1/3 cerebral hemisphere)",
+            "name": "multi_infarction",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Institutions may have slightly different absolute and relative contraindications to Tissue Plasminogen Activator (tPA); this list is meant to be a quick reference, but practice should be guided by institutional protocol and consultation with neurology.&nbsp;Reflects recommendations from <a href=\"http://stroke.ahajournals.org/content/early/2015/12/22/STR.0000000000000086.full.pdf+html\" target=\"_blank\">Demaerschalk et al, Stroke 2015</a>.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "removed hyperglycemia",
+            "time": "2018-09-17 03:18 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added references",
+            "time": "2018-09-26 10:48 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited validation ref",
+            "time": "2018-09-26 10:50 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited all references",
+            "time": "2018-09-26 10:51 AM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "ea998f622c1442638bde55e4ba61f461",
+        "medium_description_en": "<p>Provides inclusion/exclusion criteria when deciding to use tPA on a patient with acute ischemic stroke.</p>",
+        "purpose_en": [
+          "Algorithm",
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "tPA",
+          "thrombolysis",
+          "CVA",
+          "TIA",
+          "stroke"
+        ],
+        "search_id": "c-1934",
+        "seo": {
+          "keywords_en": "pa contraindications, stroke tPA inclusion, stroke tPA exclusion, tPA guidelines, tPA use stroke, tPA use calc, tPA indication, cva thrombolysis, thrombolysis indications, tPA, thrombolysis, thrombolysis use, thrombolysis calc",
+          "meta_description_en": "tPA Contraindications provide inclusion/exclusion criteria when deciding to use tPA on a patient with acute ischemic stroke."
+        },
+        "short_description_en": "Inclusion & exclusion criteria for tPA.",
+        "short_title_en": "tPA Contraindications",
+        "slug": "tpa-contraindications-ischemic-stroke",
+        "specialty_en": [
+          "Cardiology",
+          "Critical Care",
+          "Critical Care (Neurologic)",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Neurology"
+        ],
+        "system_en": [
+          "Neurologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Daniel Runde, MD, is currently the assistant residency director and an assistant professor of emergency medicine at the University of Iowa Hospitals and Clinics. He received his medical degree at the University of Iowa Carver College of Medicine and completed residency in emergency medicine at St. Luke’s-Roosevelt Hospital Center in New York. He recently finished his Medical Education Fellowship at the department of emergency medicine at Harbor-UCLA. Dr. Runde is interested in evidence-based medicine with a focus on patient-important clinical outcomes, CT utilization in the emergency department and education and evaluation in medical education. Currently, he is in the process of obtaining a Masters in Medical Education through the Office of Consultation and Research in Medical Education at the University of Iowa Hospitals and Clinics.</p>",
+          "firstName": "Daniel",
+          "hasDisclosure": [],
+          "img": "daniel-runde.jpg",
+          "lastName": "Runde",
+          "name": "Daniel Runde, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "daniel-runde",
+          "updatedAt": "2023-04-06T20:24:46.787Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": " <p>Edward C. Jauch, MD, MS, is a professor and director of emergency medicine at the Medical University of South Carolina. He was chair of Stroke Council for the American Heart Association/American Stroke Association and primary author for the new Acute Ischemic Stroke guidelines. Dr. Jauch conducts research in acute ischemic stroke care, biomarker development in cerebrovascular injuries and other neurologic emergencies.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Edward C. Jauch",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-edward-c-jauch.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Jauch+EC%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/1934/tpa-contraindications-ischemic-stroke",
+        "description": "tPA Contraindications provide inclusion/exclusion criteria when deciding to use tPA on a patient with acute ischemic stroke.",
+        "keywords": "pa contraindications, stroke tPA inclusion, stroke tPA exclusion, tPA guidelines, tPA use stroke, tPA use calc, tPA indication, cva thrombolysis, thrombolysis indications, tPA, thrombolysis, thrombolysis use, thrombolysis calc",
+        "title": "tPA Contraindications for Ischemic Stroke"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 715,
+          "short_title_en": "NIH Stroke Scale (NIHSS)",
+          "slug": "nih-stroke-scale-score-nihss"
+        },
+        {
+          "calcId": 3940,
+          "short_title_en": "tPA Dosing for Stroke Calculator",
+          "slug": "tpa-tissue-plasminogen-activator-dosing-stroke-calculator"
+        },
+        {
+          "calcId": 402,
+          "short_title_en": "Intracerebral Hemorrhage (ICH) Score",
+          "slug": "intracerebral-hemorrhage-ich-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "1934",
+      "tpa-contraindications-ischemic-stroke"
+    ]
+  },
+  "scriptLoader": []
+}

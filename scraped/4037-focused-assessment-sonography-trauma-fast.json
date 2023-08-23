@@ -1,0 +1,612 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Injury/Trauma"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+53",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+53",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "4037.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The original study conducted by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/8487337\" target=\"_blank\">Rozycki et al</a> in 1993 utilized FAST in patients ≥16 years after blunt or penetrating trauma (<em>n</em> = 476). When compared to gold standards of CT scan, diagnostic peritoneal lavage (DPL), and/or operative findings, FAST had a sensitivity of 79% and specificity of 96%. FAST was further validated in 1998 in a much larger <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1191535/\" target=\"_blank\">study</a> (<em>n</em> = 1,540) by the same group. This showed that FAST is most sensitive and specific in patients with penetrating precordial wounds (sensitivity 100%, specificity 99%) and in hypotensive patients after blunt abdominal trauma (sensitivity 100%, specificity 100%). They concluded that the accuracy of FAST in these clinical scenarios justified surgical intervention on the basis of the FAST findings in these trauma patients. With the application of FAST outside of study protocols by non-experts and non-radiologists, the contemporary diagnostic yield of FAST ranges more broadly. Recent studies quote a sensitivity of 22–98% for FAST in the detection of hemoperitoneum (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28318439\" target=\"_blank\">Richards 2017</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25498329\" target=\"_blank\">Carter 2015</a>).</p> <p>More recently, thoracic views have been added to the FAST exam and termed eFAST. These windows assess the chest bilaterally for pneumo- and hemothoraces. In some series, the reported sensitivities of eFAST (86–100%) are superior to that of chest x-ray (27–83%) in the detection of pneumothoraces (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26649350\" target=\"_blank\">Governatori 2015</a>,<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20149371\" target=\"_blank\"> Nandipati 2011</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20078434\" target=\"_blank\">Wilkerson 2010</a>).</p>",
+            "formula_en": "<p>Using bedside ultrasound, assess for fluid in each of the following areas:</p> <table> <tbody> <tr> <td>&nbsp;</td> <td colspan=\"3\"> <p><strong>Fluid present?</strong></p> </td> </tr> <tr> <td> <p>Pericardial fluid</p> </td> <td> <p>Absent</p> </td> <td> <p>Present</p> </td> <td> <p>Equivocal</p> </td> </tr> <tr> <td> <p>Right upper quadrant (Morison’s pouch) fluid</p> </td> <td> <p>Absent</p> </td> <td> <p>Present</p> </td> <td> <p>Equivocal</p> </td> </tr> <tr> <td> <p>Left upper quadrant (splenorenal recess) fluid</p> </td> <td> <p>Absent</p> </td> <td> <p>Present</p> </td> <td> <p>Equivocal</p> </td> </tr> <tr> <td> <p>Suprapubic fluid</p> </td> <td> <p>Absent</p> </td> <td> <p>Present</p> </td> <td> <p>Equivocal</p> </td> </tr> </tbody> </table>",
+            "more_info_en": "<p>Interpretation:</p> <ul> <li>If pericardial fluid is seen in the subxiphoid view, surgical intervention is warranted. </li> <li>If intra-abdominal fluid is seen in any of the three abdominal views, emergent laparotomy is indicated in unstable patients. </li> <li>Stable patients with intra-abdominal fluid should proceed to cross-sectional imaging.&nbsp;</li> </ul> <p>See Next Steps &gt; Management for suggested algorithm.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/8487337",
+                  "text": "Rozycki GS, Ochsner MG, Jaffin JH, Champion HR. Prospective evaluation of surgeons' use of ultrasound in the evaluation of trauma patients. J Trauma. 1993 Apr;34(4):516-26."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28318439",
+                  "text": "Richards JR, McGahan JP. Focused Assessment with Sonography in Trauma (FAST) in 2017: What Radiologist Can Learn. Radiology. 2017 Apr;283(1):30-48."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/19901678  ",
+                  "text": "Ball CG, Williams BH, Wyrzykowski AD, et al. A Caveat to the Performance of Pericardial Ultrasound in Patients with Penetrating Cardiac Wounds. J Trauma. 2009 Nov;67(5):1123-4."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/20149371 ",
+                  "text": "Nandipati KC, Allamaneni S, Kakarla R, et al. Extended Focused Assessment with Sonography for Trauma (EFAST) in the Diagnosis of Pneumothorax: Experience at a Community Based Level I Trauma Center. Injury. 2011 May;42(5):511-4."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26649350 ",
+                  "text": "Governatori NJ, Saul T, Siadecki SD, et al. Ultrasound in the Evaluation of Penetrating Thoraco-Abdominal Trauma: A Review of the Literature. Med Ultrason. 2015 Dec;17(4):528-34."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/20078434 ",
+                  "text": "Wilkerson RG, Stone MB. Sensitivity of Bedside Ultrasound and Supine Anteroposterior Chest Radiographs for the Identification of Pneumothorax After Blunt Trauma. Acad Emerg Med. 2010 Jan;17(1):11-7."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28779381 ",
+                  "text": "Matsushima K, Khor D, Berona K, Antoku D, Dollbaum R, Khan M, Demetriades D. Double Jeopardy in Penetrating Trauma: Get FAST, Get It Right. World J Surg. 2017 Aug 4. [Epub ahead of print]"
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25498329 ",
+                  "text": "Carter JW, Falco MH, Chopko MS, Flyn WJ Jr, Wiles Iii CE, Guo WA. Do we really rely on fast for decision-making in the management of blunt abdominal trauma?. Injury. 2015 May;26(5):817-21. "
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1191535/",
+                  "text": "Rozycki GS, Ballard RB, Feliciano DV, Schmidt JA, Pennington SD. Surgeon-performed ultrasound for the assessment of truncal injuries: lessons learned from 1540 patients. Ann Surg. 1998 Oct;228(4):557-567."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/7473914",
+                  "text": "Rozycki GS, Ochsner MG, Schmidt JA, et al. A prospective study of surgeon-performed ultrasound as the primary adjuvant modality for injured patient assessment. J Trauma. 1995 Sep;39(3):492-8."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10217216 ",
+                  "text": "Rozycki GS, Feliciano DV, Ochsner MG, et al. The Role of Ultrasound in Patients with Possible Penetrating Cardiac Wounds: A Prospective Multicenter Study. J Trauma. 1999 Apr;46(4):543-51."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Jennie Kim, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Grace Rozycki",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>Assesses for fluid in the pericardium or abdomen (hemopericardium or hemoperitoneum, respectively). </li> <li>The traditional four views consist of a subxiphoid view of the heart and pericardium, right and left upper quadrant windows, and the pelvis.</li> <li>More recently, the extended FAST (eFAST) has entered into clinical practice with the addition of bilateral thoracic views to assess for pneumo- and hemothoraces.</li> <li><strong>Negative FAST does not exclude injury. </strong>Ultrasound is user dependent; therefore, clinicians should be cautious in interpretation of negative FAST. Sensitivities of abdominal and suprapubic views in FAST vary widely, with ranges of 22–98% reported in recent literature (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28318439\" target=\"_blank\">Richards 2017</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25498329\" target=\"_blank\">Carter 2015</a>).</li> <li>In penetrating thoracic trauma, pericardial view sensitivity approaches 100% (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28779381\" target=\"_blank\">Matsushima 2017</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19901678\" target=\"_blank\">Ball 2009</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/10217216\" target=\"_blank\">Rozycki 1999</a>) but can miss cardiac injury if there is concomitant pericardial laceration allowing decompression into the left chest (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19901678\" target=\"_blank\">Ball 2009</a>). </li> <li>If clinical suspicion for injury persists despite negative FAST, FAST should be repeated, additional investigations should be performed, or intervention should be pursued, depending on patient’s clinical condition.</li><li>For tips on ultrasound technique, see Next Steps &gt; Advice.</li> </ul>",
+            "use_case_en": "<ul> <li>FAST should be used liberally in the evaluation of trauma patients. </li> <li>Especially useful in patients with penetrating thoracic trauma and in unstable patients after blunt abdominal trauma.</li> </ul>",
+            "why_use_en": "<ul> <li>FAST is a rapid, non-invasive, and repeatable imaging modality that can guide the surgeon in the decision to operate. </li> <li>Performed in trauma bay (does not require patient transport out of the emergency department, which is risky in unstable patients).</li> </ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>FAST results alone should not determine the decision to operate. However, FAST can be a helpful adjunct in clinical decision making, particularly in an unstable blunt trauma patient in order to rapidly assess the chest and abdomen for potential causes of hypotension.</li> <li>Most clinicians use the low frequency phased array ultrasound probe (a.k.a. cardiac probe), to obtain all windows in FAST. </li> <li><strong>Pericardial:</strong> place probe in the subxiphoid area and orient towards patient's left shoulder. Apply downward pressure to look under the costal margin and towards the heart. The heart and pericardium will come into view, allowing inspection for hemopericardium and ultrasound findings of cardiac tamponade.</li> <li><strong>Right upper quadrant:</strong> place probe in right anterior to mid axillary line (between 11th–12th ribs). Visualization of the hepatorenal recess (Morison's pouch) allows the assessment for hemoperitoneum in the right upper quadrant. Blood most likely accumulates here if hemoperitoneum is present.</li> <li><strong>Left upper quadrant</strong>: apply transducer firmly onto the skin in left posterior axillary line (between the 9th–10th ribs) to visualize splenorenal and subphrenic spaces. </li> <li>In practice, it is important to remember that the right and left upper quadrant views are often more posterior than anticipated. It can be helpful to bring the probe all the way down to the stretcher in order to best visualize these windows.</li> <li><strong>Suprapubic:</strong> place transducer superior to pubic symphysis and fan probe inferiorly to visualize the bladder.</li> </ul>",
+            "critical_actions_en": "<ul> <li>Repeating FAST while preparing to perform diagnostic peritoneal aspiration is useful to quickly reassess unstable patients with blunt abdominal trauma with initially negative FAST. Intra-abdominal hemorrhage may not be significant enough on presentation to be FAST-positive initially.</li> <li>Be cautious if pericardial FAST is negative in patients with penetrating thoracic trauma, especially if unstable. Cardiac injuries can decompress through the injured pericardium, most commonly into the left hemithorax, resulting in negative pericardial FAST (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19901678\" target=\"_blank\">Ball 2009</a>). Therefore, unstable patients with this mechanism of injury and FAST finding should undergo a chest x-ray. If it reveals a hemothorax, a chest tube must be placed. Ongoing or high-volume chest tube output in this clinical context may be from cardiac injury.</li> </ul>",
+            "management_en": "<p><strong>Suggested management </strong>(clinician must consider additional clinical information including hemodynamic stability and clinical suspicion for injury):</p> <p><strong>Pericardial FAST (penetrating thoracic trauma)</strong></p> <ul> <li><strong>Positive:</strong> emergent surgical intervention recommended. Median sternotomy preferred if the patient is stable; otherwise, use left anterolateral thoracotomy.</li> <li><strong>Equivocal: </strong>pericardial window or formal transthoracic echocardiography (TTE) recommended.</li> <li><strong>Negative:</strong> close clinical monitoring or discharge recommended, according to clinical suspicion for injury.</li> </ul> <p><strong>Abdominal FAST (blunt abdominal trauma)</strong></p> <ul> <li><strong>Positive: </strong>in the unstable patient, emergent exploratory laparotomy is recommended. In the stable patient, cross-sectional imaging (CT scan) in recommended.</li> <li><strong>Equivocal:</strong> in the unstable patient, diagnostic peritoneal aspiration (DPA) is recommended. In the stable patient, cross-sectional imaging (CT scan) is recommended.</li> <li><strong>Negative</strong>: in the unstable patient, diagnostic peritoneal aspiration (DPA) is recommended if clinical suspicion for intra-abdominal bleeding exists. In the stable patient, CT scan, close clinical monitoring, or discharge is recommended, according to clinical suspicion for injury.</li> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [
+              {
+                "description": "Emergency Trauma Care",
+                "link": "https://www.ebmedicine.net/topics.php?paction=showTopicSeg&topic_id=478&seg_id=9482",
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: FAST"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Trauma"
+        ],
+        "dosing": false,
+        "equation_logic": "c7c2e5cc25f22b284b92fef22ca1f773",
+        "equation_logic_text": "var calc_output = [];\n\nvar pericardial = parseFloat(pericardial)\nvar ruq = parseFloat(ruq) \nvar luq = parseFloat(luq)\nvar suprapubic = parseFloat(suprapubic)\n\nvar fast = pericardial + ruq + luq + suprapubic\n\nvar result, msg, rec_peri, rec_abd\n\nif (fast == 0) { // peri, abd negative\n    result = 'Negative FAST'\n    msg = 'No pericardial or intra-abdominal fluid seen on FAST'\n    rec_peri = ''\n    rec_abd = 'Negative FAST does not exclude injury.';\n}\nif (pericardial == 1 ) { // peri positive\n    result = 'Positive FAST'\n    msg = 'Suspected hemopericardium';\n    rec_peri = 'Surgical intervention warranted for suspected hemopericardium. Median sternotomy preferred if stable; otherwise, use left anterolateral thoracotomy.'; \n    rec_abd = ''\n    if (ruq == 1 || luq == 1 || suprapubic == 1 ) { // peri positive and abd positive\n        result = 'Positive FAST'\n        rec_abd = 'Emergent ex lap indicated for hemoperitoneum in unstable patients.';\n        msg = 'Suspected hemopericardium and hemoperitoneum'\n    }\n    else {\n        rec_abd = ''\n        result = 'Positive FAST'\n    }\n} else if (pericardial == 0) { // peri negative\n    if (ruq == 1 || luq == 1 || suprapubic == 1) { // abd positive\n        result = 'Positive FAST'\n        msg = 'Suspected hemoperitoneum';\n        rec_peri = ''; \n        rec_abd = 'Emergent ex lap indicated for hemoperitoneum in unstable patients.'\n    }\n    else if (ruq + luq + suprapubic == 0) { // abd negative\n        result = 'Negative FAST'\n        msg = 'No pericardial or intra-abdominal fluid seen on FAST'\n        rec_peri = ''\n        rec_abd = 'Negative FAST does not exclude injury.';\n    }\n    else { // abd equivocal\n        result = 'Equivocal FAST'\n        msg = 'Equivocal abdominal view';\n        rec_peri = ''; \n        rec_abd = 'Recommend diagnostic peritoneal aspiration (DPA) to rule out hemoperitoneum if unstable. If stable, recommend CT.'\n    }\n}\n\nelse if (pericardial == 2) { // peri equivocal\n    if (ruq + luq + suprapubic == 0) { // abd negative\n        result = 'Equivocal FAST'\n        msg = 'Equivocal pericardial view, negative abdominal view'\n        rec_peri = 'Pericardial window or formal transthoracic echocardiography (TTE) recommended to rule out hemopericardium.'\n        rec_abd = ''\n    }\n    else if (ruq == 1 || luq == 1 || suprapubic == 1) { // abd positive\n        result = 'Positive FAST'\n        msg = 'Suspected hemoperitoneum and equivocal pericardial view'\n        rec_abd = 'Emergent ex lap indicated in unstable patients for suspected hemoperitoneum. Pericardial window or formal transthoracic echocardiography (TTE) recommended for equivocal pericardial view.'\n        rec_peri = ''\n    }\n    else if (ruq + luq + suprapubic > 0) {\n    result = 'Equivocal FAST' \n    msg = 'Equivocal pericardial view, equivocal abdominal view'\n    rec_peri = 'Pericardial window or formal transthoracic echocardiography (TTE) recommended to rule out hemopericardium. ';\n    rec_abd = 'Recommend diagnostic peritoneal aspiration (DPA) to rule out hemoperitoneum if unstable. If stable, recommend CT.';\n    }\n} \n\ncalc_output.push({ \n    name: 'mini', \n    value: result, \n    value_text: '', \n    message: msg \n});\ncalc_output.push({ \n    name: 'FAST', \n    value: result, \n    value_text: '', \n    message: msg\n});\ncalc_output.push({ \n    name: 'FAST', \n    value: '', \n    value_text: '', \n    message: rec_peri + ' ' + rec_abd + ' Use clinical judgment; see Next Steps for details.'\n});",
+        "favorite_id": 4037,
+        "full_title_en": "Focused Assessment with Sonography for Trauma (FAST)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Pericardial fluid",
+            "name": "pericardial",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Present",
+                "value": 1
+              },
+              {
+                "label": "Equivocal",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Right upper quadrant (Morison’s pouch) fluid",
+            "name": "ruq",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Present",
+                "value": 1
+              },
+              {
+                "label": "Equivocal",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Left upper quadrant (splenorenal recess) fluid",
+            "name": "luq",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Present",
+                "value": 1
+              },
+              {
+                "label": "Equivocal",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Suprapubic fluid",
+            "name": "suprapubic",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Present",
+                "value": 1
+              },
+              {
+                "label": "Equivocal",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>FAST results alone should not dictate the decision to operate, and negative FAST does not exclude injury. This calculator is meant to help with interpretation of FAST findings, which are at least partially dependent on the user's sonographic technique.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "partner content added",
+            "time": "2018-7-20 1:21 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited EB Med link",
+            "time": "2018-09-14 10:33 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added reviewers",
+            "time": "2019-01-14 02:57 PM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "541ee53f6d15a2c19b883bed05549de1",
+        "medium_description_en": "<p>Predicts presence of pericardial or intra-abdominal injury after penetrating or blunt trauma.</p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "FAST",
+          "eFAST",
+          "trauma ultrasound",
+          "abdominal trauma"
+        ],
+        "search_id": "c-4037",
+        "seo": {
+          "keywords_en": "FAST, eFAST, trauma ultrasound, abdominal trauma",
+          "meta_description_en": "Focused Assessment with Sonography for Trauma predicts presence of pericardial or intra-abdominal injury after penetrating or blunt trauma."
+        },
+        "short_description_en": "Blunt abdominal trauma.",
+        "short_title_en": "FAST",
+        "slug": "focused-assessment-sonography-trauma-fast",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Surgery (Trauma)"
+        ],
+        "system_en": [
+          "Any/All"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Jennie",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Kim",
+          "name": "Jennie Kim, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Grace Rozycki, MD, MBA, is chief of surgery at Indiana University’s Methodist Hospital and the Willis D. Gatch Professor of Surgery and associate chair of the department of surgery at Indiana University School of Medicine. She previously served as chief of trauma and critical care at Grady Memorial Hospital in Atlanta. Dr. Rozycki has pioneered research on the application of surgeon-performed ultrasound in patients with post-trauma hemothorax, cardiac tamponade, hemoperitoneum, solid organ injuries, intra-abdominal abscesses, and femoral deep venous thrombosis.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Grace Rozycki",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-grace-rozycki.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Rozycki+GS%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4037/focused-assessment-sonography-trauma-fast",
+        "description": "Focused Assessment with Sonography for Trauma predicts presence of pericardial or intra-abdominal injury after penetrating or blunt trauma.",
+        "keywords": "FAST, eFAST, trauma ultrasound, abdominal trauma",
+        "title": "Focused Assessment with Sonography for Trauma (FAST)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3971,
+          "short_title_en": "PECARN IAI",
+          "slug": "pecarn-pediatric-intra-abdominal-injury-iai-algorithm"
+        },
+        {
+          "calcId": 4030,
+          "short_title_en": "Bastion Classification",
+          "slug": "bastion-classification-lower-limb-blast-injuries"
+        },
+        {
+          "calcId": 10423,
+          "short_title_en": "NEXUS Head CT Instrument",
+          "slug": "nexus-head-ct-instrument"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4037",
+      "focused-assessment-sonography-trauma-fast"
+    ]
+  },
+  "scriptLoader": []
+}

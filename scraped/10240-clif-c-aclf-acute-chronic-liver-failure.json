@@ -1,0 +1,865 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Abdominal Pain",
+          "Jaundice"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\">The initial study identified 275 patients with ACLF from a prospective observational study of 1,349 hospitalized patients with cirrhosis and acute decompensation (<a href=\"https://www.journal-of-hepatology.eu/article/S0168-8278(14)00408-5/fulltext\" target=\"_blank\" rel=\"noopener\">Jalan 2014</a>). These patients were analyzed using an organ failure score combined with age and WBC, both independent predictors of outcome, to derive the CLIF-C ACLF score. Using a concordance index, the CLIF-C ACLF was shown to be more accurate than <calculator id=\"78\">MELD</calculator>, <calculator id=\"1754\">MELD-Na</calculator>, and <calculator id=\"340\">Child-Pugh</calculator> in predicting mortality, both in the CANONIC group and in an external cohort. The accuracy in predicting 28 day mortality is improved when the CLIF-C ACLF score is calculated at 48 hours (or 3-7 days) after ACLF diagnosis.</p>\n<p><span id=\"docs-internal-guid-82bcf1e3-7fff-34f4-4b14-7207f37f0f17\">The <a href=\"https://ccforum.biomedcentral.com/articles/10.1186/s13054-018-2156-0\" target=\"_blank\" rel=\"noopener\">external validation study</a> was a retrospective analysis of 202 patients with acute-on-chronic liver failure admitted to the intensive care unit at the Royal Free Hospital, London, UK. The authors calculated CLIF-C ACLF, <calculator id=\"340\">Child-Pugh</calculator>, and <calculator id=\"78\">MELD</calculator> scores 48 hours after ICU admission and compared predictions of outcome at 28 days. CLIF-C ACLF outperformed the other scores on <abbr title=\"Area under the receiver operating characteristics curve\">AUROC</abbr> analysis, and further demonstrated that CLIF-C ACLF &gt;70 identified patients with 100% mortality at 28 days.</span></p>",
+            "formula_en": "<p dir=\"ltr\">CLIF-C ACLF Score = 10 x [0.33 x CLIF Organ Failure Score + 0.04 x age, years + 0.63 x ln(WBC count, 10<sup>9</sup> cells/L) - 2],&nbsp;</p>\n<p dir=\"ltr\">where CLIF Organ Failure Score = addition of the selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"*\"><col width=\"*\"><col width=\"*\"></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Liver</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Bilirubin</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;6 mg/dL (&lt;102.6 &micro;mol/L)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">6 to &lt;12 mg/dL (102.6 to &lt;205.2 &micro;mol/L)</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;12 mg/dL (&ge;205.2 &micro;mol/L)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Kidney</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Creatinine</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;2 mg/dL (&lt;176.8 &micro;mol/L)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">2 to &lt;3.5 mg/dL (176.8 to &lt;309.4 &micro;mol/L)</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;3.5 mg/dL (&ge;309.4 &micro;mol/L) or renal replacement therapy</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Brain</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><calculator id=\"674\">West-Haven Grade for Hepatic Encephalopathy</calculator></p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">1-2</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">3-4 (or if patient is intubated due to hepatic encephalopathy and not respiratory failure*)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Coagulation</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><abbr title=\"International normalized ratio\">INR</abbr></p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;2.0</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">2.0 to &lt;2.5</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;2.5</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Circulatory</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><calculator id=\"74\">MAP</calculator>, mmHg</p>\n</td>\n<td>\n<p dir=\"ltr\">&ge;70</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;70</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Any MAP with vasopressors</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Respiratory (use PaO<sub>2</sub>/FiO<sub>2</sub> ratio or SpO<sub>2</sub>/FiO<sub>2</sub><span style=\"font-size: xx-small;\"> ratio)</span></strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><abbr title=\"Partial pressure of oxygen\">PaO<sub>2</sub></abbr>/<abbr title=\"Fraction of inspired oxygen\">FiO<sub>2</sub></abbr> ratio</p>\n</td>\n<td>\n<p dir=\"ltr\">&gt;300</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;200 to 300</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&le;200 (or if patient intubated for respiratory failure)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><abbr title=\"Oxygen saturation\">SpO<sub>2</sub></abbr>/<abbr title=\"Fraction of inspired oxygen\">FiO<sub>2</sub></abbr> ratio</p>\n</td>\n<td>\n<p dir=\"ltr\">&gt;357</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;214 to 357</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&le;214 (or if patient intubated for respiratory failure)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-2aea767b-7fff-8128-8a30-27f0656d87ea\"><span id=\"docs-internal-guid-2aea767b-7fff-8128-8a30-27f0656d87ea\">*Patients submitted to mechanical ventilation due to hepatic encephalopathy and not due to a respiratory failure are considered as presenting a cerebral failure (cerebral subscore = 3).</span></span></p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<p dir=\"ltr\">Probability of death at a given time = 1 - e<sup>y</sup>, where y = -CI x exp(&beta; x CLIF-C ACLF Score), where Cl and &beta; are as follows:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"*\"><col width=\"*\"><col width=\"*\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Time</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Cumulative baseline hazard (Cl)</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Coefficient (&beta;)</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">1 month</p>\n</td>\n<td>\n<p dir=\"ltr\">0.0022</p>\n</td>\n<td>\n<p dir=\"ltr\">0.0995</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">3 months</p>\n</td>\n<td>\n<p dir=\"ltr\">0.0079</p>\n</td>\n<td>\n<p dir=\"ltr\">0.0869</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">6 months</p>\n</td>\n<td>\n<p dir=\"ltr\">0.0115</p>\n</td>\n<td>\n<p dir=\"ltr\">0.0824</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">1 year</p>\n</td>\n<td>\n<p dir=\"ltr\">0.0231</p>\n</td>\n<td>\n<p dir=\"ltr\">0.0731</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-1e5ee5b3-7fff-bc3b-6d13-c1105bb63b22\">From <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24950482\" target=\"_blank\" rel=\"noopener\">Jalan 2014</a>.</span></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24950482",
+                  "text": "Jalan R, Saliba F, Pavesi M, et al. Development and validation of a prognostic score to predict mortality in patients with acute-on-chronic liver failure. J Hepatol. 2014;61(5):1038-47."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23474284",
+                  "text": "Moreau R, Jalan R, Gines P, et al. Acute-on-chronic liver failure is a distinct syndrome that develops in patients with acute decompensation of cirrhosis. Gastroenterology. 2013;144(7):1426-37, 1437.e1-9."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://onlinelibrary.wiley.com/doi/10.1111/liv.12683/abstract;jsessionid=7DD64E523F2EBCDEB7BD8D4E0079DAE6.f04t03",
+                  "text": "Lee M, Lee JH, Oh S, et al. CLIF-SOFA scoring system accurately predicts short-term mortality in acutely decompensated patients with alcoholic cirrhosis: a retrospective analysis. Liver Int. 2015;35(1):46-57."
+                },
+                {
+                  "href": "https://ccforum.biomedcentral.com/articles/10.1186/s13054-018-2156-0",
+                  "text": "Engelmann C, Thomsen KL, Zakeri N, et al. Validation of CLIF-C ACLF score to define a threshold for futility of intensive care support for patients with acute-on-chronic liver failure. Crit Care. 2018;22(1):254."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Callum Wood, MB, BChir, MRCP (UK)"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Rajiv Jalan",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-34aeaef8-7fff-4140-3e47-0e2e0ee9a32e\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Decompensated liver disease is generally defined as the development of jaundice, ascites, encephalopathy, upper GI bleed, bacterial infection, or a combination of these, in a patient with existing cirrhotic liver disease.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">ACLF is a relatively new concept, characterized by a systemic inflammatory response as well as multiple organ failures (including decompensation of chronic liver disease).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Short term mortality in ACLF is high, around 25-75% at 28 days (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23474284\" target=\"_blank\" rel=\"noopener\">Moreau 2013</a>).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">The first part of the score counts the number of failing organ systems; the second part incorporates age and white cell count to calculate an ACLF score and a predicted mortality rate.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">A score of &gt;65 is associated with 100% mortality 3-7 days after diagnosis of ACLF.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">In up to 50% of patients, the precipitating cause of ACLF remains unidentified. Common causes include sepsis, ongoing alcohol consumption, and relapse of viral hepatitis.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">This study is not validated in or designed for use in patients with acute liver failure (for example, those with acetaminophen overdose or fulminant but de novo viral hepatitis) in the absence of pre-existing chronic liver disease.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">The derivation and validation studies were trialed in patients admitted to a critical care unit; therefore, its accuracy with regards to patients who are managed medically without a higher level care is not known.</p>\n</li>\n</ul>",
+            "use_case_en": "<p>Adult patients with decompensated cirrhotic liver disease and a clinical suspicion of failure of one or more organ systems.</p>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-17e837e4-7fff-a492-e89e-43829d3e47cd\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">May be used to predict 1-, 3-, 6- and 12-month mortality.&nbsp;</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">A predicted mortality of 100% after 48 hours of ICU treatment might give insights on futility of ongoing organ support.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">The score can be used dynamically; an increasing score despite intensive organ support might prompt a discussion about withdrawal of treatment, whereas a decrease in score after 48 hours might suggest a positive response to treatment.</p>\n</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-c3810033-7fff-c3bb-0e9d-cc1fc215bf23\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">The score can be recalculated after 48 hours as a marker of response to treatment.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">If there is no acute-on-chronic liver failure (ACLF grade 0), the CLIF-C AD (acute decompensation) score can be used instead to predict mortality.</p>\n</li>\n</ul>",
+            "critical_actions_en": "<p>Discuss with the patient and with critical care colleagues as appropriate regarding options for escalation of care.</p>",
+            "management_en": "<p><span id=\"docs-internal-guid-bcebf89d-7fff-e9fb-754b-a93aad10739a\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">There is no single specific treatment for ACLF. Management is focused on organ support and treatment of reversible causes.&nbsp;</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Remember that sepsis can often be difficult to spot in patients with cirrhosis. Infection was identified as a potential precipitating factor in around a third of patients in the derivation study.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Take blood, urine, and ascitic fluid samples to identify possible infection. Consider empiric use of antibiotics.</p>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Cirrhosis",
+          "Hepatitis",
+          "Hepatocellular Carcinoma"
+        ],
+        "dosing": false,
+        "equation_logic": "acde0eaa961a9579d9d4dacf399058ec",
+        "equation_logic_text": "var calc_output = [];\n\nvar wbc = parseFloat(wbc);\nvar age = parseFloat(age);\nvar bili = parseFloat(bili);\nvar cr = parseFloat(cr);\nvar grade = parseFloat(grade);\nvar inr = parseFloat(inr);\nvar map = parseFloat(map);\nvar resp = parseFloat(resp);\nvar resp1 = parseFloat(resp1) || 0;\nvar resp2 = parseFloat(resp2) || 0;\n\nif (resp == 0) {\n  var organ_score = bili + cr + grade + inr + map + resp1;\n} else if (resp == 1) {\n  var organ_score = bili + cr + grade + inr + map + resp2;\n}\n\nvar score = 10*(0.33*organ_score + 0.04*age + 0.63*Math.log(wbc) - 2);\n\nvar y_1 = -0.0022*Math.exp(0.0995*score);\nvar prob_1 = 1 - Math.pow(Math.E,y_1);\nprob_1 = prob_1*100;\nprob_1 = prob_1.toFixed(1);\n\nvar y_3 = -0.0079*Math.exp(0.0869*score);\nvar prob_3 = 1 - Math.pow(Math.E,y_3);\nprob_3 = prob_3*100;\nprob_3 = prob_3.toFixed(1);\n\nvar y_6 = -0.0115*Math.exp(0.0824*score);\nvar prob_6 = 1 - Math.pow(Math.E,y_6);\nprob_6 = prob_6*100;\nprob_6 = prob_6.toFixed(1);\n\nvar y_12 = -0.0231*Math.exp(0.0731*score);\nvar prob_12 = 1 - Math.pow(Math.E,y_12);\nprob_12 = prob_12*100;\nprob_12 = prob_12.toFixed(1);\n\nscore = score.toFixed(0);\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: prob_12 +'% probability of death at 1 year'\n});\ncalc_output.push({\n    name: 'score',\n    value: score,\n    value_text: 'points',\n    message: 'CLIF-C ACLF Score'\n});\ncalc_output.push({\n    name: 'TNM RCC',\n    value: '',\n    value_text: '',\n    message: prob_1 + '% probability of death at 1 month<br/>' + prob_3 + '% probability of death at 3 months<br/>' + prob_6 + '% probability of death at 6 months<br/>' + prob_12 + '% probability of death at 1 year'\n});",
+        "favorite_id": 10240,
+        "full_title_en": "CLIF-C ACLF (Acute-on-Chronic Liver Failure)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Age",
+            "name": "age",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "age"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "WBC count",
+            "name": "wbc",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "wbc"
+          },
+          {
+            "subheading": "Liver",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Bilirubin",
+            "name": "bili",
+            "optional": false,
+            "options": [
+              {
+                "label": "<6 mg/dL (<102.6 µmol/L)",
+                "value": 1
+              },
+              {
+                "label": "6 to <12 mg/dL (102.6 to <205.2 µmol/L)",
+                "value": 2
+              },
+              {
+                "label": "≥12 mg/dL (≥205.2 µmol/L)",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Kidney",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Creatinine",
+            "name": "cr",
+            "optional": false,
+            "options": [
+              {
+                "label": "<2 mg/dL (<176.8 µmol/L)",
+                "value": 1
+              },
+              {
+                "label": "2 to <3.5 mg/dL (176.8 to <309.4 µmol/L)",
+                "value": 2
+              },
+              {
+                "label": "≥3.5 mg/dL (≥309.4 µmol/L) or renal replacement therapy",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Brain",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<calculator id = \"674\">West-Haven Grade for Hepatic Encephalopathy</calculator>",
+            "name": "grade",
+            "optional": false,
+            "options": [
+              {
+                "label": "0",
+                "value": 1
+              },
+              {
+                "label": "1-2",
+                "value": 2
+              },
+              {
+                "label": "3-4 ",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Patients intubated due to hepatic encephalopathy (and not respiratory failure) should be scored as +3",
+            "type": "radio"
+          },
+          {
+            "subheading": "Coagulation",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<abbr title = \"International normalized ratio\">INR</abbr>",
+            "name": "inr",
+            "optional": false,
+            "options": [
+              {
+                "label": "<2.0",
+                "value": 1
+              },
+              {
+                "label": "2.0 to <2.5",
+                "value": 2
+              },
+              {
+                "label": "≥2.5",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Circulatory",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<abbr title =\"Mean arterial pressure\">MAP</abbr>, mmHg",
+            "name": "map",
+            "optional": false,
+            "options": [
+              {
+                "label": "≥70",
+                "value": 1
+              },
+              {
+                "label": "<70",
+                "value": 2
+              },
+              {
+                "label": "Any MAP with vasopressors",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Respiratory",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Information available",
+            "name": "resp",
+            "optional": false,
+            "options": [
+              {
+                "label": "PaO<sub>2</sub>/FiO<sub>2</sub> ratio",
+                "value": 0
+              },
+              {
+                "label": "SpO<sub>2</sub>/FiO<sub>2</sub> ratio",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "resp == 0",
+            "default": 0,
+            "label_en": "<abbr title=\"Partial pressure of oxygen\">PaO<sub>2</sub></abbr>/<abbr title=\"Fraction of inspired oxygen\">FiO<sub>2</sub></abbr> ratio",
+            "name": "resp1",
+            "optional": false,
+            "options": [
+              {
+                "label": ">300",
+                "value": 1
+              },
+              {
+                "label": ">200 to 300",
+                "value": 2
+              },
+              {
+                "label": "≤200 (or if patient intubated for respiratory failure)",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "resp == 1",
+            "default": 0,
+            "label_en": "<abbr title=\"Oxygen saturation\">SpO<sub>2</sub></abbr>/<abbr title=\"Fraction of inspired oxygen\">FiO<sub>2</sub></abbr> ratio",
+            "name": "resp2",
+            "optional": false,
+            "options": [
+              {
+                "label": ">357",
+                "value": 1
+              },
+              {
+                "label": ">214 to 357",
+                "value": 2
+              },
+              {
+                "label": "≤214 (or if patient intubated for respiratory failure)",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use in adult patients with decompensated chronic (cirrhotic) liver disease; it does not predict outcome in acute liver failure.</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited logic",
+            "time": "2021-03-11T23:58:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2020-12-08T09:00:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2020-12-08T08:53:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited content",
+            "time": "2020-12-08T08:15:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added content",
+            "time": "2019-11-14T11:10:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited creator",
+            "time": "2019-08-06T15:00:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-08-06T14:59:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "re-saving",
+            "time": "2019-08-06T14:34:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "re-saving",
+            "time": "2019-08-06T14:31:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "re-saving",
+            "time": "2019-08-06T14:26:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2019-08-05T15:57:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-08-05T15:51:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited calc logic",
+            "time": "2019-08-05T15:39:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added inputs",
+            "time": "2019-08-05T14:33:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added inputs",
+            "time": "2019-08-05T14:29:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2019-08-05T13:52:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "claiming calc i",
+            "time": "2019-08-05T13:38:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "claiming id",
+            "time": "2019-07-23T15:31:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "f2133d691621e1c3291ab97ebfa12959",
+        "medium_description_en": "<p>Predicts mortality in acute-on-chronic liver failure.</p>",
+        "publishedAt": "2022-04-21T20:28:37.869Z",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "CLIF-C ACLF",
+          "CLIF-C ACLF (Acute-on-Chronic Liver Failure)",
+          "clif aclf",
+          "clif-of",
+          "clif-c of",
+          "clif organ failure",
+          "aclf",
+          "acute on chronic liver failure",
+          "liver failure",
+          "aclf score",
+          "clif aclf score",
+          "clif-c aclf score"
+        ],
+        "search_id": "c-10240",
+        "seo": {
+          "keywords_en": "CLIF-C ACLF, CLIF-C ACLF (Acute-on-Chronic Liver Failure), clif aclf, clif-of, clif-c of, clif organ failure, aclf, acute on chronic liver failure, liver failure, aclf score, clif aclf score, clif-c aclf score",
+          "meta_description_en": "The CLIF-C ACLF (Acute-on-Chronic Liver Failure) predicts mortality in acute-on-chronic liver failure."
+        },
+        "short_description_en": "<p>Mortality in liver failure.</p>",
+        "short_title_en": "CLIF-C ACLF",
+        "slug": "clif-c-aclf-acute-chronic-liver-failure",
+        "specialty_en": [
+          "Gastroenterology",
+          "Hepatology",
+          "Hospitalist Medicine",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Gastrointestinal",
+          "Hepatic"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "d59ffecc-4d0d-4283-a6e5-273d2a28c4ff"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Callum",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Wood",
+          "name": "Callum Wood, MB, BChir, MRCP (UK)",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": false,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Rajiv Jalan, MBBS, MRCP, is a professor of hepatology at the Institute for Liver and Digestive Health at University College London in UK.  Dr. Jalan’s primary research is focused on acute-on-chronic liver failure.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Rajiv Jalan",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-rajiv-jalan.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Jalan+R%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10240/clif-c-aclf-acute-chronic-liver-failure",
+        "description": "The CLIF-C ACLF (Acute-on-Chronic Liver Failure) predicts mortality in acute-on-chronic liver failure.",
+        "keywords": "CLIF-C ACLF, CLIF-C ACLF (Acute-on-Chronic Liver Failure), clif aclf, clif-of, clif-c of, clif organ failure, aclf, acute on chronic liver failure, liver failure, aclf score, clif aclf score, clif-c aclf score",
+        "title": "CLIF-C ACLF (Acute-on-Chronic Liver Failure)"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 120,
+          "error_max_si": 120,
+          "error_max_us": 120,
+          "error_min": 0.001,
+          "error_min_si": 0.001,
+          "error_min_us": 0.001,
+          "name": "Age",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "age",
+          "units_si": "years",
+          "units_us": "years",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0.1,
+          "warn_min_si": 0.1,
+          "warn_min_us": 0.1
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 500,
+          "error_max_si": 500,
+          "error_max_us": 500,
+          "error_min": 0.0001,
+          "error_min_si": 0.0001,
+          "error_min_us": 0.0001,
+          "name": "White Blood Cell Count",
+          "normal_max_si": 10.7,
+          "normal_max_us": 10.7,
+          "normal_min_si": 3.7,
+          "normal_min_us": 3.7,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "wbc",
+          "units_si": "× 10⁹ cells/L",
+          "units_us": "× 10³ cells/µL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0.1,
+          "warn_min_si": 0.1,
+          "warn_min_us": 0.1
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 78,
+          "short_title_en": "MELD Na (UNOS/OPTN)",
+          "slug": "meld-score-model-end-stage-liver-disease-12-older"
+        },
+        {
+          "calcId": 340,
+          "short_title_en": "Child-Pugh Score",
+          "slug": "child-pugh-score-cirrhosis-mortality"
+        },
+        {
+          "calcId": 10147,
+          "short_title_en": "UKELD Score",
+          "slug": "united-kingdom-model-end-stage-liver-disease-ukeld"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10240",
+      "clif-c-aclf-acute-chronic-liver-failure"
+    ]
+  },
+  "scriptLoader": []
+}

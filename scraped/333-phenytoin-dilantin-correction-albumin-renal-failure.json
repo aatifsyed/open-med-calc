@@ -1,0 +1,655 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Seizure",
+          "Syncope"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+116",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+116",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "333.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\">Phenytoin is highly protein bound, but generally it is the free, unbound portion in the serum that correlates with concentrations within the central nervous system (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25470190\" target=\"_blank\">Vadja 2014</a>). Laboratories typically only measure the bound portion of phenytoin. Many equations to predict unbound phenytoin concentrations have been developed. The Winter-Tozer formula (also known as Sheiner-Tozer) is one of the most widely used equations (Sheiner 1978). However, this equation was derived by using pharmacokinetics from subjects who were otherwise healthy (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/599408\" target=\"_blank\">Martin 1977</a>). Subsequent research has shown it to be less accurate in critically ill patients with renal failure or low albumin.</p>\n<p dir=\"ltr\">The original formulas used an albumin binding coefficient (see below) of 0.2, and 0.1 for patients with renal failure (Winter 2006). These equations assumed a normal serum albumin and an unbound drug portion of 10%. However, these coefficients have been found to be inaccurate, especially when serum albumin levels are low (<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2730613/\" target=\"_blank\">Hong 2009</a>), or when renal function is poor (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/6538287\" target=\"_blank\">Liponi 1984</a>).</p>\n<p dir=\"ltr\">Different coefficients have shown better correlations with free phenytoin levels, ranging from 0.25 in the elderly and in head trauma (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/9066931\" target=\"_blank\">Anderson 1997</a>) to 0.29 in neurointensive care patients (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23606554\" target=\"_blank\">Kane 2013</a>). Another study comprised of general medicine, neurology, and intensive care patients showed a coefficient of 0.275 to be most predictive (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27621486\" target=\"_blank\">Cheng 2016</a>). For this calculator, a coefficient of 0.275 was used for non-renal failure, which was felt to represent a compromise between the trauma and ICU studies, and had been derived from the most diverse patient sample.</p>\n<p><span id=\"docs-internal-guid-886f76f4-7fff-90c1-e658-e1c96d6ace61\">Less is known about phenytoin in renal failure, but at least one smaller study supports a coefficient of 0.2 in these patients (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28470115\" target=\"_blank\">Soriano 2017</a>). However, it should be noted that none of these equations has been validated by a prospective trial, and whenever possible, free phenytoin levels should be used to guide therapy.</span></p>",
+            "formula_en": "<p dir=\"ltr\">Corrected phenytoin = measured phenytoin level / ( (adjustment x albumin, g/dL) + 0.1)</p>\n<p>Adjustment = 0.275; in patients with creatinine clearance &lt;20 mL/min, adjustment = 0.2.</p>\n<p>Note: no correction is needed for albumin &gt;3.2 g/dL. This calculation is derived from the original Winter-Tozer formula, which used an albumin coefficient of 0.2, and 0.1 for renal failure.</p>",
+            "more_info_en": "<p>The “Sheiner-Tozer Equation” is the official name of this correction.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/599408",
+                  "text": "Martin E, Tozer TN, Sheiner LB, Riegelman S. The clinical pharmacokinetics of phenytoin. J Pharmacokinet Biopharm. 1977 Dec;5(6):579-96."
+                },
+                {
+                  "href": "https://books.google.com/books?id=DPW0AAAAIAAJ&source=gbs_book_other_versions",
+                  "text": "Sheiner LB, Tozer TN. Clinical pharmacokinetics: the use of plasma concentrations of drugs. In: Melmon KL, Morelli HF, editors. Clinical Pharmacology: Basic Principles in Therapeutics. New York: Macmillan; 1978. p.71-109."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1805474/",
+                  "text": "Winter MG, Tozer TN. Chapter 20. Phenytoin. In: Burton ME, Shaw LM, Schentag JJ, Evans WE. Applied pharmacokinetics: principles of therapeutic drug monitoring. 4th ed. Baltimore, MD: Lippincott Williams &amp; Wilkins, ©2006."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25470190",
+                  "text": "Vajda FJ, Eadie MJ. The clinical pharmacology of traditional antiepileptic drugs. Epileptic Disord. 2014;16:395-408."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2730613/",
+                  "text": "Hong JM, Choi YC, Kim WJ. Differences between the Measured and Calculated Free Serum Phenytoin Concentrations in Epileptic Patients. Yonsei Medical Journal. 2009;50(4):517-520."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/6538287",
+                  "text": "Liponi DF, Winter ME, Tozer TN. Renal function and therapeutic concentrations of phenytoin. Neurology 1984;34:395-7."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23606554",
+                  "text": "Kane SP, Bress AP, Tesoro EP. Characterization of unbound phenytoin concentrations in neurointensive care unit patients using a revised Winter-Tozer equation. Ann Pharmacother. 2013;47(5):628-36."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/9066931",
+                  "text": "Anderson GD, Pak C, Doane KW, et al. Revised Winter-Tozer equation for normalized phenytoin concentrations in trauma and elderly patients with hypoalbuminemia. Ann Pharmacother. 1997;31(3):279-84."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27621486",
+                  "text": "Cheng W, Kiang TKL, Bring P, Ensom MHH. Predictive Performance of the Winter–Tozer and Derivative Equations for Estimating Free Phenytoin Concentration. The Canadian Journal of Hospital Pharmacy. 2016;69(4):269-279."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28470115",
+                  "text": "Soriano VV, Tesoro EP, Kane SP. Characterization of Free Phenytoin Concentrations in End-Stage Renal Disease Using the Winter-Tozer Equation. Ann Pharmacother. 2017;:1060028017707541."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26825643",
+                  "text": "Kiang TK, Ensom MH. A Comprehensive Review on the Predictive Performance of the Sheiner-Tozer and Derivative Equations for the Correction of Phenytoin Concentrations. Ann Pharmacother. 2016;50(4):311-25."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Andrew Michalak, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Thomas N. Tozer",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-60ad9465-7fff-7297-8560-909b65eebfca\">Phenytoin has a narrow therapeutic window, and is highly protein-bound. The protein-bound phenytoin is what is typically measured by the lab. However, unbound phenytoin is the active portion (it crosses the blood-brain barrier). This calculator helps estimate the equivalent active amount of phenytoin based on typical lab values.</span></p>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-e132d217-7fff-481d-1113-4c4b26268d68\">Patients taking phenytoin who have renal failure or albumin &le;3.2 g/dL (32 g/L).</span></p>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-74d26a58-7fff-b7f5-d27b-355b8cb7322e\">Helps avoid under- or over-dosing in patients with renal failure or low albumin.</span></p>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Adjust phenytoin dosing based on values.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">If consistently out of range, consider other antiepileptics.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Concomitant use of valproic acid and some other drugs displaces phenytoin from plasma proteins and can lead to erratic levels.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Whenever possible, a free phenytoin level should be utilized over a corrected level.</p>\n</li>\n</ul>",
+            "critical_actions_en": "<p><span id=\"docs-internal-guid-d74df1cf-7fff-54aa-bf87-cefc4d6b1aeb\">A therapeutic phenytoin level is generally considered to be 10-20 mg/L (40-80 &micro;mol/L). Levels above this may cause nystagmus, ataxia, lethargy, confusion, and coma.</span></p>",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Hypocalcemia",
+          "Renal Failure",
+          "Seizure Disorder"
+        ],
+        "dosing": false,
+        "equation_logic": "c5f4d986881490348fe23861ff999d59",
+        "equation_logic_text": "var calc_output = [];\nvar phenytoin = parseFloat(phenytoin);\nvar albumin = parseFloat(albumin);\nvar crcl_20 = parseFloat(crcl_20);\nvar units;\nif (crcl_20 == 1) {\n    var factor = 0.2;\n} else {\n    var factor = 0.275;\n}\n\nif (UOMSYSTEM == false) {\n    //needed in US units, convert when in SI\n    albumin = albumin / 10;\n    phenytoin = phenytoin / 3.968;\n}\nvar v = phenytoin / ((factor * albumin) + 0.1);\nif (UOMSYSTEM == true) {\n  units = '\\u00b5g/mL';\n}\nif (UOMSYSTEM == false){\n  v = v * 3.968;\n  units = '\\u00b5mol/L';\n}\ncalc_output.push({ name: 'mini', value: v.toFixed(1), value_text: units, message: 'Corrected Phenytoin' });\ncalc_output.push({ name: 'Phenytoin Correction', value: v.toFixed(1), value_text: units, message: 'Corrected Phenytoin Level' });",
+        "favorite_id": 333,
+        "full_title_en": "Phenytoin (Dilantin) Correction for Albumin / Renal Failure",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Measured phenytoin level",
+            "name": "phenytoin",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "phenytoin"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Albumin",
+            "name": "albumin",
+            "optional": false,
+            "tips_en": "If albumin >3.2 g/dL (32 g/L), this correction is not needed",
+            "type": "textbox",
+            "unit": "alb"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Creatinine clearance <20 mL/min",
+            "name": "crcl_20",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p><span id=\"docs-internal-guid-9b286b93-7fff-0104-70b5-2b4a28d2091b\">Use in patients with albumin &le;3.2 g/dL (32 g/L).&nbsp;The &ldquo;Sheiner-Tozer Equation&rdquo; is the official name of this correction. This updated formula uses an albumin coefficient of 0.275, and 0.2 for patients with renal failure (see <a href=\"#evidence\">Evidence</a> for details).</span></p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "adding contributor content",
+            "time": "2018-09-19 11:41 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "equation logic edited",
+            "time": "2018-09-19 11:51 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited eq logic",
+            "time": "2018-09-19 12:59 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2018-09-21 09:29 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added two references",
+            "time": "2018-09-21 11:43 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added \"g/dL\" to equation",
+            "time": "2018-12-10 03:50 PM",
+            "user": "allyssa"
+          },
+          {
+            "message": "updated instructions",
+            "time": "2018-12-18 11:54 AM",
+            "user": "allyssa"
+          },
+          {
+            "message": "fixed evidence tag in instructions",
+            "time": "2018-12-18 11:58 AM",
+            "user": "allyssa"
+          }
+        ],
+        "md5": "28500cf018cd76e90c2b0ebe05c69ef4",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-5e677159-7fff-89f3-3c2a-9cb2948925c5\">Corrects serum phenytoin level for renal failure and/or hypoalbuminemia.</span></p>",
+        "purpose_en": [
+          "Calculation"
+        ],
+        "search_abbreviation_en": [
+          "dilantin",
+          "Phenytoin",
+          "seizure"
+        ],
+        "search_id": "c-333",
+        "seo": {
+          "keywords_en": "phenytoin dosing calculator, albumin serum phenytoin, renal failure dosing, phenytoin admin calculator, phenytoin correction, phenytoin renal calc, renal failure correction calc",
+          "meta_description_en": "The Phenytoin (Dilantin) Correction for Albumin / Renal Failure corrects serum phenytoin level for renal failure and/or hypoalbuminemia."
+        },
+        "short_description_en": "Corrected phenytoin level.",
+        "short_title_en": "Phenytoin (Dilantin) Correction",
+        "slug": "phenytoin-dilantin-correction-albumin-renal-failure",
+        "specialty_en": [
+          "Critical Care",
+          "Critical Care (Neurologic)",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Nephrology",
+          "Neurology",
+          "Pharmacy",
+          "Toxicology"
+        ],
+        "system_en": [
+          "Neurologic",
+          "Renal"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Andrew",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Michalak",
+          "name": "Andrew Michalak, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Thomas N. Tozer, PhD, PharmD, BS, is professor emeritus of biopharmaceutical sciences and pharmaceutical chemistry at School of Pharmacy at UCSF. He is the co-author of <u>Clinical Pharmacokinetics and Pharmacodynamics: Concepts and Applications</u>. Prior to retirement, Dr. Tozer researched colon-specific drug delivery, toxicokinetics, kinetics of potential contrast agents for magnetic resonance imaging and nonlinear pharmacokinetics.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Thomas N. Tozer",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-thomas-n-tozer.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Tozer+TN%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/333/phenytoin-dilantin-correction-albumin-renal-failure",
+        "description": "The Phenytoin (Dilantin) Correction for Albumin / Renal Failure corrects serum phenytoin level for renal failure and/or hypoalbuminemia.",
+        "keywords": "phenytoin dosing calculator, albumin serum phenytoin, renal failure dosing, phenytoin admin calculator, phenytoin correction, phenytoin renal calc, renal failure correction calc",
+        "title": "Phenytoin (Dilantin) Correction for Albumin / Renal Failure"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "10",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 7,
+          "error_max_si": 70,
+          "error_max_us": 7,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Albumin",
+          "normal_max_si": 55,
+          "normal_max_us": 5.5,
+          "normal_min_si": 35,
+          "normal_min_us": 3.5,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "alb",
+          "units_si": "g/L",
+          "units_us": "g/dL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 6,
+          "warn_max_si": 60,
+          "warn_max_us": 6,
+          "warn_min": 1,
+          "warn_min_si": 10,
+          "warn_min_us": 1
+        },
+        {
+          "conversion": "3.968",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 100,
+          "error_max_si": 396.8,
+          "error_max_us": 100,
+          "error_min": -0.00001,
+          "error_min_si": -0.000039680000000000006,
+          "error_min_us": -0.00001,
+          "name": "Phenytoin",
+          "normal_max_si": 79,
+          "normal_max_us": 20,
+          "normal_min_si": 39,
+          "normal_min_us": 10,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "phenytoin",
+          "units_si": "µmol/L",
+          "units_us": "µg/mL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 80,
+          "warn_max_si": 317.44,
+          "warn_max_us": 80,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 10474,
+          "short_title_en": "2HELPS2B Score",
+          "slug": "2helps2b-score"
+        },
+        {
+          "calcId": 480,
+          "short_title_en": "Sodium Correction Rate in Hyponatremia/Hypernatremia",
+          "slug": "sodium-correction-rate-hyponatremia-hypernatremia"
+        },
+        {
+          "calcId": 10091,
+          "short_title_en": "Benzodiazepine Conversion Calculator",
+          "slug": "benzodiazepine-conversion-calculator"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "333",
+      "phenytoin-dilantin-correction-albumin-renal-failure"
+    ]
+  },
+  "scriptLoader": []
+}

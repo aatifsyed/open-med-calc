@@ -1,0 +1,855 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">Postoperative respiratory failure risk*, % = <em>e</em><sup>x</sup> / (1 + <em>e</em><sup>x</sup>)</p>\n<p>Where x = &minus;1.7397 + sum of the values of the selected variables.</p>\n<p dir=\"ltr\">*Defined as requiring mechanical ventilation &gt;48 hrs after surgery, or unplanned intubation&nbsp;&le;30 days of surgery.</p>\n<div dir=\"ltr\">\n<table>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Options</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Value</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Functional status</p>\n</td>\n<td>\n<p dir=\"ltr\">Independent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Partially dependent</p>\n</td>\n<td>\n<p dir=\"ltr\">0.7678</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Totally dependent</p>\n</td>\n<td>\n<p dir=\"ltr\">1.4046</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\"><calculator id=\"10024\">ASA class</calculator></p>\n</td>\n<td>\n<p dir=\"ltr\">1: normal healthy patient</p>\n</td>\n<td>\n<p dir=\"ltr\">-3.5265</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">2: mild systemic disease</p>\n</td>\n<td>\n<p dir=\"ltr\">-2.0008</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">3: severe systemic disease</p>\n</td>\n<td>\n<p dir=\"ltr\">-0.6201</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">4: severe systemic disease that is a constant threat to life*</p>\n</td>\n<td>\n<p dir=\"ltr\">0.2441</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">5: moribund, not expected to survive without surgery</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Sepsis</p>\n</td>\n<td>\n<p dir=\"ltr\">None</p>\n</td>\n<td>\n<p dir=\"ltr\">-0.7840</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Preoperative systemic inflammatory response syndrome</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Preoperative sepsis</p>\n</td>\n<td>\n<p dir=\"ltr\">0.2752</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Preoperative septic shock</p>\n</td>\n<td>\n<p dir=\"ltr\">0.9035</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Emergency case</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">-0.5739</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"21\">\n<p dir=\"ltr\">Type of procedure</p>\n</td>\n<td>\n<p dir=\"ltr\">Anorectal</p>\n</td>\n<td>\n<p dir=\"ltr\">-1.3530</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Aortic</p>\n</td>\n<td>\n<p dir=\"ltr\">1.0781</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Bariatric</p>\n</td>\n<td>\n<p dir=\"ltr\">-1.0112</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Brain</p>\n</td>\n<td>\n<p dir=\"ltr\">0.7336</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Breast</p>\n</td>\n<td>\n<p dir=\"ltr\">-2.6462</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Cardiac</p>\n</td>\n<td>\n<p dir=\"ltr\">0.2744</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">ENT (except thyroid/parathyroid)</p>\n</td>\n<td>\n<p dir=\"ltr\">0.1060</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Foregut or hepatopancreatobiliary</p>\n</td>\n<td>\n<p dir=\"ltr\">0.9694</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Gallbladder, appendix, adrenals, or spleen</p>\n</td>\n<td>\n<p dir=\"ltr\">-0.5668</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Hernia (ventral, inguinal, femoral)</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Intestinal</p>\n</td>\n<td>\n<p dir=\"ltr\">0.5737</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Neck (thyroid/parathyroid)</p>\n</td>\n<td>\n<p dir=\"ltr\">-0.5271</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Obstetric/gynecologic</p>\n</td>\n<td>\n<p dir=\"ltr\">-1.2431</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Orthopedic and non-vascular extremity</p>\n</td>\n<td>\n<p dir=\"ltr\">-0.8577</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Other abdominal</p>\n</td>\n<td>\n<p dir=\"ltr\">0.2416</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Peripheral vascular</p>\n</td>\n<td>\n<p dir=\"ltr\">-0.2389</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Skin</p>\n</td>\n<td>\n<p dir=\"ltr\">-0.3206</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Spine</p>\n</td>\n<td>\n<p dir=\"ltr\">-0.5220</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Non-esophageal thoracic</p>\n</td>\n<td>\n<p dir=\"ltr\">0.6715</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Vein</p>\n</td>\n<td>\n<p dir=\"ltr\">-2.0080</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Urology</p>\n</td>\n<td>\n<p dir=\"ltr\">0.3093</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">*i.e., patient could die acutely without intervention.</p>\n<p></p>\n<p><span style=\"font-size: 8.5pt; font-family: Verdana; background-color: transparent; font-weight: bold; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;</p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21757571",
+                  "text": "Gupta H, Gupta PK, Fang X, et al. Development and validation of a risk calculator predicting postoperative respiratory failure. Chest. 2011;140(5):1207-1215."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21757571",
+                  "text": "Gupta H, Gupta PK, Fang X, et al. Development and validation of a risk calculator predicting postoperative respiratory failure. Chest. 2011;140(5):1207-1215."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Himani Gupta",
+              "qa_en": null
+            },
+            {
+              "approved": null,
+              "name": "Dr. Prateek K. Gupta",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "",
+            "why_use_en": "<p>May be useful in discussions of informed consent and in managing patient/family expectations perioperatively.</p>"
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "<p>High risk of postop respiratory failure should not be used as justification for avoiding a necessary operation.</p>",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Respiratory Distress",
+          "Respiratory Failure"
+        ],
+        "dosing": false,
+        "equation_logic": "189f3a9ba7deebf2ad880014f668d5d9",
+        "equation_logic_text": "var calc_output = [];\nvar procedure = parseFloat(procedure);\nvar emergency = parseFloat(emergency);\nvar sepsis = parseFloat(sepsis);\nvar class1 = parseFloat(class1);\nvar status = parseFloat(status);\n\nvar b = -1.7397 + status + class1 + sepsis + emergency + procedure;\n\nvar risk = Math.exp(b)/(1 + Math.exp(b)) * 100;\n\ncalc_output.push({\n   name: 'mini',\n   value: risk.toFixed(1),\n   value_text: '%',\n   message: 'Risk of mechanical ventilation for >48 hrs postop or reintubation ≤30 days'\n});\ncalc_output.push({\n   name: 'Gupta score',\n   value: risk.toFixed(1),\n   value_text: '%',\n   message: 'Risk of mechanical ventilation for >48 hrs after surgery, or unplanned intubation ≤30 days of surgery'\n});",
+        "favorite_id": 10193,
+        "full_title_en": "Gupta Postoperative Respiratory Failure Risk",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Functional status",
+            "name": "status",
+            "optional": false,
+            "options": [
+              {
+                "label": "Independent",
+                "value": 0
+              },
+              {
+                "label": "Partially dependent",
+                "value": 0.77
+              },
+              {
+                "label": "Totally dependent",
+                "value": 1.4
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<calculator id = \"10024\">ASA class</calculator>",
+            "name": "class1",
+            "optional": false,
+            "options": [
+              {
+                "label": "1: normal healthy patient",
+                "value": -3.53
+              },
+              {
+                "label": "2: mild systemic disease",
+                "value": -2
+              },
+              {
+                "label": "3: severe systemic disease",
+                "value": -0.62
+              },
+              {
+                "label": "4: severe systemic disease that is a constant threat to life (i.e., patient could die acutely without intervention)",
+                "value": 0.24
+              },
+              {
+                "label": "5: moribund, not expected to survive without surgery",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Sepsis",
+            "name": "sepsis",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": -0.78
+              },
+              {
+                "label": "Preoperative systemic inflammatory response syndrome",
+                "value": 0
+              },
+              {
+                "label": "Preoperative sepsis",
+                "value": 0.28
+              },
+              {
+                "label": "Preoperative septic shock",
+                "value": 0.9
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Emergency case",
+            "name": "emergency",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": -0.57
+              },
+              {
+                "label": "Yes",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "<p>Type of procedure</p>",
+            "name": "procedure",
+            "optional": false,
+            "options": [
+              {
+                "label": "Anorectal",
+                "value": -1.35
+              },
+              {
+                "label": "Aortic",
+                "value": 1.08
+              },
+              {
+                "label": "Bariatric",
+                "value": -1.01
+              },
+              {
+                "label": "Brain",
+                "value": 0.73
+              },
+              {
+                "label": "Breast",
+                "value": -2.65
+              },
+              {
+                "label": "Cardiac",
+                "value": 0.27
+              },
+              {
+                "label": "ENT (except thyroid/parathyroid)",
+                "value": 0.11
+              },
+              {
+                "label": "Foregut (esophagus, stomach) or hepatopancreatobiliary",
+                "value": 0.97
+              },
+              {
+                "label": "Gallbladder, appendix, adrenals, or spleen",
+                "value": -0.57
+              },
+              {
+                "label": "Hernia (ventral, inguinal, femoral)",
+                "value": 0
+              },
+              {
+                "label": "Intestinal",
+                "value": 0.57
+              },
+              {
+                "label": "Neck (thyroid/parathyroid)",
+                "value": -0.53
+              },
+              {
+                "label": "Obstetric/gynecologic",
+                "value": -1.24
+              },
+              {
+                "label": "Orthopedic and non-vascular extremity",
+                "value": -0.86
+              },
+              {
+                "label": "Other abdominal",
+                "value": 0.24
+              },
+              {
+                "label": "Peripheral vascular",
+                "value": -0.24
+              },
+              {
+                "label": "Skin",
+                "value": -0.32
+              },
+              {
+                "label": "Spine",
+                "value": -0.52
+              },
+              {
+                "label": "Non-esophageal thoracic (lung, mediastinum, etc)",
+                "value": 0.67
+              },
+              {
+                "label": "Vein",
+                "value": -2.01
+              },
+              {
+                "label": "Urology",
+                "value": 0.31
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "dropdown"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added content",
+            "time": "2019-05-12 02:57 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added inputs",
+            "time": "2019-05-12 04:25 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-05-12 04:27 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-05-12 04:29 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-05-12 04:31 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited desc",
+            "time": "2019-05-13 06:06 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited desc",
+            "time": "2019-05-13 06:07 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited desc",
+            "time": "2019-05-13 06:09 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited desc",
+            "time": "2019-05-13 06:10 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-05-13 06:13 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-05-13 06:14 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited input",
+            "time": "2019-05-13 06:22 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-05-13 06:23 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2019-05-14 11:20 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited mini result",
+            "time": "2019-05-14 11:49 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited desc",
+            "time": "2019-05-14 12:02 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited desc",
+            "time": "2019-05-14 12:15 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-05-21 09:35 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-05-21 09:46 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-05-21 12:31 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-28 03:57 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-28 04:08 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-28 04:31 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-28 05:06 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-05-30 11:47 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-05-30 11:54 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inpits",
+            "time": "2019-05-30 11:55 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-05-30 12:15 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-05-30 12:16 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "types of surgeries",
+            "time": "2019-05-30 01:25 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "publish",
+            "time": "2019-05-30 01:31 PM",
+            "user": "rachel"
+          }
+        ],
+        "md5": "175dc8760702c33165fff8bfb708fdba",
+        "medium_description_en": "<p>Predicts risk of mechanical ventilation for longer than 48 hrs postop or reintubation within 30 days.</p>",
+        "publishedAt": "2022-04-21T20:28:32.557Z",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "Respiratory failure",
+          "post-operative risk",
+          "postop risk",
+          "postoperative risk",
+          "postop respiratory failure",
+          "postoperative respiratory failure",
+          "post-operative respiratory failure",
+          "gupta",
+          "post op",
+          "post-op",
+          "postop"
+        ],
+        "search_id": "c-10193",
+        "seo": {
+          "keywords_en": "Respiratory failure, post-operative risk, postop risk, postoperative risk, postop respiratory failure, postoperative respiratory failure, post-operative respiratory failure, gupta",
+          "meta_description_en": "The Gupta Postoperative Respiratory Failure Risk predicts risk of mechanical ventilation for >48 hrs postop or reintubation within 30 days."
+        },
+        "short_description_en": "Risk of vent >48 hrs postop or reintubated ≤30 days.",
+        "short_title_en": "Gupta Postop Respiratory Failure Risk",
+        "slug": "gupta-postoperative-respiratory-failure-risk",
+        "specialty_en": [
+          "Anesthesiology",
+          "Critical Care",
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Oral and Maxillofacial Surgery",
+          "Pulmonology",
+          "Surgery (Cardiothoracic)",
+          "Surgery (General)",
+          "Surgery (Plastic)",
+          "Surgery (Trauma)"
+        ],
+        "system_en": [
+          "Respiratory"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "ee32e8c4-3c3e-4fe8-807a-b10f1e5035fb"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Himani Gupta, MD, is an internist at the Methodist Germantown Hospital in Germantown, Tennessee. Dr. Gupta’s primary research is focused on outcomes after surgical procedures.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Himani Gupta",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-himani-gupta.png",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Gupta%20H%5BAuthor%5D&cauthor=true&cauthor_uid=21757571",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "about_en": "<p>Prateek K. Gupta, MD, is a vascular surgeon at Methodist University Hospital in Memphis, Tennessee. He is also an assistant professor of surgery at the University of Tennessee. Dr. Gupta's primary research is focused on surgical outcomes.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Prateek K. Gupta",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-prateek-k-gupta.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Gupta%20PK%5BAuthor%5D&cauthor=true&cauthor_uid=21757571",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T17:02:27.452Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10193/gupta-postoperative-respiratory-failure-risk",
+        "description": "The Gupta Postoperative Respiratory Failure Risk predicts risk of mechanical ventilation for >48 hrs postop or reintubation within 30 days.",
+        "keywords": "Respiratory failure, post-operative risk, postop risk, postoperative risk, postop respiratory failure, postoperative respiratory failure, post-operative respiratory failure, gupta",
+        "title": "Gupta Postoperative Respiratory Failure Risk"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10199,
+          "short_title_en": "Gupta Postop Pneumonia Risk",
+          "slug": "gupta-postoperative-pneumonia-risk"
+        },
+        {
+          "calcId": 10143,
+          "short_title_en": "RESP Score for ECMO",
+          "slug": "resp-respiratory-ecmo-survival-prediction-score"
+        },
+        {
+          "calcId": 4062,
+          "short_title_en": "Horowitz Index (P/F Ratio)",
+          "slug": "horowitz-index-lung-function-p-f-ratio"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10193",
+      "gupta-postoperative-respiratory-failure-risk"
+    ]
+  },
+  "scriptLoader": []
+}

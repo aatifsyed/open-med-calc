@@ -1,0 +1,551 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Agitation",
+          "Dyspnea",
+          "Injury/Trauma",
+          "Shortness of Breath",
+          "Wheezing"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "3928.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The Chula formula was developed and validated by Techanivate and colleagues at King Chulalongkorn Memorial Hospital in Thailand.</p>\n<p>These authors prospectively validated the use of this formula among 100 patients in Thailand. Patients were intubated and the ETT placed according to the formula. Subsequently, a bronchoscope was used to determine the relationship among&nbsp;the ETT, carina, and vocal cords:</p>\n<ul>\n<li>The distance between the ETT and carina ranged between 1.9-7.5 cm. No patient was at immediate risk of endobronchial intubation.</li>\n<li>The upper border of the ETT cuff was always &gt;1.9 cm below the vocal cords, avoiding risk of laryngeal trauma or inadvertent extubation.</li>\n</ul>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/21057614\" target=\"_blank\" rel=\"noopener\">Pak et al in 2010</a> and <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/18497600\" target=\"_blank\" rel=\"noopener\">Hunyady et al in 2008</a> developed similar assessments of optimal ETT placement. The average of the three scores (Pak, Hunyady, and Chula) is nearly identical to the Chula formula.</p>",
+            "formula_en": "<p><strong>Chula formula:</strong> ETT depth = 0.1 * [height (cm)] + 4</p>\n<p><strong>Additional formulas:</strong></p>\n<ul>\n<li><calculator id=\"68\">Ideal body weight</calculator> (IBW), men = 50 kg + 2.3 * [height (in) &ndash; 60]</li>\n<li>IBW, women = 45.5 kg + 2.3 * [height (in) &ndash; 60]</li>\n<li>Usual tidal volume target = 6-8 (mL/kg)*IBW</li>\n</ul>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10793162",
+                  "text": "ARDSnet investigators.  Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome.  N Engl J Med.  2000; May;342(18): 1301-1308."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16518983",
+                  "text": "Techanivate A, Kumwilaisak K, Samranrean S. Estimation of the proper length of orotracheal intubation by Chula formula. J Med Assoc Thai. 2005 Dec;88(12):1838-46"
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://emcrit.org/pulmcrit/endotracheal-tube-depth/",
+                  "text": "PulmCrit: Devil in the details: Endotracheal tube depth"
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21057614",
+                  "text": "Pak HJ, Hong BH, Lee WH. Assessment of airway length of Korean adults and children for otolaryngology and ophthalmic surgery using a fiberoptic bronchoscope. Korean J Anesthesiol. 2010 Oct;59(4):249-55. doi: 10.4097/kjae.2010.59.4.249. Epub 2010 Oct 21."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/18497600",
+                  "text": "Hunyady AI, Pieters B, Johnston TA, Jonmarker C. Front teeth-to-carina distance in children undergoing cardiac catheterization. Anesthesiology. 2008 Jun;108(6):1004-8. doi: 10.1097/ALN.0b013e3181730288."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Joshua Farkas, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Anchalee Techanivate",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>ETT depth is measured based on the patient&rsquo;s front teeth (not the molars).</li>\n<li>Larger tidal volumes may be temporarily required for patients with severe metabolic acidosis.</li>\n</ul>",
+            "use_case_en": "<p>Adult patients requiring orotracheal intubation.</p>",
+            "why_use_en": "<ul>\n<li>Placing the ETT too deeply may cause right mainstem intubation, hypoxemia, and pneumothorax. However, placing the ETT too shallowly may risk injury to the vocal cords and accidental extubation. Standard approaches to verify ETT depth (e.g. bilateral auscultation) are insensitive.</li>\n<li>Use of lower tidal volumes appears to prevent the development of acute respiratory distress syndrome, even in patients who do not have lung injury.</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>ETT position should still be verified with a chest radiograph among patients who will remain intubated for an extended period of time.</li>\n<li>Tidal volume: (6-8 mL/kg)*<calculator id=\"68\">ideal body weight</calculator> (IBW) is generally a safe initial setting, but further ventilator adjustment may be required depending on the adequacy of ventilation and airway pressures.</li>\n</ul>",
+            "critical_actions_en": "<p>Chest radiograph and measurement of CO<sub>2</sub> level (e.g. end-tidal CO<sub>2</sub> or blood gas analysis) to confirm ETT position and adequacy of ventilation.</p>",
+            "management_en": "<p>Endotracheal intubation and mechanical ventilation.</p>"
+          },
+          "related_resources": {
+            "partner_contact": [
+              {
+                "description": "mHealth in Emergency Medicine",
+                "link": "http://www.ebmedicine.net/content.php?action=showPage&pid=530",
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: ETT Depth and Tidal Volume"
+              }
+            ]
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Respiratory Distress",
+          "Trauma"
+        ],
+        "dosing": false,
+        "equation_logic": "30bb8e6094b956c8f4b50c3c4bd0b29d",
+        "equation_logic_text": "  var calc_output = [];\n  var height = parseFloat(height);\n  var gender  = parseFloat(gender);\n  var ibw;\n  var tv;\n\n  if (UOMSYSTEM == true) { // US units\n    height = parseFloat(height)\n  }\n  else { // SI units\n    height = parseFloat(height) / 2.54\n  }\n\n  if (height >= 60 && gender == 0) { // women taller than 60 inches\n  \tibw = (45.5 + 2.3 * (height - 60))\n  } \n  if (height <= 60 && gender == 0) { // women 60 inches or shorter\n  \tibw = 45.5\n  } \n  if (height >= 60 && gender == 1) { // men taller than 60 inches\n  \tibw = (50 + 2.3 * (height - 60))\n  } \n  if (height <= 60 && gender == 1) { // men 60 inches or shorter\n  \tibw = 50\n  } \n\n  var depth = (0.1 * height * 2.54 + 4);\n\n  calc_output.push({\n    name: 'mini',\n    value: depth.toFixed(0),\n    value_text: ' cm',\n    message: 'ETT depth'\n  });\n  calc_output.push({\n    name: '3928_ETT Depth and Tidal Volume_result (depth)',\n    value: depth.toFixed(0),\n    value_text: ' cm',\n    message: 'ETT depth from front teeth'\n  });\n  calc_output.push({\n    name: '3928_ETT Depth and Tidal Volume_result (target 6)',\n    value: 6 * ibw.toFixed(0),\n    value_text: ' mL',\n    message: 'Tidal volume if target is 6 mL/kg, IBW '  + ibw.toFixed(0) + ' kg'\n  });\n    calc_output.push({\n    name: '3928_ETT Depth and Tidal Volume_result (target 8)',\n    value: 8 * ibw.toFixed(0),\n    value_text: ' mL',\n    message: 'Tidal volume if target is 8 mL/kg, IBW ' + ibw.toFixed(0) + ' kg'\n  });",
+        "favorite_id": 3928,
+        "full_title_en": "Endotracheal Tube (ETT) Depth and Tidal Volume Calculator",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "Height",
+            "name": "height",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "ht_adult"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Gender",
+            "md_calc_info_concept": null,
+            "name": "gender",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Female",
+                "value": 0
+              },
+              {
+                "label": "Male",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Use in patients over 20 years old.</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "f7632ccb3851cf4e02db2c73dd5867c8",
+        "medium_description_en": "<p>Estimates depth of optimal ETT placement and target tidal volume by height.</p>",
+        "publishedAt": "2022-04-21T20:29:25.874Z",
+        "purpose_en": [
+          "Calculation"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "intubation",
+          "intubate",
+          "endotracheal",
+          "ET tube",
+          "ETT",
+          "depth",
+          "tidal volume",
+          "ARDS",
+          "ARDSNet",
+          "lung protective ventilation",
+          "mechanical ventilation",
+          "chula formula",
+          "chula"
+        ],
+        "search_id": "c-3928",
+        "seo": {
+          "keywords_en": "ETT, ett depth, chula formula, intubate, ET tube",
+          "meta_description_en": "The Endotracheal Tube (ETT) Depth and Tidal Volume Calculator estimates depth of optimal ETT placement and target tidal volume  by height."
+        },
+        "short_description_en": "<p>Estimates ETT depth and tidal volume.</p>",
+        "short_title_en": "ETT Depth and Tidal Volume Calculator",
+        "slug": "endotracheal-tube-ett-depth-tidal-volume-calculator",
+        "specialty_en": [
+          "Critical Care",
+          "Critical Care (Neurologic)",
+          "Emergency Medicine",
+          "Internal Medicine",
+          "Surgery (Trauma)"
+        ],
+        "system_en": [
+          "Respiratory"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "4e144607-c1e2-42c0-bd92-1f87ab71a708"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Joshua",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Farkas",
+          "name": "Joshua Farkas, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": false,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Anchalee Techanivate, MD, is an associate professor in the Department of Anesthesiology at King Chulalongkorn Memorial Hospital of Chulalongkorn University in Bangkok, Thailand.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Anchalee Techanivate",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/default.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Techanivate%20A%5BAuthor%5D&amp;cauthor=true&amp;cauthor_uid=16518983",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T16:40:45.572Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3928/endotracheal-tube-ett-depth-tidal-volume-calculator",
+        "description": "The Endotracheal Tube (ETT) Depth and Tidal Volume Calculator estimates depth of optimal ETT placement and target tidal volume  by height.",
+        "keywords": "ETT, ett depth, chula formula, intubate, ET tube",
+        "title": "Endotracheal Tube (ETT) Depth and Tidal Volume Calculator"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "2.54",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 90,
+          "error_max_si": 228.6,
+          "error_max_us": 90,
+          "error_min": 48,
+          "error_min_si": 121.92,
+          "error_min_us": 48,
+          "name": "Height (Adult)",
+          "normal_max_si": 213,
+          "normal_max_us": 84,
+          "normal_min_si": 152,
+          "normal_min_us": 60,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "ht_adult",
+          "units_si": "cm",
+          "units_us": "in",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 80,
+          "warn_max_si": 203.2,
+          "warn_max_us": 80,
+          "warn_min": 48,
+          "warn_min_si": 121.92,
+          "warn_min_us": 48
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": "243",
+          "short_title_en": "A-a O<sub>2</sub> Gradient",
+          "slug": "a-a-o2-gradient"
+        },
+        {
+          "calcId": "3989",
+          "short_title_en": "Modified Mallampati Classification",
+          "slug": "modified-mallampati-classification"
+        },
+        {
+          "calcId": "58",
+          "short_title_en": "Pediatric ET Tube Size",
+          "slug": "pediatric-endotracheal-tube-ett-size"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3928",
+      "endotracheal-tube-ett-depth-tidal-volume-calculator"
+    ]
+  },
+  "scriptLoader": []
+}

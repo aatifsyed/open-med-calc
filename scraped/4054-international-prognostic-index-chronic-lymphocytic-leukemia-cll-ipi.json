@@ -1,0 +1,604 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Lymphadenopathy"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+73",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+73",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "4054.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The CLL-IPI was described in 2016 using data on 3,472 patients from 8 clinical trials ranging from 1997-2007. The patients were randomly divided with 2/3 (2,308) in the training set and 1/3 (1,164) in the validation set. The main endpoint for statistical analysis was overall survival as calculated by the Kaplan-Meier method.</p> <p>After deriving a weighted score based on multivariate Cox regression they calculated a discriminatory statistic c=0.72 (where 1.0 is full discrimination) and the different subgroups' survivals were statistically different from one another. The internal validation confirmed these results.</p> <p>The CLL-IPI was independently validated in two follow-up studies in 2016 (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27549308\" target=\"_blank\">Gentile</a> and <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27605511\" target=\"_blank\">Da Cunha-Bang</a>). In the first follow-up study, 858 patients from Italy who were not part of clinical trials were used to validate the CLL-IPI and confirmed the previous results; however, most of the patients were not evaluable due to missing data. In the second study, 1,514 patients from a Danish CLL registry were evaluated and confirmed the prognostic value of the CLL-IPI. </p>",
+            "formula_en": "<p>Addition of the selected criteria:</p> <table> <tbody> <tr> <td> <p><strong>Criteria</strong></p> </td> <td> <p><strong>Selection</strong></p> </td> <td> <p><strong>Points</strong></p> </td> </tr> <tr> <td rowspan=\"2\"> <p>Age</p> </td> <td> <p>≤65 years</p> </td> <td> <p>0</p> </td> </tr> <tr> <td> <p>&gt;65 years </p> </td> <td> <p>1</p> </td> </tr> <tr> <td rowspan=\"2\"> <p>Clinical stage</p> </td> <td> <p>Binet A or Rai 0</p> </td> <td> <p>0</p> </td> </tr> <tr> <td> <p>Binet B-C or Rai I-IV </p> </td> <td> <p>1</p> </td> </tr> <tr> <td rowspan=\"2\"> <p>Serum β2 microglobulin, mg/L (or µg/mL)</p> </td> <td> <p>≤3.5</p> </td> <td> <p>0</p> </td> </tr> <tr> <td> <p>&gt;3.5 </p> </td> <td> <p>2</p> </td> </tr> <tr> <td rowspan=\"2\"> <p>IGHV mutational status</p> </td> <td> <p>Mutated </p> </td> <td> <p>0</p> </td> </tr> <tr> <td> <p>Unmutated</p> </td> <td> <p>2</p> </td> </tr> <tr> <td rowspan=\"2\"> <p>TP53 status</p> </td> <td> <p>No abnormalities</p> </td> <td> <p>0</p> </td> </tr> <tr> <td> <p>Deletion 17p (FISH) and/or TP53 mutation (sequencing)</p> </td> <td> <p>4</p> </td> </tr> </tbody> </table>",
+            "more_info_en": "<p>Interpretation:</p> <table> <tbody> <tr> <td> <p><strong>CLL-IPI Score</strong></p> </td> <td> <p><strong>Risk</strong></p> </td> <td> <p><strong>5-year survival</strong></p> </td> </tr> <tr> <td> <p>0-1</p> </td> <td> <p>Low risk</p> </td> <td> <p>93.2%</p> </td> </tr> <tr> <td> <p>2-3</p> </td> <td> <p>Intermediate risk</p> </td> <td> <p>79.3%</p> </td> </tr> <tr> <td> <p>4-6</p> </td> <td> <p>High risk</p> </td> <td> <p>63.3%</p> </td> </tr> <tr> <td> <p>7-10</p> </td> <td> <p>Very high risk</p> </td> <td> <p>23.3%</p> </td> </tr> </tbody> </table> <p>&nbsp;</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27185642 ",
+                  "text": "An international prognostic index for patients with chronic lymphocytic leukaemia (CLL-IPI): a meta-analysis of individual patient data. Lancet Oncol. 2016;17(6):779-90."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27549308",
+                  "text": "Gentile M, Shanafelt TD, Rossi D, et al. Validation of the CLL-IPI and comparison with the MDACC prognostic index in newly diagnosed patients. Blood. 2016;128(16):2093-2095."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27465919 ",
+                  "text": "Molica S, Shanafelt TD, Giannarelli D, et al. The chronic lymphocytic leukemia international prognostic index predicts time to first treatment in early CLL: Independent validation in a prospective cohort of early stage patients. Am J Hematol. 2016;91(11):1090-1095."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27605511 ",
+                  "text": "Da Cunha-Bang C, Christiansen I, Niemann CU. The CLL-IPI applied in a population-based cohort. Blood. 2016;128(17):2181-2183."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Justin Taylor, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Michael Hallek",
+              "qa_en": "<p dir=\"ltr\"><strong>Why did you develop the CLL-IPI? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p>\n<p dir=\"ltr\">We developed the CLL-IPI because we realized that the clinical staging systems did not separate high risk patients well enough in the era of new therapies (chemoimmunotherapies) (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24797299\" target=\"_blank\">Pflug et al, Blood 2014</a>).</p>\n<p dir=\"ltr\"><strong>What pearls, pitfalls and/or tips do you have for users of the CLL-IPI? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p>\n<p dir=\"ltr\">The score should be applied for prognostication but not for determining treatment indication. As of today, indication for treatment is determined by symptoms of disease (and sometimes clinical staging).</p>\n<p dir=\"ltr\"><strong>What recommendations do you have for doctors once they have applied the CLL-IPI? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p>\n<p dir=\"ltr\">The CLL-IPI will be evaluated in the era of novel targeted agents to see whether it applies for patients treated with agents such as ibrutinib, idelalisib, or venetoclax.</p>\n<p dir=\"ltr\"><strong>How do you use the CLL-IPI in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p>\n<p dir=\"ltr\">I use it for all CLL patients.</p>\n<p dir=\"ltr\"><strong>Any other research in the pipeline that you&rsquo;re particularly excited about?</strong></p>\n<p dir=\"ltr\">I am excited about the potent therapeutic efficacy of novel agents in CLL, and by studies of clonal evolution of CLL under targeted therapies, as well as strategies to prevent it.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul><li>Developed using patient data from before use of targeted agents such as ibrutinib and venetoclax, which are known to have greater efficacy in patients with TP53 alterations.</li> <li>While treatment type was not an independent factor in the CLL-IPI, TP53 status was, and thus the use of novel agents may have an effect not currently measured in the CLL-IPI.</li></ul>",
+            "use_case_en": "<p>Patients with new diagnosis of chronic lymphocytic leukemia (CLL), to estimate prognosis and time to first treatment. </p>",
+            "why_use_en": "<p>Many patients with CLL will have an indolent course and not require treatment for many years, while others will have a shorter time to first treatment. The CLL-IPI combines clinical, laboratory and genetic risk factors into a single score that can be used to help estimate time to first treatment as well as overall survival.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>The CLL-IPI categorizes patients into four risk groups from low risk to very high risk. The decision to treat should <em>not</em> be based on the risk score, since it has not been evaluated for that purpose. </li> <li>Indications for treatment remain the same, but higher risk patients may warrant closer initial monitoring. </li> </ul>",
+            "critical_actions_en": "",
+            "management_en": "<ul> <li>Guidelines have not yet incorporated the CLL-IPI scoring system into management algorithms. </li> <li>Risk categories should be used to inform prognosis, and closer monitoring for higher risk patients should be considered. </li> <li>Notably, survival estimates were based on assessments from before the era of targeted therapies for CLL, and this should be taken into consideration when counseling patients. </li> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Cancer"
+        ],
+        "dosing": false,
+        "equation_logic": "3974642e19956960c906ab598a938be0",
+        "equation_logic_text": "var calc_output = [];\n\nvar risk; \nvar survival;\n\nvar age = parseFloat(age);\nvar stage = parseFloat(stage);\nvar microglobulin = parseFloat(microglobulin);\nvar mutational = parseFloat(mutational);\nvar tp53 = parseFloat(tp53);\n\nvar score = age + stage + microglobulin + mutational + tp53;\n\nif (score == 0 || score == 1 ) {\n  risk = 'Low';\n  survival = '93.2% 5 year survival';\n}\nif (score == 2 || score == 3 ) {\n  risk = 'Intermediate';\n  survival = '79.3% 5 year survival';\n}\nif (score == 4 || score == 5 || score == 6) {\n  risk = 'High';\n  survival = '63.3% 5 year survival';\n}\nif (score == 7 || score == 8 || score == 9 || score == 10) {\n  risk = 'Very high';\n  survival = '23.3% 5 year survival';\n}\n\ncalc_output.push({\n  name: 'mini',\n  value: score.toFixed(0),\n  value_text: 'points',\n  message: risk + ' risk'\n});\ncalc_output.push({\n  name: 'CLL-IPI score',\n  value: score.toFixed(0),\n  value_text: 'points',\n  message: 'CLL-IPI'\n});\ncalc_output.push({\n  name: 'Risk message',\n  value: risk,\n  value_text: 'risk',\n  message: survival\n});",
+        "favorite_id": 4054,
+        "full_title_en": "International Prognostic Index for Chronic Lymphocytic Leukemia (CLL-IPI)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Age",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "≤65 years",
+                "value": 0
+              },
+              {
+                "label": ">65 years",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Clinical stage",
+            "name": "stage",
+            "optional": false,
+            "options": [
+              {
+                "label": "Binet A or Rai 0",
+                "value": 0
+              },
+              {
+                "label": "Binet B-C or Rai I-IV ",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Serum β2 microglobulin, mg/L (or µg/mL)",
+            "name": "microglobulin",
+            "optional": false,
+            "options": [
+              {
+                "label": "≤3.5",
+                "value": 0
+              },
+              {
+                "label": ">3.5",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "IGHV mutational status",
+            "name": "mutational",
+            "optional": false,
+            "options": [
+              {
+                "label": "Mutated",
+                "value": 0
+              },
+              {
+                "label": "Unmutated",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "TP53 status",
+            "name": "tp53",
+            "optional": false,
+            "options": [
+              {
+                "label": "No abnormalities",
+                "value": 0
+              },
+              {
+                "label": "Deletion 17p (FISH) and/or TP53 mutation (sequencing)",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "fixed search terms",
+            "time": "2018-10-11 04:45 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added creator interview",
+            "time": "2018-10-24 11:00 AM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "70ea363cebcf5f31695c3061fa67229b",
+        "medium_description_en": "<p>Stratifies patients with chronic lymphocytic leukemia into four risk categories. </p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "chronic lymphocytic leukemia",
+          "CLL",
+          "prognostic markers",
+          "prognostic index",
+          "CLL-IPI",
+          "TP53 status",
+          "IGHV mutational status",
+          "international prognostic index",
+          "iWCLL criteria",
+          "chronic lymphocytic leukaemia",
+          "hematology",
+          "oncology",
+          "blood cancer",
+          "serum β2-microglobulin concentration"
+        ],
+        "search_id": "c-4054",
+        "seo": {
+          "keywords_en": "chronic lymphocytic leukemia, CLL, prognostic index, prognostic markers, international prognostic index, CLL-IPI, TP53 status, IGHV mutational status, serum β2-microglobulin concentration, iWCLL criteria, chronic lymphocytic leukaemia, blood cancer, hematology, oncology",
+          "meta_description_en": "The International Prognostic Index for Chronic Lymphocytic Leukemia (CLL-IPI) stratifies patients with CLL into four risk categories."
+        },
+        "short_description_en": "CLL risk stratification.",
+        "short_title_en": "CLL-IPI",
+        "slug": "international-prognostic-index-chronic-lymphocytic-leukemia-cll-ipi",
+        "specialty_en": [
+          "Hematology and Oncology"
+        ],
+        "system_en": [
+          "Hematologic",
+          "Oncologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Justin Taylor, MD, is an assistant professor on the Leukemia Service at Memorial Sloan Kettering Cancer Center. He is board certified in internal medicine and medical oncology. He completed his internship and residency at Brigham and Women’s Hospital in Boston. His clinical and research focuses are on the basic biology and translational significance of somatic genetic mutations in hematologic malignancies.</p>",
+          "firstName": "Justin",
+          "hasDisclosure": [],
+          "img": "justin-taylor.jpg",
+          "lastName": "Taylor",
+          "name": "Justin Taylor, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "justin-taylor",
+          "updatedAt": "2023-04-06T20:25:37.111Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Michael Hallek, MD, is an internist specializing in hematology and oncology in Cologne, Germany. He also serves as chair of the internal medicine department at the University of Cologne and director of the Center for Integrated Oncology. Dr. Hallek's primary research interests include the development of specific molecular therapies for leukemia. </p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Michael Hallek",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-michael-hallek.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Hallek+M%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4054/international-prognostic-index-chronic-lymphocytic-leukemia-cll-ipi",
+        "description": "The International Prognostic Index for Chronic Lymphocytic Leukemia (CLL-IPI) stratifies patients with CLL into four risk categories.",
+        "keywords": "chronic lymphocytic leukemia, CLL, prognostic index, prognostic markers, international prognostic index, CLL-IPI, TP53 status, IGHV mutational status, serum β2-microglobulin concentration, iWCLL criteria, chronic lymphocytic leukaemia, blood cancer, hematology, oncology",
+        "title": "International Prognostic Index for Chronic Lymphocytic Leukemia (CLL-IPI)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 4053,
+          "short_title_en": "MIPI",
+          "slug": "mantle-cell-lymphoma-international-prognostic-index-mipi"
+        },
+        {
+          "calcId": 10054,
+          "short_title_en": "Rai Staging for CLL",
+          "slug": "rai-staging-system-chronic-lymphocytic-leukemia-cll"
+        },
+        {
+          "calcId": 10053,
+          "short_title_en": "Binet Staging for CLL",
+          "slug": "binet-staging-system-chronic-lymphocytic-leukemia-cll"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4054",
+      "international-prognostic-index-chronic-lymphocytic-leukemia-cll-ipi"
+    ]
+  },
+  "scriptLoader": []
+}

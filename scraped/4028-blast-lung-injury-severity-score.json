@@ -1,0 +1,595 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Injury/Trauma"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+23",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+23",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "4028.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The original blast lung injury (BLI) severity score was proposed in 1999 by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/9925079\" target=\"_blank\">Pizov et al.</a> The study evaluated 15 patients with primary BLI after explosions on two civilian buses. BLI Severity Scores were compared to <calculator id=\"3996\">Murray Scores</calculator> for acute lung injury at 6 and 24 hours after injury, and at 24 hours, there was good correlation between the proposed BLI score and the modified Murray Score. </p> <p>Three of the three (100%) patients with severe BLI who were still alive after 24 hours (one patient died within 24 hours from intrapulmonary hemorrhage after being placed on extracorporeal membrane oxygenation), and two of the six (33%) patients with moderate BLI developed ARDS (Murray Score &gt;2.5). None of the five patients with mild BLI developed ARDS. Other unconventional respiratory therapies, such as independent lung ventilation, high-frequency jet ventilation, and nitric oxide, were used in patients with severe BLI with improvements in their PaO₂ levels. When comparing mortality rates, three of the four patients with severe BLI died, all six of the patients with moderate BLI survived, and one of the five patients with mild BLI died from a traumatic head injury. </p> <p>One year after the study by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/9925079\" target=\"_blank\">Pizov et al</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/10593795\" target=\"_blank\">Hirshberg et al</a> conducted a follow-up study of the 11 surviving original patients. None of the 11 survivors had pulmonary-related complaints, and lung physical examinations were normal, with complete resolutions of chest radiograph findings. </p> <p>In comparison, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16307948\" target=\"_blank\">Avidan et al</a> in 2005 evaluated 29 patients with primary BLI, and only one patient died 24 days after admission from sepsis and multi-organ failure. The authors concluded that death because of BLI in patients who survived the explosion is unusual. Although these 29 patients were not categorized by BLI severity scores, there were seven patients with PaO₂/FiO₂ ratio &lt;60, four patients requiring PEEP &gt;10 cm H₂O, and three patients requiring unconventional therapies, such as high frequency ventilation or nitric oxide inhalations. The decreased mortality rate compared to <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/9925079\" target=\"_blank\">Pizov et al</a>, despite the presence of patients with characteristics of severe BLI, may be attributed to improving critical care and respiratory management. </p> <p>The study also assessed long term outcomes by contacting 21 of 28 (75%) survivors from 6 months to 21 years after discharge. 16 patients (76%) were free of respiratory symptoms and did not require respiratory therapy. Five (24%) reported respiratory symptoms, but two of these five had a past medical history of asthma, and another two of the five were contacted less than one year after injury.</p>",
+            "formula_en": "<p>Addition of the selected points:</p> <table> <tbody> <tr> <td>&nbsp;</td> <td> <p><strong>Value</strong></p> </td> <td> <p><strong>Points</strong></p> </td> </tr> <tr> <td rowspan=\"3\"> <p><strong>PaO</strong><strong>₂</strong><strong>/FiO</strong><strong>₂</strong></p> </td> <td> <p>&gt;200</p> </td> <td> <p>0</p> </td> </tr> <tr> <td> <p>60 to 200</p> </td> <td> <p>1</p> </td> </tr> <tr> <td> <p>&lt;60</p> </td> <td> <p>2</p> </td> </tr> <tr> <td rowspan=\"3\"> <p><strong>Chest x-ray</strong></p> </td> <td> <p>Localized lung infiltrates</p> </td> <td> <p>0</p> </td> </tr> <tr> <td> <p>Bilateral or unilateral lung infiltrates</p> </td> <td> <p>1</p> </td> </tr> <tr> <td> <p>Massive bilateral lung infiltrates</p> </td> <td> <p>2</p> </td> </tr> <tr> <td rowspan=\"2\"> <p><strong>Bronchial pleural fistula</strong></p> </td> <td> <p>No</p> </td> <td> <p>0</p> </td> </tr> <tr> <td> <p>Yes</p> </td> <td> <p>1</p> </td> </tr> </tbody> </table>",
+            "more_info_en": "<p>Interpretation:</p> <table> <tbody> <tr> <td> <p><strong>BLI Severity Score</strong></p> </td> <td> <p><strong>Severity</strong></p> </td> <td> <p><strong>ARDS Risk (ARDS 24 hrs post-injury)*</strong></p> </td> <td> <p><strong>BLI-associated mortality*</strong></p> </td> </tr> <tr> <td> <p>0</p> </td> <td> <p>Mild</p> </td> <td> <p>~0%</p> </td> <td> <p>~0**</p> </td> </tr> <tr> <td> <p>1-4</p> </td> <td> <p>Moderate</p> </td> <td> <p>33%</p> </td> <td> <p>~0%</p> </td> </tr> <tr> <td> <p>5</p> </td> <td> <p>Severe</p> </td> <td> <p>100%</p> </td> <td> <p>75%</p> </td> </tr> </tbody> </table> <p>*From <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/9925079\" target=\"_blank\">Pizov et al 1999</a>. Note the study was small (n = 10 patients). A more recent study by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16307948\" target=\"_blank\">Avidan et al</a>&nbsp;in 2005 saw 1 mortality out of 29 patients but not primarily due to pulmonary issues.</p> <p>**One patient with mild BLI died from head injury.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/9925079 ",
+                  "text": "Pizov R, Oppenheim-Eden A, Matot I, Weiss YG, Eidelman LA, Rivkind AI, Sprung CL. Blast lung injury from an explosion on a civilian bus. Chest. 1999 Jan;115(1):165-72."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26072319",
+                  "text": "Matthews ZR, Koyfman, A. Blast Injuries. J Emerg Med. 2015 Oct;49(4):573-87."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28203741",
+                  "text": "Scott TE, Kirkman E, Haque M, Gibb IE, Mahoney P, Hardman JG. Primary blast lung injury – a review. Br J Anaesth. 2017 Mar 1;118(3):311-316."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/8970558",
+                  "text": "Leibovici D, Gofrit ON, Stein M, Shapira SC, Noga Y, Heruti RJ, Shemer J. Blast injuries: bus versus open-air bombings—a comparative study of injuries in survivors of open-air versus confined-space explosions. J Trauma. 1996 Dec;41(6):1030-5."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10424917",
+                  "text": "Leibovici D, Gofrit ON, Shapira SC. Eardrum Perforation in Explosion Survivors: Is It a Marker of Pulmonary Blast Injury?. Ann Emerg Med. 1999 Aug;34(2):168-172."
+                },
+                {
+                  "href": "http://jramc.bmj.com/content/163/5/333?rss=1",
+                  "text": "Ballivet de Regloix S, Crambert A, Maurin O, Lisan Q, Marty S, Pons Y. Blast injury of the ear by massive explosion: a review of 41 cases. J R Army Med Corps. 2017 Oct:163(5):333-338. "
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27481095",
+                  "text": "Cannon JW, Hofmann LJ, Glasgow SC, Potter BK, Rodriguez CJ, Cancio LC, Rasmussen TE, Fries CA, Davis MR, Jezior JR, Mullins RJ, Elster EA. Dismounted Complex Blast Injuries: A Comprehensive Review of the Modern Combat Experience. J Am Coll Surg. 2016 Oct;223(4):652-664.e8."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10593795",
+                  "text": "Hirshberg B, Oppenheim-Eden A, Pizov R, Sklair-Levi M, Rivkin A, Bardach E, Bublil M, Sprung C, Kramer MR. Recovery From Blast Lung Injury, One-Year Follow-up. Chest. 1999 Dec;116(6):1683-8."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16307948",
+                  "text": "Avidan V, Hersch M, Armon Y, Spira R, Aharoni D, Reissman P, Schecter WP. Blast lung injury: clinical manifestations, treatment, and outcome. Am J Surg. 2005 Dec;190(6):927-31."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Jennie Kim, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Reuven Pizov",
+              "qa_en": "<p dir=\"ltr\"><strong>Why did you develop the BLI Severity Score? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p>\n<p dir=\"ltr\">We developed BLI after analyzing results of victims from two explosions in close space. The severity of lung injury developed in purpose to adjust appropriate respiratory therapy in severely injured victims.&nbsp;</p>\n<p dir=\"ltr\"><strong>What pearls, pitfalls and/or tips do you have for users of the BLI Severity Score? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p>\n<p dir=\"ltr\">The patients with high BLI required advance respiratory therapy. Regular conventional mechanical ventilation was not effective.&nbsp;</p>\n<p dir=\"ltr\"><strong>What recommendations do you have for doctors once they have applied the BLI Severity Score? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p>\n<p dir=\"ltr\">We had a bad experience trying getting patient on cardiopulmonary bypass due to extensive intrapulmonary bleeding.</p>\n<p dir=\"ltr\"><strong>How do you use the BLI Severity Score in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p>\n<p><span id=\"docs-internal-guid-dc2eaa38-7fff-5724-8dc0-4a7daec2cd2c\"></p>\n<p dir=\"ltr\">We used BLI to select patients required high frequency ventilation.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>Primary blast injury (PBI) occurs when a blast wave accelerates and decelerates while traveling through tissues of varying density. Thus, PBI affects organs with greater air-tissue interfaces such as auditory, pulmonary, and gastrointestinal systems. </li> <li>Primary blast lung injury (BLI) is radiological and clinical evidence of acute lung injury occurring after blast injury that is not due to secondary or tertiary blast injury. The pathophysiology is thought to be due to capillary rupture within alveoli leading to hemorrhage and pulmonary edema, which then reduce gas exchange, causing hypoxia and hypercarbia.</li> <li>Clinical suspicion of primary BLI should be high after blast injury within an enclosed space, as the blast wave becomes amplified as it reflects off of the structural walls (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/8970558\" target=\"_blank\">Leibovici 1996</a>).</li> <li>Characteristic chest x-ray shows bilateral diffuse opacities in a “butterfly” pattern. Patients present with hypoxemia with associated pneumothoraces, bronchopleural fistulae, or hemoptysis.</li> <li>In the studies, patients diagnosed with BLI were intubated immediately or within 2 hours of presentation due to respiratory decompensation. Thus, patients breathing spontaneously and adequately 2 hours after injury are unlikely to require mechanical ventilation because of BLI alone (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/9925079\" target=\"_blank\">Pizov et al 1999</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16307948\" target=\"_blank\">Avidan et al 2005</a>).</li> </ul>",
+            "use_case_en": "<p>Patients with respiratory symptoms after blast injury.</p>",
+            "why_use_en": "<ul> <li>Useful in guiding triage decisions in the setting of mass casualties, determining ventilation treatment, and predicting outcomes. </li> <li>BLI severity correlates with the likelihood of developing acute respiratory distress syndrome (ARDS), and can be helpful to delineate patients who will require more aggressive and potentially unconventional respiratory care (e.g. nitric oxide, high-frequency jet ventilation, independent lung ventilation, or extracorporeal membrane oxygenation).</li> </ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>Screening chest x-rays for asymptomatic patients is not recommended (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26072319\" target=\"_blank\">Matthews et al 2015</a>), as patients with blast lung injury (BLI) present either immediately or early with hypoxemia. Contrary to previous belief that the clinical picture of BLI may develop over 24 to 48 hours, studies have shown that patients do not present with a delay in manifestation of lung injury (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/9925079\" target=\"_blank\">Pizov et al 1999</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16307948\" target=\"_blank\">Avidan et al 2005</a>). </li> <li>Similarly, it was previously suggested that tympanic membrane (TM) rupture, the most common primary blast injury, was a marker for increased risk of development of BLI. Studies have shown that TM perforation is in fact poorly correlated with BLI (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/8970558\" target=\"_blank\">Leibovici et al 1999</a>, <a href=\"http://jramc.bmj.com/content/163/5/333?rss=1\" target=\"_blank\">Ballivet de Regloix 2017</a>). </li> <li>Low inspiratory pressure with avoidance of positive end-expiratory pressure (PEEP) is ideal in BLI in order to avoid secondary barotrauma, arterial air embolism, or pneumothorax. However, patients with blast lung often have injury patterns similar to acute respiratory distress syndrome (ARDS) and require positive pressure ventilation (PPV) and PEEP.</li> <li>Other treatment considerations include avoiding aggressive intravenous hydration after physiology capture, as it can worsen pulmonary edema, and considering the need for a prophylactic thoracostomy tube before air transportation.</li> </ul>",
+            "critical_actions_en": "",
+            "management_en": "<p>Intubated patients require the following ventilation management:</p> <ul> <li><strong>Mild</strong> BLI patients will usually require volume-controlled or pressure support ventilation modes. PEEP requirement is ≤5 cm H₂O.</li> <li><strong>Moderate</strong> BLI will&nbsp;use conventional ventilator modes, including inverse-ratio ventilation as needed. PEEP requirement is 5-10 cm H₂O.</li> <li><strong>Severe</strong> BLI will&nbsp;use conventional ventilator modes and commonly require additional therapies such as nitric oxide, high-frequency jet ventilation, independent lung ventilation, or extracorporeal membrane oxygenation. PEEP requirement is &gt;10 cm H₂O.</li> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 4028,
+                "createdAt": "2019-07-02T20:19:31.949Z",
+                "description": "Emergency Trauma Care",
+                "id": 23,
+                "link": "https://www.ebmedicine.net/topics.php?paction=showTopicSeg&topic_id=509&seg_id=9448#BlastLung",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: BLI Severity Score",
+                "updatedAt": "2019-09-16T16:43:16.504Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Trauma"
+        ],
+        "dosing": false,
+        "equation_logic": "65cd3c2ec8793167ccc6255bd07bece5",
+        "equation_logic_text": "var calc_output = [];\nvar u = parseFloat(ratio) + parseFloat(chest) + parseFloat(bronchial);\nvar msg = '';\nvar mini_msg = '';\nif (u == 0) {\n    msg = '~0% ARDS risk at 24 hrs post injury';\n    mini_msg = 'Mild'\n}\nif (u == 1 || u == 2 || u == 3 || u == 4) {\n    msg = '33% ARDS risk';\n    mini_msg = 'Moderate'\n}\nif (u == 5) {\n    msg = '100% ARDS risk';\n    mini_msg = 'Severe'\n}\n\ncalc_output.push({ name: 'mini', value: u, value_text: 'points', message: mini_msg });\ncalc_output.push({ name: 'BLI Severity Score', value: u, value_text: 'points', message: 'Blast Lung Injury Severity Score' });\ncalc_output.push({ name: 'ARDS risk', value: mini_msg, value_text: '', message: msg + ' (see Evidence for details)' });",
+        "favorite_id": 4028,
+        "full_title_en": "Blast Lung Injury Severity Score",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "PaO₂/FiO₂",
+            "name": "ratio",
+            "optional": false,
+            "options": [
+              {
+                "label": ">200",
+                "value": 0
+              },
+              {
+                "label": "60 to 200",
+                "value": 1
+              },
+              {
+                "label": "<60",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Chest x-ray",
+            "name": "chest",
+            "optional": false,
+            "options": [
+              {
+                "label": "Localized lung infiltrates",
+                "value": 0
+              },
+              {
+                "label": "Bilateral or unilateral lung infiltrates",
+                "value": 1
+              },
+              {
+                "label": "Massive bilateral lung infiltrates",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Bronchial pleural fistula",
+            "name": "bronchial",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use in patients who have sustained blast injury and have respiratory symptoms (e.g. cough, cyanosis, dyspnea, hemoptysis).</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited contributor",
+            "time": "2019-09-16T12:43:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "interview added",
+            "time": "2019-09-05T10:40:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added reviewer",
+            "time": "2019-01-14T14:53:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited EB Med link",
+            "time": "2018-09-14T10:22:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "partner content added",
+            "time": "2018-07-20T13:12:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "36be2b2693faeccd6b980776b414826b",
+        "medium_description_en": "<p>Stratifies primary blast lung injuries into three categories to guide ventilator treatment. </p>",
+        "purpose_en": [
+          "Prognosis",
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "blast injury",
+          "blast lung injury",
+          "BLI",
+          "severity score",
+          "trauma",
+          "injury",
+          "explosion-related injuries",
+          "explosive-related injuries"
+        ],
+        "search_id": "c-4028",
+        "seo": {
+          "keywords_en": "Injury, trauma, explosives, blast injury, blast lung injury, BLI, severity score, explosive-related injuries, explosion-related injuries",
+          "meta_description_en": "The Blast Lung Injury Severity Score criteria stratifies explosion-related lung injury into 3 categories."
+        },
+        "short_description_en": "Blast lung severity.",
+        "short_title_en": "BLI Severity Score",
+        "slug": "blast-lung-injury-severity-score",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Surgery (Trauma)"
+        ],
+        "system_en": [
+          "Any/All"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Jennie",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Kim",
+          "name": "Jennie Kim, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Reuven Pizov, MD, is a professor and chairman of anesthesiology and CCM at Hadassah Medical Center in Jerusalem, Israel. Dr. Pizov has authored several peer-reviewed studies in the field of anesthesiology.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Reuven Pizov",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-reuven-pizov.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Pizov+R%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4028/blast-lung-injury-severity-score",
+        "description": "The Blast Lung Injury Severity Score criteria stratifies explosion-related lung injury into 3 categories.",
+        "keywords": "Injury, trauma, explosives, blast injury, blast lung injury, BLI, severity score, explosive-related injuries, explosion-related injuries",
+        "title": "Blast Lung Injury Severity Score"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 4030,
+          "short_title_en": "Bastion Classification",
+          "slug": "bastion-classification-lower-limb-blast-injuries"
+        },
+        {
+          "calcId": 10085,
+          "short_title_en": "SLICS",
+          "slug": "subaxial-injury-classification-severity-scale-slics"
+        },
+        {
+          "calcId": 10185,
+          "short_title_en": "Pediatric Trauma Score (PTS)",
+          "slug": "pediatric-trauma-score-pts"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4028",
+      "blast-lung-injury-severity-score"
+    ]
+  },
+  "scriptLoader": []
+}

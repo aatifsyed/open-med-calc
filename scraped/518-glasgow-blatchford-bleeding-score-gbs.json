@@ -1,0 +1,793 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Bleeding",
+          "Dizziness",
+          "Weakness"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "518.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li>Originally modeled in a Scottish population in 1997, the Glasgow-Blatchford score is a popular and well validated scoring system for upper GI bleeding.</li>\n<li>Multiple studies demonstrate better sensitivity than the pre-endoscopy and complete Rockall scores and other validated systems (<a href=\"https://www.giejournal.org/article/S0016-5107(10)00042-8/abstract\" target=\"_blank\" rel=\"noopener\">Pang 2010</a>, <a href=\"https://www.cghjournal.org/article/S1542-3565(12)00786-0/abstract\" target=\"_blank\" rel=\"noopener\">Laursen 2012</a>).</li>\n<li>The <calculator id=\"3801\">AIMS65 Score</calculator> is a newer and simpler system (albumin, INR &gt;1.5, altered mental status, systolic BP &lt;90, age = 65) derived from a much larger population database. It is designed to predict mortality (<a href=\"https://www.sciencedirect.com/science/article/pii/S0016510711018633\" target=\"_blank\" rel=\"noopener\">Saltzman 2011</a>).</li>\n<li>The modified GBS performs similarly and takes into account only pulse, blood pressure, BUN, and hemoglobin (<a href=\"https://onlinelibrary.wiley.com/doi/10.1111/apt.12029/full\" target=\"_blank\" rel=\"noopener\">Cheng 2012</a>).</li>\n<li>Although the original study concluded that only scores of 0 were safe for discharge, multiple subsequent trials including Stanley et al (<a href=\"https://www.bmj.com/content/356/bmj.i6432.long\" target=\"_blank\" rel=\"noopener\">2017</a>)&nbsp;have shown that GBS scores of 1 are also low risk.</li>\n</ul>",
+            "formula_en": "<p>Addition of assigned points, as below.</p>",
+            "more_info_en": "<div class=\"table-responsive\">\n<table class=\"table table-bordered table-hover\">\n<thead>\n<tr>\n<th colspan=\"2\"><strong>Glasgow-Blatchford Score</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th colspan=\"2\">BUN (mg/dL)</th>\n</tr>\n<tr>\n<td>&lt;18.2</td>\n<td>0</td>\n</tr>\n<tr>\n<td>18.2-22.3</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>22.4-28</td>\n<td>+3</td>\n</tr>\n<tr>\n<td>28-70</td>\n<td>+4</td>\n</tr>\n<tr>\n<td>&gt;70</td>\n<td>+6</td>\n</tr>\n<tr>\n<th colspan=\"2\">Hemoglobin (g/dL) for men</th>\n</tr>\n<tr>\n<td>&gt;13</td>\n<td>0</td>\n</tr>\n<tr>\n<td>12-13</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>10-12</td>\n<td>+3</td>\n</tr>\n<tr>\n<td>&lt;10</td>\n<td>+6</td>\n</tr>\n<tr>\n<th colspan=\"2\">Hemoglobin (g/dL) for women</th>\n</tr>\n<tr>\n<td>&gt;12</td>\n<td>0</td>\n</tr>\n<tr>\n<td>10-12</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>&lt;10</td>\n<td>+6</td>\n</tr>\n<tr>\n<th colspan=\"2\">Systolic blood pressure (mm Hg)</th>\n</tr>\n<tr>\n<td>&ge;110</td>\n<td>0</td>\n</tr>\n<tr>\n<td>100&ndash;109</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>90&ndash;99</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>&lt;90</td>\n<td>+3</td>\n</tr>\n<tr>\n<th colspan=\"2\">Other criteria</th>\n</tr>\n<tr>\n<td>Pulse &ge;100 (per min)</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>Melena present</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>Presentation with syncope</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>Liver disease history</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>Cardiac failure present</td>\n<td>+2</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><strong>Low risk = Score of 0. Any score higher than 0 is high risk for needing intervention: transfusion, endoscopy, or surgery.</strong></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/22310222/",
+                  "text": "Laine L, Jensen DM. Management of patients with ulcer bleeding. Am J Gastroenterol. 2012;107(3):345-60."
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2800%2902816-6/fulltext",
+                  "text": "Blatchford O, et. al. A risk score to predict need for treatment for uppergastrointestinal haemorrhage. Lancet 2000."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2808%2961769-9/abstract#",
+                  "text": "Stanley AJ, et. al. Outpatient management of patients with low-risk upper-gastrointestinal haemorrhage: multicentre validation and prospective evaluation. The Lancet. 2009; 373( 9657): 42-7."
+                },
+                {
+                  "href": "https://jama.jamanetwork.com/article.aspx?articleid=1105075",
+                  "text": "Srygley FD, et al. Does this patient have a severe upper gastrointestinal bleed?. JAMA 307.10 (2012): 1072-1079."
+                },
+                {
+                  "href": "https://www.bmj.com/content/315/7107/510",
+                  "text": "Blatchford O, Davidson LA, Murray WR, Blatchford M, Pell J. Acute upper gastrointestinal haemorrhage in west of Scotland: case ascertainment study. BMJ. 1997 Aug 30;315(7107):510-4."
+                },
+                {
+                  "href": "https://www.giejournal.org/article/S0016-5107(10)00042-8/abstract",
+                  "text": "Pang SH, Ching JY, Lau JY, et al. Comparing the Blatchford and pre-endoscopic Rockall score in predicting the need for endoscopic therapy in patients with upper GI hemorrhage. Gastrointest Endosc. 2010 Jun;71(7):1134-40."
+                },
+                {
+                  "href": "https://www.cghjournal.org/article/S1542-3565(12)00786-0/abstract",
+                  "text": "Laursen SB, Hansen JM, Schaffalitzky de Muckadell OB. The Glasgow Blatchford score is the most accurate assessment of patients with upper gastrointestinal hemorrhage. Clin Gastroenterol Hepatol. 2012 Oct;10(10):1130-1135."
+                },
+                {
+                  "href": "https://www.sciencedirect.com/science/article/pii/S0016510711018633",
+                  "text": "Saltzman JR, Tabak YP, Hyett BH, et al. A simple risk score accurately predicts in-hospital mortality, length of stay, and cost in acute upper GI bleeding. Gastrointest Endosc. 2011 Dec;74(6):1215-24."
+                },
+                {
+                  "href": "https://onlinelibrary.wiley.com/doi/10.1111/apt.12029/full",
+                  "text": "Cheng DW, Lu YW, Teller T, et al. A modified Glasgow Blatchford Score improves risk stratification in upper gastrointestinal bleed: a prospective comparison of scoring systems. Aliment Pharmacol Ther. 2012 Oct;36(8):782-9."
+                },
+                {
+                  "href": "https://www.bmj.com/content/356/bmj.i6432.long",
+                  "text": "Stanley AJ, Laine L, Dalton HR, Ngu JH, Schultz M, Abazi R, Zakko L, Thornton S, Wilkinson K, Khor CJ, Murray IA, Laursen SB; International Gastrointestinal Bleeding Consortium. Comparison of risk scoring systems for patients presenting with upper gastrointestinal bleeding: international multicentre prospective study. BMJ. 2017 Jan 4;356:i6432. doi: 10.1136/bmj.i6432."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/17870480",
+                  "text": "Chen IC, Hung MS, Chiu TF, Chen JC, Hsiao CT. Risk scoring systems to predict need for clinical intervention for patients with nonvariceal upper gastrointestinal tract bleeding. Am J Emerg Med. 2007 Sep;25(7):774-9."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "John Vizuete, MD, MPH"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Oliver Blatchford",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>The Glasgow-Blatchford Bleeding Score (GBS) helps identify which patients with upper GI bleeding (UGIB) may be safely discharged from the emergency room.</li>\n<li>Any of the 9 variables, if present, increase the priority for admission (and likelihood of need for acute intervention).</li>\n<li>Scores range from 0-23, with higher scores corresponding to increasing acuity and mortality.</li>\n<li>A score of 0 suggests low risk of complications (0.5%) and these patients may likely not need to be admitted for workup.</li>\n<li>Scores &gt;0 do not imply that the patient <em>must</em> be admitted.</li>\n<li>Clinicians must use their best judgment in assessing whether the patient has heart failure or liver disease. For example, a mild elevation in liver enzymes or steatosis is not considered hepatic failure; likewise, mild diastolic dysfunction was not considered heart failure in the model.</li>\n<li>History of coffee-ground emesis is NOT counted in the tool as it has a low risk of case fatality (likelihood ratio 0.5).</li>\n</ul>\n<p><strong>Points to keep in mind:</strong></p>\n<ul>\n<li>Clinicians must use their best judgment in assessing whether the patient has heart failure or liver disease. For example, a mild elevation in liver enzymes or steatosis is not considered hepatic failure; likewise, mild diastolic dysfunction was not considered heart failure in the model. History of coffee-ground emesis is NOT counted in the tool as it has a low risk of case fatality (likelihood ratio 0.5).</li>\n<li>Its use is controversial for patients already admitted, as very few were represented in the original cohort and many of these patients receive endoscopic evaluation.</li>\n<li>Variables such as age, creatinine, coagulopathy, mental status, and comorbidities like malignancy or pulmonary disease are not a part of this calculator, although they may impact medical decision making. Other risk assessment tools like the Rockall and AIMS65 Scores account for these variables.</li>\n</ul>",
+            "use_case_en": "<ul>\n<li>Use for adult patients being considered for hospital admission due to upper GI bleeding.</li>\n<li>Do NOT use in pediatric patients or patients with suspected small bowel or lower GI bleeding.</li>\n<li>Its use is controversial for patients already admitted, as very few were represented in the original cohort and many of these patients receive endoscopic evaluation.</li>\n</ul>",
+            "why_use_en": "<ul>\n<li>Easy and quick to calculate.</li>\n<li>Doesn&rsquo;t rely on endoscopic findings.</li>\n<li>Aids in efficient resource utilization.</li>\n<li>Spares the use of NG lavage.</li>\n<li>Scores correlate with cost and length of stay, need for blood transfusion, endoscopic treatment, surgery, and mortality.</li>\n<li>Well-validated in numerous populations.</li>\n<li>Variables such as age, creatinine, coagulopathy, mental status, and comorbidities like malignancy or pulmonary disease are not a part of this calculator, although they may impact medical decision making. Other risk assessment tools like the Rockall and AIMS65 scores account for these variables.</li>\n<li>Has been found to be superior to the AIMS65 in predicting need for intervention (transfusion, endoscopic treatment, IR, or surgery) or rebleeding, although the AIMS65 remains a better predictor of mortality (<a href=\"https://www.bmj.com/content/356/bmj.i6432.long\" target=\"_blank\" rel=\"noopener\">Stanley 2017</a>).</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Once the decision for admission has been made, efforts should focus on stratifying patients into high and low risk categories to determine which patients need ICU admission and urgent endoscopy.</p>",
+            "critical_actions_en": "",
+            "management_en": "<p>Initial management should always focus on hemodynamic resuscitation prior to risk stratification.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Bleeding/Hemorrhage",
+          "GI Bleeding",
+          "Inflammatory Bowel Disease"
+        ],
+        "dosing": false,
+        "equation_logic": "dc9f0c38d3ce42bdac55fbac5f5fa415",
+        "equation_logic_text": "var calc_output = [];\n\nvar systolic_bp = parseFloat(systolic_bp);\nvar sex = parseFloat(sex);\nvar bun, bun_input, hgb, sbp, u, hemoglobin;\nvar msg = '';\nvar mini_msg = '';\nif (UOMSYSTEM == false) {\n  hemoglobin = parseFloat(hemoglobin) / 10;\n  bun_input = parseFloat(bun) / 0.357;\n}\n\nif (UOMSYSTEM == true) {\n  hemoglobin = parseFloat(hemoglobin);\n  bun_input = parseFloat(bun);\n}\n\nif (bun_input < 18.2) {\n  bun = 0;\n}\nif (bun_input >= 18.2 && bun_input < 22.4) {\n  bun = 2;\n}\nif (bun_input >= 22.4 && bun_input < 28.0) {\n  bun = 3;\n}\nif (bun_input >= 28.0 && bun_input <= 70.0) {\n  bun = 4;\n}\nif (bun_input > 70.0) {\n  bun = 6;\n}\nif (sex == 1) {\n  if (hemoglobin >= 12) {\n    hgb = 0;\n  }\n  if ((hemoglobin < 12) && (hemoglobin >= 10)) {\n    hgb = 1;\n  }\n  if (hemoglobin < 10) {\n    hgb = 6;\n  }\n}\nif (sex == 0) {\n  if (hemoglobin >= 13) {\n    hgb = 0;\n  }\n  if ((hemoglobin < 13) && (hemoglobin >= 12)) {\n    hgb = 1;\n  }\n  if ((hemoglobin < 12) && (hemoglobin >= 10)) {\n    hgb = 3;\n  }\n  if (hemoglobin < 10) {\n    hgb = 6;\n  }\n}\nif (systolic_bp >= 109) {\n  sbp = 0;\n}\nif ((systolic_bp <= 109) && (systolic_bp >= 100)) {\n  sbp = 1;\n}\nif ((systolic_bp < 100) && (systolic_bp >= 90)) {\n  sbp = 2;\n}\nif (systolic_bp < 90) {\n  sbp = 3;\n};\nu = hgb + bun + sbp + parseFloat(heart_rate_100) + parseFloat(melena) +\n  parseFloat(syncope) + parseFloat(hepatic_disease) + parseFloat(heart_failure);\nif (u == 0) {\n    msg = 'A GBS of 0 is a \\u201cLow Risk\\u201d GI bleed, and is highly sensitive (99.6% in a 2007 retrospective study) for predicting which patients did not require any \\u201cmedical intervention\\u201d: blood transfusion, endoscopy, or surgery. This was confirmed in a 2009 Lancet study where patients with a score of 0 were actually discharged and had no GI bleeding mortality at 6 month followup';\n    mini_msg = 'Low Risk for GI Bleed';\n}\nif (u > 0) {\n    msg = 'A GBS greater than zero suggests a “High Risk” GI bleed that is likely to require “medical intervention”: transfusion, endoscopy, or surgery. A higher GBS also correlated with a higher likelihood of needing intervention (scores ≥6 are associated with >50% risk of needing intervention)';\n    mini_msg = 'High Risk for GI bleed';\n}\ncalc_output.push({\n  name: 'mini',\n  value: u.toFixed(0),\n  value_text: 'points',\n  message: mini_msg\n});\ncalc_output.push({\n  name: '518_GBS Score_result',\n  value: u.toFixed(0),\n  value_text: 'points',\n  message: msg\n});\n",
+        "favorite_id": 518,
+        "full_title_en": "Glasgow-Blatchford Bleeding Score (GBS)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "Hemoglobin",
+            "name": "hemoglobin",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "hgb"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "BUN",
+            "name": "bun",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "bun"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "Initial systolic BP",
+            "name": "systolic_bp",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "sbp"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Sex",
+            "md_calc_info_concept": null,
+            "name": "sex",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Female",
+                "value": 1
+              },
+              {
+                "label": "Male",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Heart rate ≥100",
+            "md_calc_info_concept": null,
+            "name": "heart_rate_100",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Melena present",
+            "md_calc_info_concept": null,
+            "name": "melena",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Recent syncope",
+            "md_calc_info_concept": null,
+            "name": "syncope",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Hepatic disease history",
+            "md_calc_info_concept": null,
+            "name": "hepatic_disease",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Cardiac failure present",
+            "md_calc_info_concept": null,
+            "name": "heart_failure",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "guidelines added in references",
+            "time": "2018-09-28 03:28 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "updated contributor name",
+            "time": "2018-11-26 05:28 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "user feedback edit to result",
+            "time": "2018-11-30 01:17 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited result",
+            "time": "2018-11-30 01:21 PM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "41d31ea630e47c4be1799f4a5dcc5d4a",
+        "medium_description_en": "<p>Stratifies upper GI bleeding patients who are \"low-risk\" and candidates for outpatient management.</p>",
+        "publishedAt": "2022-04-21T20:29:43.297Z",
+        "purpose_en": [
+          "Prognosis",
+          "Treatment"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "gib",
+          "gbs",
+          "ugib",
+          "blatchford",
+          "bleeding",
+          "hemorrhage"
+        ],
+        "search_id": "c-518",
+        "seo": {
+          "keywords_en": "gbs, glasgow bleeding, glasgow bleeding score, glasgow bleeding scale, glasgow-blatchford bleeding, glasgow-blatchford bleeding scale, glasgow-blatchford bleeding score, blatchford bleeding, blatchford bleeding scale, blatchford bleeding score, gbs melena, gbs hemoglobin, gbs blood pressure, gbs, bp, gbs hgb, gbs syncope, upper GI bleeding, upper GI bleeding score, upper GI bleeding risk, upper GI bleeding score, upper GI bleeding issue, low risk gi bleed, low risk gi bleeding, low risk gbs, outpatient gbs, gbs prognosis",
+          "meta_description_en": "The Glasgow-Blatchford Bleeding Score (GBS) stratifies upper GI bleeding patients who are 'low-risk' and candidates for outpatient management."
+        },
+        "short_description_en": "<p>Identifies low risk UGI bleeds.</p>",
+        "short_title_en": "Glasgow-Blatchford Bleeding Score",
+        "slug": "glasgow-blatchford-bleeding-score-gbs",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Gastroenterology",
+          "Hematology and Oncology",
+          "Hepatology",
+          "Hospitalist Medicine",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Gastrointestinal",
+          "Hematologic"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "d22ffb38-a784-42ec-bb38-ad21c3b02f27"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>John Vizuete, MD, MPH, is currently a senior gastroenterology fellow at the University of Texas Health Science Center at San Antonio. A native Texan, Dr. Vizuete obtained his BA at the University of Texas at Austin, followed by medical school and internal medicine residency training at UTHSCSA. He also holds a master’s degree in public health. Dr. Vizuete is interested in clinical outcomes in gastrointestinal bleeding, luminal endoscopy, and inflammatory bowel disease and is actively involved in medical education.</p>",
+          "firstName": "John",
+          "hasDisclosure": [],
+          "img": "john-vizuete.jpg",
+          "lastName": "Vizuete",
+          "name": "John Vizuete, MD, MPH",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Past",
+          "target": "john-vizuete",
+          "updatedAt": "2023-04-06T20:28:21.130Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Oliver Blatchford, MD, PhD, MPH, is a consultant in public health medicine working at NHS Health Protection Scotland. He is also honorary senior lecturer in public health at the University of Glasgow.  Dr. Blatchford is the specialist lead for tuberculosis control and researches causes of healthcare associated infection (HAI).</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Oliver Blatchford",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/default.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Blatchford+O%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T16:59:50.815Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/518/glasgow-blatchford-bleeding-score-gbs",
+        "description": "The Glasgow-Blatchford Bleeding Score (GBS) stratifies upper GI bleeding patients who are 'low-risk' and candidates for outpatient management.",
+        "keywords": "gbs, glasgow bleeding, glasgow bleeding score, glasgow bleeding scale, glasgow-blatchford bleeding, glasgow-blatchford bleeding scale, glasgow-blatchford bleeding score, blatchford bleeding, blatchford bleeding scale, blatchford bleeding score, gbs melena, gbs hemoglobin, gbs blood pressure, gbs, bp, gbs hgb, gbs syncope, upper GI bleeding, upper GI bleeding score, upper GI bleeding risk, upper GI bleeding score, upper GI bleeding issue, low risk gi bleed, low risk gi bleeding, low risk gbs, outpatient gbs, gbs prognosis",
+        "title": "Glasgow-Blatchford Bleeding Score (GBS)"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "0.357",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 500,
+          "error_max_si": 178.5,
+          "error_max_us": 500,
+          "error_min": 1,
+          "error_min_si": 0.357,
+          "error_min_us": 1,
+          "name": "BUN",
+          "normal_max_si": 7.1,
+          "normal_max_us": 20,
+          "normal_min_si": 2.9,
+          "normal_min_us": 8,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "bun",
+          "units_si": "mmol/L",
+          "units_us": "mg/dL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 300,
+          "warn_max_si": 107.1,
+          "warn_max_us": 300,
+          "warn_min": 2,
+          "warn_min_si": 0.714,
+          "warn_min_us": 2
+        },
+        {
+          "conversion": "10",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 25,
+          "error_max_si": 250,
+          "error_max_us": 25,
+          "error_min": 0.5,
+          "error_min_si": 5,
+          "error_min_us": 0.5,
+          "name": "Hemoglobin",
+          "normal_max_si": 170,
+          "normal_max_us": 17,
+          "normal_min_si": 120,
+          "normal_min_us": 12,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "hgb",
+          "units_si": "g/L",
+          "units_us": "g/dL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 20,
+          "warn_max_si": 200,
+          "warn_max_us": 20,
+          "warn_min": 4,
+          "warn_min_si": 40,
+          "warn_min_us": 4
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 300,
+          "error_max_si": 300,
+          "error_max_us": 300,
+          "error_min": 30,
+          "error_min_si": 30,
+          "error_min_us": 30,
+          "name": "Systolic BP",
+          "normal_max_si": 120,
+          "normal_max_us": 120,
+          "normal_min_si": 100,
+          "normal_min_us": 100,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "sbp",
+          "units_si": "mm Hg",
+          "units_us": "mm Hg",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 250,
+          "warn_max_si": 250,
+          "warn_max_us": 250,
+          "warn_min": 40,
+          "warn_min_si": 40,
+          "warn_min_us": 40
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 3801,
+          "short_title_en": "AIMS65",
+          "slug": "aims65-score-upper-gi-bleeding-mortality"
+        },
+        {
+          "calcId": 3923,
+          "short_title_en": "Forrest Classification",
+          "slug": "forrest-classification-upper-gi-bleeding"
+        },
+        {
+          "calcId": 807,
+          "short_title_en": "HAS-BLED Score",
+          "slug": "has-bled-score-major-bleeding-risk"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "518",
+      "glasgow-blatchford-bleeding-score-gbs"
+    ]
+  },
+  "scriptLoader": []
+}

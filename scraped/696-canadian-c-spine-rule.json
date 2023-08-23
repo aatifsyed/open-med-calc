@@ -1,0 +1,634 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Injury/Trauma"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "696.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li>Primary endpoint was clinically significant c-spine injuries.</li>\n<li>Validation study included a convenience sample of 8,924 patients, aged 16 to 64, presenting to 10 Canadian trauma centers, with stable vital signs and a GCS of 15. 1.7% of those studied had clinically significant c-spine injuries (CSI). CCR found to be <b>100%</b> sensitive for ruling out CSI (defined as any fracture, dislocation or ligamentous injury).</li>\n<li>Also detected 96.4% (27/28) clinically insignificant c-spine injuries (injuries that don&rsquo;t require stabilization, specialized treatment and are unlikely to cause any long-term problems).</li>\n</ul>",
+            "formula_en": "<p>Algorithm of Yes/No questions from <em>The Canadian C-spine Rule</em> performs better than unstructured physician judgment.</p>",
+            "more_info_en": "<div class=\"authorimage\"><img style=\"max-width: 100%;\" src=\"https://cdn-web-img.mdcalc.com/canadian-c-spine.jpeg\" class=\"alignnone size-full wp-image-1839\" alt=\"canadian c spine work up algorithm\"></div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/11597285",
+                  "text": "Stiell IG, Wells GA, Vandemheen KL, Clement CM, Lesiuk H, De Maio VJ, Laupacis A, Schull M, McKnight RD, Verbeek R, Brison R, Cass D, Dreyer J, Eisenhauer MA, Greenberg GH, MacPhail I, Morrison L, Reardon M, Worthington J. The Canadian C-spine rule for radiography in alert and stable trauma patients. JAMA. 2001 Oct 17;286(15):1841-8."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/9176419",
+                  "text": "Stiell IG, Wells GA, Vandemheen K, et al. Variation in emergency department use of cervical spine radiography for alert, stable trauma patients. CMAJ. 1997;156(11):1537-44."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12944893",
+                  "text": "Bandiera, G., Stiell, I. G., Wells, G. A., et. al. The Canadian C-spine rule performs better than unstructured physician judgment. Annals of emergency medicine, 2003;42(3):395-402."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/15039695",
+                  "text": "Dickinson G, Stiell IG, Schull M, Brison R, Clement CM, Vandemheen KL, Cass D, McKnight D, Greenberg G, Worthington JR, Reardon M, Morrison L, Eisenhauer MA, Dreyer J, Wells GA. Retrospective application of the NEXUS low-risk criteria for cervical spine radiography in Canadian emergency departments. Ann Emerg Med. 2004;43(4):507-14."
+                },
+                {
+                  "href": "https://www.annemergmed.com/article/S0196-0644(09)00241-8/abstract",
+                  "text": "Vaillancourt, C., Stiell, I. G., et. al. The out-of-hospital validation of the Canadian C-Spine Rule by paramedics. Annals of emergency medicine, 2009;54(5):663-671."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/19875425/",
+                  "text": "Stiell IG, Clement CM, Grimshaw J, et al. Implementation of the Canadian C-Spine Rule: prospective 12 centre cluster randomised trial. BMJ. 2009;339:b4146."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/20457772",
+                  "text": "Stiell IG, Clement CM, O'connor A, et al. Multicentre prospective validation of use of the Canadian C-Spine Rule by triage nurses in the emergency department. CMAJ. 2010;182(11):1173-9."
+                },
+                {
+                  "href": "https://emj.bmj.com/content/28/10/873.short",
+                  "text": "Coffey, F., Hewitt, S., et. al. Validation of the Canadian c-spine rule in the UK emergency department setting. Emergency Medicine Journal, 2011;28(10):873-876."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23048086",
+                  "text": "Michaleff ZA, Maher CG, Verhagen AP, Rebbeck T, Lin CW. Accuracy of the Canadian C-spine rule and NEXUS to screen for clinically important cervical spine injury in patients following blunt trauma: a systematic review. CMAJ. 2012;184(16):E867-76."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23048086",
+                  "text": "Michaleff ZA, Maher CG, Verhagen AP, Rebbeck T, Lin CW. Accuracy of the Canadian C-spine rule and NEXUS to screen for clinically important cervical spine injury in patients following blunt trauma: a systematic review. CMAJ. 2012;184(16):E867-76."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/14695411",
+                  "text": "Stiell IG, Clement CM, Mcknight RD, et al. The Canadian C-spine rule versus the NEXUS low-risk criteria in patients with trauma. N Engl J Med. 2003;349(26):2510-8."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Daniel Runde, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Ian Stiell",
+              "qa_en": "<dl> <dt>Why did you develop the Canadian C-Spine Rule?</dt> <dd>My interest was piqued through a paper that demonstrated there is a gross inefficiency and amazing variation in image ordering between teaching hospitals and hospitals alike. My intent was the provide sensible decision rules developed by emergency physicians, for use by emergency personnel.</dd> <dt>Any Pearls/Pitfalls/Tips?</dt> <dd>The CCR is only intended for use with alert and stable trauma patients with neck pain; therefore, patients over the age of 65 with neck pain do not necessarily require imaging.</dd> </dl>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>The Canadian C-spine Rule (CCR) was developed to help physicians determine which trauma patients need c-spine imaging.</p>\n<ul>\n<li>CCR is highly sensitive for CSI, with the majority of studies finding it catches 99-100% of these types of injuries.</li>\n<li>Applying the Canadian C-Spine Rule would allow healthcare providers to safely decrease the need for imaging among this patient population by over 40%.</li>\n<li>Subsequent studies have found a sensitivity of 90-100% for CSI with majority finding 99-100% sensitivity.</li>\n</ul>\n<p><strong>Points to keep in mind:</strong></p>\n<ul>\n<li>Not all patients in the validation study underwent imaging if the treating physician felt the patient was at very low risk of injury.</li>\n<li>Most common criticism is that the CCR is difficult to memorize due to its multiple criteria; use of a smartphone app or digital reference (like MDCalc) is recommended.</li>\n<li>The rule <em>can</em> be used in patients who are intoxicated; if the patients are alert and cooperative, the rule can be used regardless of blood alcohol content.</li>\n<li>The quoted sensitivities are all for CSI. Some practice environments might be concerned with identifying <b>any</b> cervical spine injury (CCR&nbsp;is highly sensitive for clinically important c-spine imaging.)</li>\n<li>The lone trial with a sensitivity of 90% was in a study where nurses were trained to apply the rule (retrospective review by investigators in this study found the rule was misapplied in 4 cases with obvious high-risk features); it has also been successfully evaluated in paramedics.</li>\n</ul>\n<p><strong>Exclusion Criteria:</strong></p>\n<ul>\n<li>Non-trauma patients</li>\n<li>GCS &lt;15</li>\n<li>Unstable vital signs</li>\n<li>Age &lt;16 years</li>\n<li>Acute paralysis</li>\n<li>Known vertebral disease</li>\n<li>Previous c-spine surgery</li>\n</ul>",
+            "use_case_en": "<p>The Canadian C-Spine Rule is a well-validated decision rule that can be used to safely rule out cervical spine injury (CSI) in alert, stable trauma patients without the need to obtain radiographic images.</p>",
+            "why_use_en": "<ul>\n<li>There are over 1 million visits to US Emergency Departments annually for blunt trauma patients who present with a concern for possible cervical spine imaging. Many of these patients undergo imaging of their c-spine, with the overwhelming majority (98%) of the studies coming back negative for a fracture. Applying the Canadian C-spine Rule would allow healthcare providers to safely decrease the need for imaging among this patient population by over 40%.</li>\n<li>While the Canadian C-Spine Rule is more complex than other c-spine clinical decision rules (<calculator id=\"703\">NEXUS</calculator>), it is a more sensitive rule and can potentially be used on patients who cannot be cleared using other rules.</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p>The overwhelming majority of patients who are CCR negative do not warrant further imaging.</p>\n<ul>\n<li>In the case of the inebriated but alert patient with a GCS of 15, one reasonable approach would be to leave the patient in a c-collar until they are clinically sober, however <a href=\"https://annals.org/article.aspx?articleid=2197180\" target=\"_blank\" rel=\"noopener\">one recent 2015 systematic review calls this into question</a> assuming a high-quality c-spine CT study and an attending-level radiologist interpretation.</li>\n<li>The physician should order appropriate imaging when appropriate - XR vs CT - based on best clinical judgment.</li>\n</ul>",
+            "critical_actions_en": "<ul>\n<li>If a patient has any high risk factors (age <span>&ge;</span>65, a defined dangerous mechanism or paresthesias in the arms or legs) then they require c-spine imaging.</li>\n<li>If a patient has no high risk factors but meets none of the defined low risk criteria (see list), they require c-spine imaging.</li>\n<li>If a patient has no high risk factors, has neck pain, but meets even <strong>one</strong> low risk factor, then it is safe to assess whether the patient is able to rotate their neck 45 degrees to the left <strong>and</strong> right. If they can do this (even with some pain or discomfort), then they do not require further imaging. If they cannot rotate their neck 45 degrees in both directions then c-spine images are indicated.</li>\n</ul>",
+            "management_en": "<p>If a patient has a clinically significant c-spine injury identified on imaging:</p>\n<ul>\n<li>Maintain cervical spine protection with an appropriate collar.</li>\n<li>Consult neurosurgery.</li>\n<li>Keep patient non-ambulatory and NPO until treatment plan is complete.</li>\n<li>Patient may require emergent operative stabilization and/or admission to neurosurgical ICU.</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 696,
+                "createdAt": "2020-10-08T17:48:52.709Z",
+                "description": "Emergency Medicine Practice Extra",
+                "id": 194,
+                "link": "https://www.ebmedicine.net/topics/trauma/neck-trauma/calculators",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: Canadian C-Spine Rule",
+                "updatedAt": "2020-10-08T17:48:52.709Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Trauma"
+        ],
+        "dosing": false,
+        "equation_logic": "400c7e562315dfa396ac05d396e47846",
+        "equation_logic_text": "var low_risk_factor = low_risk_factor || 0;\nvar rotate_neck_45 = rotate_neck_45 || 0;\nvar calc_output = [];\nvar msg = '';\nvar mini_msg = '';\nvar txt = '';\nvar age_65 = parseFloat(age_65);\nlow_risk_factor = parseFloat(low_risk_factor);\nrotate_neck_45 = parseFloat(rotate_neck_45);\nif (age_65 === 2) {\n    msg = 'High risk patient. C-spine cannot be cleared clinically by these criteria. Imaging is recommended.';\n    mini_msg = 'High';\n    txt = 'Imaging recommended';\n} else if (age_65 === 1) {\n    msg = 'The Canadian C-Spine rule requires more information to provide a recommendation. Answer the next criteria.';\n    mini_msg = 'Unknown';\n    txt = ''\n    if (low_risk_factor === 2) {\n        if (rotate_neck_45 === 2) {\n            msg = 'C-spine can be cleared clinically by these criteria. No imaging is required.';\n            mini_msg = 'Low';\n        } else if (rotate_neck_45 === 1) {\n            msg = 'High risk patient due to inability to rotate neck. C-spine cannot be cleared clinically by these criteria. Imaging is recommended.';\n            mini_msg = 'High';\n        }\n    } else if (low_risk_factor === 1) {\n        msg = 'High risk patient due to lack of low-risk criteria. C-spine cannot be cleared clinically by these criteria. Imaging is recommended.';\n        mini_msg = 'High';\n    }\n}\ncalc_output.push({\n    name: 'mini',\n    value: mini_msg,\n    value_text: 'risk',\n    message: txt\n});\ncalc_output.push({\n    name: '696_Canadian C-Spine Rule_result',\n    value: mini_msg,\n    value_text: 'risk',\n    message: msg\n});",
+        "favorite_id": 696,
+        "full_title_en": "Canadian C-Spine Rule",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Age ≥65 years, extremity paresthesias, or dangerous mechanism",
+            "md_calc_info_concept": null,
+            "name": "age_65",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 1
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Fall from ≥3 ft (0.9 m) / 5 stairs, axial load injury, high speed MVC/rollover/ejection, bicycle collision, motorized recreational vehicle",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "age_65 == 1",
+            "default": null,
+            "label_en": "Low risk factor present",
+            "md_calc_info_concept": null,
+            "name": "low_risk_factor",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 1
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Sitting position in the ED, ambulatory at any time, delayed (not immediate onset) neck pain, no midline tenderness. Simple rearend motor vehicle collision (MVC) (not simple if pushed into traffic, hit by bus/large truck, rollover, hit by high-speed vehicle)",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "low_risk_factor == 2",
+            "default": null,
+            "label_en": "Able to actively rotate neck 45° left and right",
+            "md_calc_info_concept": null,
+            "name": "rotate_neck_45",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 1
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added partner content",
+            "time": "2020-10-08T10:48:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "updated P/P typo",
+            "time": "2020-04-13T16:05:00.000Z",
+            "user": "allyssa"
+          },
+          {
+            "message": "edited refs",
+            "time": "2019-09-26T16:26:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited refs",
+            "time": "2019-09-26T16:24:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits to references",
+            "time": "2018-11-28T10:40:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "un italized",
+            "time": "2018-11-28T10:31:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Added link to nexus",
+            "time": "2018-11-28T10:30:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits to input",
+            "time": "2018-11-28T10:25:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits to content",
+            "time": "2018-11-28T10:24:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "user edits",
+            "time": "2018-11-28T10:16:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "efd2fecffc390866aceecf14cee082bf",
+        "medium_description_en": "<p>Clinically clears cervical spine fracture without imaging.</p>",
+        "publishedAt": "2022-04-21T20:29:45.885Z",
+        "purpose_en": [
+          "Algorithm",
+          "Diagnosis",
+          "Prognosis",
+          "Rule Out"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "trauma",
+          "cspine",
+          "neck",
+          "c-spine"
+        ],
+        "search_id": "c-696",
+        "seo": {
+          "keywords_en": "CT neck rule, neck injury rule, neck trauma rule, canadian CT rule, canadian neck injury, neck injury scan, Canadian imaging rule, C spine rule, canadian C-spine, canadian neck imaging, canadian neck imaging rule, canadian c-spine imaging, canadian c-spine imaging rule, canadian c-spine calc, canadian C-spine score, canadian neck trauma trule, neck scan s/p trauma, r/o neck fx, r/o c-spine fx, r/o c-spine fracture, r/o neck fracture, rule out neck fracture, rule out c-spine fracture, rule out CT need, neck injury CT need, clears neck injury, cervical spine fracture, cervical spine fx rule, cervical spine fracture rule out, cervical spine clear, cervical spine rule",
+          "meta_description_en": "The Canadian C-spine Rule Clinically clears cervical spine fracture without imaging."
+        },
+        "short_description_en": "<p>More sens/spec, but more complex, than NEXUS.</p>",
+        "short_title_en": "Canadian C-Spine Rule",
+        "slug": "canadian-c-spine-rule",
+        "specialty_en": [
+          "Emergency Medicine",
+          "Internal Medicine",
+          "Neurology",
+          "Surgery (General)",
+          "Surgery (Trauma)"
+        ],
+        "system_en": [
+          "Musculoskeletal",
+          "Neurologic",
+          "Psychiatric"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "53275dfa-42d8-4cb6-93ac-5c88cf90023d"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Daniel Runde, MD, is currently the assistant residency director and an assistant professor of emergency medicine at the University of Iowa Hospitals and Clinics. He received his medical degree at the University of Iowa Carver College of Medicine and completed residency in emergency medicine at St. Luke’s-Roosevelt Hospital Center in New York. He recently finished his Medical Education Fellowship at the department of emergency medicine at Harbor-UCLA. Dr. Runde is interested in evidence-based medicine with a focus on patient-important clinical outcomes, CT utilization in the emergency department and education and evaluation in medical education. Currently, he is in the process of obtaining a Masters in Medical Education through the Office of Consultation and Research in Medical Education at the University of Iowa Hospitals and Clinics.</p>",
+          "firstName": "Daniel",
+          "hasDisclosure": [],
+          "img": "daniel-runde.jpg",
+          "lastName": "Runde",
+          "name": "Daniel Runde, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "daniel-runde",
+          "updatedAt": "2023-04-06T20:24:46.787Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Ian Stiell, MD, MSc, FRCPC, is Professor and Chair, Department of Emergency Medicine, University of Ottawa; Distinguished Professor and University Health Research Chair, University of Ottawa; Senior Scientist, Ottawa Hospital Research Institute; and Emergency Physician, The Ottawa Hospital. He is internationally recognized for his research in emergency medicine with a focus on the development of clinical decision rules and the conduct of clinical trials involving acutely ill and injured patients treated by prehospital services and in emergency departments. He is best known for the development of the <calculator id='1670'>Ottawa Ankle Rule</calculator>, the <calculator id='696'>Canadian C-Spine Rule</calculator>, and <calculator id='608'>Canadian CT Head Rule</calculator> and as the Principal Investigator for the landmark OPALS Studies for prehospital care. Dr. Stiell is the Principal Investigator for 1 of 3 Canadian sites in the Resuscitation Outcomes Consortium (ROC) which is funded by CIHR, NIH, HSFC, AHA, and National Defence Canada. Dr. Stiell is a Member of the Institute of Medicine of the U.S. National Academies of Science.</p> <p>To read more about Dr. Stiell's work, visit his <a href='http://www.ohri.ca/profile/istiell/dr-ian-stiell-group' target='_blank'>website</a>.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Ian Stiell",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-ian-stiell.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Stiell+IG%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T15:54:34.492Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/696/canadian-c-spine-rule",
+        "description": "The Canadian C-spine Rule Clinically clears cervical spine fracture without imaging.",
+        "keywords": "CT neck rule, neck injury rule, neck trauma rule, canadian CT rule, canadian neck injury, neck injury scan, Canadian imaging rule, C spine rule, canadian C-spine, canadian neck imaging, canadian neck imaging rule, canadian c-spine imaging, canadian c-spine imaging rule, canadian c-spine calc, canadian C-spine score, canadian neck trauma trule, neck scan s/p trauma, r/o neck fx, r/o c-spine fx, r/o c-spine fracture, r/o neck fracture, rule out neck fracture, rule out c-spine fracture, rule out CT need, neck injury CT need, clears neck injury, cervical spine fracture, cervical spine fx rule, cervical spine fracture rule out, cervical spine clear, cervical spine rule",
+        "title": "Canadian C-Spine Rule"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 703,
+          "short_title_en": "NEXUS C-Spine Rule",
+          "slug": "nexus-criteria-c-spine-imaging"
+        },
+        {
+          "calcId": 608,
+          "short_title_en": "Canadian CT Head Rule",
+          "slug": "canadian-ct-head-injury-trauma-rule"
+        },
+        {
+          "calcId": 10085,
+          "short_title_en": "SLICS",
+          "slug": "subaxial-injury-classification-severity-scale-slics"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "696",
+      "canadian-c-spine-rule"
+    ]
+  },
+  "scriptLoader": []
+}

@@ -1,0 +1,727 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Abdominal Pain",
+          "Flank Pain",
+          "Pain",
+          "Vomiting"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\">The original derivation study (Holmes 2012) was designed with the goal to identify children with blunt torso trauma at very low risk for intra-abdominal injury requiring acute intervention. It was a prospective observational cohort study using data from the Pediatric Emergency Care Applied Research Network (PECARN). Data were collected from 20 centers over the course of 2.5 years. Patients were either tracked through hospital admission, contacted by phone 7 days after ED visit, mailed a survey, or investigators reviewed medical records, registries, and morgue records to determine if there was an intra-abdominal injury (IAI) requiring acute intervention or death related to IAI.&nbsp;&nbsp;</p>\n<p dir=\"ltr\">Acute intervention in the setting of intra-abdominal injury was defined as any of the following:</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Death due to IAI.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Laparotomy with therapeutic intervention.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Angiographic intervention for hemorrhage.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Blood transfusion for anemia related to hemorrhage.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">IV fluids for &ge;2 nights due to pancreatic or GI injury.</p>\n</li>\n</ul>\n<p dir=\"ltr\">ED physicians completed a standardized data collection form prior to CT scan (if performed), and variables assessed in the forms were chosen based on previous literature and plausibility, and the prediction rule was derived using binary recursive partitioning to maximize sensitivity.&nbsp; Any variable missing from &gt;5% of the data collection forms was omitted from recursive partitioning.&nbsp;&nbsp;&nbsp;&nbsp;</p>\n<p dir=\"ltr\">12,044 were enrolled, and of those patients, 5,514 (46%) underwent abdominal CT.&nbsp; 761 patients (6.3% of total enrolled) were diagnosed with IAI, and IAI requiring acute intervention was identified in 203 patients (26.7% of patients with IAI). The most common acute intervention was blood transfusion (60.1%), followed by therapeutic laparotomy (56.6%).&nbsp;&nbsp;</p>\n<p dir=\"ltr\">Of the 203 patients with IAI requiring intervention, 6 were misclassified as very low risk using the prediction rule, giving it a sensitivity of 97% (95% CI [94-99%]).&nbsp; Characteristics of those 6 patients are described in Pearls/Pitfalls.</p>\n<p dir=\"ltr\">Abdominal CT scan was obtained in 46% of the study population. The authors calculated that if CT of the abdomen was not performed on patients with zero of the predictive variables for intra-abdominal trauma, it would have reduced the number of CT scans to 35% of the study population.&nbsp; Interestingly, if a CT was obtained on all patients with at least one positive predictor variable, it would have increased the total number of abdominal CT scans obtained on the study population to 58%. The authors directly state that this does not mean every patient with at least one positive predictor variable requires abdominal CT to rule out injury. The purpose of this study was &ldquo;to identify the very low risk patients in whom CT could generally be obviated.&rdquo;&nbsp;&nbsp;</p>\n<p dir=\"ltr\"><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30502218\" target=\"_blank\" rel=\"noopener\">Springer et al (2018)</a> validated the rule in a retrospective review of pediatric patients presenting to a single level 1 trauma center with blunt abdominal trauma over a nearly 5 year period. Unlike PECARN, this database included spinal and pelvic injuries in addition to intra-abdominal injuries, as well as patients with injuries occurring &gt;24 hours prior to presentation and those transferred from another facility where CT or DPL were already performed.&nbsp;&nbsp;</p>\n<p dir=\"ltr\">The study authors identified 133 patients with IAI requiring intervention. One patient was truly misclassified as very low risk, a 15 year old with an adrenal laceration and liver laceration requiring a blood transfusion. The patient also had a femur fracture with superficial femoral artery damage requiring immediate operative revascularization and causing large-volume blood loss, and the study authors could not definitively attribute the transfusion requirement to intra-abdominal injuries.</p>\n<p dir=\"ltr\">The prediction rule was found to have 99% sensitivity (95% CI 96-100%) for the validation study. Despite attempts to include patients with spinal and pelvic trauma, the study authors did not identify patient&rsquo;s whose injuries met the proposed criteria; thus, no conclusions could be made in regards to spinal or pelvic trauma.</p>\n<p dir=\"ltr\">A planned secondary analysis of data from the original derivation study found that the decision rule was more sensitive than unstructured clinical suspicion for identifying IAI requiring intervention (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26302354\" target=\"_blank\" rel=\"noopener\">Mahajan 2015</a>).&nbsp; The clinician&rsquo;s suspicion was much more specific. These results were based on surveys completed by the treating clinicians obtained prior to the CT scan and at the same time as the standardized data collection forms for the derivation study. Interestingly, CT scan were still obtained in 33% of the cases where clinicians had a &lt;1% suspicion for IAI-I. The main reason cited for obtaining the scan despite very low suspicion was concerning mechanism of injury.</p>",
+            "formula_en": "<p><img src=\"https://cdn-web-img.mdcalc.com/cme/PECARN-IAI-formula.png\" alt=\"\" width=\"100%\"></p>",
+            "more_info_en": "<table>\n<tbody>\n<tr>\n<td>\n<p><strong>Sensitivity</strong></p>\n</td>\n<td>\n<p>97.0%</p>\n<p>(95% CI 93.7&ndash;98.9%)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Specificity</strong></p>\n</td>\n<td>\n<p>42.5%</p>\n<p>(95% CI 41.6&ndash;43.4%)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Negative predictive value</strong></p>\n</td>\n<td>\n<p>99.9%</p>\n<p>(95% CI 99.7&ndash;100%)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Positive predictive value</strong></p>\n</td>\n<td>\n<p>2.8%</p>\n<p>(95% CI 2.4&ndash;3.2%)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Negative likelihood ratio</strong></p>\n</td>\n<td>\n<p>0.07</p>\n<p>(95% CI 0.03&ndash;0.15)</p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23375510",
+                  "text": "Holmes JF, Lillis K, Monroe D, et al. Identifying children at very low risk of clinically important blunt abdominal injuries. Ann Emerg Med. 2013;62(2):107-116.e2."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/18046031",
+                  "text": "Brenner DJ, Hall EJ. Computed Tomography - an increasing source of radiation exposure.  N Engl J Med. 2007;357(22):2277-84."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24238315 ",
+                  "text": "Nishijima DK, Yang Z, Clark JA, Kuppermann N, Holmes JF, Melnikow J. A cost-effectiveness analysis comparing a clinical decision rule versus usual care to risk stratify children for intra-abdominal injury after blunt torso trauma. Acad Emerg Med. 2013;20(11):1131-8."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26302354",
+                  "text": "Mahajan P, Kuppermann N, Tunik M, Yen K, Atabaki SM, Lee LK, Ellison AM, Bonsu BK, Olsen CS, Cook L, Kwok MY, Lillis K, Holmes JF.  Comparison of Clinician Suspicion Versus a Clinical Prediction Rule in Identifying Children at Risk for Intra-Abdominal Injuries After Blunt Torso Trauma.  Acad Emerg Med. 2015; 22(9): 1034-1041."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/30502218",
+                  "text": "Springer E, Frazier SB, Arnold DH, Vukovic AA.  External Validation of a clinical prediction rule for very low risk pediatric blunt abdominal trauma.  Am J Emerg Med.  2018; epub ahead of print."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Cullen Clark, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. James F. Holmes",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Uses history and physical only (no labs or imaging).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Aspects of history may be difficult or unreliable in nonverbal or young children.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients with altered mental status or findings of abdominal wall trauma (bruising, abrasions, seat belt sign) are at highest risk for intra-abdominal injury.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Mandatory CT was not performed in all study patients for ethical reasons, so minor clinically silent injuries may be missed.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Six patients with IAI requiring intervention who were misclassified as very low risk, with the following mechanisms of injury: motor vehicle collision (4 patients), non-accidental trauma (1 patient), child struck by vehicle (1 patient).</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">All six had hemoperitoneum, four had splenic injury, two had kidney injury, two had intestinal injury, and one had liver injury.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Of the six injuries misclassified as low risk, five had laboratory abnormalities that implied intra-abdominal injury (hematuria, elevated liver enzymes).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Five of the six missed patients also had either distracting injury or alcohol intoxication.</p>\n</li>\n</ul>\n</ul>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-d1a7b814-7fff-bac5-66b2-d9e4b7e5978b\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients &lt;18 years old presenting with blunt abdominal trauma within 24 hours of injury.&nbsp;</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Do not use in patients with any of the following characteristics:</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Penetrating trauma.&nbsp;</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Pre-existing neurologic disorders impeding a reliable exam.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Pregnancy.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Transfer from another hospital where abdominal CT or diagnostic peritoneal lavage was already performed.</p>\n</li>\n</ul>\n</ul>",
+            "why_use_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">May help rule out intra-abdominal injury from blunt torso trauma requiring acute intervention, with 97% sensitivity and 99.9% negative predictive value.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">May decrease use of CT scan to assess for intra-abdominal injury as very low risk children may not need a scan.</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Reducing use of CT scans in pediatric abdominal trauma can decrease risk of malignancy later in life, as exposure to ionizing radiation during childhood is associated with increased risk of malignancies over a lifetime.</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Does not require laboratory or ultrasonographic information.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Found to be more sensitive than unstructured clinical suspicion in one study (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26302354\" target=\"_blank\" rel=\"noopener\">Mahajan 2015</a>).</p>\n</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-ede35f43-7fff-9e64-b46b-c8d829a6b994\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Should not be used to dictate whether a patient needs a CT or not; it is purely to identify patients at very low risk for an injury requiring acute intervention.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The risk percentage estimated by this tool can aid in shared decision making between the patient, their family, and the treating clinician on whether to pursue imaging with ionizing radiation.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">For children, the lifetime risk of developing radiation-induced fatal cancer increases by up to 0.14% with each abdominal CT scan (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/18046031\" target=\"_blank\" rel=\"noopener\">Brenner and Hall 2007</a>).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The majority of patients with intra-abdominal injury intervention (IAI-I) misclassified as low risk had distracting injury or intoxication; consider a lower threshold to obtain CT in these cases if there is clinical suspicion despite being classified as low or very low risk for IAI-I.</p>\n</li>\n</ul>",
+            "critical_actions_en": "<p><span id=\"docs-internal-guid-3df2fa37-7fff-800d-680e-7082be87f175\">As always, use ABCs and intervene to stabilize the patient with blunt abdominal trauma before making decisions regarding imaging.</span></p>",
+            "management_en": "<p><span id=\"docs-internal-guid-e7e3d6ad-7fff-4f32-2e5f-dbcaae75ee55\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients deemed very low risk for intra-abdominal injury requiring acute intervention may avoid CT abdomen, unless clinical suspicion exists for significant intra-abdominal injury.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Take into consideration the resources at hand as well as the patient&rsquo;s ability to achieve close follow-up or easily return to the hospital when planning work-up and disposition.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">One or more positive predictors does not necessitate a CT scan. Other methods of imaging or laboratory work-up can assist in identifying IAI requiring intervention (e.g. FAST, liver enzymes, lipase, UA, or other forms of imaging based on clinical stability and resources available). Observation with serial abdominal exams may be an option in clinically stable patients.&nbsp;</p>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [
+              {
+                "CalculatorId": 3971,
+                "clinical": 4,
+                "createdAt": "2019-07-02T20:19:24.525Z",
+                "evidence": 4,
+                "id": 7,
+                "popularity": 4,
+                "updatedAt": "2019-07-02T20:19:24.525Z"
+              }
+            ],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Acute Pain",
+          "Fracture",
+          "Trauma"
+        ],
+        "dosing": false,
+        "equation_logic": "a1bc5e1f887c216c3dbea3aa00d2d8ad",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nvar evidence = parseFloat(evidence);\nvar gcs = parseFloat(gcs);\nvar abd = parseFloat(abd);\nvar thora = parseFloat(thora);\nvar co = parseFloat(co);\nvar breath = parseFloat(breath);\nvar vomit = parseFloat(vomit);\n\n//add up the points\n//var u = evidence + gcs + abd + thora + co + breath + vomit;\n\n//interpretation\nvar risk, percent, msg;\n\nif (evidence == 1 || gcs == 1) {\n\trisk = 'Not very low';\n\tpercent = 5.4;\n    msg = 'Proceed with standard workup, including CT abdomen as indicated.'\n} else if (abd == 1) {\n    risk = 'Not very low';\n    percent = 1.4;\n    msg = 'Proceed with standard workup, including CT abdomen as indicated.'; \n} else if (thora == 1 || co == 1 || breath == 1 || vomit == 1) {\n\trisk = 'Not very low';\n\tpercent = '0.7';\n    msg = 'Proceed with standard workup, including CT abdomen as indicated.';\n} else {\n    risk = 'Very low';\n\tpercent = '0.1';\n    msg = 'Consider deferring CT abdomen.';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: risk,\n    value_text: ' risk',\n    message: percent + '% risk of intra-abdominal injury requiring intervention'\n});\ncalc_output.push({\n    name: '3971_PECARN IAI_result',\n    value: percent,\n    value_text: '%',\n    message: 'Risk of intra-abdominal injury requiring intervention'\n});\ncalc_output.push({\n    name: '3971_PECARN IAI_interpretation',\n    value: risk,\n    value_text: 'risk',\n    message: msg\n});\n\n\n",
+        "favorite_id": 3971,
+        "full_title_en": "PECARN Pediatric Intra-Abdominal Injury (IAI) Algorithm",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Evidence of abdominal wall trauma or seatbelt sign",
+            "md_calc_info_concept": null,
+            "name": "evidence",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "evidence == 0",
+            "default": null,
+            "label_en": "GCS <14 and blunt abdominal trauma",
+            "md_calc_info_concept": null,
+            "name": "gcs",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "evidence == 0 && gcs == 0",
+            "default": null,
+            "label_en": "Abdominal tenderness",
+            "md_calc_info_concept": null,
+            "name": "abd",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "evidence == 0 && gcs == 0 && abd == 0",
+            "default": null,
+            "label_en": "Thoracic wall trauma",
+            "md_calc_info_concept": null,
+            "name": "thora",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "evidence == 0 && gcs == 0 && abd == 0",
+            "default": null,
+            "label_en": "Complaint of abdominal pain",
+            "md_calc_info_concept": null,
+            "name": "co",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "evidence == 0 && gcs == 0 && abd == 0",
+            "default": null,
+            "label_en": "Decreased breath sounds",
+            "md_calc_info_concept": null,
+            "name": "breath",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "evidence == 0 && gcs == 0 && abd == 0",
+            "default": null,
+            "label_en": "Vomiting",
+            "md_calc_info_concept": null,
+            "name": "vomit",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p><span id=\"docs-internal-guid-f9da6742-7fff-26e3-9cfb-5225cc6aac0b\">Use in patients &lt;18 years old presenting with blunt abdominal trauma within 24 hours of injury. Do not use in patients with penetrating trauma, pre-existing neurologic disorders impeding a reliable exam, or pregnancy. Do not use in patients transferred from another hospital where abdominal CT or diagnostic peritoneal lavage was already performed.</span></p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited logic",
+            "time": "2021-02-26T16:37:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-02-25T00:58:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited text",
+            "time": "2021-02-18T19:03:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited contributor",
+            "time": "2021-02-11T18:38:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2021-02-11T18:36:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited to F&F",
+            "time": "2021-02-11T18:34:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "removed content",
+            "time": "2021-02-11T17:58:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "removed abbreviation tag ",
+            "time": "2021-02-11T11:56:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "changelog edits 2/10/21",
+            "time": "2021-02-10T11:25:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "changelog edits 2/9/21",
+            "time": "2021-02-09T11:36:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "removed sample sidebar info",
+            "time": "2019-08-28T14:14:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added refs",
+            "time": "2019-08-28T14:11:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2019-08-28T14:08:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added contributor and reviewer info",
+            "time": "2019-04-17T10:43:00.000Z",
+            "user": "allyssa"
+          }
+        ],
+        "md5": "ae8792732f9a755808713d111a9bf050",
+        "medium_description_en": "<p>Identifies children at very low risk of clinically important blunt abdominal injuries.</p>",
+        "publishedAt": "2022-04-21T20:29:31.258Z",
+        "purpose_en": [
+          "Rule Out"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "pecarn",
+          "iai",
+          "intra abdominal",
+          "intraabdominal",
+          "intre-abdominal",
+          "blunt abdominal injury",
+          "abdonminal injury",
+          "trauma",
+          "abdominal trauma",
+          "abdomen pediatric trauma",
+          "pediatric abdomen",
+          "pediatric abdominal trauma",
+          "abdominal pain"
+        ],
+        "search_id": "c-3971",
+        "seo": {
+          "keywords_en": "Pecarn, pecarn iai, intra abdominal injury, blunt trauma, blunt abdominal trauma, pecarn algorithm",
+          "meta_description_en": "The PECARN Pediatric Intra-Abdominal Injury Algorithm identifies children at very low risk of clinically important blunt abdominal injuries."
+        },
+        "short_description_en": "<p>Rules out clinically important blunt abdominal injuries.</p>",
+        "short_title_en": "PECARN IAI",
+        "slug": "pecarn-pediatric-intra-abdominal-injury-iai-algorithm",
+        "specialty_en": [
+          "Critical Care (Pediatric)",
+          "Emergency Medicine",
+          "Pediatric Subspecialty",
+          "Pediatrics",
+          "Surgery (Trauma)"
+        ],
+        "system_en": [
+          "Any/All",
+          "Gastrointestinal",
+          "Musculoskeletal"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "9e8614c2-0fe5-478a-81dc-1240b4d6a324"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Cullen Clark, MD, is a combined emergency medicine/pediatrics resident at Louisiana State University Health Sciences Center in New Orleans. Originally from Louisville, Kentucky, Cullen is a graduate of the University of Louisville School of Medicine. His areas of interest include pediatric emergency medicine, pediatric critical care, pain management in the emergency department, and disaster medicine.</p>",
+          "firstName": "Cullen",
+          "hasDisclosure": [],
+          "img": "cullen-clark.jpg",
+          "lastName": "Clark",
+          "name": "Cullen Clark, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "cullen-clark",
+          "updatedAt": "2023-04-06T20:17:43.267Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>James F. Holmes, MD, MPH, is a professor in the department of emergency medicine at the University of California, Davis. He is the Vice Chair for Research and his research interests include pediatric trauma, head and spine trauma, and selective use of head CT. Dr. Holmes has been involved in the development of emergency medicine in several countries, including Fiji. </p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. James F. Holmes",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-james-f-holmes.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Holmes+JF%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3971/pecarn-pediatric-intra-abdominal-injury-iai-algorithm",
+        "description": "The PECARN Pediatric Intra-Abdominal Injury Algorithm identifies children at very low risk of clinically important blunt abdominal injuries.",
+        "keywords": "Pecarn, pecarn iai, intra abdominal injury, blunt trauma, blunt abdominal trauma, pecarn algorithm",
+        "title": "PECARN Pediatric Intra-Abdominal Injury (IAI) Algorithm"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 589,
+          "short_title_en": "PECARN Pediatric Head Injury Rule",
+          "slug": "pecarn-pediatric-head-injury-trauma-algorithm"
+        },
+        {
+          "calcId": 10185,
+          "short_title_en": "Pediatric Trauma Score (PTS)",
+          "slug": "pediatric-trauma-score-pts"
+        },
+        {
+          "calcId": 10201,
+          "short_title_en": "Pediatric Appendicitis Risk Calculator",
+          "slug": "pediatric-appendicitis-risk-calculator-parc"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3971",
+      "pecarn-pediatric-intra-abdominal-injury-iai-algorithm"
+    ]
+  },
+  "scriptLoader": []
+}

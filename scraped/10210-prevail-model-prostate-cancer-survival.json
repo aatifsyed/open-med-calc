@@ -1,0 +1,944 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p>This calculator has not been externally validated.</p>",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Hematuria",
+          "Weight Loss/Gain"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">Total score = (treatment x 18.1376) + [(ln(PSA) + 2.3026) x 9.52244917] + [(275.9 - time) x 0.1543483] + [(4.9 - albumin) x 16.0447656796] + [(16.8 - hemoglobin) x 7.7519235] + (neutrophil&nbsp;x 17.613) + (LDH x 19.00635) + (pain x 12.2248) + (bone x 17.7533) + (alkaline x 10.9685) + (spread x 32.991),</p>\n<p dir=\"ltr\">where variables are as follows (bolded):</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"*\" /><col width=\"*\" /><col width=\"*\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><b>Treatment</b> with enzalutamide planned</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\">Current<strong> PSA </strong>value, ng/mL</p>\n</td>\n<td>\n<p dir=\"ltr\">Continuous</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><b>Time</b> since diagnosis, months</p>\n</td>\n<td>\n<p dir=\"ltr\">Continuous</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Albumin</strong>, g/dL</p>\n</td>\n<td>\n<p dir=\"ltr\">Continuous</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Hemoglobin</strong>, g/dL</p>\n</td>\n<td>\n<p dir=\"ltr\">Continuous</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><b>Neutrophil</b> to lymphocyte ratio (neutrophil number divided by lymphocyte number) &lt;2.5</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><b>LDH </b>below upper limit of normal</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>Pain</strong>&nbsp;0-1 (on a scale of 0-10, 10 being the worst pain imaginable, highest pain rating in last 24 hrs)</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">&lt;10 <strong>bone</strong> metastases on bone scan</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>Alkaline</strong> phosphatase&nbsp;less than upper limit of normal</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Pattern of <strong>spread</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">No visceral liver metastases</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Any visceral liver metastases</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p></p>",
+            "more_info_en": "<p>Refer to Figure 1B in <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30202945\" target=\"_blank\">Armstrong 2018</a> for nomogram for 1-year, 2-year, and 3-year survival.</p>\n<p>Refer to Figure 2 in <a href=\"https://pubmed.ncbi.nlm.nih.gov/32527692/\" target=\"_blank\">Armstrong 2020</a> for nomogram for 5-year survival.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/30202945",
+                  "text": "Armstrong AJ, Lin P, Higano CS, et al. Development and validation of a prognostic model for overall survival in chemotherapy-naïve men with metastatic castration-resistant prostate cancer. Ann Oncol. 2018;29(11):2200-2207."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/32527692/",
+                  "text": "Armstrong AJ, Lin P, Tombal B, et al. Five-year Survival Prediction and Safety Outcomes with Enzalutamide in Men with Chemotherapy-naïve Metastatic Castration-resistant Prostate Cancer from the PREVAIL Trial. Eur Urol. 2020;9(6)."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Andrew J. Armstrong",
+              "qa_en": "<p dir=\"ltr\"><strong>Why did you develop the PREVAIL Model for Prostate Cancer? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p>\n<p dir=\"ltr\">We desired a prognostic model for contemporary oncology practice, where men are commonly treated with a potent androgen receptor inhibitor such as enzalutamide prior to the use of docetaxel in the mCRPC treatment setting. This model was developed and validated using the phase 3 global PREVAIL study, and data can reasonably be extrapolated to any androgen receptor inhibitor in this setting, pending external validation.&nbsp;</p>\n<p dir=\"ltr\"><strong>What pearls, pitfalls and/or tips do you have for users of the PREVAIL Model for Prostate Cancer? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p>\n<p dir=\"ltr\">This model is only helpful if all of the variables are measured in the clinic, and we tried to include only those variables that are known to be valid predictors of overall survival in this setting and which are easy to collect in routine practice. External validation is planned as is an updated model with 5 year survival in the coming year. All results should be interpreted cautiously as results may be different based on prior therapies, differences in future therapies after enzalutamide, and the accuracy of this model is only about 70%, meaning that overestimates and underestimates of survival are possible.</p>\n<p dir=\"ltr\"><strong>What recommendations do you have for doctors once they have applied the PREVAIL Model for Prostate Cancer? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p>\n<p dir=\"ltr\">This model can provide a communication tool for patients and providers around prognosis and realistic expectations. This does NOT predict whether enzalutamide will work, and enzalutamide provided a survival benefit irrespective of these prognostic factors and is actually one of the variables used. Results can be updated based on PSA declines post-treatment (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/31274110\" target=\"_blank\">Armstrong 2019</a>) as well.</p>\n<p dir=\"ltr\"><strong>How do you use the PREVAIL Model for Prostate Cancer in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p>\n<p dir=\"ltr\">I use this to estimate survival and communicate this to patients, but I also update these prognostic estimates over time based on an individual patient's response to therapy, which can clearly improve prognosis. I give appropriate caveats given that the model is not perfect, individual outcomes do change and medical practice continues to improve with research advances. But this helps provide a communication framework to inform on treatment decisions and expectations.</p>\n<p dir=\"ltr\"><strong>Any other research in the pipeline that you&rsquo;re particularly excited about?</strong></p>\n<p><span id=\"docs-internal-guid-55309f8d-7fff-c6f3-8ada-adfaad09c2c4\"></p>\n<p dir=\"ltr\">Yes, we are working to update this model based on 5 year data and to externally validate this model in separate large datasets. We constantly strive to update these models as medical practice and treatments improve based on research.</p>"
+            },
+            {
+              "approved": false,
+              "name": "Dr. Tomasz M. Beer",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the&nbsp;PREVAIL Model for Prostate Cancer and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the&nbsp;PREVAIL Model for Prostate Cancer and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Cancer",
+          "Prostate Cancer"
+        ],
+        "dosing": false,
+        "equation_logic_text": "var calc_output = [];\nvar spread = parseFloat(spread);\nvar alp = parseFloat(alp);\nvar bone = parseFloat(bone);\nvar pain = parseFloat(pain);\nvar ldh = parseFloat(ldh);\nvar nlr = parseFloat(nlr);\nvar hemo = parseFloat(hemo);\nvar alb = parseFloat(alb);\nvar time = parseFloat(time);\nvar psa = parseFloat(psa);\nvar treat = parseFloat(treat);\n\nif (UOMSYSTEM == false) {\n  alb = alb/10;\n  hemo = hemo/10;\n}\n\nvar score = treat*18.1376 + (Math.log(psa) + 2.3026)*9.52244917 + (275.9 - time)*0.1543483 + (4.9 - alb)*16.0447656796 + (16.8 - hemo)*7.7519235 + (nlr*17.613) + (ldh*19.00635) + (pain*12.2248) + (bone*17.7533) + (alp*10.9685) + (spread*32.991);\n\nscore = Math.round(score);\n\nvar array1 = [0.999546999, 0.998822386, 0.998097773, 0.99737316, 0.996648547, 0.995923933, 0.99519932, 0.994474707, 0.993750094, 0.993025481, 0.992243651, 0.99146182, 0.99067999, 0.989898159, 0.989116329, 0.988334498, 0.987552668, 0.986770838, 0.985989007, 0.985207177, 0.984425346, 0.983643516, 0.982833223, 0.98202293, 0.981212637, 0.980402344, 0.979592052, 0.978781759, 0.977971466, 0.977161173, 0.97635088, 0.975540587, 0.974730295, 0.973920002, 0.973109709, 0.972299416, 0.971489123, 0.97067883, 0.969868538, 0.969058245, 0.968247952, 0.967437659, 0.966627366, 0.965817073, 0.96500678, 0.963769609, 0.962532437, 0.961295265, 0.960058093, 0.958820921, 0.957583749, 0.956346577, 0.955109405, 0.953872233, 0.952635061, 0.951397889, 0.950160717, 0.948923545, 0.947686373, 0.946449201, 0.945212029, 0.943974857, 0.942737685, 0.941500513, 0.940263341, 0.939026169, 0.937788997, 0.936551825, 0.934088878, 0.931625932, 0.929162985, 0.926700039, 0.924237092, 0.921774145, 0.919311199, 0.916848252, 0.914385305, 0.911922359, 0.909459412, 0.906996466, 0.904533519, 0.902070572, 0.899607626, 0.897144679, 0.894681732, 0.892218786, 0.889755839, 0.887292892, 0.884829946, 0.882366999, 0.879904053, 0.875203583, 0.870503114, 0.865802644, 0.861102175, 0.856401706, 0.851701236, 0.847000767, 0.842300297, 0.837599828, 0.832899359, 0.828198889, 0.82349842, 0.818797951, 0.814097481, 0.809397012, 0.804696542, 0.799996073, 0.795295604, 0.790595134, 0.785894665, 0.781194195, 0.776493726, 0.771793257, 0.765058692, 0.758324128, 0.751589564, 0.744854999, 0.738120435, 0.731385871, 0.724651306, 0.717916742, 0.711182178, 0.704447613, 0.697713049, 0.690978485, 0.68424392, 0.677509356, 0.670774792, 0.664040227, 0.657305663, 0.650571099, 0.643836534, 0.63710197, 0.630367406, 0.623632841, 0.616898277, 0.610697429, 0.604496581, 0.598295733, 0.592094885, 0.585894037, 0.579693188, 0.57349234, 0.567291492, 0.561090644, 0.554889796, 0.548688948, 0.5424881, 0.536287252, 0.530086403, 0.523885555, 0.517684707, 0.511483859, 0.505283011, 0.499082163, 0.492881315, 0.486680467, 0.480479619, 0.47427877, 0.468077922, 0.461877074, 0.455676226, 0.449349084, 0.443021943, 0.436694801, 0.430367659, 0.424040517, 0.417713376, 0.411386234, 0.405059092, 0.398731951, 0.392404809, 0.386077667];\n \nvar array2 = [0.923577928, 0.921414047, 0.919250165, 0.917086283, 0.914922402, 0.91275852, 0.910594639, 0.908430757, 0.906266876, 0.904102994, 0.901939113, 0.899775231, 0.89761135, 0.895447468, 0.893283587, 0.891119705, 0.888955824, 0.886791942, 0.884628061, 0.882128581, 0.879629101, 0.877129621, 0.874630142, 0.872130662, 0.869631182, 0.867131702, 0.864632223, 0.862132743, 0.859633263, 0.857133783, 0.854634304, 0.852134824, 0.849635344, 0.847135864, 0.844636385, 0.842136905, 0.839637425, 0.837137945, 0.834638466, 0.832138986, 0.828454179, 0.824769372, 0.821084566, 0.817399759, 0.813714952, 0.810030146, 0.806345339, 0.802660532, 0.798975726, 0.795290919, 0.791606112, 0.787921306, 0.784236499, 0.780551692, 0.776866886, 0.773182079, 0.769497272, 0.765812466, 0.762127659, 0.758442852, 0.754758045, 0.749193473, 0.7436289, 0.738064327, 0.732499755, 0.726935182, 0.721370609, 0.715806037, 0.710241464, 0.704676891, 0.699112319, 0.693547746, 0.687983173, 0.6824186, 0.676854028, 0.671289455, 0.665724882, 0.66016031, 0.654595737, 0.649031164, 0.643466592, 0.636360833, 0.629255075, 0.622149317, 0.615043559, 0.6079378, 0.600832042, 0.593726284, 0.586620526, 0.579514767, 0.572409009, 0.565303251, 0.558197493, 0.551091734, 0.543985976, 0.536880218, 0.52977446, 0.522668701, 0.515562943, 0.508457185, 0.501351427, 0.494245668, 0.488950177, 0.483654686, 0.478359195, 0.473063704, 0.467768213, 0.462472722, 0.457177231, 0.45188174, 0.446586248, 0.441290757, 0.435995266, 0.430699775, 0.425404284, 0.420108793, 0.414813302, 0.409517811, 0.40422232, 0.398926829, 0.393631337, 0.388335846, 0.383040355, 0.379418867, 0.375797379, 0.372175891, 0.368554402, 0.364932914, 0.361311426, 0.357689938, 0.35406845, 0.350446961, 0.346825473, 0.343203985, 0.339582497, 0.335961009, 0.33233952, 0.328718032, 0.325096544, 0.321475056, 0.317853568, 0.314232079, 0.310610591, 0.306989103, 0.303367615, 0.299746126, 0.296546626, 0.293347126, 0.290147626, 0.286948126, 0.283748626, 0.280549126, 0.277349626, 0.274150126, 0.270950626, 0.267751126, 0.264551625, 0.261352125, 0.258152625, 0.254953125, 0.251753625, 0.248554125, 0.245354625, 0.242155125, 0.238955625, 0.235756125, 0.232556625, 0.229357124, 0.226157624, 0.222958124, 0.219758624, 0.216559124, 0.213359624, 0.210160124];\n\nvar array3 = [0.906087584, 0.900725935, 0.895364286, 0.890002638, 0.884640989, 0.87927934, 0.873918, 0.868556043, 0.863194394, 0.857832745, 0.852471097, 0.847109448, 0.841747799, 0.836386151, 0.831024502, 0.825662853, 0.820301204, 0.814939556, 0.809797821, 0.804656087, 0.799514353, 0.794372619, 0.789230884, 0.78408915, 0.778947416, 0.773805682, 0.768663948, 0.763522213, 0.758380479, 0.753238745, 0.748097011, 0.742955277, 0.737813542, 0.732671808, 0.727530074, 0.72238834, 0.717833745, 0.71327915, 0.708724555, 0.704169961, 0.699615366, 0.695060771, 0.690506176, 0.685951581, 0.681396987, 0.676842392, 0.672287797, 0.667733202, 0.663178607, 0.658624013, 0.654069418, 0.649514823, 0.644960228, 0.640405633, 0.634793858, 0.629182082, 0.623570307, 0.617958531, 0.612346755, 0.60673498, 0.601123204, 0.595511429, 0.589899653, 0.584287877, 0.578676102, 0.573064326, 0.567452551, 0.561840775, 0.556228999, 0.550617224, 0.545005448, 0.538471187, 0.531936926, 0.525402665, 0.518868404, 0.512334143, 0.505799882, 0.49926562, 0.492731359, 0.486197098, 0.479662837, 0.473128576, 0.466594315, 0.460060054, 0.453525793, 0.446991532, 0.44045727, 0.433923009, 0.427388748, 0.422091863, 0.416794978, 0.411498093, 0.406201208, 0.400904323, 0.395607437, 0.390310552, 0.385013667, 0.379716782, 0.374419897, 0.369123012, 0.363826127, 0.358529241, 0.353232356, 0.347935471, 0.342638586, 0.337341701, 0.334305206, 0.331268712, 0.328232218, 0.325195723, 0.322159229, 0.319122734, 0.31608624, 0.313049745, 0.310013251, 0.306976757, 0.303940262, 0.300903768, 0.297867273, 0.294830779, 0.291794285, 0.28875779, 0.285721296, 0.282684801, 0.279648307, 0.276611813, 0.273575318, 0.270538824, 0.267502329, 0.264465835, 0.262681007, 0.260896179, 0.25911135, 0.257326522, 0.255541694, 0.253756866, 0.251972038, 0.250187209, 0.248402381, 0.246617553, 0.244832725, 0.243047897, 0.241263069, 0.23947824, 0.237693412, 0.235908584, 0.234123756, 0.232338928, 0.230554099, 0.228769271, 0.226984443, 0.225199615, 0.223414787, 0.221629959, 0.21984513, 0.218060302, 0.216275474, 0.214490646, 0.212705818, 0.210920989, 0.209136161, 0.207351333, 0.205566505, 0.203781677, 0.201996849, 0.20021202, 0.198427192, 0.196642364, 0.194857536, 0.193072708, 0.191287879, 0.189503051, 0.187718223, 0.185933395];\n\nvar array4 = [0.87043, 0.86014, 0.84986, 0.83958, 0.82929, 0.81901, 0.80873, 0.79845, 0.78816, 0.77788, 0.76760, 0.75731, 0.74773, 0.73814, 0.72856, 0.71897, 0.70938, 0.69980, 0.69021, 0.68063, 0.67104, 0.66145, 0.65187, 0.64257, 0.63328, 0.62398, 0.61469, 0.60540, 0.59610, 0.58681, 0.57751, 0.56822, 0.55893, 0.54963, 0.54034, 0.53104, 0.52175, 0.51246, 0.50316, 0.49517, 0.48719, 0.47920, 0.47121, 0.46323, 0.45524, 0.44725, 0.43927, 0.43128, 0.42552, 0.41977, 0.41401, 0.40825, 0.40249, 0.39673, 0.39098, 0.38522, 0.38059, 0.37597, 0.37135, 0.36672, 0.36210, 0.35748, 0.35285, 0.34823, 0.34360, 0.33898, 0.33436, 0.32973, 0.32511, 0.32049, 0.31586, 0.31124, 0.30607, 0.30091, 0.29575, 0.29058, 0.28542, 0.28025, 0.27509, 0.26993, 0.26476, 0.25996, 0.25516, 0.25037, 0.24557, 0.24077, 0.23597, 0.23117, 0.22637, 0.22234, 0.21831, 0.21427, 0.21024, 0.20621, 0.20218, 0.19814, 0.19411, 0.19008, 0.18605, 0.18201, 0.17798, 0.17395, 0.16992, 0.16588, 0.16185, 0.15782, 0.15498, 0.15215, 0.14931, 0.14647, 0.14363, 0.14080, 0.13796, 0.13512, 0.13229, 0.13048, 0.12867, 0.12686, 0.12504, 0.12323, 0.12142, 0.11961, 0.11780, 0.11599, 0.11418, 0.11237, 0.11084, 0.10930, 0.10777, 0.10623, 0.10470, 0.10317, 0.10163, 0.10010, 0.09856, 0.09703, 0.09550, 0.09396, 0.09243, 0.09089, 0.08936, 0.08783, 0.08629, 0.08476, 0.08322, 0.08169, 0.08016, 0.07862, 0.07709, 0.07555, 0.07402, 0.07249, 0.07095, 0.06942, 0.06788, 0.06635, 0.06482, 0.06328, 0.06175, 0.06021, 0.05868, 0.05715, 0.05561, 0.05408, 0.05254, 0.05101, 0.04948, 0.04794, 0.04641, 0.04487, 0.04334];\n\nvar risk1, risk2, risk3, risk4;\n\nif (score >= 97 && score <= 270) {\n\trisk1 = array1[score - 97];\n\trisk1 = risk1*100;\n\trisk1 = Math.round(risk1 * 10) / 10;\t\n\trisk2 = array2[score - 97];\n\trisk2 = risk2*100;\n\trisk2 = Math.round(risk2 * 10) / 10;\t\n\trisk3 = array3[score - 97];\n\trisk3 = risk3*100;\n\trisk3 = Math.round(risk3 * 10) / 10;\n\tif (score >= 97 && score < 100)\t{\n\t\trisk4 = 0.87043*100;\n  \t\trisk4 = '>'+Math.round(risk4 *10) / 10;\n\t} else if (score >= 100) {\n\t\trisk4 = array4[score - 100];\n  \t\trisk4 = risk4*100;\n  \t\trisk4 = Math.round(risk4 * 10) / 10;\n\t}\n} else if (score < 97) {\n\trisk1 = 0.999546998657388*100;\t\n\trisk1 = '>99.9';\t\n\trisk2 = 0.923577928032738*100;\n\trisk2 = '>'+Math.round(risk2 * 10) / 10;\n\trisk3 = 0.906087584206377*100;\n\trisk3 = '>'+Math.round(risk3 * 10) / 10;\n\trisk4 = 0.87043*100;\n  \trisk4 = '>'+Math.round(risk4 *10) / 10;\t\n} else if (score > 270) {\n\trisk1 = 0.386077667086944*100;\t\n\trisk1 = '<'+Math.round(risk1 * 10) / 10;\t\n\trisk2 = 0.210160123944092*100;\n\trisk2 = '<'+Math.round(risk2 * 10) / 10;\n\trisk3 = 0.185933394890392*100;\n\trisk3 = '<'+Math.round(risk3 * 10) / 10;\n\trisk4 = 0.04334*100;\n  \trisk4 = '<'+Math.round(risk4 * 10) / 10;\t\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: risk1 + '% estimated 1-year survival'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'Total score'   \n    });\ncalc_output.push({\n    name: 'risk1',\n    value: risk1, \n    value_text: '%',\n    message: 'Estimated 1-year survival<br/><br/>' + risk2 + '% estimated 2-year survival<br/>' + risk3 + '% estimated 3-year survival<br/>' + risk4 + '% estimated 5-year survival'\n});",
+        "favorite_id": 10210,
+        "full_title_en": "PREVAIL Model for Prostate Cancer Survival",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Treatment with enzalutamide planned",
+            "name": "treat",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 0
+              },
+              {
+                "label": "No",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Current <abbr title = \"Prostate-specific antigen\">PSA</abbr> value",
+            "name": "psa",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "psa"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Time since diagnosis",
+            "name": "time",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "months"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Albumin",
+            "name": "alb",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "alb"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Hemoglobin",
+            "name": "hemo",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "hgb"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Neutrophil to lymphocyte ratio <2.5",
+            "name": "nlr",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 0
+              },
+              {
+                "label": "No",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Neutrophil number divided by lymphocyte number",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<abbr title = \"Lactate dehydrogenase\">LDH</abbr> below upper limit of normal",
+            "name": "ldh",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 0
+              },
+              {
+                "label": "No",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Pain 0-1",
+            "name": "pain",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 0
+              },
+              {
+                "label": "No",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "On a scale of 0-10, 10 being the worst pain imaginable, highest pain rating in last 24 hrs",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<10 bone metastases on bone scan",
+            "name": "bone",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 0
+              },
+              {
+                "label": "No",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Alkaline phosphatase less than upper limit of normal",
+            "name": "alp",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 0
+              },
+              {
+                "label": "No",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Pattern of spread",
+            "name": "spread",
+            "optional": false,
+            "options": [
+              {
+                "label": "No visceral liver metastases",
+                "value": 0
+              },
+              {
+                "label": "Any visceral liver metastases",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "edited logic",
+            "time": "2020-06-26T13:57:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "fixed ref order",
+            "time": "2020-06-22T11:40:00.000Z",
+            "user": "allyssa"
+          },
+          {
+            "message": "switched reference order",
+            "time": "2020-06-17T13:40:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "reordered refs, removed extra space in results (changes previously overwritten)",
+            "time": "2020-06-17T11:56:00.000Z",
+            "user": "allyssa"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-06-17T11:48:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "removed extra space in results",
+            "time": "2020-06-17T11:38:00.000Z",
+            "user": "allyssa"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-06-17T11:32:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-06-17T11:31:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "reordered references, removed extra space in results",
+            "time": "2020-06-17T11:14:00.000Z",
+            "user": "allyssa"
+          },
+          {
+            "message": "changelog edits",
+            "time": "2020-06-15T17:50:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-06-15T17:27:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-06-08T14:49:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added 5 year survival to logic",
+            "time": "2020-06-08T14:44:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-07-25T10:35:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-07-25T10:28:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "creator edits",
+            "time": "2019-07-24T11:38:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "creator edits",
+            "time": "2019-07-18T10:55:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "creator edits",
+            "time": "2019-07-18T10:40:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "ediited input",
+            "time": "2019-07-11T11:22:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-07-02T12:53:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-07-02T12:46:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-06-25T09:59:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "db test",
+            "time": "2019-06-18T13:36:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-06-13T11:32:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputa",
+            "time": "2019-06-13T11:31:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-06-13T11:16:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2019-06-13T10:57:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "test",
+            "time": "2019-06-12T11:59:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "test",
+            "time": "2019-06-12T11:18:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "added disease",
+            "time": "2019-06-12T11:08:00.000Z",
+            "user": "kimberly"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-06-11T13:37:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added abbr",
+            "time": "2019-06-11T13:35:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "alpha tested",
+            "time": "2019-06-11T12:30:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugged",
+            "time": "2019-06-11T12:27:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formuka",
+            "time": "2019-06-11T12:15:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-06-11T12:07:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "finished logic",
+            "time": "2019-06-11T12:03:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logi",
+            "time": "2019-06-11T11:49:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-06-11T11:37:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-06-11T00:46:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2019-06-11T00:45:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "",
+        "medium_description_en": "<p>Predicts overall survival in chemotherapy-naive patients with metastatic castration-resistant prostate cancer.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "PREVAIL model",
+          "duke nomogram",
+          "prostate cancer nomogram",
+          "prostate cancer survival",
+          "armstrong",
+          "beer",
+          "andrew armstrong",
+          "tomasz beer"
+        ],
+        "search_id": "c-10210",
+        "seo": {
+          "keywords_en": "PREVAIL model, duke nomogram, prostate cancer nomogram, prostate cancer survival",
+          "meta_description_en": "The PREVAIL Model for Prostate Cancer Survival predicts overall survival in chemotherapy-naive patients with metastatic castration-resistant prostate cancer."
+        },
+        "short_description_en": "Overall survival in metastatic prostate cancer.",
+        "short_title_en": "PREVAIL Model for Prostate Cancer",
+        "slug": "prevail-model-prostate-cancer-survival",
+        "specialty_en": [
+          "Hematology and Oncology",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Urology"
+        ],
+        "system_en": [
+          "Oncologic",
+          "Urinary"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Andrew J. Armstrong, MD, is an oncologist at the Duke Cancer Institute (DCI) in Durham, NC. He is a professor of medicine and surgery, and an associate professor in pharmacology and cancer biology at the Duke University School of Medicine, as well as the director of research in the DCI's Center for Prostate and Urologic Cancer.  Dr. Armstrong’s primary research is focused on drug development, biomarkers, and assessing the efficacy of new therapies, as well as improving survival prediction and prognostication in metastatic prostate cancer.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Andrew J. Armstrong",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-andrew-j-armstrong.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Armstrong+AJ%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "about_en": "<p>Tomasz M. Beer, MD, FACP, is a medical oncologist and professor of medicine in the division of hematology/medical oncology at Oregon Health and Science University (OHSU). His primary research interests are clinical trials, preclinical investigation, and risk factors in prostate cancer. Dr. Beer is co-lead of the Beer and Qian Lab of the OHSU Knight Cancer Institute.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Tomasz M. Beer",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-tomasz-beer.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Beer%20TM%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10210/prevail-model-prostate-cancer-survival",
+        "description": "The PREVAIL Model for Prostate Cancer Survival predicts overall survival in chemotherapy-naive patients with metastatic castration-resistant prostate cancer.",
+        "keywords": "PREVAIL model, duke nomogram, prostate cancer nomogram, prostate cancer survival",
+        "title": "PREVAIL Model for Prostate Cancer Survival"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "10",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 7,
+          "error_max_si": 70,
+          "error_max_us": 7,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Albumin",
+          "normal_max_si": 55,
+          "normal_max_us": 5.5,
+          "normal_min_si": 35,
+          "normal_min_us": 3.5,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "alb",
+          "units_si": "g/L",
+          "units_us": "g/dL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 6,
+          "warn_max_si": 60,
+          "warn_max_us": 6,
+          "warn_min": 1,
+          "warn_min_si": 10,
+          "warn_min_us": 1
+        },
+        {
+          "conversion": "10",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 25,
+          "error_max_si": 250,
+          "error_max_us": 25,
+          "error_min": 0.5,
+          "error_min_si": 5,
+          "error_min_us": 0.5,
+          "name": "Hemoglobin",
+          "normal_max_si": 170,
+          "normal_max_us": 17,
+          "normal_min_si": 120,
+          "normal_min_us": 12,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "hgb",
+          "units_si": "g/L",
+          "units_us": "g/dL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 20,
+          "warn_max_si": 200,
+          "warn_max_us": 20,
+          "warn_min": 4,
+          "warn_min_si": 40,
+          "warn_min_us": 4
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 1000,
+          "error_max_si": 1000,
+          "error_max_us": 1000,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "months",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "months",
+          "units_si": "months",
+          "units_us": "months",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 1000,
+          "warn_max_si": 1000,
+          "warn_max_us": 1000,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 10000,
+          "error_max_si": 10000,
+          "error_max_us": 10000,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "psa",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "psa",
+          "units_si": "ng/mL",
+          "units_us": "ng/mL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 10000,
+          "warn_max_si": 10000,
+          "warn_max_us": 10000,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 2049,
+          "short_title_en": "D'Amico Classification",
+          "slug": "damico-risk-classification-prostate-cancer"
+        },
+        {
+          "calcId": 2153,
+          "short_title_en": "MSKCC/Motzer Criteria for RCC",
+          "slug": "memorial-sloan-kettering-cancer-center-mskcc-motzer-score-metastatic-renal-cell-carcinoma-rcc"
+        },
+        {
+          "calcId": 2142,
+          "short_title_en": "Manchester Score for Lung Cancer",
+          "slug": "manchester-score-prognosis-small-cell-lung-cancer"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10210",
+      "prevail-model-prostate-cancer-survival"
+    ]
+  },
+  "scriptLoader": []
+}

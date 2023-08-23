@@ -1,0 +1,750 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Bleeding",
+          "Polyuria"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\"><span>The AUA-SI/IPSS is calculated by the addition of the selected points:</span><b></b></p>\n<div dir=\"ltr\" align=\"left\">\n<table><colgroup><col width=\"149\"><col width=\"160\"><col width=\"138\"></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"6\">\n<p dir=\"ltr\"><span>Incomplete emptying: How often have you had the sensation of not emptying your bladder?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Not at all</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Less than 1 in 5 times</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Less than half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>About half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>3</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>More than half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>4</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Almost always</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>5</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"6\">\n<p dir=\"ltr\"><span>Frequency: How often have you had to urinate less than every two hours?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Not at all</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Less than 1 in 5 times</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Less than half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>About half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>3</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>More than half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>4</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Almost always</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>5</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"6\">\n<p dir=\"ltr\"><span>Intermittency: How often have you found</span></p>\n<p dir=\"ltr\"><span>you stopped and started again several times when you urinated?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Not at all</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Less than 1 in 5 times</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Less than half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>About half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>3</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>More than half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>4</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Almost always</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>5</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"6\">\n<p dir=\"ltr\"><span>Urgency: How often have you found it difficult to postpone urination?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Not at all</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Less than 1 in 5 times</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Less than half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>About half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>3</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>More than half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>4</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Almost always</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>5</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"6\">\n<p dir=\"ltr\"><span>Weak stream: How often have you had a weak urinary stream?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Not at all</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Less than 1 in 5 times</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Less than half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>About half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>3</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>More than half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>4</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Almost always</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>5</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"6\">\n<p dir=\"ltr\"><span>Straining: How often have you had to strain to start urination?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Not at all</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Less than 1 in 5 times</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Less than half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>About half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>3</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>More than half the time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>4</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Almost always</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>5</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"6\">\n<p dir=\"ltr\"><span>Nocturia: How many times do you typically get up at night to urinate?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>None</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>1 time</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>2 times</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>3 times</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>3</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>4 times</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>4</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>&ge;5 times</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>5</span></p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Quality of Life Due to Urinary Symptoms (optional)</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"7\">\n<p dir=\"ltr\"><span>If you were to spend the rest of your life with your urinary condition just the way it is now, how would you feel about that?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Delighted</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Pleased</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Mostly satisfied</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Mixed</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>3</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Mostly dissatisfied</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>4</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Unhappy</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>5</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Terrible</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>6</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p></p>",
+            "more_info_en": "<p dir=\"ltr\"><span>Interpretation:</span><b></b></p>\n<div dir=\"ltr\" align=\"left\">\n<table><colgroup><col><col></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>AUA-SI/IPSS</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>BPH Symptom Severity</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>&le;7</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Mild</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>8-19</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Moderate</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>&ge;20</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Severe</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/34384237/",
+                  "text": "Lerner LB, McVary KT, Barry MJ, et al. Management of lower urinary tract symptoms attributed to benign prostatic hyperplasia: aua guideline part i-initial work-up and medical management. J Urol. 2021;206(4):806-817."
+                }
+              ],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/1279218/",
+                  "text": "Barry MJ, Fowler FJ, O’Leary MP, et al. The american urological association symptom index for benign prostatic hyperplasia. The measurement committee of the american urological association. J Urol. 1992;148(5):1549-1557; discussion 1564."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Michael J. Barry",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p><span>Do you use the American Urological Association Symptom Index (AUA-SI)/International Prostate Symptom Score (IPSS) and want to contribute your expertise?&nbsp;</span><a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a><span>&nbsp;our contributor team!</span></p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p><span>Do you use the American Urological Association Symptom Index (AUA-SI)/International Prostate Symptom Score (IPSS) and want to contribute your expertise?&nbsp;</span><a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a><span>&nbsp;our contributor team!</span></p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Hyperplasia"
+        ],
+        "dosing": false,
+        "equation_logic": "f36ff722de3817360fca227b70c39bb4",
+        "equation_logic_text": "var calc_output = [];\n\nvar incomplete = parseFloat(incomplete);\nvar freq = parseFloat(freq);\nvar intermit = parseFloat(intermit);\nvar urgency = parseFloat(urgency);\nvar weak = parseFloat(weak);\nvar strain = parseFloat(strain);\nvar noct = parseFloat(noct);\n\nvar quality_score = parseFloat(quality);\n\nvar score = incomplete + freq + intermit + urgency + weak + strain + noct;\n\nvar severity;\n\nif (score <= 7) {\n    severity = 'Mild';\n} else if (score <= 19) {\n    severity = 'Moderate'\n} else {\n    severity = 'Severe'\n}\n\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: 'AUA-SI/IPSS Score'\n});\ncalc_output.push({\n    name: 'AUA-SI/IPSS Score',\n    value: score,\n    value_text: 'points',\n    message: 'AUA-SI/IPSS Score'\n});\ncalc_output.push({\n    name: 'Severity',\n    value: severity,\n    value_text: '',\n    message: 'BPH symptom severity'\n});\n\nif (quality_score > 0) {\n    var quality;\n    if (quality_score == 1) {\n        quality = 'Delighted';\n    } else if (quality_score == 2) {\n        quality = 'Pleased';\n    } else if (quality_score == 3) {\n        quality = 'Mostly satisfied';\n    } else if (quality_score == 4) {\n        quality = 'Mixed';\n    } else if (quality_score == 5) {\n        quality = 'Mostly dissatisfied';\n    } else if (quality_score == 6) {\n        quality = 'Unhappy';\n    } else {\n        quality = 'Terrible';\n    }\n\n    calc_output.push({\n        name: 'Quality',\n        value: quality,\n        value_text: '',\n        message: 'Quality of life'\n    });\n}",
+        "favorite_id": 10462,
+        "full_title_en": "American Urological Association Symptom Index (AUA-SI)/International Prostate Symptom Score (IPSS)",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Incomplete emptying: How often have you had the sensation of not emptying your bladder?</p>",
+            "name": "incomplete",
+            "optional": false,
+            "options": [
+              {
+                "label": "Not at all",
+                "value": 0
+              },
+              {
+                "label": "Less than 1 in 5 times",
+                "value": 1
+              },
+              {
+                "label": "Less than half the time",
+                "value": 2
+              },
+              {
+                "label": "About half the time",
+                "value": 3
+              },
+              {
+                "label": "More than half the time",
+                "value": 4
+              },
+              {
+                "label": "Almost always",
+                "value": 5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Frequency: How often have you had to urinate less than every two hours?</p>",
+            "name": "freq",
+            "optional": false,
+            "options": [
+              {
+                "label": "Not at all",
+                "value": 0
+              },
+              {
+                "label": "Less than 1 in 5 times",
+                "value": 1
+              },
+              {
+                "label": "Less than half the time",
+                "value": 2
+              },
+              {
+                "label": "About half the time",
+                "value": 3
+              },
+              {
+                "label": "More than half the time",
+                "value": 4
+              },
+              {
+                "label": "Almost always",
+                "value": 5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Intermittency: How often have you found&nbsp;you stopped and started again several times when you urinated?</p>",
+            "name": "intermit",
+            "optional": false,
+            "options": [
+              {
+                "label": "Not at all",
+                "value": 0
+              },
+              {
+                "label": "Less than 1 in 5 times",
+                "value": 1
+              },
+              {
+                "label": "Less than half the time",
+                "value": 2
+              },
+              {
+                "label": "About half the time",
+                "value": 3
+              },
+              {
+                "label": "More than half the time",
+                "value": 4
+              },
+              {
+                "label": "Almost always",
+                "value": 5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Urgency: How often have you found it difficult to postpone urination?</p>",
+            "name": "urgency",
+            "optional": false,
+            "options": [
+              {
+                "label": "Not at all",
+                "value": 0
+              },
+              {
+                "label": "Less than 1 in 5 times",
+                "value": 1
+              },
+              {
+                "label": "Less than half the time",
+                "value": 2
+              },
+              {
+                "label": "About half the time",
+                "value": 3
+              },
+              {
+                "label": "More than half the time",
+                "value": 4
+              },
+              {
+                "label": "Almost always",
+                "value": 5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Weak stream: How often have you had a weak urinary stream?</p>",
+            "name": "weak",
+            "optional": false,
+            "options": [
+              {
+                "label": "Not at all",
+                "value": 0
+              },
+              {
+                "label": "Less than 1 in 5 times",
+                "value": 1
+              },
+              {
+                "label": "Less than half the time",
+                "value": 2
+              },
+              {
+                "label": "About half the time",
+                "value": 3
+              },
+              {
+                "label": "More than half the time",
+                "value": 4
+              },
+              {
+                "label": "Almost always",
+                "value": 5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Straining: How often have you had to strain to start urination?</p>",
+            "name": "strain",
+            "optional": false,
+            "options": [
+              {
+                "label": "Not at all",
+                "value": 0
+              },
+              {
+                "label": "Less than 1 in 5 times",
+                "value": 1
+              },
+              {
+                "label": "Less than half the time",
+                "value": 2
+              },
+              {
+                "label": "About half the time",
+                "value": 3
+              },
+              {
+                "label": "More than half the time",
+                "value": 4
+              },
+              {
+                "label": "Almost always",
+                "value": 5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Nocturia: How many times do you typically get up at night to urinate?</p>",
+            "name": "noct",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "1 time",
+                "value": 1
+              },
+              {
+                "label": "2 times",
+                "value": 2
+              },
+              {
+                "label": "3 times",
+                "value": 3
+              },
+              {
+                "label": "4 times",
+                "value": 4
+              },
+              {
+                "label": "≥5 times",
+                "value": 5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Quality of Life Due to Urinary Symptoms (optional)",
+            "subheading_instructions": null,
+            "type": "subheading"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "<p>If you were to spend the rest of your life with your urinary condition just the way it is now, how would you feel about that?</p>",
+            "name": "quality",
+            "optional": true,
+            "options": [
+              {
+                "label": "Delighted",
+                "value": 1
+              },
+              {
+                "label": "Pleased",
+                "value": 2
+              },
+              {
+                "label": "Mostly satisfied",
+                "value": 3
+              },
+              {
+                "label": "Mixed",
+                "value": 4
+              },
+              {
+                "label": "Mostly dissatisfied",
+                "value": 5
+              },
+              {
+                "label": "Unhappy",
+                "value": 6
+              },
+              {
+                "label": "Terrible",
+                "value": 7
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "c50f620c5c03c4caf7502b11e5487545",
+        "medium_description_en": "<p>Measures severity of benign prostatic hyperplasia (BPH) symptoms.</p>",
+        "publishedAt": "2023-02-10T18:56:53.536Z",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "American Urological Association Symptom Index (AUA-SI)",
+          "International Prostate Symptom Score (IPSS)",
+          "aua si",
+          "aua-si",
+          "auasi",
+          "ipss",
+          "i-pss",
+          "i pss",
+          "benign prostatic hyperplasia",
+          "bph",
+          "hyperplasia"
+        ],
+        "search_id": "c-10462",
+        "seo": {
+          "keywords_en": "American Urological Association Symptom Index (AUA-SI), International Prostate Symptom Score (IPSS), aua si, aua-si, auasi, ipss, i-pss, i pss, benign prostatic hyperplasia, bph, hyperplasia",
+          "meta_description_en": "The American Urological Association Symptom Index (AUA-SI)/International Prostate Symptom Score (IPSS) measures the severity of benign prostatic hyperplasia (BPH)."
+        },
+        "short_description_en": "<p>BPH severity.</p>",
+        "short_title_en": "AUA-SI/IPSS",
+        "slug": "american-urological-association-symptom-index-aua-si",
+        "specialty_en": [
+          "Family Practice",
+          "Hematology and Oncology",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Urology"
+        ],
+        "system_en": [
+          "Genitourinary",
+          "Oncologic",
+          "Urinary"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "44ff4313-d102-4ce4-a04a-e4e8eb11d22a"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p class=\"p1\">Michael J. Barry, MD, is director of the Informed Medical Decisions Program at Massachusetts General Hospital and a professor of medicine at Harvard Medical School. He was formerly the president of the Society of Medical Decision Making and the Society of General Internal Medicine. Dr. Barry&rsquo;s primary research is focused on evaluation and treatment of prostate diseases, decision analysis, and clinical quality improvement.</p>",
+          "createdAt": "2023-02-10T16:59:08.556Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Michael J. Barry",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-michael-j-barry.jpeg",
+          "publishedAt": "2023-02-10T16:59:09.404Z",
+          "pubmedLink": "https://pubmed.ncbi.nlm.nih.gov/?term=Michael+J.+Barry%5Bauthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2023-02-10T18:55:58.603Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10462/american-urological-association-symptom-index-aua-si",
+        "description": "The American Urological Association Symptom Index (AUA-SI)/International Prostate Symptom Score (IPSS) measures the severity of benign prostatic hyperplasia (BPH).",
+        "keywords": "American Urological Association Symptom Index (AUA-SI), International Prostate Symptom Score (IPSS), aua si, aua-si, auasi, ipss, i-pss, i pss, benign prostatic hyperplasia, bph, hyperplasia",
+        "title": "American Urological Association Symptom Index (AUA-SI)/International Prostate Symptom Score (IPSS)"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 2048,
+          "short_title_en": "Gleason Score",
+          "slug": "gleason-score-prostate-cancer"
+        },
+        {
+          "calcId": 10429,
+          "short_title_en": "ESAS-r",
+          "slug": "edmonton-symptom-assessment-system-revised-esas-r"
+        },
+        {
+          "calcId": 10465,
+          "short_title_en": "IMPROVE Bleeding Risk Score",
+          "slug": "improve-bleeding-risk-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10462",
+      "american-urological-association-symptom-index-aua-si"
+    ]
+  },
+  "scriptLoader": []
+}

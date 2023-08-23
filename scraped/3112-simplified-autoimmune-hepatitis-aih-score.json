@@ -1,0 +1,617 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Abdominal Pain",
+          "Jaundice"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The Simplified AIH score has been tested in a number of studies, including by comparison to its progenitor, the conventional score. Validations are typically in referral populations using database and chart review. The score is intended to improve specificity and reduce false positives over the conventional score, particularly in the ‘probable AIH’ category.</p>",
+            "formula_en": "<p>Addition of the selected points:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>Variable</strong></p>\n</td>\n<td>\n<p><strong>0 points</strong></p>\n</td>\n<td>\n<p><strong>1 point</strong></p>\n</td>\n<td>\n<p><strong>2 points</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>ANA or SMA</p>\n</td>\n<td>\n<p>&lt;1:40</p>\n</td>\n<td>\n<p>&ge;1:40</p>\n</td>\n<td>\n<p><strong><em>&ge;1:80*</em></strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>LKM1</p>\n</td>\n<td>\n<p>&lt;1:40</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p><strong><em>&ge;1:40*</em></strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>SLA</p>\n</td>\n<td>\n<p>Negative</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p><strong><em>Positive*</em></strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>IgG</p>\n</td>\n<td>\n<p>Normal</p>\n</td>\n<td>\n<p>&gt;Upper limit of normal</p>\n</td>\n<td>\n<p>&gt;1.1&times; upper limit of normal</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Liver histology**</p>\n</td>\n<td>\n<p><span mce-data-marked=\"1\">--</p>\n</td>\n<td>\n<p>Compatible with AIH</p>\n</td>\n<td>\n<p>Typical of AIH</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Viral hepatitis</p>\n</td>\n<td>\n<p>Present</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>Absent</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p><br />*Maximum 2 points total (e.g. if ANA or SMA &ge;1:80 and SLA is positive, only 2 points are assigned, not 4).</p>\n<p>**If histology is normal, AIH is not the diagnosis.</p>\n<p>AIH, autoimmune hepatitis; ANA, antinuclear antibody; LKM1, Liver Kidney&nbsp;Microsome type 1; SLA, soluble liver antigen; SMA, smooth muscle antibody; IgG, immunoglobulin G.</p>",
+            "more_info_en": "<p>Interpretation:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>Simplified AIH Score</strong></p>\n</td>\n<td>\n<p><strong>Diagnosis</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>&le;5</p>\n</td>\n<td>\n<p>Possible AIH (though further testing should be done)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>Probable AIH</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>&ge;7</p>\n</td>\n<td>\n<p>Likely&nbsp;AIH</p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/18537184 ",
+                  "text": "Hennes EM, Zeniya M, Czaja AJ, et al. Simplified criteria for the diagnosis of autoimmune hepatitis. Hepatology. 2008;48(1):169-76."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/19575457 ",
+                  "text": "Yeoman AD, Westbrook RH, Al-chalabi T, et al. Diagnostic value and utility of the simplified International Autoimmune Hepatitis Group (IAIHG) criteria in acute and chronic liver disease. Hepatology. 2009;50(2):538-45."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/19402135 ",
+                  "text": "Muratori P, Granito A, Pappas G, Muratori L. Validation of simplified diagnostic criteria for autoimmune hepatitis in Italian patients. Hepatology. 2009;49(5):1782-3."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3321372/ ",
+                  "text": "Mileti E, Rosenthal P, Peters MG. Validation and modification of simplified diagnostic criteria for autoimmune hepatitis in children. Clin Gastroenterol Hepatol. 2012;10(4):417-21.e1-2."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": true,
+              "id": 55,
+              "name": "Dr. Ansgar W. Lohse",
+              "priority": 0,
+              "qa_en": "<p dir=\"ltr\"><strong>Why did you develop the Simplified AIH Score? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p>\n<p dir=\"ltr\">The diagnosis of AIH is difficult, and the disease is often overlooked. The International Autoimmune Hepatitis Group had developed a score useful for comparison of patient groups in scientific papers, but it was too cumbersome for everyday use. In addition, it was only reliable post-hoc, i.e., when the response to therapy could be evaluated. What was needed was a score to help decide if a trial of immunosuppression should be undertaken.</p>\n<p dir=\"ltr\"><strong>What recommendations do you have for doctors once they have applied the Simplified AIH Score? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p>\n<p dir=\"ltr\">1. The score only works,if you have a liver biopsy result, and good liver histopathologists are not always available. The minimum requirement is the histological demonstration of Inflammation, i.e., hepatitis.</p>\n<p dir=\"ltr\">2. In very acute AIH, the histological picture may look exactly like drug-induced liver injury (immunoallergic hepatitis) with centrilobular necroses, and not yet periportal hepatitis. At the same time, in very acute AIH, IgG levels and autoantibodies may not yet be present. In these patients, a trial of prednisoLONE monotherapy is justified (see the&nbsp;<a href=\"http://www.easl.eu/medias/cpg/2015-09/CPG_AIH_final.pdf\" target=\"_blank\">EASL Clinical Practice Guidelines on AIH</a>).</p>\n<p dir=\"ltr\"><strong>What pearls, pitfalls and/or tips do you have for users of the Simplified AIH Score? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p>\n<p>The simplified AIH Score was developed using immunofluorescence testing for ANA and SMA autoantibodies, which is the international standard. However, in the U.S. and some other countries, ELISA testing for these autoantibodies is widely used. The score is not validated for these assays, and should therefore be used with caution.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>The Simplified Autoimmune Hepatitis (AIH) Score was developed to simplify AIH diagnosis and reduce false positive diagnoses.</p>",
+            "use_case_en": "<p>Patients with established hepatitis and available liver biopsy results, but unclear diagnosis.</p>",
+            "why_use_en": "<p>AIH is multifactorial, complex, and typically has many competing diagnoses. The score offers a data driven, consensus-based path to help guide treatment and is likely to be better than clinical judgment alone.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>AIH is a complex diagnosis partly because there is no anatomic criterion (i.e. &lsquo;gold&rsquo;) standard. AIH scoring neatly solves this problem by defining the diagnosis. &lsquo;Likely&rsquo; scores appear highly reliable.</p>",
+            "critical_actions_en": "<p>Overlap with multiple hepatic conditions is always a concern to consider despite score findings, and &lsquo;likely&rsquo; scores are more predictive than &lsquo;probable&rsquo; ones.</p>",
+            "management_en": "<p>We are unaware of validated management algorithms using the AIH scores.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Autoimmune Disorders",
+          "Hepatitis"
+        ],
+        "dosing": false,
+        "equation_logic_text": "var calc_output = [];\nvar msg = '';\nvar antibody = parseInt(ana) + parseInt(lkm) + parseInt(sla);\nvar antibody = ana + lkm + sla;\n\nif (antibody > 2) {antibody = 2;}\n\nvar u = parseInt(antibody) + parseInt(igg) + parseInt(liver) + parseInt(hep);\n\nif (u <= 5) {\n    msg = 'Possible AIH. Investigate further.';\n} else if (u >= 6 && u < 7) {\n    msg = 'Probable AIH';\n} else if (u >= 7) {\n    msg = 'Likely AIH';\n}\n\ncalc_output.push({ \n\tname: 'mini',\n\tvalue: u, \n\tvalue_text: 'points', \n\tmessage: msg \n});\ncalc_output.push({ \n\tname: 'Simple AIH', \n\tvalue: u, \n\tvalue_text: 'points', \n\tmessage: msg \n});",
+        "favorite_id": 3112,
+        "full_title_en": "Simplified Autoimmune Hepatitis (AIH) Score",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<abbr title='Antinuclear antibody'>ANA</abbr> or <abbr title='Smooth muscle antibody'>SMA</abbr>",
+            "name": "ana",
+            "optional": false,
+            "options": [
+              {
+                "label": "<1:40",
+                "value": 0
+              },
+              {
+                "label": "≥1:40",
+                "value": 1
+              },
+              {
+                "label": "≥1:80",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<abbr title='Liver kidney microsomal type 1'>LKM1</abbr> antibody",
+            "name": "lkm",
+            "optional": false,
+            "options": [
+              {
+                "label": "<1:40",
+                "value": 0
+              },
+              {
+                "label": "≥1:40",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<abbr title='Soluble liver antigen'>SLA</abbr>",
+            "name": "sla",
+            "optional": false,
+            "options": [
+              {
+                "label": "Negative",
+                "value": 0
+              },
+              {
+                "label": "Positive",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<abbr title='Immunoglobulin G'>IgG</abbr>",
+            "name": "igg",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal",
+                "value": 0
+              },
+              {
+                "label": ">Upper limit of normal",
+                "value": 1
+              },
+              {
+                "label": ">1.1× upper limit of normal",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Liver histology",
+            "name": "liver",
+            "optional": false,
+            "options": [
+              {
+                "label": "Compatible with AIH",
+                "value": 1
+              },
+              {
+                "label": "Typical of AIH",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "If histology is normal, AIH is not the diagnosis",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Viral hepatitis",
+            "name": "hep",
+            "optional": false,
+            "options": [
+              {
+                "label": "Present",
+                "value": 0
+              },
+              {
+                "label": "Absent",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Use in patients with&nbsp;histological evidence of hepatitis. Do not use in&nbsp;patients with normal histology.</p>",
+        "logs": [
+          {
+            "message": "user feedback",
+            "time": "2021-08-19T08:40:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "creator approved",
+            "time": "2019-11-06T17:05:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "correct creator interview form",
+            "time": "2018-08-07T15:52:00.000Z",
+            "user": "yi"
+          },
+          {
+            "message": "edited space in interview",
+            "time": "2018-08-03T09:18:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "missing period.",
+            "time": "2018-08-03T09:11:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "creator interview added ready to go live",
+            "time": "2018-08-03T09:10:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "edited all instances of \"definite\" to \"likely\"",
+            "time": "2018-08-02T10:45:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added note about histology to Instructions, Facts & Figures, and changed result from Definite to Likely AIH (creator feedback)",
+            "time": "2018-08-01T12:16:00.000Z",
+            "user": "rachel"
+          }
+        ],
+        "md5": "",
+        "medium_description_en": "<p>Diagnoses autoimmune hepatitis.</p>",
+        "purpose_en": [
+          "Diagnosis",
+          "Rule Out"
+        ],
+        "search_abbreviation_en": [
+          "AIH",
+          "hepatitis",
+          "simple",
+          "diagnosis",
+          "liver injury",
+          "AIH Score"
+        ],
+        "search_id": "c-3112",
+        "seo": {
+          "keywords_en": "AIH, simplified AIH, simplified scoring AIH, AIH score, AIH simple score, autoimmune hepatitis score, autoimmune hepatitis simple score, autoimmune hep score, autoimmune hep simple score, AIH simple, autoimmune hepatitis",
+          "meta_description_en": "The Simplified Autoimmune Hepatitis (AIH) Score diagnoses autoimmune hepatitis."
+        },
+        "short_description_en": "AIH diagnosis.",
+        "short_title_en": "Simplified AIH Score",
+        "slug": "simplified-autoimmune-hepatitis-aih-score",
+        "specialty_en": [
+          "Gastroenterology",
+          "Hepatology",
+          "Internal Medicine",
+          "Rheumatology"
+        ],
+        "system_en": [
+          "Gastrointestinal",
+          "Immunologic"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Ansgar W. Lohse, MD, is Chairman of the Department of Medicine at the University Medical Center Hamburg-Eppendorf in Hamburg, Germany. He specializes in gastroenterology and infectious disease. Professor Lohse has authored over 300 peer-reviewed research papers in clinical and basic science hepatology.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Ansgar W. Lohse",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-ansgar-w-lohse.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Lohse+AW%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3112/simplified-autoimmune-hepatitis-aih-score",
+        "description": "The Simplified Autoimmune Hepatitis (AIH) Score diagnoses autoimmune hepatitis.",
+        "keywords": "AIH, simplified AIH, simplified scoring AIH, AIH score, AIH simple score, autoimmune hepatitis score, autoimmune hepatitis simple score, autoimmune hep score, autoimmune hep simple score, AIH simple, autoimmune hepatitis",
+        "title": "Simplified Autoimmune Hepatitis (AIH) Score"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3111,
+          "short_title_en": "Revised Original AIH Score",
+          "slug": "revised-original-score-autoimmune-hepatitis-aih"
+        },
+        {
+          "calcId": 10094,
+          "short_title_en": "GALAD Model for HCC",
+          "slug": "galad-model-hepatocellular-carcinoma-hcc"
+        },
+        {
+          "calcId": 78,
+          "short_title_en": "MELD Na (UNOS/OPTN)",
+          "slug": "meld-score-model-end-stage-liver-disease-12-older"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3112",
+      "simplified-autoimmune-hepatitis-aih-score"
+    ]
+  },
+  "scriptLoader": []
+}

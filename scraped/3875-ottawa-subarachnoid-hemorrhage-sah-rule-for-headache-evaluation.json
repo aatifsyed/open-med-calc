@@ -1,0 +1,668 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Headache",
+          "Neck Pain"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "3875.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li>The first iteration of what is now known as the Ottawa SAH Rule was derived by <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2966872/\" target=\"_blank\" rel=\"noopener\">Perry and Stiell et al in BMJ 2010</a>. Of 1,999 patients with headache prospectively enrolled from five Canadian tertiary care centers, 130 cases of SAH were identified, and 16 variables were identified as predictive for SAH (13 on history and 3 on physical exam). Recursive partitioning was used to identify combinations of these variables to create 3 separate decision rules with the highest sensitivity for SAH.</li>\n<li><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24065011\" target=\"_blank\" rel=\"noopener\">Perry and Stiell prospectively validated</a> their findings in JAMA in 2013, in 2,131 patients at 10 sites.\n<ul>\n<li>Inclusion criteria were as follows:\n<ul>\n<li>GCS 15/15 (i.e., alert and oriented),</li>\n<li>No history of fall or head trauma in the past 7 days,</li>\n<li>Presentation within 14 days of headache onset.</li>\n</ul>\n</li>\n<li>Exclusion criteria were:\n<ul>\n<li>Previously established history of headache syndrome,</li>\n<li>Referred from another institution with confirmed diagnosis of SAH,</li>\n<li>Return for reassessment of headache already evaluated with CT and LP,</li>\n<li>Presence of papilledema,</li>\n<li>New focal neurologic deficits,</li>\n<li>Previously diagnosed cerebral aneurysm, SAH, brain tumor, or hydrocephalus.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>The variables were again run through recursive partitioning and the final Ottawa SAH Rule was found to be 100% sensitive for SAH (95% CI,&nbsp;97.2%-100.0%). Specificity was 15.3% (95% CI, 13.8%-16.9%).</li>\n<li>Not all patients in the validation study underwent full workup including CT and LP (80% ultimately had CT and 45% had LP). Those patients were discharged and followed up with a structured telephone interview. The authors acknowledge that some patients with small nonaneurysmal SAH may have been missed.</li>\n<li><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25511365\" target=\"_blank\" rel=\"noopener\">Bellolio and colleagues (2015)</a> also externally validated the rule by retrospectively applying it to 454 patients presenting with headache. Sensitivity was 100% (95% CI, 62.9%-100%) but specificity was lower than in the validation by Perry et al (7.6%, 95% CI 5.4%-10.6%), so the authors concluded that its clinical use may be limited.</li>\n<li>Still, according to the hierarchy of evidence for clinical decision rules (CDR) espoused by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/?term=10872017\" target=\"_blank\" rel=\"noopener\">McGinn and colleagues</a>, this is a Level 2 CDR (established accuracy in at least one large prospective study, but no impact analysis as of yet).</li>\n</ul>",
+            "formula_en": "<p>Cannot rule out SAH if one or more criteria are present.</p>",
+            "more_info_en": "<p><strong>Inclusion criteria for this rule:</strong></p>\n<ul>\n<li>Alert patients &gt;15 years with a non‐traumatic acute headache:\n<ul>\n<li>&ldquo;Alert&rdquo; is a GCS=15,</li>\n<li>&ldquo;Non‐traumatic&rdquo; is no direct head trauma in previous 7 days,</li>\n<li>&ldquo;Acute&rdquo; is maximal pain in &lt;1 hour and presents within 14 days.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Exclusion criteria for this rule:</strong></p>\n<ul>\n<li>New neurologic deficits, previous aneurysm, brain tumor or SAH.</li>\n<li>Patients with chronic recurrent headaches (&ge;3 headaches of the same character and intensity for &gt;6 months).</li>\n</ul>\n<p><strong>Criteria:</strong></p>\n<ul>\n<li>Age &ge;40 years.</li>\n<li>Neck pain or stiffness.</li>\n<li>Witnessed loss of consciousness.</li>\n<li>Onset during exertion.</li>\n<li>Thunderclap headache (instantly peaking pain).</li>\n<li>Limited neck flexion on examination.</li>\n</ul>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2966872/",
+                  "text": "Perry JJ, Stiell IG, Sivilotti ML, Bullard MJ, Lee JS, Eisenhauer M, Symington C, Mortensen M, Sutherland J, Lesiuk H, Wells GA. High risk clinical characteristics for subarachnoid haemorrhage in patients with acute headache: prospective cohort study. BMJ. 2010 Oct 28;341:c5204."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC488050/ ",
+                  "text": "Vermeulen  M, van Gijn J.  The diagnosis of subarachnoid haemorrhage. J Neurol Neurosurg Psychiatry. 1990;53(5):365-372."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/?term=10872017 ",
+                  "text": "McGinn TG, Guyatt GH, Wyer PC, Naylor CD, Stiell IG, Richardson WS. Users' guides to the medical literature: XXII: how to use articles about clinical decision rules. Evidence-Based Medicine Working Group. JAMA. 2000 Jul 5;284(1):79-84."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/?term=25694274",
+                  "text": "Perry JJ, Alyahya B, Sivilotti ML, Bullard MJ, Émond M, Sutherland J, Worster A, Hohl C, Lee JS, Eisenhauer MA, Pauls M, Lesiuk H, Wells GA, Stiell IG. Differentiation between traumatic tap and aneurysmal subarachnoid hemorrhage: prospective cohort study. BMJ. 2015 Feb 18;350:h568."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21768192",
+                  "text": "Perry JJ, Stiell IG, Sivilotti ML, Bullard MJ, Emond M, Symington C, Sutherland J, Worster A, Hohl C, Lee JS, Eisenhauer MA, Mortensen M, Mackey D, Pauls M, Lesiuk H, Wells GA. Sensitivity of computed tomography performed within six hours of onset of headache for diagnosis of subarachnoid haemorrhage: prospective cohort study. BMJ. 2011 Jul 18;343:d4277."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24065011",
+                  "text": "Perry JJ, Stiell IG, Sivilotti ML, Bullard MJ, Hohl CM, Sutherland J, Émond M, Worster A, Lee JS, Mackey D, Pauls M, Lesiuk H, Symington C, Wells GA. Clinical decision rules to rule out subarachnoid hemorrhage for acute headache. JAMA. 2013 Sep 25;310(12):1248-55."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25511365 ",
+                  "text": "Bellolio MF, Hess EP, Gilani WI, VanDyck TJ, Ostby SA, Schwarz JA, Lohse CM, Rabinstein AA. External validation of the Ottawa subarachnoid hemorrhage clinical decision rule in patients with acute headache. Am J Emerg Med. 2015 Feb;33(2):244-9."
+                },
+                {
+                  "href": "https://www.ahajournals.org/doi/full/10.1161/STROKEAHA.119.026969?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed",
+                  "text": "Perry JJ, Sivilotti MLA, Émond M, et al. Prospective Implementation of the Ottawa Subarachnoid Hemorrhage Rule and 6-Hour Computed Tomography Rule. Stroke. 2020;51(2):424-430."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Rachel Kwon, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Ian Stiell",
+              "qa_en": ""
+            },
+            {
+              "approved": true,
+              "name": "Dr. Jeffrey J. Perry",
+              "qa_en": "<p><em>(transcribed from telephone interview)</em></p> <p><strong>How did you develop the Ottawa SAH Rule? Was there a particular patient or clinical experience you had?</strong></p> <p><span style=\"font-weight: 400;\">Two things: One was the apparent subjectivity I noticed as a resident in evaluating patients for SAH, where the criteria for which patients we would investigate seemed to be very different. Some of the patients I thought were very low risk, other physicians would want to still investigate them for SAH, including doing a CT, which didn&rsquo;t bother me too much, but then they would go on to do an LP, which is very uncomfortable, and time-consuming, and it seemed to contribute to already very prevalent ED overcrowding. So that was the clinical side of things. </span></p> <p><span style=\"font-weight: 400;\">Research-wise, there was a survey done of both American and Canadian physicians looking at areas where they were most interested in developing clinical decision rules, and determining which patients were at risk for SAH was one of the most-requested.</span></p> <p><strong>Do you know of any cases where the rule has been misapplied or misused? </strong></p> <p><span style=\"font-weight: 400;\">When we did our prospective validation study, we found the physicians misinterpreted the rule about 4% of the time. None of those resulted in NOT investigating patients with SAH, but most of the time it was over-investigating. It appeared to be thunderclap headache that was prompting physicians to over-investigate. The few under-investigated patients happened when neck pain or stiffness was reported but not acted on. If the headache wasn&rsquo;t instantly peaking, even evolving over the course of minutes, it wasn&rsquo;t meant to be deemed high risk. Only if it was instantly peaking, and not progressing after the onset, did it meet that criteria. I&rsquo;m happy to see that that designation is in your calculator.&nbsp;</span></p> <p><strong>Do you have any comment on the low specificity of the rule? Obviously, for a true rule-out tool, sensitivity is more important, and the Ottawa SAH Rule is 100% sensitive, but the specificity quoted is 15%. What are the implications of that, if any?</strong></p> <p><span style=\"font-weight: 400;\">We struggled as investigators in looking at how sensitive it needed to be. Obviously, the more sensitive it is, the less specific, and we felt that given the potential catastrophic consequence of missing SAH, we thought that it was still more important to ensure that the rule was as close to 100% sensitive as possible, even though it may have sacrificed some of the specificity. Population studies have shown that up to 1 in 20 patients with SAH are actually missed on their initial presentation. These numbers are much higher in rural and remote areas than at tertiary care centers, which are highly academic and tend to investigate patients a lot more, so their miss rate is a lot lower. We felt that, given that physicians are still missing some SAHs, that it was important to make sure it was sensitive, knowing that it does translate into a relatively low specificity. Given that physicians are investigating most patients, even more so in the States, we don&rsquo;t expect to increase the rate of investigation and still may translate into a very small reduction, but our aim is to make sure the patients who are being investigated are the right patients so we&rsquo;re not missing any cases. </span></p> <p><strong>You&rsquo;ve hit on an important point of resource utilization, which Canada seems to be more cognizant of given the different economic structures in healthcare. Do you know of any cost benefit or impact analysis of using the rule? </strong></p> <p><span style=\"font-weight: 400;\">There has been an analysis of the theoretical impact of costs in Ontario, and most of the savings are from reducing the potential miss rate, which the previous population-based study demonstrated, that based on provincial data, 1 in 20 patients were missed, meaning they were diagnosed with something other than SAH, and then re-presented up to 7 days later. Based on that baseline miss rate, applying the rule would still translate into significant cost savings on the population, even though it doesn&rsquo;t directly decrease the rate of investigations by much. Now, that may not be as applicable in a center where they&rsquo;re already investigating a lot of the patients, though there may be some decrease in the investigation rate and translate into some cost savings. But, there&rsquo;s no cost analysis of those kinds of centers where the investigation rate is nearly 100%. </span></p> <p><span style=\"font-weight: 400;\">Our group has researched the so-called &ldquo;</span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/21768192\" target=\"_blank\"><span style=\"font-weight: 400;\">Six Hour Rule</span></a><span style=\"font-weight: 400;\">,&rdquo; where patients who have a CT scan within 6 hours of headache onset were studied. Our studies have shown that most of those patients don&rsquo;t need to go on to have any further testing. That would also lower the LP rate or the follow-up CT rate, depending how you investigate further. That, too, would lower the cost. This cost analysis was done independent of us.</span></p> <p><strong>How do you use the Ottawa SAH Rule in your own practice?</strong></p> <p><span style=\"font-weight: 400;\">First of all, I&rsquo;m happy your calculator shows which patients to apply the rule to: you want to make sure that it&rsquo;s even appropriate to apply the rule. Is it a patient with a new headache that is atraumatic, peaks within an hour, and is not a patient with established recurrent headache? And also make sure that the patient doesn&rsquo;t have a history of previous SAH or known cerebral aneurysm. If the patient is appropriate, you apply the six criteria, and if they have any one of those, then they are deemed high risk. </span></p> <p><span style=\"font-weight: 400;\">If the patient is high risk and needs investigation, we look at the time since the onset of the headache. If it&rsquo;s less than six hours, we get a CT, and if the CT is negative, then for most patients at that point we stop investigating and we have a discussion with the patient. If there&rsquo;s some kind of extenuating situation, like the patient has a first-degree relative who died of a SAH, that patient may still want to go on and have further testing, but for the vast majority of our patients, we suggest stopping at that point and let the patient know that the risk of a bleeding aneurysm is less than 1%, and to try to figure out if it was any less than that we&rsquo;d have to do a lumbar puncture, and then we describe the lumbar puncture, and have shared decision making with the patient. I say if it was me I would stop, but if they&rsquo;re still worried about it and want to do further testing, we can do that. </span></p> <p><span style=\"font-weight: 400;\">In my experience, all but one patient has declined further testing. For the one patient who wanted the LP, it was negative, but they were more reassured. Certainly for most patients you can stop further testing at that point. For those patients who do undergo LP, we have </span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/?term=25694274\" target=\"_blank\"><span style=\"font-weight: 400;\">criteria</span></a><span style=\"font-weight: 400;\"> to determine the difference between traumatic tap and a true SAH, so we then apply those criteria to the LP results to determine if any further testing like cerebral angiography is needed. </span></p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>The Ottawa SAH Rule was developed for use in an emergency department setting in patients presenting with acute headache.</li>\n<li>The rule is 100% sensitive for SAH (i.e., a rule-out tool).</li>\n<li>Should only be used in patients who are alert and oriented, presenting within 14 days of headache, without history of head trauma or fall in the past 7 days.</li>\n<li>It can NOT be used in patients with new neurologic deficits, previous history of headache syndrome, or intracranial lesions (see Evidence for full exclusion criteria).</li>\n<li>Specificity is low (15%), and so it should not be used to diagnose SAH, even in patients in whom all criteria are positive. As with other rule-out decision aids, just because a patient fails the rule does not require that all patients are then evaluated for SAH, given its very low specificity.</li>\n</ul>",
+            "use_case_en": "<p>Patients with headache who are neurologically intact.</p>",
+            "why_use_en": "<ul>\n<li>Ruling out SAH is challenging in patients presenting with headache but no neurologic deficits.</li>\n<li>SAH is rare and accounts for only ~1% of ED patients presenting with headache (<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC488050/\" target=\"_blank\" rel=\"noopener\">Vermeulen 1990</a>), and missed diagnoses have potentially devastating results.</li>\n<li>Conversely, a tool that reliably rules out SAH is useful to avoid unnecessary workup (more tests do not always clarify the diagnosis).</li>\n<li>Lumbar puncture (LP) is often performed as the confirmatory test if noncontrast CT is negative but clinical suspicion still high. LP is painful and carries risk of bleeding and headache worse than the original presenting headache.</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>Consider SAH workup in patients with ANY positive criteria, but as with other rule-out decision aids, just because a patient fails the rule does not require that all patients are then evaluated for SAH, given its very low specificity.</li>\n<li>May consider avoiding further SAH-specific workup in patients with all negative criteria.</li>\n</ul>",
+            "critical_actions_en": "<p>Patients who are ruled out for SAH may still have other causes for headache that require workup or intervention, and differential diagnosis should be broad.</p>",
+            "management_en": "<ul>\n<li>In patients with any positive criteria by the Ottawa SAH Rule (i.e., cannot rule out SAH), workup for SAH typically begins with includes noncontrast CT head. Consider lumbar puncture (LP) and/or cerebral angiography if clinical suspicion remains.</li>\n<li>By completing this study, the authors were also able to provide insight into the appropriate workup for patients with possible SAH. They recommend:\n<ul>\n<li>Non-contrast CT scan within 6 hours of headache onset is sufficient to rule out SAH in most patients.</li>\n<li>If a patient is deemed to be particularly high-risk, LP should be performed.\n<ul>\n<li>If there is no visual xanthochromia and tube 4 of the LP has &lt;2,000 x 10<sup>6</sup>/L, SAH is ruled out unless 'ultra high risk'.</li>\n<li>If the patient is 'ultra high risk,' CT angiography (CTA) can be performed to evaluate for cerebral aneurysm. Neurosurgical consultation may be particularly helpful in these 'ultra high risk' patients.</li>\n</ul>\n</li>\n<li>CT angiography can be helpful in significant time delay between presentation and initial headache (e.g. headache last week).</li>\n</ul>\n</li>\n<li>Neurology and neurosurgical consultation should be obtained in patients with suspected or confirmed SAH.</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 3875,
+                "createdAt": "2019-11-04T17:13:20.418Z",
+                "description": "Emergency Medicine Practice",
+                "id": 81,
+                "link": "https://www.ebmedicine.net/topics/neurologic/life-threatening-headache",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: Ottawa SAH Rule",
+                "updatedAt": "2022-03-10T21:21:46.862Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Subarachnoid Hemorrhage"
+        ],
+        "dosing": false,
+        "equation_logic": "853f8a0eae941c663427525449026115",
+        "equation_logic_text": "var calc_output = [];\nvar calc_msg = '';\nvar mini_msg = '';\nvar yesno = '';\nvar output_score = parseInt(age) + parseInt(neckpain) + parseInt(loc) + parseInt(exertion) + parseInt(thunderclap) + parseInt(neckflexion);\nif (output_score == 0) {\n    yesno = 'Yes';\n    calc_msg = 'This patient can be ruled out for subarachnoid hemorrhage by the Ottawa SAH Rule, which was 100% sensitive for SAH in its validation.';\n    mini_msg = 'Ruled Out';\n} else {\n    yesno = 'No';\n    calc_msg ='This patient cannot be ruled out for subarachnoid hemorrhage by the Ottawa SAH Rule (the rule was 100% sensitive for SAH but only 15% specific for SAH).';\n    mini_msg = 'Cannot Rule Out';\n}\ncalc_output.push({\n    name: 'mini',\n    value: yesno,\n    value_text: ' ',\n    message: mini_msg\n});\ncalc_output.push({\n    name: 'Ottawa SAH Rule',\n    value: mini_msg,\n    value_text: ' ',\n    message: calc_msg\n});",
+        "favorite_id": 3875,
+        "full_title_en": "Ottawa Subarachnoid Hemorrhage (SAH) Rule for Headache Evaluation",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Age &ge;40</p>",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Neck pain or stiffness</p>",
+            "name": "neckpain",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Witnessed loss of consciousness</p>",
+            "name": "loc",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Onset during exertion</p>",
+            "name": "exertion",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Thunderclap headache (<span>instantly peaking pain</span>)</p>",
+            "name": "thunderclap",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Limited neck flexion on examination</p>",
+            "name": "neckflexion",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>This rule has very specific inclusion and exclusion criteria that must be followed closely for appropriate application:</p>\n<p><strong>Only apply in:</strong> Alert patients &ge;15 years old, new severe atraumatic headache, maximum intensity within 1 hour.</p>\n<p><strong>Do not use in:</strong> Patients with new neurologic deficits, prior aneurysm, prior SAH, known brain tumors, or chronic recurrent headaches (&ge;3 headaches of the same character and intensity for &gt;6 months).</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edit",
+            "time": "2022-03-10T16:21:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "eidted literature",
+            "time": "2020-07-14T17:37:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited validation",
+            "time": "2020-07-14T17:35:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited Evidence",
+            "time": "2020-01-02T18:06:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "eb med",
+            "time": "2019-11-07T10:24:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "eb med",
+            "time": "2019-11-04T12:13:00.000Z",
+            "user": "rachel"
+          }
+        ],
+        "md5": "d834362b418983844edd44f24542efd3",
+        "medium_description_en": "<p>Rules out SAH in patients with headache.</p>",
+        "purpose_en": [
+          "Rule Out"
+        ],
+        "search_abbreviation_en": [
+          "ottawa sah",
+          "ottawa subarachnoid",
+          "sah rule out",
+          "ottawa subarachnoid hemorrhage",
+          "ottawa subarachnoid hemorrhage rule",
+          "ian stiell sah",
+          "headache evaluation sah",
+          "headache sah",
+          "stroke",
+          "ICH",
+          "aneursym",
+          "aSAH"
+        ],
+        "search_id": "c-3875",
+        "seo": {
+          "keywords_en": "rule out subarachnoid, subarachnoid hemorrhage, ottawa subarachnoid hemorrhage, canada subarachnoid, perry subarachnoid, subarachnoid hemorrhage risk, sah risk, rule out subarachnoid hemorrhage",
+          "meta_description_en": "Ottawa Subarchnoid Hemorrhage (SAH) Rule for Headache Evaluation rules out emergency department patients with headache for subarachnoid hemorrhage."
+        },
+        "short_description_en": "<p>Rules out SAH.</p>",
+        "short_title_en": "Ottawa SAH Rule",
+        "slug": "ottawa-subarachnoid-hemorrhage-sah-rule-for-headache-evaluation",
+        "specialty_en": [
+          "Critical Care (Neurologic)",
+          "Emergency Medicine",
+          "Neurology",
+          "Neurosurgery"
+        ],
+        "system_en": [
+          "Neurologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Rachel Kwon, MD, is the managing editor at MDCalc. Her clinical training is in general surgery, and she is a former research fellow in patient safety and evidence-based surgery in the Nuffield Department of Surgical Sciences at the University of Oxford. She is also co-author and co-editor of <em>50 Studies Every Surgeon Should Know</em> (Oxford University Press).</p>",
+          "firstName": "Rachel",
+          "hasDisclosure": [],
+          "img": "https://cdn-web-img.mdcalc.com/people/rachel-kwon.jpg",
+          "lastName": "Kwon",
+          "name": "Rachel Kwon, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Past",
+          "target": "rachel-kwon",
+          "updatedAt": "2023-04-06T20:26:54.776Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Ian Stiell, MD, MSc, FRCPC, is Professor and Chair, Department of Emergency Medicine, University of Ottawa; Distinguished Professor and University Health Research Chair, University of Ottawa; Senior Scientist, Ottawa Hospital Research Institute; and Emergency Physician, The Ottawa Hospital. He is internationally recognized for his research in emergency medicine with a focus on the development of clinical decision rules and the conduct of clinical trials involving acutely ill and injured patients treated by prehospital services and in emergency departments. He is best known for the development of the <calculator id='1670'>Ottawa Ankle Rule</calculator>, the <calculator id='696'>Canadian C-Spine Rule</calculator>, and <calculator id='608'>Canadian CT Head Rule</calculator> and as the Principal Investigator for the landmark OPALS Studies for prehospital care. Dr. Stiell is the Principal Investigator for 1 of 3 Canadian sites in the Resuscitation Outcomes Consortium (ROC) which is funded by CIHR, NIH, HSFC, AHA, and National Defence Canada. Dr. Stiell is a Member of the Institute of Medicine of the U.S. National Academies of Science.</p> <p>To read more about Dr. Stiell's work, visit his <a href='http://www.ohri.ca/profile/istiell/dr-ian-stiell-group' target='_blank'>website</a>.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Ian Stiell",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-ian-stiell.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Stiell+IG%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T15:54:34.492Z"
+        },
+        {
+          "about_en": "<p>Jeffrey J. Perry, MD, is a professor in the department of emergency medicine at the University of Ottawa in Ottawa, Canada. His research interests include clinical decision rules, subarachnoid hemorrhage, and systematic review and meta-analysis. Dr. Perry is also a Senior Scientist with the Ottawa Hospital Research Institute and Research Chair of Emergency Neurological Research.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Jeffrey J. Perry",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-jeffrey-j-perry.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Perry+JJ%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3875/ottawa-subarachnoid-hemorrhage-sah-rule-for-headache-evaluation",
+        "description": "Ottawa Subarchnoid Hemorrhage (SAH) Rule for Headache Evaluation rules out emergency department patients with headache for subarachnoid hemorrhage.",
+        "keywords": "rule out subarachnoid, subarachnoid hemorrhage, ottawa subarachnoid hemorrhage, canada subarachnoid, perry subarachnoid, subarachnoid hemorrhage risk, sah risk, rule out subarachnoid hemorrhage",
+        "title": "Ottawa Subarachnoid Hemorrhage (SAH) Rule for Headache Evaluation"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3836,
+          "short_title_en": "Fisher Grading Scale",
+          "slug": "fisher-grading-scale-subarachnoid-hemorrhage-sah"
+        },
+        {
+          "calcId": 3837,
+          "short_title_en": "Modified Fisher Scale",
+          "slug": "modified-fisher-grading-scale-subarachnoid-hemorrhage-sah"
+        },
+        {
+          "calcId": 3883,
+          "short_title_en": "FUNC Score",
+          "slug": "functional-outcome-patients-primary-intracerebral-hemorrhage-func-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3875",
+      "ottawa-subarachnoid-hemorrhage-sah-rule-for-headache-evaluation"
+    ]
+  },
+  "scriptLoader": []
+}

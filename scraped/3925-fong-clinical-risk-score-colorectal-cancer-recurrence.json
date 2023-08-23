@@ -1,0 +1,637 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Abdominal Pain",
+          "Mass",
+          "Weakness",
+          "Weight Loss/Gain"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+56",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+56",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "3925.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li>The Fong Clinical Risk Score was originally developed by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/10493478\" target=\"_blank\">Fong et al</a> at Memorial Sloan-Kettering Cancer Center after reviewing 1001 consecutive cases between 1985 and 1998. They reviewed 13 clinical criteria and found 10 to be statistically significant (p&lt;0.05) in predicting survival, 5 of which were determined to be useful preoperatively and therefore included in the Fong Score.</li>\n<li>The Fong Score&nbsp;has since been validated in numerous studies, including by <a href=\"http://link.springer.com/article/10.1007/s00268-002-6231-x\" target=\"_blank\">Mala et al</a> in 2002. This group from Norway retrospectively looked at 146 consecutive hepatic resections in 137 patients between 1997 and 1999. Of these, 113 patients were placed into five Fong Score groups, and they found that relative risk of tumor recurrence was 2.1 in patients with CRS 3-4 compared to those with Fong Score 0-2.</li>\n<li>The Fong Score was also validated by <a href=\"http://jamanetwork.com/journals/jamasurgery/fullarticle/397488\" target=\"_blank\">Mann et al</a> in 2004. This group from Australia retrospectively studied 77 patients between 1993 and 2003. They assessed each of the five criteria individually, and found 3/5 criteria to be predictive (primary lesion nodal status, CEA level, tumor diameter). The Fong Score overall was found to be predictive, with 5-year survival of 52.3% for Fong Score 0-2 versus 20.2% for Fong Score 3-5.</li>\n<li>In 2009, an external validation study was published by <a href=\"http://link.springer.com/article/10.1245/s10434-009-0654-7\" target=\"_blank\">Reissfelder et al </a>for five different scoring systems including the Fong Score. This German study utilized 281 patients in single institution and found 2 out of 5 studies, the Fong Score (0.006) and Iwatsuki score (p=0.01) to provide statistically significant stratification.</li>\n<li>Other criteria have been suggested since then, with varying criteria for risk factors:</li>\n<ul>\n<li><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/10472930\" target=\"_blank\">Iwatsuki Score</a> (1999): &ge;3 hepatic lesions, &gt;8cm largest lesion, disease-free interval &le;30months, bilobar tumors.</li>\n<li><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15127268\" target=\"_blank\">Nagashima Score</a> (2004): serosa invasion of primary cancers, lymph node invasion of primary, &gt;1 hepatic lesion, &gt;5cm largest lesion, and resectable extrahepatic distant metastases.</li>\n<li><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19153115\" target=\"_blank\">Nordlinger Score</a> (2007): stage III and IV primary lesion, &ge;4 hepatic lesions, &gt;5 cm largest lesion, extrahepatic disease, CEA &ge;5 ng/mL, disease-free interval &lt;2 years.</li>\n<li><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/18673436\" target=\"_blank\">Konopke Score</a> (2009): synchronous primary lesion and hepatic metastases, &ge;4 hepatic lesions, CEA &gt;200ng/mL.</li>\n</ul>\n<li>The Fong Score has been compared to above studies and validated by many (including <a href=\"http://link.springer.com/article/10.1245/s10434-009-0654-7\" target=\"_blank\">Reissfelder 2009</a>). To this day, it remains the most commonly used and widely accepted scoring system due to its simplicity and generalizability.</li>\n</ul>",
+            "formula_en": "<p>Addition of selected points.</p>",
+            "more_info_en": "<p><strong>Variables:</strong></p> <ul> <li>Nodal status of primary.</li> <li>Disease-free interval from the primary to discovery of the liver metastases of &lt;12 months.</li> <li>Number of tumors &gt;1.</li> <li>Preoperative CEA level &gt;200 ng/mL.</li> <li>Size of the largest tumor &gt;5 cm.</li> </ul> <p>&nbsp;</p> <div class=\"table-responsive\"> <table class=\"table table-bordered\"> <tbody> <tr> <td>&nbsp;</td> <td colspan=\"5\"> <p><strong>Survival (%)</strong></p> </td> </tr> <tr> <td> <p><strong>Score</strong></p> </td> <td> <p><strong>1-year</strong></p> </td> <td> <p><strong>2-year</strong></p> </td> <td> <p><strong>3-year</strong></p> </td> <td> <p><strong>4-year</strong></p> </td> <td> <p><strong>5-year</strong></p> </td> </tr> <tr> <td> <p>0</p> </td> <td> <p>93</p> </td> <td> <p>79</p> </td> <td> <p>72</p> </td> <td> <p>60</p> </td> <td> <p>60</p> </td> </tr> <tr> <td> <p>1</p> </td> <td> <p>91</p> </td> <td> <p>76</p> </td> <td> <p>66</p> </td> <td> <p>54</p> </td> <td> <p>44</p> </td> </tr> <tr> <td> <p>2</p> </td> <td> <p>89</p> </td> <td> <p>73</p> </td> <td> <p>60</p> </td> <td> <p>51</p> </td> <td> <p>40</p> </td> </tr> <tr> <td> <p>3</p> </td> <td> <p>86</p> </td> <td> <p>67</p> </td> <td> <p>42</p> </td> <td> <p>25</p> </td> <td> <p>20</p> </td> </tr> <tr> <td> <p>4</p> </td> <td> <p>70</p> </td> <td> <p>45</p> </td> <td> <p>38</p> </td> <td> <p>29</p> </td> <td> <p>25</p> </td> </tr> <tr> <td> <p>5</p> </td> <td> <p>71</p> </td> <td> <p>45</p> </td> <td> <p>27</p> </td> <td> <p>14</p> </td> <td> <p>14</p> </td> </tr> </tbody> </table> </div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10493478",
+                  "text": "Fong Y, et al.  Clinical Score for Predicting Recurrence After Hepatic Resection for Metastatic Colorectal Cancer. Annals of Surgery. Vol. 230, No. 3, 309–321"
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "http://onlinelibrary.wiley.com/doi/10.1046/j.1445-2197.2002.02290.x/abstract",
+                  "text": "Moroz P, Salama PR, Gray BN. Resecting large numbers of hepatic colorectal metastases. ANZ Journal of Surgery. 2002;72(1):5-10. doi:10.1046/j.1445-2197.2002.02290.x. "
+                },
+                {
+                  "href": "http://link.springer.com/article/10.1016/j.gassur.2003.11.009",
+                  "text": "Schüssler-Fiorenza CM, Mahvi DM, Niederhuber J, Rikkers LF, Weber SM. Clinical risk score correlates with yield of PET scan in patients with colorectal hepatic metastases. Journal of Gastrointestinal Surgery. 2004;8(2):150-158. doi:10.1016/j.gassur.2003.11.009. "
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10472930",
+                  "text": "Iwatsuki S, Dvorchik I, Madariaga JR, et al. Hepatic resection for metastatic colorectal adenocarcinoma: a proposal of a prognostic scoring system. Journal of the American College of Surgeons. 1999;189(3):291-299. doi:10.1016/s1072-7515(99)00089-7."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/15127268",
+                  "text": "Nagashima I, Takada T, Matsuda K, Adachi M, Nagawa H, Muto T, Okinaga K. A new scoring system to classify patients with colorectal liver metastases: proposal of criteria to select candidates for hepatic resection. Journal of Hepato-Biliary-Pancreatic Surgery. 2004;11(2):79-83. doi:10.1007/s00534-002-0778-7."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/17606190",
+                  "text": "Lupinacci R, Penna C, Nordlinger B. Hepatectomy for Resectable Colorectal Cancer Metastases—Indicators of Prognosis, Definition of Resectability, Techniques and Outcomes. Surgical Oncology Clinics of North America. 2007;16(3):493-506. doi:10.1016/j.soc.2007.04.014."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/18673436",
+                  "text": "Konopke R, Kersting S, Distler M, et al. Prognostic factors and evaluation of a clinical score for predicting survival after resection of colorectal liver metastases. Liver International. 2009;29(1):89-102. doi:10.1111/j.1478-3231.2008.01845.x. "
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16230676",
+                  "text": "Khatri VP, Petrelli NJ, Belghiti J. Extending the frontiers of surgical therapy for hepatic colorectal metastases: is there a limit? J Clin Oncol 2005; 23:8490. "
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/19153115",
+                  "text": "Nordlinger B, Van Cutsem E, Gruenberger T, Glimelius B, Poston G, Rougier P, et al. Combination of surgery and chemotherapy and the role of targeted agents in the treatment of patients with colorectal liver metastases: recommendations from an expert panel. Ann Oncol Off J Eur Soc Med Oncol ESMO. 2009;20:985–92."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "http://jamanetwork.com/journals/jamasurgery/fullarticle/397488",
+                  "text": "Mann CD. The Clinical Risk Score. Archives of Surgery. 2004;139(11):1168. doi:10.1001/archsurg.139.11.1168."
+                },
+                {
+                  "href": "http://link.springer.com/article/10.1007/s00268-002-6231-x",
+                  "text": "Mala T, Bøhler G, Mathisen Ø, Bergan A, Søreide O. Hepatic resection for colorectal metastases: Can preoperative scoring predict patient outcome? World Journal of Surgery. 2002;26(11):1348-1353. doi:10.1007/s00268-002-6231-x."
+                },
+                {
+                  "href": "http://link.springer.com/article/10.1245/s10434-009-0654-7",
+                  "text": "Reissfelder C, Rahbari NN, Koch M, et al. Validation of Prognostic Scoring Systems for Patients Undergoing Resection of Colorectal Cancer Liver Metastases. Annals of Surgical Oncology. 2009;16(12):3279-3288. doi:10.1245/s10434-009-0654-7."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Stephanie Kim, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Yuman Fong",
+              "qa_en": "<p><em>(transcribed from telephone interview)</em></p> <p><strong>Why and how did you develop the Clinical Risk Score?</strong><br />The way cancer is classified, all colorectal cancer patients with liver metastases are stage 4. But patients with a single liver met are still curable; they should be stage 3b. AJCC [American Joint Committee on Cancer] wouldn&rsquo;t listen to me, so I developed the Clinical Risk Score to stratify these patients. We identified all the things that might be prognostic, and it turned out seven things were. The two that dropped out when we formulated the score were margin positivity, since nobody would ever go to the operating room expecting a positive margin, and the second was someone who has extrahepatic disease. Since those things are relative contraindications to surgery, we took the other five parameters, and at first we tried modeling with all sorts of fancy numbers and percentages, and it turned out if we just assigned one point to each criterion and then just added them up as a total score, it actually works pretty well.</p> <p><strong>Do you know of any instances where people misapply the score or use it in the wrong patient?</strong><br />The biggest worry is that somebody who calculates it out and says, &ldquo;Oh, score of 5! Everything bad!&rdquo; Well, even those patients can have up to 20% five-year survival, and nothing short of having a resection allows that. So I always say, don&rsquo;t use it to exclude people for resection, but certainly at high risk scores, those patients should probably be on a chemotherapy regimen to help with the outcome.</p> <p><strong>Is there anything you would change about the score, given recent changes in medicine?</strong><br />Every five or ten years I get a call from someone who&rsquo;s trying to improve on it. Many times they will say they tried and tried and couldn&rsquo;t improve on it. Some of the things that people have tried are some molecular test that would trump this, or some response to chemotherapy that would trump this. And yeah, it might help it a little bit more, but the 5 points have become very practical. It is useful around the world, and that&rsquo;s because these are data that everyone taking care of colorectal cancer worldwide would have, versus if you said, &ldquo;Oh, is there a BRAF mutation?&rdquo; Well, not every center runs BRAF mutations, and certainly not in the emerging world, so comparing results and using them becomes very difficult.</p> <p>It turns out it&rsquo;s very practical. There are many many papers now that say Fong Score, and I&rsquo;m honored, but I was just trying to make a practical tool to help with stratifying patients for risk and for adjuvant therapy and for comparison of clinical outcome.</p> <p><strong>Do you have any thoughts on similar risk scores, like Nordlinger and Nagashima?</strong> <br />They&rsquo;re similar, but different&mdash;for example, Bernard [Nordlinger]&rsquo;s score, was a multicenter grouping, and many of their centers that they entered didn&rsquo;t have patients with many tumors. That&rsquo;s slightly different. The Nordlinger score is certainly useful, but people have found that five things makes it easier because you can always count on one hand. I still remember coming off the podium at American Surgical where I presented this, and I think it was John Cameron who came up and said, &ldquo;You know, it was very clever to have five points, because then you can just count them off on rounds [laughs].&rdquo; But I didn&rsquo;t think of that&mdash;I just ended up with five.</p> <p>We at one point also tried to use the score for clinical trials. We said we&rsquo;re entering patients for a trial on colorectal cancer metastatic to the liver. But think about how heterogeneous that group is. We only stratify according to one tumor versus not one tumor, so you&rsquo;re probably gonna segregate people, but not well enough to really make sure that there&rsquo;s equivalent sample groups. So that&rsquo;s why at one point we were also pushing it pretty hard as a way of randomizing patients in clinical trials.</p> <p><strong>In your own practice, how do you use the score and survival values to counsel your patients?</strong> <br />Well, I use less of it directly with patients. Patients don&rsquo;t care about scores. They care about, &ldquo;What is MY risk for recurrence?&rdquo;, so I actually calculate it out and then say to them what it is. For fellows and residents, though, the score is a very useful tool. They know when they present to me, &ldquo;This is a 42 year old male patient with no family or genetic history predisposing to cancer who now presents with these five criteria,&rdquo; they just go through the criteria and give me a score. Then we know exactly where we stand. In a single sentence or two sentences, we know exactly the risk level, and if I know what treatments they&rsquo;ve had, we can then decide what to do for the patient.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>The Fong Clinical Risk Score for Colorectal Cancer Recurrence assigns colorectal cancer patients with liver metastasis a score of 0-5 based on 5 independent preoperative risk factors to estimate 5-year survival and median months of survival.</li> <li>Higher scores correlate with lower survival.</li> </ul> <p><strong>Points to Keep in Mind</strong></p> <ul> <li>The scoring system is designed to aid in timing of surgical intervention and provide guidance in adjuvant therapy, NOT necessarily to determine surgical candidacy.</li> <li>Even in patients with high scores (4-5), there is clear survival benefit from surgical intervention.</li> <li>Positive surgical margin is a significant independent risk factor for survival but was not included in the scoring system due to its inability to use in preoperative patient selection.</li> <li>All patients with &gt;1 tumor were given a score of 1. However, with advancement in hepatic surgery, resection of up to four hepatic metastases is common, and there is even data that patients with up to 7 liver lesions can have a significant survival benefit from surgical resection (<a href=\"http://onlinelibrary.wiley.com/doi/10.1046/j.1445-2197.2002.02290.x/abstract\" target=\"_blank\">Moroz 2002</a>).</li> <li>Relative risks for the five criteria vary somewhat, but each is given a score of 1. Data shows that long-term outcome closely correlates with the current scoring system.</li> </ul>",
+            "use_case_en": "<p>Patients with hepatic metastases from colorectal cancer without evidence of extrahepatic disease.</p> <p><strong>Other Potential Use Cases</strong></p> <ul> <li>Early operation runs the risk of missing smaller tumors when liver mets are small, while late operation runs the risk of progression in known metastases. The Fong Score allows risk stratification to help determine timing of surgical intervention as well as potential neoadjuvant/adjuvant therapy.</li> <li>The Fong Score can also help determine ideal candidates for novel imaging modalities for detecting occult disease (<abbr title='Fluorodeoxyglucose'>F-FDG</abbr> whole-body positron emission topography (PET) scanning, radioimmunoimaging, etc) (<a href=\"http://link.springer.com/article/10.1016/j.gassur.2003.11.009\" target=\"_blank\">Schüssler-Fiorenza 2004</a>).</li> </ul>",
+            "why_use_en": "<ul> <li>Helps predict survival after resection of hepatic metastases of colorectal cancer.</li> <li>Aids in timing of surgical intervention.</li> <li>Provides guidance in adjuvant therapy.</li> <li>Aids in counseling patients to provide expected 5-year survival and median months of survival.</li> <li>Can aid in planning postoperative surveillance imaging.</li> <li>Can be used to compare patients from different institutions and studies.</li> </ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>Patients with Fong Score 0-2 are considered “low risk” and may proceed with surgical intervention.</li> <li>Patients with Fong Score&nbsp;3-5 are considered “high risk” and may benefit from close surveillance if surgery is deemed unacceptably high risk, additional preoperative workup/treatment before surgery, or&nbsp;additional postoperative treatment.</li> </ul>",
+            "critical_actions_en": "<ul> <li>About 1/3 of 5-year survivors ultimately die from their disease, and it is not yet certain whether&nbsp;the Fong Score accurately predicts survival beyond five years. Therefore, continued surveillance is currently recommended for patients after five years even if they are considered “low risk.”</li> <li>With continued advances in surgery, re-resection of hepatic metastases is proven to be still low risk while conferring a survival benefit, and therefore should be considered.</li> </ul>",
+            "management_en": "<p>From <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16230676\" target=\"_blank\">Khatri 2005</a>:</p> <table> <tbody> <tr> <td> <p><strong>Conventional indications</strong></p> </td> <td> <p><strong>Modern aggressive approach</strong></p> </td> </tr> <tr> <td> <p>&lt;4 metastases, unilobar disease</p> </td> <td> <p>No limits. Multiple/bilobar metastases acceptable, using neoadjuvant chemotherapy, staged resection, and resection/local ablative therapy.</p> </td> </tr> <tr> <td> <p>Size &lt;5 cm</p> </td> <td> <p>No limits.</p> </td> </tr> <tr> <td> <p>No extrahepatic disease</p> </td> <td> <p>Pulmonary metastases can be resected.</p> </td> </tr> <tr> <td> <p>Resection margin &gt;1 cm</p> </td> <td> <p>Resection margin &lt;1 cm managed with ablative treatment of narrow margin (cryosurgery or radiofrequency ablation).</p> </td> </tr> <tr> <td> <p>Adequate remnant liver parenchyma</p> </td> <td> <p>Preoperative portal vein embolization to increase liver remnant volume.</p> </td> </tr> <tr> <td> <p>Resection of all macroscopic disease</p> </td> <td> <p><abbr title=\"No evidence of disease\">NED</abbr> can be achieved with combination of resection and local ablative therapy.</p> </td> </tr> <tr> <td> <p>No metachronous liver metastases</p> </td> <td> <p>Synchronous and metachronous metastases acceptable.</p> </td> </tr> <tr> <td> <p>Absence of vena cava and hepatic vein confluence invasion</p> </td> <td> <p>No limits. Caval/hepatic vein resection with reconstruction can be performed.</p> </td> </tr> <tr> <td> <p>Absence of hepatic pedicle lymph node metastases</p> </td> <td> <p>In absence of celiac axis metastases, hepatic pedicle lymph node metastases may be resected for improved 3-year survival.</p> </td> </tr> </tbody> </table>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Cancer"
+        ],
+        "dosing": false,
+        "equation_logic": "5cde6fc095894da1bdb4cd929357eebe",
+        "equation_logic_text": "var calc_output = [];\n\nvar u = parseFloat(nodes) + parseFloat(interval) + parseFloat(tumor) + parseFloat(cea) + parseFloat(size);\nvar surv1;\nvar surv5;\nvar risk;\nvar msg;\n\n// 1- and 5-year survival\nif (u==0) {surv1 = '93%'; surv5 = '60%';}\nif (u==1) {surv1 = '91%'; surv5 = '44%';}\nif (u==2) {surv1 = '89%'; surv5 = '40%';}\nif (u==3) {surv1 = '86%'; surv5 = '20%';}\nif (u==4) {surv1 = '70%'; surv5 = '25%';}\nif (u==5) {surv1 = '71%'; surv5 = '14%';}\n\n// risk categories\nif (u == 0 || u == 1 || u == 2) {risk = 'Low risk'; msg = 'Consider surgical intervention'}\nif (u == 3 || u == 4 || u == 5 || u == 6) {risk = 'High risk'; msg = 'Consider additional preop workup and alternatives including close surveillance'}\n\n// result on app\ncalc_output.push({\n    name: 'mini',\n    value: u,\n    value_text: 'points',\n    message: surv1 + ' survival at 1 year'\n});\n\n// result on web\ncalc_output.push({\n    name: 'fong',\n    value: u,\n    value_text: 'points',\n    message: risk + ': ' + msg \n})\n\ncalc_output.push({\n    name: 'surv1',\n    value: surv1,\n    value_text: '',\n    message: '1-year survival after metastasectomy'\n});\n\ncalc_output.push({\n    name: 'surv5',\n    value: surv5,\n    value_text: '',\n    message: '5-year survival after metastasectomy'\n});",
+        "favorite_id": 3925,
+        "full_title_en": "Fong Clinical Risk Score for Colorectal Cancer Recurrence",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Node-positive primary",
+            "name": "nodes",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Disease-free interval <12 months",
+            "name": "interval",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "From diagnosis of primary tumor to discovery of liver metastasis",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": ">1 tumor",
+            "name": "tumor",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Preoperative <abbr title='Carcinoembryonic Antigen'>CEA</abbr> level >200 ng/mL",
+            "name": "cea",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Size of largest tumor >5cm",
+            "name": "size",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added reviewer",
+            "time": "2019-01-14 02:10 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited broken link",
+            "time": "2019-03-13 11:12 AM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "c7ea1f9707e3f5612c008b61339bb519",
+        "medium_description_en": "<p>Predicts recurrence for colorectal cancer patients with liver metastasis after hepatic resection.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "colorectal",
+          "crc",
+          "colon cancer",
+          "mets",
+          "liver mets",
+          "metastasis",
+          "survival",
+          "recurrence",
+          "hepatic",
+          "resection",
+          "CRS",
+          "nodal",
+          "tumor"
+        ],
+        "search_id": "c-3925",
+        "seo": {
+          "keywords_en": "Colorectal, hepatic, resectioning, colorectal, nodal, tumor, hepatic resection, colorectal ca, rectal CA, hepatic resectioning, liver mets, liver metastasis, colorectal liver metastasis, metastases",
+          "meta_description_en": "The Fong Clinical Risk Score predicts recurrence risk for colorectal cancer patients with liver metastasis after hepatic resection."
+        },
+        "short_description_en": "Predicts outcome for colorectal cancer recurrence.",
+        "short_title_en": "Fong Score",
+        "slug": "fong-clinical-risk-score-colorectal-cancer-recurrence",
+        "specialty_en": [
+          "Gastroenterology",
+          "Hematology and Oncology",
+          "Hepatology",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Gastrointestinal",
+          "Oncologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Stephanie",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Kim",
+          "name": "Stephanie Kim, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Yuman Fong, MD, is the Sangiacomo Chair in Surgical Oncology, Chair of the Department of Surgery at the City of Hope Hospital and former Murray Brennan Chair in Surgery at Memorial Sloan-Kettering Cancer Center. He is an expert in hepatobiliary cancers and is leading the research effort to employ genetically modified viruses to destroy cancer cells.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Yuman Fong",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-yuman-fong.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Fong+Y%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3925/fong-clinical-risk-score-colorectal-cancer-recurrence",
+        "description": "The Fong Clinical Risk Score predicts recurrence risk for colorectal cancer patients with liver metastasis after hepatic resection.",
+        "keywords": "Colorectal, hepatic, resectioning, colorectal, nodal, tumor, hepatic resection, colorectal ca, rectal CA, hepatic resectioning, liver mets, liver metastasis, colorectal liver metastasis, metastases",
+        "title": "Fong Clinical Risk Score for Colorectal Cancer Recurrence"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10393,
+          "short_title_en": "GI-GPA",
+          "slug": "graded-prognostic-assessment-for-gastrointestinal-cancer-gigpa"
+        },
+        {
+          "calcId": 3008,
+          "short_title_en": "IMDC Model for mRCC",
+          "slug": "imdc-international-metastatic-rcc-database-consortium-risk-model-metastatic-renal-cell-carcinoma"
+        },
+        {
+          "calcId": 3311,
+          "short_title_en": "GPS for Cancer Outcomes",
+          "slug": "glasgow-prognostic-score-gps-cancer-outcomes"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3925",
+      "fong-clinical-risk-score-colorectal-cancer-recurrence"
+    ]
+  },
+  "scriptLoader": []
+}

@@ -1,0 +1,657 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Dyspnea",
+          "Pain",
+          "Shortness of Breath"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p><strong>Male patients: </strong></p>\n<p>6MWD in meters = (7.57 &times; height in cm) &ndash; (5.02 &times; age) &ndash; (1.76 &times; weight in kg) &ndash; 309</p>\n<p>Lower limit of normal = 6MWD - 153</p>\n<p><strong>Female patients:</strong></p>\n<p>6MWD in meters = (2.11 &times; height in cm) &ndash; (2.29 &times; weight in kg) &nbsp;&ndash; (5.78 &times; age) + 667</p>\n<p>Lower limit of normal = 6MWD -&nbsp;139</p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12091180",
+                  "text": "ATS statement: guidelines for the six-minute walk test. Am J Respir Crit Care Med. 2002;166(1):111-7."
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/9817683 ",
+                  "text": "Enright PL, Sherrill DL. Reference equations for the six-minute walk in healthy adults. Am J Respir Crit Care Med. 1998;158(5 Pt 1):1384-7."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12890299",
+                  "text": "Enright PL. The six-minute walk test. Respir Care. 2003;48(8):783-5."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12576356 ",
+                  "text": "Enright PL, Mcburnie MA, Bittner V, et al. The 6-min walk test: a quick measure of functional status in elderly adults. Chest. 2003;123(2):387-98."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "name": "Dr. Paul L. Enright"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>Original cohort did not include patients &lt;40 or &gt;80 years old and non-Caucasian patients.</li>\n<li>Widely used across specialities dealing with geriatrics and/or chronic disease.</li>\n<li>Intended to be carried out along a flat straight walking course 30 m (100 ft) long, with brightly colored tape marking the starting line (as well as every 60 m lap). Use of a treadmill is not recommended. More detailed instructions are available in the <a href=\"https://www.thoracic.org/statements/resources/pfet/sixminute.pdf\" target=\"_blank\">American Thoracic Society guidelines</a>.</li>\n<li>Known to be less accurate in shorter patients, who have shorter strides.</li>\n</ul>",
+            "use_case_en": "",
+            "why_use_en": "<ul> <li>Primarily used to assess response to interventions in patients with moderate to severe heart or lung disease (<a href=\"https://www.thoracic.org/statements/resources/pfet/sixminute.pdf\" target=\"_blank\">American Thoracic Society guidelines</a>).</li> <li>Can be used to measure functional status in patients who are elderly, frail, and/or otherwise unable to tolerate treadmill exercise tests.</li> <li>Commonly used in patients with COPD, heart failure, arthritis, and neuromuscular disorders.</li> </ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Treat the underlying disorder. 6MWD can be serially measured to assess progression of disease and response to treatment.</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [
+              {
+                "description": "Shirley Ryan AbilityLab",
+                "link": "https://www.sralab.org/rehabilitation-measures/6-minute-walk-test",
+                "text": "Rehabilitation Measure: 6 Minute Walk Test"
+              },
+              {
+                "description": "American College of Rheumatology",
+                "link": "https://www.rheumatology.org/I-Am-A/Rheumatologist/Research/Clinician-Researchers/Six-Minute-Walk-Test-SMWT",
+                "text": "Six Minute Walk Test (6MWT)"
+              }
+            ],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "CHF",
+          "Chronic Pain",
+          "Congestive Heart Failure",
+          "COPD",
+          "Heart Failure",
+          "Idiopathic Pulmonary Fibrosis",
+          "Multiple Sclerosis",
+          "Neuropathy"
+        ],
+        "dosing": false,
+        "equation_logic": "6d98cb121dd7cc1530df19ccc57486dd",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nvar sex = parseFloat(sex);\nvar ht = parseFloat(ht);\nvar age = parseFloat(age);\nvar wt = parseFloat(wt);\nvar distance = parseFloat(distance_walked);\n\nif (UOMSYSTEM === true) { // US units\n    ht = parseFloat(ht)*(2.54);\n    wt = parseFloat(wt)*(0.453592);\n}\n\n//formula\nvar score, lln;\nif(sex === 0){\t\t//male\n\tscore = 7.57*ht - 5.02*age - 1.76*wt - 309;\n  lln = score - 153;\n}\n\nif(sex === 1){\t\t//female\n\tscore = 2.11*ht - 2.29*wt - 5.78*age + 667;\n  lln = score - 139;\n}\n\nvar units; \n\nif (UOMSYSTEM == true){\n\tscore = score*3.28084;\n\tlln = lln*3.28084;\n  \tunits = ' feet';\n}\n\nelse {units = ' meters';}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: Math.round(score),\n    value_text: units,\n    message: 'Expected 6 Minute Walk Distance for healthy patient'\n});\ncalc_output.push({\n    name: 'Score',\n    value: Math.round(score),\n    value_text: units,\n    message: 'Expected 6 Minute Walk Distance for healthy patient'\n});\n\nif(distance){\n    var percent = Math.round(100*distance / score);\n\n    calc_output.push({\n        name: 'percent',\n        value: percent,\n        value_text: '%',\n        message: 'Percentage of expected distance for healthy patient'\n    });\n}calc_output.push({\n    name: 'LLN',\n    value: Math.round(lln),\n    value_text: units,\n    message: 'Lower limit of normal'\n});",
+        "favorite_id": 3983,
+        "full_title_en": "6 Minute Walk Distance",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "label_en": "Sex",
+            "name": "sex",
+            "optional": false,
+            "options": [
+              {
+                "label": "Male",
+                "value": 0
+              },
+              {
+                "label": "Female",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "label_en": "Height",
+            "name": "ht",
+            "optional": false,
+            "type": "textbox",
+            "unit": "ht_adult"
+          },
+          {
+            "conditionality": "",
+            "label_en": "Age",
+            "name": "age",
+            "optional": false,
+            "type": "textbox",
+            "unit": "age_6mwd"
+          },
+          {
+            "conditionality": "",
+            "label_en": "Weight",
+            "name": "wt",
+            "optional": false,
+            "type": "textbox",
+            "unit": "wt_adult"
+          },
+          {
+            "conditionality": "",
+            "label_en": "Distance walked",
+            "name": "distance_walked",
+            "optional": true,
+            "tips_en": "Optional, to calculate percentage of expected",
+            "type": "textbox",
+            "unit": "m_6mwd"
+          }
+        ],
+        "instructions_en": "<p>Do not use if unstable angina or MI less than 1 month prior. Relative contraindications: resting HR over 120, systolic BP over 180, or diastolic BP over 100. Stop if any of the following occur: chest pain, intolerable dyspnea, leg cramps, staggering, diaphoresis, or pale appearance.</p>",
+        "logs": [
+          {
+            "message": "added lower limits of normal",
+            "time": "2018-5-17 10:24 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added US units (feet)",
+            "time": "2018-09-27 11:29 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "fixed percent",
+            "time": "2018-10-19 11:43 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "p&P edit",
+            "time": "2018-11-02 11:22 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits to neuropathy tag",
+            "time": "2019-06-19 10:13 AM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "9e1022e778dabfcc554ce1042961b6b2",
+        "medium_description_en": "<p>Calculates reference values for distance walked, as a measure of functional status.</p>",
+        "purpose_en": [
+          "Calculation"
+        ],
+        "search_abbreviation_en": [
+          "6MWD",
+          "walking",
+          "six minute",
+          "functional status"
+        ],
+        "search_id": "c-3983",
+        "seo": {
+          "keywords_en": "6mwd, 6 min walk distance, 6 minutes, 6mwt, 6 minute walk test",
+          "meta_description_en": "The 6 Minute Walk Distance calculates reference values for distance walked, as a measure of functional status."
+        },
+        "short_description_en": "Functional status.",
+        "short_title_en": "6 Minute Walk Distance",
+        "slug": "6-minute-walk-distance",
+        "specialty_en": [
+          "Cardiology",
+          "Family Practice",
+          "Geriatrics",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Neurology",
+          "Primary Care",
+          "Pulmonology",
+          "Rheumatology"
+        ],
+        "system_en": [
+          "Any/All"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Paul L. Enright, MD, is a retired research professor of medicine from the University of Arizona in Tucson. He reviews manuscripts for several pulmonary journals. Dr. Enright’s interests include pulmonary function testing, occupational lung disease, and diagnostic techniques for asthma and COPD.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Paul L. Enright",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-paul-l-enright.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Enright+PL%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3983/6-minute-walk-distance",
+        "description": "The 6 Minute Walk Distance calculates reference values for distance walked, as a measure of functional status.",
+        "keywords": "6mwd, 6 min walk distance, 6 minutes, 6mwt, 6 minute walk test",
+        "title": "6 Minute Walk Distance"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "0.3048",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 6561.68,
+          "error_max_si": 2000.0000640000003,
+          "error_max_us": 6561.68,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "6MWD meters",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "m_6mwd",
+          "units_si": "m",
+          "units_us": "ft",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 2296.59,
+          "warn_max_si": 700.0006320000001,
+          "warn_max_us": 2296.59,
+          "warn_min": 1312.34,
+          "warn_min_si": 400.001232,
+          "warn_min_us": 1312.34
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 80,
+          "error_max_si": 80,
+          "error_max_us": 80,
+          "error_min": 40,
+          "error_min_si": 40,
+          "error_min_us": 40,
+          "name": "Age",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "age_6mwd",
+          "units_si": "years",
+          "units_us": "years",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 80,
+          "warn_max_si": 80,
+          "warn_max_us": 80,
+          "warn_min": 40,
+          "warn_min_si": 40,
+          "warn_min_us": 40
+        },
+        {
+          "conversion": "2.54",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 90,
+          "error_max_si": 228.6,
+          "error_max_us": 90,
+          "error_min": 48,
+          "error_min_si": 121.92,
+          "error_min_us": 48,
+          "name": "Height (Adult)",
+          "normal_max_si": 213,
+          "normal_max_us": 84,
+          "normal_min_si": 152,
+          "normal_min_us": 60,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "ht_adult",
+          "units_si": "cm",
+          "units_us": "in",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 80,
+          "warn_max_si": 203.2,
+          "warn_max_us": 80,
+          "warn_min": 48,
+          "warn_min_si": 121.92,
+          "warn_min_us": 48
+        },
+        {
+          "conversion": "0.453592",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 600,
+          "error_max_si": 272.1552,
+          "error_max_us": 600,
+          "error_min": 55,
+          "error_min_si": 24.94756,
+          "error_min_us": 55,
+          "name": "Weight, adult",
+          "normal_max_si": 113,
+          "normal_max_us": 250,
+          "normal_min_si": 45,
+          "normal_min_us": 100,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "wt_adult",
+          "units_si": "kg",
+          "units_us": "lbs",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 300,
+          "warn_max_si": 136.0776,
+          "warn_max_us": 300,
+          "warn_min": 55,
+          "warn_min_si": 24.94756,
+          "warn_min_us": 55
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 10161,
+          "short_title_en": "COPD Assessment Test (CAT)",
+          "slug": "copd-assessment-test-cat"
+        },
+        {
+          "calcId": 3927,
+          "short_title_en": "POSSUM Calculator",
+          "slug": "possum-operative-morbidity-mortality-risk"
+        },
+        {
+          "calcId": 10095,
+          "short_title_en": "Fick Cardiac Output",
+          "slug": "cardiac-output-ficks-formula"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3983",
+      "6-minute-walk-distance"
+    ]
+  },
+  "scriptLoader": []
+}

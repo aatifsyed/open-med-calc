@@ -1,0 +1,644 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Agitation",
+          "Altered Mental Status",
+          "Anxious",
+          "Depressed",
+          "Excessive Crying",
+          "Fatigue",
+          "Intoxication/Overdose",
+          "Loss of Appetite",
+          "Preventive Care/Screening",
+          "Suicidal",
+          "Weight Loss/Gain"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\"><span>The HEADS-ED Score is calculated by the addition of the selected points:</span><b></b></p>\n<div dir=\"ltr\" align=\"left\">\n<table><colgroup><col width=\"93\"><col width=\"106\"><col width=\"143\"><col width=\"106\"></colgroup>\n<tbody>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span style=\"text-decoration: underline;\"><strong>H</strong></span><span>ome</span></p>\n</td>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span>Example: How does your family get along with each other?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Supportive</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Conflicts</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Chaotic/dysfunctional</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span style=\"text-decoration: underline;\"><strong>E</strong></span><span>ducation, employment</span></p>\n</td>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span>Example: How is your school attendance? How are your grades? Are you working?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>On track</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Grades dropping or absenteeism</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Failing/not attending</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span style=\"text-decoration: underline;\"><strong>A</strong></span><span>ctivities &amp; peers</span></p>\n</td>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span>Example: What are your relationships like with your friends?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>No change</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Reduction in activities/increased</span></p>\n<p dir=\"ltr\"><span>peer conflicts</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Increasingly to fully </span><span>withdrawn/significant peer conflicts</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span style=\"text-decoration: underline;\"><strong>D</strong></span><span>rugs &amp; alcohol</span></p>\n</td>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span>Example: How often are you using drugs or alcohol?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>None or infrequent</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Occasional</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Frequent/daily</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span style=\"text-decoration: underline;\"><strong>S</strong></span><span>uicidality</span></p>\n</td>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span>Example: Do you have any thoughts of wanting to kill yourself?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>No thoughts</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Ideation</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Plan or gesture</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span style=\"text-decoration: underline;\"><strong>E</strong></span><span>motions, behaviors, </span><span>thought disturbance</span></p>\n</td>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span>Example: How have you been feeling lately?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Mildly anxious/sad/acting out</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Moderately anxious/sad/acting out</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Significantly distressed/unable to function/out of control/bizarre thoughts/significant </span><span>change in functioning</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span><span style=\"text-decoration: underline;\"><strong>D</strong></span>ischarge or current resources</span></p>\n</td>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span>Example: Do you have any help or are you waiting to receive help (counseling etc.)?</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Ongoing/well connected</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>Some/not meeting needs</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>None/on waitlist/noncompliant</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\"><span>where 0 = &ldquo;No action needed&rdquo;, 1 = &ldquo;Needs action but not immediate/moderate functional impairment&rdquo;, 2 = &ldquo;Needs immediate action/severe functional impairment&rdquo;</span></p>",
+            "more_info_en": "<p>Referral for a specialized mental health assessment should be considered if the total sum score is &ge;8 or the &ldquo;Suicidality&rdquo; item is rated as a 2.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/22826567/",
+                  "text": "Cappelli M, Gray C, Zemek R, et al. The HEADS-ED: a rapid mental health screening tool for pediatric patients in the emergency department. Pediatrics. 2012;130(2):e321-327."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/28538605/",
+                  "text": "Cappelli M, Zemek R, Polihronis C, et al. The heads-ed: evaluating the clinical use of a brief, action-oriented, pediatric mental health screening tool. Pediatr Emerg Care. 2020;36(1):9-15."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Mario Cappelli",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p><span>Do you use HEADS-ED and want to contribute your expertise?&nbsp;</span><a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a><span>&nbsp;our contributor team!</span></p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>An item score of 0 implies no action needed for that item category, 1 equates to a recommendation of needs non-urgent action and community resource education, and 2 indicates that immediate action and referral is needed.</p>\n<p>Referral for a specialized mental health assessment should also be considered if the total sum score is &ge;8 or the &ldquo;Suicidality&rdquo; item is rated as a 2.</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Anxiety",
+          "Depression/Suicidality"
+        ],
+        "dosing": false,
+        "equation_logic": "bf377b2dbd31ca6cc27138b9e80dfe76",
+        "equation_logic_text": "var calc_output = [];\n\nvar home = parseFloat(home);\nvar education = parseFloat(education);\nvar peers = parseFloat(peers);\nvar drugs = parseFloat(drugs);\nvar suicidality = parseFloat(suicidality);\nvar emotions = parseFloat(emotions);\nvar discharge = parseFloat(discharge);\n\nvar score = home + education + peers + drugs + suicidality + emotions + discharge;\n\nvar rec = '';\n\nif (score >= 8) {\n    rec = '<br/><br/>Consider referral for a specialized mental health assessment because score ≥8.';\n}\nif (suicidality == 2) {\n    rec = '<br/><br/>Consider referral for a specialized mental health assessment because suicidality = 2.';\n}\nif (score >= 8 && suicidality == 2) {\n    rec = '<br/><br/>Consider referral for a specialized mental health assessment because score ≥8 and suicidality = 2.';\n}\n\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: 'HEADS-ED Score'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'HEADS-ED Score' + rec\n});",
+        "favorite_id": 10463,
+        "full_title_en": "HEADS-ED",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p><span style=\"text-decoration: underline;\"><strong>H</strong></span>ome</p>",
+            "mdcalc_info_concept": null,
+            "name": "home",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Supportive",
+                "value": 0
+              },
+              {
+                "label": "Conflicts",
+                "value": 1
+              },
+              {
+                "label": "Chaotic/dysfunctional",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Example: How does your family get along with each other?",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p><span style=\"text-decoration: underline;\"><strong>E</strong></span>ducation, employment</p>",
+            "mdcalc_info_concept": null,
+            "name": "education",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "On track",
+                "value": 0
+              },
+              {
+                "label": "Grades dropping or absenteeism",
+                "value": 1
+              },
+              {
+                "label": "Failing/not attending",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Example: How is your school attendance? How are your grades? Are you working?",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p><span style=\"text-decoration: underline;\"><strong>A</strong></span>ctivities &amp; peers</p>",
+            "mdcalc_info_concept": null,
+            "name": "peers",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No change",
+                "value": 0
+              },
+              {
+                "label": "Reduction in activities/increased peer conflicts",
+                "value": 1
+              },
+              {
+                "label": "Increasingly to fully withdrawn/significant peer conflicts",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Example: What are your relationships like with your friends?",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p><span style=\"text-decoration: underline;\"><strong>D</strong></span>rugs &amp; alcohol</p>",
+            "mdcalc_info_concept": null,
+            "name": "drugs",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "None or infrequent",
+                "value": 0
+              },
+              {
+                "label": "Occasional",
+                "value": 1
+              },
+              {
+                "label": "Frequent/daily",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Example: How often are you using drugs or alcohol?",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p><span style=\"text-decoration: underline;\"><strong>S</strong></span>uicidality</p>",
+            "mdcalc_info_concept": null,
+            "name": "suicidality",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No thoughts",
+                "value": 0
+              },
+              {
+                "label": "Ideation",
+                "value": 1
+              },
+              {
+                "label": "Plan or gesture",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Example: Do you have any thoughts of wanting to kill yourself?",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p><span style=\"text-decoration: underline;\"><strong>E</strong></span>motions, behaviors, thought disturbance</p>",
+            "mdcalc_info_concept": null,
+            "name": "emotions",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Mildly anxious/sad/acting out",
+                "value": 0
+              },
+              {
+                "label": "Moderately anxious/sad/acting out",
+                "value": 1
+              },
+              {
+                "label": "Significantly distressed/unable to function/out of control/bizarre thoughts/significant change in functioning",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Example: How have you been feeling lately?",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p><span style=\"text-decoration: underline;\"><strong>D</strong></span>ischarge or current resources</p>",
+            "mdcalc_info_concept": null,
+            "name": "discharge",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Ongoing/well connected",
+                "value": 0
+              },
+              {
+                "label": "Some/not meeting needs",
+                "value": 1
+              },
+              {
+                "label": "None/on waitlist/noncompliant",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Example: Do you have any help or are you waiting to receive help (counseling etc.)?",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>This tool provides individual recommendations for each item, along with a total score.&nbsp;</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "c2e7078a6d8ad762014b2441c78a1b1a",
+        "medium_description_en": "<p>Screens for pediatric mental health needs.</p>",
+        "publishedAt": "2023-02-14T18:16:42.335Z",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "HEADS-ED",
+          "heads ed",
+          "heads",
+          "mental health",
+          "pediatric mental health",
+          "screening",
+          "pediatric heads",
+          "pediatric heads-ed",
+          "pediatric heads ed",
+          "mental health screening"
+        ],
+        "search_id": "c-10463",
+        "seo": {
+          "keywords_en": "HEADS-ED, heads ed, heads, mental health, pediatric mental health, screening, pediatric heads, pediatric heads-ed, pediatric heads ed, mental health screening",
+          "meta_description_en": "The HEADS-ED screens for pediatric mental health needs."
+        },
+        "short_description_en": "<p>Pediatric mental health screening.</p>",
+        "short_title_en": "HEADS-ED",
+        "slug": "heads-ed",
+        "specialty_en": [
+          "Critical Care (Pediatric)",
+          "Emergency Medicine",
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Pediatrics",
+          "Psychiatry"
+        ],
+        "system_en": [
+          "Psychiatric"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "b2faad60-3b78-4bb6-8c65-0fe44b5eadbe"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p class=\"p1\">Mario Cappelli, PhD, is an adjunct professor of psychology and psychiatry at the University of Ottawa. He is also the senior child and youth mental health clinician-scientist at the Knowledge Institute for Child and Youth Mental Health &amp; Addiction. Dr. Cappelli&rsquo;s primary research is focused on mental health and addiction needs in children.</p>",
+          "createdAt": "2023-02-14T18:04:23.941Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Mario Cappelli",
+          "photo_en": "https://cdn-web-img.mdcalc.com/dr-mario-cappelli.jpeg",
+          "publishedAt": "2023-02-14T18:04:24.798Z",
+          "pubmedLink": "https://pubmed.ncbi.nlm.nih.gov/?term=cappelli+mario%5Bauthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2023-02-15T17:30:24.572Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10463/heads-ed",
+        "description": "The HEADS-ED screens for pediatric mental health needs.",
+        "keywords": "HEADS-ED, heads ed, heads, mental health, pediatric mental health, screening, pediatric heads, pediatric heads-ed, pediatric heads ed, mental health screening",
+        "title": "HEADS-ED"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10171,
+          "short_title_en": "ED-SAFE PSS-3",
+          "slug": "patient-safety-screener-3-pss-3"
+        },
+        {
+          "calcId": 10473,
+          "short_title_en": "PC-PTSD-5",
+          "slug": "primary-care-ptsd-screen-dsm-5-pc-ptsd"
+        },
+        {
+          "calcId": 10417,
+          "short_title_en": "HITS",
+          "slug": "hurt-insult-threaten-scream-hits-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10463",
+      "heads-ed"
+    ]
+  },
+  "scriptLoader": []
+}

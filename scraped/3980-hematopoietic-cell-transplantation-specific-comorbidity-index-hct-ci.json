@@ -1,0 +1,874 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Cancer"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "3980.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p><span>The HCT-CI was developed by </span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15994282\" target=\"_blank\" rel=\"noopener\"><span>Sorror et al</span></a><span> from the <calculator id=\"3917\">Charlson Comorbidity Index</calculator>. It incorporates several additional comorbidities and several specific measures of organ function, each of which is converted into weighted points, which are summed into a score that is predictive of NRM. The HCT-CI was developed at Fred Hutchinson Cancer Research Center (FHCRC) then initially validated in large cohorts of patients undergoing allogeneic HCT at FHCRC and MD Anderson Cancer Center, and in other single institution patient cohorts in the context of both myeloablative and reduced-intensity conditioned HCT. </span></p>\n<p><span>The HCT-CI is now routinely captured data by all transplant centers and submitted to the Center for International Blood and Marrow Transplantation Research (CIBTMR) to compare outcomes. </span></p>\n<p><span>Since its inception, the score has also been extended in use to patients undergoing high-dose therapy and autologous stem cell transplantation (HDT-ASCT). Of note, however, given that NRM after HDT-ASCT is generally much less common, the HCT-CI is generally not used as often as it is in the allogeneic HCT setting. </span></p>\n<p><span>More recently, <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4178523/\" target=\"_blank\" rel=\"noopener\">Sorror et al</a> added age into the calculation of the score, improving its predictive value and allowing for better incorporation of the prognostic role of age in transplantation decision-making. It is important to note that this was studied </span><em><span>only</span></em><span> in patients undergoing allo-HCT and included a group of patients undergoing allo-HCT for non-malignant diseases.</span></p>\n<p><span>Multiple investigators at several centers confirmed the significance of the HCT-CI, though several did not. Given this, a large prospective multi-center observational study (8,115 allo-HCT patients and 11,652 ASCT patients) was undertaken via the CIBMTR to definitively validate the predictive power of the HCT-CI for patients undergoing their first autologous and allogeneic hematopoietic cell transplantations for hematologic malignancies. The main outcomes of interest were NRM and OS. This study confirmed the validity of the HCT-CI in both allo-HCT and ASCT (</span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25862591\" target=\"_blank\" rel=\"noopener\"><span>Sorror et al, BBMT 2015</span></a><span>). Main results:</span></p>\n<ul>\n<li><span>In both allo-HCT and ASCT, and in all sub-groups even when adjusting for diagnosis, age and conditioning intensity, an HCT-CI &nbsp;&ge;3 was associated with higher NRM and lower overall survival.</span></li>\n<li><span>Allo-HCT patients &lt;18 years old or those receiving reduced-intensity condition (RIC) or nonmyeloablative (NMA) regimens with scores 1 and 2 had similar NRM and OS when compared to those with score 0. </span></li>\n<li><span>For ASCT, patients with scores 1 and 2 had similar NRM, but lower OS when compared to patients with score 0, and non-significant higher risk of NRM, but significantly higher risk of overall mortality compared with those with score 0. Patients with scores &ge;3 had significantly higher NRM and higher risk of overall mortality.</span></li>\n</ul>\n<p><strong>Allogeneic Hematopoietic-cell Transplantation (Allo-HCT)</strong><span>, all patients, all types of patients and transplants (NMA, RIC, and MAC)</span></p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<td colspan=\"2\" rowspan=\"2\">&nbsp;</td>\n<td colspan=\"3\">\n<p><strong>HCT-CI Score</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>0</strong></p>\n</td>\n<td>\n<p><strong>1&ndash;2</strong></p>\n</td>\n<td>\n<p><strong>&ge;3</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p><span>1 year</span></p>\n</td>\n<td>\n<p><span>NRM</span></p>\n</td>\n<td>\n<p><span>17%</span></p>\n</td>\n<td>\n<p><span>21%</span></p>\n</td>\n<td>\n<p><span>26%</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>OS</span></p>\n</td>\n<td>\n<p><span>69%</span></p>\n</td>\n<td>\n<p><span>62%</span></p>\n</td>\n<td>\n<p><span>56%</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p><span>3 years</span></p>\n</td>\n<td>\n<p><span>NRM</span></p>\n</td>\n<td>\n<p><span>24%</span></p>\n</td>\n<td>\n<p><span>28%</span></p>\n</td>\n<td>\n<p><span>35%</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>OS</span></p>\n</td>\n<td>\n<p><span>54%</span></p>\n</td>\n<td>\n<p><span>47%</span></p>\n</td>\n<td>\n<p><span>38%</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span><br>In sub-group analyses:</span></p>\n<ul>\n<li><span>Adjusting for high-dose conditioning (MAC vs. RIC/NMA):</span></li>\n<ul>\n<li><span>Patients receiving MAC with HCT-CI of 1&ndash;2 </span><em><span>and</span></em><span> &ge;3 had higher risk of NRM and OS compared with those with score 0, and had higher probabilities of NRM and lower OS in general. </span></li>\n<li><span>However, patients receiving RIC/NMA with scores 1&ndash;2 had similar NRM and OS, but those with score &ge;3 had higher NRM and lower OS when compared to those with score 0. </span></li>\n</ul>\n<li><span>When comparing children vs. adults:</span></li>\n<ul>\n<li><span>Adults with scores 1&ndash;2 and &ge;3 had higher NRM and lower OS when compared to score 0. </span></li>\n<li><span>For children, scores &ge;3 were associated with higher risk of NRM and lower OS when compared to score 0, but not when compared to scores 1&ndash;2.</span></li>\n</ul>\n</ul>\n<p><strong>Autologous Stem Cell Transplantation (ASCT),</strong><span> all types of patients and transplants</span></p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<td colspan=\"2\" rowspan=\"2\">&nbsp;</td>\n<td colspan=\"3\">\n<p><strong>HCT-CI Score</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>0</strong></p>\n</td>\n<td>\n<p><strong>1&ndash;2</strong></p>\n</td>\n<td>\n<p><strong>&ge;3</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p><span>1 year</span></p>\n</td>\n<td>\n<p><span>NRM</span></p>\n</td>\n<td>\n<p><span>3%</span></p>\n</td>\n<td>\n<p><span>3%</span></p>\n</td>\n<td>\n<p><span>5%</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>OS</span></p>\n</td>\n<td>\n<p><span>91%</span></p>\n</td>\n<td>\n<p><span>88%</span></p>\n</td>\n<td>\n<p><span>86%</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p><span>3 years</span></p>\n</td>\n<td>\n<p><span>NRM</span></p>\n</td>\n<td>\n<p><span>5%</span></p>\n</td>\n<td>\n<p><span>6%</span></p>\n</td>\n<td>\n<p><span>9%</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>OS</span></p>\n</td>\n<td>\n<p><span>79%</span></p>\n</td>\n<td>\n<p><span>73%</span></p>\n</td>\n<td>\n<p><span>70%</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span><br>For ASCT, patients with scores 1&ndash;2 had non-significant higher risk of NRM, but significantly higher risk of overall mortality compared with those with score 0. Patients with scores &ge;3 had significantly higher NRM and higher risk of overall mortality. </span></p>\n<p><span>In sub-group analysis: </span></p>\n<ul>\n<li><span>When comparing patients getting ASCT for multiple myeloma vs. lymphoma (the two most significant indications for ASCT), for both groups, patients with scores 1&ndash;2 had non-significant higher risk of NRM, but significantly higher risk of overall mortality compared with those with score 0. Patients with scores &ge;3 had significantly higher NRM and higher risk of overall mortality.</span></li>\n</ul>",
+            "formula_en": "<p>Addition of the selected points:</p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<td>\n<p>&nbsp;</p>\n</td>\n<td>\n<p><strong>0 points</strong></p>\n</td>\n<td>\n<p><strong>1 point</strong></p>\n</td>\n<td>\n<p><strong>2 points</strong></p>\n</td>\n<td>\n<p><strong>3 points</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>History of arrhythmia</p>\n</td>\n<td>\n<p>None</p>\n</td>\n<td>\n<p>Atrial fibrillation or flutter, sick sinus syndrome, or ventricular arrhythmias</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Cardiac dysfunction</p>\n</td>\n<td>\n<p>None</p>\n</td>\n<td>\n<p>CAD*, CHF, MI, or EF &le;50%</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>Heart valve disease (except mitral valve prolapse)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Inflammatory bowel disease</p>\n</td>\n<td>\n<p>None</p>\n</td>\n<td>\n<p>Crohn disease or ulcerative colitis</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Diabetes</p>\n</td>\n<td>\n<p>None or diet-controlled</p>\n</td>\n<td>\n<p>Treated with insulin or oral hypoglycemics</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Cerebrovascular disease</p>\n</td>\n<td>\n<p>None</p>\n</td>\n<td>\n<p>CVA or TIA</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Psychiatric disturbance</p>\n</td>\n<td>\n<p>None</p>\n</td>\n<td>\n<p>Depression or anxiety requiring psychiatric consult or treatment</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Hepatic dysfunction</p>\n</td>\n<td>\n<p>None</p>\n</td>\n<td>\n<p>Chronic hepatitis (bilirubin &gt;<abbr title=\"Upper limit of normal\">ULN</abbr> to 1.5&times; ULN, or AST/ALT &gt;ULN to</p>\n<p>2.5&times; ULN)</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>Liver cirrhosis (bilirubin &gt;1.5&times; ULN, or AST/ALT &nbsp;2.5&times; ULN)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Obesity (<calculator id=\"29\">BMI</calculator> &ge;35 kg/m<sup>2</sup>)</p>\n</td>\n<td>\n<p>No</p>\n</td>\n<td>\n<p>Yes</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Infection</p>\n</td>\n<td>\n<p>None or antibiotics only on day 0</p>\n</td>\n<td>\n<p>Requiring continuation of antimicrobial treatment after day 0</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>&nbsp;--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Rheumatologic disease</p>\n</td>\n<td>\n<p>None</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p><abbr title=\"Systemic lupus erythematosus\">SLE</abbr>, <abbr title=\"Rheumatoid arthritis\">RA</abbr>, polymyositis, mixed <abbr title=\"Connective tissue disorder\">CTD</abbr>, or polymyalgia rheumatica</p>\n</td>\n<td>\n<p>&nbsp;--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Peptic ulcer</p>\n</td>\n<td>\n<p>None or not requiring treatment</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>Requiring treatment</p>\n</td>\n<td>\n<p>--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Renal dysfunction</p>\n</td>\n<td>\n<p>None or serum creatinine &le;2 mg/dL (177 &micro;mol/L), not on dialysis, and no prior renal transplant</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>Serum creatinine &gt;2 mg/dL (177 &micro;mol/L), on dialysis, or prior renal transplant</p>\n</td>\n<td>\n<p>&nbsp;--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Pulmonary dysfunction</p>\n</td>\n<td>\n<p>None or mild</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p><abbr title=\"Diffusing capacity of lungs for carbon monoxide\">DLco</abbr>** and/or <abbr title=\"Forced expiratory volume, 1 sec\">FEV₁</abbr> 66%&ndash;80%, or dyspnea on slight activity</p>\n</td>\n<td>\n<p>DLco and/or FEV<sub>1</sub> &le;65% or dyspnea at rest or requiring oxygen</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Prior solid tumor</p>\n</td>\n<td>\n<p>None or nonmelanoma skin cancer</p>\n</td>\n<td>\n<p>&nbsp;--</p>\n</td>\n<td>\n<p>&nbsp;--</p>\n</td>\n<td>\n<p>Treated at any point in the patient&rsquo;s history</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"5\">\n<p><em>For age-adjusted HCT-CI (aaHCT-CI, optional):</em></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Age (years)</p>\n</td>\n<td>\n<p>&lt;40</p>\n</td>\n<td>\n<p>&ge;40</p>\n</td>\n<td>\n<p>--</p>\n</td>\n<td>\n<p>--&nbsp;</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><br>*One or more vessel-coronary artery stenosis requiring medical treatment, stent, or bypass graft.</p>\n<p><strong>**Dinakara equation for DLco: </strong></p>\n<p>DLco (% predicted normal) = 6.07 + 6.49 &times; Hgb (in mg/dL)</p>",
+            "more_info_en": "<p>Interpretation:</p>\n<p><strong>Allo-HCT</strong> (All types of patients and transplants: nonmyeloablative, reduced-intensity conditioning, myeloablative conditioning):</p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<td colspan=\"2\" rowspan=\"2\">&nbsp;</td>\n<td colspan=\"3\">\n<p><strong>HCT-CI Score</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>0</strong></p>\n</td>\n<td>\n<p><strong>1&ndash;2</strong></p>\n</td>\n<td>\n<p><strong>&ge;3</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p>1-year</p>\n</td>\n<td>\n<p>NRM</p>\n</td>\n<td>\n<p>17%</p>\n</td>\n<td>\n<p>21%</p>\n</td>\n<td>\n<p>26%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>OS</p>\n</td>\n<td>\n<p>69%</p>\n</td>\n<td>\n<p>62%</p>\n</td>\n<td>\n<p>56%</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p>3-year</p>\n</td>\n<td>\n<p>NRM</p>\n</td>\n<td>\n<p>24%</p>\n</td>\n<td>\n<p>28%</p>\n</td>\n<td>\n<p>35%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>OS</p>\n</td>\n<td>\n<p>54%</p>\n</td>\n<td>\n<p>47%</p>\n</td>\n<td>\n<p>38%</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><strong><br>ASCT</strong> (All types of patients and transplants):</p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<td colspan=\"2\" rowspan=\"2\">&nbsp;</td>\n<td colspan=\"3\">\n<p><strong>HCT-CI Score</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>0</strong></p>\n</td>\n<td>\n<p><strong>1&ndash;2</strong></p>\n</td>\n<td>\n<p><strong>&ge;3</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p>1-year</p>\n</td>\n<td>\n<p>NRM</p>\n</td>\n<td>\n<p>3%</p>\n</td>\n<td>\n<p>3%</p>\n</td>\n<td>\n<p>5%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>OS</p>\n</td>\n<td>\n<p>91%</p>\n</td>\n<td>\n<p>88%</p>\n</td>\n<td>\n<p>86%</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p>3-year</p>\n</td>\n<td>\n<p>NRM</p>\n</td>\n<td>\n<p>5%</p>\n</td>\n<td>\n<p>6%</p>\n</td>\n<td>\n<p>9%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>OS</p>\n</td>\n<td>\n<p>79%</p>\n</td>\n<td>\n<p>73%</p>\n</td>\n<td>\n<p>70%</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><strong>Age-adjusted HCT-CI</strong><span> (Allo-HCT </span><em><span>only</span></em><span>, including patients undergoing allo-HCT for nonmalignant diseases):</span></p>\n<table>\n<tbody>\n<tr>\n<td colspan=\"2\" rowspan=\"2\">&nbsp;</td>\n<td colspan=\"4\">\n<p><strong>aaHCT-CI Score</strong></p>\n<p><span>Allo-HCT only</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>0</strong></p>\n</td>\n<td>\n<p><strong>1&ndash;2</strong></p>\n</td>\n<td>\n<p><strong>3&ndash;4</strong></p>\n</td>\n<td>\n<p><strong>&ge;5</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p><span>2-year</span></p>\n</td>\n<td>\n<p><span>NRM</span></p>\n</td>\n<td>\n<p><strong>NMA: </strong><span>5%</span></p>\n<p><strong>RIC:</strong><span> 12%</span></p>\n<p><strong>MAC:</strong><span> 10%</span></p>\n</td>\n<td>\n<p><strong>NMA:</strong><span> 9%</span></p>\n<p><strong>RIC: </strong><span>18%</span></p>\n<p><strong>MAC:</strong><span> 20%</span></p>\n</td>\n<td>\n<p><strong>NMA: </strong><span>17%</span></p>\n<p><strong>RIC: </strong><span>36%</span></p>\n<p><strong>MAC: </strong><span>37%</span></p>\n</td>\n<td>\n<p><strong>NMA:</strong><span> 35%</span></p>\n<p><strong>RIC:</strong><span> 41%</span></p>\n<p><strong>MAC:</strong><span> 49%</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>OS</span></p>\n</td>\n<td>\n<p><strong>NMA: </strong><span>81%</span></p>\n<p><strong>RIC:</strong><span> 87%</span></p>\n<p><strong>MAC:</strong><span> 79%</span></p>\n</td>\n<td>\n<p><strong>NMA: </strong><span>74%</span></p>\n<p><strong>RIC:</strong><span> 70%</span></p>\n<p><strong>MAC:</strong><span> 66%</span></p>\n</td>\n<td>\n<p><strong>NMA: </strong><span>59%</span></p>\n<p><strong>RIC:</strong><span> 50%</span></p>\n<p><strong>MAC:</strong><span> 45%</span></p>\n</td>\n<td>\n<p><strong>NMA:</strong><span> 37%</span></p>\n<p><strong>RIC: </strong><span>35%</span></p>\n<p><strong>MAC: </strong><span>29%</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>NRM, non-relapse mortality. OS, overall survival. NMA, nonmyeloablative. RIC, reduced-intensity conditioning. MAC, myeloablative conditioning.<strong><br></strong></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/15994282 ",
+                  "text": "Sorror ML, Maris MB, Storb R, et al. Hematopoietic cell transplantation (HCT)-specific comorbidity index: a new tool for risk assessment before allogeneic HCT. Blood. 2005;106(8):2912-9."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "http://www.bloodjournal.org/content/121/15/2854",
+                  "text": "Sorror ML. How I assess comorbidities before hematopoietic cell transplantation. Blood. 2013;121(15):2854-63."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/5486228 ",
+                  "text": "Dinakara P, Blumenthal WS, Johnston RF, Kauffman LA, Solnick PB. The effect of anemia on pulmonary diffusing capacity with derivation of a correction equation. Am Rev Respir Dis. 1970;102(6):965-9."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4178523/ ",
+                  "text": "Sorror ML, Storb RF, Sandmaier BM, et al. Comorbidity-age index: a clinical measure of biologic age before allogeneic hematopoietic cell transplantation. J Clin Oncol. 2014;32(29):3249-56."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "http://www.bloodjournal.org/content/110/13/4606.long",
+                  "text": "Sorror ML, Giralt S, Sandmaier BM, et al. Hematopoietic cell transplantation specific comorbidity index as an outcome predictor for patients with acute myeloid leukemia in first remission: combined FHCRC and MDACC experiences. Blood. 2007;110(13):4606-13."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25862591",
+                  "text": "Sorror ML, Logan BR, Zhu X, et al. Prospective Validation of the Predictive Power of the Hematopoietic Cell Transplantation Comorbidity Index: A Center for International Blood and Marrow Transplant Research Study. Biol Blood Marrow Transplant. 2015;21(8):1479-87."
+                },
+                {
+                  "href": "http://www.bbmt.org/article/S1083-8791(07)00251-0/fulltext",
+                  "text": "Maruyama D, Fukuda T, Kato R, et al. Comparable antileukemia/lymphoma effects in nonremission patients undergoing allogeneic hematopoietic cell transplantation with a conventional cytoreductive or reduced-intensity regimen. Biol Blood Marrow Transplant 2007;13(8):932-941."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/19767782",
+                  "text": "Lim ZY, Ingram W, Brand R, et al. Impact of pretransplant comorbidities on alemtuzumab-based reduced-intensity conditioning allogeneic hematopoietic SCT for patients with high-risk myelodysplastic syndrome and AML. Bone Marrow Transplant. 2010;45(4):633-9."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/17724349 ",
+                  "text": "Sorror ML, Sandmaier BM, Storer BE, et al. Comorbidity and disease status based risk stratification of outcomes among patients with acute myeloid leukemia or myelodysplasia receiving allogeneic hematopoietic cell transplantation. J Clin Oncol. 2007;25(27):4246-54."
+                },
+                {
+                  "href": "http://jamanetwork.com/journals/jama/fullarticle/1104577 ",
+                  "text": "Sorror ML, Sandmaier BM, Storer BE, et al. Long-term outcomes among older patients following nonmyeloablative conditioning and allogeneic hematopoietic cell transplantation for advanced hematologic malignancies. JAMA. 2011;306(17):1874-83."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24342394 ",
+                  "text": "Saad A, Mahindra A, Zhang MJ, et al. Hematopoietic cell transplant comorbidity index is predictive of survival after autologous hematopoietic cell transplantation in multiple myeloma. Biol Blood Marrow Transplant. 2014;20(3):402-408.e1."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Michael Scordo, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Mohamed Sorror",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>The HCT-CI predicts non-relapse mortality (NRM) after HCT, based on pre-HCT comorbidities and organ dysfunction.</li>\n<li>Originally developed as a prognostic comorbidity model for HCT outcomes. A large, prospective, multi-center study (<span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25862591\" target=\"_blank\" rel=\"noopener\">Sorror et al, BBMT 2015</a>)</span> validated its use in predicting NRM and overall survival in patients undergoing allo-HCT and ASCT for hematologic malignancies.</li>\n<li>A modified HCT-CI incorporating age as a risk factor (aaHCT-CI) was recently studied and validated retrospectively, though the large prospective validation (<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4178523/\" target=\"_blank\" rel=\"noopener\"><span>Sorror et al, J Clin Oncol 2014</span></a>) was done using the original HCT-CI Score (not the aaHCT-CI).</li>\n<li>From <a href=\"http://www.bloodjournal.org/content/121/15/2854\" target=\"_blank\" rel=\"noopener\">Sorror 2013</a>, &ldquo;How I assess comorbidities before hematopoietic cell transplantation&rdquo;:\n<ul>\n<li>By itself, the score is not intended to recommend which patients should or should not be treated with allogeneic HCT. Ultimately, this decision comes down to the treating physician and the patient.</li>\n<li>When patients are assessed with pulmonary function testing, only pre-bronchodilator values of <abbr title=\"Forced expiratory volume, 1 sec\">FEV₁</abbr> are used for the HCT-CI, and <abbr title=\"Diffusing capacity of lungs for carbon monoxide\">DLco</abbr> should be corrected for hemoglobin using the Dinakara equation.</li>\n</ul>\n</li>\n</ul>",
+            "use_case_en": "<p><span>Patients with hematologic malignancies for whom allogeneic hematopoietic cell transplantation (allo-HCT) or autologous stem cell transplantation (ASCT) is being considered.</span></p>",
+            "why_use_en": "<ul>\n<li><span>May help clinicians decide the appropriateness of proceeding with HCT, or to choose the appropriate conditioning regimen intensity for individual patients undergoing HCT. </span></li>\n</ul>\n<ul>\n<li><span>Can also be used in statistical analyses to compare the baseline risk of NRM among different patients and studies. </span></li>\n<li><span>Has become a routinely reported tool in many subsequent studies within the field of HCT, particularly if the study assesses the incidence of NRM.</span></li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span>Should be used in shared decision making with the physician and patient regarding treatment options, </span><em><span>not</span></em><span> to dictate who should and should not undergo HCT.</span></p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Cancer",
+          "Hematologic Malignancy"
+        ],
+        "dosing": false,
+        "equation_logic": "be7afbfc82d163ebe7a3648f6dab95e8",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs - addition of selected points\nvar score = parseFloat(arr)+parseFloat(cardiac)+parseFloat(ibd)+parseFloat(diabetes)+parseFloat(cd)+parseFloat(psych)+parseFloat(hepatic)+parseFloat(obesity)+parseFloat(infection)+parseFloat(rheu)+parseFloat(peptic)+parseFloat(renal)+parseFloat(pulm)+parseFloat(prior);\n\n//interpretation\nvar mort1, mort3, survival1, survival3, intensity, aamort, aasurvival;\nif(trans==0){\n    if(score == 0){\n    \tmort1 = '17';\n        mort3 = '24%';\n    \tsurvival1 = '69%';\n        survival3 = '54%';\n    }else if(0 < score < 3){\n        mort1 = '21'; \n        mort3 = '28%';\n        survival1 = '62%';\n        survival3 = '47%';\n    }\n    if (score > 2){\n        mort1 = '26'; \n        mort3 = '35%';\n        survival1 = '56%';\n        survival3 = '38%';\n    }\n}\nif(trans==1){\n    if(score == 0){\n        mort1 = '3';\n        mort3 = '5%';\n        survival1 = '91%';\n        survival3 = '79%';\n    }else if(0 < score < 3){\n        mort1 = '3';\n        mort3 = '6%';\n        survival1 = '88%';\n        survival3 = '73%';\n    }\n    if (score > 2){\n        mort1 = '5';\n        mort3 = '9%';\n        survival1 = '86%';\n        survival3 = '70%';\n    } \n}\n\nvar age = parseFloat(age);\nvar aascore = score;\nif(age === 1 || age === 0){\n    aascore = score + age;  //age adjusted score\n    var pt = 'points';\n    if(aascore === 1){\n        pt = 'point';\n    }\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: mort1 + '% 1-yr NRM'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'HCT-CI Score'\n});\ncalc_output.push({\n    name: 'non-relapse mortality',\n    value: mort1,\n    value_text: '%',\n    message: 'NRM at 1 year<br/><br/>' + '1-year OS: ' + survival1 + '<br/>3-year NRM: ' + mort3 + '<br/>3-year OS: ' + survival3 \n});\nif(age == 1 || age == 0){\n    if(intensity==0){ // NMA\n        if(aascore === 0){\n            aamort = '5%';\n            aasurvival = '81%';\n        }else if(aascore === 1 || aascore === 2){\n            aamort = '9%';\n            aasurvival = '74%';\n        }else if(aascore === 3 || aascore === 4){\n            aamort = '17%';\n            aasurvival = '59%';\n        }else if(aascore > 4){\n            aamort = '35%';\n            aasurvival = '37%';\n        }\n    }\n    if(intensity==1){ // RIC\n        if(aascore === 0){\n            aamort = '12%';\n            aasurvival = '87%';\n        }else if(aascore === 1 || aascore === 2){\n            aamort = '18%';\n            aasurvival = '70%';\n        }else if(aascore === 3 || aascore === 4){\n            aamort = '36%';\n            aasurvival = '50%';\n        }else if(aascore > 4){\n            aamort = '41%';\n            aasurvival = '35%';\n        }\n    }\n    if(intensity==2){ // MAC\n        if(aascore === 0){\n            aamort = '10%';\n            aasurvival = '79%';\n        }else if(aascore === 1 || aascore === 2){\n            aamort = '20%';\n            aasurvival = '66%';\n        }else if(aascore === 3 || aascore === 4){\n            aamort = '37%';\n            aasurvival = '45%';\n        }else if(aascore > 4){\n            aamort = '49%';\n            aasurvival = '29%';\n        }\n    }\n\n    calc_output.push({\n    name: 'aaScore',\n    value: aascore,\n    value_text: pt,\n    message: 'Age-adjusted HCT-CI Score (allo-HCT only)<br/><br/>2-year NRM: ' + aamort + '<br/>2-year OS: ' + aasurvival\n});\n}",
+        "favorite_id": 3980,
+        "full_title_en": "Hematopoietic Cell Transplantation-specific Comorbidity Index (HCT-CI)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>History of arrhythmia</p>",
+            "name": "arr",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Afib/flutter, <abbr title='Sick sinus syndrome'>SSS</abbr>, or ventricular arrhythmias",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Cardiac disease</p>",
+            "name": "cardiac",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "CAD, CHF, MI, or EF ≤50%",
+                "value": 1
+              },
+              {
+                "label": "Valvular disease (except mitral prolapse)",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "CAD = ≥1 vessel coronary stenosis requiring medical tx, stent, or CABG",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Inflammatory bowel disease</p>",
+            "name": "ibd",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Crohn disease or ulcerative colitis",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Diabetes</p>",
+            "name": "diabetes",
+            "optional": false,
+            "options": [
+              {
+                "label": "None or diet-controlled",
+                "value": 0
+              },
+              {
+                "label": "Treated w/insulin or oral hypoglycemics",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Cerebrovascular disease</p>",
+            "name": "cd",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "CVA or TIA",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Psychiatric disturbance</p>",
+            "name": "psych",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Depression or anxiety requiring psych consult or treatment",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Hepatic dysfunction</p>",
+            "name": "hepatic",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Chronic hepatitis (bilirubin ><abbr title='Upper limit of normal'>ULN</abbr> to 1.5× ULN, or AST/ALT >ULN to 2.5× ULN)",
+                "value": 1
+              },
+              {
+                "label": "Liver cirrhosis (bilirubin >1.5× ULN, or AST/ALT 2.5× ULN)",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Obesity (<calculator id=\"29\">BMI</calculator> &ge;35 kg/m&sup2;)</p>",
+            "name": "obesity",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Infection</p>",
+            "name": "infection",
+            "optional": false,
+            "options": [
+              {
+                "label": "None or abx only on day 0 ",
+                "value": 0
+              },
+              {
+                "label": "Requiring continuation of abx after day 0",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Rheumatologic disease</p>",
+            "name": "rheu",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "<abbr title='Systemic lupus erythematosus'>SLE</abbr>, <abbr title='Rheumatoid arthritis'>RA</abbr>, polymyositis, mixed <abbr title='Connective tissue disorder'>CTD</abbr>, or polymyalgia rheumatica",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Peptic ulcer</p>",
+            "name": "peptic",
+            "optional": false,
+            "options": [
+              {
+                "label": "None or not requiring treatment",
+                "value": 0
+              },
+              {
+                "label": "Requiring treatment",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Renal dysfunction</p>",
+            "name": "renal",
+            "optional": false,
+            "options": [
+              {
+                "label": "None or serum Cr ≤2 mg/dL (177 µmol/L), not on dialysis, and no prior renal transplant",
+                "value": 0
+              },
+              {
+                "label": "Serum Cr >2 mg/dL (177 µmol/L), on dialysis, or prior renal transplant",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Pulmonary dysfunction</p>",
+            "name": "pulm",
+            "optional": false,
+            "options": [
+              {
+                "label": "None or mild",
+                "value": 0
+              },
+              {
+                "label": "<abbr title='Diffusing capacity of lungs for carbon monoxide'>DLco</abbr> and/or <abbr title='Forced expiratory volume, 1 sec'>FEV₁</abbr> 66%–80%, or dyspnea on slight activity",
+                "value": 2
+              },
+              {
+                "label": "DLco and/or FEV<sub>1</sub> ≤65% or dyspnea at rest or requiring oxygen",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Prior solid tumor</p>",
+            "name": "prior",
+            "optional": false,
+            "options": [
+              {
+                "label": "None or nonmelanoma skin cancer",
+                "value": 0
+              },
+              {
+                "label": "Treated at any point in the patient’s history",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Type of transplant</p>",
+            "name": "trans",
+            "optional": false,
+            "options": [
+              {
+                "label": "Allo-HCT",
+                "value": 0
+              },
+              {
+                "label": "ASCT",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Allo-HCT = allogeneic hematopoietic cell transplant, ASCT = autologous stem cell transplant",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "trans==0",
+            "default": null,
+            "label_en": "<p>Age</p>",
+            "name": "age",
+            "optional": true,
+            "options": [
+              {
+                "label": "<40",
+                "value": 0
+              },
+              {
+                "label": "≥40",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "For age-adjusted HCT-CI (allo-HCT only)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "age==0 || age==1",
+            "default": null,
+            "label_en": "<p>Intensity</p>",
+            "name": "intensity",
+            "optional": false,
+            "options": [
+              {
+                "label": "Non-myeloablative (NMA)",
+                "value": 0
+              },
+              {
+                "label": "Reduced intensity conditioning (RIC)",
+                "value": 1
+              },
+              {
+                "label": "Myeloablative conditioning (MAC)",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p><span>Entering age to obtain age-adjusted HCT-CI is optional. The original HCT-CI (without age adjustment) is still considered the standard.</span></p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "removed contributor Craig Sauter per his request",
+            "time": "2018-11-28 02:03 PM",
+            "user": "rachel"
+          }
+        ],
+        "md5": "3c764b274c1326be1b61211fb3ce50fc",
+        "medium_description_en": "<p><span>Predicts survival after HCT in patients with hematologic malignancies, including optional age adjustment.</span></p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "HCT",
+          "HSCT",
+          "stem cell transplant",
+          "comorbidity",
+          "comorbidities",
+          "hct ci",
+          "age adjusted HCT",
+          "aaHCT"
+        ],
+        "search_id": "c-3980",
+        "seo": {
+          "keywords_en": "Hct-ci, hct, hct ci, hsct, stem cell transplant",
+          "meta_description_en": "The Hematopoietic Cell Transplantation (HCT)-specific Comorbidity Index predicts survival after HCT in patients with hematologic malignancies."
+        },
+        "short_description_en": "<p>Survival after HCT.</p>",
+        "short_title_en": "HCT-CI",
+        "slug": "hematopoietic-cell-transplantation-specific-comorbidity-index-hct-ci",
+        "specialty_en": [
+          "Hematology and Oncology"
+        ],
+        "system_en": [
+          "Hematologic",
+          "Oncologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Michael",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Scordo",
+          "name": "Michael Scordo, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Mohamed Sorror, MD, is an associate professor of medicine at the University of Washington. He is also an associate member of the clinical research division at Fred Hutchinson Cancer Research Center. Dr. Sorror’s research interests are focused on hematological malignancies.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Mohamed Sorror",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-mohamed-l-sorror.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Sorror+ML%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3980/hematopoietic-cell-transplantation-specific-comorbidity-index-hct-ci",
+        "description": "The Hematopoietic Cell Transplantation (HCT)-specific Comorbidity Index predicts survival after HCT in patients with hematologic malignancies.",
+        "keywords": "Hct-ci, hct, hct ci, hsct, stem cell transplant",
+        "title": "Hematopoietic Cell Transplantation-specific Comorbidity Index (HCT-CI)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10040,
+          "short_title_en": "Duval/CIBMTR Score",
+          "slug": "duval-cibmtr-score-acute-myelogenous-leukemia-aml-survival"
+        },
+        {
+          "calcId": 10009,
+          "short_title_en": "Blood Stem Cell Collection",
+          "slug": "peripheral-blood-stem-cell-collection"
+        },
+        {
+          "calcId": 3917,
+          "short_title_en": "Charlson Comorbidity Index",
+          "slug": "charlson-comorbidity-index-cci"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3980",
+      "hematopoietic-cell-transplantation-specific-comorbidity-index-hct-ci"
+    ]
+  },
+  "scriptLoader": []
+}

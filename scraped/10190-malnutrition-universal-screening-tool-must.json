@@ -1,0 +1,638 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Preventive Care/Screening",
+          "Weight Loss/Gain"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+81",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+81",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "10190.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\">The MUST was originally derived as a report based on expert consensus (<a href=\"https://www.bapen.org.uk/pdfs/must/must-report.pdf\" target=\"_blank\" rel=\"noopener\">Elia 2003</a>) and has since been externally validated in a number of studies.</p>\n<p dir=\"ltr\">In a cohort study of 132 patients admitted under a general medical service, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28917223\" target=\"_blank\" rel=\"noopener\">Sharma et al (2017)</a> found that, when compared to the Patient-Generated Subjective Global Assessment (PG-SGA), MUST was 69.7% sensitive and 75.8% specific for detecting malnutrition. Kappa statistics showed 72.7% agreement (k = 0.49). The study also showed that the MUST had a significant inverse correlation with BMI.</p>\n<p dir=\"ltr\"><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15533269\" target=\"_blank\" rel=\"noopener\">Stratton et al (2004)</a>&nbsp;found variable agreement with other similar nutritional assessment tools, ranging from poor (k = 0.255 for Undernutrition Risk Score) to excellent (k = 0.775-0.893 for <calculator id=\"4012\">Nutrition Risk Screening 2002</calculator> and others). Notably, the study also suggested a high prevalence of malnutrition in both hospital inpatient and outpatient groups (19-60%)</p>\n<p><span id=\"docs-internal-guid-ee087f56-7fff-d3cc-555c-319f697c9b4e\"><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22142968\" target=\"_blank\" rel=\"noopener\">Bol&eacute;o-Tom&eacute; et al (2012)</a> validated MUST in a radiation oncology patient cohort and found that percentage weight loss in the previous 3-6 months was valid to predict nutritional risk.</span></p>",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"260\"><col width=\"103\"><col width=\"86\"></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><calculator id=\"29\">BMI</calculator>, kg/m<sup>2</sup></p>\n</td>\n<td>\n<p dir=\"ltr\">&gt;20</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">18.5-20</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;18.5</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Unplanned weight loss in past 3-6 months</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;5%</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">5-10%</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;10%</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Patient is acutely ill and there has been or is likely to be no nutritional intake for &gt;5 days</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-40fcfb92-7fff-0a6d-9d08-25749beb6d94\"><span id=\"docs-internal-guid-40fcfb92-7fff-0a6d-9d08-25749beb6d94\">&nbsp;</span></span></p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"57\"><col width=\"86\"><col width=\"306\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>MUST Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Overall malnutrition risk</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Suggested management by BAPEN guidelines</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n<td>\n<p dir=\"ltr\">Routine clinical care</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n<td>\n<p dir=\"ltr\">Medium</p>\n</td>\n<td>\n<p dir=\"ltr\">Observe; document dietary intake and if adequate/little concern, continue screening; if inadequate, improve and increase overall intake according to local policy</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;2</p>\n</td>\n<td>\n<p dir=\"ltr\">High</p>\n</td>\n<td>\n<p dir=\"ltr\">Treat*; refer to dietitian, improve and increase overall intake, increase frequency of monitoring according to local policy</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">*Unless detrimental or no benefit is expected from nutritional support, e.g. imminent death.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.bapen.org.uk/pdfs/must/must-report.pdf",
+                  "text": "Elia M. Screening for malnutrition: A multidisciplinary responsibility. Development and Use of the Malnutrition Universal Screening Tool (‘MUST’) for Adults. Redditch: BAPEN; 2003."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/29954811",
+                  "text": "Murphy J, Mayor A, Forde E. Identifying and treating older patients with malnutrition in primary care: the MUST screening tool. Br J Gen Pract. 2018;68(672):344-345."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/15533269",
+                  "text": "Stratton RJ, Hackston A, Longmore D, et al. Malnutrition in hospital outpatients and inpatients: prevalence, concurrent validity and ease of use of the 'malnutrition universal screening tool' ('MUST') for adults. The British Journal of Nutrition. 2004;92(5):799-808."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22142968",
+                  "text": "Boléo-Tomé C, Monteiro-Grillo I, Camilo M, Ravasco P. Validation of the Malnutrition Universal Screening Tool (MUST) in cancer. The British Journal of Nutrition. 2012;108(2):343-8."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28917223",
+                  "text": "Sharma Y, Thompson C, Kaambwa B, Shahi R, Miller M. Validity of the Malnutrition Universal Screening Tool (MUST) in Australian hospitalized acutely unwell elderly patients. Asia Pacific Journal of Clinical Nutrition. 2017;26(6):994-1000."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Lorcan Martyn, MB BCh BAO"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Marinos Elia",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-4bf759cd-7fff-fac6-09b9-1d3feb58c637\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">If height cannot be measured, recently documented or self-reported height may be used, if reliable and realistic.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">If the patient does not know or cannot report their height, height may be estimated by one of the following: ulna length, knee height, demispan.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">If height and weight cannot be obtained, use mid-upper arm circumference (MUAC) in place of BMI.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Training staff to correctly score MUST and to take appropriate next steps in management is an important barrier to universal and routine implementation of this scoring system.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">High nursing staff turnover can be an important confounding factor in MUST use.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Simple behavioral methods of support can be used to encourage oral intake, such as encouraging patients to eat and/or eat in small portions, providing patients with favorite meals, and assisting patients with feeding.</p>\n</li>\n<li dir=\"ltr\">MUST is primarily used in the UK.&nbsp;</li>\n</ul>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-3744765c-7fff-a38f-a541-121fc933fe15\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients at risk for malnutrition.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Per <a href=\"https://www.bapen.org.uk/pdfs/must/must_full.pdf\" target=\"_blank\" rel=\"noopener\">BAPEN guidelines</a>, patients should be screened at the following intervals:</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Hospital inpatients: weekly.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients in community care homes: monthly.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Outpatients: annually if low risk, monthly to every 3 months depending on clinical status if not low risk.</p>\n</li>\n</ul>\n</ul>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-b6498621-7fff-2524-3128-48e200b9b146\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">If untreated, malnutrition can lead to poorer health outcomes with increased morbidity and significantly reduced quality of life.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Studies have shown that patients who are malnourished access health services more often in both acute hospital and primary care settings (<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6014405/\" target=\"_blank\" rel=\"noopener\">Murphy 2018</a>).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When admitted, patients who are malnourished have more complications, longer inpatient stays, and higher mortality rates (<a href=\"https://www.nice.org.uk/Guidance/CG32\" target=\"_blank\" rel=\"noopener\">NICE 2006</a>).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Routine use of this screening tool can objectively identify patients who are at risk of malnutrition or suffering from malnourishment. Subsequent intervention can mitigate poorer health outcomes.</p>\n</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-3ad48a75-7fff-534a-8706-c8601569b7d2\">Per&nbsp;<a href=\"https://www.bapen.org.uk/pdfs/must/must_full.pdf\" target=\"_blank\" rel=\"noopener\">BAPEN guidelines</a>, patients should be screened as follows:</span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Low risk&nbsp;(MUST Score = 0) patients should have routine repeat screening according to the clinical setting:</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Hospital &ndash; weekly.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Care homes &ndash; monthly.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Community &ndash; annually, for special groups (e.g. those &gt;75 years old).</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">For medium risk (MUST Score = 1) patients, formally document dietary intake for 3 days if patient in hospital or care home. If improvement in the patient&rsquo;s dietary intake and little clinical concern, then documentation may be discontinued.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">If there is no improvement with intake and/or clinical concern by staff, then dietician referral can be considered. Continue repeat screening as follows:</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Hospital &ndash; weekly.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Care home &ndash; at least monthly.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Community &ndash; at least every 2-3 months.</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">For high risk (MUST Score &ge;2) patients, refer to dietician in hospital or community dietician support team. Increase and document overall nutritional intake. Monitor and review care plan as follows:</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Hospital &ndash; weekly.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Care home &ndash; monthly.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Community &ndash; monthly.</p>\n</li>\n</ul>\n</ul>\n<p>Even though increasing scores correlate with increased risk, clinical circumstances exist where lower scores are still very high risk, e.g. anorexia nervosa.</p>",
+            "critical_actions_en": "<p><span id=\"docs-internal-guid-7f632908-7fff-a999-1e33-7aa5f0f5d2bd\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">For all risk categories, treat any underlying conditions while optimizing nutritional status. Record need for special diets, and provide help and advice on food choices, eating, and drinking when necessary.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Always record the presence of obesity.</p>\n</li>\n</ul>",
+            "management_en": "<p><span id=\"docs-internal-guid-69b886da-7fff-86f8-6a3e-d43d0807c18f\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">For patients requiring nutritional support in hospital, a dietician should be involved at an early stage.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Nutritional support can be categorized as oral nutritional supplements, enteral tube nutrition, and parenteral nutrition. Again, these methods are prescribed and monitored under specialist supervision, especially in the case of critically ill patients.</p>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Malnutrition"
+        ],
+        "dosing": false,
+        "equation_logic": "726914c3dbbcad4a5141e2da733feb32",
+        "equation_logic_text": "var calc_output = [];\nvar acute = parseFloat(acute);\nvar unplanned = parseFloat(unplanned);\nvar bmi = parseFloat(bmi);\n\nvar score = bmi + unplanned + acute;\n\nvar risk;\nvar rec;\n\nif (score == 0) {\n  risk = 'Low';\n  rec = 'Routine clinical care';\n} else if (score == 1) {\n  risk = 'Medium';\n  rec = 'Observe; document dietary intake and if adequate/little concern, continue screening; if inadequate, improve and increase overall intake according to local policy';\n} else if (score >= 2) {\n  risk = 'High';\n  rec = 'Treat (unless detrimental or no benefit is expected from nutritional support, e.g. imminent death); refer to dietitian, improve and increase overall intake, increase frequency of monitoring according to local policy';\n}\n\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: risk + ' overall malnutrition risk'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'MUST Score'  \n});\ncalc_output.push({\n    name: 'Score',\n    value: risk,\n    value_text: 'risk',\n    message: rec   \n});",
+        "favorite_id": 10190,
+        "full_title_en": "Malnutrition Universal Screening Tool (MUST)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p><calculator id=\"29\">BMI</calculator>, kg/m<sup>2</sup></p>",
+            "name": "bmi",
+            "optional": false,
+            "options": [
+              {
+                "label": ">20",
+                "value": 0
+              },
+              {
+                "label": "18.5-20",
+                "value": 1
+              },
+              {
+                "label": "<18.5",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Unplanned weight loss in past 3-6 months</p>",
+            "name": "unplanned",
+            "optional": false,
+            "options": [
+              {
+                "label": "<5%",
+                "value": 0
+              },
+              {
+                "label": "5-10%",
+                "value": 1
+              },
+              {
+                "label": ">10%",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Patient is acutely ill and there has been or is likely to be no nutritional intake for &gt;5 days</p>",
+            "name": "acute",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Use in patients &ge;18 years old. May be applied in either a hospital or community setting.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added content",
+            "time": "2019-04-30 09:40 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added inputs",
+            "time": "2019-04-30 09:42 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-04-30 09:47 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-04-30 09:53 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added dummy test",
+            "time": "2019-04-30 02:31 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added calc like",
+            "time": "2019-04-30 02:33 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited desc",
+            "time": "2019-04-30 02:46 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited results",
+            "time": "2019-04-30 02:48 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited calc",
+            "time": "2019-04-30 03:29 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-05-07 09:52 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2019-05-07 10:21 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2019-05-07 10:25 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-05-07 12:23 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-13 02:42 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-05-13 02:49 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "publish",
+            "time": "2019-05-16 10:30 AM",
+            "user": "rachel"
+          }
+        ],
+        "md5": "92b3700f58c3311ea4461a724a3d7e27",
+        "medium_description_en": "<p>Identifies patients who are malnourished or at risk of malnutrition.</p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "MUST",
+          "malnutrition universal screen tool",
+          "undernutrition"
+        ],
+        "search_id": "c-10190",
+        "seo": {
+          "keywords_en": "MUST, malnutrition universal screen tool, undernutrition",
+          "meta_description_en": "The Malnutrition Universal Screening Tool (MUST) identifies patients who are malnourished or are at risk of malnutrition."
+        },
+        "short_description_en": "<p>Malnutrition risk.</p>",
+        "short_title_en": "Malnutrition Universal Screening Tool (MUST)",
+        "slug": "malnutrition-universal-screening-tool-must",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Family Practice",
+          "Geriatrics",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Primary Care",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Endocrine and Metabolic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Lorcan",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Martyn",
+          "name": "Lorcan Martyn, MB BCh BAO",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Marinos Elia, MD, BSc (Hons), FRCP, is a professor of clinical nutrition and metabolism at the University of Southampton in the UK. He was previously the editor-in-chief of <i>Clinical Nutrition</i> and chair of the British Association for Parenteral and Enteral Nutrition (BAPEN). Dr. Elia’s primary research is focused on nutritional screening and health economics of malnutrition.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Marinos Elia",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-marinos-elia.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Elia%20M%5BAuthor%5D&cauthor=true&cauthor_uid=29719384",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10190/malnutrition-universal-screening-tool-must",
+        "description": "The Malnutrition Universal Screening Tool (MUST) identifies patients who are malnourished or are at risk of malnutrition.",
+        "keywords": "MUST, malnutrition universal screen tool, undernutrition",
+        "title": "Malnutrition Universal Screening Tool (MUST)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 4012,
+          "short_title_en": "NRS-2002",
+          "slug": "nutrition-risk-screening-2002-nrs-2002"
+        },
+        {
+          "calcId": 29,
+          "short_title_en": "BMI & BSA",
+          "slug": "body-mass-index-bmi-body-surface-area-bsa"
+        },
+        {
+          "calcId": 10419,
+          "short_title_en": "AAS",
+          "slug": "abuse-assessment-screen-aas"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10190",
+      "malnutrition-universal-screening-tool-must"
+    ]
+  },
+  "scriptLoader": []
+}

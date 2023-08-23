@@ -1,0 +1,788 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Bleeding"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "10012.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p></p>\n<p>(A) Absolute CD3<sup>+</sup> lymphocyte count, cells/mL = donor WBC x donor % total lymphocytes x donor % CD3+ lymphocytes x 1,000</p>\n<p>(B) Total CD3+ cells needed = weight, kg x CD3<sup>+</sup> infusion dose, cells/kg x number of doses desired</p>\n<p>(C) Total blood volume needed, L = (B / A) / collection efficiency</p>\n<p>Note: percents should be expressed as fractions, e.g. 30% total lymphocytes should be 0.30 in equation (A).</p>\n<p><strong>Example:</strong></p>\n<p>For a 85 kg patient with WBC 6.2, 30% lymphocytes, 54% CD3<sup><sub>+</sub></sup> lymphocytes who will receive 2 doses of 50 &times; 10⁶ cells/kg each, collection efficiency 50%:</p>\n<p>(A) Absolute CD3<sup>+</sup>&nbsp;lymphocyte count = 6.2 x 10<sup>3</sup> x 0.30 x 0.54 x 1,000 = 1.004 x 10<sup>6</sup> cells/mL</p>\n<p>(B) Total CD3<sup>+</sup> cells needed = 85 x (50&nbsp;&times; 10⁶) x 2 = 8.5 x 10<sup>9</sup> CD3<sup>+</sup> cells</p>\n<p>(C) Total blood volume needed, L = 8.5 x 10<sup>9</sup> / 1.004 x 10<sup>6</sup> / 0.5 = 16.9 L</p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.google.com/books/edition/Hematopoietic_Stem_Cell_Transplantation/wzkNYAAACAAJ?hl=en",
+                  "text": "Wingard JR. Hematopoietic Stem Cell Transplantation, A Handbook for Clinicians. 2010."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Ronald George Hauser, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "OTHER",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>DLI calculations rely on having a number of baseline clinical and laboratory values readily available from the donor, including the total white blood cell count and total lymphocyte percentage of the donor (typically obtained by automated CBC analysis), the percentage of total donor lymphocytes that are CD3+ T-cells (typically obtained by flow cytometry), as well as information needed about the recipient including their weight, the desired number of CD3+ cells/kg to be infused, and the number of doses to be infused; the latter two items are typically established by the recipient&rsquo;s treating physician or transplant physician.</li>\n<li>If flow cytometry data are not readily available, it is reasonable to estimate that the percentage of total donor lymphocytes that are CD3+ is 50%.</li>\n<li>A typical goal for DLI procedures is to collect 1 dose of 5x10<sup>7</sup> CD3+ T-cells/kg recipient body weight; however, this will vary from case-to-case.</li>\n<li>The calculation assumes a cellular collection efficiency of 50% by the apheresis instrument; this can vary somewhat from procedure-to-procedure.</li>\n</ul>",
+            "use_case_en": "<ul>\n<li>Patients who have received allogeneic stem cell transplants may be given donor lymphocyte infusions (DLI) as a means to augment/enhance the graft-versus-tumor effect. These cell therapy products are typically collected from the original donor of the hematopoietic progenitor cell used for the initial allograft.</li>\n<li>This equation estimates the volume of allogeneic donor whole blood volume to process in order to achieve an appropriate DLI dose.</li>\n</ul>",
+            "why_use_en": "<p>DLI is an important aspect of allogeneic stem cell transplant management. However, this is an infrequently performed procedure with a complex equation used to estimate appropriate donor collection volumes. This calculation should promote accurate and evidence-based collection of DLI cell therapy products.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Discuss with apheresis nursing/technical staff the volume of whole blood to be processed. Ensure that cell therapy processing laboratory is also aware of the number of doses the final collection is to be divided into for infusion.</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Anemia",
+          "Hematologic Malignancy",
+          "Leukemia/Lymphoma"
+        ],
+        "dosing": true,
+        "equation_logic": "099ff7043effb123d8e0fbf6cd02f423",
+        "equation_logic_text": "var calc_output = [];\n\nvar wbc = parseFloat(wbc) * 1000\nvar lymphs_total = parseFloat(lymphs_total) / 100\nvar lymphs_cd3 = parseFloat(lymphs_cd3) / 100\nvar efficiency = parseFloat(efficiency) / 100\n\nvar abs = wbc * lymphs_total\n\nvar donor_abs = abs * lymphs_cd3 * 1000\n\nvar cells = wt * cd3*1000000 * infusions\n    \nvar tbv = cells / donor_abs\n\nvar blood = tbv / efficiency / 1000\n\ncalc_output.push({\n   name: 'mini',\n   value: blood.toFixed(1),\n   value_text: 'L',\n   message: ''\n});\ncalc_output.push({\n   name: 'units',\n   value: blood.toFixed(1),\n   value_text: 'L',\n   message: 'Processed blood'\n});",
+        "favorite_id": 10012,
+        "full_title_en": "Donor Lymphocyte Infusion (DLI) Volume",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Recipient weight",
+            "name": "wt",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "wt"
+          },
+          {
+            "conditionality": "",
+            "default": 50,
+            "label_en": "CD3+ infusion dose",
+            "name": "cd3",
+            "optional": false,
+            "tips_en": "Number of CD+ cells to be infused to recipient per dose",
+            "type": "textbox",
+            "unit": "cd3"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Number of infusions to recipient",
+            "name": "infusions",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "infusions"
+          },
+          {
+            "conditionality": "",
+            "default": 50,
+            "label_en": "Collection efficiency",
+            "name": "efficiency",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Donor WBC",
+            "name": "wbc",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "wbc"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Donor total lymphocytes",
+            "name": "lymphs_total",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "donor_total_lymphs"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Donor CD3+ lymphocytes",
+            "name": "lymphs_cd3",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "donor_cd3"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "george edit - changed (1 - efficiency) to (efficiency)",
+            "time": "2019-10-03T10:02:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "db test",
+            "time": "2019-06-18T13:27:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "db test",
+            "time": "2019-06-18T13:24:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "added disease",
+            "time": "2019-06-12T11:02:00.000Z",
+            "user": "kimberly"
+          },
+          {
+            "message": "GW edits",
+            "time": "2018-10-01T10:25:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added example",
+            "time": "2018-09-27T10:33:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added specialty Transfusion Medicine",
+            "time": "2018-09-13T17:53:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "removed comma",
+            "time": "2018-08-02T12:18:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "changed input descriptions per contributor feedback and deleted creator",
+            "time": "2018-08-02T12:17:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "fixed bug (result was off by 1,000)",
+            "time": "2018-07-24T15:43:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "test",
+            "time": "2018-07-20T16:11:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "contributor feedback",
+            "time": "2018-07-19T19:58:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "contributor feedback",
+            "time": "2018-06-19T14:38:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "contributor feedback",
+            "time": "2018-06-05T17:26:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "alpha testing",
+            "time": "2018-05-11T18:06:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "alpha testing",
+            "time": "2018-05-11T17:15:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "new calc build",
+            "time": "2018-05-11T16:51:00.000Z",
+            "user": "rachel"
+          }
+        ],
+        "md5": "cb93b8715df19eafebee09e17af85533",
+        "medium_description_en": "<p>Estimates volume of whole blood to process by apheresis to yield an appropriate DLI dosage.</p>",
+        "purpose_en": [
+          "Calculation",
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "whole blood",
+          "donor blood",
+          "donor lymphocytes"
+        ],
+        "search_id": "c-10012",
+        "seo": {
+          "keywords_en": "Whole blood, donor blood, donor lymphocyte infusion, blood, dose, DLI, volume, apheresis, ",
+          "meta_description_en": "The Donor Lymphocyte Infusion (DLI) Volume to Process by Apheresis estimates the volume of whole blood to be processed by apheresis to yield an appropriate DLI dosage."
+        },
+        "short_description_en": "Estimates DLI dosage.",
+        "short_title_en": "Donor Lymphocyte Infusion Volume",
+        "slug": "donor-lymphocyte-infusion-dli-volume",
+        "specialty_en": [
+          "Hematology and Oncology",
+          "Pathology",
+          "Transfusion Medicine"
+        ],
+        "system_en": [
+          "Hematologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Ronald \\\"George\\\" Hauser, MD, is an assistant professor in laboratory medicine at Yale University School of Medicine who splits his time between clinical medicine and informatics research.  As an attending physician, he practices medicine at the interface between other clinicians and the clinical laboratories, which include Chemistry, Hematology, Microbiology, and the Blood Bank.  He also works along with medical residents, particularly at the Veterans Affairs Hospital in West Haven, Connecticut.  He practices clinical informatics for various projects affiliated at Yale University and the Veterans Health Administration (VHA) including the Recipient Epidemiology and Donor Evaluation Study (REDS; Yale, NIH) and the HIV, Hepatitis, and Related Conditions program (VHA).</p>",
+          "firstName": "Ronald",
+          "hasDisclosure": [],
+          "img": "george-hauser.jpg",
+          "lastName": "Hauser",
+          "name": "Ronald George Hauser, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "george-hauser",
+          "updatedAt": "2023-04-06T20:18:56.600Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Other creator.</p>",
+          "createdAt": "2022-04-08T13:27:37.821Z",
+          "deceased": true,
+          "firstName": "",
+          "lastName": "",
+          "name": "OTHER",
+          "photo_en": null,
+          "publishedAt": "2023-01-10T18:10:35.625Z",
+          "pubmedLink": null,
+          "signedCOI": false,
+          "updatedAt": "2023-01-10T18:11:49.358Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10012/donor-lymphocyte-infusion-dli-volume",
+        "description": "The Donor Lymphocyte Infusion (DLI) Volume to Process by Apheresis estimates the volume of whole blood to be processed by apheresis to yield an appropriate DLI dosage.",
+        "keywords": "Whole blood, donor blood, donor lymphocyte infusion, blood, dose, DLI, volume, apheresis, ",
+        "title": "Donor Lymphocyte Infusion (DLI) Volume"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 100,
+          "error_max_si": 100,
+          "error_max_us": 100,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "CD3+",
+          "normal_max_si": 100,
+          "normal_max_us": 100,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "cd3",
+          "units_si": "× 10⁶ cells/kg",
+          "units_us": "× 10⁶ cells/kg",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 100,
+          "error_max_si": 100,
+          "error_max_us": 100,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "donor cd3",
+          "normal_max_si": 80,
+          "normal_max_us": 80,
+          "normal_min_si": 50,
+          "normal_min_us": 50,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "donor_cd3",
+          "units_si": "%",
+          "units_us": "%",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 100,
+          "error_max_si": 100,
+          "error_max_us": 100,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "donor total lymphocytes",
+          "normal_max_si": 42,
+          "normal_max_us": 42,
+          "normal_min_si": 14,
+          "normal_min_us": 14,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "donor_total_lymphs",
+          "units_si": "%",
+          "units_us": "%",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 10,
+          "error_max_si": 10,
+          "error_max_us": 10,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "doses",
+          "normal_max_si": 5,
+          "normal_max_us": 5,
+          "normal_min_si": 1,
+          "normal_min_us": 1,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "infusions",
+          "units_si": "doses",
+          "units_us": "doses",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 10,
+          "warn_max_si": 10,
+          "warn_max_us": 10,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 100,
+          "error_max_si": 100,
+          "error_max_us": 100,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "percentages",
+          "normal_max_si": 100,
+          "normal_max_us": 100,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "basic_stats",
+          "units_si": "%",
+          "units_us": "%",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "0.453592",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 600,
+          "error_max_si": 272.1552,
+          "error_max_us": 600,
+          "error_min": 0.5,
+          "error_min_si": 0.226796,
+          "error_min_us": 0.5,
+          "name": "Weight",
+          "normal_max_si": 150,
+          "normal_max_us": 330,
+          "normal_min_si": 1,
+          "normal_min_us": 2,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "wt",
+          "units_si": "kg",
+          "units_us": "lbs",
+          "updatedAt": "2022-12-01T20:01:08.372Z",
+          "warn_max": 500,
+          "warn_max_si": 226.796,
+          "warn_max_us": 500,
+          "warn_min": 0.5,
+          "warn_min_si": 0.226796,
+          "warn_min_us": 0.5
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 500,
+          "error_max_si": 500,
+          "error_max_us": 500,
+          "error_min": 0.0001,
+          "error_min_si": 0.0001,
+          "error_min_us": 0.0001,
+          "name": "White Blood Cell Count",
+          "normal_max_si": 10.7,
+          "normal_max_us": 10.7,
+          "normal_min_si": 3.7,
+          "normal_min_us": 3.7,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "wbc",
+          "units_si": "× 10⁹ cells/L",
+          "units_us": "× 10³ cells/µL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0.1,
+          "warn_min_si": 0.1,
+          "warn_min_us": 0.1
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 10011,
+          "short_title_en": "RBC Compatibility Testing",
+          "slug": "rbc-units-screen-compatibility"
+        },
+        {
+          "calcId": 4065,
+          "short_title_en": "Blood Volume Calculation",
+          "slug": "blood-volume-calculation"
+        },
+        {
+          "calcId": 4066,
+          "short_title_en": "Sickle Cell RBC Exchange Volume",
+          "slug": "sickle-cell-rbc-exchange-volume"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10012",
+      "donor-lymphocyte-infusion-dli-volume"
+    ]
+  },
+  "scriptLoader": []
+}

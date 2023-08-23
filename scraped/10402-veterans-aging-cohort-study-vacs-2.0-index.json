@@ -1,0 +1,1047 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Weakness"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>Risk is calculated using a Cox proportional hazard regression model from <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6749990/\" target=\"_blank\" rel=\"noopener\">Tate 2020</a>.</p>\n<p>The influence of HCV on all-cause mortality has not yet been determined. However, Hepatitis C co-infection is the least influential predictive variable.</p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/30649058/",
+                  "text": "Tate JP, Sterne JAC, Justice AC. Albumin, white blood cell count, and body mass index improve discrimination of mortality in HIV-positive individuals. AIDS. 2019;33(5):903-912."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/34609485/",
+                  "text": "McGinnis KA, Justice AC, Moore RD, et al. Discrimination and calibration of the veterans aging cohort study index 2. 0 for predicting mortality among people with human immunodeficiency virus in north america. Clinical Infectious Diseases. Published online October 5, 2021:ciab883."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Amy C. Justice, MD, PhD",
+              "qa_en": ""
+            },
+            {
+              "approved": true,
+              "name": "Janet Tate, M.P.H., Sc.D.",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the Veterans Aging Cohort Study (VACS) 2.0 Index and want to contribute your expertise? <a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a> our contributor team!</p>",
+            "why_use_en": "<p>The 2020 published model (<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6749990/\" target=\"_blank\" rel=\"noopener\">Tate 2020</a>)&nbsp;showed improved discrimination in mortality prediction across 9 subgroups, thereby making it more generalizable to other patient populations as compared to the original VACS Index.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Clinical applications of the VACS 2.0 Index include the following:</p>\n<ul>\n<li>Determining the potential benefit of preventative screening</li>\n<li>Following progression of physiologic frailty</li>\n<li>Determining when end of life planning might be indicated</li>\n<li>Informing patients regarding life expectancy more generally</li>\n</ul>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": [],
+          "reviewers": []
+        },
+        "disease_en": [
+          "HIV/AIDS"
+        ],
+        "dosing": false,
+        "equation_logic": "3b3b4d9646c9c0f0ed8feb51c4b47827",
+        "equation_logic_text": "var calc_output=[];\n\nvar age = parseFloat(age);\nvar sex = parseFloat(sex);\nvar egfr = parseFloat(egfr);\nvar cd4 = parseFloat(cd4);\nvar hemoglobin = parseFloat(hemoglobin);\nvar hiv = parseFloat(hiv);\nvar bmi = parseFloat(bmi);\nvar alt = parseFloat(alt);\nvar ast = parseFloat(ast);\nvar plt = parseFloat(platelet);\nvar wbc = parseFloat(wbc);\nvar hcv = parseFloat(hcv);\nvar alb = parseFloat(alb);\nvar age_t;\nvar age_c;\n\nvar fib4 = ((age * ast)/(plt * Math.sqrt(alt)));\n\nif (age <30){\n\tage_t = 30;\n}\nelse if (age > 75){\n\tage_t = 75;\n}\nelse {\n\tage_t = age;\n}\n\nvar age_c = (age_t-50)/5;\nvar age_csq = Math.pow(age_c,2);\nvar age_ccu = Math.pow(age_c,3);\n\nvar cd4_t;\nif (cd4 < 10){\n\tcd4_t = 10;\n}\nelse if (cd4 > 1000){\n\tcd4_t = 1000;\n}\nelse{\n\tcd4_t = cd4;\n}\n\nvar cd4_c = Math.log(1000 - cd4_t + 0.1);\nvar cd4_csq = Math.pow(cd4_c, 2);\nvar cd4_ccu = Math.pow(cd4_c, 3);\n\nvar vl_log = Math.log10(hiv);\nvar vl_t;\n\nif (vl_log < 1.3){\n\tvl_t = 1.3;\n}\nelse if(vl_log > 5){\n\tvl_t = 5;\n}\nelse {\n\tvl_t = vl_log;\n}\n\nvar vl_c = vl_t - 2;\nvar vl_csq = Math.pow(vl_c,2);\nvar vl_ccu = Math.pow(vl_c,3);\n\nvar hgb_t;\n\nif (hemoglobin < 9){\n\thgb_t = 9;\n}\nelse if (hemoglobin > 15){\n\thgb_t = 16;\n}\nelse {\n\thgb_t = hemoglobin;\n}\n\nvar hgb_c = hgb_t - 14;\nvar hgb_csq = Math.pow(hgb_c,2);\nvar hgb_ccu = Math.pow(hgb_c,3);\n\nvar fib4_t;\nif (fib4 < 0.5){\n\tfib4_t = 0.5;\n}\nelse if (fib4 > 7.5){\n\tfib4_t = 7.5;\n}\nelse {\n\tfib4_t = fib4;\n}\n\nvar fib4_c = fib4_t;\nvar fib4_csq = Math.pow(fib4_c,2);\nvar fib4_ccu = Math.pow(fib4_c,3);\n\nvar egfr_t;\nvar egfrx2;\nvar egfrx3;\nvar egfrx4;\n\nif (egfr > 180){\n\tegfr_t = 180;\n}\nelse {\n\tegfr_t = egfr;\n}\n\nvar egfrx1 = egfr/10;\n\nif (egfr > 35){\n\tegfrx2 = (egfr_t - 35)/10;\n}\nelse {\n\tegfrx2 = 0;\n}\n\nif (egfr > 65){\n\tegfrx3 = (egfr_t - 65)/10;\n}\nelse {\n\tegfrx3 = 0;\n}\n\nif (egfr > 115){\n\tegfrx4 = (egfr_t - 115)/10;\n}\nelse {\n\tegfrx4 = 0;\n}\n\nvar alb_t;\nif (alb < 2){\n\talb_t = 2;\n}\nelse if (alb > 5){\n\talb_t = 5;\n}\nelse {\n\talb_t = alb;\n}\n\nvar alb_c = alb_t - 4;\nvar alb_csq = Math.pow(alb_c,2);\nvar alb_ccu = Math.pow(alb_c,3);\n\n\nvar bmi_t;\nif (bmi < 15){\n\tbmi_t = 15;\n}\nelse if (bmi > 35){\n\tbmi_t = 35;\n}\nelse {\n\tbmi_t = bmi;\n}\n\nvar bmi_c = bmi_t - 25;\nvar bmi_csq = Math.pow(bmi_c,2);\nvar bmi_ccu = Math.pow(bmi_c,3);\n\n\nvar wbc_t;\nif (wbc < 2.5){\n\twbc_t = 2.5;\n}\nelse if (wbc > 11){\n\twbc_t = 11;\n}\nelse {\n\twbc_t = wbc;\n}\n\nvar wbc_c = wbc_t - 5.5;\nvar wbc_csq = Math.pow(wbc_c,2);\nvar wbc_ccu = Math.pow(wbc_c,3);\n\nvar comp_age = (0.05593 * age_c) + (-0.00447 * age_csq) + (0.00518 * age_ccu);\n\nvar comp_cd4 = (-0.05608 * cd4_c) + (-0.15344 * cd4_csq) + (0.02352 * cd4_ccu);\n\nvar comp_vl = (0.51329 * vl_c) + (-0.42235 * vl_csq) + (0.09798 * vl_ccu);\n\nvar comp_hgb = (-0.13364 * hgb_c) + (0.02601 * hgb_csq) + (0.00456 * hgb_ccu);\n\nvar comp_fib4 = (0.22045 * fib4_c) + (-0.00875 * fib4_csq);\n\nvar comp_egfr = (-0.03075 * egfrx1) + (-0.07668 * egfrx2) + (0.10629 * egfrx3) + (0.1325 * egfrx4);\n\nvar comp_hepc = (hcv * 0.34201);\n\nvar comp_alb = (-0.44289 * alb_c) + (0.10394 * alb_csq) + (0.02766 * alb_ccu);\n\nvar comp_bmi = (-0.05452 * bmi_c) + (0.00359 * bmi_csq);\n\nvar comp_wbc =  (0.1257 * wbc_c) + (0.01985 * wbc_csq) + (-0.00438 * wbc_ccu);\n\nvar calc_xb = comp_age + comp_cd4 + comp_vl + comp_hgb + comp_fib4 + comp_egfr + comp_hepc + comp_alb + comp_bmi + comp_wbc;\n\nvar range = 5.35;\nvar dist = calc_xb + 3.25;\nvar score = (dist/range) * 100;\nscore = score.toFixed(0);\nvar mortality;\n\nif (score == 0){\n   mortality = 0.3;\n}\nif (score == 1){\n   mortality = 0.3;\n}\nif (score == 2){\n   mortality = 0.4;\n}\nif (score == 3){\n   mortality = 0.4;\n}\nif (score == 4){\n   mortality = 0.4;\n}\nif (score == 5){\n   mortality = 0.5;\n}\nif (score == 6){\n   mortality = 0.5;\n}\nif (score == 7){\n   mortality = 0.6;\n}\nif (score == 8){\n   mortality = 0.6;\n}\nif (score == 9){\n   mortality = 0.7;\n}\nif (score == 10){\n   mortality = 0.7;\n}\nif (score == 11){\n   mortality = 0.8;\n}\nif (score == 12){\n   mortality = 0.9;\n}\nif (score == 13){\n   mortality = 0.9;\n}\nif (score == 14){\n   mortality = 1.0;\n}\nif (score == 15){\n   mortality = 1.1;\n}\nif (score == 16){\n   mortality = 1.2;\n}\nif (score == 17){\n   mortality = 1.3;\n}\nif (score == 18){\n   mortality = 1.4;\n}\nif (score == 19){\n   mortality = 1.5;\n}\nif (score == 20){\n   mortality = 1.6;\n}\nif (score == 21){\n   mortality = 1.7;\n}\nif (score == 22){\n   mortality = 1.9;\n}\nif (score == 23){\n   mortality = 2.0;\n}\nif (score == 24){\n   mortality = 2.1;\n}\nif (score == 25){\n   mortality = 2.3;\n}\nif (score == 26){\n   mortality = 2.5;\n}\nif (score == 27){\n   mortality = 2.7;\n}\nif (score == 28){\n   mortality = 2.9;\n}\nif (score == 29){\n   mortality = 3.1;\n}\nif (score == 30){\n   mortality = 3.3;\n}\nif (score == 31){\n   mortality = 3.5;\n}\nif (score == 32){\n   mortality = 3.8;\n}\nif (score == 33){\n   mortality = 4.1;\n}\nif (score == 34){\n   mortality = 4.3;\n}\nif (score == 35){\n   mortality = 4.6;\n}\nif (score == 36){\n   mortality = 5.0;\n}\nif (score == 37){\n   mortality = 5.3;\n}\nif (score == 38){\n   mortality = 5.7;\n}\nif (score == 39){\n   mortality = 6.0;\n}\nif (score == 40){\n   mortality = 6.4;\n}\nif (score == 41){\n   mortality = 6.8;\n}\nif (score == 42){\n   mortality = 7.3;\n}\nif (score == 43){\n   mortality = 7.8;\n}\nif (score == 44){\n   mortality = 8.2;\n}\nif (score == 45){\n   mortality = 8.8;\n}\nif (score == 46){\n   mortality = 9.3;\n}\nif (score == 47){\n   mortality = 9.9;\n}\nif (score == 48){\n   mortality = 10.4;\n}\nif (score == 49){\n   mortality = 11.1;\n}\nif (score == 50){\n   mortality = 11.7;\n}\nif (score == 51){\n   mortality = 12.4;\n}\nif (score == 52){\n   mortality = 13.1;\n}\nif (score == 53){\n   mortality = 13.8;\n}\nif (score == 54){\n   mortality = 14.6;\n}\nif (score == 55){\n   mortality = 15.4;\n}\nif (score == 56){\n   mortality = 16.2;\n}\nif (score == 57){\n   mortality = 17.1;\n}\nif (score == 58){\n   mortality = 17.9;\n}\nif (score == 59){\n   mortality = 18.9;\n}\nif (score == 60){\n   mortality = 19.8;\n}\nif (score == 61){\n   mortality = 20.8;\n}\nif (score == 62){\n   mortality = 21.8;\n}\nif (score == 63){\n   mortality = 22.9;\n}\nif (score == 64){\n   mortality = 24.0;\n}\nif (score == 65){\n   mortality = 25.1;\n}\nif (score == 66){\n   mortality = 26.2;\n}\nif (score == 67){\n   mortality = 27.4;\n}\nif (score == 68){\n   mortality = 28.6;\n}\nif (score == 69){\n   mortality = 29.8;\n}\nif (score == 70){\n   mortality = 31.1;\n}\nif (score == 71){\n   mortality = 32.4;\n}\nif (score == 72){\n   mortality = 33.7;\n}\nif (score == 73){\n   mortality = 35.0;\n}\nif (score == 74){\n   mortality = 36.4;\n}\nif (score == 75){\n   mortality = 37.8;\n}\nif (score == 76){\n   mortality = 39.2;\n}\nif (score == 77){\n   mortality = 40.6;\n}\nif (score == 78){\n   mortality = 42.1;\n}\nif (score == 79){\n   mortality = 43.5;\n}\nif (score == 80){\n   mortality = 45.0;\n}\nif (score == 81){\n   mortality = 46.5;\n}\nif (score == 82){\n   mortality = 48.0;\n}\nif (score == 83){\n   mortality = 49.5;\n}\nif (score == 84){\n   mortality = 51.0;\n}\nif (score == 85){\n   mortality = 52.5;\n}\nif (score == 86){\n   mortality = 54.0;\n}\nif (score == 87){\n   mortality = 55.6;\n}\nif (score == 88){\n   mortality = 57.1;\n}\nif (score == 89){\n   mortality = 58.6;\n}\nif (score == 90){\n   mortality = 60.1;\n}\nif (score == 91){\n   mortality = 61.6;\n}\nif (score == 92){\n   mortality = 63.1;\n}\nif (score == 93){\n   mortality = 64.6;\n}\nif (score == 94){\n   mortality = 66.0;\n}\nif (score == 95){\n   mortality = 67.4;\n}\nif (score == 96){\n   mortality = 68.9;\n}\nif (score == 97){\n   mortality = 70.3;\n}\nif (score == 98){\n   mortality = 71.6;\n}\nif (score == 99){\n   mortality = 73.0;\n}\nif (score == 100){\n   mortality = 74.3;\n}\nif (score == 101){\n   mortality = 75.6;\n}\nif (score == 102){\n   mortality = 76.8;\n}\nif (score == 103){\n   mortality = 78.1;\n}\nif (score == 104){\n   mortality = 79.3;\n}\nif (score == 105){\n   mortality = 80.4;\n}\nif (score == 106){\n   mortality = 81.5;\n}\nif (score == 107){\n   mortality = 82.6;\n}\nif (score == 108){\n   mortality = 83.7;\n}\nif (score == 109){\n   mortality = 84.7;\n}\nif (score == 110){\n   mortality = 85.7;\n}\nif (score == 111){\n   mortality = 86.6;\n}\nif (score == 112){\n   mortality = 87.5;\n}\nif (score == 113){\n   mortality = 88.3;\n}\nif (score == 114){\n   mortality = 89.2;\n}\nif (score == 115){\n   mortality = 89.9;\n}\nif (score == 116){\n   mortality = 90.7;\n}\nif (score == 117){\n   mortality = 91.4;\n}\nif (score == 118){\n   mortality = 92.0;\n}\nif (score == 119){\n   mortality = 92.7;\n}\nif (score == 120){\n   mortality = 93.2;\n}\nif (score == 121){\n   mortality = 93.8;\n}\nif (score == 122){\n   mortality = 94.3;\n}\nif (score == 123){\n   mortality = 94.8;\n}\nif (score == 124){\n   mortality = 95.3;\n}\nif (score == 125){\n   mortality = 95.7;\n}\nif (score == 126){\n   mortality = 96.1;\n}\nif (score == 127){\n   mortality = 96.5;\n}\nif (score == 128){\n   mortality = 96.8;\n}\nif (score == 129){\n   mortality = 97.1;\n}\nif (score == 130){\n   mortality = 97.4;\n}\nif (score == 131){\n   mortality = 97.7;\n}\nif (score == 132){\n   mortality = 97.9;\n}\nif (score == 133){\n   mortality = 98.1;\n}\nif (score == 134){\n   mortality = 98.3;\n}\nif (score == 135){\n   mortality = 98.5;\n}\nif (score <= 135) {\n  calc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: mortality + '% predicted all-cause 5-year mortality'\n});\n  \ncalc_output.push({\n    name: 'VACS',\n    value: score,\n    value_text: 'points',\n    message: mortality + '% predicted all-cause 5-year mortality'\n});\n\n}\n\nif (score > 135) {\n  calc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: \">\" + mortality + '% predicted all-cause 5-year mortality'\n});\n  \ncalc_output.push({\n    name: 'VACS',\n    value: score,\n    value_text: 'points',\n    message: \">\" + mortality + '% predicted all-cause 5-year mortality'\n});\n\n}\n",
+        "favorite_id": 10402,
+        "full_title_en": "Veterans Aging Cohort Study (VACS) 2.0 Index",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Age</p>",
+            "name": "age",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "age"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Sex</p>",
+            "name": "sex",
+            "optional": false,
+            "options": [
+              {
+                "label": "Male",
+                "value": 0
+              },
+              {
+                "label": "Female",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>BMI</p>",
+            "name": "bmi",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "bmi_vacs2"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>CD4 count</p>",
+            "name": "cd4",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "cd4_vacs2"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p><calculator id=\"3939\">Estimated glomerular filtration rate</calculator></p>",
+            "name": "egfr",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "gfr"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>HIV-1 RNA</p>",
+            "name": "hiv",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "hiv_rna"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Hemoglobin</p>",
+            "name": "hemoglobin",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "hemoglobin"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p><abbr title=\"Alanine transaminase\">ALT</abbr></p>",
+            "name": "alt",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "ALT"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p><abbr title=\"Aspartate aminotransferase\">AST</abbr></p>",
+            "name": "ast",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "AST"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Platelet count</p>",
+            "name": "platelet",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "plt"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p><abbr title=\"White blood cell\">WBC</abbr> count</p>",
+            "name": "wbc",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "wbc"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Albumin</p>",
+            "name": "alb",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "alb"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Hepatitis C co-infection</p>",
+            "name": "hcv",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "changed units",
+            "time": "2022-02-24T09:11:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "creator edits",
+            "time": "2022-02-18T11:18:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "re-ordered creators",
+            "time": "2022-02-17T15:49:00.000Z",
+            "user": "jonah"
+          },
+          {
+            "message": "changed author",
+            "time": "2022-02-07T10:20:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "added content",
+            "time": "2022-01-17T14:11:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edits to units",
+            "time": "2022-01-05T10:25:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added why use",
+            "time": "2021-12-21T12:35:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2021-12-07T12:46:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2021-12-07T12:45:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "logic edits",
+            "time": "2021-12-07T12:38:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2021-12-07T11:14:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "logic",
+            "time": "2021-12-07T11:09:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "updated units",
+            "time": "2021-12-07T10:56:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "changed units",
+            "time": "2021-12-07T10:36:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "removed creatinines",
+            "time": "2021-12-07T10:26:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "updated evidence",
+            "time": "2021-12-06T18:55:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added description",
+            "time": "2021-12-06T18:11:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added to logic",
+            "time": "2021-12-06T17:58:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "troubleshooting",
+            "time": "2021-11-29T17:38:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "troubleshooting",
+            "time": "2021-11-29T17:36:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "troubleshooting",
+            "time": "2021-11-29T17:35:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "troubleshooting",
+            "time": "2021-11-29T17:14:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "troubleshooting",
+            "time": "2021-11-29T17:13:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "troubleshooting",
+            "time": "2021-11-29T17:12:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "troubleshooting",
+            "time": "2021-11-29T17:11:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2021-11-24T11:54:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2021-11-24T11:10:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2021-11-24T11:05:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added creator",
+            "time": "2021-11-23T15:01:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added logic",
+            "time": "2021-11-23T14:02:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added inputs",
+            "time": "2021-11-23T11:08:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "created calc id",
+            "time": "2021-11-23T09:51:00.000Z",
+            "user": "michael"
+          }
+        ],
+        "md5": "57081dc1c74f4a63ddca54d3336d4e1a",
+        "medium_description_en": "<p>Estimates risk of 5-year all-cause mortality in patients with HIV, an update to the <a href=\"https://www.mdcalc.com/veterans-aging-cohort-study-vacs-index\" title=\"Veterans Aging Cohort Study (VACS) Index\" target=\"_blank\" rel=\"noopener\">Veterans Aging Cohort Study (VACS) 1.0 Index</a>.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "Veterans Aging Cohort Study (VACS) 2.0 Index, vacs, vacs 2, vacs 2.0, stroke, tia, hiv, Veterans Aging Cohort Study index, vacs score, vacs index, vacs 2 score, vacs 2 index, veterans aging index, veterans hiv index, veterans aging index 2, veterans hiv index 2, va hiv, hiv mortality"
+        ],
+        "search_id": "c-10402",
+        "seo": {
+          "keywords_en": "Veterans Aging Cohort Study (VACS) 2.0 Index, vacs, vacs 2, vacs 2.0, stroke, tia, hiv, Veterans Aging Cohort Study index, vacs score, vacs index, vacs 2 score, vacs 2 index, veterans aging index, veterans hiv index, veterans aging index 2, veterans hiv index 2, va hiv, hiv mortality",
+          "meta_description_en": "The Veterans Aging Cohort Study (VACS) 2.0 Index estimates risk of 5-year all-cause mortality in patients with HIV."
+        },
+        "short_description_en": "<p>All-cause mortality for patients with HIV.</p>",
+        "short_title_en": "VACS 2.0 Index",
+        "slug": "veterans-aging-cohort-study-vacs-2.0-index",
+        "specialty_en": [
+          "Infectious Disease",
+          "Internal Medicine",
+          "Primary Care"
+        ],
+        "system_en": [
+          "Immunologic",
+          "Infectious"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Amy Justice, MD, PhD, is the CNH Long Professor of Medicine and of Public Health at Yale University and a Staff Physician at the VA Connecticut Healthcare System. As principal investigator of the Veterans Aging Cohort Study (VACS), she has more than 20 years of experience developing and validating predictive indices using electronic health record data.</p>",
+          "createdAt": "2022-05-18T14:03:02.339Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Amy C. Justice, MD, PhD",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-amy-justice.jpeg",
+          "publishedAt": "2022-05-18T14:03:04.883Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Justice+AC%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-05-18T14:03:04.893Z"
+        },
+        {
+          "about_en": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;&lt;p&gt;Janet Tate, M.P.H., Sc.D., is the director of the biostatistics core of the Veterans Aging Cohort Study (VACS) at the Yale School of Medicine in Connecticut. Her work includes structural modeling, imputation, longitudinal analyses, and competing risk analyses. &lt;/p&gt;&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:833,&quot;3&quot;:{&quot;1&quot;:0},&quot;9&quot;:0,&quot;11&quot;:3,&quot;12&quot;:0}\">Janet Tate, M.P.H., Sc.D., is the director of the biostatistics core of the Veterans Aging Cohort Study (VACS) at the Yale School of Medicine in Connecticut. Her work includes structural modeling, imputation, longitudinal analyses, and competing risk analyses.</span></p>",
+          "createdAt": "2022-04-26T14:28:30.327Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Janet Tate, M.P.H., Sc.D.",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-janet-tate-01.jpg",
+          "publishedAt": "2022-04-26T14:28:33.744Z",
+          "pubmedLink": "https://pubmed.ncbi.nlm.nih.gov/?term=Tate+JP&cauthor_id=31565954",
+          "signedCOI": false,
+          "updatedAt": "2022-05-18T14:09:02.877Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10402/veterans-aging-cohort-study-vacs-2.0-index",
+        "description": "The Veterans Aging Cohort Study (VACS) 2.0 Index estimates risk of 5-year all-cause mortality in patients with HIV.",
+        "keywords": "Veterans Aging Cohort Study (VACS) 2.0 Index, vacs, vacs 2, vacs 2.0, stroke, tia, hiv, Veterans Aging Cohort Study index, vacs score, vacs index, vacs 2 score, vacs 2 index, veterans aging index, veterans hiv index, veterans aging index 2, veterans hiv index 2, va hiv, hiv mortality",
+        "title": "Veterans Aging Cohort Study (VACS) 2.0 Index"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 120,
+          "error_max_si": 120,
+          "error_max_us": 120,
+          "error_min": 0.001,
+          "error_min_si": 0.001,
+          "error_min_us": 0.001,
+          "name": "Age",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "age",
+          "units_si": "years",
+          "units_us": "years",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0.1,
+          "warn_min_si": 0.1,
+          "warn_min_us": 0.1
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 1000,
+          "error_max_si": 1000,
+          "error_max_us": 1000,
+          "error_min": 1,
+          "error_min_si": 1,
+          "error_min_us": 1,
+          "name": "Alanine Aminotransferase",
+          "normal_max_si": 35,
+          "normal_max_us": 35,
+          "normal_min_si": 1,
+          "normal_min_us": 1,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "ALT",
+          "units_si": "U/L",
+          "units_us": "U/L",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 400,
+          "warn_max_si": 400,
+          "warn_max_us": 400,
+          "warn_min": 4,
+          "warn_min_si": 4,
+          "warn_min_us": 4
+        },
+        {
+          "conversion": "10",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 7,
+          "error_max_si": 70,
+          "error_max_us": 7,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Albumin",
+          "normal_max_si": 55,
+          "normal_max_us": 5.5,
+          "normal_min_si": 35,
+          "normal_min_us": 3.5,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "alb",
+          "units_si": "g/L",
+          "units_us": "g/dL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 6,
+          "warn_max_si": 60,
+          "warn_max_us": 6,
+          "warn_min": 1,
+          "warn_min_si": 10,
+          "warn_min_us": 1
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 10000,
+          "error_max_si": 10000,
+          "error_max_us": 10000,
+          "error_min": 1,
+          "error_min_si": 1,
+          "error_min_us": 1,
+          "name": "Aspartate Aminotransferase",
+          "normal_max_si": 41,
+          "normal_max_us": 41,
+          "normal_min_si": 15,
+          "normal_min_us": 15,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "AST",
+          "units_si": "U/L",
+          "units_us": "U/L",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 4000,
+          "warn_max_si": 4000,
+          "warn_max_us": 4000,
+          "warn_min": 4,
+          "warn_min_si": 4,
+          "warn_min_us": 4
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-04-21T19:32:18.786Z",
+          "error_max": 75,
+          "error_max_si": 75,
+          "error_max_us": 75,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "bmi_vacs2",
+          "normal_max_si": 35,
+          "normal_max_us": 35,
+          "normal_min_si": 15,
+          "normal_min_us": 15,
+          "publishedAt": "2022-04-21T19:32:21.436Z",
+          "unit": "bmi_vacs2",
+          "units_si": "kg/m²",
+          "units_us": "kg/m²",
+          "updatedAt": "2022-04-21T19:32:21.462Z",
+          "warn_max": 40,
+          "warn_max_si": 40,
+          "warn_max_us": 40,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-04-21T19:38:14.258Z",
+          "error_max": 1500,
+          "error_max_si": 1500,
+          "error_max_us": 1500,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "cd4_vacs2",
+          "normal_max_si": 1200,
+          "normal_max_us": 1200,
+          "normal_min_si": 600,
+          "normal_min_us": 600,
+          "publishedAt": "2022-04-21T19:50:57.198Z",
+          "unit": "cd4_vacs2",
+          "units_si": "× 10⁶ cells/L",
+          "units_us": "× 10⁶ cells/L",
+          "updatedAt": "2022-04-21T19:50:57.229Z",
+          "warn_max": 1500,
+          "warn_max_si": 1500,
+          "warn_max_us": 1500,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 160,
+          "error_max_si": 160,
+          "error_max_us": 160,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "gfr",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "gfr",
+          "units_si": "mL/min/1.73 m²",
+          "units_us": "mL/min/1.73 m²",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100000,
+          "warn_max_si": 100000,
+          "warn_max_us": 100000,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "0.6206",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 40,
+          "error_max_si": 24.824,
+          "error_max_us": 40,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "hemoglobin",
+          "normal_max_si": 11.2,
+          "normal_max_us": 18,
+          "normal_min_si": 7.4,
+          "normal_min_us": 12,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "hemoglobin",
+          "units_si": "mmol/L",
+          "units_us": "g/dL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 20,
+          "warn_max_si": 12.412,
+          "warn_max_us": 20,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-04-21T19:52:23.113Z",
+          "error_max": 10000000,
+          "error_max_si": 10000000,
+          "error_max_us": 10000000,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "hiv_rna",
+          "normal_max_si": 10000000,
+          "normal_max_us": 10000000,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-04-21T19:52:42.146Z",
+          "unit": "hiv_rna",
+          "units_si": "copies/mL",
+          "units_us": "copies/mL",
+          "updatedAt": "2022-04-21T19:52:42.182Z",
+          "warn_max": 10000000,
+          "warn_max_si": 10000000,
+          "warn_max_us": 10000000,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 3200,
+          "error_max_si": 3200,
+          "error_max_us": 3200,
+          "error_min": 1,
+          "error_min_si": 1,
+          "error_min_us": 1,
+          "name": "Platelet Count",
+          "normal_max_si": 350,
+          "normal_max_us": 350,
+          "normal_min_si": 150,
+          "normal_min_us": 150,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "plt",
+          "units_si": "× 10⁹/L",
+          "units_us": "× 10³/µL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 750,
+          "warn_max_si": 750,
+          "warn_max_us": 750,
+          "warn_min": 10,
+          "warn_min_si": 10,
+          "warn_min_us": 10
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 500,
+          "error_max_si": 500,
+          "error_max_us": 500,
+          "error_min": 0.0001,
+          "error_min_si": 0.0001,
+          "error_min_us": 0.0001,
+          "name": "White Blood Cell Count",
+          "normal_max_si": 10.7,
+          "normal_max_us": 10.7,
+          "normal_min_si": 3.7,
+          "normal_min_us": 3.7,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "wbc",
+          "units_si": "× 10⁹ cells/L",
+          "units_us": "× 10³ cells/µL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0.1,
+          "warn_min_si": 0.1,
+          "warn_min_us": 0.1
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 2201,
+          "short_title_en": "VACS 1.0 Index",
+          "slug": "veterans-aging-cohort-study-vacs-1.0-index"
+        },
+        {
+          "calcId": 10348,
+          "short_title_en": "For Patients: VACO Index COVID-19 Mortality Risk",
+          "slug": "covid-risk"
+        },
+        {
+          "calcId": 10346,
+          "short_title_en": "VACO Index",
+          "slug": "veterans-health-administration-covid-19-vaco-index-covid-19-mortality"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10402",
+      "veterans-aging-cohort-study-vacs-2.0-index"
+    ]
+  },
+  "scriptLoader": []
+}

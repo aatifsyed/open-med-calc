@@ -1,0 +1,503 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Cough",
+          "Fever",
+          "Sore Throat"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>See full schedule at the CDC's website for <a href='http://www.cdc.gov/vaccines/schedules/hcp/imz/child-adolescent.html' target='_blank'>children</a> and <a href='http://www.cdc.gov/vaccines/schedules/hcp/imz/adult-shell.html' target='_blank'>adults</a>.</p>",
+            "more_info_en": "",
+            "references_list": {}
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "name": "Centers for Disease Control and Prevention",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>This calculator is meant to provide a general schedule of vaccination doses. Clinical judgment and knowledge of past vaccinations should guide decision to provide vaccinations to patients.</p>",
+            "use_case_en": "",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Make sure to discuss vaccination and immunization safety with the patient and have a full understanding the patient's history before administration.</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          }
+        },
+        "disease_en": [
+          "Public Health"
+        ],
+        "dosing": false,
+        "equation_logic": "8e54d0680a8a90b3e124e2712f05e386",
+        "equation_logic_text": "var calc_output = [];\nvar msg;\n\nvar agerange = parseFloat(agerange);\nvar age = parseFloat(age);\nvar age_months = parseFloat(age_months);\n\n\n// calculation for < 18 months\nif (agerange == 0 && age_months < 1 && age < 1) { msg = \"Please enter an appropriate age range.\"; }\nif (agerange == 0) {\n    if (age_months == \"null\" || age_months == \" \" && age == \"null\" || age == \"\") { msg = \"Please enter an appropriate age range.\"; }\n    if (age_months > 0 && age_months < 1) {\n        msg = \"Hep B: 1st dose\";\n    } else if (age_months >= 1 && age_months < 2) {\n        msg = \"Hep B: 2nd dose (1st dose at birth)\";\n    } else if (age_months >= 2 && age_months < 3) {\n        msg = \"Hep B: 2nd dose (if not yet given)\";\n        msg += \"<br/>Rotavirus (RV): 1st dose\";\n        msg += \"<br/>DTaP: (<7 yrs): 1st dose\";\n        msg += \"<br/>H. flu (Hib): 1st dose\";\n        msg += \"<br/>Pneumococcal (PCV13): 1st dose\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): 1st dose\";\n    } else if (age_months >= 3 && age_months < 4) {\n        msg = \"Hep B: 2nd dose (if not yet given)\";\n        msg += \"<br/>Rotavirus (RV): 1st dose (if not yet given)\";\n        msg += \"<br/>DTaP: (<7 yrs): 1st dose (if not yet given)\";\n        msg += \"<br/>H. flu (Hib): 1st dose(if not yet given)\";\n        msg += \"<br/>Pneumococcal (PCV13): 1st dose (if not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): 1st dose (if not yet given)\";\n    } else if (age_months >= 4 && age_months < 5) {\n        msg = \"Hep B: Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Rotavirus (RV): 2nd dose\";\n        msg += \"<br/>DTaP: (<7 yrs): 2nd dose\";\n        msg += \"<br/>H. flu (Hib): 2nd dose\";\n        msg += \"<br/>Pneumococcal (PCV13): 2nd dose\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): 2nd dose\";\n    } else if (age_months >= 5 && age_months < 6) {\n        msg = \"Hep B: Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Rotavirus (RV): 2nd dose (if not yet given)\";\n        msg += \"<br/>DTaP: (<7 yrs): 2nd dose (if not yet given)\";\n        msg += \"<br/>H. flu (Hib): 2nd dose(if not yet given)\";\n        msg += \"<br/>Pneumococcal (PCV13): 2nd dose (if not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): 2nd dose (if not yet given)\";\n    } else if (age_months >= 6 && age_months < 7) {\n        msg = \"Hep B: 3rd dose\";\n        msg += \"<br/>Rotavirus (RV): 3rd dose (if RV5)\";\n        msg += \"<br/>DTaP: (<7 yrs): 3rd dose\";\n        msg += \"<br/>H. flu (Hib): 3rd dose (if 3-dose primary series)\";\n        msg += \"<br/>Pneumococcal (PCV13): 3rd dose\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): 3rd dose\";\n        msg += \"<br/>Influenza: Annual vaccination (IIV only - 1 or 2 doses)\";\n    } else if (age_months >= 7 && age_months < 8) {\n        msg = \"Hep B: 3rd dose (if not yet given)\";\n        msg += \"<br/>DTaP: (<7 yrs): 3rd dose (if not yet given)\";\n        msg += \"<br/>Pneumococcal (PCV13): 3rd dose (if not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): 3rd dose (if not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (IIV only - 1 or 2 doses)\";\n    } else if (age_months >= 8 && age_months < 10) {\n        msg = \"Hep B: 3rd dose (if not yet given)\";\n        msg += \"<br/>DTaP: (<7 yrs): Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>H. flu (Hib): Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Pneumococcal (PCV13): Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): 3rd dose (if not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (IIV only - 1 or 2 doses)\";\n    } else if (age_months >= 10 && age_months < 12) {\n        msg = \"Hep B: 3rd dose (if not yet given)\";\n        msg += \"<br/>DTaP: (<7 yrs): Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>H. flu (Hib): Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Pneumococcal (PCV13): Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): 3rd dose (if not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (IIV only - 1 or 2 doses)\";\n    } else if (age_months >= 12 && age_months < 13) {\n        msg = \"Hep B: 3rd dose (if not yet given)\";\n        msg += \"<br/>DTaP: (<7 yrs): Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>H. flu (Hib): 3rd or 4th dose (dependent on primary series)\";\n        msg += \"<br/>Pneumococcal (PCV13): 4th dose\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): 3rd dose (if not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (IIV only - 1 or 2 doses)\";\n        msg += \"<br/>MMR: 1st dose\";\n        msg += \"<br/>Varicella (VAR): 1st dose\";\n        msg += \"<br/>Hep A: 2 dose series (Initiate the 2-dose Hep A vaccine series at 12 through 23 months; separate the 2 doses by 6 to 18 months)\";\n    } else if (age_months >= 13 && age_months < 15) {\n        msg = \"Hep B: 3rd dose (if not yet given)\";\n        msg += \"<br/>DTaP: (<7 yrs): Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>H. flu (Hib): 3rd or 4th dose (if not yet given; dependent on primary series)\";\n        msg += \"<br/>Pneumococcal (PCV13): 4th dose (if not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): 3rd dose (if not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (IIV only - 1 or 2 doses)\";\n        msg += \"<br/>MMR: 1st dose (if not yet given)\";\n        msg += \"<br/>Varicella (VAR): 1st dose (if not yet given)\";\n        msg += \"<br/>Hep A: 2 dose series (Initiate the 2-dose Hep A vaccine series at 12 through 23 months; separate the 2 doses by 6 to 18 months)\";\n    } else if (age_months >= 15 && age_months < 16) {\n        msg = \"Hep B: 3rd dose (if not yet given)\";\n        msg += \"<br/>DTaP: (<7 yrs): 4th dose\";\n        msg += \"<br/>H. flu (Hib): 3rd or 4th dose (if not yet given)\";\n        msg += \"<br/>Pneumococcal (PCV13): 4th dose (if not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): 3rd dose (if not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (IIV only - 1 or 2 doses)\";\n        msg += \"<br/>MMR: 1st dose (if not yet given)\";\n        msg += \"<br/>Varicella (VAR): 1st dose (if not yet given)\";\n        msg += \"<br/>Hep A: 2 dose series (Initiate the 2-dose Hep A vaccine series at 12 through 23 months; separate the 2 doses by 6 to 18 months)\";\n    } else if (age_months >= 16 && age_months < 19) {\n        msg = \"Hep B: 3rd dose (if not yet given)\";\n        msg += \"<br/>DTaP: (<7 yrs): 4th dose (if not yet given)\";\n        msg += \"<br/>H. flu (Hib): Catch-up dose (if 4rd or 4th dose not yet given; dependent on primary series)\";\n        msg += \"<br/>Pneumococcal (PCV13): Catch-up dose (if 4th dose not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): 3rd dose (if not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (IIV only - 1 or 2 doses)\";\n        msg += \"<br/>MMR: Catch-up dose (if not yet given)\";\n        msg += \"<br/>Varicella (VAR): Catch-up dose (if not yet given)\";\n        msg += \"<br/>Hep A: 2 dose series (Initiate the 2-dose Hep A vaccine series at 12 through 23 months; separate the 2 doses by 6 to 18 months)\";\n    } else if (age_months >= 19 && age_months <= 23) {\n        msg = \"Hep B: Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>DTaP: (<7 yrs): Catch-up dose (if 4th dose not yet given)\";\n        msg += \"<br/>H. flu (Hib): Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>Pneumococcal (PCV13): Catch-up dose (if 4th dose not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (IIV only - 1 or 2 doses)\";\n        msg += \"<br/>MMR: Catch-up dose (if 1st dose not yet given)\";\n        msg += \"<br/>Varicella (VAR): Catch-up dose (if 1st dose not yet given)\";\n        msg += \"<br/>Hep A: 2 dose series (Initiate the 2-dose Hep A vaccine series at 12 through 23 months; separate the 2 doses by 6 to 18 months)\";\n    } else if (age_months > 23 && age >= 0) { msg = \"Please enter an appropriate age range.\"; } else { msg = \"Please enter an appropriate age range.\"; }\n\n}\nif (agerange == 1) {\n    if (age < 2 || age_months >= 0) { msg = \"Please enter an appropriate age range.\"; }\n    if (age >= 2 && age < 4) {\n        msg = \"Hep B: Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>DTaP: (<7 yrs): Catch-up dose (if 4th dose not yet given)\";\n        msg += \"<br/>H. flu (Hib): Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>Pneumococcal (PCV13): Catch-up dose (if 4th dose not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (LAIV or IIV - 1 or 2 doses)\";\n        msg += \"<br/>MMR: Catch-up dose (if 1st dose not yet given)\";\n        msg += \"<br/>Varicella (VAR): Catch-up dose (if 1st dose not yet given)\";\n        msg += \"<br/>Hep A: Catch-up dose (if 2 dose series not complete)\";\n    }\n    if (age >= 4 && age < 7) {\n        msg = \"Hep B: Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>DTaP: (<7 yrs): 5th dose\";\n        msg += \"<br/>H. flu (Hib): Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>Pneumococcal (PCV13): Catch-up dose (if 4th dose not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): 4th dose\";\n        msg += \"<br/>Influenza: Annual vaccination (LAIV or IIV - 1 or 2 doses)\";\n        msg += \"<br/>MMR: 2nd dose\";\n        msg += \"<br/>Varicella (VAR): 2nd dose\";\n        msg += \"<br/>Hep A: Catch-up dose (if 2 dose series not complete)\";\n    }\n    if (age >= 7 && age < 11) {\n        msg = \"Hep B: Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): Catch-up dose (if 4th dose not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (LAIV or IIV - 1 or 2 doses)\";\n        msg += \"<br/>MMR: Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Varicella (VAR): Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Hep A: Catch-up dose (if 2 dose series not complete)\";\n        msg += \"<br/>Tetanus, diphtheria, & acellular pertussis (Tdap: ≥7 yrs): Catch-up dose\";\n    }\n    if (age >= 11 && age < 13) {\n        msg = \"Hep B: Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): Catch-up dose (if 4th dose not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (LAIV or IIV - 1 doses only)\";\n        msg += \"<br/>MMR: Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Varicella (VAR): Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Hep A: Catch-up dose (if 2 dose series not complete)\";\n        msg += \"<br/>Meningococcal (MenACWY-D): 1st dose\"\n        msg += \"<br/>Tetanus, diphtheria, & acellular pertussis (Tdap: ≥7 yrs): Tdap only\";\n        msg += \"<br/>HPV (2vHPV:females only; 4vHPV, 9vHPV:males and females): 3 dose series, begin 1st dose.\";\n    }\n    if (age >= 13 && age < 16) {\n        msg = \"Hep B: Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): Catch-up dose (if 4th dose not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (LAIV or IIV - 1 doses only)\";\n        msg += \"<br/>MMR: Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Varicella (VAR): Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Hep A: Catch-up dose (if 2 dose series not complete)\";\n        msg += \"<br/>Meningococcal (MenACWY-D): Catch-up dose (if not yet given)\"\n        msg += \"<br/>Tdap: Catch-up dose (if not yet given)\";\n        msg += \"<br/>HPV (2vHPV:females only; 4vHPV, 9vHPV:males and females): 3 dose series\";\n    }\n    if (age >= 16 && age < 18) {\n        msg = \"Hep B: Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): Catch-up dose (if 4th dose not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (LAIV or IIV - 1 doses only)\";\n        msg += \"<br/>MMR: Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Varicella (VAR): Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Hep A: Catch-up dose (if 2 dose series not complete)\";\n        msg += \"<br/>Meningococcal (MenACWY-D): Booster\"\n        msg += \"<br/>Tdap: Catch-up dose (if not yet given)\";\n        msg += \"<br/>HPV (2vHPV:females only; 4vHPV, 9vHPV:males and females): 3 dose series\";\n    }\n    if (age >= 18 && age < 19) {\n        msg = \"Hep B: Catch-up dose (if 3rd dose not yet given)\";\n        msg += \"<br/>Inactivated polio (IPV:<18 yrs): Catch-up dose (if 4th dose not yet given)\";\n        msg += \"<br/>Influenza: Annual vaccination (LAIV or IIV - 1 doses only)\";\n        msg += \"<br/>MMR: Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Varicella (VAR): Catch-up dose (if 2nd dose not yet given)\";\n        msg += \"<br/>Hep A: Catch-up dose (if 2 dose series not complete)\";\n        msg += \"<br/>Meningococcal (MenACWY-D): Booster\"\n        msg += \"<br/>Tdap: Catch-up dose (if not yet given)\";\n        msg += \"<br/>HPV (2vHPV:females only; 4vHPV, 9vHPV:males and females): 3 dose series\";\n    }\n    if (age >= 19 && age < 22) {\n        msg = \"Influenza: 1 dose annually\";\n        msg += \"<br/>Tetanus, diphtheria, pertussis (Td/Tdap): Substitute Tdap for Td once, then Td booster every 10 years\";\n        msg += \"<br/>Varicella: 2 doses (if childhood doses not yet given)\";\n        msg += \"<br/>HPV (Female): 3 doses\";\n        msg += \"<br/>HPV (Male): 3 doses\";\n        msg += \"<br/>MMR: 1 or 2 doses depending on indication (if childhood doses not yet given)\";\n        msg += \"<br/><br/>If high risk for any of the following, administer:\";\n        msg += \"<br/>Pneumococcal 13-valent conjugate (PCV13), Pneumococcal polysaccharide (PPSV23) (1 or 2 doses; dependent on indication), Hep A (2 or 3 doses; dependent on indication), Hep B (3 doses), Meningococcal (MenACWY or MPSV4) (1 or more doses; dependent on indication), Meningococcal B (MenB) (2 or 3 doses; dependent on vaccine), H. flu (Hib) (1 or 3 doses; dependent on indication)\";\n    }\n    if (age >= 22 && age < 27) {\n        msg = \"Influenza: 1 dose annually\";\n        msg += \"<br/>Tetanus, diphtheria, pertussis (Td/Tdap): Substitute Tdap for Td once, then Td booster every 10 years\";\n        msg += \"<br/>Varicella: 2 doses (if childhood doses not yet given)\";\n        msg += \"<br/>HPV (Female): 3 doses\";\n        msg += \"<br/>MMR: 1 or 2 doses; depending on indication (if childhood doses not yet given)\";\n        msg += \"<br/><br/>If high risk for any of the following, administer:\";\n        msg += \"<br/>HPV (Male) (3 doses), Pneumococcal 13-valent conjugate (PCV13), Pneumococcal polysaccharide (PPSV23), (1 or 2 doses; dependent on indication), Hep A (2 or 3 doses; dependent on indication), Hep B (3 doses), Meningococcal (MenACWY or MPSV4) (1 or more doses; dependent on indication), Meningococcal B (MenB) (2 or 3 doses; dependent on vaccine) H. flu (Hib), (1 or 3 doses; dependent on indication)\";\n    }\n    if (age >= 27 && age < 58) {\n        msg = \"Influenza: 1 dose annually\";\n        msg += \"<br/>Tetanus, diphtheria, pertussis (Td/Tdap): Substitute Tdap for Td once, then Td booster every 10 years\";\n        msg += \"<br/>Varicella: 2 doses (if childhood doses not yet given)\";\n        msg += \"<br/>MMR: 1 or 2 doses depending on indication (if childhood doses not yet given)\";\n        msg += \"<br/><br/>If high risk for any of the following, administer:\";\n        msg += \"<br/>Pneumococcal 13-valent conjugate (PCV13), Pneumococcal polysaccharide (PPSV23) (1 or 2 doses; dependent on indication), Hep A (2 or 3 doses; dependent on indication), Hep B (3 doses), Meningococcal (MenACWY or MPSV4) (1 or more doses; dependent on indication), Meningococcal B (MenB) (2 or 3 doses; dependent on vaccine), H. flu (Hib) (1 or 3 doses; dependent on indication)\";\n    }\n    if (age >= 58 && age < 60) {\n        msg = \"Influenza: 1 dose annually\";\n        msg += \"<br/>Tetanus, diphtheria, pertussis (Td/Tdap): Substitute Tdap for Td once, then Td booster every 10 years\";\n        msg += \"<br/>Varicella: 2 doses (if childhood doses not yet given)\";\n        msg += \"<br/><br/>If high risk for any of the following, administer:\";\n        msg += \"<br/>Pneumococcal 13-valent conjugate (PCV13), Pneumococcal polysaccharide (PPSV23) (1 or 2 doses; dependent on indication), Hep A (2 or 3 doses; dependent on indication), Hep B (3 doses), Meningococcal (MenACWY or MPSV4) (1 or more doses; dependent on indication), Meningococcal B (MenB) (2 or 3 doses; dependent on vaccine), H. flu (Hib) (1 or 3 doses; dependent on indication)\";\n    }\n    if (age >= 60 && age < 65) {\n        msg = \"Influenza: 1 dose annually\";\n        msg += \"<br/>Tetanus, diphtheria, pertussis (Td/Tdap): Substitute Tdap for Td once, then Td booster every 10 years\";\n        msg += \"<br/>Varicella: 2 doses (if childhood doses not yet given)\";\n        msg += \"<br/>Zoster: 1 dose (if not yet given)\";\n        msg += \"<br/><br/>If high risk for any of the following, administer:\";\n        msg += \"<br/>Pneumococcal 13-valent conjugate (PCV13), Pneumococcal polysaccharide (PPSV23) (1 or 2 doses; dependent on indication), Hep A (2 or 3 doses; dependent on indication), Hep B (3 doses), Meningococcal (MenACWY or MPSV4) (1 or more doses; dependent on indication),  Meningococcal B (MenB) (2 or 3 doses; dependent on vaccine), H. flu (Hib) (1 or 3 doses; dependent on indication)\";\n    }\n    if (age >= 65) {\n        msg = \"Influenza: 1 dose annually\";\n        msg += \"<br/>Tetanus, diphtheria, pertussis (Td/Tdap): Substitute Tdap for Td once, then Td booster every 10 years\";\n        msg += \"<br/>Varicella: 2 doses (if childhood doses not yet given)\";\n        msg += \"<br/>Zoster: 1 dose (if not yet given)\";\n        msg += \"<br/>Pneumococcal 13-valent conjugate (PCV13): 1 dose\";\n        msg += \"<br/>Pneumococcal polysaccharide (PPSV23): 1 dose\";\n        msg += \"<br/><br/>If high risk for any of the following, administer:\";\n        msg += \"<br/>Hep A (2 or 3 doses), Hep B (3 doses), Meningococcal (MenACWY or MPSV4) (1 or more doses), Meningococcal B (MenB) (2 or 3 doses), H. flu (Hib) (1 or 3 doses)\";\n    }\n}\n\ncalc_output.push({\n    name: 'mini',\n    value: '',\n    value_text: '',\n    message: 'Swipe up to see all vaccinations'\n});\ncalc_output.push({\n    name: 'Immunization Schedule',\n    value: 'Vaccinations Due',\n    value_text: '',\n    message: msg\n});",
+        "favorite_id": 3401,
+        "full_title_en": "Immunization Schedule Calculator",
+        "input_schema": [
+          {
+            "label_en": "Age Range",
+            "name": "agerange",
+            "optional": false,
+            "options": [
+              {
+                "label": "≥2 years",
+                "value": 1
+              },
+              {
+                "label": "<2 years",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "agerange == 0",
+            "label_en": "Age in months",
+            "name": "age_months",
+            "optional": false,
+            "type": "textbox",
+            "unit": "age_months_imm"
+          },
+          {
+            "conditionality": "agerange == 1",
+            "label_en": "Age in years",
+            "name": "age",
+            "optional": false,
+            "type": "textbox",
+            "unit": "age_years_imm"
+          }
+        ],
+        "instructions_en": "This is based on the CDC's dosing schedule. Clinical judgment and knowledge of past vaccinations should guide decision to provide vaccinations to patients.",
+        "logs": [],
+        "md5": "7b5e962fb59406bfd697696a2d97353d",
+        "medium_description_en": "<p>Determines what immunizations/vaccinations are due based on a patient's age.</p>",
+        "purpose_en": [
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "vaccination",
+          "tdap",
+          "mmr",
+          "measles",
+          "rubella",
+          "mumps",
+          "varicella",
+          "zoster",
+          "pneumococcal",
+          "meningococcal",
+          "meningitis",
+          "flu",
+          "influenza",
+          "tetanus",
+          "whooping cough",
+          "pertussis",
+          "hpv",
+          "gardisil"
+        ],
+        "search_id": "c-3401",
+        "seo": {
+          "keywords_en": "Immunization Schedule Calculator, vaccination Schedule Calculator, vaccination schedule, immunization schedule, tdap, mmr, measles, rubella, mumps, varicella, zoster, pneumococcal, meningococcal, meningitis, flu, influenza, tetanus, whooping cough, pertussis, hpv, gardisil",
+          "meta_description_en": "The Immunization Schedule Calculator determines doses of vaccinations due based on age."
+        },
+        "short_description_en": "Immunizations due based on age.",
+        "short_title_en": "Immunization Schedule Calculator",
+        "slug": "immunization-schedule-calculator",
+        "specialty_en": [
+          "Allergy and Immunology",
+          "Family Practice",
+          "Geriatrics",
+          "Internal Medicine",
+          "Pediatrics",
+          "Primary Care"
+        ],
+        "system_en": [
+          "Immunologic"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>The CDC is the leading national public health agency in the US. It focuses on infectious disease, food borne pathogens, environmental health, occupational safety and health, health promotion, injury prevention, and educational activities designed to improve public health. More information can be found on the <a href=' https://www.cdc.gov/' target='_blank'>CDC website</a>.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Centers for Disease Control and Prevention",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/cdc-logo.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "undefined",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3401/immunization-schedule-calculator",
+        "description": "The Immunization Schedule Calculator determines doses of vaccinations due based on age.",
+        "keywords": "Immunization Schedule Calculator, vaccination Schedule Calculator, vaccination schedule, immunization schedule, tdap, mmr, measles, rubella, mumps, varicella, zoster, pneumococcal, meningococcal, meningitis, flu, influenza, tetanus, whooping cough, pertussis, hpv, gardisil",
+        "title": "Immunization Schedule Calculator"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 36,
+          "error_max_si": 36,
+          "error_max_us": 36,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Age in months",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "age_months_imm",
+          "units_si": " ",
+          "units_us": " ",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 24,
+          "warn_max_si": 24,
+          "warn_max_us": 24,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 120,
+          "error_max_si": 120,
+          "error_max_us": 120,
+          "error_min": 0.001,
+          "error_min_si": 0.001,
+          "error_min_us": 0.001,
+          "name": "Age in years",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "age_years_imm",
+          "units_si": " years",
+          "units_us": " years",
+          "updatedAt": "2022-07-26T15:49:40.732Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0.1,
+          "warn_min_si": 0.1,
+          "warn_min_us": 0.1
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 3911,
+          "short_title_en": "Bacterial Meningitis Score",
+          "slug": "bacterial-meningitis-score-children"
+        },
+        {
+          "calcId": 3914,
+          "short_title_en": "SMART-COP Score",
+          "slug": "smart-cop-score-pneumonia-severity"
+        },
+        {
+          "calcId": 10444,
+          "short_title_en": "Indications for Paxlovid",
+          "slug": "indications-paxlovid-prescribing"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "pearlsPitfallsViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3401",
+      "immunization-schedule-calculator"
+    ]
+  },
+  "scriptLoader": []
+}

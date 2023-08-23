@@ -1,0 +1,594 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "AMS",
+          "Neurologic Deficit",
+          "Weakness"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+92",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+92",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "3966.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The SOAR Score was originally derived by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23834262\" target=\"_blank\">Myint et al</a> in a UK-based prospectively-collected analysis from 2013 that investigated whether 4 static variables at presentation (stroke type, age, premorbid functional status, and <a href=\"http://www.thelancet.com/journals/lancet/article/PII0140-6736(91)93206-O/abstract\" target=\"_blank\">Oxfordshire Community Stroke Project (OCSP) classification</a>) accurately predicted early mortality in a multi-center cohort of approximately 12,000, mainly elderly inpatients, who were mostly functionally independent (60%), and had suffered mostly ischemic (91%) and partial anterior-circulation stroke. The AUC for predicting either inpatient or 7-day mortality was 0.79 (95% CI 0.78-0.80). Importantly, this analysis was restricted to inpatient mortality only; stroke severity as measured by the NIH Stroke Scale (NIHSS) was unknown, and functional status was based on medical documentation rather than interview. </p> <p>The SOAR Score was then externally validated by <a href=\"http://stroke.ahajournals.org/content/44/7/2010.long\" target=\"_blank\">Kwok et al</a> in 2013 in an analysis of approximately 3,500 patients, also from a multi-center UK population, with the addition of investigating the predictive ability for 7-day mortality. The SOAR AUC (cut-point of ≥3) for inpatient mortality was 0.80 (95% CI 0.78–0.82) and 7-day mortality was 0.82 (95% CI 0.79-0.84).</p> <p>While the derivation and validation cohort populations were relatively similar in terms of the underlying SOAR component variables, approximately 20% of patients in the validation cohort (that had substantially higher rates of hemorrhagic stroke and overall mortality) were excluded due to incomplete data. </p> <p><a href=\"http://stroke.ahajournals.org/content/47/1/74.long\" target=\"_blank\">Abdul-Rahim et al</a> derived the mSOAR Score in a retrospective study from 2016 that incorporated baseline NIHSS scores into the SOAR Scores of approximately 1,000 inpatients from two UK-based stroke registries. The study compared both SOAR and mSOAR in their ability to predict mortality within 90 days of admission (rather than during admission). This study also externally validated both the SOAR and mSOAR Scores in an independent 1,000-patient stroke cohort also based in the UK.</p> <p>For SOAR, AUC for mortality ≤90 days in the derivation and validation cohorts was 0.79 (95% CI 0.75-0.84) and 0.81 (95% CI 0.77-0.85), respectively. For mSOAR, AUC in the same cohorts were 0.83 (95%CI, 0.79-0.86) and 0.84 (95% CI 0.82-0.88), respectively. The AUCs of SOAR and mSOAR in derivation cohorts were statistically significantly different (p &lt;0.0001), suggesting that the addition of the NIHSS score significantly improved the predictive accuracy of the original SOAR. While quite similar to the original SOAR derivation cohort, both mSOAR derivation and validation cohorts were more functional at baseline (mRS 0-1 84.8% vs 69%), and the comparative stroke severity of the cohort from <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23834262\" target=\"_blank\">Myint et al</a> was unknown.</p>",
+            "formula_en": "<p>Addition of the selected points:</p> <table> <tbody> <tr> <td>&nbsp;</td> <td> <p><strong>0 points</strong></p> </td> <td> <p><strong>1 point</strong></p> </td> <td> <p><strong>2 points</strong></p> </td> </tr> <tr> <td> <p><strong>S</strong><strong>troke type</strong></p> </td> <td> <p>Infarct</p> </td> <td> <p>Hemorrhage</p> </td> <td> <p>--</p> </td> </tr> <tr> <td> <p><strong>O</strong><strong>xford Community Stroke Project classification</strong></p> </td> <td> <p>LACS/PACS</p> </td> <td> <p>POCS</p> </td> <td> <p>TACS</p> </td> </tr> <tr> <td> <p><strong>A</strong><strong>ge (years)</strong></p> </td> <td> <p>≤65</p> </td> <td> <p>66–85</p> </td> <td> <p>&gt;85</p> </td> </tr> <tr> <td> <p><strong>Pre-stroke disability (Modified </strong><strong>R</strong><strong>ankin Score)</strong></p> </td> <td> <p>0–2</p> </td> <td> <p>3–4</p> </td> <td> <p>5</p> </td> </tr> <tr> <td> <p><strong>NIH Stroke Scale Score</strong></p> </td> <td> <p>0–4</p> </td> <td> <p>5–10</p> </td> <td> <p>≥11</p> </td> </tr> </tbody> </table> <p>LACS, lacunar circulation stroke. PACS, partial anterior circulation stroke. POCS, posterior circulation stroke. TACS, total anterior circulation stroke.</p>",
+            "more_info_en": "<p>Interpretation:</p> <table> <tbody> <tr> <td> <p><strong>mSOAR Score</strong></p> </td> <td> <p><strong>Inpatient mortality</strong></p> </td> </tr> <tr> <td> <p>0</p> </td> <td> <p> 1.0%</p> </td> </tr> <tr> <td> <p>1</p> </td> <td> <p> 1.0%</p> </td> </tr> <tr> <td> <p>2</p> </td> <td> <p> 1.5%</p> </td> </tr> <tr> <td> <p>3</p> </td> <td> <p> 6.5%</p> </td> </tr> <tr> <td> <p>4</p> </td> <td> <p> 9.2%</p> </td> </tr> <tr> <td> <p>5</p> </td> <td> <p> 19.5%</p> </td> </tr> <tr> <td> <p>6</p> </td> <td> <p> 26.2%</p> </td> </tr> <tr> <td> <p>7</p> </td> <td> <p>49.2%</p> </td> </tr> </tbody> </table> <p>From <a href=\"http://stroke.ahajournals.org/content/47/1/74.long\" target=\"_blank\">Abdul-Rahim 2016</a>. Scores &gt;7 were not reported.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23834262 ",
+                  "text": "Myint PK, Clark AB, Kwok CS, et al. The SOAR (Stroke subtype, Oxford Community Stroke Project classification, Age, prestroke modified Rankin) score strongly predicts early outcomes in acute stroke. Int J Stroke. 2014;9(3):278-83."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "http://stroke.ahajournals.org/content/44/7/2010.long ",
+                  "text": "Kwok CS, Potter JF, Dalton G, et al. The SOAR stroke score predicts inpatient and 7-day mortality in acute stroke. Stroke. 2013;44(7):2010-2."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26578661",
+                  "text": "Abdul-rahim AH, Quinn TJ, Alder S, et al. Derivation and Validation of a Novel Prognostic Scale (Modified-Stroke Subtype, Oxfordshire Community Stroke Project Classification, Age, and Prestroke Modified Rankin) to Predict Early Mortality in Acute Stroke. Stroke. 2016;47(1):74-9."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Benjamin Kummer, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Phyo Kyaw Myint",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>No single universally accepted stroke mortality prediction score exists. </li> <li>Score is based on data present on admission and is static.</li> <li>Does not apply to patients with transient ischemic attack, subarachnoid hemorrhage, or subdural hemorrhage.</li> </ul>",
+            "use_case_en": "<p>Patients admitted with acute ischemic or hemorrhagic stroke that have <abbr title=\"Modified Rankin Scale\"><calculator id='1890'>mRS</calculator></abbr> and <calculator id='715'>NIH Stroke Scale</calculator> assessments.</p>",
+            "why_use_en": "<ul> <li>Can be applied for both ischemic and hemorrhagic stroke.</li> <li>Component variables are familiar to most clinicians. </li> <li>Can be calculated quickly.</li> <li>Does not necessitate a weighting algorithm.</li> <li>Can be administered by non-MD personnel. </li> <li>Component variables are static over a given hospitalization. </li> </ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>The mSOAR Score may be considered in patients with acute stroke, as a predictor of short-term mortality.</li> <li>The score should not be used as a substitute for clinical judgment, or as a sole predictive tool for mortality.</li> </ul>",
+            "critical_actions_en": "<p>It is crucial to identify anticoagulant-associated ICH with careful medication history, and reverse with agents specifically tailored to the offending anticoagulant.&nbsp;</p> <p>Platelet transfusion is not recommended in cases of spontaneous antiplatelet-related ICH.</p>",
+            "management_en": "<p>Acute ischemic stroke and intracerebral hemorrhage (ICH) are both neurological emergencies. Patients with acute ischemic stroke, in particular, can benefit from time-sensitive treatments (e.g. tPA, mechanical thrombectomy) that can be administered if certain clinical conditions are met.</p> <p>In cases of suspected acute ischemic stroke, the following is recommended:</p> <ul> <li>STAT neurological consultation.</li> <li>STAT CT head without contrast.</li> <li>STAT laboratory testing (CBC, PT/INR/aPTT, basic metabolic panel, type &amp; screen, troponin-I).</li> <li>Consider STAT CT angiogram of the head &amp; neck in cases of suspected acute stroke due to large-vessel occlusion (LVO).</li> </ul> <p>In cases of confirmed acute intracerebral hemorrhage, the following is recommended:</p> <ul> <li>Airway, breathing and circulation monitoring. </li> <li>Immediate neurological and neurosurgical consultation. </li> <li>Thorough medication history to identify anticoagulant and antiplatelet-associated hemorrhage.</li> <li>Hypertensive patients with ICH should undergo blood pressure reduction with intravenous agents. The target blood pressure should be discussed with neurological or neurosurgical consultants if available.</li> <li>Similarly, the decision to administer reversal agents (e.g. desmopressin, vitamin K), blood products (e.g. prothrombin complex concentrates, fresh frozen plasma), or anti-epileptic medications should not be made without discussion with the neurological or neurosurgical consultant if available.</li> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [
+              {
+                "CalculatorId": 3966,
+                "createdAt": "2022-03-21T20:17:16.603Z",
+                "description": "Get up to 10 hours of stroke CME",
+                "id": 130,
+                "link": "https://www.mdcalc.com/stroke-cme",
+                "order": 0,
+                "text": "MDCalc Stroke CME",
+                "updatedAt": "2022-03-21T20:17:16.603Z"
+              }
+            ],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Stroke/TIA"
+        ],
+        "dosing": false,
+        "equation_logic": "0be2a771170288d097f51abda4ca08bc",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nvar type = parseFloat(type);\nvar classd = parseFloat(classd);\nvar age = parseFloat(age);\nvar disability = parseFloat(disability);\nvar nih = parseFloat(nih);\n\nvar modu = type + classd + disability + age + nih;\n\n//interpretation   [inpatient mortality rate SOAR score, inpatient mortality rate mSOAR score]\n\nvar mortality = [ 1.0, 1.0, 1.5, 6.5, 9.2, 19.5, 26.2, 49.2 ]\n\nvar inpatMS = mortality [modu]\n\nif (modu > 7) {\n    inpatMS = '>49.2'\n    msg = '. Note: scores >7 were not reported.'\n}\nelse {\n    inpatMS = inpatMS\n    msg = ''\n}\n\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: modu,\n    value_text: 'points',\n    message: inpatMS + '% inpatient mortality'\n});\ncalc_output.push({\n    name: 'Mod Score',\n    value: modu,\n    value_text: 'points',\n    message: 'mSOAR Score'\n});\ncalc_output.push({\n    name: 'Mod Score',\n    value: inpatMS,\n    value_text: '%',\n    message: 'Inpatient mortality' + msg\n});",
+        "favorite_id": 3966,
+        "full_title_en": "Modified SOAR Score for Stroke",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Stroke type",
+            "name": "type",
+            "optional": false,
+            "options": [
+              {
+                "label": "Infarct",
+                "value": 0
+              },
+              {
+                "label": "Hemorrhage",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Oxfordshire Community Stroke Project classification",
+            "name": "classd",
+            "optional": false,
+            "options": [
+              {
+                "label": "LACS/PACS",
+                "value": 0
+              },
+              {
+                "label": "POCS",
+                "value": 1
+              },
+              {
+                "label": "TACS",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "LACS = lacunar circulation stroke, PACS = partial anterior circulation stroke, POCS = posterior circulation stroke, TACS = total anterior circulation stroke",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Age",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "≤65",
+                "value": 0
+              },
+              {
+                "label": "66-85",
+                "value": 1
+              },
+              {
+                "label": ">85",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Pre-stroke disability (<abbr title='Modified Rankin Scale'><calculator id='1890'>mRS</calculator></abbr> Score)",
+            "name": "disability",
+            "optional": false,
+            "options": [
+              {
+                "label": "0-2",
+                "value": 0
+              },
+              {
+                "label": "3-4",
+                "value": 1
+              },
+              {
+                "label": "5",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<calculator id='715'>NIHSS</calculator> Score",
+            "name": "nih",
+            "optional": false,
+            "options": [
+              {
+                "label": "0-4",
+                "value": 0
+              },
+              {
+                "label": "5-10",
+                "value": 1
+              },
+              {
+                "label": "≥11",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use admission data for calculation. Do not use in patients with transient ischemic attack, subarachnoid hemorrhage, or subdural hemorrhage.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "cme",
+            "time": "2022-03-21T16:17:00.000Z",
+            "user": "saryu.patel"
+          }
+        ],
+        "md5": "05599f0bdd3d8bceacbe51eefbc9b4e7",
+        "medium_description_en": "<p>Predicts short-term mortality in acute ischemic stroke.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "soar",
+          "oxford",
+          "modified soar",
+          "cva",
+          "tia",
+          "ischemic stroke",
+          "brain attack"
+        ],
+        "search_id": "c-3966",
+        "seo": {
+          "keywords_en": "Astral, stroke, cva, tia, ischemic stroke, athens stroke registry, outcome, mortality, stroke score, dragon score, sedan score, SOAR Score, modified SOAR Score, mSOAR Score, iscore, plan score, isss, ischemic stroke survival score",
+          "meta_description_en": "The Modified SOAR Score for Stroke predicts short term mortality in acute ischemic stroke."
+        },
+        "short_description_en": "Early stroke mortality.",
+        "short_title_en": "mSOAR Score",
+        "slug": "modified-soar-score-stroke",
+        "specialty_en": [
+          "Cardiology",
+          "Neurology"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Neurologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Benjamin Kummer, MD, is currently the inaugural Clinical Informatics fellow at New York Presbyterian Hospital, a joint program with Columbia University’s Department of Biomedical Informatics. A New York City native, Dr. Kummer earned a BA from the University of Pennsylvania before working for several years as a business systems analyst at Capital IQ, a financial technology firm. He received his MD from Drexel University College of Medicine in Philadelphia and completed residency training in neurology at the Neurological Institute of New York at Columbia University Medical Center, followed by a fellowship in stroke neurology at New York-Presbyterian Hospital/Weill-Cornell Medical Center.</p>",
+          "firstName": "Benjamin",
+          "hasDisclosure": [],
+          "img": "bejamin-kummer.jpg",
+          "lastName": "Kummer",
+          "name": "Benjamin Kummer, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "benjamin-kummer",
+          "updatedAt": "2023-04-06T20:22:41.865Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Phyo Kyaw Myint, MBBS, MD, FRCP, is the clinical chair in old age medicine at the University of Aberdeen. He is also on the Council of the Scottish Intercollegiate Guidelines Network (SIGN) and a member of the NIHR Dementias Clinical Studies Portfolio Development Group. Dr. Myint’s research interests include cardiovascular and cerebrovascular diseases, physical and mental aging, and clinical geriatrics.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Phyo Kyaw Myint",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-phyo-kyaw-myint.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Myint+PK%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3966/modified-soar-score-stroke",
+        "description": "The Modified SOAR Score for Stroke predicts short term mortality in acute ischemic stroke.",
+        "keywords": "Astral, stroke, cva, tia, ischemic stroke, athens stroke registry, outcome, mortality, stroke score, dragon score, sedan score, SOAR Score, modified SOAR Score, mSOAR Score, iscore, plan score, isss, ischemic stroke survival score",
+        "title": "Modified SOAR Score for Stroke"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3967,
+          "short_title_en": "ASTRAL Score",
+          "slug": "astral-score-stroke"
+        },
+        {
+          "calcId": 3965,
+          "short_title_en": "PLAN Score for Stroke",
+          "slug": "plan-score-stroke"
+        },
+        {
+          "calcId": 3959,
+          "short_title_en": "LAMS",
+          "slug": "los-angeles-motor-scale-lams"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3966",
+      "modified-soar-score-stroke"
+    ]
+  },
+  "scriptLoader": []
+}

@@ -1,0 +1,646 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Fatigue",
+          "Weight Loss/Gain"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>Addition of the selected points:</p> <div class=\"table-responsive\"> <table class=\"table table-bordered\"> <tbody> <tr> <td>&nbsp;</td> <td colspan=\"6\"> <p><strong>Points</strong></p> </td> </tr> <tr> <td>&nbsp;</td> <td> <p><strong>0</strong></p> </td> <td> <p><strong>1 </strong></p> </td> <td> <p><strong>2 </strong></p> </td> <td> <p><strong>3 </strong></p> </td> <td> <p><strong>4</strong></p> </td> <td> <p><strong>5 </strong></p> </td> </tr> <tr> <td> <p>Age, years</p> </td> <td> <p>&lt;45</p> </td> <td> <p>--</p> </td> <td> <p>45-54</p> </td> <td> <p>55-64</p> </td> <td> <p>64</p> </td> <td> <p>--</p> </td> </tr> <tr> <td> <p>BMI, kg/m²</p> </td> <td> <p>&lt;25</p> </td> <td> <p>&gt;25 to 30</p> </td> <td> <p>--</p> </td> <td> <p>&gt;30</p> </td> <td> <p>--</p> </td> <td> <p>--</p> </td> </tr> <tr> <td> <p>Waist circumference</p> </td> <td colspan=\"6\">&nbsp;</td> </tr> <tr> <td> <p>Men:</p> </td> <td> <p>&lt;94 cm (37 in)</p> </td> <td>&nbsp;</td> <td>&nbsp;</td> <td> <p>94 to &lt;102 cm (37 to &lt;40 in)</p> </td> <td> <p>≥102 cm (≥40 in)</p> </td> <td>&nbsp;</td> </tr> <tr> <td> <p>Women:</p> <br><br><br><br><br><br></td> <td> <p>&lt;80 cm (31 in)</p> </td> <td> <p>--</p> </td> <td> <p>--</p> </td> <td> <p>80 to &lt;88 cm (31 to &lt;35 in)</p> </td> <td> <p>≥88 cm (≥35 in)</p> </td> <td> <p>--</p> </td> </tr> <tr> <td> <p>Use of blood pressure medication</p> </td> <td> <p>No</p> </td> <td> <p>--</p> </td> <td> <p>Yes</p> </td> <td> <p>--</p> </td> <td> <p>--</p> </td> <td> <p>--</p> </td> </tr> <tr> <td> <p>History of high blood glucose</p> </td> <td> <p>No</p> </td> <td> <p>--</p> </td> <td> <p>--</p> </td> <td> <p>--</p> </td> <td> <p>--</p> </td> <td> <p>Yes</p> </td> </tr> <tr> <td> <p>Physical activity &lt;4 hr/week</p> </td> <td> <p>No</p> </td> <td> <p>--</p> </td> <td> <p>Yes</p> </td> <td> <p>--</p> </td> <td> <p>--</p> </td> <td> <p>--</p> </td> </tr> <tr> <td> <p>Daily consumption of vegetables, fruits, or berries</p> </td> <td> <p>Yes</p> </td> <td> <p>No</p> </td> <td> <p>--</p> </td> <td> <p>--</p> </td> <td> <p>--</p> </td> <td> <p>--</p> </td> </tr> <tr> <td> <p>Family history of diabetes</p> </td> <td> <p>No</p> </td> <td> <p>--</p> </td> <td> <p>--</p> </td> <td> <p>Yes, 2nd degree relative</p> </td> <td> <p>--</p> </td> <td> <p>Yes, 1st degree relative</p> </td> </tr> </tbody> </table> <p>&nbsp;</p> </div>",
+            "more_info_en": "<p>Interpretation:</p> <div class=\"table-responsive\"> <table class=\"table table-bordered\"> <tbody> <tr> <td rowspan=\"2\"> <p><strong>FINDRISC</strong></p> </td> <td rowspan=\"2\"> <p><strong>Risk</strong></p> </td> <td colspan=\"2\"> <p><strong>10-year risk of developing T2DM</strong></p> </td> </tr> <tr> <td> <p><strong>Men</strong></p> </td> <td> <p><strong>Women</strong></p> </td> </tr> <tr> <td> <p>0-3</p> </td> <td> <p>Very low</p> </td> <td> <p>0.3%</p> </td> <td> <p>0.1%</p> </td> </tr> <tr> <td> <p>4-8</p> </td> <td> <p>Low</p> </td> <td> <p>0.8%</p> </td> <td> <p>0.4%</p> </td> </tr> <tr> <td> <p>9-12</p> </td> <td> <p>Moderate</p> </td> <td> <p>2.6%</p> </td> <td> <p>2.2%</p> </td> </tr> <tr> <td> <p>13-20</p> </td> <td> <p>High</p> </td> <td> <p>23.1%</p> </td> <td> <p>14.1%</p> </td> </tr> <tr> <td> <p>&gt;21</p> </td> <td> <p>Very high</p> </td> <td> <p>~50%*</p> </td> <td> <p>~50%*</p> </td> </tr> </tbody> </table> <p>*From <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20513271\" target=\"_blank\">Lindström 2010</a>.</p> </div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3478353/",
+                  "text": "Pottie K, Jaramillo A, Lewin G, et al. Recommendations on screening for type 2 diabetes in adults. CMAJ. 2012;184(15):1687-96."
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12610029 ",
+                  "text": "Lindström J, Tuomilehto J. The diabetes risk score: a practical tool to predict type 2 diabetes risk. Diabetes Care. 2003;26(3):725-31."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/20513271 ",
+                  "text": "Lindström J, Absetz P, Hemiö K, Peltomäki P, Peltonen M. Reducing the risk of type 2 diabetes with nutrition and physical activity - efficacy and implementation of lifestyle interventions in Finland. Public Health Nutr. 2010;13(6A):993-9."
+                },
+                {
+                  "href": "http://www.bmj.com/content/343/bmj.d7163 ",
+                  "text": "Noble D, Mathur R, Dent T, Meads C, Greenhalgh T. Risk models and scores for type 2 diabetes: systematic review. BMJ. 2011;343:d7163."
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21144787 ",
+                  "text": "Makrilakis K, Liatis S, Grammatikou S, et al. Validation of the Finnish diabetes risk score (FINDRISC) questionnaire for screening for undiagnosed type 2 diabetes, dysglycaemia and the metabolic syndrome in Greece. Diabetes Metab. 2011;37(2):144-51."
+                },
+                {
+                  "href": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0097865",
+                  "text": "Zhang L, Zhang Z, Zhang Y, Hu G, Chen L. Evaluation of Finnish Diabetes Risk Score in screening undiagnosed diabetes and prediabetes among U.S. adults by gender and race: NHANES 1999-2010. PLoS ONE. 2014;9(5):e97865."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "name": "Dr. Jaana Lindström",
+              "qa_en": ""
+            },
+            {
+              "name": "Dr. Jaakko Tuomilehto",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the FINDRISC&nbsp;and want to contribute your expertise? <a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a> our contributor team!</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the FINDRISC&nbsp;and want to contribute your expertise? <a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a> our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          }
+        },
+        "disease_en": [
+          "Diabetes Mellitus"
+        ],
+        "dosing": false,
+        "equation_logic": "2b526b767888a7fdf7539db49ffc6f31",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nvar gender = parseFloat(gender); // 0=female, 1=male\nvar waist;\nif(gender === 0){\n\twaist = parseFloat(waistW)\n}else{\n\twaist = parseFloat(waistM)\n}\nvar score = parseFloat(age) + waist + parseFloat(bmi) + parseFloat(bpmed) + parseFloat(glucose) + parseFloat(physical) + parseFloat(daily) + parseFloat(famhx);\n\nvar pt = 'points';\nif(score === 1){pt = 'point'}\n\n//interpretation\nvar resultM, resultW, risk;\nvar guide = '';\nif(score > -1 && score < 4){\n\tresultM = '0.3';\n\tresultW = '0.1';\n\trisk = 'Very low';\n}else if(score > 3 && score < 9){\n\tresultM = '0.8';\n\tresultW = '0.4';\n\trisk = 'Low';\n}else if(score > 8 && score < 13){\n\tresultM = '2.6';\n\tresultW = '2.2';\n\trisk = 'Moderate';\n\tguide = 'Guidelines vary by setting, but consider formal screening with HgbA1c for moderate or greater risk patients, and addressing modifiable risk factors with all patients.';\n}else if(score > 12 && score < 21){\n\tresultM = '23.1';\n\tresultW = '14.1';\n\trisk = 'High';\n\tguide = 'Guidelines vary by setting, but consider formal screening with HgbA1c for moderate or greater risk patients, and addressing modifiable risk factors with all patients.';\n}else if(score >= 21){\n\tresultM = '50';\n\tresultW = '50';\n\trisk = 'Very high';\n\tguide = 'Guidelines vary by setting, but consider formal screening with HgbA1c for moderate or greater risk patients, and addressing modifiable risk factors with all patients.';\n}\nvar final;\nif(gender === 0){\n\tfinal = resultW;\n}else{\n\tfinal = resultM;\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: final,\n    value_text: '%',\n    message: '10-year risk of developing T2DM'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: pt,\n    message: 'FINDRISC'\n});\ncalc_output.push({\n    name: 'Result',\n    value: final,\n    value_text: '%',\n    message: '10-year risk of developing T2DM'\n});\ncalc_output.push({\n    name: 'Risk',\n    value: risk,\n    value_text: 'risk',\n    message: guide\n});",
+        "favorite_id": 4000,
+        "full_title_en": "FINDRISC (Finnish Diabetes Risk Score)",
+        "input_schema": [
+          {
+            "label_en": "Gender",
+            "name": "gender",
+            "optional": false,
+            "options": [
+              {
+                "label": "Female",
+                "value": 0
+              },
+              {
+                "label": "Male",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "type": "radio"
+          },
+          {
+            "label_en": "Age, years",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "<45",
+                "value": 0
+              },
+              {
+                "label": "45-54",
+                "value": 2
+              },
+              {
+                "label": "55-64",
+                "value": 3
+              },
+              {
+                "label": ">64",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "label_en": "<calculator id='29'>BMI</calculator>, kg/m²",
+            "name": "bmi",
+            "optional": false,
+            "options": [
+              {
+                "label": "<25",
+                "value": 0
+              },
+              {
+                "label": ">25 to 30",
+                "value": 1
+              },
+              {
+                "label": ">30",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "conditionality": "gender==1",
+            "label_en": "Waist circumference",
+            "name": "waistM",
+            "optional": false,
+            "options": [
+              {
+                "label": "<94 cm (37 in)",
+                "value": 0
+              },
+              {
+                "label": "94 to <102 cm (37 to <40 in)",
+                "value": 3
+              },
+              {
+                "label": "≥102 cm (≥40 in)",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "conditionality": "gender==0",
+            "label_en": "Waist circumference",
+            "name": "waistW",
+            "optional": false,
+            "options": [
+              {
+                "label": "<80 cm (31 in)",
+                "value": 0
+              },
+              {
+                "label": "80 to <88 cm (31 to <35 in)",
+                "value": 3
+              },
+              {
+                "label": "≥88 cm (≥35 in)",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "label_en": "Use of blood pressure medication",
+            "name": "bpmed",
+            "optional": false,
+            "options": [
+              {
+                "label": "No ",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "label_en": "History of high blood glucose",
+            "name": "glucose",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 5
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "label_en": "Physical activity",
+            "name": "physical",
+            "optional": false,
+            "options": [
+              {
+                "label": "≥4 hr/week",
+                "value": 0
+              },
+              {
+                "label": "<4 hr/week",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "label_en": "Daily consumption of vegetables, fruits, or berries",
+            "name": "daily",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 1
+              },
+              {
+                "label": "Yes",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "label_en": "Family history of diabetes",
+            "name": "famhx",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes, 2nd degree relative",
+                "value": 3
+              },
+              {
+                "label": "Yes, 1st degree relative",
+                "value": 5
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [],
+        "md5": "2bc883fa57be8364d5e6bbdbd53abd7b",
+        "medium_description_en": "<p>Identifies patients at high risk for type 2 diabetes.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "findrisc",
+          "findrisk",
+          "finnish",
+          "find risc"
+        ],
+        "search_id": "c-4000",
+        "seo": {
+          "keywords_en": "Findrisc, findrisk, finnish, find risc, T2dm, diabetes risk, griffin diabetes risk score, AUSDRISK, SADPM, san antonio score, san antonio diabetes prediction model",
+          "meta_description_en": "The Finnish Diabetes Risk Score identifies patients at high risk for type 2 diabetes."
+        },
+        "short_description_en": "T2DM risk.",
+        "short_title_en": "FINDRISC",
+        "slug": "findrisc-finnish-diabetes-risk-score",
+        "specialty_en": [
+          "Endocrinology",
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Endocrine and Metabolic"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Jaana Lindström, PhD, MSC, is a researcher in the department of chronic disease prevention at the National Public Health Institute in Helsinki, Finland. Her research interests are centered around the prevention and prediction of diabetes. She has also published on nutrition and obesity.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Jaana Lindström",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-jaana-lindstrom.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Lindstr%C3%B6m+J%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "about_en": "<p>Jaakko Tuomilehto, MD, MA, PhD, FRCP, is chief scientific officer of Dasman Diabetes Institute in Kuwait City, Kuwait. He was previously professor emeritus of public health at the University of Helsinki in Finland and professor of vascular prevention at Danube-University Krems in Austria. Dr. Tuomilehto's research interests include epidemiology and prevention of non-communicable diseases such as diabetes, cancer, dementia, and cardiovascular disease. </p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Jaakko Tuomilehto",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-jaakko-tuomilehto.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Tuomilehto+J%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4000/findrisc-finnish-diabetes-risk-score",
+        "description": "The Finnish Diabetes Risk Score identifies patients at high risk for type 2 diabetes.",
+        "keywords": "Findrisc, findrisk, finnish, find risc, T2dm, diabetes risk, griffin diabetes risk score, AUSDRISK, SADPM, san antonio score, san antonio diabetes prediction model",
+        "title": "FINDRISC (Finnish Diabetes Risk Score)"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 29,
+          "short_title_en": "BMI & BSA",
+          "slug": "body-mass-index-bmi-body-surface-area-bsa"
+        },
+        {
+          "calcId": 4001,
+          "short_title_en": "Cambridge Diabetes Risk Score",
+          "slug": "cambridge-diabetes-risk-score"
+        },
+        {
+          "calcId": 10377,
+          "short_title_en": "IRAE for Endocrine Toxicities - Diabetes",
+          "slug": "immune-related-adverse-events-endocrine-toxicities-diabetes-mellitus"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4000",
+      "findrisc-finnish-diabetes-risk-score"
+    ]
+  },
+  "scriptLoader": []
+}

@@ -1,0 +1,587 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Agitation",
+          "AMS",
+          "Anxious"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p><span>Addition of the selected points:</span></p>\n<table>\n<tbody>\n<tr>\n<td rowspan=\"3\">\n<p><strong>Alertness</strong></p>\n</td>\n<td>\n<p><span>Normal</span></p>\n</td>\n<td>\n<p><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>Mild sleepiness for &lt;10 seconds after waking, then normal</span></p>\n</td>\n<td>\n<p><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>Clearly abnormal</span></p>\n</td>\n<td>\n<p><span>4</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p><strong><calculator id=\"3995\">AMT 4</calculator></strong></p>\n<p><span>Age, date of birth, place (name of hospital or building), current year</span></p>\n</td>\n<td>\n<p><span>No mistakes</span></p>\n</td>\n<td>\n<p><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>1 mistake</span></p>\n</td>\n<td>\n<p><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>&ge;2 mistakes or untestable</span></p>\n</td>\n<td>\n<p><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p><strong>Attention*</strong></p>\n</td>\n<td>\n<p><span>Lists &ge;7 months correctly</span></p>\n</td>\n<td>\n<p><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>Starts but lists &lt;7 months, or refuses to start</span></p>\n</td>\n<td>\n<p><span>1</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>Untestable (cannot start because unwell, drowsy, inattentive)</span></p>\n</td>\n<td>\n<p><span>2</span></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p><strong>Acute change or fluctuating course**</strong></p>\n</td>\n<td>\n<p><span>No</span></p>\n</td>\n<td>\n<p><span>0</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>Yes</span></p>\n</td>\n<td>\n<p><span>4</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p><span>*Instruct patient to list months in reverse order, starting at December. </span></p>\n<p><span>**Evidence of significant change or fluctuation in mental status within the last 2 weeks and still persisting in the last 24 hours.</span></p>",
+            "more_info_en": "<p><span>Interpretation: </span></p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<td>\n<p><strong>4AT Score</strong></p>\n</td>\n<td>\n<p><strong>Level of impairment</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>&ge;4</span></p>\n</td>\n<td>\n<p><span>Possible delirium and/or cognitive impairment</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>1&ndash;3</span></p>\n</td>\n<td>\n<p><span>Possible cognitive impairment</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span>0</span></p>\n</td>\n<td>\n<p><span>Delirium or severe cognitive impairment unlikely (but delirium still possible if &ldquo;acute change or fluctuating course&rdquo; information is incomplete) </span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://academic.oup.com/ageing/article/43/4/496/2812210/Validation-of-the-4AT-a-new-instrument-for-rapid ",
+                  "text": "Bellelli G, Morandi A, Davis DH, et al. Validation of the 4AT, a new instrument for rapid delirium screening: a study in 234 hospitalised older people. Age Ageing. 2014;43(4):496-502."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/19917632 ",
+                  "text": "Collins N, Blanchard MR, Tookman A, Sampson EL. Detection of delirium in the acute hospital. Age Ageing. 2010;39(1):131-5."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23988641 ",
+                  "text": "Lees R, Corbet S, Johnston C, Moffitt E, Shaw G, Quinn TJ. Test accuracy of short screening tests for diagnosis of delirium or cognitive impairment in an acute stroke unit setting. Stroke. 2013;44(11):3078-83."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26966365 ",
+                  "text": "Kuladee S, Prachason T. Development and validation of the Thai version of the 4 'A's Test for delirium screening in hospitalized elderly patients with acute medical illnesses. Neuropsychiatr Dis Treat. 2016;12:437-43."
+                },
+                {
+                  "href": "https://onlinelibrary.wiley.com/doi/abs/10.1002/gps.4615",
+                  "text": "De J, Wand APF, Smerdely PI, Hunt GE. Validating the 4A's test in screening for delirium in a culturally diverse geriatric inpatient population. Int J Geriatr Psychiatry. 2017;32(12):1322-1329."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Alasdair MacLullich",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li><span>Screens with higher sensitivity in patients </span><em><span>without </span></em><span>dementia.</span></li>\n<li><span>No consensus exists for the assessment of inattention.</span></li>\n<li><span>Limited external validation in some small populations, including the acute stroke setting.</span></li>\n<li><span>Validated in non-English speaking patients with 91% sensitivity (<a href=\"https://onlinelibrary.wiley.com/doi/abs/10.1002/gps.4615\" target=\"_blank\" rel=\"noopener\">De 2016</a>).</span></li>\n</ul>",
+            "use_case_en": "<p><span>Patients admitted to geriatric wards, to screen for delirium.</span></p>",
+            "why_use_en": "<ul>\n<li><span>Delirium is misdiagnosed, missed, or diagnosed late in over 60% of cases (</span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19917632\" target=\"_blank\" rel=\"noopener\"><span>Collins 2010</span></a><span>). A simple screening tool can help identify these patients.</span></li>\n<li><span>Can be used in patients deemed &ldquo;untestable&rdquo; by other tests.</span></li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span>If delirium is diagnosed, identify and treat underlying cause.</span></p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": [],
+          "reviewers": []
+        },
+        "disease_en": [
+          "Delirium",
+          "Dementia"
+        ],
+        "dosing": false,
+        "equation_logic": "e24aafe34cf3b9e536544a8d98291603",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs - addition of selected points\nvar score = parseFloat(alert) + parseFloat(amt) + parseFloat(atte) + parseFloat(acute);\n\n//interpretation\nvar msg, minimsg;\nif(score >= 4){\n\tmsg = 'Possible delirium and/or cognitive impairment';\n    minimsg = 'Delirium';\n}\nif(score > 0 && score < 4){\n\tmsg = 'Possible cognitive impairment';\n    minimsg = 'Cognition impaired';\n}\nif(score === 0){\n\tmsg = 'Delirium or severe cognitive impairment unlikely. Note that delirium is still possible if \"acute change or fluctuating course\" is questionable.';\n    minimsg = 'Unlikely';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: minimsg\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: msg\n});",
+        "favorite_id": 3982,
+        "full_title_en": "4 A’s Test for Delirium Screening",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Alertness</p>",
+            "name": "alert",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal",
+                "value": 0
+              },
+              {
+                "label": "Mild sleepiness for <10 seconds after waking, then normal",
+                "value": 0
+              },
+              {
+                "label": "Clearly abnormal",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "May ask patient to state name and address to help with rating",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p><calculator id=\"3995\">AMT 4</calculator></p>",
+            "name": "amt",
+            "optional": false,
+            "options": [
+              {
+                "label": "No mistakes",
+                "value": 0
+              },
+              {
+                "label": "1 mistake",
+                "value": 1
+              },
+              {
+                "label": "≥2 mistakes or untestable",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Age, date of birth, place (name of the hospital or building), current year",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Attention</p>",
+            "name": "atte",
+            "optional": false,
+            "options": [
+              {
+                "label": "Lists ≥7 months correctly",
+                "value": 0
+              },
+              {
+                "label": "Starts but lists <7 months, or refuses to start",
+                "value": 1
+              },
+              {
+                "label": "Untestable (cannot start because unwell, drowsy, inattentive)",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Instruct patient to list months in reverse order, starting at December",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Acute change or fluctuating course</p>",
+            "name": "acute",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Evidence of significant change or fluctuation in mental status within the last 2 weeks and still persisting in the last 24 hours",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "moved dr. maclullich to top",
+            "time": "2020-11-18T08:57:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added dr. maclullich",
+            "time": "2020-11-13T11:18:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "test add cme related dates",
+            "time": "2020-01-17T12:39:00.000Z",
+            "user": "yi"
+          },
+          {
+            "message": "revised tip",
+            "time": "2019-10-31T10:02:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added tip to Alertness input",
+            "time": "2019-10-31T10:01:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "restore",
+            "time": "2019-04-29T16:56:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "testing",
+            "time": "2019-01-10T12:22:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added validation study (De 2016)",
+            "time": "2018-05-17T10:18:00.000Z",
+            "user": "rachel"
+          }
+        ],
+        "md5": "24ae261c87f41784ca0beae2147dda0a",
+        "medium_description_en": "<p><span>Diagnoses delirium in older patients.</span></p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "4at",
+          "4 A's Test",
+          "4as test",
+          "delirium screening",
+          "4a delirium",
+          "4as test",
+          "4a test"
+        ],
+        "search_id": "c-3982",
+        "seo": {
+          "keywords_en": "4at, amt, amt4, amt10, delirium, dementia",
+          "meta_description_en": "The 4 A’s Test for Delirium Screening diagnoses delirium in older patients."
+        },
+        "short_description_en": "<p>Delirium screening.</p>",
+        "short_title_en": "4AT",
+        "slug": "4-test-delirium-assessment",
+        "specialty_en": [
+          "Family Practice",
+          "Geriatrics",
+          "Primary Care"
+        ],
+        "system_en": [
+          "Neurologic",
+          "Psychiatric"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Alasdair MacLullich, BSc, MB ChB, MRCP(UK), PhD, FRCPE, is a professor of geriatric medicine at the University of Edinburgh in Scotland. He also leads the Edinburgh Delirium Research Group working to improve the understanding, detection and treatment of delirium. Dr. MacLullich's primary reseach is focused on the pathophysiology, neuropathology, and clinical assessment of delirium.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Alasdair MacLullich",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-alasdair-macLullich.png",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://pubmed.ncbi.nlm.nih.gov/?term=maclullich+a+%5Bauthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3982/4-test-delirium-assessment",
+        "description": "The 4 A’s Test for Delirium Screening diagnoses delirium in older patients.",
+        "keywords": "4at, amt, amt4, amt10, delirium, dementia",
+        "title": "4 A’s Test for Delirium Screening"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3995,
+          "short_title_en": "AMT-4",
+          "slug": "abbreviated-mental-test-4-amt-4"
+        },
+        {
+          "calcId": 10208,
+          "short_title_en": "AMT-10",
+          "slug": "abbreviated-mental-test-amt-10"
+        },
+        {
+          "calcId": 10061,
+          "short_title_en": "Ishihara Test",
+          "slug": "color-vision-screening-ishihara-test"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3982",
+      "4-test-delirium-assessment"
+    ]
+  },
+  "scriptLoader": []
+}

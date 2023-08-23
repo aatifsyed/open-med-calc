@@ -1,0 +1,943 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>Addition of the selected points; points assigned in <a href=\"http://www.ids-qids.org/about.html\" target=\"_blank\">this table</a>.</p>",
+            "more_info_en": "<p><strong>QIDS Scoring Information:</strong></p><ul><li>Collect responses to all questions.</li><li>Use the highest score on any 1 of the 4 sleep symptoms (items 1 to 4).</li><li>Use the highest score on any 1 of the 4 weight symptoms (items 6 to 9).</li><li>Use the highest score on either of the 2 psychomotor symptoms (items 15 and 16).</li><li>There will be one score for each of the nine depression symptoms.</li><li>Add the scores of the of the 14 items as instructed above pertaining to the 9 depression symptoms (sleep, mood, weight, concentration, guilt, suicidal ideation, interest, fatigue and psychomotor changes) to obtain the total score. Total scores range from 0-27.</li></ul><p><strong>Score interpretation:</strong></p><ul><li>The higher the score, the more severe the depression.</li><li>Scores ≤5 indicate no depression.</li><li>Scores of 6-10 indicate mild depression.</li><li>Scores of 11-15 indicate moderate depression.</li><li>Scores of 16-20 indicate severe depression.</li><li>Scores ≥21 indicate very severe depression.</li></ul>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/3737788",
+                  "text": "Rush AJ, Giles DE, Schlesser MA, Fulton CL, Weissenburger JE, Burns CT. The Inventory of Depressive Symptomatology (IDS): Preliminary findings. Psychiatry Research. 1986; 18:65-87. "
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/12946886",
+                  "text": "Rush AJ, Trivedi MH, Ibrahim HM, Carmody TJ, Arnow B, Klein DN, Markowitz JC, Ninan PT, Kornstein S, Manber R, Thase ME, Kocsis JH, Keller MB. The 16-item Quick Inventory of Depressive Symptomatology (QIDS) Clinician Rating (QIDS-C) and Self-Report (QIDS-SR): A psychometric evaluation in patients with chronic major depression. Biological Psychiatry. 2003; 54:573-583."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": false,
+              "id": 65,
+              "name": "Dr. Augustus John Rush, Jr.",
+              "priority": 0,
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<ul> <li>Patients who identify as depressed or who may be suffering from depression.</li> <li>The QIDS can also be trended over time to help providers and patients alike see trends like improvements in depressive symptoms over time.</li> </ul>",
+            "why_use_en": "<p>The QIDS can help objectify and rate the severity of a patient's depression.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Patients with depression should be provided with further resources and potentially referred to psychiatry, as well as be screened for emergency psychiatric conditions like suicidal ideation or psychosis.</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Depression/Suicidality"
+        ],
+        "dosing": false,
+        "equation_logic_text": "var calc_output=[];var u=Math.max(parseFloat(onset_insomnia),parseFloat(mid_insomnia),parseFloat(early_insomnia),parseFloat(hypersomnia))+parseFloat(mood)+Math.max(parseFloat(appetite_decrease),parseFloat(appetite_increase),parseFloat(weight_decrease),parseFloat(weight_increase))+parseFloat(concentration)+parseFloat(outlook)+parseFloat(suicidal_ideation)+parseFloat(involvement)+parseFloat(energy_fatiguability)+Math.max(parseFloat(psychomotor_slowing),parseFloat(psychomotor_agitation));var msg='';if(u<=5){msg='No depression'}else if(u>=6&&u<=10){msg='Mild depression'}else if(u>=11&&u<=15){msg='Moderate depression'}else if(u>=16&&u<=20){msg='Severe depression'}else if(u>=21){msg='Very severe depression'} calc_output.push({name:'mini',value:u.toFixed(0),value_text:'points',message:msg}); calc_output.push({name:'Quick Inventory of Depressive Symptomatology',value:u.toFixed(0),value_text:'points',message:msg});",
+        "favorite_id": 1845,
+        "full_title_en": "Quick Inventory of Depressive Symptomatology (QIDS)",
+        "input_schema": [
+          {
+            "subheading": "Sleep (calculation uses highest score from items 1-4)",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "1. Sleep onset insomnia:",
+            "name": "onset_insomnia",
+            "optional": false,
+            "options": [
+              {
+                "label": "Never takes longer than 30 minutes to fall asleep.",
+                "value": 0
+              },
+              {
+                "label": "Takes at least 30 minutes to fall asleep, less than half the time.",
+                "value": 1
+              },
+              {
+                "label": "Takes at least 30 minutes to fall asleep, more than half the time.",
+                "value": 2
+              },
+              {
+                "label": "Takes more than 60 minutes to fall asleep, more than half the time.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "2. Mid-nocturnal insomnia:",
+            "name": "mid_insomnia",
+            "optional": false,
+            "options": [
+              {
+                "label": "Does not wake up at night.",
+                "value": 0
+              },
+              {
+                "label": "Restless, light sleep with few awakenings.",
+                "value": 1
+              },
+              {
+                "label": "Wakes up at least once a night, but goes back to sleep easily.",
+                "value": 2
+              },
+              {
+                "label": "Awakens more than once a night and stays awake for 20 minutes or more, more than half the time.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "3. Early morning insomnia:",
+            "name": "early_insomnia",
+            "optional": false,
+            "options": [
+              {
+                "label": "Less than half the time, awakens no more than 30 minutes before necessary.",
+                "value": 0
+              },
+              {
+                "label": "More than half the time, awakens more than 30 minutes before need be.",
+                "value": 1
+              },
+              {
+                "label": "Awakens at least one hour before need be, more than half the time.",
+                "value": 2
+              },
+              {
+                "label": "Awakens at least two hours before need be, more than half the time.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "4. Hypersomnia:",
+            "name": "hypersomnia",
+            "optional": false,
+            "options": [
+              {
+                "label": "Sleeps no longer than 7-8 hours/night, without naps.",
+                "value": 0
+              },
+              {
+                "label": "Sleeps no longer than 10 hours in a 24 hour period (including naps).",
+                "value": 1
+              },
+              {
+                "label": "Sleeps no longer than 12 hours in a 24 hour period (including naps).",
+                "value": 2
+              },
+              {
+                "label": "Sleeps longer than 12 hours in a 24 hour period (including naps).",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Mood",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "5. Mood (sad):",
+            "name": "mood",
+            "optional": false,
+            "options": [
+              {
+                "label": "Does not feel sad.",
+                "value": 0
+              },
+              {
+                "label": "Feels sad less than half the time.",
+                "value": 1
+              },
+              {
+                "label": "Feels sad more than half the time.",
+                "value": 2
+              },
+              {
+                "label": "Feels intensely sad virtually all the time.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Weight (calculation uses highest score from items 6-9",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "6. Appetite (decreased):",
+            "name": "appetite_decrease",
+            "optional": false,
+            "options": [
+              {
+                "label": "No change from usual appetite.",
+                "value": 0
+              },
+              {
+                "label": "Eats somewhat less often and/or lesser amounts than usual.",
+                "value": 1
+              },
+              {
+                "label": "Eats much less than usual and only with personal effort.",
+                "value": 2
+              },
+              {
+                "label": "Eats rarely within a 24-hour period, and only with extreme personal effort or with persuasion by others.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "7. Appetite (increased):",
+            "name": "appetite_increase",
+            "optional": false,
+            "options": [
+              {
+                "label": "No change from usual appetite.",
+                "value": 0
+              },
+              {
+                "label": "More frequently feels a need to eat than usual.",
+                "value": 1
+              },
+              {
+                "label": "Regularly eats more often and/or greater amounts than usual.",
+                "value": 2
+              },
+              {
+                "label": "Feels driven to overeat at and between meals.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "8. Weight (decrease) within the last two weeks:",
+            "name": "weight_decrease",
+            "optional": false,
+            "options": [
+              {
+                "label": "Has experienced no weight change.",
+                "value": 0
+              },
+              {
+                "label": "Feels as if some slight weight loss occurred.",
+                "value": 1
+              },
+              {
+                "label": "Has lost 2 pounds or more.",
+                "value": 2
+              },
+              {
+                "label": "Has lost 5 pounds or more.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "9. Weight (increase) within the last two weeks:",
+            "name": "weight_increase",
+            "optional": false,
+            "options": [
+              {
+                "label": "Has experienced no weight change.",
+                "value": 0
+              },
+              {
+                "label": "Feels as if some slight weight gain has occurred.",
+                "value": 1
+              },
+              {
+                "label": "Has gained 2 pounds or more.",
+                "value": 2
+              },
+              {
+                "label": "Has gained 5 pounds or more.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Concentration",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "10. Concentration/decision making:",
+            "name": "concentration",
+            "optional": false,
+            "options": [
+              {
+                "label": "No change in usual capacity to concentrate and decide.",
+                "value": 0
+              },
+              {
+                "label": "Occasionally feels indecisive or notes that attention often wanders.",
+                "value": 1
+              },
+              {
+                "label": "Most of the time struggles to focus attention or make decisions.",
+                "value": 2
+              },
+              {
+                "label": "Cannot concentrate well enough to read or cannot make even minor decisions.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Guilt",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "11. Outlook (self):",
+            "name": "outlook",
+            "optional": false,
+            "options": [
+              {
+                "label": "Sees self as equally worthwhile and deserving as others.",
+                "value": 0
+              },
+              {
+                "label": "Is more self-blaming than usual.",
+                "value": 1
+              },
+              {
+                "label": "Largely believes that he/she causes problems for others.",
+                "value": 2
+              },
+              {
+                "label": "Ruminates over major and minor defects in self.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Suicidal Ideation",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "12. Suicidal ideation:",
+            "name": "suicidal_ideation",
+            "optional": false,
+            "options": [
+              {
+                "label": "Does not think of suicide or death.",
+                "value": 0
+              },
+              {
+                "label": "Feels life is empty or is not worth living.",
+                "value": 1
+              },
+              {
+                "label": "Thinks of suicide/death several times a week for several minutes.",
+                "value": 2
+              },
+              {
+                "label": "Thinks of suicide/death several times a day in depth, or has made specific plans to commit or attempted suicide.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Interest",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "13. Involvement:",
+            "name": "involvement",
+            "optional": false,
+            "options": [
+              {
+                "label": "No change from usual level of interest in other people and activities.",
+                "value": 0
+              },
+              {
+                "label": "Notices a reduction in former interests/activities.",
+                "value": 1
+              },
+              {
+                "label": "Finds only one or two former interests remain.",
+                "value": 2
+              },
+              {
+                "label": "Has virtually no interest in formerly pursued activities.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Fatigue",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "14. Energy/fatigability:",
+            "name": "energy_fatiguability",
+            "optional": false,
+            "options": [
+              {
+                "label": "No change in usual level of energy.",
+                "value": 0
+              },
+              {
+                "label": "Tires more easily than usual.",
+                "value": 1
+              },
+              {
+                "label": "Makes significant personal effort to initiate or maintain usual daily activities.",
+                "value": 2
+              },
+              {
+                "label": "Unable to carry out most of usual daily activities due to lack of energy.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Psychomotor Changes (calculation uses highest score from items 15-16)",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "15. Psychomotor slowing:",
+            "name": "psychomotor_slowing",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal speed of thinking, gesturing, and speaking.",
+                "value": 0
+              },
+              {
+                "label": "Notes slowed thinking, and voice modulation is reduced.",
+                "value": 1
+              },
+              {
+                "label": "Takes several seconds to respond to most questions; reports slowed thinking.",
+                "value": 2
+              },
+              {
+                "label": "Is largely unresponsive to most questions without strong encouragement.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "16. Psychomotor agitation:",
+            "name": "psychomotor_agitation",
+            "optional": false,
+            "options": [
+              {
+                "label": "No increased speed or disorganization in thinking or gesturing.",
+                "value": 0
+              },
+              {
+                "label": "Fidgets, wrings hands, and shifts positions often.",
+                "value": 1
+              },
+              {
+                "label": "Describes impulse to move about and displays motor restlessness.",
+                "value": 2
+              },
+              {
+                "label": "Unable to stay seated; paces about with or without permission.",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "added in reference to QIDS-SR-16",
+            "time": "2021-08-03T10:50:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "fixed broken link",
+            "time": "2019-03-13T10:45:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "",
+        "medium_description_en": "<p>Rates depression symptoms via self-assessment, also known as QIDS-SR-16.</p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "self-assessment",
+          "depression",
+          "QIDS",
+          "suicidality",
+          "IDS",
+          "psych",
+          "diagnosis",
+          "qids sr16",
+          "qids sr 16",
+          "qids-sr-16",
+          "qidssr16",
+          "sr-16",
+          "sr16",
+          "qids-sr16"
+        ],
+        "search_id": "c-1845",
+        "seo": {
+          "keywords_en": "depression self-assessment, Depression symptoms screen, depression screen, QIDS, QIDS diagnosis, depression severity, self screen depression, QIDS assessment, QIDS calc, Quick IDS, QIDS score, QIDS screen, depression qids, qids-sr16, qids sr-16, qids sr 16, qids-sr-16 ",
+          "meta_description_en": "The Quick Inventory of Depressive Symptomatology (QIDS) rates depression symptoms via self-assessment, also known as QIDS-SR-16."
+        },
+        "short_description_en": "Trends depressions via self-assessment.",
+        "short_title_en": "QIDS",
+        "slug": "quick-inventory-depressive-symptomatology-qids",
+        "specialty_en": [
+          "Family Practice",
+          "Primary Care",
+          "Psychiatry"
+        ],
+        "system_en": [
+          "Psychiatric"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Augustus John Rush, Jr., MD, is professor emeritus at National University of Singapore. He is also adjunct professor of psychiatry at Duke University. Previously he was vice dean of clinical sciences at Duke-NUS Graduate Medical School Singapore.  His research spans many areas of psychiatry including depression, cognitive therapy techniques and pharmacotherapy.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Augustus John Rush, Jr.",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-augustus-john-rush-jr.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Rush+AJ%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/1845/quick-inventory-depressive-symptomatology-qids",
+        "description": "The Quick Inventory of Depressive Symptomatology (QIDS) rates depression symptoms via self-assessment, also known as QIDS-SR-16.",
+        "keywords": "depression self-assessment, Depression symptoms screen, depression screen, QIDS, QIDS diagnosis, depression severity, self screen depression, QIDS assessment, QIDS calc, Quick IDS, QIDS score, QIDS screen, depression qids, qids-sr16, qids sr-16, qids sr 16, qids-sr-16 ",
+        "title": "Quick Inventory of Depressive Symptomatology (QIDS)"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 1844,
+          "short_title_en": "Major Depression Index",
+          "slug": "major-depression-index-mdi"
+        },
+        {
+          "calcId": 1725,
+          "short_title_en": "PHQ-9",
+          "slug": "phq9-patient-health-questionnaire9"
+        },
+        {
+          "calcId": 1843,
+          "short_title_en": "Hamilton Anxiety Scale",
+          "slug": "hamilton-anxiety-scale"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "1845",
+      "quick-inventory-depressive-symptomatology-qids"
+    ]
+  },
+  "scriptLoader": []
+}

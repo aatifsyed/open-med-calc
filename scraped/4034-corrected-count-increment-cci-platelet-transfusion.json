@@ -1,0 +1,735 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Bleeding",
+          "Weakness"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "4034.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>CCI = count increment, per &micro;L &times; body surface area (m&sup2;) / unit content</p>\n<p>Units (m&sup2;/&micro;L) are usually omitted when reporting the result.</p>\n<p>Example:</p>\n<p>For an adult patient with a <calculator id=\"29\">BSA</calculator> of 2.0 m&sup2; whose platelet count rose from 5&nbsp;&times; 10<sup>9</sup>/L to 25&nbsp;&times; 10<sup>9</sup>/L after a platelet transfusion containing 4.0 &times; 10<sup>11</sup> platelets:</p>\n<ul>\n<li>CCI for above patient = (20 &times; 10<sup>9</sup>/L &times; 2.0 m&sup2;) / 4.0 =&nbsp;10,000</li>\n</ul>",
+            "more_info_en": "<p>Interpretation:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>CCI at 1 hour</strong></p>\n</td>\n<td>\n<p><strong>CCI at 20 hours</strong></p>\n</td>\n<td>\n<p><strong>Interpretation</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>&gt;7,500</p>\n</td>\n<td>\n<p>&gt;4,800</p>\n</td>\n<td>\n<p>Successful transfusion</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>&le;7,500</p>\n</td>\n<td>\n<p>&le;4,800</p>\n</td>\n<td>\n<p>Repeat transfusion. Two CCIs&nbsp;below the cutoff&nbsp;indicate refractoriness.</p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10378838 ",
+                  "text": "Davis KB, Slichter SJ, Corash L. Corrected count increment and percent platelet recovery as measures of posttransfusion platelet response: problems and a solution. Transfusion. 1999;39(6):586-92."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/2048176 ",
+                  "text": "Bishop JF, Matthews JP, Mcgrath K, Yuen K, Wolf MM, Szer J. Factors influencing 20-hour increments after platelet transfusion. Transfusion. 1991;31(5):392-6."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1895076/",
+                  "text": "Slichter SJ, Davis K, Enright H, et al. Factors affecting posttransfusion platelet increments, platelet refractoriness, and platelet transfusion intervals in thrombocytopenic patients. Blood. 2005;105(10):4106-14."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Ronald George Hauser, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "OTHER",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>Corrected count increment (CCI) is a measure of the expected increase in platelets following a platelet transfusion. The &ldquo;count increment&rdquo; refers to the increase in platelets following a transfusion. The &ldquo;correction&rdquo; is based on the patient&rsquo;s size and the number of platelets transfused.&nbsp;</li>\n<li>Refractory = failure to achieve acceptable increase in platelet count following platelet transfusion on at least two occasions and no alternate cause for refractoriness such as fever, sepsis, DIC, bleeding, splenomegaly, or drug interaction (e.g. amphotericin B).</li>\n<li>Response to platelet transfusion is typically measured within one hour. However, a sample collected 10 minutes after transfusion yields similar information and may be easier to obtain routinely.&nbsp;A post-transfusion platelet count can alternatively be taken at 20 hours.</li>\n</ul>",
+            "use_case_en": "<p>Use in patients undergoing platelet transfusion.</p>",
+            "why_use_en": "<ul>\n<li>CCI is a more accurate measure of refractoriness, as it adjusts for the number of platelets transfused and the patient's blood volume.</li>\n<li>Can guide the decision to pursue platelets with improved compatibility (i.e., HLA-matched platelets).</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>When no compatible platelets can be found to transfuse to a patient with platelet refractoriness, alternative measures can be tried to stem or forestall hemorrhage, but these are of unpredictable benefit.</li>\n<li>Administration of antifibrinolytic agents, such as &epsilon;-aminocaproic acid (Amicar), either intravenously or, in the case of gingival bleeding, as a mouthwash, may allow the clot that is formed to be sustained.</li>\n<li>Consider baseline patient factors, including age, gender, height/weight, history of pregnancy, and previous transfusion.</li>\n<li>Possible patient characteristics to be evaluated for each transfusion:\n<ul>\n<li>Administration of amphotericin, heparin, or &gamma;-globulin.</li>\n<li>HLA and/or PLT antibody status of the closest sample prior to the transfusion.</li>\n<li>Presence of bleeding, fever, infection, transfusion reaction, splenomegaly.</li>\n</ul>\n</li>\n</ul>\n<ul></ul>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Anemia",
+          "Bleeding/Hemorrhage",
+          "GI Bleeding",
+          "Trauma"
+        ],
+        "dosing": false,
+        "equation_logic": "fef2df9366e6ec9d856983e0b701b195",
+        "equation_logic_text": "var calc_output = [];\n\nif (UOMSYSTEM == true) {\n  height = height * 2.54\n}\n\nvar plt_pre = parseFloat(plt_pre)\nvar plt_post = parseFloat(plt_post)\nvar weight = parseFloat(weight)\nvar height = parseFloat(height)\nvar bsa = Math.pow(weight * height / 3600, 0.5)\nvar plt_unit = parseFloat(plt_unit) \nvar time = parseFloat(time)\n\n//equations\nvar cci = Math.round((plt_post - plt_pre) * bsa.toFixed(1) / plt_unit * 1000 / 100)*100\n\ncci = cci.toFixed(0)\n\nvar msg\n\nif (time == 0) {\n  if (cci > 7500) {\n  msg = '1-hr CCI >7,500 indicates successful transfusion (platelet transfusion refractoriness unlikely)'\n  }\n  else {\n    msg = 'Recommend repeat transfusion. Two CCIs ≤7,500 within 1 hour after transfusion suggests refractoriness.'\n  }\n}\nelse if (time == 1) {\n  if (cci > 4800) {\n    msg = '20-hr CCI >4,800 indicates successful transfusion (platelet transfusion refractoriness unlikely)'\n  }\n  else {\n    msg = 'Recommend repeat transfusion. Two CCIs ≤4,800 within 20 hours after transfusion suggests refractoriness.'\n  }\n} \n\n\n//results\nif (time == 0) {\n  calc_output.push({\n      name: 'mini',\n      value: cci.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\"),\n      value_text: '',\n      message: 'Corrected count increment'\n  });\n  calc_output.push({\n      name: 'cci',\n      value: cci.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\"),\n      value_text: '',\n      message: 'Corrected count increment' \n  });\n  calc_output.push({\n      name: 'message',\n      value: '',\n      value_text: '',\n      message: msg\n  });\n}\nelse {\n  calc_output.push({\n      name: 'mini',\n      value: cci.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\"),\n      value_text: '',\n      message: 'Corrected count increment'\n  });\n  calc_output.push({\n      name: 'cci',\n      value: cci.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\"),\n      value_text: '',\n      message: 'Corrected count increment' \n  });\n  calc_output.push({\n      name: 'message',\n      value: '',\n      value_text: '',\n      message: msg\n  });\n}\n",
+        "favorite_id": 4034,
+        "full_title_en": "Corrected Count Increment (CCI) for Platelet Transfusion",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Pre-transfusion platelet count",
+            "name": "plt_pre",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "plt_tcp"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Post-transfusion platelet count",
+            "name": "plt_post",
+            "optional": false,
+            "tips_en": "Collect at either 1 or 20 hours after transfusion",
+            "type": "textbox",
+            "unit": "plt_posttrans"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Time after transfusion",
+            "name": "time",
+            "optional": false,
+            "options": [
+              {
+                "label": "1-hour",
+                "value": 0
+              },
+              {
+                "label": "20-hour",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Height",
+            "name": "height",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "ht_adult"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Weight",
+            "name": "weight",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "wt"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Platelet unit content",
+            "name": "plt_unit",
+            "optional": false,
+            "tips_en": "One apheresis unit is ~3.0 x 10¹¹ plts; one pooled unit is ~0.55 x 10¹¹ plts",
+            "type": "textbox",
+            "unit": "plt_unit"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "contributor feedback added",
+            "time": "2018-6-4 5:10 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "more contributor feedback",
+            "time": "2018-7-19 4:12 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "final contributor feedback",
+            "time": "2018-8-28 1:12 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "updated units",
+            "time": "2018-8-29 11:12 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "final contributor feedback",
+            "time": "2018-09-11 05:03 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "final contributor feedback",
+            "time": "2018-09-11 05:11 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added values for 20-hour CCI",
+            "time": "2018-09-11 05:50 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added specialty Transfusion Medicine",
+            "time": "2018-09-13 05:56 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "edited 20-hr CCI per contributor",
+            "time": "2018-09-14 11:09 AM",
+            "user": "rachel"
+          }
+        ],
+        "md5": "1b6e99dc23e594f892cd05b2d7dbe377",
+        "medium_description_en": "<p>Assesses adequacy of response to platelet transfusion.</p>",
+        "purpose_en": [
+          "Calculation"
+        ],
+        "search_abbreviation_en": [
+          "CCI",
+          "corrected count",
+          "count increment",
+          "plt",
+          "platelet transfusion",
+          "transfusion",
+          "massive transfusion"
+        ],
+        "search_id": "c-4034",
+        "seo": {
+          "keywords_en": "cci, plt, platelet transfusion",
+          "meta_description_en": "Corrected Count Increment (CCI) for Platelet Transfusion quantifies response to platelet transfusion."
+        },
+        "short_description_en": "Platelet transfusion response.",
+        "short_title_en": "Corrected Count Increment (CCI) ",
+        "slug": "corrected-count-increment-cci-platelet-transfusion",
+        "specialty_en": [
+          "Hematology and Oncology",
+          "Pathology",
+          "Surgery (Trauma)",
+          "Transfusion Medicine"
+        ],
+        "system_en": [
+          "Hematologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Ronald \\\"George\\\" Hauser, MD, is an assistant professor in laboratory medicine at Yale University School of Medicine who splits his time between clinical medicine and informatics research.  As an attending physician, he practices medicine at the interface between other clinicians and the clinical laboratories, which include Chemistry, Hematology, Microbiology, and the Blood Bank.  He also works along with medical residents, particularly at the Veterans Affairs Hospital in West Haven, Connecticut.  He practices clinical informatics for various projects affiliated at Yale University and the Veterans Health Administration (VHA) including the Recipient Epidemiology and Donor Evaluation Study (REDS; Yale, NIH) and the HIV, Hepatitis, and Related Conditions program (VHA).</p>",
+          "firstName": "Ronald",
+          "hasDisclosure": [],
+          "img": "george-hauser.jpg",
+          "lastName": "Hauser",
+          "name": "Ronald George Hauser, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "george-hauser",
+          "updatedAt": "2023-04-06T20:18:56.600Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Other creator.</p>",
+          "createdAt": "2022-04-08T13:27:37.821Z",
+          "deceased": true,
+          "firstName": "",
+          "lastName": "",
+          "name": "OTHER",
+          "photo_en": null,
+          "publishedAt": "2023-01-10T18:10:35.625Z",
+          "pubmedLink": null,
+          "signedCOI": false,
+          "updatedAt": "2023-01-10T18:11:49.358Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4034/corrected-count-increment-cci-platelet-transfusion",
+        "description": "Corrected Count Increment (CCI) for Platelet Transfusion quantifies response to platelet transfusion.",
+        "keywords": "cci, plt, platelet transfusion",
+        "title": "Corrected Count Increment (CCI) for Platelet Transfusion"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "2.54",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 90,
+          "error_max_si": 228.6,
+          "error_max_us": 90,
+          "error_min": 48,
+          "error_min_si": 121.92,
+          "error_min_us": 48,
+          "name": "Height (Adult)",
+          "normal_max_si": 213,
+          "normal_max_us": 84,
+          "normal_min_si": 152,
+          "normal_min_us": 60,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "ht_adult",
+          "units_si": "cm",
+          "units_us": "in",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 80,
+          "warn_max_si": 203.2,
+          "warn_max_us": 80,
+          "warn_min": 48,
+          "warn_min_si": 121.92,
+          "warn_min_us": 48
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 500,
+          "error_max_si": 500,
+          "error_max_us": 500,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Platelet count, posttransfusion",
+          "normal_max_si": 150,
+          "normal_max_us": 150,
+          "normal_min_si": 50,
+          "normal_min_us": 50,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "plt_posttrans",
+          "units_si": "× 10⁹/L",
+          "units_us": "× 10³/µL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 500,
+          "warn_max_si": 500,
+          "warn_max_us": 500,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 200,
+          "error_max_si": 200,
+          "error_max_us": 200,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Platelet count, thrombocytopenia",
+          "normal_max_si": 50,
+          "normal_max_us": 50,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "plt_tcp",
+          "units_si": "× 10⁹/L",
+          "units_us": "× 10³/µL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 50,
+          "warn_max_si": 50,
+          "warn_max_us": 50,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 500,
+          "error_max_si": 500,
+          "error_max_us": 500,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Platelet unit content",
+          "normal_max_si": 10,
+          "normal_max_us": 10,
+          "normal_min_si": 0.5,
+          "normal_min_us": 0.5,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "plt_unit",
+          "units_si": "× 10¹¹ plts",
+          "units_us": "× 10¹¹ plts",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 500,
+          "warn_max_si": 500,
+          "warn_max_us": 500,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "0.453592",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 600,
+          "error_max_si": 272.1552,
+          "error_max_us": 600,
+          "error_min": 0.5,
+          "error_min_si": 0.226796,
+          "error_min_us": 0.5,
+          "name": "Weight",
+          "normal_max_si": 150,
+          "normal_max_us": 330,
+          "normal_min_si": 1,
+          "normal_min_us": 2,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "wt",
+          "units_si": "kg",
+          "units_us": "lbs",
+          "updatedAt": "2022-12-01T20:01:08.372Z",
+          "warn_max": 500,
+          "warn_max_si": 226.796,
+          "warn_max_us": 500,
+          "warn_min": 0.5,
+          "warn_min_si": 0.226796,
+          "warn_min_us": 0.5
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 4033,
+          "short_title_en": "Plasma Dosage",
+          "slug": "plasma-dosage"
+        },
+        {
+          "calcId": 4066,
+          "short_title_en": "Sickle Cell RBC Exchange Volume",
+          "slug": "sickle-cell-rbc-exchange-volume"
+        },
+        {
+          "calcId": 1228,
+          "short_title_en": "ABC Score",
+          "slug": "abc-score-massive-transfusion"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4034",
+      "corrected-count-increment-cci-platelet-transfusion"
+    ]
+  },
+  "scriptLoader": []
+}

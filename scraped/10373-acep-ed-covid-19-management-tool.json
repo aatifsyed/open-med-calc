@@ -1,0 +1,2098 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p>Launched during COVID-19 crisis. <a href=\"https://www.acep.org/globalassets/sites/acep/media/covid-19-main/acep-covid-19-ed-management-tool.pdf\" target=\"_blank\" rel=\"noopener\">This tool</a> is an expert consensus flowsheet based on evidence based studies, but has not been validated as an evidence based tool itself. <a href=\"https://www.acep.org/corona/COVID-19-alert/covid-19-articles/covid-19-ED-management-tool-now-available/\" target=\"_blank\" rel=\"noopener\"><strong>See more</strong></a>.<br><br>This ACEP ED COVID-19 Management Tool was funded in part by a cooperative agreement with the Centers for Disease Control and Prevention (<a href=\"https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=NU50CK000570&amp;arg_ProgOfficeCode=252\" target=\"_blank\" rel=\"noopener\">grant number 1 NU50CK000570</a>). The CDC is an agency within the Department of Health and Human Services (HHS). The contents of this ACEP tool do not necessarily represent the policy of CDC or HHS and should not be considered an endorsement by the Federal Government.</p>",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Cough",
+          "Dyspnea",
+          "Fever"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\">All current citations are listed on page 7 of the Emergency Department COVID-19 Management Tool. Summary of references as below:</p>\n<p dir=\"ltr\"><strong>Step 1 - Severity Classification</strong></p>\n<p dir=\"ltr\">The disease severity classification utilized by this tool (Mild, Moderate, Severe, Critical) is based upon that adopted by the National Institute of Health COVID-19 Treatment Guidelines Panel which in turn is based upon an early consensus of the literature describing the disease entity initially presenting in Wuhan, China, and subsequently identified as SARS-CoV-2.&nbsp; (<a href=\"https://www.covid19treatmentguidelines.nih.gov/\">https://www.covid19treatmentguidelines.nih.gov/</a>).</p>\n<p dir=\"ltr\"><strong>Step 2 - Risk Prognostication</strong></p>\n<p dir=\"ltr\">This section utilizes the PRIEST Score as a validated tool to predict a patient&rsquo;s risk for end organ failure and/or mortality. It was a mixed prospective and retrospective observational cohort study in 70 emergency departments across the United Kingdom (UK). 22,445 patients were included who were suspected to have COVID-19 between 26 March 2020 and 28 May 2020. This tool was included because it did not require diagnostic testing (labs, imaging) as part of the evaluation of the patient. (<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7822515/\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7822515/</a>).</p>\n<p dir=\"ltr\"><strong>Step 3 - Risk Assessment</strong></p>\n<p dir=\"ltr\">The user is asked if the patient has any additional risk factors that could increase the patient&rsquo;s risk for severe disease, organ failure, and/or mortality. The CDC maintains information that is consistently updated with data for risk associated with race/ethnicity, socioeconomic status, and healthcare resources (<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/investigations-discovery/hospitalization-death-by-race-ethnicity.html\">https://www.cdc.gov/coronavirus/2019-ncov/covid-data/investigations-discovery/hospitalization-death-by-race-ethnicity.html</a>). Additional references (Bellou 2020, Ebinger 2020, Lokken 2021, Strausz 2021, Williamson 2020, Tartof 2020) are included that summarize evidence for other risk factors.</p>\n<p dir=\"ltr\"><strong>Step 4 - Diagnostic Testing</strong></p>\n<p dir=\"ltr\">This section follows NIH guidelines for testing recommendations that are maintained here: (<a href=\"https://www.covid19treatmentguidelines.nih.gov/overview/\">https://www.covid19treatmentguidelines.nih.gov/overview/</a>). Recommendations within this section will be updated as NIH makes updates to these recommendations. Evidence for exertional O2 measurement is included from (Greenhalgh 2020, Goodacre 2020, Paglia 2020).</p>\n<p dir=\"ltr\"><strong>Step 5 - Diagnostic Interpretation</strong></p>\n<p dir=\"ltr\">Labs that have been associated with risk of disease progression, severe disease, and/or mortality are included in this section. Abnormal lab value cutoffs where heterogenous across studies, so the working group determined the most pragmatic values to display within this summary tool. The following references were included: Bellou 2020, Guan 2021, Hahm 2021, Payan-Pernia 2020. Clinicians are advised in this section to check with their facilities lab to determine abnormal cutoff values that are used.</p>\n<p dir=\"ltr\"><strong>Step 6 - Disposition</strong></p>\n<p dir=\"ltr\">This section lays out appropriate disposition of the patient based on their severity classification. Most of this section was devised from consensus among the working group. Supplemental evidence was included from Banerjee 2021, links to patient educational materials from the CDC (<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/index.html\">https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/index.html</a>), and multiple helpful links for patients from JAMA (example:&nbsp;<a href=\"https://jamanetwork.com/journals/jamapediatrics/fullarticle/2763176\">https://jamanetwork.com/journals/jamapediatrics/fullarticle/2763176</a>).</p>\n<p dir=\"ltr\"><strong>Step 7a - Non-Pharmacologic Treatment</strong></p>\n<p dir=\"ltr\">This section cites 8 references which include non-pharmacologic treatment of respiratory infections in general (e.g. Patchett 2021) as well as COVID-19 specifically (e.g. Banerjee 2021). It also includes a review of treatments for outpatient and inpatient COVID-19 management (<a href=\"https://www.covid19treatmentguidelines.nih.gov/management/\" target=\"_blank\" rel=\"noopener\">https://www.covid19treatmentguidelines.nih.gov/management/</a>). The recommendations are listed, based upon provider assessment of disease severity. Some of these recommendations are consensus-based.</p>\n<p dir=\"ltr\"><strong>Step 7b - Pharmacologic Treatment</strong></p>\n<p dir=\"ltr\">This section is abstracted directly from the NIH COVID-19 Treatment Guidelines (<a href=\"https://www.covid19treatmentguidelines.nih.gov/therapies/\" target=\"_blank\" rel=\"noopener\">https://www.covid19treatmentguidelines.nih.gov/therapies/</a>), which are mainly evidence-based. The entries are listed by severity of disease. When provided in the NIH guidelines, the strength of the recommendation and level of evidence for the recommendation are specified. For example, for moderate, severe and critical COVID-19, the following is provided:</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Remdesivir: For hospitalized patients who require minimal supplemental oxygen (BIIa).&nbsp;</p>\n</li>\n</ul>\n<p dir=\"ltr\"><strong>References here:</strong></p>\n<ul>\n<li dir=\"ltr\" role=\"presentation\">Haimovich AD et al. Development and Validation of the Quick COVID-19 Severity Index: A Prognostic Tool for Early Clinical Decompensation. Ann Emerg Med. 2020;76(4):442-453.&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7373004/\" target=\"_blank\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7373004/&nbsp;</a></li>\n<li dir=\"ltr\" role=\"presentation\">Bellou V. Risk factors for adverse clinical outcomes in patients with COVID-19: A systematic review and meta-analysis. MedRxiv preprint.&nbsp;<a href=\"https://www.medrxiv.org/content/10.1101/2020.05.13.20100495v1.full-text\" target=\"_blank\" rel=\"noopener\">https://www.medrxiv.org/content/10.1101/2020.05.13.20100495v1.full-text</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Ebinger JE et al. Pre-existing traits associated with Covid-19 illness severity. PLoS One. 2020;15(7):e0236240.&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7377468/\" target=\"_blank\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7377468/</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Toussie D et al. Clinical and Chest Radiography Features Determine Patient Outcomes in Young and Middle-aged Adults with COVID-19. Radiology. 2020;297(1):E197-E206.&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7507999/\" target=\"_blank\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7507999/&nbsp;</a></li>\n<li dir=\"ltr\" role=\"presentation\">Greenhalgh T et al. What is the efficacy and safety of rapid exercise tests for exertional desaturation in covid-19? April 21, 2020. Centre for Evidence-Based Medicine.&nbsp;<a href=\"https://www.cebm.net/covid-19/what-is-the-efficacy-and-safety-of-rapid-exercise-tests-for-exertional-desaturation-in-covid-19/\" target=\"_blank\" rel=\"noopener\">https://www.cebm.net/covid-19/what-is-the-efficacy-and-safety-of-rapid-exercise-tests-for-exertional-desaturation-in-covid-19/&nbsp;</a></li>\n<li dir=\"ltr\" role=\"presentation\">COVID-19 Treatment Guidelines Panel. Coronavirus Disease 2019 (COVID-19) Treatment Guidelines. National Institutes of Health.&nbsp;<a href=\"https://www.covid19treatmentguidelines.nih.gov/\" target=\"_blank\" rel=\"noopener\">https://www.covid19treatmentguidelines.nih.gov/&nbsp;</a></li>\n<li dir=\"ltr\" role=\"presentation\">COVID-19 Hospitalization and Death by Race/Ethnicity. Centers for Disease Control and Prevention.&nbsp;<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/investigations-discovery/%20hospitalization-death-by-race-ethnicity.html\" target=\"_blank\" rel=\"noopener\">https://www.cdc.gov/coronavirus/2019-ncov/covid-data/investigations-discovery/ hospitalization-death-by-race-ethnicity.html</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Giannakoulis VG et al. Effect of Cancer on Clinical Outcomes of Patients With COVID-19: A Meta-Analysis of Patient Data. JCO Glob Oncol. 2020;6:799-808.&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7328119/\" target=\"_blank\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7328119/&nbsp;</a></li>\n<li dir=\"ltr\" role=\"presentation\">Lokken EM et al. Disease Severity, Pregnancy Outcomes and Maternal Deaths among Pregnant Patients with SARS-CoV-2 Infection in Washington State [published online ahead of print, 2021 Jan 19]. Am J Obstet Gynecol. 2021;S0002-9378(21)00033-8.&nbsp;<a href=\"https://www.ajog.org/article/S0002-9378(21)00033-8/fulltext\" target=\"_blank\" rel=\"noopener\">https://www.ajog.org/article/S0002-9378(21)00033-8/fulltext</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Strausz S et al. Sleep apnoea is a risk factor for severe COVID-19. BMJ Open Respir Res. 2021;8(1):e000845.&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7804843/\" target=\"_blank\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7804843/</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Williamson EJ et al. Factors associated with COVID-19-related death using OpenSAFELY. Nature. 2020;584(7821):430-436.&nbsp;<a href=\"https://www.nature.com/articles/s41586-020-2521-4\" target=\"_blank\" rel=\"noopener\">https://www.nature.com/articles/s41586-020-2521-4&nbsp;</a></li>\n<li dir=\"ltr\" role=\"presentation\">Tartof SY et al. Obesity and Mortality Among Patients Diagnosed With COVID-19: Results From an Integrated Health Care Organization. Ann Intern Med. 2020;173(10):773-781.&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7429998/\" target=\"_blank\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7429998/</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Goodacre S et al. Post-exertion oxygen saturation as a prognostic factor for adverse outcome in patients attending the emergency department with suspected COVID-19: a substudy of the PRIEST observational cohort study. Emergency medicine journal:emermed-2020-210528.&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7716294/\" target=\"_blank\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7716294/&nbsp;</a></li>\n<li dir=\"ltr\" role=\"presentation\">Goodacre S, Thomas B, Sutton L, Burnsall M, Lee E, Bradburn M, et al. (2021) Derivation and validation of a clinical severity score for acutely ill adults with suspected COVID-19: The PRIEST observational cohort study. PLoS ONE 16(1): e0245840.&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7822515/\" target=\"_blank\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7822515/</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Clift AK et al. COVID-19 Mortality Risk in Down Syndrome: Results From a Cohort Study Of 8 Million Adults. Annals of internal medicine, M20-4986. 21 Oct. 2020.&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7592804/\" target=\"_blank\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7592804/</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Putative contributions of circadian clock and sleep in the context of SARS-CoV-2 infection. Meira E Cruz M, Miyazawa M, Gozal D.Meira E Cruz M, et al. Eur Respir J. 2020 Jun 4;55(6):2001023. doi: 10.1183/13993003.01023-2020. Print 2020 Jun.&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/pmc7191115\" target=\"_blank\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/pmc/articles/pmc7191115</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Pecora F, Persico F, Argentiero A, Neglia C, Esposito S. The Role of Micronutrients in Support of the Immune Response against Viral Infections. Nutrients. 2020 Oct 20;12(10):3198. doi: 10.3390/nu12103198.&nbsp;<a href=\"https://pubmed.ncbi.nlm.nih.gov/33092041/\" target=\"_blank\" rel=\"noopener\">https://pubmed.ncbi.nlm.nih.gov/33092041/</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Arjona A, Sarkar DK. Evidence supporting a circadian control of natural killer cell function. Brain Behav Immun. 2006 Sep;20(5):469-76. doi: 10.1016/j. bbi.2005.10.002. Epub 2005 Nov 23.&nbsp;<a href=\"https://pubmed.ncbi.nlm.nih.gov/16309885/\" target=\"_blank\" rel=\"noopener\">https://pubmed.ncbi.nlm.nih.gov/16309885/</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Campbell J.P., Turner J.E. Debunking the myth of exercise-induced immune suppression: Redefining the impact of exercise on immunological health across the lifespan. Front Immunol. 2018;9:648.&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5911985/\" target=\"_blank\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5911985/&nbsp;</a></li>\n<li dir=\"ltr\" role=\"presentation\">Patchett D, Yang J, Northern J, Salinas M, Bauer BA. Viral Respiratory Infections: An Ounce of Prevention Is Worth a Pound of Cure. Mayo Clin Proc Innov Qual Outcomes. 2021 Feb 6.&nbsp;<a href=\"https://pubmed.ncbi.nlm.nih.gov/16155285\" target=\"_blank\" rel=\"noopener\">https://pubmed.ncbi.nlm.nih.gov/16155285</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Paglia S, Nattino G, Occhipinti F, et al. The Quick Walk Test: A Noninvasive Test to Assess the Risk of Mechanical Ventilation During COVID‐19 Outbreaks. Acad Emerg Med. 2020 Dec 15.&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7753836/#acem14180-sup-0001\" target=\"_blank\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7753836/#acem14180-sup-0001</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Ghosh S, Deshwal H, Bin Saeedan M, et al. Imaging algorithm for COVID-19: A practical approach. Clin Imaging. 2021 Apr; 72: 22&ndash;30.&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7655027/\" target=\"_blank\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7655027/</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Rubin GD, Ryerson CJ, Haramati LB, et al. The Role of Chest Imaging in Patient Management during the COVID-19 Pandemic: A Multinational Consensus Statement from the Fleischner Society. Radiology (296) 1.&nbsp;<a href=\"https://pubs.rsna.org/doi/full/10.1148/radiol.2020201365\" target=\"_blank\" rel=\"noopener\">https://pubs.rsna.org/doi/full/10.1148/radiol.2020201365</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Kameda T, Mizuma Y, Taniguchi H. Point-of-care lung ultrasound for the assessment of pneumonia: a narrative review in the COVID-19 era. Journal of Medical Ultrasonics volume 48, pages31&ndash;43(2021).&nbsp;<a href=\"https://link.springer.com/article/10.1007/s10396-020-01074-y\" target=\"_blank\" rel=\"noopener\">https://link.springer.com/article/10.1007/s10396-020-01074-y&nbsp;</a></li>\n<li dir=\"ltr\" role=\"presentation\">Sjoding MW, Dickson RP, Iwashyna TJ, et al. Racial Bias in Pulse Oximetry Measurement. N Engl J Med 2020; 383:2477-2478.&nbsp;<a href=\"https://www.nejm.org/doi/full/10.1056/NEJMc2029240\" target=\"_blank\" rel=\"noopener\">https://www.nejm.org/doi/full/10.1056/NEJMc2029240</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Pulse Oximeter Accuracy and Limitations: FDA Safety Communication. Date Issued: February 19, 2021.&nbsp;<a href=\"https://www.fda.gov/medical-devices/safety-communications/pulse-oximeter-accuracy-and-limitations-fda-safety-communication\" target=\"_blank\" rel=\"noopener\">https://www.fda.gov/medical-devices/safety-communications/pulse-oximeter-accuracy-and-limitations-fda-safety-communication</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Guan X, Zhang B, Fu M, et al. Clinical and inflammatory features based machine learning model for fatal risk prediction of hospitalized COVID-19 patients: results from a retrospective cohort study. Ann Med 2021 Dec;53(1):257-266.&nbsp;<a href=\"https://pubmed.ncbi.nlm.nih.gov/33410720/\" target=\"_blank\" rel=\"noopener\">https://pubmed.ncbi.nlm.nih.gov/33410720/</a>&nbsp;</li>\n<li dir=\"ltr\" role=\"presentation\">Tjendra Y, Al Mana AF, Esejo AP. Predicting Disease Severity and Outcome in COVID-19 Patients: A Review of Multiple Biomarkers. Arch Pathol Lab Med 2020 Dec 1;144(12):1465-1474.&nbsp;<a href=\"https://pubmed.ncbi.nlm.nih.gov/32818235/\" target=\"_blank\" rel=\"noopener\">https://pubmed.ncbi.nlm.nih.gov/32818235/&nbsp;</a></li>\n<li dir=\"ltr\" role=\"presentation\">Hahm CR, Lee YK, Oh DH, et al. Factors associated with worsening oxygenation in patient with non-severe COVID-19 pneumonia. Tuberc Respir Dis (Seoul) 2021 Jan 5.&nbsp;<a href=\"https://pubmed.ncbi.nlm.nih.gov/33401345/\" target=\"_blank\" rel=\"noopener\">https://pubmed.ncbi.nlm.nih.gov/33401345/&nbsp;</a></li>\n<li dir=\"ltr\" role=\"presentation\">Chow DS, Glavis-Bloom J, Soun JE, et al. Development and external validation of a prognostic tool for COVID-19 critical disease. PLoS One 2020 Dec 9;15(12):e0242953.&nbsp;<a href=\"https://pubmed.ncbi.nlm.nih.gov/33296357/\" target=\"_blank\" rel=\"noopener\">https://pubmed.ncbi.nlm.nih.gov/33296357/&nbsp;</a></li>\n<li dir=\"ltr\" role=\"presentation\">Payan-Pernia S, Perez LG, Sevilla AFR, et al. Absolute Lymphocytes, Ferritin, C-Reactive Protein, and Lactate Dehydrogenase Predict Early Invasive Ventilation in Patients With COVID-19. Lab Med 2020 Dec 18.&nbsp;<a href=\"https://pubmed.ncbi.nlm.nih.gov/33336243/\" target=\"_blank\" rel=\"noopener\">https://pubmed.ncbi.nlm.nih.gov/33336243/</a></li>\n</ul>",
+            "formula_en": "<p><a href=\"https://www.acep.org/globalassets/sites/acep/media/covid-19-main/acep-covid-19-ed-management-tool.pdf\" target=\"_blank\" rel=\"noopener\">Recommendations for workup:</a></p>\n<div class=\"acep-2-container\"><a href=\"https://www.acep.org/corona/covid-19-field-guide/assessment/laboratory-abnormalities/\" target=\"_blank\" rel=\"noopener\"><img src=\"https://cdn-web-img.mdcalc.com/content/ACEP_diag_2_012622.png\" width=\"100%\"></a>\n<div></div>\n</div>\n<p>&nbsp;</p>\n<p><a href=\"https://www.acep.org/corona/COVID-19-alert/covid-19-articles/covid-19-ED-management-tool-now-available/\" target=\"_blank\" rel=\"noopener\">Recommendations for treatment:</a></p>\n<div class=\"acep-3-container\"><img src=\"https://cdn-web-img.mdcalc.com/content/ACEP_diag3_v2_mobile_2022.png\" width=\"100%\">\n<div></div>\n</div>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "https://www.covid19treatmentguidelines.nih.gov/",
+                  "text": "COVID-19 Treatment Guidelines Panel. Coronavirus Disease 2019 (COVID-19) Treatment Guidelines. National Institutes of Health."
+                }
+              ],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.acep.org/corona/COVID-19-alert/covid-19-articles/covid-19-ED-management-tool-now-available/",
+                  "text": "Emergency Department COVID-19 Management Tool. American College of Emergency Physicians."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.acep.org/COVID-19",
+                  "text": "ACEP COVID-19 Resources."
+                },
+                {
+                  "href": "https://www.ajog.org/article/S0002-9378(21)00033-8/fulltext",
+                  "text": "Lokken EM et al. Disease Severity, Pregnancy Outcomes and Maternal Deaths among Pregnant Patients with SARS-CoV-2 Infection in Washington State [published online ahead of print, 2021 Jan 19]. Am J Obstet Gynecol. 2021;S0002-9378(21)00033-8."
+                },
+                {
+                  "href": "https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/",
+                  "text": "Bhimraj A, Morgan RL, Shumaker AH, Lavergne V, Baden L, Cheng VC, Edwards KM, Gandhi R, Gallagher J, Muller WJ, O'Horo JC, Shoham S, Murad MH, Mustafa RA, Sultan S, Falck-Ytter Y. Infectious Diseases Society of America Guidelines on the Treatment and Management of Patients with COVID-19. Infectious Diseases Society of America 2021; Version 4.1.1."
+                },
+                {
+                  "href": "https://www.cdc.gov/coronavirus/2019-ncov/covid-data/investigations-discovery/hospitalization-death-by-race-ethnicity.html",
+                  "text": "COVID-19 Hospitalization and Death by Race/Ethnicity. Centers for Disease Control and Prevention."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7373004/",
+                  "text": "Haimovich AD et al. Development and Validation of the Quick COVID-19 Severity Index: A Prognostic Tool for Early Clinical Decompensation. Ann Emerg Med. 2020;76(4):442-453."
+                },
+                {
+                  "href": "https://www.medrxiv.org/content/10.1101/2020.05.13.20100495v1.full-text",
+                  "text": "Bellou V. Risk factors for adverse clinical outcomes in patients with COVID-19: A systematic review and meta-analysis. MedRxiv preprint."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7377468/",
+                  "text": "Ebinger JE et al. Pre-existing traits associated with Covid-19 illness severity. PLoS One. 2020;15(7):e0236240."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7507999/ ",
+                  "text": "Toussie D et al. Clinical and Chest Radiography Features Determine Patient Outcomes in Young and Middle-aged Adults with COVID-19. Radiology. 2020;297(1):E197-E206."
+                },
+                {
+                  "href": "https://www.cebm.net/covid-19/what-is-the-efficacy-and-safety-of-rapid-exercise-tests-for-exertional-desaturation-in-covid-19/",
+                  "text": "Greenhalgh T et al. What is the efficacy and safety of rapid exercise tests for exertional desaturation in covid-19? April 21, 2020. Centre for Evidence-Based Medicine."
+                },
+                {
+                  "href": "https://www.covid19treatmentguidelines.nih.gov/overview/clinical-spectrum/",
+                  "text": "Clinical spectrum. COVID-19 Treatment Guidelines."
+                },
+                {
+                  "href": "https://www.cdc.gov/coronavirus/2019-ncov/covid-data/investigations-discovery/ hospitalization-death-by-race-ethnicity.html",
+                  "text": "COVID-19 Hospitalization and Death by Race/Ethnicity. Centers for Disease Control and Prevention."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7328119/",
+                  "text": "Giannakoulis VG et al. Effect of Cancer on Clinical Outcomes of Patients With COVID-19: A Meta-Analysis of Patient Data. JCO Glob Oncol. 2020;6:799-808."
+                },
+                {
+                  "href": "https://www.ajog.org/article/S0002-9378(21)00033-8/fulltext",
+                  "text": "Lokken EM et al. Disease Severity, Pregnancy Outcomes and Maternal Deaths among Pregnant Patients with SARS-CoV-2 Infection in Washington State [published online ahead of print, 2021 Jan 19]. Am J Obstet Gynecol. 2021;S0002-9378(21)00033-8."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7804843/",
+                  "text": "Strausz S et al. Sleep apnoea is a risk factor for severe COVID-19. BMJ Open Respir Res. 2021;8(1):e000845."
+                },
+                {
+                  "href": "https://www.nature.com/articles/s41586-020-2521-4",
+                  "text": "Williamson EJ et al. Factors associated with COVID-19-related death using OpenSAFELY. Nature. 2020;584(7821):430-436."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7429998/",
+                  "text": "Tartof SY et al. Obesity and Mortality Among Patients Diagnosed With COVID-19: Results From an Integrated Health Care Organization. Ann Intern Med. 2020;173(10):773-781."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7716294/",
+                  "text": "Goodacre S et al. Post-exertion oxygen saturation as a prognostic factor for adverse outcome in patients attending the emergency department with suspected COVID-19: a substudy of the PRIEST observational cohort study. Emergency medicine journal:emermed-2020-210528."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7822515/",
+                  "text": "Goodacre S, Thomas B, Sutton L, Burnsall M, Lee E, Bradburn M, et al. (2021) Derivation and validation of a clinical severity score for acutely ill adults with suspected COVID-19: The PRIEST observational cohort study. PLoS ONE 16(1): e0245840."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7592804/",
+                  "text": "Clift AK et al. COVID-19 Mortality Risk in Down Syndrome: Results From a Cohort Study Of 8 Million Adults. Annals of internal medicine, M20-4986. 21 Oct. 2020."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/pmc7191115",
+                  "text": "Putative contributions of circadian clock and sleep in the context of SARS-CoV-2 infection. Meira E Cruz M, Miyazawa M, Gozal D.Meira E Cruz M, et al. Eur Respir J. 2020 Jun 4;55(6):2001023. doi: 10.1183/13993003.01023-2020. Print 2020 Jun."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/33092041/",
+                  "text": "Pecora F, Persico F, Argentiero A, Neglia C, Esposito S. The Role of Micronutrients in Support of the Immune Response against Viral Infections. Nutrients. 2020 Oct 20;12(10):3198. doi: 10.3390/nu12103198."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/16309885/",
+                  "text": "Arjona A, Sarkar DK. Evidence supporting a circadian control of natural killer cell function. Brain Behav Immun. 2006 Sep;20(5):469-76. doi: 10.1016/j. bbi.2005.10.002. Epub 2005 Nov 23."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5911985/",
+                  "text": "Campbell J.P., Turner J.E. Debunking the myth of exercise-induced immune suppression: Redefining the impact of exercise on immunological health across the lifespan. Front Immunol. 2018;9:648."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/16155285",
+                  "text": "Patchett D, Yang J, Northern J, Salinas M, Bauer BA. Viral Respiratory Infections: An Ounce of Prevention Is Worth a Pound of Cure. Mayo Clin Proc Innov Qual Outcomes. 2021 Feb 6."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7753836/#acem14180-sup-0001",
+                  "text": "Paglia S, Nattino G, Occhipinti F, et al. The Quick Walk Test: A Noninvasive Test to Assess the Risk of Mechanical Ventilation During COVID‐19 Outbreaks. Acad Emerg Med. 2020 Dec 15."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7655027/",
+                  "text": "Ghosh S, Deshwal H, Bin Saeedan M, et al. Imaging algorithm for COVID-19: A practical approach. Clin Imaging. 2021 Apr; 72: 22–30."
+                },
+                {
+                  "href": "https://pubs.rsna.org/doi/full/10.1148/radiol.2020201365",
+                  "text": "Rubin GD, Ryerson CJ, Haramati LB, et al. The Role of Chest Imaging in Patient Management during the COVID-19 Pandemic: A Multinational Consensus Statement from the Fleischner Society. Radiology (296) 1."
+                },
+                {
+                  "href": "https://link.springer.com/article/10.1007/s10396-020-01074-y",
+                  "text": "Kameda T, Mizuma Y, Taniguchi H. Point-of-care lung ultrasound for the assessment of pneumonia: a narrative review in the COVID-19 era. Journal of Medical Ultrasonics volume 48, pages31–43(2021)."
+                },
+                {
+                  "href": "https://www.nejm.org/doi/full/10.1056/NEJMc2029240",
+                  "text": "Sjoding MW, Dickson RP, Iwashyna TJ, et al. Racial Bias in Pulse Oximetry Measurement. N Engl J Med 2020; 383:2477-2478."
+                },
+                {
+                  "href": "https://www.fda.gov/medical-devices/safety-communications/pulse-oximeter-accuracy-and-limitations-fda-safety-communication",
+                  "text": "Pulse Oximeter Accuracy and Limitations: FDA Safety Communication. Date Issued: February 19, 2021."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/33410720/",
+                  "text": "Guan X, Zhang B, Fu M, et al. Clinical and inflammatory features based machine learning model for fatal risk prediction of hospitalized COVID-19 patients: results from a retrospective cohort study. Ann Med 2021 Dec;53(1):257-266."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/32818235/",
+                  "text": "Tjendra Y, Al Mana AF, Esejo AP. Predicting Disease Severity and Outcome in COVID-19 Patients: A Review of Multiple Biomarkers. Arch Pathol Lab Med 2020 Dec 1;144(12):1465-1474."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/33401345/",
+                  "text": "Hahm CR, Lee YK, Oh DH, et al. Factors associated with worsening oxygenation in patient with non-severe COVID-19 pneumonia. Tuberc Respir Dis (Seoul) 2021 Jan 5."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/33296357/",
+                  "text": "Chow DS, Glavis-Bloom J, Soun JE, et al. Development and external validation of a prognostic tool for COVID-19 critical disease. PLoS One 2020 Dec 9;15(12):e0242953."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/33336243/",
+                  "text": "Payan-Pernia S, Perez LG, Sevilla AFR, et al. Absolute Lymphocytes, Ferritin, C-Reactive Protein, and Lactate Dehydrogenase Predict Early Invasive Ventilation in Patients With COVID-19. Lab Med 2020 Dec 18."
+                },
+                {
+                  "href": "https://www.acep.org/corona/covid-19-field-guide/assessment/laboratory-abnormalities/",
+                  "text": "ACEP COVID-19 Field Guide.  American College of Emergency Physicians."
+                },
+                {
+                  "href": "https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/underlyingconditions.html",
+                  "text": "CDC. Healthcare workers. Centers for Disease Control and Prevention."
+                },
+                {
+                  "href": "https://www.covid19treatmentguidelines.nih.gov/management/",
+                  "text": "Management. COVID-19 Treatment Guidelines."
+                },
+                {
+                  "href": "https://www.covid19treatmentguidelines.nih.gov/therapies/",
+                  "text": "Therapies. COVID-19 Treatment Guidelines."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8062911/",
+                  "text": "Suh EH, Lang KJ, Zerihun LM. Modified PRIEST score for identification of very low-risk COVID patients. Am J Emerg Med. 2021;47:213-216."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Peter Steel, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "ACEP",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-75ee7b36-7fff-96a5-a6d3-98da671bdfac\"></span></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">This algorithm is not intended as a substitute for clinicians' clinical judgement.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">This algorithm is not exhaustive in regards to diagnostic and treatment recommendations for patients with COVID-19 and COVID-like illness.&nbsp;</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Patients presenting with symptoms conditions that may be manifestations of COVID-19 may also be manifestations of other serious disease (e.g. MI, PE, stroke), requiring additional specific diagnostic and therapeutic interventions not discussed in this tool.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">This ACEP ED COVID-19 Management Tool was funded in part by a cooperative agreement with the Centers for Disease Control and Prevention (<a href=\"https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=NU50CK000570&amp;arg_ProgOfficeCode=252\" target=\"_blank\" rel=\"noopener\">grant number 1 NU50CK000570</a>). The CDC is an agency within the Department of Health and Human Services (HHS). The contents of this ACEP tool do not necessarily represent the policy of CDC or HHS and should not be considered an endorsement by the Federal Government.</li>\n</ul>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-9c4e171d-7fff-e523-c229-dbb5836b1fd9\">To guide severity classification, risk stratification, diagnostic, and management decisions in adult patients (&ge;18 years old) with suspected or confirmed SARS-CoV-2 (COVID-19) infection in the emergency department. </span></p>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-2e47759c-7fff-e699-19b9-86c67bc75c09\">This algorithm provides a pragmatic framework for standardizing severity classification, risk assessment, diagnostic workup, disposition, and treatment of adult patients&nbsp; with suspected or confirmed SARS-CoV-2 (COVID-19).</span></p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Patients presenting with symptoms conditions that may be manifestations of severe or critical COVID-19 may also be manifestations of other diseases (e.g. MI, PE, stroke), requiring additional specific diagnostic and therapeutic interventions.</p>",
+            "critical_actions_en": "<p><span id=\"docs-internal-guid-76541ac7-7fff-0921-4d56-73c019986c53\"></span></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">There is no need to apply this tool to patients who are not being evaluated for COVID-19.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">If the patient is considered mild disease, this tool may help avoid further testing.</p>\n</li>\n</ul>",
+            "management_en": "<ul>\n<li dir=\"ltr\" aria-level=\"1\">Refer to section 7b of the <a href=\"https://www.acep.org/globalassets/sites/acep/media/covid-19-main/acep-covid-19-ed-management-tool.pdf\" target=\"_blank\" rel=\"noopener\">ACEP ED COVID-19 Management Tool</a>&nbsp;for pharmacologic treatment recommendations.</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Imaging, lab tests, treatment and disposition should be considered based on severity and risk for disease progression.&nbsp;</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">ACEP maintains information on laboratoratory findings at hospital admission, laboratory abnormalities in severe disease, and hypercoaguability in the <a href=\"https://www.acep.org/corona/covid-19-field-guide/assessment/laboratory-abnormalities/\" target=\"_blank\" rel=\"noopener\">ACEP COVID-19 Field Guide</a> section on laboratory abnormalities.</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">The <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/investigations-discovery/hospitalization-death-by-race-ethnicity.html\" target=\"_blank\" rel=\"noopener\">CDC</a> has more information on how race, ethnicity, and access to health care resources may affect outcomes.&nbsp;</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\"><a href=\"https://www.ajog.org/article/S0002-9378(21)00033-8/fulltext\" target=\"_blank\" rel=\"noopener\">AJOG</a> has published a guideline to assist with risk stratification of pregnant patients.&nbsp;</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">The <a href=\"https://www.covid19treatmentguidelines.nih.gov/\" target=\"_blank\" rel=\"noopener\">NIH</a> maintains recommendations for appropriate diagnostic testing.&nbsp;</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Recommendations for respiratory support, IV fluids, and other interventions are maintained by the NIH <a href=\"https://www.covid19treatmentguidelines.nih.gov/\" target=\"_blank\" rel=\"noopener\">here</a>.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Pharmacologic recommendations for patients with COVID-19 are evolving quickly. Medication recommendations are maintained by the <a href=\"https://www.covid19treatmentguidelines.nih.gov/\" target=\"_blank\" rel=\"noopener\">NIH</a> and <a href=\"https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/\" target=\"_blank\" rel=\"noopener\">IDSA</a>.</p>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "description": "Emergency Medicine Practice",
+                "link": "https://www.ebmedicine.net/topics/COVID-19/Protocols/calculators",
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: ACEP ED COVID-19"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Coronavirus",
+          "COVID-19"
+        ],
+        "dosing": false,
+        "equation_logic": "3d10e40a5f83b329736f9886b3b4cf2c",
+        "equation_logic_text": "var calc_output=[];\n\nvar severity = parseFloat(severity);\n\nif (severity <2) {\n  var priest = parseFloat(sex) + parseFloat(age) + parseFloat(res) + parseFloat(oxy) + parseFloat(bpm) + parseFloat(sys) + parseFloat(temp) + parseFloat(alert) + parseFloat(ins) + parseFloat(status);\n\nvar risk = parseFloat(risk1) + parseFloat(risk2) + parseFloat(risk3) + parseFloat(risk4) + parseFloat(risk5) + parseFloat(risk6) + parseFloat(risk7) + parseFloat(risk8) + parseFloat(risk9) + parseFloat(risk10) + parseFloat(risk11) + parseFloat(risk12) + parseFloat(risk13) + parseFloat(risk14) + parseFloat(risk15) + parseFloat(risk16);\n}\n\nvar result;\nvar wkup;\nvar tx;\nvar admit;\nvar a = '';\nvar b = '';\n\n\nif (priest <=1){\n  b = '1';\n}\n\nif (priest >=2 && priest <=3){\n  b = '2';\n}\n\nif (priest == 4){\n  b = '3';\n}\n\nif (priest == 5){\n  b = '9';\n}\n\nif (priest == 6){\n  b = '15';\n}\n\nif (priest == 7){\n  b = '18';\n}\n\nif (priest == 8){\n  b = '22';\n}\n\nif (priest == 9){\n  b = '26';\n}\n\nif (priest == 10){\n  b = '29';\n}\n\nif (priest == 11){\n  b = '34';\n}\n\nif (priest == 12){\n  b = '38';\n}\n\nif (priest == 13){\n  b = '47';\n}\n\nif (priest == 14){\n  b = '48';\n}\n\nif (priest == 15){\n  b = '50';\n}\n\nif (priest == 16){\n  b = '55';\n}\n\nif (priest >=17){\n  b = '66';\n}\n\n\nif (severity == 0) {\n  result = 'Mild';\n  if (priest <= 4 && risk <= 1) {\n    a = 'PRIEST Score = ' + priest + ' points PLUS ' + risk + ' additional risk factors, ' +  b + '% 30-day probability of adverse outcome (death or organ support)<br/><br/>';\n    wkup = 'Workup: Usually not necessary';\n    admit = 'Disposition: D/C home with CDC patient materials + consider home PulseOx';\n    tx = 'Treatment: Likely candidate for IV Ab or oral antivirals (if early in diagnosis; some risk factors) - follow NIH guidelines and local protocol';\n  } else {\n    a = 'PRIEST Score = ' + priest + ' points PLUS ' + risk + ' additional risk factors, ' +  b + '% 30-day probability of adverse outcome (death or organ support)<br/><br/>';\n    wkup = 'Workup: Usually not necessary';\n    admit = 'Disposition: D/C home with CDC patient materials<br/>Close f/u to PMD + consider home PulseOx + risk of ED return';\n    tx = 'Treatment: Likely candidate for IV Ab or oral antivirals (if early in diagnosis; some risk factors) - follow NIH guidelines and local protocol';\n  }\n} else if (severity == 1) {\n  result = 'Moderate';\n  if (priest <= 4 && risk <= 1) {\n    a = 'PRIEST Score = ' + priest + ' points PLUS ' + risk + ' additional risk factors, ' +  b + '% 30-day probability of adverse outcome (death or organ support)<br/><br/>';\n    wkup = 'Workup: Consider imaging, labs, ECG';\n    admit = 'Disposition: Consider discharge if no concerning workup and patient has close follow-up<br/>Admit if other condition warrants';\n    tx = 'Treatment: If discharged, likely candidate for IV Ab or oral antivirals (if early in diagnosis; some risk factors) - follow NIH guidelines and local protocol<br/>If admitted, unlikely to be a candidate for IV ab and oral antivirals';\n  } else {\n    a = 'PRIEST Score = ' + priest + ' points PLUS ' + risk + ' additional risk factors, ' +  b + '% 30-day probability of adverse outcome (death or organ support)<br/><br/>';\n    wkup = 'Workup: Consider imaging, labs, ECG';\n    admit = 'Disposition: Admit to appropriate level of care';\n    tx = 'Treatment: Consider remdesivir if high risk of progression, unlikely candidate for IV Ab or po antivirals - follow NIH guidelines and local protocol';\n  }\n} else if (severity == 2) {\n  result = 'Severe';\n  wkup = 'Workup: Imaging, labs, ECG';\n  admit = 'Disposition: Clinical decision floor vs intermediate vs ICU; consider transfer if low resources';\n  tx = 'Treatment: Oxygen support, steroids, remdesivir +/- toclizumab<br/>Unlikely candidate for IV Ab or oral antivirals<br/>Follow NIH guidelines and local protocols';\n} else if (severity == 3) {\n  result = 'Critical';\n  wkup = 'Workup: Imaging, labs, ECG';\n  admit = 'Disposition: ICU; consider transfer if low resources, ECMO consult';\n  tx = 'Treatment: Respiratory and oxygen support, steroids, remdesivir, tocilizumab<br/>Unlikely candidate for IV or oral antivirals<br/>Follow NIH guidelines and local protocols';\n} \n\nvar msg = a + wkup + '<br/>' + '<br/>' + admit + '<br/>' + '<br/>' + tx;\n\ncalc_output.push({\n    name: 'mini',\n    value: result,\n    value_text:'',\n    message: 'Click to see recs.'\n});\ncalc_output.push({\n    name: 'outcome',\n    value: result,\n    value_text:'',\n    message: msg\n});",
+        "favorite_id": 10373,
+        "full_title_en": "ACEP ED COVID-19 Management Tool",
+        "input_schema": [
+          {
+            "md_calc_info_concept": null,
+            "option_fhir_rules": null,
+            "type": "visual",
+            "visual": "<p><img src=\"https://cdn-web-img.mdcalc.com/content/ACEP_diag_1_(mob).png\" width=\"100%\"></p>"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Severity classification",
+            "mdcalc_info_concept": null,
+            "name": "severity",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Mild",
+                "value": 0
+              },
+              {
+                "label": "Moderate",
+                "value": 1
+              },
+              {
+                "label": "Severe",
+                "value": 2
+              },
+              {
+                "label": "Critical",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Select the patient's severity of disease based on <a href=\"https://www.covid19treatmentguidelines.nih.gov/overview/clinical-spectrum/\" target=\"_blank\">NIH criteria</a> above",
+            "type": "radio"
+          },
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "<strong><calculator id =\"10369\">PRIEST Score</calculator></strong>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": null,
+            "label_en": "Sex",
+            "mdcalc_info_concept": null,
+            "name": "sex",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Female",
+                "value": 0
+              },
+              {
+                "label": "Male",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": null,
+            "label_en": "Age, years",
+            "mdcalc_info_concept": null,
+            "name": "age",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "16-49",
+                "value": 0
+              },
+              {
+                "label": "50-65",
+                "value": 2
+              },
+              {
+                "label": "66-80",
+                "value": 3
+              },
+              {
+                "label": ">80",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 2,
+            "label_en": "Respiratory rate, breaths per min",
+            "mdcalc_info_concept": null,
+            "name": "res",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "<9 ",
+                "value": 3
+              },
+              {
+                "label": "9-11",
+                "value": 1
+              },
+              {
+                "label": "12-20",
+                "value": 0
+              },
+              {
+                "label": "21-24",
+                "value": 2
+              },
+              {
+                "label": ">24",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Oxygen saturation",
+            "mdcalc_info_concept": null,
+            "name": "oxy",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": ">95%",
+                "value": 0
+              },
+              {
+                "label": "94-95%",
+                "value": 1
+              },
+              {
+                "label": "92-93%",
+                "value": 2
+              },
+              {
+                "label": "<92%",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 2,
+            "label_en": "Heart rate, beats per min",
+            "mdcalc_info_concept": null,
+            "name": "bpm",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "<41",
+                "value": 3
+              },
+              {
+                "label": "41-50",
+                "value": 1
+              },
+              {
+                "label": "51-90",
+                "value": 0
+              },
+              {
+                "label": "91-110",
+                "value": 1
+              },
+              {
+                "label": "111-130",
+                "value": 2
+              },
+              {
+                "label": ">130",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 3,
+            "label_en": "Systolic BP, mmHg",
+            "mdcalc_info_concept": null,
+            "name": "sys",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "<91",
+                "value": 3
+              },
+              {
+                "label": "91-100",
+                "value": 2
+              },
+              {
+                "label": "101-110",
+                "value": 1
+              },
+              {
+                "label": "111-219",
+                "value": 0
+              },
+              {
+                "label": ">219",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 2,
+            "label_en": "Temperature",
+            "mdcalc_info_concept": null,
+            "name": "temp",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "<35.1°C (<95.18°F)",
+                "value": 3
+              },
+              {
+                "label": "35.1-36.0°C (95.18 - 96.8°F)",
+                "value": 1
+              },
+              {
+                "label": "36.1-38.0°C (>96.8 - 100.4°F)",
+                "value": 0
+              },
+              {
+                "label": "38.1-39.0°C (>100.4 - 102.2°F)",
+                "value": 1
+              },
+              {
+                "label": ">39.0°C (>102.2°F)",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Alertness",
+            "mdcalc_info_concept": null,
+            "name": "alert",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Alert",
+                "value": 0
+              },
+              {
+                "label": "Confused or not alert",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Inspired oxygen",
+            "mdcalc_info_concept": null,
+            "name": "ins",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Air",
+                "value": 0
+              },
+              {
+                "label": "Supplemental oxygen",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Performance status",
+            "mdcalc_info_concept": null,
+            "name": "status",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Unrestricted normal activity",
+                "value": 0
+              },
+              {
+                "label": "Limited strenuous activity, can do light activity",
+                "value": 1
+              },
+              {
+                "label": "Limited activity, can self-care",
+                "value": 2
+              },
+              {
+                "label": "Limited self-care",
+                "value": 3
+              },
+              {
+                "label": "Bed/chair bound, no self-care",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "<strong>COVID-19 Risk Factors</strong>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Pulmonary disease",
+            "md_calc_info_concept": null,
+            "name": "risk1",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Bronchopulmonary dysplasia, COPD, pulmonary hypertension, PE, bronchietasis, asthma, interstitial lung disease, tuberculosis",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Children with certain underlying conditions",
+            "md_calc_info_concept": null,
+            "name": "risk2",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Genetic conditions",
+            "md_calc_info_concept": null,
+            "name": "risk3",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Down syndrome, cystic fibrosis, sickle cell disease",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Immunosupression",
+            "md_calc_info_concept": null,
+            "name": "risk4",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Cancer, corticosteroid use, immunosuppression medication, immune deficiencies, HIV, solid organ or blood stem transplantation",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Mental health disorders",
+            "md_calc_info_concept": null,
+            "name": "risk5",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Chronic liver disease",
+            "md_calc_info_concept": null,
+            "name": "risk6",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Chronic kidney disease",
+            "md_calc_info_concept": null,
+            "name": "risk7",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Diabetes mellitus (type I and II)",
+            "md_calc_info_concept": null,
+            "name": "risk8",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Obesity/overweight",
+            "md_calc_info_concept": null,
+            "name": "risk9",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Hypertension",
+            "md_calc_info_concept": null,
+            "name": "risk10",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Neurologic conditions",
+            "md_calc_info_concept": null,
+            "name": "risk11",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Pregnancy (and recent pregnancy)",
+            "md_calc_info_concept": null,
+            "name": "risk12",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Substance use disorders",
+            "md_calc_info_concept": null,
+            "name": "risk13",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Heart conditions",
+            "md_calc_info_concept": null,
+            "name": "risk14",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Cerebrovascular disease",
+            "md_calc_info_concept": null,
+            "name": "risk15",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "severity<2",
+            "default": 0,
+            "label_en": "Thalassemia",
+            "md_calc_info_concept": null,
+            "name": "risk16",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<ul>\n<li>This is intended for patients 18 years and older.</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Evidence on this topic is evolving quickly and may change.</p>\n</li>\n</ul>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edits",
+            "time": "2022-03-24T11:08:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "edits",
+            "time": "2022-03-24T11:07:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "edits",
+            "time": "2022-03-23T11:07:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "edits",
+            "time": "2022-03-23T11:06:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "edits",
+            "time": "2022-03-23T11:02:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "edits",
+            "time": "2022-03-23T10:58:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "edits",
+            "time": "2022-03-23T10:56:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "output edits",
+            "time": "2022-03-23T10:48:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "output edits",
+            "time": "2022-03-22T17:09:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "output edits",
+            "time": "2022-03-22T16:57:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "edits",
+            "time": "2022-03-21T16:39:00.000Z",
+            "user": "saryu.patel"
+          },
+          {
+            "message": "troubleshooting",
+            "time": "2022-02-02T16:06:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "replaced second image",
+            "time": "2022-01-31T10:58:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edits",
+            "time": "2022-01-28T17:33:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "reverted to older version",
+            "time": "2022-01-28T17:17:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edited",
+            "time": "2022-01-28T13:40:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edits",
+            "time": "2022-01-27T16:40:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edited",
+            "time": "2022-01-27T16:35:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "updated date and links",
+            "time": "2022-01-27T10:35:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edited results",
+            "time": "2022-01-26T12:50:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edits to results",
+            "time": "2022-01-26T12:49:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edits to pics",
+            "time": "2022-01-26T11:44:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edits to images",
+            "time": "2022-01-26T11:41:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "troubleshooting",
+            "time": "2022-01-26T10:33:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edits",
+            "time": "2022-01-26T09:55:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edits",
+            "time": "2022-01-26T09:45:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "removed space",
+            "time": "2022-01-26T09:44:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "description change",
+            "time": "2022-01-26T09:41:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edits",
+            "time": "2022-01-26T09:40:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edits to logic",
+            "time": "2022-01-26T09:38:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "edited diabetes input",
+            "time": "2022-01-26T09:30:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "replaced image",
+            "time": "2022-01-26T09:24:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "reformatted results",
+            "time": "2022-01-25T23:13:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "added link to pdf",
+            "time": "2022-01-25T23:11:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "added treatment",
+            "time": "2022-01-25T23:09:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "added wrkup to results",
+            "time": "2022-01-25T22:50:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "added dispo to results",
+            "time": "2022-01-25T17:50:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "updated risk factor inputs",
+            "time": "2022-01-25T17:22:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "added link to field guide in next steps",
+            "time": "2022-01-25T11:15:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "added in priest interpretation",
+            "time": "2022-01-25T10:38:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "added validation paper",
+            "time": "2021-08-09T10:28:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "removed facts and figures",
+            "time": "2021-07-20T10:54:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edits",
+            "time": "2021-07-16T12:35:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edits",
+            "time": "2021-07-16T12:34:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edits",
+            "time": "2021-07-16T12:33:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edits",
+            "time": "2021-07-07T16:43:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "changelog edits 7/7",
+            "time": "2021-07-07T16:40:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited s3 urls",
+            "time": "2021-07-07T10:37:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added links to EA section",
+            "time": "2021-07-06T10:32:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added EA section",
+            "time": "2021-07-05T16:47:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "testing",
+            "time": "2021-07-02T13:32:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "testing",
+            "time": "2021-07-02T13:31:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added links to grant",
+            "time": "2021-05-26T10:51:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added links to grant",
+            "time": "2021-05-25T15:13:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-13T18:52:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edit",
+            "time": "2021-05-13T18:51:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits to contributor",
+            "time": "2021-05-13T14:11:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "contributors",
+            "time": "2021-05-12T18:12:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "no links",
+            "time": "2021-05-11T13:32:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-07T17:13:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-07T13:03:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-07T12:59:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-07T12:57:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-07T12:54:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added links",
+            "time": "2021-05-07T12:50:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Removed links",
+            "time": "2021-05-07T12:38:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T22:11:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T22:00:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T21:56:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T19:30:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T19:15:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T19:13:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T19:02:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T18:57:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T18:55:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T18:47:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T18:32:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T18:26:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T18:22:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T18:04:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T17:52:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-05-06T17:45:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-27T18:56:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-27T12:04:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-27T11:58:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-27T11:20:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-27T10:47:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-27T10:24:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-26T19:46:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "testing",
+            "time": "2021-04-26T12:56:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-24T15:51:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-23T13:09:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-23T13:04:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-23T13:02:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-23T12:57:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-23T12:52:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-23T12:40:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited web",
+            "time": "2021-04-20T17:53:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-16T18:38:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-16T18:36:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited calc",
+            "time": "2021-04-16T18:35:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited tables",
+            "time": "2021-04-16T18:18:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-16T17:45:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-16T17:42:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited image",
+            "time": "2021-04-16T17:39:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited diagrams",
+            "time": "2021-04-13T23:34:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits to tool",
+            "time": "2021-04-12T17:03:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-12T17:02:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited literature",
+            "time": "2021-04-12T16:01:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-08T18:40:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-07T16:56:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-06T00:18:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-06T00:14:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "testing",
+            "time": "2021-04-05T21:53:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "testing",
+            "time": "2021-04-05T21:51:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "testing",
+            "time": "2021-04-05T21:40:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "testing",
+            "time": "2021-04-05T21:38:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "testing",
+            "time": "2021-04-05T21:34:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "testing",
+            "time": "2021-04-05T21:12:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "testing",
+            "time": "2021-04-05T19:32:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "testing",
+            "time": "2021-04-05T19:13:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-05T18:59:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2021-04-05T18:52:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-04T21:18:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-04T21:11:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-04-04T21:08:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited refs",
+            "time": "2021-04-04T20:58:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2021-04-04T20:36:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2021-03-17T23:40:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2021-03-16T23:11:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited search terms",
+            "time": "2021-03-16T23:06:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited red boc",
+            "time": "2021-03-16T19:15:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited red box",
+            "time": "2021-03-16T19:13:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "verified creator",
+            "time": "2021-03-16T18:59:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited creator",
+            "time": "2021-03-16T18:58:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "JH edits",
+            "time": "2021-03-16T18:53:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited links",
+            "time": "2021-03-16T17:41:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2021-03-16T17:21:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2021-03-16T17:20:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited risk factor inputs",
+            "time": "2021-03-16T17:04:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited visual",
+            "time": "2021-03-16T16:55:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited visual",
+            "time": "2021-03-16T16:54:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited instructions",
+            "time": "2021-03-16T16:53:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited instructions",
+            "time": "2021-03-16T16:52:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2021-03-16T16:50:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited instructions",
+            "time": "2021-03-16T16:38:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2021-03-16T16:28:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited reference",
+            "time": "2021-03-16T16:26:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2021-03-16T16:19:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "updated logic",
+            "time": "2021-03-16T16:12:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added subheadings",
+            "time": "2021-03-16T16:05:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "working logic",
+            "time": "2021-03-16T16:02:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2021-03-16T15:44:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added inputsw",
+            "time": "2021-03-16T15:29:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "claim ID",
+            "time": "2021-03-16T15:16:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "c51d214d15f0c814917a1445c56a6763",
+        "medium_description_en": "<p>Emergency department classification and management tool for adult patients (greater than 18 years old) with suspected or confirmed SARS-CoV-2 (v2.0, updated January 13, 2022).</p>",
+        "publishedAt": "2022-04-21T20:28:51.198Z",
+        "purpose_en": [
+          "Algorithm",
+          "Diagnosis",
+          "Prognosis",
+          "Treatment"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "ACEP ED COVID-19 Management Tool, ACEP"
+        ],
+        "search_id": "c-10373",
+        "seo": {
+          "keywords_en": "ACEP ED COVID-19 Management Tool, ACEP",
+          "meta_description_en": "The ACEP ED COVID-19 Management Tool is an emergency department classification and management tool for adult patients (>18 years old) with suspected or confirmed SARS-CoV-2 (Covid-19)."
+        },
+        "short_description_en": "<p>ED management tool for COVID-19.</p>",
+        "short_title_en": "ACEP ED COVID-19 Management Tool",
+        "slug": "acep-ed-covid-19-management-tool",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Infectious Disease",
+          "Internal Medicine",
+          "Pulmonology"
+        ],
+        "system_en": [
+          "Respiratory"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "127b65a4-701e-4622-aac4-43889af9774c"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>MDCalc is the official medical calculator and guideline summary partner of ACEP.<br/><br/><strong>Stephen Cantrill, MD, FACEP</strong><br/> Emergency Physician and Consultant<br/> Denver Health<br/> <br/> <strong>Brian Fengler, MD</strong><br/> Co-Founder and Chief<br/> <br/> <strong>Shannon Brown</strong><br/> Veterans Health Administration<br/> <br/> <strong>Christopher R. Carpenter, MD, MSc, FACEP, AGSF</strong><br/> Professor<br/> Wash University in St. Louis<br/> <br/> <strong>Brenna Farmer, MD, MBA, MS</strong><br/> Associate Professor of Clinical Emergency Medicine<br/> NYP/Weill Cornell Medical Center<br/> <br/> <strong>Kent C. Grimes</strong><br/> Medical Student<br/> Texas Tech University Health Sciences Center El Paso<br/> <br/> <strong>Tara Khan, DO, MS</strong><br/> Emergency Medicine Physician<br/> Department of Veterans Affairs<br/> <br/> <strong>Dan Mayer, MD</strong><br/> Retired Professor of Emergency Medicine<br/> Niskayuna, NY<br/> <br/> <strong>Laura Melville, MD, MS</strong><br/> Associate Research Director<br/> NYP/Brooklyn Methodist Medical Center<br/> <br/> <strong>David Ng, MD, MS, FACEP</strong><br/> Chief of Emergency Medicine and Occupational Health<br/> Veterans Health Administration<br/> <br/> <strong>Christopher Sampson, MD, FACEP</strong><br/> Associate Professor of Emergency Medicine<br/> University of Missouri School of Medicine<br/> <br/> <strong>Sandy Schneider, MD, FACEP</strong><br/> Associate Executive Director<br/> ACEP<br/> <br/> <strong>Saman Shahid, MBBS</strong><br/> Practice Management Manager<br/> ACEP<br/> <br/> <strong>Bradley Shy, MD, FACEP</strong><br/> Associate Professor<br/> University of Colorado - School of Medicine<br/> <br/> <strong>Peter A D Steel, MA, MBBS</strong><br/> Vice Chair of Clinical Services<br/> NYP/Weill Cornell Medical Center<br/> <br/> <strong>Edward H Suh, MD</strong><br/> Assistant Professor of Emergency Medicine<br/> Columbia University Medical Center<br/></p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "ACEP",
+          "photo_en": "https://cdn-web-img.mdcalc.com/logo/acep.png",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": null,
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10373/acep-ed-covid-19-management-tool",
+        "description": "The ACEP ED COVID-19 Management Tool is an emergency department classification and management tool for adult patients (>18 years old) with suspected or confirmed SARS-CoV-2 (Covid-19).",
+        "keywords": "ACEP ED COVID-19 Management Tool, ACEP",
+        "title": "ACEP ED COVID-19 Management Tool"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10369,
+          "short_title_en": "PRIEST Score for COVID-19",
+          "slug": "priest-covid-19-clinical-severity-score"
+        },
+        {
+          "calcId": 10286,
+          "short_title_en": "Brescia-COVID Severity Scale",
+          "slug": "brescia-covid-respiratory-severity-scale-bcrss-algorithm"
+        },
+        {
+          "calcId": 4050,
+          "short_title_en": "DRIP Score",
+          "slug": "drug-resistance-pneumonia-drip-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10373",
+      "acep-ed-covid-19-management-tool"
+    ]
+  },
+  "scriptLoader": []
+}

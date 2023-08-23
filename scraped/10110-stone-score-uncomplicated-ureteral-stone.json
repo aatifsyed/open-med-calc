@@ -1,0 +1,679 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p>This calculator includes inputs based on race, which may or may not provide better estimates, so we have decided to make race optional.&nbsp;<a target=\"_blank\" data-stringify-link=\"https://www.mdcalc.com/race\" delay=\"150\" data-sk=\"tooltip_parent\" href=\"https://www.mdcalc.com/race\" rel=\"noopener noreferrer\">See here</a>&nbsp;for more on our approach to addressing&nbsp;race and bias on MDCalc.</p>\n<p>For the same other inputs, this calculator estimates lower risk of ureteral stone for Black patients.</p>",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Abdominal Pain",
+          "Dysuria",
+          "Flank Pain",
+          "Hematuria",
+          "Nausea",
+          "Vomiting"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+154",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+154",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "10110.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\"><a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3966515/\" target=\"_blank\">Moore et al (2014)</a> derived the STONE Score via a retrospective cohort of 1,040 patients from two EDs in the northeast United States, and performed a prospective validation in 491 patients from the same institutions. Adult patients were included if their chief complaint was flank pain and they received a renal stone protocol CT scan, and excluded if they were febrile, had evidence of infection on urinalysis, had recent trauma or urological surgery, or had active malignancy. The score performed well and accurately predicts the likelihood of a kidney stone. A high score also predicts a lower likelihood of a dangerous alternative diagnosis (&lt;2% for both derivation and validation).</p>\n<p dir=\"ltr\">A second study by same team (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26747219\" target=\"_blank\">Daniels et al 2016</a>) found that hydronephrosis on ultrasound increased the likelihood of a stone and was further evidence that these patients could avoid CT scan in the right clinical setting.</p>\n<p dir=\"ltr\"><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26780732\" target=\"_blank\">Hernandez et al (2016)</a> published a retrospective validation in a city with a population with a different racial makeup than the original study and found that the STONE Score was still able to risk stratify patients.</p>\n<p dir=\"ltr\"><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26440490\" target=\"_blank\">Wang et al (2016)</a>, in a secondary analysis of a randomized controlled trial, confirmed that the STONE Score accurately distinguishes between patients at low, medium, and high risk of having a kidney stone. High STONE Scores were found to be very specific (in this study, scores 11-13 were considered high, and were 89-94% specific). However, the overall rate of stones in the high score group was lower than in the original study. This study did find that the risk of dangerous alternative diagnosis was lower in the high score group (1.2%, 95% CI 0-3.6%). They found no association between non-black race and stones, and when this variable was removed from the score, the STONE Score performed similarly to the original cohort. It is notable that this study did not have the same inclusion criteria; it did not exclude patients for signs of infection or renal disease.</p>\n<p dir=\"ltr\"><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26584563\" target=\"_blank\">Schoenfeld et al (2015)</a>, in a small study of patients similar to the original cohort but aged 50 and under, found similar test characteristics. Notably, in afebrile flank pain patients under 50, no dangerous alternative diagnoses were detected, regardless of STONE Score (95% CI: 0-3%).</p>\n<p><span id=\"docs-internal-guid-a3712d62-7fff-671e-7544-fb2430f44239\"><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27262605\" target=\"_blank\">Kim et al (2016)</a> conducted a retrospective chart review in a Korean patient population, attempting to emulate the original inclusion criteria. The STONE Score performed similarly, and was able to risk stratify patients. Those in the high risk group had a higher prevalence of kidney stones (98.7%) than in the original study, and this held true for medium and low risk groups as well (80.1% and 21.8%, respectively). The authors believe this is due to overall lower CT scan usage in Korea. They also sought to derive and validate their own modified STONE score, which led to the addition of two variables: \"CRP &lt;0.5\" and \"history of kidney stones\". Their score performed similarly and they found that, to the original study, patients in the high risk group had a &lt;2% chance of a dangerous alternative diagnosis. </span></p>",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<p><span id=\"docs-internal-guid-ea5f6e7d-7fff-df17-897e-4ac9713eb3fd\"></p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"231\" /><col width=\"142\" /><col width=\"76\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Sex</p>\n</td>\n<td>\n<p dir=\"ltr\">Male</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Female</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Duration of pain prior to presentation</p>\n</td>\n<td>\n<p dir=\"ltr\">&gt;24 hours</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">6-24 hours</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;6 hours</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Nausea and vomiting</p>\n</td>\n<td>\n<p dir=\"ltr\">None</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Nausea alone</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Vomiting</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"></p>\n<p dir=\"ltr\">Hematuria on urine dipstick</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Present</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Race*</td>\n<td>\n<p dir=\"ltr\">Black</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>Non-black</td>\n<td>3</td>\n</tr>\n</tbody>\n</table>\n<p>*Race may/may not provide better estimates of HIV prevalence; optional.&nbsp;<a target=\"_blank\" data-stringify-link=\"https://www.mdcalc.com/race\" delay=\"150\" data-sk=\"tooltip_parent\" href=\"https://www.mdcalc.com/race\" rel=\"noopener noreferrer\">See here</a>&nbsp;for more on our approach to addressing race and bias on MDCalc.</p>\n</div>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"65\" /><col width=\"88\" /><col width=\"112\" /><col width=\"184\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>STONE Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk group</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk of having ureteral stone</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Note</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0-5</p>\n</td>\n<td>\n<p dir=\"ltr\">Low risk</p>\n</td>\n<td>\n<p dir=\"ltr\">9.2%</p>\n</td>\n<td>\n<p dir=\"ltr\">Diagnostic decisions should be based on the other diagnoses being considered.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">6-9</p>\n</td>\n<td>\n<p dir=\"ltr\">Moderate risk</p>\n</td>\n<td>\n<p dir=\"ltr\">51.3%</p>\n</td>\n<td>\n<p dir=\"ltr\">Ultrasound performed after hydration and demonstrating hydronephrosis would increase the likelihood that this patient's symptoms are being caused by a kidney stone, and may decrease the patient's cumulative radiation exposure.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">10-13</p>\n</td>\n<td>\n<p dir=\"ltr\">High risk</p>\n</td>\n<td>\n<p dir=\"ltr\">88.6%</p>\n</td>\n<td>\n<p dir=\"ltr\">If clinically improving and low concern for alternative pathology, this patient could initially be managed conservatively without a CT scan. Low-dose CT would be appropriate if stone localization is needed.</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>Note: Within each group, higher score indicates higher likelihood of a stone.<br /><span id=\"docs-internal-guid-3ae073ad-7fff-f2d7-88b6-4a31be705e7d\"></span></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3966515/ ",
+                  "text": "Moore CL, Bomann S, Daniels B, et al. Derivation and validation of a clinical prediction rule for uncomplicated ureteral stone--the STONE score: retrospective and prospective observational cohort studies. BMJ. 2014;348:g2191."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "http://www.choosingwisely.org/clinician-lists/acep-ct-of-abdomen-and-pelvis-for-ed-patients-under-50/ ",
+                  "text": "Choosing Wisely: Ten Things Physicians and Patients Should Question. American College of Emergency Physicians. October 27, 2014. Accessed October 23, 2018."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26747219",
+                  "text": "Daniels B, Gross CP, Molinaro A, et al. STONE PLUS: Evaluation of Emergency Department Patients With Suspected Renal Colic, Using a Clinical Prediction Tool Combined With Point-of-Care Limited Ultrasonography. Ann Emerg Med. 2016;67(4):439-48."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26780732",
+                  "text": "Hernandez N, Song Y, Noble VE, Eisner BH. Predicting ureteral stones in emergency department patients with flank pain: an external validation of the STONE score. World J Urol. 2016;34(10):1443-6."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26440490",
+                  "text": "Wang RC, Rodriguez RM, Moghadassi M, et al. External Validation of the STONE Score, a Clinical Prediction Rule for Ureteral Stone: An Observational Multi-institutional Study. Ann Emerg Med. 2016;67(4):423-432.e2."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26584563",
+                  "text": "Schoenfeld EM, Poronsky KE, Elia TR, Budhram GR, Garb JL, Mader TJ. Validity of STONE scores in younger patients presenting with suspected uncomplicated renal colic. Am J Emerg Med. 2016;34(2):230-4."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27262605 ",
+                  "text": "Kim B, Kim K, Kim J, et al. External validation of the STONE score and derivation of the modified STONE score. The American Journal of Emergency Medicine. 2016;34(8):1567-1572. doi:10.1016/j.ajem.2016.05.061."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Elizabeth M. Schoenfeld, MD, MSc"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Christopher L. Moore",
+              "qa_en": "<p dir=\"ltr\"><strong>Why did you develop the STONE Score? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians? </strong></p>\n<p dir=\"ltr\">We found that over the years, and in the United States in particular, it had become a knee-jerk reaction to perform a CT scan on anyone with suspected kidney stone. However, it hasn&rsquo;t been shown to alter management that much, and sometimes it&rsquo;s fairly obvious that patients have a kidney stone. A CT scan has ionizing radiation that can cause cancer later, it&rsquo;s expensive and time-consuming, and if it&rsquo;s not needed we wanted to find a way that we could clinically predict who would have a kidney stone to try to help avoid unnecessary imaging.</p>\n<p dir=\"ltr\"><strong>What pearls, pitfalls and/or tips do you have for users of the STONE Score? Do you know of cases where it has been applied, interpreted, or used inappropriately? </strong></p>\n<p dir=\"ltr\">There are some caveats that are listed at the top of the score page, which are to be careful about not using it in anyone who has a potentially complicated kidney stone&mdash;anyone who has evidence of an infection, or pre-existing renal disease. In those cases, you would generally want to get imaging because you wouldn&rsquo;t want to miss a stone. But for uncomplicated kidney stone, about 80% of those will pass on their own, so imaging doesn&rsquo;t necessarily help you much in those cases. So that&rsquo;s the main caveat: make sure you&rsquo;re not concerned about an infected stone or other pre-existing renal disease.</p>\n<p dir=\"ltr\"><strong>What recommendations do you have for doctors once they have applied the STONE Score? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p>\n<p dir=\"ltr\">A reason to get a CT scan in a patient is really two-fold when you suspect a kidney stone. One is when you think maybe it&rsquo;s a kidney stone, but there might be something else that&rsquo;s bad. And we found that having a high STONE Score inversely correlates with the likelihood of having a significant alternate diagnosis. So it can help you to know that they&rsquo;re likely to have a stone and unlikely to have something else. The other reason you might need a CT scan is that the patient might need an intervention. There&rsquo;s a minority of those, maybe 20%, that would require an intervention. But it could expedite appropriate intervention if you have imaging. I think it&rsquo;s helpful to be used in a shared decision making model, where you could tell the patient they are 90% likely to have a kidney stone, and 80% of those are likely to pass on their own, without anything other than pain control. However there is a small proportion that do need an intervention, and we could do a CT scan here and now but we don&rsquo;t have to.</p>\n<p dir=\"ltr\">The other thing I would say is that it can help you to choose the right kind of CT scan. Kidney stones in particular are very amenable to reduced radiation dose CT, and if you are going to do a CT scan, it helps to pick those patients appropriately.</p>\n<p dir=\"ltr\"><strong>How do you use the STONE Score in your own clinical practice? Can you give an example of a scenario in which you use it? You mention shared decision making; how many patients are actually okay with not getting a CT scan after you have that conversation with them?</strong></p>\n<p dir=\"ltr\">It&rsquo;s a good question, and I don&rsquo;t have an exact percentage for you, but it&rsquo;s certainly a substantial number of patients that, given the choice (and especially if their pain is controlled in the emergency department) are perfectly happy to go home without getting a CT scan. Particularly when they understand that there&rsquo;s some radiation involved, as well as the time and expense, even if it&rsquo;s covered by insurance. I&rsquo;ve been generally pleasantly surprised by that. There are certainly some people who just want to know and just want to get a CT scan, and I&rsquo;m okay with that, but I think it&rsquo;s a particularly good situation as there are different ways to approach it. Frankly it&rsquo;s not dangerous for an uncomplicated stone, because if it doesn&rsquo;t pass, it tends to cause ongoing symptoms, and they can follow up and get a CT scan at a later time. But it would be a minority of patients who would actually require intervention.</p>\n<p dir=\"ltr\"><strong>Any other research in the pipeline that you&rsquo;re particularly excited about?</strong></p>\n<p dir=\"ltr\">We&rsquo;ve tried to put this in place to implement either avoidance for CT imaging entirely or appropriate use of reduced-dose CT. We have recently completed an expert consensus on imaging in these patients that involves emergency medicine, radiology, and urology, and are in the process of publishing that work. We are also hoping to implement elements of the STONE Score into clinical decision support (CDS) that can be part of the electronic health record (EHR) to help guide appropriate imaging on a consistent basis.</p>\n<p dir=\"ltr\"><strong>Any other thoughts on managing kidney stones? </strong></p>\n<p dir=\"ltr\">I think it&rsquo;s worth emphasizing is that there seems to be this mantra or cultural norm in the United States that all first-time stones need a CT. But our research and my own clinical experience doesn&rsquo;t necessarily support that. If you have someone who comes in at 3 am and clearly has a kidney stone by the STONE Score and clinical experience, and you can get their pain relieved, they don&rsquo;t necessarily require a CT scan. And in fact, the history of kidney stone is not part of the STONE Score. I have some theories on why that didn&rsquo;t come out in either the derivation or validation phase, but even if you have a prior stone or not, the STONE Score still performs well. I want to emphasize that in my opinion, not all first-time stone requires a CT. And that&rsquo;s certainly a practice in other countries - they don&rsquo;t necessarily do a CT just because it&rsquo;s a first-time stone.</p>\n<p dir=\"ltr\">We also talked about the incorporation of ultrasound, the STONE PLUS (Point-of-care Limited Ultrasound), and in particular, for patients who are in the moderate STONE Score zone, that&rsquo;s where ultrasound is most helpful. If their score is high, they&rsquo;re likely to have a stone whether or not they have hydronephrosis, because not all stones have hydro. But if you&rsquo;re not sure, ultrasound performed as needed can be very helpful.</p>\n<p dir=\"ltr\"><strong>What&rsquo;s your theory on why history of stone doesn&rsquo;t show up as being significant in the data?</strong></p>\n<p dir=\"ltr\">I think it was patients who may have been looking for narcotic pain medication and felt that if they said they had a kidney stone, they would get it, because they&rsquo;d had a prior kidney stone. But in the derivation and validation phase, we actually didn&rsquo;t see that. It didn&rsquo;t necessarily pan out that a CT would show a stone. So it was not one of the variables that reached significance.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">High STONE Scores decrease likelihood of an alternative diagnosis to &lt;2% and therefore those with high STONE Scores could, in the correct clinical context, be managed without an immediate CT.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Hydronephrosis on ultrasound, in addition to the score, increases likelihood of kidney stone.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients who are febrile, elderly, or ill at baseline, or do not clinically improve during their ED stay, are more likely to benefit from a CT scan, regardless of score. The score was not developed to be used for ill-appearing or infected patients.</p>\n</li>\n</ul>\n<p></p>\n<ul>\n<li dir=\"ltr\">External validation studies suggest that the omission of the &ldquo;race&rdquo; criterion may be more accurate in locations with a higher proportion of African-American patients. In this case, a score of 8-10 would be considered &ldquo;high&rdquo; (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26440490\" target=\"_blank\">Wang et al, 2016</a>).</li>\n</ul>\n<ul>\n<li dir=\"ltr\"><span id=\"docs-internal-guid-5e0420fc-7fff-241d-cc74-96286272e24b\">Per <a href=\"http://www.choosingwisely.org/clinician-lists/acep-ct-of-abdomen-and-pelvis-for-ed-patients-under-50/\" target=\"_blank\">ACEP&rsquo;s Choosing Wisely</a>, clinicians should avoid ordering CTs in young healthy patients with a history of kidney stones presenting with signs and symptoms of an uncomplicated (noninfected) kidney stone.</span></li>\n</ul>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-126ba9c4-7fff-5318-0adb-a5545de0ef94\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients with suspected kidney stones and normal renal function.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Do not use in patients with fever or other signs of infection, recent trauma or urologic surgery, or active malignancy.</p>\n</li>\n</ul>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-2d89c2ef-7fff-1abf-1c2c-268a57c72f8b\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Kidney stone patients are at significant risk of high lifetime radiation exposure from the diagnosis and treatment of stones. Over 80% of kidney stones pass spontaneously, and immediate CT does not usually change the course of the patient&rsquo;s disease process. CT may be more appropriate after conservative medical care has failed.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">This score helps clinicians risk-stratify patients, which can be used to guide diagnostic decision-making and shared decision-making conversations.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Performed better than clinician gestalt in validation.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">High likelihood of kidney stone signifies a low likelihood of a dangerous alternative diagnosis and may allow clinicians to forego immediate CT scan in healthy patients.</p>\n</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li><span id=\"docs-internal-guid-2a9b2095-7fff-65b8-d217-c67044512a9e\">May be used to facilitate shared decision-making with patients.</span></li>\n<li><a href=\"https://www.annemergmed.com/article/S0196-0644(15)01419-5/fulltext\" target=\"_blank\">Daniels et al (2016)</a>&nbsp;showed that:\n<ul>\n<li>For patients with low and moderate STONE scores,&nbsp;the presence of hydronephrosis on ultrasound increased the likelihood of kidney stone as diagnosis, with moderate/severe hydronephrosis increasing the likelihood more than mild hydronephrosis.</li>\n<li>For all levels of STONE score, hydronephrosis on ultrasound decreased the likelihood of a dangerous alternative diagnosis, and increased the likelihood of the patient having a urologic procedure within 90 days (total procedure rate: 30%).</li>\n</ul>\n</li>\n</ul>",
+            "critical_actions_en": "",
+            "management_en": "<p><span id=\"docs-internal-guid-e2720184-7fff-b687-7d9f-04d19ddb0a77\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">A high score can obviate need for an immediate CT scan, in healthy patients. If further imaging is warranted, a low dose CT scan may be more appropriate than a standard dose CT scan in these patients.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">A moderate score plus a finding of hydronephrosis suggests a high likelihood of a kidney stone, and may also obviate the need for immediate CT scan in healthy patients.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">A low score should cause clinicians to consider alternative diagnoses, but does not in itself necessitate a CT scan or other imaging. Over 75% of patients with a low score had non-diagnostic CT scans.</p>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Kidney Stone"
+        ],
+        "dosing": false,
+        "equation_logic": "972effdb3f7aa2ed8b20aafa0ce01bfc",
+        "equation_logic_text": "var calc_output = [];\n\nvar sex = parseFloat(sex);\nvar pain = parseFloat(pain);\nvar race = parseFloat(race) || -1;\nvar nausea = parseFloat(nausea);\nvar hematuria = parseFloat(hematuria);\nvar risk_group;\nvar risk_percent;\n\nif (race==4||race==1){\n  var score = sex + pain + race + nausea + hematuria - 1;\n  if (score <= 5){\n\trisk_group = 'Low';\n\trisk_percent = '9.2';\n}\nelse if (score <=9 && score >=6){\n\trisk_group = 'Moderate';\n\trisk_percent = '51.3';\n}\nelse if (score >= 10){\n\trisk_group = 'High';\n\trisk_percent = '88.6';\n}\n}\n\nif (race==-1){\n var score1 = sex + pain + nausea + hematuria;\n var score2 = sex + pain + nausea + hematuria + 3;\n var score = score1+\"-\"+score2;\n  if (score1 <= 5 && score2 <= 5){\n\trisk_group = 'Low';\n\trisk_percent = '9.2';\n}\nelse if (score1 <= 9 && score1 >= 6 && score2 <= 9 && score2 >= 6){\n\trisk_group = 'Moderate';\n\trisk_percent = '51.3';\n}\nelse if (score1 >= 10 && score2 >= 10){\n\trisk_group = 'High';\n\trisk_percent = '88.6';\n}\nelse if (score1 <= 5 && score2 <= 9 && score2 >=6){\n\trisk_group = 'Low to Moderate';\n\trisk_percent = '9.2-51.3';\n}\nelse if (score1 <= 9 && score1 >= 6 && score2 >= 10){\n\trisk_group = 'Moderate to High';\n\trisk_percent = '51.3-88.6';\n}\n}\n\n//results \ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: risk_group + ' risk'\n    });\ncalc_output.push({\n\tname: 'score',\n\tvalue: score,\n\tvalue_text: 'points',\n\tmessage: 'STONE Score'\n\t});\ncalc_output.push({\n\tname: 'risk_group',\n\tvalue: risk_group,\n\tvalue_text: ' risk',\n\tmessage: ''\n\t});\ncalc_output.push({\n\tname: 'risk_percent',\n\tvalue: risk_percent,\n\tvalue_text: '%',\n\tmessage: 'Risk of having ureteral stone'\n\t});",
+        "favorite_id": 10110,
+        "full_title_en": "STONE Score for Uncomplicated Ureteral Stone",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Sex",
+            "name": "sex",
+            "optional": false,
+            "options": [
+              {
+                "label": "Female",
+                "value": 0
+              },
+              {
+                "label": "Male",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Duration of pain prior to presentation",
+            "name": "pain",
+            "optional": false,
+            "options": [
+              {
+                "label": ">24 hours",
+                "value": 0
+              },
+              {
+                "label": "6-24 hours",
+                "value": 1
+              },
+              {
+                "label": "<6 hours",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Nausea and vomiting",
+            "name": "nausea",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Nausea alone",
+                "value": 1
+              },
+              {
+                "label": "Nausea and vomiting",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Hematuria on urine dipstick",
+            "name": "hematuria",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Present",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Race",
+            "name": "race",
+            "optional": true,
+            "options": [
+              {
+                "label": "Non-Caucasian",
+                "value": 1
+              },
+              {
+                "label": "Caucasian",
+                "value": 4
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Race may/may not provide better estimates of stone; optional",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p><span id=\"docs-internal-guid-13f26b40-7fff-ee3c-b2f7-fce7239ce7a3\">Use in patients with suspected kidney stones and normal renal function. Do not use in patients with fever or other signs of infection, recent trauma or urologic surgery, or active malignancy. </span></p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited logic, fixed error",
+            "time": "2020-11-13T12:12:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic for optional race (error with zero non-caucasian input)",
+            "time": "2020-11-13T10:28:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added note in evidence",
+            "time": "2020-11-12T14:01:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "adjusted instructions",
+            "time": "2020-11-12T10:03:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "made race optional",
+            "time": "2020-11-11T14:08:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "race input edits",
+            "time": "2020-07-30T14:04:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added creator interview",
+            "time": "2019-04-04T09:35:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "creator feedback",
+            "time": "2019-02-25T16:17:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "removed duplicate ref",
+            "time": "2019-02-14T12:16:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added new ref",
+            "time": "2019-02-14T12:14:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "nausea/vomiting",
+            "time": "2018-12-18T12:55:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "CA second round",
+            "time": "2018-11-15T14:47:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "AD first round testing edits",
+            "time": "2018-11-08T16:07:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "short title and desc updated",
+            "time": "2018-11-02T16:31:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "saved by sang!",
+            "time": "2018-11-02T16:00:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "sang recall",
+            "time": "2018-11-02T15:04:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "inputs in, needs eq logic",
+            "time": "2018-10-26T17:38:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "claim save, needs inputs still",
+            "time": "2018-10-26T17:24:00.000Z",
+            "user": "natalie"
+          }
+        ],
+        "md5": "6489cb567350da152ca8e7549810208e",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-5c0cc5ab-7fff-7e67-9253-7b3753614f59\">Predicts likelihood of ureteral stone in nontoxic-appearing patients with flank pain.</span></p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "Stone score",
+          "kidney stone"
+        ],
+        "search_id": "c-10110",
+        "seo": {
+          "keywords_en": "Stone score, ureteral stones, kidney stones",
+          "meta_description_en": "The STONE Score risk stratifies non-febrile ED patients to give a likelihood that their symptoms are being caused by a ureteral stone."
+        },
+        "short_description_en": "Predicts ureteral stones, before ultrasound.",
+        "short_title_en": "STONE Score (Pre-Ultrasound, Ureteral)",
+        "slug": "stone-score-uncomplicated-ureteral-stone",
+        "specialty_en": [
+          "Emergency Medicine",
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Nephrology",
+          "Primary Care",
+          "Urology"
+        ],
+        "system_en": [
+          "Renal"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Elizabeth",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Schoenfeld",
+          "name": "Elizabeth M. Schoenfeld, MD, MSc",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "Christopher L. Moore, MD, is an associate professor of emergency medicine at Yale University. He is also the director of the Yale Emergency Ultrasound Fellowship and chief of the Emergency Ultrasound Section. Dr. Moore’s research focuses primarily on diagnostic testing in the emergency setting, kidney stones, and bedside echocardiography. ",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Christopher L. Moore",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-christopher-l-moore.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Moore+CL%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10110/stone-score-uncomplicated-ureteral-stone",
+        "description": "The STONE Score risk stratifies non-febrile ED patients to give a likelihood that their symptoms are being caused by a ureteral stone.",
+        "keywords": "Stone score, ureteral stones, kidney stones",
+        "title": "STONE Score for Uncomplicated Ureteral Stone"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 2044,
+          "short_title_en": "STONE Score (Post-CT, Renal)",
+          "slug": "stone-nephrolithometry-score-renal-calculi"
+        },
+        {
+          "calcId": 3908,
+          "short_title_en": "RENAL Nephrometry Score",
+          "slug": "renal-nephrometry-score"
+        },
+        {
+          "calcId": 10063,
+          "short_title_en": "Licurse Score",
+          "slug": "licurse-score-renal-ultrasound"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10110",
+      "stone-score-uncomplicated-ureteral-stone"
+    ]
+  },
+  "scriptLoader": []
+}

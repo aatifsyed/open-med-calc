@@ -1,0 +1,1162 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "diagnostic_criteria",
+        "chief_complaint_en": [
+          "Headache",
+          "Neurologic Deficit",
+          "Seizure"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Ischemic stroke without clear etiology has historically been difficult to define and classify. In 2009, a new system for phenotyping patients called ASCO (A for atherosclerosis; S for small-vessel disease, C for cardiac pathology, and O for other causes) was proposed by expert consensus in order to better describe the overlap between multiple potential causative diseases underlying ischemic stroke (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19342826\" target=\"_blank\">Amarenco 2009</a>).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">ASCO was subsequently updated to include dissection (D), a common cause of stroke in young patients (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23899749\" target=\"_blank\">Amarenco 2013</a>).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">About 90% of ischemic stroke patients identified with ASCOD have atherosclerotic disease, highlighting importance of risk factor control regardless of most causal mechanism for index stroke. These patients have high overlap between multiple possible ischemic stroke etiologies (<a href=\"http://stroke.ahajournals.org/content/44/9/2427\" target=\"_blank\">Sirimarco 2013</a>).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Reported interrater agreement for ASCOD classification is substantial: kappa 0.95 for large vessel atherosclerosis, 0.95 for small vessel disease, and 1 for cardiac disease, which outscores TOAST (<a href=\"https://www.sciencedirect.com/science/article/pii/S030384671730149X\" target=\"_blank\">Radu 2017</a>).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Some comparisons among proposed classification systems including TOAST, Causative Classification of Stroke (CCS) system, and ASCO show good overall agreement between all classification systems (<a href=\"https://www.sciencedirect.com/science/article/pii/S030384671730149X\" target=\"_blank\">Radu 2017</a>).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">A recent study comparing TOAST, CCS, and ASCO finds that all systems generated etiologic subtypes with different 90-day stroke recurrence, 90-day survival, admission stroke severity, and acute infarct burden, with CCS providing the greatest discrimination in all outcomes except 90-day survival. This suggests CCS may be more suitable in etiologic subtype assessment in large stroke clinical trials (<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3013495/\" target=\"_blank\">Arsava 2017</a>).</p>\n</li>\n</ul>",
+            "formula_en": "<p dir=\"ltr\">Grades of predefined ASCOD phenotypes:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"308\" /><col width=\"122\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Finding</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>ASCOD Grade</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Workup is insufficient to grade the disease</p>\n</td>\n<td>\n<p dir=\"ltr\">9</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Disease is present and potentially a cause</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Disease is present but causal link is uncertain</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Disease is present but causal link is unlikely</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Disease is absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\"></p>\n<p dir=\"ltr\">Specific definitions:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"176\" /><col width=\"273\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>A: Causality grades for atherothrombosis</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">A9: Incomplete workup</p>\n</td>\n<td>\n<p dir=\"ltr\"><abbr title=\"Ultrasound\">US</abbr> (Duplex or TCD), angiogram (CTA, MRA, or conventional), or autopsy not performed (a minimum workup is extra- and intracranial assessment of cerebral arteries - maximum workup also includes transesophageal assessment of the aortic arch (or a default CTA of the aortic arch))</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">A1: Potentially causal (atherothrombotic stroke)</p>\n</td>\n<td>\n<p dir=\"ltr\">50-99% ipsilateral atherosclerotic stenosis in intra/extracranial artery supplying the ischemic field</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Ipsilateral atherosclerotic stenosis &lt;50% in intra/extracranial artery with endoluminal thrombus supplying ischemic field</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Mobile thrombus in aortic arch</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Ipsilateral arterial occlusion in intra/extracranial artery with evidence of underlying atherosclerotic plaque supplying ischemic field</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">A2: Causal link uncertain</p>\n</td>\n<td>\n<p dir=\"ltr\">30-50% ipsilateral atherosclerotic stenosis in intra/extracranial artery supplying the ischemic field</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Aortic plaque &ge;4 mm without mobile lesion</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">A3: Causal link unlikely but disease is present</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;30% stenosis in intra/extracranial artery ipsilateral to infarct area</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Aortic plaque &lt;4 mm without mobile thrombus</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Stenosis (any degree) or occlusion in a cerebral artery not supplying infarct area (e.g. contralateral side, opposite circulation)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">History of MI, coronary revascularization, or peripheral arterial disease</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">50-99% ipsi/bilateral atherosclerotic stenosis with bihemispheric <abbr title=\"Magnetic resonance-diffusion-weighted imaging\">MR-DWI</abbr> lesion</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">A0: Atherosclerosis not detected and ruled out</p>\n</td>\n<td>\n<p dir=\"ltr\">Any of the following done and negative for extracranial arterial stenosis: duplex US, CTA, MRA, conventional angiogram, or autopsy</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Any of the following done and negative for intracranial arterial stenosis: transcranial Doppler US, MRA, CTA, conventional angiogram, or autopsy</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><abbr title=\"Transesophageal echocardiography\">TEE</abbr> with specific assessment of the aortic arch (when the probe is pulled back at end of cardiac examination, turn probe counterclockwise and watch aortic arch), or specific aortic arch assessment with CTA to rule out aortic arch atheroma</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><br /><br /></p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"172\" /><col width=\"277\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>S: Causality grades for small-vessel disease</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">S9: Incomplete workup</p>\n</td>\n<td>\n<p dir=\"ltr\">MRI or CT not done</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">S1: Potentially causal</p>\n</td>\n<td>\n<p dir=\"ltr\">Lacunar infarction, defined as small deep infarct &lt;15 mm in perforator branch territory on MRI-DWI or default CT in area corresponding to symptoms, plus &ge;1 of the following:</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;1 small deep older infarct(s) of lacunar type in other territories</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Severe (confluent/Fazekas III) leukoaraiosis, or microbleeds, or severe dilatation of perivascular spaces (&lsquo;&eacute;tat cribl&eacute;&rsquo;)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Repeated, recent (&lt;1 month), TIAs attributable to the same territory as the index infarct</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">S2: Causal link uncertain</p>\n</td>\n<td>\n<p dir=\"ltr\">Only one recent lacunar infarction and no other abnormality on MRI/CT</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Clinical syndrome suggestive of deep branch artery stroke, without ischemic lesion in appropriate area on MRI/CT (main clinical syndrome suggesting a deep branch artery/lacunar stroke: pure hemiparesis, pure hemisensory loss, ataxic hemiparesis, dysarthria-clumsy hand syndrome, unilateral sensorimotor deficit, others: hemichorea, hemiballism, pure dysarthria, etc)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">S3: Causal link unlikely, but disease is present</p>\n</td>\n<td>\n<p dir=\"ltr\">Severe (confluent/Fazekas III) leukoaraiosis visible on MRI and/or CT scan, and/or microbleeds visible on T2-weighted MRI, and/or severe dilatation of perivascular spaces (visible on T2-weighted MRI), and/or one or several old, small deep infarcts of lacunar type</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">S0: Small-vessel disease not detected</p>\n</td>\n<td>\n<p dir=\"ltr\">Negative MRI (T2, FLAIR, GRE, DWI) and no clinical syndrome suggestive of deep branch artery stroke</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><br /><br /></p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"165\" /><col width=\"284\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>C: Causality grades for cardiac pathology</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">C9: Incomplete workup</p>\n</td>\n<td>\n<p dir=\"ltr\">Minimum is EKG and examination by trained cardiologist in absence of cardiac imaging</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"15\">\n<p dir=\"ltr\">C1: Potentially causal</p>\n</td>\n<td>\n<p dir=\"ltr\">Acute cardiogenic stroke, or recent stroke and older bihemispheric, supra/infratentorial territorial, or cortical ischemic lesions and signs of systemic embolism with &ge;1 of the following:</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Mitral stenosis (surface area &lt;1.5 cm&sup2;)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Mechanical valve</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">MI within 4 weeks before stroke</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Mural thrombus in the left cavities</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Left ventricular aneurysm</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">History or presence of documented afib (paroxysmal (&gt;60 seconds), persistent, or permanent) or flutter, with or without left atrial thrombus or spontaneous echo</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Atrial disease (tachy-brady syndrome)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Dilated or hypertrophic cardiomyopathies</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Left ventricle ejection fraction &lt;35%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Endocarditis</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Intracardiac mass</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><abbr title=\"Patent foramen ovale\">PFO</abbr> and thrombus in situ</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">PFO and concomitant PE or proximal DVT preceding the index stroke</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Aforementioned cardiac pathologies (C1) with single or without obvious cerebral ischemic lesion</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"6\">\n<p dir=\"ltr\">C2: Causal link is uncertain (one of the following, regardless of stroke pattern)</p>\n</td>\n<td>\n<p dir=\"ltr\">PFO and atrial septal aneurysm</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">PFO and PE or proximal DTV concomitant but NOT preceding the index stroke</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Intracardiac spontaneous echo-contrast</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Apical akinesia of the left ventricle and decreased ejection fraction (but &gt;35%)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">History of MI or palpitation and multiple brain infarction, repeated either bilateral or in two different arterial territories (e.g. both anterior and posterior circulation)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No direct cardiac source identified, but multiple brain infarction, repeated either bilateral or in two different arterial territories (e.g. both anterior and posterior circulation) and/or evidence of systemic emboli: renal or splenic or mesenteric infarction (on CT, MRI, or autopsy) or embolism in peripheral artery supplying arm or leg</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">C3: Causal link unlikely but disease is present (one of the following abnormalities present in isolation)</p>\n</td>\n<td>\n<p dir=\"ltr\">PFO, <abbr title=\"Atrial septal aneurysm\">ASA</abbr>, strands, mitral annulus calcification, aortic valve calcification, nonapical akinesia of left ventricle, transient afib &lt;60 sec, or atrial hyperexcitability &nbsp;</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">C0: Cardiac pathology not detected or not suspected</p>\n</td>\n<td>\n<p dir=\"ltr\">Ruling out a cardiac source of embolism: minimum is negative EKG and examination by a cardiologist; maximum is negative EKG/telemetry/24-hour Holter EKG/long-term EKG recording (implantable device, transtelephonic EKG, loop recorder), negative TEE for atrium, valves, and septal abnormalities, negative <abbr title=\"Transthoracic echocardiogram\">TTE</abbr> for PFO and assessment of left ventricle, negative cardiac CT/MRI, and negative abdominal CT/MRI (search for old or simultaneous subdiaphragmatic visceral infarction)</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><br /><br /></p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"167\" /><col width=\"282\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>O: Causality for other causes</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">O9: Incomplete workup</p>\n</td>\n<td>\n<p dir=\"ltr\">Unable to reasonably exclude other causes based on best available diagnostic tests and stroke-specific history</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"13\">\n<p dir=\"ltr\">O1: Potentially causal</p>\n</td>\n<td>\n<p dir=\"ltr\">Dolichoectasia with complicated aneurysm</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Polycythemia vera or thrombocythemia &gt;800,000/mm&sup3;</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Systemic lupus</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Disseminated intravascular coagulation</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Antiphospholipid antibody syndrome (including &gt;100 <abbr title=\"IgG antiphospholipid units\">GPL units</abbr> or lupus anticoagulant)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Fabry&rsquo;s disease</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Coexisting meningitis</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Sickle cell disease</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Ruptured intracranial aneurysm with or without vasospasm of the artery supplying the infarcted area</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Severe hyperhomocysteinemia</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Horton&rsquo;s disease</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Other cerebral inflammatory or infectious angiitis</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Moyamoya disease, etc.</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">O2: Causal link is uncertain</p>\n</td>\n<td>\n<p dir=\"ltr\">Saccular aneurysm (with suspicion of embolism)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Coincidental migraine attack with neurological deficit lasting &gt;60 min in patients with history of migraine aura</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">O3: Causal link is unlikely but disease is present</p>\n</td>\n<td>\n<p dir=\"ltr\">Arteriovenous malformation</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Thrombocytosis &lt;800,000/mm&sup3;</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Antiphospholipid antibody &lt;100 GPL units</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Homocysteinemia &lt;40 &mu;mol/L</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Malignoma with associated hypercoagulation (high D-dimer levels), DVT/PE and/or recent chemotherapy</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">O0: Cardiac pathology not detected or not suspected</p>\n</td>\n<td>\n<p dir=\"ltr\">Ruling out other causes:&nbsp;negative: <abbr title=\"Cerebrospinal fluid\">CSF</abbr>, complete hemostasis, cerebral arterial imaging, family history of inherited disease, inflammatory markers (<abbr title=\"Erythrocyte sedimentation rate\">ESR</abbr> and <abbr title=\"C-reactive protein\">CRP</abbr>), hematologic tests (platelet, leukocytes, and eosinophilic counts; hematocrit), specific tests according to suspected disease (e.g. genetic test, retinal angiography for Susac syndrome)</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><br /><br /></p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"178\" /><col width=\"271\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>D: Causality grades for dissection</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">D9: Incomplete workup</p>\n</td>\n<td>\n<p dir=\"ltr\">In patients &lt;60 years old and no evidence of A1, A2, S1, C1, or O1 category: no fat-saturated MRI performed on the extra/intracranial artery supplying the ischemic field or no x-ray angiography performed (all performed within 15 days of symptom onset)</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">D1: Potentially causal</p>\n</td>\n<td>\n<p dir=\"ltr\">Arterial dissection by direct demonstration (evidence of mural hematoma: hypersignal on fat-saturated MRI or at autopsy or on TOF-MRA or CT on axial sections showing both enlargement of the arterial wall by the hematoma with narrowing of the lumen or on echography showing an hypoechoic arterial wall with narrowing of the lumen and sudden enlargement of the carotid or vertebral (V2) artery diameter</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Arterial dissection by indirect demonstration or by less sensitive/less specific diagnostic test (only long arterial stenosis beyond carotid bifurcation or in V2, V3, or V4 without demonstration of arterial wall hematoma: on x-ray angiography, and/or echography and/or CTA and/or MRA) or unequivocal US with recanalization during follow-up</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">D2: Causal link uncertain</p>\n</td>\n<td>\n<p dir=\"ltr\">Arterial dissection by weak evidence (suggestive clinical history, e.g. painful Horner&rsquo;s syndrome or past history of arterial dissection)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Imaging evidence of fibromuscular dysplasia of a cerebral artery supplying ischemic field</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">D3: Causal link unlikely but disease is present</p>\n</td>\n<td>\n<p dir=\"ltr\">Kinking or dolichoectasia without complicated aneurysm or plicature</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Fibromuscular dysplasia on arteries not supplying ischemic field</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">D0: No dissection detected or suspected</p>\n</td>\n<td>\n<p dir=\"ltr\">Ruling out dissection: negative fat-saturated MRI of suspected artery or good quality, normal x-ray angiography (too early fat-saturated MRI performed within three days of symptom onset can be falsely negative and then should be repeated). If no clinical suspicion of dissection, patient can be classified D0 provided good-quality extra/intracranial cerebral artery and cardiac evaluations have been done</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p></p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23899749 ",
+                  "text": "Amarenco P, Bogousslavsky J, Caplan LR, Donnan GA, Wolf ME, Hennerici MG. The ASCOD phenotyping of ischemic stroke (Updated ASCO Phenotyping). Cerebrovasc Dis. 2013;36(1):1-5."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/7678184",
+                  "text": "Adams HP, Bendixen BH, Kappelle LJ, et al. Classification of subtype of acute ischemic stroke. Definitions for use in a multicenter clinical trial. TOAST. Trial of Org 10172 in Acute Stroke Treatment. Stroke. 1993;24(1):35-41."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/19342826",
+                  "text": "Amarenco P, Bogousslavsky J, Caplan LR, Donnan GA, Hennerici MG. New approach to stroke subtyping: the A-S-C-O (phenotypic) classification of stroke. Cerebrovasc Dis. 2009;27(5):502-8."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3013495/",
+                  "text": "Arsava EM, Ballabio E, Benner T, et al. The Causative Classification of Stroke system: an international reliability and optimization study. Neurology. 2010;75(14):1277-84."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "http://stroke.ahajournals.org/content/44/9/2427 ",
+                  "text": "Sirimarco G, Lavallée PC, Labreuche J, et al. Overlap of diseases underlying ischemic stroke: the ASCOD phenotyping. Stroke. 2013;44(9):2427-33."
+                },
+                {
+                  "href": "https://www.sciencedirect.com/science/article/pii/S030384671730149X ",
+                  "text": "Radu RA, Terecoasă EO, Băjenaru OA, Tiu C. Etiologic classification of ischemic stroke: Where do we stand?. Clin Neurol Neurosurg. 2017;159:93-106."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Dixon Yang, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Pierre Amarenco",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-6dccb008-7fff-9e64-8819-b12a895d9237\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">ASCOD phenotyping of ischemic stroke seeks to assign a degree of likelihood of causal relationship for every potential underlying disease mechanism, without weighing towards most likely cause. Compared to other ischemic stroke subtype classification systems:</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Classifies subtypes into large-vessel atherosclerosis, small-vessel disease (lacunar), cardioembolic, and other etiologies including dissection, like <a href=\"https://www.ahajournals.org/doi/pdf/10.1161/01.STR.24.1.35\" target=\"_blank\">TOAST</a> (Trial of Org 10172 in Acute Stroke Treatment).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Does <em>not</em> assign a &ldquo;cryptogenic&rdquo; or &ldquo;undetermined&rdquo; category, which creators propose may reduce confusion amongst both clinicians and patients.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Captures overlap between multiple underlying ischemic stroke mechanisms.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Evaluates thoroughness and appropriateness of diagnostic evidence.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Relies on presence or absence of an abnormality, and does not directly compare competing ischemic stroke etiologies.</p>\n</li>\n</ul>\n</ul>",
+            "use_case_en": "<p>Use in patients for comprehensive evaluation of all potential underlying causes of ischemic stroke, which may aid in those of unclear or overlapping etiology.</p>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-6e6c6ce6-7fff-421f-112f-2971e3e9b658\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">May aid in comprehensive evaluation of diagnostic work-up and findings to capture all existing underlying disease mechanisms in ischemic stroke patients, thus potentially guiding risk factor management for secondary prevention.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Compared with TOAST, reduces proportion of strokes labelled &ldquo;of undetermined etiology&rdquo; despite extensive work-up (<a href=\"https://www.sciencedirect.com/science/article/pii/S030384671730149X\" target=\"_blank\">Radu 2017</a>).</p>\n</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-fb67ef50-7fff-a5fe-7041-3f552335038d\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Incomplete minimum work-up may prompt further diagnostic testing listed in scoring criteria.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Potential causal disease mechanisms should be treated according to current evidence-based guidelines for secondary stroke prevention.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Multiple potentially causal disease mechanisms should all be considered for treatment.</p>\n</li>\n</ul>",
+            "critical_actions_en": "<p><span id=\"docs-internal-guid-ff922b42-7fff-12ee-571b-a51a023a9bea\">ASCOD addresses underlying ischemic stroke mechanisms, not all aspects of post-stroke care, which can include rehabilitation, physical therapy, occupational therapy, and speech language therapy.</p>",
+            "management_en": "<p><span id=\"docs-internal-guid-28e5d83f-7fff-e897-ea81-5f4bc9e66315\">Management is dependent on identified mechanism(s), and may include anticoagulation, anti-thrombotics, high-intensity anti-lipids, blood pressure and glycemic control, carotid endarterectomy, and/or atrial septal defect repair.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Acute Coronary Syndrome",
+          "Atrial Fibrillation",
+          "Stroke/TIA"
+        ],
+        "dosing": false,
+        "equation_logic_text": "var calc_output = [];\nvar a1 = a1 || 0;\nvar a2 = a2 || 0;\nvar a3 = a3 || 0;\nvar a0 = a0 || 0;\n\nvar s1 = s1 || 0;\nvar s2 = s2 || 0;\nvar s3 = s3 || 0;\nvar s0 = s0 || 0;\n\nvar c1 = c1 || 0;\nvar c2 = c2 || 0;\nvar c3 = c3 || 0;\nvar c0 = c0 || 0;\n\nvar o1 = o1 || 0;\nvar o2 = o2 || 0;\nvar o3 = o3 || 0;\nvar o0 = o0 || 0;\n\nvar d1 = d1 || 0;\nvar d2 = d2 || 0;\nvar d3 = d3 || 0;\nvar d0 = d0 || 0;\n\n//a\nvar A1 = parseFloat(a1);\nvar A2 = parseFloat(a2);\nvar A3 = parseFloat(a3);\nvar A0 = parseFloat(a0);\nvar A9 = parseFloat(a9);\n\n//s\nvar S1 = parseFloat(s1);\nvar S2 = parseFloat(s2);\nvar S3 = parseFloat(s3);\nvar S0 = parseFloat(s0);\nvar S9 = parseFloat(s9);\n\n//c\nvar C1 = parseFloat(c1);\nvar C2 = parseFloat(c2);\nvar C3 = parseFloat(c3);\nvar C0 = parseFloat(c0);\nvar C9 = parseFloat(c9);\n\n//o\nvar O1 = parseFloat(o1);\nvar O2 = parseFloat(o2);\nvar O3 = parseFloat(o3);\nvar O0 = parseFloat(o0);\nvar O9 = parseFloat(o9);\n\n//d\nvar D1 = parseFloat(d1);\nvar D2 = parseFloat(d2);\nvar D3 = parseFloat(d3);\nvar D0 = parseFloat(d0);\nvar D9 = parseFloat(d9);\n\n//logic\nvar gradea, grades, gradec, gradeo, graded, msg1, msg2, msg3, msg4, msg5;\n\nif (A9 == 1) {\n\tgradea = 'A9';\n    msg1 = 'Atherothrombosis';\n} else if (A1 == 1) {\n\tgradea = 'A1';\n} else if (A2 == 1) {\n\tgradea = 'A2';\n} else if (A3 == 1) {\n\tgradea = 'A3';\n} else if (A0 == 1) {\n\tgradea = 'A0';\n} else {\n\tgradea = '';\n}\n  \nif (S9 == 1) {\n\tgrades = 'S9';\n    msg2 = 'Small-vessel disease';  \n} else if (S1 == 1) {\n\tgrades = 'S1';\n} else if (S2 == 1) {\n\tgrades = 'S2';\n} else if (S3 == 1) {\n\tgrades = 'S3';\n} else if (S0 == 1) {\n\tgrades = 'S0';\n} else {\n\tgrades = '';\n}\n\nif (C9 == 1) {\n\tgradec = 'C9';\n    msg3 = 'Cardiac pathology';  \n} else if (C1 == 1) {\n\tgradec = 'C1';\n} else if (C2 == 1) {\n\tgradec = 'C2';\n} else if (C3 == 1) {\n\tgradec = 'C3';\n} else if (C0 == 1) {\n\tgradec = 'C0';\n} else {\n\tgradec = '';\n}\n\nif (O9 == 1) {\n\tgradeo = 'O9';\n    msg4 = 'Other causes';    \n} else if (O1 == 1) {\n\tgradeo = 'O1';\n} else if (O2 == 1) {\n\tgradeo = 'O2';\n} else if (O3 == 1) {\n\tgradeo = 'O3';\n} else if (O0 == 1) {\n\tgradeo = 'O0';\n} else {\n\tgradeo = '';\n}\n\nif (D9 == 1) {\n\tgraded = 'D9';\n    msg5 = 'Dissection';  \n} else if (D1 == 1) {\n\tgraded = 'D1';\n} else if (D2 == 1) {\n\tgraded = 'D2';\n} else if (D3 == 1) {\n\tgraded = 'D3';\n} else if (D0 == 1) {\n\tgraded = 'D0';\n} else {\n\tgraded = '';\n}\n\nvar grade = gradea + grades + gradec + gradeo + graded;\n\nif (grade == '') {\n\tgrade = 'No grade';\n}\n\nvar msg = '';\nif (msg1 == 'Atherothrombosis'){\n  msg += msg1 + '<br/>';\n}\nif (msg2 == 'Small-vessel disease'){\n  msg += msg2  + '<br/>';\n}\nif (msg3 == 'Cardiac pathology'){\n  msg += msg3 + '<br/>';\n}\nif (msg5 == 'Dissection'){\n  msg += msg5  + '<br/>';\n}\nif (msg4 == 'Other causes'){\n  msg += msg4 + '<br/>';\n}\n\nvar insuff = 'Consider more workup to further assess for:<br/>' + msg; \n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: grade,\n    value_text: '',\n    message: 'ASCOD Grade'\n});\nif (D9 == 1 || O9 == 1 || C9 == 1 || S9  == 1 || A9 == 1) {\n  calc_output.push({\n    name: 'Score',\n    value: grade,\n    value_text: '',\n    message: 'ASCOD Grade<br/><br/>' + insuff\n});\n} else {calc_output.push({\n    name: 'Score',\n    value: grade,\n    value_text: '',\n    message: 'ASCOD Grade'\n});\n}",
+        "favorite_id": 10036,
+        "full_title_en": "ASCOD Algorithm for Ischemic Stroke",
+        "input_schema": [
+          {
+            "subheading": "A: Causality grades for atherothrombosis ",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "A9: Incomplete workup",
+            "name": "a9",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "<abbr title = \"Ultrasound\">US</abbr> (Duplex or TCD), angiogram (CTA, MRA, or conventional), or autopsy not performed (a minimum workup is extra- and intracranial assessment of cerebral arteries - maximum workup also includes transesophageal assessment of the aortic arch (or a default CTA of the aortic arch))",
+            "type": "radio"
+          },
+          {
+            "conditionality": "a9 == 0",
+            "default": 0,
+            "label_en": "A1: Potentially causal (atherothrombotic stroke)",
+            "name": "a1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "50-99% ipsilateral atherosclerotic stenosis in intra/extracranial artery supplying the ischemic field, ipsilateral atherosclerotic stenosis <50% in intra/extracranial artery with endoluminal thrombus supplying ischemic field, mobile thrombus in aortic arch, ipsilateral arterial occlusion in intra/extracranial artery with evidence of underlying atherosclerotic plaque supplying ischemic field",
+            "type": "radio"
+          },
+          {
+            "conditionality": "a9 == 0",
+            "default": 0,
+            "label_en": "A2: Causal link uncertain",
+            "name": "a2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "30-50% ipsilateral atherosclerotic stenosis in intra/extracranial artery supplying the ischemic field, aortic plaque ≥4 mm without mobile lesion",
+            "type": "radio"
+          },
+          {
+            "conditionality": "a9 == 0",
+            "default": 0,
+            "label_en": "A3: Causal link unlikely but disease is present",
+            "name": "a3",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "<30% stenosis in intra/extracranial artery ipsilateral to infarct area, aortic plaque <4 mm without mobile thrombus, stenosis (any degree) or occlusion in a cerebral artery not supplying infarct area (e.g. contralateral side, opposite circulation), history of MI, coronary revascularization, or peripheral arterial disease, 50-99% ipsi/bilateral atherosclerotic stenosis with bihemispheric <abbr title=\"Magnetic resonance-diffusion-weighted imaging\">MR-DWI</abbr> lesion",
+            "type": "radio"
+          },
+          {
+            "conditionality": "a9 == 0",
+            "default": 0,
+            "label_en": "A0: Atherosclerosis not detected and ruled out",
+            "name": "a0",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Any of the following done and negative for extracranial arterial stenosis: duplex US, CTA, MRA, conventional angiogram, or autopsy; any of the following done and negative for intracranial arterial stenosis: transcranial Doppler US, MRA, CTA, conventional angiogram, or autopsy; <abbr title = \"Transesophageal echocardiography\">TEE</abbr> with specific assessment of the aortic arch (when the probe is pulled back at end of cardiac examination, turn probe counterclockwise and watch aortic arch), or specific aortic arch assessment with CTA to rule out aortic arch atheroma",
+            "type": "radio"
+          },
+          {
+            "subheading": "S: Causality grades for small-vessel disease",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "S9: Incomplete workup",
+            "name": "s9",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "MRI or CT not done",
+            "type": "radio"
+          },
+          {
+            "conditionality": "s9 == 0",
+            "default": 0,
+            "label_en": "S1: Potentially causal",
+            "name": "s1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Lacunar infarction, defined as small deep infarct <15 mm in perforator branch territory on MRI-DWI or default CT in area corresponding to symptoms, plus ≥1 of the following: ≥1 small deep older infarct(s) of lacunar type in other territories; severe (confluent/Fazekas III) leukoaraiosis, or microbleeds, or severe dilatation of perivascular spaces (‘état criblé’); repeated, recent (<1 month), TIAs attributable to the same territory as the index infarct",
+            "type": "radio"
+          },
+          {
+            "conditionality": "s9 == 0",
+            "default": 0,
+            "label_en": "S2: Causal link uncertain",
+            "name": "s2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Only one recent lacunar infarction and no other abnormality on MRI/CT,  clinical syndrome suggestive of deep branch artery stroke, without ischemic lesion in appropriate area on MRI/CT (main clinical syndrome suggesting a deep branch artery/lacunar stroke: pure hemiparesis, pure hemisensory loss, ataxic hemiparesis, dysarthria-clumsy hand syndrome, unilateral sensorimotor deficit, others: hemichorea, hemiballism, pure dysarthria, etc) ",
+            "type": "radio"
+          },
+          {
+            "conditionality": "s9 == 0",
+            "default": 0,
+            "label_en": "S3: Causal link unlikely, but disease is present",
+            "name": "s3",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Severe (confluent/Fazekas III) leukoaraiosis visible on MRI and/or CT scan, and/or microbleeds visible on T2-weighted MRI, and/or severe dilatation of perivascular spaces (visible on T2-weighted MRI), and/or one or several old, small deep infarcts of lacunar type ",
+            "type": "radio"
+          },
+          {
+            "conditionality": "s9 == 0",
+            "default": 0,
+            "label_en": "S0: Small-vessel disease not detected",
+            "name": "s0",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Negative MRI (T2, FLAIR, GRE, DWI) and no clinical syndrome suggestive of deep branch artery stroke ",
+            "type": "radio"
+          },
+          {
+            "subheading": "C: Causality grades for cardiac pathology",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "C9: Incomplete workup",
+            "name": "c9",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Minimum is EKG and examination by trained cardiologist in absence of cardiac imaging",
+            "type": "radio"
+          },
+          {
+            "conditionality": "c9 == 0",
+            "default": 0,
+            "label_en": "C1: Potentially causal",
+            "name": "c1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Acute cardiogenic stroke, or recent stroke and older bihemispheric, supra/infratentorial territorial, or cortical ischemic lesions and signs of systemic embolism with ≥1 of the following: mitral stenosis (surface area <1.5 cm²), mechanical valve, MI within 4 weeks before stroke mural thrombus in the left cavities, left ventricular aneurysm, history or presence of documented afib (paroxysmal (>60 seconds), persistent, or permanent) or flutter, with or without left atrial thrombus or spontaneous echo, atrial disease (tachy-brady syndrome), dilated or hypertrophic cardiomyopathies, left ventricle ejection fraction <35%, endocarditis, intracardiac mass, <abbr title = \"Patent foramen ovale\">PFO</abbr> and thrombus in situ, PFO and concomitant PE or proximal DVT preceding the index stroke, aforementioned cardiac pathologies (C1) with single or without obvious cerebral ischemic lesion ",
+            "type": "radio"
+          },
+          {
+            "conditionality": "c9 == 0",
+            "default": 0,
+            "label_en": "C2: Causal link is uncertain (one of the following, regardless of stroke pattern)",
+            "name": "c2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "PFO and atrial septal aneurysm, PFO and PE or proximal DTV concomitant but NOT preceding the index stroke, intracardiac spontaneous echo-contrast, apical akinesia of the left ventricle and decreased ejection fraction (but >35%), history of MI or palpitation and multiple brain infarction, repeated either bilateral or in two different arterial territories (e.g. both anterior and posterior circulation), no direct cardiac source identified, but multiple brain infarction, repeated either bilateral or in two different arterial territories (e.g. both anterior and posterior circulation) and/or evidence of systemic emboli: renal or splenic or mesenteric infarction (on CT, MRI, or autopsy) or embolism in peripheral artery supplying arm or leg",
+            "type": "radio"
+          },
+          {
+            "conditionality": "c9 == 0",
+            "default": 0,
+            "label_en": "C3: Causal link unlikely but disease is present (one of the following abnormalities present in isolation)",
+            "name": "c3",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "PFO, <abbr title = \"Atrial septal aneurysm\">ASA</abbr>, strands, mitral annulus calcification, aortic valve calcification, nonapical akinesia of left ventricle, transient afib <60 sec, or atrial hyperexcitability  ",
+            "type": "radio"
+          },
+          {
+            "conditionality": "c9 == 0",
+            "default": 0,
+            "label_en": "C0: Cardiac pathology not detected or not suspected",
+            "name": "c0",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Ruling out a cardiac source of embolism: minimum is negative EKG and examination by a cardiologist; maximum is negative EKG/telemetry/24-hour Holter EKG/long-term EKG recording (implantable device, transtelephonic EKG, loop recorder), negative TEE for atrium, valves, and septal abnormalities, negative <abbr title=\"Transthoracic echocardiogram\">TTE</abbr> for PFO and assessment of left ventricle, negative cardiac CT/MRI, and negative abdominal CT/MRI (search for old or simultaneous subdiaphragmatic visceral infarction)",
+            "type": "radio"
+          },
+          {
+            "subheading": "O: Causality for other causes ",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "O9: Incomplete workup",
+            "name": "o9",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Unable to reasonably exclude other causes based on best available diagnostic tests and stroke-specific history ",
+            "type": "radio"
+          },
+          {
+            "conditionality": "o9 == 0",
+            "default": 0,
+            "label_en": "O1: Potentially causal",
+            "name": "o1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Dolichoectasia with complicated aneurysm, polycythemia vera or thrombocythemia >800,000/mm³, systemic lupus, disseminated intravascular coagulation, antiphospholipid antibody syndrome (including >100 <abbr title = \"IgG antiphospholipid units\">GPL units</abbr> or lupus anticoagulant), Fabry’s disease, coexisting meningitis, sickle cell disease, ruptured intracranial aneurysm with or without vasospasm of the artery supplying the infarcted area, severe hyperhomocysteinemia, Horton’s disease, other cerebral inflammatory or infectious angiitis, Moyamoya disease, etc.",
+            "type": "radio"
+          },
+          {
+            "conditionality": "o9 == 0",
+            "default": 0,
+            "label_en": "O2: Causal link is uncertain",
+            "name": "o2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Saccular aneurysm (with suspicion of embolism), coincidental migraine attack with neurological deficit lasting >60 min in patients with history of migraine aura ",
+            "type": "radio"
+          },
+          {
+            "conditionality": "o9 == 0",
+            "default": 0,
+            "label_en": "O3: Causal link is unlikely but disease is present",
+            "name": "o3",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Arteriovenous malformation, thrombocytosis <800,000/mm³ antiphospholipid antibody <100 GPL units, homocysteinemia <40 μmol/L, malignoma with associated hypercoagulation (high D-dimer levels), DVT/PE and/or recent chemotherapy",
+            "type": "radio"
+          },
+          {
+            "conditionality": "o9 == 0",
+            "default": 0,
+            "label_en": "O0: Cardiac pathology not detected or not suspected",
+            "name": "o0",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Ruling out other causes: negative: <abbr title = \"Cerebrospinal fluid\">CSF</abbr>, complete hemostasis, cerebral arterial imaging, family history of inherited disease, inflammatory markers (<abbr title = \"Erythrocyte sedimentation rate\">ESR</abbr> and <abbr title = \"C-reactive protein\">CRP</abbr>), hematologic tests (platelet, leukocytes, and eosinophilic counts; hematocrit), specific tests according to suspected disease (e.g. genetic test, retinal angiography for Susac syndrome)",
+            "type": "radio"
+          },
+          {
+            "subheading": "D: Causality grades for dissection",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "D9: Incomplete workup",
+            "name": "d9",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "In patients <60 years old and no evidence of A1, A2, S1, C1, or O1 category: no fat-saturated MRI performed on the extra/intracranial artery supplying the ischemic field or no x-ray angiography performed (all performed within 15 days of symptom onset)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "d9 == 0",
+            "default": 0,
+            "label_en": "D1: Potentially causal ",
+            "name": "d1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Arterial dissection by direct demonstration (evidence of mural hematoma: hypersignal on fat-saturated MRI or at autopsy or on TOF-MRA or CT on axial sections showing both enlargement of the arterial wall by the hematoma with narrowing of the lumen or on echography showing an hypoechoic arterial wall with narrowing of the lumen and sudden enlargement of the carotid or vertebral (V2) artery diameter, arterial dissection by indirect demonstration or by less sensitive/less specific diagnostic test (only long arterial stenosis beyond carotid bifurcation or in V2, V3, or V4 without demonstration of arterial wall hematoma: on x-ray angiography, and/or echography and/or CTA and/or MRA) or unequivocal US with recanalization during follow-up",
+            "type": "radio"
+          },
+          {
+            "conditionality": "d9 == 0",
+            "default": 0,
+            "label_en": "D2: Causal link uncertain",
+            "name": "d2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Arterial dissection by weak evidence (suggestive clinical history, e.g. painful Horner’s syndrome or past history of arterial dissection), imaging evidence of fibromuscular dysplasia of a cerebral artery supplying ischemic field ",
+            "type": "radio"
+          },
+          {
+            "conditionality": "d9 == 0",
+            "default": 0,
+            "label_en": "D3: Causal link unlikely but disease is present",
+            "name": "d3",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Kinking or dolichoectasia without complicated aneurysm or plicature, fibromuscular dysplasia on arteries not supplying ischemic field ",
+            "type": "radio"
+          },
+          {
+            "conditionality": "d9 == 0",
+            "default": 0,
+            "label_en": "D0: No dissection detected or suspected",
+            "name": "d0",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Ruling out dissection: negative fat-saturated MRI of suspected artery or good quality, normal x-ray angiography (too early fat-saturated MRI performed within three days of symptom onset can be falsely negative and then should be repeated). If no clinical suspicion of dissection, patient can be classified D0 provided good-quality extra/intracranial cerebral artery and cardiac evaluations have been done",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "added contributor",
+            "time": "2019-09-23T10:21:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added search term \"stroke risk\"",
+            "time": "2019-05-15T11:12:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-03-04T21:14:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-03-04T21:11:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-03-04T21:09:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-03-04T19:36:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-03-04T19:27:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-03-04T19:15:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-03-04T19:00:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added contributor content and edits",
+            "time": "2019-03-04T16:52:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-03-04T12:51:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-03-03T19:32:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-03-03T18:31:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-02-28T12:47:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-02-28T11:32:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited short title",
+            "time": "2019-02-11T11:26:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited search terms",
+            "time": "2019-02-08T18:21:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "alpha testing",
+            "time": "2019-02-08T18:20:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added creator",
+            "time": "2019-02-08T12:49:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-02-08T11:52:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "converted to radio buttons",
+            "time": "2019-02-08T11:24:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "manual delete",
+            "time": "2018-07-20T16:17:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "space2",
+            "time": "2018-07-20T16:15:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "space",
+            "time": "2018-07-20T14:41:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "save",
+            "time": "2018-07-03T15:49:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "save",
+            "time": "2018-06-27T14:01:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "ready for review",
+            "time": "2018-06-27T13:49:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "goback for commas",
+            "time": "2018-06-27T13:38:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "review",
+            "time": "2018-06-27T13:17:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "save",
+            "time": "2018-06-27T12:30:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "need inputs",
+            "time": "2018-06-21T11:42:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "claim to 10036",
+            "time": "2018-06-21T11:27:00.000Z",
+            "user": "natalie"
+          }
+        ],
+        "md5": "",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-1984779d-22f6-1296-4b89-d6d861d8920d\">Assigns phenotype in patients with ischemic stroke of uncertain causes.</span></p>",
+        "purpose_en": [
+          "Algorithm",
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "ESUS",
+          "ASCOD",
+          "TIA",
+          "stroke",
+          "ischemic stroke",
+          "cryptogenic stroke",
+          "stroke risk"
+        ],
+        "search_id": "c-10036",
+        "seo": {
+          "keywords_en": "ASCOD, cryptogenic stroke, ischemic stroke, stroke classification ",
+          "meta_description_en": "The ASCOD Algorithm for Cryptogenic Stroke assigns phenotype in patients with ischemic stroke of uncertain causes. "
+        },
+        "short_description_en": "Ischemic stroke phenotype.",
+        "short_title_en": "ASCOD Algorithm for Ischemic Stroke",
+        "slug": "ascod-algorithm-ischemic-stroke",
+        "specialty_en": [
+          "Cardiology",
+          "Critical Care (Neurologic)",
+          "Emergency Medicine",
+          "Family Practice",
+          "Internal Medicine",
+          "Neurology",
+          "Neurosurgery",
+          "Primary Care",
+          "Radiology"
+        ],
+        "system_en": [
+          "Neurologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Dixon",
+          "hasDisclosure": [],
+          "img": "https://cdn-web-img.mdcalc.com/people/fellows/dixon-yang.jpg",
+          "lastName": "Yang",
+          "name": "Dixon Yang, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "dixon-yang",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "Pierre Amarenco, MD, is a professor of neurology at Paris-Diderot Sorbonne University in Paris, France. He is also the chairman of the department of neurology and stroke center at the Bichat University Hospital in Paris, France. Dr. Amarenco's primary research is focused on prognosis and treatment of stroke.",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Pierre Amarenco",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-pierre-amarenco.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Amarenco+P%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10036/ascod-algorithm-ischemic-stroke",
+        "description": "The ASCOD Algorithm for Cryptogenic Stroke assigns phenotype in patients with ischemic stroke of uncertain causes. ",
+        "keywords": "ASCOD, cryptogenic stroke, ischemic stroke, stroke classification ",
+        "title": "ASCOD Algorithm for Ischemic Stroke"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 40,
+          "short_title_en": "CHADS<sub>2</sub> Score",
+          "slug": "chads2-score-atrial-fibrillation-stroke-risk"
+        },
+        {
+          "calcId": 10007,
+          "short_title_en": "ESUS Criteria",
+          "slug": "embolic-stroke-undetermined-source-esus-criteria"
+        },
+        {
+          "calcId": 3959,
+          "short_title_en": "LAMS",
+          "slug": "los-angeles-motor-scale-lams"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10036",
+      "ascod-algorithm-ischemic-stroke"
+    ]
+  },
+  "scriptLoader": []
+}

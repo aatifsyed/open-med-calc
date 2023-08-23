@@ -1,0 +1,848 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p>This score was updated to reflect new literature published in 2019 with subsequent validation in 2020. New and/or revised variables include hospitalizations in the last 6 months and eGFR/renal insufficiency. Other previously existing variables were also studied and modified as supported in literature. Please see references listed in&nbsp;<a href=\"#evidence\">Evidence</a> for further details.</p>",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Dizziness",
+          "Dyspnea",
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\"><span>The REVEAL Score is calculated by the addition of the selected points + 6:</span><b></b></p>\n<div dir=\"ltr\" align=\"left\">\n<table height=\"2480\" style=\"width: 92.32081911262799%; height: 1972px;\"><colgroup><col width=\"195\" style=\"width: 40.29574861367837%;\"><col width=\"143\" style=\"width: 35.304990757855826%;\"><col width=\"70\" style=\"width: 24.214417744916823%;\"></colgroup>\n<tbody>\n<tr style=\"height: 54px;\">\n<td colspan=\"2\" style=\"height: 54px;\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr style=\"height: 98px;\">\n<td rowspan=\"4\" style=\"height: 304px;\">\n<p dir=\"ltr\"><span>WHO group 1 subgroup</span></p>\n</td>\n<td style=\"height: 98px;\">\n<p dir=\"ltr\"><span>Associated PAH-connective tissue disease</span></p>\n</td>\n<td style=\"height: 98px;\">\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr style=\"height: 98px;\">\n<td style=\"height: 98px;\">\n<p dir=\"ltr\"><span>Associated PAH-portopulmonary hypertension</span></p>\n</td>\n<td style=\"height: 98px;\">\n<p dir=\"ltr\"><span>3</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>Familial PAH</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>Other</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td rowspan=\"2\" style=\"height: 108px;\">\n<p dir=\"ltr\"><span>eGFR &lt;60 mL/min/1.73 m</span><span>2 </span><span>or renal insufficiency (if eGFR is unavailable)</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>No</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>Yes</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td rowspan=\"2\" style=\"height: 108px;\"><br>\n<p dir=\"ltr\"><span>Male age &gt;60 years</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>No</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>Yes</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td rowspan=\"4\" style=\"height: 216px;\">\n<p dir=\"ltr\"><span>NYHA/WHO functional class</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>I</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>-1</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>II</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>III</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>IV</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td rowspan=\"2\" style=\"height: 108px;\">\n<p dir=\"ltr\"><span>Systolic BP, mmHg</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>&ge;110 mmHg</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>&lt;110 mmHg</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td rowspan=\"2\" style=\"height: 108px;\">\n<p dir=\"ltr\"><span>Heart rate, bpm</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>&le;96 bpm</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>&gt;96 bpm</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td rowspan=\"2\" style=\"height: 108px;\">\n<p dir=\"ltr\"><span>Any hospitalizations within 6 months (for any cause)</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>No</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>Yes</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td rowspan=\"4\" style=\"height: 216px;\">\n<p dir=\"ltr\"><span>6-minute walk test</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>&ge;</span><span>440 m</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>-2</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>320 to &lt;440 m</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>-1</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>165 to &lt;320 m</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>&lt;165 m</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td rowspan=\"4\" style=\"height: 216px;\">\n<p dir=\"ltr\"><span>BNP*, pg/mL</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>&lt;50 pg/mL</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>-2</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>50 to &lt;200 pg/mL</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>200 to &lt;800 pg/mL</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>&ge;800 pg/mL</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>2</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td rowspan=\"2\" style=\"height: 108px;\">\n<p dir=\"ltr\"><span>Pericardial effusion on echocardiogram</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>No</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>Yes</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td rowspan=\"2\" style=\"height: 108px;\">\n<p dir=\"ltr\"><span>DL</span><span>CO </span><span>on pulmonary function test</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>&ge;40%</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>&lt;40%</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr style=\"height: 48px;\">\n<td rowspan=\"2\" style=\"height: 102px;\">\n<p dir=\"ltr\"><span>Mean right atrial pressure &gt;20 mmHg within 1 year on right heart catheterization</span><span></span></p>\n</td>\n<td style=\"height: 48px;\">\n<p dir=\"ltr\">No</p>\n</td>\n<td style=\"height: 48px;\">\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\">Yes</p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>1</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td rowspan=\"2\" style=\"height: 108px;\">\n<p dir=\"ltr\"><span>Pulmonary vascular resistance &lt;5 Wood units on right heart catheterization</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>Yes</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>-1</span></p>\n</td>\n</tr>\n<tr style=\"height: 54px;\">\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>No</span></p>\n</td>\n<td style=\"height: 54px;\">\n<p dir=\"ltr\"><span>0</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\"><span>*If N-terminal proBNP is available and BNP is not, listed cut points can be replaced with &lt;300 pg/mL and &ge;1,100 pg/mL.</span></p>",
+            "more_info_en": "<p dir=\"ltr\"><span>Interpretation:</span><b></b></p>\n<div dir=\"ltr\" align=\"left\">\n<table style=\"width: 84.47098976109214%;\"><colgroup><col width=\"151\" style=\"width: 32.92929292929293%;\"><col width=\"126\" style=\"width: 32.12121212121212%;\"><col width=\"123\" style=\"width: 34.54545454545455%;\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>REVEAL Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk group</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Predicted 1-year survival</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>&le;6</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Low</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>&ge;94%</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>7-8</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>Intermediate</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>70% to &lt;94%</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span>&ge;9</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>High</span></p>\n</td>\n<td>\n<p dir=\"ltr\"><span>&lt;70%</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\"></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21680644",
+                  "text": "Benza RL, Gomberg-Maitland M, Miller DP, et al. The REVEAL Registry risk score calculator in patients newly diagnosed with pulmonary arterial hypertension. Chest. 2012;141(2):354-62."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/30772387/",
+                  "text": "Benza RL, Gomberg-Maitland M, Elliott CG, et al. Predicting survival in patients with pulmonary arterial hypertension: the reveal risk score calculator 2. 0 and comparison with esc/ers-based risk assessment strategies. Chest. 2019;156(2):323-337."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "http://erj.ersjournals.com/content/46/1/152",
+                  "text": "Sitbon O, Benza RL, Badesch DB, et al. Validation of two predictive models for survival in pulmonary arterial hypertension. Eur Respir J. 2015;46(1):152-64."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/29580746",
+                  "text": "Benza RL, Farber HW, Frost A, et al. REVEAL risk score in patients with chronic thromboembolic pulmonary hypertension receiving riociguat. J Heart Lung Transplant. 2018;37(7):836-843."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/31563497/",
+                  "text": "Anderson JJ, Lau EM, Lavender M, et al. Retrospective validation of the reveal 2.0 risk score with the australian and new zealand pulmonary hypertension registry cohort. Chest. 2020;157(1):162-172."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/35256218/",
+                  "text": "Benza RL, Farber HW, Frost AE, et al. Application of the REVEAL risk score calculator 2.0 in the CHEST study. Respir Med. 2022;195:106783."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/33744348/",
+                  "text": "Benza RL, Farber HW, Frost AE, et al. Application of the REVEAL risk score calculator 2.0 in the PATENT study. Int J Cardiol. 2021;332:189-192."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Raymond L. Benza",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the&nbsp;REVEAL Score for PAH and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a>&nbsp;our contributor team!</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the&nbsp;REVEAL Score for PAH and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a>&nbsp;our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": [],
+          "reviewers": []
+        },
+        "disease_en": [
+          "Heart Failure"
+        ],
+        "dosing": false,
+        "equation_logic": "f9277cac33ba99d4896b557a7475c5a3",
+        "equation_logic_text": "var calc_output = [];\n\nvar who = parseFloat(who);\nvar renal = parseFloat(renal);\nvar male = parseFloat(male);\nvar nyha = parseFloat(nyha);\nvar bp = parseFloat(bp);\nvar hr = parseFloat(hr);\nvar min = parseFloat(min);\nvar bnp = parseFloat(bnp);\nvar eff = parseFloat(eff);\nvar dl = parseFloat(dl);\nvar pressure = parseFloat(pressure);\nvar resistance = parseFloat(resistance);\nvar hosp = parseFloat(hosp);\n\nvar score = 6 + who + renal + male + nyha + bp + hr + min + bnp + eff + dl + pressure + resistance + hosp;\n\nvar group = ''\nvar survival = ''\n\nif (score <= 6) {\n  group = 'Low';\n  survival = '≥94';\n} else if (score <= 8) {\n  group = 'Intermediate';\n  survival = '70 to <94';\n} else {\n  group = 'High';\n  survival = '<70'\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: group,\n    value_text: 'risk',\n    message: survival + '% 1-year survival'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'REVEAL Score'\n});\ncalc_output.push({\n    name: 'Group',\n    value: group,\n    value_text: 'risk',\n    message: ''\n});\ncalc_output.push({\n    name: 'Survival',\n    value: survival,\n    value_text: '%',\n    message: 'Predicted 1-year survival'\n});",
+        "favorite_id": 10071,
+        "full_title_en": "REVEAL Registry Risk Score 2.0 for Pulmonary Arterial Hypertension (PAH)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p><abbr title=\"World Health Organization\">WHO</abbr> group 1 subgroup</p>",
+            "name": "who",
+            "optional": false,
+            "options": [
+              {
+                "label": "Associated PAH-portopulmonary hypertension",
+                "value": 3
+              },
+              {
+                "label": "Familial PAH",
+                "value": 2
+              },
+              {
+                "label": "Associated PAH-connective tissue disease",
+                "value": 1
+              },
+              {
+                "label": "Other",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>eGFR &lt;60 mL/min/1.73 m<sup>2&nbsp;</sup>or renal insufficiency</p>",
+            "name": "renal",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "(if eGFR is unavailable)",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Male age &gt;60 years</p>",
+            "name": "male",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p><abbr title=\"New York Heart Association\">NYHA</abbr>/<abbr title=\"World Health Organization\">WHO</abbr> functional class</p>",
+            "name": "nyha",
+            "optional": false,
+            "options": [
+              {
+                "label": "I",
+                "value": -1
+              },
+              {
+                "label": "II",
+                "value": 0
+              },
+              {
+                "label": "III",
+                "value": 1
+              },
+              {
+                "label": "IV",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Systolic BP, mmHg</p>",
+            "name": "bp",
+            "optional": false,
+            "options": [
+              {
+                "label": "≥110 mmHg",
+                "value": 0
+              },
+              {
+                "label": "<110 mmHg",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Heart rate, bpm</p>",
+            "name": "hr",
+            "optional": false,
+            "options": [
+              {
+                "label": "≤96 bpm",
+                "value": 0
+              },
+              {
+                "label": ">96 bpm",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p>Any hospitalizations within 6 months</p>",
+            "name": "hosp",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "(for any cause)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p><calculator id=\"3983\">6-minute walk test</calculator></p>",
+            "name": "min",
+            "optional": false,
+            "options": [
+              {
+                "label": "≥440 m",
+                "value": -2
+              },
+              {
+                "label": "320 to <440 m",
+                "value": -1
+              },
+              {
+                "label": "165 to <320 m",
+                "value": 0
+              },
+              {
+                "label": "<165 m",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p><abbr title=\"Brain natriuretic peptide\">BNP</abbr>, pg/mL</p>",
+            "name": "bnp",
+            "optional": false,
+            "options": [
+              {
+                "label": "<50 pg/mL",
+                "value": -2
+              },
+              {
+                "label": "50 to <200 pg/mL",
+                "value": 0
+              },
+              {
+                "label": "200 to <800 pg/mL",
+                "value": 1
+              },
+              {
+                "label": "≥800 pg/mL",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "If N-terminal proBNP is available and BNP is not, listed cut points can be replaced with <300 pg/mL and ≥1,100 pg/mL",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Pericardial effusion on echocardiogram</p>",
+            "name": "eff",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>DLCO on pulmonary function test</p>",
+            "name": "dl",
+            "optional": false,
+            "options": [
+              {
+                "label": "≥40%",
+                "value": 0
+              },
+              {
+                "label": "<40%",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Mean right atrial pressure &gt;20 mmHg within 1 year on right heart catheterization</p>",
+            "name": "pressure",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Pulmonary vascular resistance &lt;5 Wood units on right heart catheterization</p>",
+            "name": "resistance",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": -1
+              },
+              {
+                "label": "No",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": null,
+        "logs": [
+          {
+            "message": "claim calc id",
+            "time": "2018-8-2 10:28 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "built calc",
+            "time": "2018-8-2 11:01 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Added dummy text",
+            "time": "2018-8-2 11:28 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "equation logic added",
+            "time": "2018-8-2 12:37 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "equation logic",
+            "time": "2018-8-2 12:45 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2018-8-2 12:50 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugged",
+            "time": "2018-8-2 1:11 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "iOS issues",
+            "time": "2018-8-2 1:13 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "links to calc",
+            "time": "2018-8-2 2:55 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added abbreviations",
+            "time": "2018-8-2 3:03 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added result for 0",
+            "time": "2018-8-8 5:13 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-8-9 5:30 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "final edits",
+            "time": "2018-10-01 02:59 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "search terms",
+            "time": "2018-10-12 10:16 AM",
+            "user": "natalie"
+          }
+        ],
+        "md5": "33600a48ee9b16e60648a04f6522eb6a",
+        "medium_description_en": "<p>Predicts survival in patients with pulmonary arterial hypertension.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "REVEAL registry ",
+          "REVEAL score ",
+          "PAH",
+          "Pulmonary Arterial Hypertension",
+          "pulmonary hypertension",
+          "Arterial Hypertension"
+        ],
+        "search_id": "c-10071",
+        "seo": {
+          "keywords_en": "Registry to Evaluate Early and Long-term PAH Disease Management, survival in pulmonary arterial hypertension",
+          "meta_description_en": "The REVEAL Registry Risk Score for Pulmonary Arterial Hypertension (PAH) predicts survival in patients with pulmonary arterial hypertension."
+        },
+        "short_description_en": "<p>PAH survival.</p>",
+        "short_title_en": "REVEAL Score 2.0 for PAH",
+        "slug": "reveal-registry-risk-score-pulmonary-arterial-hypertension-pah",
+        "specialty_en": [
+          "Cardiology",
+          "Critical Care",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Pulmonology"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Respiratory",
+          "Vascular"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Raymond L. Benza, MD, is a professor of medicine at Temple University College of Medicine. He is also the James Magovern Chair of Cardiovascular Research and a member of the executive committee of the Allegheny Heart Institute at Allegheny General Hospital. Dr. Benza’s primary research is focused on advanced congestive heart failure, cardiac transplantation, and pulmonary arterial hypertension.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Raymond L. Benza",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-raymond-l-benza.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Benza+RL%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10071/reveal-registry-risk-score-pulmonary-arterial-hypertension-pah",
+        "description": "The REVEAL Registry Risk Score for Pulmonary Arterial Hypertension (PAH) predicts survival in patients with pulmonary arterial hypertension.",
+        "keywords": "Registry to Evaluate Early and Long-term PAH Disease Management, survival in pulmonary arterial hypertension",
+        "title": "REVEAL Registry Risk Score 2.0 for Pulmonary Arterial Hypertension (PAH)"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 4056,
+          "short_title_en": "AIS (Inhalation Injury)",
+          "slug": "abbreviated-injury-score-ais-inhalation-injury"
+        },
+        {
+          "calcId": 10465,
+          "short_title_en": "IMPROVE Bleeding Risk Score",
+          "slug": "improve-bleeding-risk-score"
+        },
+        {
+          "calcId": 4055,
+          "short_title_en": "RADS for Smoke Inhalation Injury",
+          "slug": "rads-radiologists-score-smoke-inhalation-injury"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10071",
+      "reveal-registry-risk-score-pulmonary-arterial-hypertension-pah"
+    ]
+  },
+  "scriptLoader": []
+}

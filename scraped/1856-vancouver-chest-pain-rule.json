@@ -1,0 +1,663 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+165",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+165",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "1856.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p><span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24626115\" target=\"_blank\" rel=\"noopener\">Scheuermeyer et al (2014)</a> derived the Vancouver Chest Pain Rule in a prospective cohort study of 763 ED patients at St. Paul&rsquo;s Hospital, an urban tertiary care center, and internally validated the rule in a prospective cohort of 906 ED patients at the same hospital. They included ED patients complaining of anterior or lateral chest pain who were suspected of possibly having ischemic chest pain. Patients were excluded for any of the following: age under 25 years old, traumatic etiology, radiologically evident alternate cause of chest pain, previous enrollment in past 30 days, terminal illness, or communication barriers. The primary outcome was the diagnosis of ACS defined as an acute myocardial infarction (AMI) or unstable angina (UA) within 30 days.</span></p>\n<p><span>EKGs were labeled as having ischemic factors if there were any of the following: ST elevation &gt;2 mm in two consecutive precordial leads or &gt;1mm in two consecutive limb leads, ST depression &gt;2 mm in V1/V2, ST depression &gt;0.5 mm or Q waves or T-wave inversions in 2 contiguous leads, left bundle branch block (LBBB), left ventricular hypertrophy (LVH), or a paced rhythm. Of note, &ldquo;ischemic EKG changes&rdquo; in this study are not the same as those in the American Heart Association (AHA) guidelines. The AHA uses 1 mm as the measurement cutoff for significant ST elevation, except in the anterior leads, which are age and sex-dependent. Also, the AHA does not consider a paced rhythm or the existence of a LBBB or LVH as a sign of acute ischemia.</span></p>\n<p><span>In the derivation cohort, 10.1% had an AMI and 11.5% had unstable angina. Based on the Vancouver Chest Pain Rule, no cases of ACS were missed, and 18.6% of patients without ACS would have been able to be discharged within 2 hours without the need for additional provocative testing, resulting in 100% sensitivity, 18.6% specificity, 100% negative predictive value, and 25.3% positive predictive value.</span></p>\n<p><span>In the internal validation cohort, 4.3% had an AMI and 8.8% had UA. The Vancouver Chest Pain Rule missed one case of unstable angina: a 48-year-old male who screened as low risk but was taken to the catheterization lab because of documented prehospital hypotension, and was found to have a 50% lesion to the left anterior descending coronary artery. Based on the validation cohort, the Vancouver Chest Pain Rule had 99.2% sensitivity, 23.4% specificity, NPV of 99.5%, and PPV of 16.4%.</span></p>\n<p><span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24238485\" target=\"_blank\" rel=\"noopener\">Cullen et al (2014)</a> externally validated the Vancouver Chest Pain Rule in a prospective cohort of 1,635 ED patients in Brisbane, Australia and Christchurch, New Zealand, comparing sensitive and highly-sensitive troponin assays. They included ED patients with &ge;5 minutes of suspected ischemic chest pain. Patients were excluded if there was a clear non-ACS etiology of chest pain, previous enrollment in past 45 days, terminal illness, unable/unwilling to consent, or pregnancy. All patients had troponins drawn on presentation and at &ge;6 hours. Blood was also drawn at 2 hours for the highly-sensitive troponin assay. Cullen et al looked at the same primary outcome of ACS, defined as AMI or UA, within 30 days. With the usual sensitive troponin assay, 20.4% had ACS, resulting in 98.8% sensitivity, 15.8% specificity, NPV of 98.1%, and PPV 23.2%. The Vancouver Chest Pain Rule using the usual sensitive troponin assay missed 4 cases of unstable angina. When the highly-sensitive troponin assay was used, 20.2% were identified with ACS, resulting in 99.1% sensitivity, 16.1% specificity, NPV 98.6%, and PPV 23.3%. The Vancouver Chest Pain Rule using the highly-sensitive troponin assay missed 3 cases of unstable angina. There was no statistically significant difference in the function of the Vancouver Chest Pain Rule between the use of the usual sensitive troponin versus the highly-sensitive troponin.</span></p>",
+            "formula_en": "<p><strong>Step-wise analysis of EKG, biomarker, history and physical exam; if all questions are answered &ldquo;No,&rdquo; the patient is low-risk by the Vancouver Chest Pain Rule. </strong></p>",
+            "more_info_en": "<p>Step 1: If no to all, move to Step 2. Otherwise proceed with standard chest pain evaluation:</p>\n<ul>\n<li>Abnormal initial EKG?</li>\n<li>Positive troponin at 2 hours?</li>\n<li>Prior ACS or nitrate use?</li>\n</ul>\n<p>Step 2: If yes, proceed to early discharge. If no, move to Step 3.</p>\n<ul>\n<li>Does palpation reproduce pain?</li>\n</ul>\n<p>Step 3: If no to all, proceed with early discharge. Otherwise proceed with standard chest pain evaluation.</p>\n<ul>\n<li>Age &ge;50?</li>\n<li>Does pain radiate to neck, jaw, or left arm</li>\n</ul>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24626115",
+                  "text": "Scheuermeyer FX, Wong H, Yu E, Boychuk B, Innes G, Grafstein E, Gin K, Christenson J. Development and validation of a prediction rule for early discharge of low-risk emergency department patients with potential ischemic chest pain. CJEM. 2014;16(2):106-119."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24238485",
+                  "text": "Cullen L, Greenslade JH, Than M, Brown AFT, Hammett CJ, Lamanna A, Flaws DF, Chu K, Fowles LF, Parsonage WA. The new Vancouver Chest Pain Rule using troponin as the only biomarker: an external validation study. Am J Emerg Med. 2014;32(2):129-34."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Hyunjoo Lee, MD",
+              "Carlos Rodriguez, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Frank Scheuermeyer",
+              "qa_en": "<dl><dt>Why did you develop the Vancouver Chest Pain Rule? Was there a clinical experience that inspired you to create this tool for clinicians? Was it directly related to the “old” Vancouver Chest Pain Rule that used older enzyme assays?</dt><dd>The Vancouver Chest Pain Rule (VCPR) was developed in response to work by Pope (<a href='http://www.ncbi.nlm.nih.gov/pubmed/10770981' target='_blank'>NEJM 2000</a>) and Christenson (<a href='http://www.ncbi.nlm.nih.gov/pubmed/15184334' target='_blank'>CMAJ 2004</a>) that demonstrated a 2 - 5% of emergency department patients with an acute coronary syndrome were inappropriately discharged with a minimizing diagnosis and no further follow-up. The initial VCPR decribed by Christenson (<a href='http://www.ncbi.nlm.nih.gov/pubmed/16387209' target='_blank'>Ann Emerg Med 2006</a>), which used creatinine kinase as a key decision point, was clinically appropriate, but the disuse of CK ensured that an additional rule had to be derived.</dd><dd>Overall, the declining prevalence of ACS in chest pain patients (likely due to better community control of risk factors such as cholesterol and hypertension), as well as the diversion of STEMI patients directly to the catheterization laboratory, ensures that emergency physicians will likely be faced with an increased proportion of low risk chest pain patients with clinically vague presentations. In these cases, a 2-hour risk stratification approach may be welcomed, since it can result in safe discharge of 20 - 40% of chest pain patients within 2 hours, rather than subjecting these patients to prolonged observation, repeated investigations, and potential hospital admissions.</dd><dt>What pearls, pitfalls and/or tips do you have for users of the Vancouver Chest Pain Rule? Are there cases in which it has been applied, interpreted, or used inappropriately?</dt><dd>Many clinicians will be tempted to use the VCPR in patients they have already decided are low-risk - for example, patients that are younger, have lower Framingham risk factors, etc. - but the rule is designed to perform in any ED patient with potential ischemic chest pain. It cannot be used to “rule-in” an ACS diagnosis, but works better as a “rule out” test. Rare but lethal causes of chest pain including aortic dissection, pneumothorax, and pericarditis, cannot reliably be identified with the VCPR.</dd><dt>A few questions about definitions: how are “prior ACS” or “nitrate use” defined. For the former, was this any anginal symptom in the past? For the latter, was this any prior prescription for nitrates?</dt><dd>Prior acute coronary syndrome was defined as a history of acute myocardial infarction or unstable angina, or prior percutaneous coronary intervention or coronary artery bypass grafting. Prior nitrate use (or any prior nitrate prescription) was a proxy marker for stable angina, since many patients could not remember they had angina, but patients COULD remember that they inhaled liquid from a reddish bottle that gave them a headache.</dd><dt>What recommendations do you have for health care providers once they have applied the Vancouver Chest Pain Rule? Are there any adjustments or updates you would make to the rule given recent changes in medicine?</dt><dd>One advantage of the VCPR is that no additional investigations are required - the patient does not need to be admitted for provocative testing, cardiac CT angiography, or echocardiography - and the patient can simply be discharged home. However, the use of rapid ED-based advance imaging may affect the VCPR. Currently, chest pain outcomes are typically studied until 30 days, but a normal cardiac CT, for instance, could provide reassurance that no ACS event is likely in the next several years.</dd><dt>Any other comments? Any new research or papers on this topic in the pipeline? Any thoughts on comparisons to other risk scores like the HEART or GRACE Scores?</dt><dd>Currently other scores like <calculator id='1752'>HEART</calculator> and <calculator id='1099'>GRACE</calculator> appear to be appropriate as well, although the variables in GRACE may be difficult to obtain in the ED. The team led by Drs Martin Than and Louise Cullen have a practical approach with the <calculator id='1857'>ADAPT</calculator> and <calculator id='1858'>EDACS</calculator>, which are other 2-hour ACS rule-out tests. These different techniques have so far not been compared to one another.</dd></dl>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>Original derivation study was&nbsp;intended to derive a prediction rule&nbsp;allowing for safe discharge of ED chest pain patients within 2 hours and without the need for further provocative testing.</li>\n<li>The original derivation study tested with troponin T, but an external validation study showed no difference in the performance of the rule with high-sensitivity troponin.</li>\n<li>The incidence of disease may be higher in the countries where the rule was developed and tested (Canada, Australia, New Zealand) compared to the United States.</li>\n<li>Primary outcome was diagnosis of ACS (acute MI or unstable angina) within 30 days. Acute MI was defined as positive troponin, EKG consistent with acute MI, or death without any other cause or event, and unstable angina was defined as coronary angiogram showing 70% lesion or revascularization with either percutaneous coronary intervention or coronary artery bypass grafting&rdquo;</li>\n<li>Adverse events include: tachycardia or bradycardia requiring medical intervention, respiratory failure requiring assisted ventilation, pulmonary embolism, aortic dissection or aneurysm, new congestive heart failure requiring intravenous medications, hypotension requiring vasoactive agents or an intra-aortic balloon pump, chest compressions, percutaneous coronary intervention, or coronary artery bypass grafting.</li>\n</ul>",
+            "use_case_en": "<ul>\n<li>Use in adult patients &ge;25 years old presenting to the ED with chest pain.</li>\n<li>Should not be used in patients with trauma or other radiographically-identified cause for chest pain such as pneumothorax, pleural effusion, and/or pneumonia.</li>\n<li>Should not be used in patients with any of the following findings on EKG: ST elevation, ST depression &gt;0.5mm, Q waves, left ventricular hypertrophy, paced rhythm, left bundle branch block.</li>\n</ul>",
+            "why_use_en": "<p>The Vancouver Chest Pain Rule identifies low-risk chest pain patients that can be safely discharged from the ED after the standard initial evaluation of history and physician exam, EKG, and one cardiac biomarker (normal sensitivity troponin).</p>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>Patients with an abnormal EKG, positive troponin at 2 hours, or history of prior ACS or nitrate use do not qualify for early discharge.</li>\n<li>Patients with a normal EKG, negative 2-hour troponin, no prior history of ACS or nitrate use, and reproducible pain to palpation can be discharged from the ED without further provocative testing.</li>\n<li>Patients with a normal EKG, negative 2-hour troponin, no prior history of ACS or nitrate use, with non-reproducible chest pain who are age &lt;50 years and have chest pain that does not radiate to the neck, jaw, or arm, can be discharged from the ED without further provocative testing.</li>\n</ul>",
+            "critical_actions_en": "<ul>\n<li>Low-risk patients can be considered for discharge from the&nbsp;ED without further provocative testing for ACS.</li>\n<li>Consider other etiologies of chest pain, including aortic, esophageal, pulmonary, cardiac, abdominal, and musculoskeletal sources.</li>\n<li>Patients who are not low risk should be managed as per usual chest pain protocols, including but not limited to consideration of aspirin, nitroglycerin, and serial EKGs and biomarkers.</li>\n</ul>",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 1856,
+                "createdAt": "2019-07-02T20:18:52.231Z",
+                "description": "Emergency Medicine Practice",
+                "id": 8,
+                "link": "http://www.ebmedicine.net/topics.php?paction=showTopicSeg&topic_id=545&seg_id=9279",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: Vancouver Chest Pain Rule",
+                "updatedAt": "2019-12-05T21:04:21.144Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Acute Coronary Syndrome",
+          "Myocardial Infarction"
+        ],
+        "dosing": false,
+        "equation_logic": "f462f40f141aeb2dc7739669551f2edf",
+        "equation_logic_text": "var calc_output = [];\nvar mini_msg = '';\nabnormal_ecg = parseFloat(abnormal_ecg);\ntroponin = parseFloat(troponin);\nacs_nitrate_use = parseFloat(acs_nitrate_use);\npalpation = parseFloat(palpation);\nage_50 = parseFloat(age_50);\npain_radiate = parseFloat(pain_radiate);\nvar u = 1;\nmsg = '';\nif (abnormal_ecg + troponin + acs_nitrate_use >= 1) {\n    mini_msg = 'Standard Evaluation';\n    msg = 'This patient is not a candidate for early discharge and should receive a standard chest pain evaluation.'\n} else {\n    if (palpation == 1) {\n        mini_msg = 'Low Risk. Step 3 Not Required.';\n        msg = 'If chest pain is reproducible in Step 2, this patient is at low risk for adverse event and is a candidate for early discharge, and does not require Step 3 questions.'\n    } else {\n        if (age_50 + pain_radiate <= 2) {\n            mini_msg = 'Standard evaluation';\n            msg = 'This patient is not a candidate for early discharge and should receive a standard chest pain evaluation.'\n        }\n        if (age_50 + pain_radiate == 0) {\n            mini_msg = 'Low risk';\n            msg = 'This patient is at low risk for adverse event and is a candidate for early discharge.'\n        }\n    }\n}\ncalc_output.push({\n    name: 'mini',\n    value: ' ',\n    value_text: ' ',\n    message: mini_msg\n});\ncalc_output.push({\n    name: 'Vancouver Chest Pain Rule',\n    value: mini_msg,\n    value_text: ' ',\n    message: msg\n});",
+        "favorite_id": 1856,
+        "full_title_en": "Vancouver Chest Pain Rule",
+        "input_schema": [
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Step One",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Abnormal initial EKG",
+            "md_calc_info_concept": null,
+            "name": "abnormal_ecg",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "ST elevation, ST depression >0.5mm, Q waves, LVH, paced rhythm, or LBBB",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Positive troponin at 2 hours",
+            "md_calc_info_concept": null,
+            "name": "troponin",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Prior ACS or nitrate use",
+            "md_calc_info_concept": null,
+            "name": "acs_nitrate_use",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Step Two",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Does palpation reproduce pain?",
+            "md_calc_info_concept": null,
+            "name": "palpation",
+            "option_fhir_rules": null,
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Step Three",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Age 50 and above?",
+            "md_calc_info_concept": null,
+            "name": "age_50",
+            "option_fhir_rules": null,
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Does pain radiate to neck, jaw, or left arm?",
+            "md_calc_info_concept": null,
+            "name": "pain_radiate",
+            "option_fhir_rules": null,
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "creator reviewed",
+            "time": "2019-12-05T16:04:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "edits to MI tah",
+            "time": "2019-06-19T10:09:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited EB Med link",
+            "time": "2018-09-14T10:19:00.000Z",
+            "user": "rachel"
+          }
+        ],
+        "md5": "8a195bfc71b1e39d24328d688edf13d3",
+        "medium_description_en": "<p>Identifies chest pain patients who are low risk and safe for early discharge.</p>",
+        "publishedAt": "2022-04-21T20:29:02.962Z",
+        "purpose_en": [
+          "Diagnosis",
+          "Rule Out"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "cp",
+          "acs",
+          "mi",
+          "rule-out",
+          "dc",
+          "stemi",
+          "nstemi",
+          "troponin"
+        ],
+        "search_id": "c-1856",
+        "seo": {
+          "keywords_en": "Vancouver chest pain rule, vancouver CP, vancouver rule, chest pain rule, low risk vancouver, chest pain low risk, early discharge chest pain, early discharge chest pain rule, early discharge vancouver, low risk CP, adverse event CP",
+          "meta_description_en": "The Vancouver Chest Pain Rule identifies chest pain patients who are at low risk for adverse event and are safe for early discharge."
+        },
+        "short_description_en": "<p>2-hour rule out for low risk chest pain.</p>",
+        "short_title_en": "Vancouver Chest Pain Rule",
+        "slug": "vancouver-chest-pain-rule",
+        "specialty_en": [
+          "Cardiology",
+          "Emergency Medicine"
+        ],
+        "system_en": [
+          "Cardiac"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "536da516-201b-455e-91e3-38a99a7cb6f8"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Carlos Rodriguez, MD, is a clinical assistant professor and assistant director of the medical education fellowship at the department of emergency medicine at Thomas Jefferson University Hospital in Philadelphia, PA. Originally from Puerto Rico, Dr. Rodriguez earned his medical degree from San Juan Bautista School of Medicine in Puerto Rico. He later completed his emergency medicine residency at Lincoln Hospital in New York and a medical education fellowship at Thomas Jefferson University Hospital. Currently, he is in the process of obtaining a masters of education in the health professions from Johns Hopkins University. His interests include graduate medical education and faculty development.</p>",
+          "firstName": "Carlos",
+          "hasDisclosure": [],
+          "img": "carlos-rodriguez.jpg",
+          "lastName": "Rodriguez",
+          "name": "Carlos Rodriguez, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "carlos-rodriguez",
+          "updatedAt": "2023-04-06T20:24:37.958Z"
+        },
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Hyunjoo Lee, MD, is a clinical assistant professor in emergency medicine at Stony Brook University Hospital. Born and raised in New York, she left New York for her undergraduate studies at Swarthmore College where she received a BA in Biology. She returned to New York and did research in B-cell biology and CLL before heading back to school to obtain her MD from Stony Brook University School of Medicine. She completed her emergency medicine residency at Mount Sinai Beth Israel in New York City and a medical education fellowship in the department of emergency medicine at Thomas Jefferson University in Philadelphia.</p>",
+          "firstName": "Hyunjoo",
+          "hasDisclosure": [],
+          "img": "hyunjoo-lee.jpg",
+          "lastName": "Lee",
+          "name": "Hyunjoo Lee, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "hyunjoo-lee",
+          "updatedAt": "2023-04-06T20:23:07.666Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Frank Xavier Scheuermeyer, MD, is an assistant professor of emergency medicine at the University of British Columbia in Vancouver, Canada. He also practices at St. Paul's and Mount St. Joseph's Hospital Emergency Departments. Dr. Scheuermeyer conducts research on atrial fibrillation and other cardiac emergencies.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Frank Scheuermeyer",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/default.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Scheuermeyer+FX%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/1856/vancouver-chest-pain-rule",
+        "description": "The Vancouver Chest Pain Rule identifies chest pain patients who are at low risk for adverse event and are safe for early discharge.",
+        "keywords": "Vancouver chest pain rule, vancouver CP, vancouver rule, chest pain rule, low risk vancouver, chest pain low risk, early discharge chest pain, early discharge chest pain rule, early discharge vancouver, low risk CP, adverse event CP",
+        "title": "Vancouver Chest Pain Rule"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 1752,
+          "short_title_en": "HEART Score",
+          "slug": "heart-score-major-cardiac-events"
+        },
+        {
+          "calcId": 1857,
+          "short_title_en": "ADAPT Protocol",
+          "slug": "adapt-protocol-cardiac-event-risk"
+        },
+        {
+          "calcId": 1858,
+          "short_title_en": "EDACS",
+          "slug": "emergency-department-assessment-chest-pain-score-edacs"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "1856",
+      "vancouver-chest-pain-rule"
+    ]
+  },
+  "scriptLoader": []
+}

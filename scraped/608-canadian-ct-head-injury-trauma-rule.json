@@ -1,0 +1,825 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Head Injury",
+          "Injury/Trauma"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "608.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16189364\" target=\"_blank\" rel=\"noopener\">Validation study</a> included a convenience sample of 2702 patients, aged 16 years or greater, who presented to 9 Canadian emergency departments with blunt head trauma resulting in witnessed loss of consciousness, disorientation, or definite amnesia and a <calculator id=\"64\">GCS</calculator> of 13 to 15.</li>\n<li>8.5% (231/2707) had a clinically important brain injury and 1.5% (41/2707) had an injury that required neurosurgical intervention.</li>\n<li>In the <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16189364\" target=\"_blank\" rel=\"noopener\">validation trial</a>, CCHR was <b>100%</b> sensitive for both clinically important brain injuries and injuries that required neurosurgical intervention and was 76.3% and 50.6% specific for these injuries respectively.</li>\n<li>Subsequent studies have all found the CCHR to be 100% for identifying injuries that require neurosurgical intervention.</li>\n<li>Applying the CCHR would allow physicians to safely reduce head CT imaging by around 30% (range 6-40% with most studies showing an estimated 30% reduction).</li>\n<li>In most studies 7-10% of patients had positive CT's, considered &ldquo;clinically important&rdquo; brain injuries. But typically &lt;2% require neurosurgical intervention. The &ldquo;High Risk Criteria&rdquo; have consistently shown 100% sensitivity at ruling out the latter group.</li>\n</ul>",
+            "formula_en": "",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/11356436",
+                  "text": "Stiell IG, Wells GA, Vandemheen K, Clement C, Lesiuk H, Laupacis A, McKnight RD, Verbeek R, Brison R, Cass D, Eisenhauer ME, Greenberg G, Worthington J. The Canadian CT Head Rule for patients with minor head injury. Lancet. 2001 May 5;357(9266):1391-6."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2950184/",
+                  "text": "Stiell IG, Clement CM, Grimshaw JM, et al. A prospective cluster-randomized trial to implement the Canadian CT Head Rule in emergency departments. CMAJ : Canadian Medical Association Journal. 2010;182(14):1527-1532. doi:10.1503/cmaj.091974."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/15208223",
+                  "text": "Boyle A, Santarius L, Maimaris C. Evaluation of the impact of the Canadian CT head rule on British practice. Emerg Med J. 2004 Jul;21(4):426-8."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16189365",
+                  "text": "Smits M, Dippel DW, de Haan GG, Dekker HM, Vos PE, Kool DR, Nederkoorn PJ, Hofman PA, Twijnstra A, Tanghe HL, Hunink MG.External validation of the Canadian CT Head Rule and the New Orleans Criteria for CT scanning in patients with minor head injury.JAMA. 2005 Sep 28;294(12):1519-25."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21818031",
+                  "text": "Harnan SE, Pickering A, Pandor A, Goodacre SW. Clinical decision rules for adults with minor head injury: a systematic review. J Trauma. 2011 Jul;71(1):245-51."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22251188",
+                  "text": "Papa L, Stiell IG, Clement CM, Pawlowicz A, Wolfram A, Braga C, Draviam S, Wells GA.Performance of the Canadian CT Head Rule and the New Orleans Criteria for predicting any traumatic intracranial injury on computed tomography in a United States Level I trauma center. Acad Emerg Med. 2012 Jan;19(1):2-10."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22921164",
+                  "text": "Bouida W, Marghli S, Souissi S, Ksibi H, Methammem M, Haguiga H, Khedher S, Boubaker H, Beltaief K, Grissa MH, Trimech MN, Kerkeni W, Chebili N, Halila I, Rejeb I, Boukef R, Rekik N, Bouhaja B, Letaief M, Nouira S. Prediction value of the Canadian CT head rule and the New Orleans criteria for positive head CT scan and acute neurosurgical procedures in minor head trauma: a multicenter external validation study. Ann Emerg Med. 2013 May;61(5):521-7."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24033617",
+                  "text": "Easter JS et al. Traumatic intracranial injury in intoxicated patients with minor head trauma. Acad Emerg Med. 2013 Aug;20(8):753-60."
+                },
+                {
+                  "href": "https://archinte.jamanetwork.com/article.aspx?articleid=1830019",
+                  "text": "Schuur JD, Carney DP, Lyn ET, et al. A Top-Five List for Emergency Medicine: A Pilot Project to Improve the Value of Emergency Care. JAMA Intern Med. 2014;174(4):509-515."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16189364",
+                  "text": "Stiell IG, Clement CM, Rowe BH, Schull MJ, Brison R, Cass D, Eisenhauer MA, McKnight RD, Bandiera G, Holroyd B, Lee JS, Dreyer J, Worthington JR, Reardon M, Greenberg G, Lesiuk H, MacPhail I, Wells GA. Comparison of the Canadian CT Head Rule and the New Orleans Criteria in patients with minor head injury. JAMA. 2005 Sep 28;294(12):1511-8."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Daniel Runde, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Ian Stiell",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>The Canadian CT Head Rule (CCHR) was developed to help physicians determine which minor head injury patients need head CT imaging.</p>\n<ul>\n<li>The original validation trial and multiple subsequent studies (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/11356436\" target=\"_blank\" rel=\"noopener\">Stiell 2001</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16189364\" target=\"_blank\" rel=\"noopener\">Stiell 2005</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2950184/\" target=\"_blank\" rel=\"noopener\">Stiell 2010</a>) each found the CCHR&rsquo;s High Risk Criteria to be 100% sensitive for injuries requiring neurosurgical intervention. It has an 87-100% sensitivity for detecting &ldquo;clinically important&rdquo; brain injuries that don&rsquo;t require neurosurgery.</li>\n<li>The rule excluded patients on oral anticoagulants and anti-platelet agents, so no data is available for these patients.</li>\n<li>Patients with minimal head injury (i.e., no history of loss of consciousness, amnesia, and confusion) generally do not need a CT scan. For example, patients over 65 years may not need a CT scan just based on their age if they do not have the history mentioned above. When a patient fails the CCHR, use clinical judgment on whether a CT scan is necessary.</li>\n<li><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/21818031\" target=\"_blank\" rel=\"noopener\">One study</a> found the CCHR the most consistent, validated, and effective clinical decision rule for minor head injury patients.</li>\n</ul>\n<p><strong>Points to keep in mind:</strong></p>\n<ul>\n<li>While there is only one US validation study for the CCHR, it was 100% sensitive for clinically important injuries and injuries requiring neurosurgery.</li>\n<li>A <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1726365/pdf/v021p00426.pdf\" target=\"_blank\" rel=\"noopener\">retrospective study in the United Kingdom</a> found that applying the CCHR would have actually resulted in an increase in the number of patients undergoing CT scan in that particular practice setting.</li>\n<li>There is debate about whether the goal should be to find all intracranial injuries or to find patient-important ones that would require neurosurgical intervention.</li>\n</ul>",
+            "use_case_en": "<ul>\n<li>The Canadian CT Head Rule is a well-validated clinical decision aid that allows physicians to safely rule out the presence of intracranial injuries that would require neurosurgical intervention without the need for CT imaging.</li>\n<li>The CCHR has been found to be 70% sensitive for &ldquo;clinically important&rdquo; brain injury in EtOH intox patients (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24033617\" target=\"_blank\" rel=\"noopener\">Easter 2013</a>).</li>\n</ul>",
+            "why_use_en": "<p>There are more than 8 million patients who present annually to US Emergency Departments for evaluation of head trauma. The vast majority of these patients have minor head trauma that will not require specialized or neurosurgical treatment. At the same time, rates of CT imaging of the head have more than doubled from the early 1990s through the 2000s.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>Consider obtaining a CT scan if any questions in the rule are answered affirmatively.</li>\n<li>This rule can only be applied to patients with LOC/Amnesia or changes in mental status.</li>\n<li>The original study did not include subjects &lt;16 years of age.</li>\n</ul>",
+            "critical_actions_en": "<p>The Canadian CT Head Rules have been validated in multiple settings and have consistently demonstrated that they are 100% sensitive for detecting injuries that will require neurosurgery.</p>\n<ul>\n<li>Depending on practice environment, it may not be considered acceptable to miss any intracranial injuries, regardless of whether they would have required intervention.</li>\n<li>Providers may want to consider applying the New Orleans Criteria (NOC) for head trauma, as there has been at least one trial finding it to be more sensitive for detecting clinically significant intracranial injuries (99.4% vs 87.3%). Though this comes at the price of markedly decreased specificity (5.6% vs. 39.7%).\n<ul>\n<li>Furthermore, there are other trials in which the CCHR was found to be more sensitive than the NOC for detecting clinically important brain injuries.</li>\n</ul>\n</li>\n</ul>",
+            "management_en": "<ul>\n<li>Remember to always discuss post-concussive symptoms and management with the patient, especially if discharging them without a head CT. Otherwise when they feel post-concussive symptoms they may worry a CT was necessary.</li>\n<li>By educating them on the symptoms of injuries that require neurosurgical intervention vs. post-concussive symptoms, the patient can feel empowered and reassured.</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [
+              {
+                "CalculatorId": 608,
+                "clinical": 5,
+                "createdAt": "2019-07-02T20:19:38.620Z",
+                "evidence": 5,
+                "id": 9,
+                "popularity": 5,
+                "updatedAt": "2019-07-02T20:19:38.620Z"
+              }
+            ],
+            "partner_contact": [
+              {
+                "CalculatorId": 608,
+                "createdAt": "2019-07-02T20:19:38.622Z",
+                "description": "Evidence-Based Urgent Care",
+                "id": 33,
+                "link": "https://www.ebmedicine.net/topics/trauma/closed-head-injury-urgent-care/calculators",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: Canadian CT Head Injury/Trauma Rule",
+                "updatedAt": "2019-11-07T15:23:23.816Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Trauma"
+        ],
+        "dosing": false,
+        "equation_logic": "25e0798d62ea471db4c3845f55554898",
+        "equation_logic_text": "var calc_output = []; \n\nvar msg, mini_msg, txt; \n\nif (age + blood + seizure > 0) {\n  mini_msg = 'Not eligible'\n  msg = 'Not eligible'\n  txt = 'Patient is not eligible for scoring because exclusion criteria met (see Instructions)'\n}\nelse {\nvar score = glasgow_coma_score + fracture + basilar_fracture + vomiting + age_65; \nvar score2 = amnesia + danger_mechanism; \n\n\nif (score2 > 0) {\n  mini_msg = 'Consider'; \n  msg = 'Consider CT'; \n  txt= 'The Canadian Head CT Rule suggests a head CT is necessary for this patient as they are at \\u201cmedium\\u201d risk to rule out an intracranial traumatic finding (sensitivity 83-100%).'\n} \nif (score > 0) {\n  mini_msg = 'Consider'; \n  msg = 'Consider CT'; \n  txt='The Canadian Head CT Rule cannot rule out need for imaging. Consider CT.'\n} if (score == 0 && score2 == 0) {\n  mini_msg = 'Unnecessary'; \n  msg = 'CT Unnecessary'; \n  txt='The Canadian Head CT Rule suggests a head CT is not necessary for this patient (sensitivity 83-100% for all intracranial traumatic findings, sensitivity 100% for findings requiring neurosurgical intervention).'} \n}\n\n  calc_output.push({\n    name: 'mini', \n    value: mini_msg, \n    value_text: ' ', \n    message: 'CT for Head Trauma.'\n  }); \n  calc_output.push({\n    name: '608_Canadian CT Head Rule_result', \n    value: msg, \n    value_text: ' ', \n    message: txt \n  });",
+        "favorite_id": 608,
+        "full_title_en": "Canadian CT Head Injury/Trauma Rule",
+        "input_schema": [
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "<u>Exclusion Criteria</u>: If any of the following are true, the CCHR does not apply",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Age <16 years",
+            "md_calc_info_concept": null,
+            "name": "age",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Patient on blood thinners",
+            "md_calc_info_concept": null,
+            "name": "blood",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Seizure after injury",
+            "md_calc_info_concept": null,
+            "name": "seizure",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": " No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "<u>High Risk Criteria</u>: Rules out need for neurosurgical intervention",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "age + blood + seizure == 0",
+            "default": 0,
+            "label_en": "GCS <15 at 2 hours post-injury",
+            "md_calc_info_concept": null,
+            "name": "glasgow_coma_score",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "age + blood + seizure == 0",
+            "default": 0,
+            "label_en": "Suspected open or depressed skull fracture",
+            "md_calc_info_concept": null,
+            "name": "fracture",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "age + blood + seizure == 0",
+            "default": 0,
+            "label_en": "Any sign of basilar skull fracture?",
+            "md_calc_info_concept": null,
+            "name": "basilar_fracture",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Hemotympanum, raccoon eyes, Battle’s Sign, CSF oto-/rhinorrhea",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "age + blood + seizure == 0",
+            "default": 0,
+            "label_en": "≥2 episodes of vomiting",
+            "md_calc_info_concept": null,
+            "name": "vomiting",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "age + blood + seizure == 0",
+            "default": 0,
+            "label_en": "Age ≥65 years",
+            "md_calc_info_concept": null,
+            "name": "age_65",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "<u>Medium Risk Criteria</u>: In addition to above, rules out “clinically important” brain injury (positive CT's that normally require admission)",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "age + blood + seizure == 0",
+            "default": 0,
+            "label_en": "Retrograde amnesia to the event ≥ 30 minutes",
+            "md_calc_info_concept": null,
+            "name": "amnesia",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "age + blood + seizure == 0",
+            "default": 0,
+            "label_en": "“Dangerous” mechanism?",
+            "md_calc_info_concept": null,
+            "name": "danger_mechanism",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Pedestrian struck by motor vehicle, occupant ejected from motor vehicle, or fall from >3 feet or >5 stairs.",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Only apply to patients with&nbsp;<calculator id=\"64\">Glasgow Coma Scale (GCS)</calculator> 13-15 and at least one of the following:</p>\n<ul>\n<li>Loss of consciousness.</li>\n<li>Amnesia to the head injury event.</li>\n<li>Witnessed disorientation.</li>\n</ul>\n<p>Exclusion criteria:</p>\n<ul>\n<li>Age &lt;16 years.</li>\n<li>Blood thinners.</li>\n<li>Seizure after injury.</li>\n</ul>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "eb med",
+            "time": "2019-11-07T10:23:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "removed parenthesis",
+            "time": "2019-09-05T17:31:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added search terms + Chief complaint",
+            "time": "2019-05-21T14:21:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "removed aspirin and antiplatelets ",
+            "time": "2018-11-24T15:41:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "revised inclusion criteria in Instructions",
+            "time": "2018-11-20T11:17:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added defaults for exclusion criteria",
+            "time": "2018-11-05T18:17:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "revised eq logic for exclusion criteria",
+            "time": "2018-10-22T14:09:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "edited eq logic for exclusion criteria",
+            "time": "2018-10-22T14:06:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added exclusion criteria",
+            "time": "2018-08-08T11:00:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added inputs for blood thinner for decision aid",
+            "time": "2018-07-30T14:20:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "revised Calculated Decisions URL (Partner Content)",
+            "time": "2018-05-17T11:45:00.000Z",
+            "user": "rachel"
+          }
+        ],
+        "md5": "63ea2fae71b6744f5df05d0f3428af51",
+        "medium_description_en": "<p>Clears head injury without imaging.</p>",
+        "publishedAt": "2022-04-21T20:29:44.147Z",
+        "purpose_en": [
+          "Algorithm",
+          "Diagnosis",
+          "Rule Out"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "trauma",
+          "cchr",
+          "injury",
+          "ct",
+          "head ct",
+          "Canadian CT Head Rule",
+          "Canadian CT Head Injury/Trauma Rule"
+        ],
+        "search_id": "c-608",
+        "seo": {
+          "keywords_en": "CT head, canadian CT head, head injury score, head trauma scale, canadian head injury, need CT for head injury, CT head rule, CT head calc, CT head score, head injury scan calc, head injury imaging, head injury imaging calc, head injury imaging score, canadian CT head score, r/o tbi, r/o CT scan need, r/o head CT, head CT scan rule, head CT score, canadian head rule, canadian head imaging score, Canadian CT Head Rule, Canadian CT Head Injury/Trauma Rule",
+          "meta_description_en": "The Canadian CT Head Injury/Trauma Rule clears head injury without imaging."
+        },
+        "short_description_en": "<p>Very sensitive, rules out imaging in many.</p>",
+        "short_title_en": "Canadian CT Head Rule",
+        "slug": "canadian-ct-head-injury-trauma-rule",
+        "specialty_en": [
+          "Emergency Medicine",
+          "Family Practice",
+          "Geriatrics",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Neurology",
+          "Primary Care",
+          "Surgery (General)",
+          "Surgery (Trauma)"
+        ],
+        "system_en": [
+          "Neurologic"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "0ac6038a-5318-4bac-9810-9b43f9ef27c6"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Daniel Runde, MD, is currently the assistant residency director and an assistant professor of emergency medicine at the University of Iowa Hospitals and Clinics. He received his medical degree at the University of Iowa Carver College of Medicine and completed residency in emergency medicine at St. Luke’s-Roosevelt Hospital Center in New York. He recently finished his Medical Education Fellowship at the department of emergency medicine at Harbor-UCLA. Dr. Runde is interested in evidence-based medicine with a focus on patient-important clinical outcomes, CT utilization in the emergency department and education and evaluation in medical education. Currently, he is in the process of obtaining a Masters in Medical Education through the Office of Consultation and Research in Medical Education at the University of Iowa Hospitals and Clinics.</p>",
+          "firstName": "Daniel",
+          "hasDisclosure": [],
+          "img": "daniel-runde.jpg",
+          "lastName": "Runde",
+          "name": "Daniel Runde, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "daniel-runde",
+          "updatedAt": "2023-04-06T20:24:46.787Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Ian Stiell, MD, MSc, FRCPC, is Professor and Chair, Department of Emergency Medicine, University of Ottawa; Distinguished Professor and University Health Research Chair, University of Ottawa; Senior Scientist, Ottawa Hospital Research Institute; and Emergency Physician, The Ottawa Hospital. He is internationally recognized for his research in emergency medicine with a focus on the development of clinical decision rules and the conduct of clinical trials involving acutely ill and injured patients treated by prehospital services and in emergency departments. He is best known for the development of the <calculator id='1670'>Ottawa Ankle Rule</calculator>, the <calculator id='696'>Canadian C-Spine Rule</calculator>, and <calculator id='608'>Canadian CT Head Rule</calculator> and as the Principal Investigator for the landmark OPALS Studies for prehospital care. Dr. Stiell is the Principal Investigator for 1 of 3 Canadian sites in the Resuscitation Outcomes Consortium (ROC) which is funded by CIHR, NIH, HSFC, AHA, and National Defence Canada. Dr. Stiell is a Member of the Institute of Medicine of the U.S. National Academies of Science.</p> <p>To read more about Dr. Stiell's work, visit his <a href='http://www.ohri.ca/profile/istiell/dr-ian-stiell-group' target='_blank'>website</a>.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Ian Stiell",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-ian-stiell.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Stiell+IG%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T15:54:34.492Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/608/canadian-ct-head-injury-trauma-rule",
+        "description": "The Canadian CT Head Injury/Trauma Rule clears head injury without imaging.",
+        "keywords": "CT head, canadian CT head, head injury score, head trauma scale, canadian head injury, need CT for head injury, CT head rule, CT head calc, CT head score, head injury scan calc, head injury imaging, head injury imaging calc, head injury imaging score, canadian CT head score, r/o tbi, r/o CT scan need, r/o head CT, head CT scan rule, head CT score, canadian head rule, canadian head imaging score, Canadian CT Head Rule, Canadian CT Head Injury/Trauma Rule",
+        "title": "Canadian CT Head Injury/Trauma Rule"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3952,
+          "short_title_en": "CHIP Prediction Rule",
+          "slug": "chip-ct-head-injury-patients-prediction-rule"
+        },
+        {
+          "calcId": 10423,
+          "short_title_en": "NEXUS Head CT Instrument",
+          "slug": "nexus-head-ct-instrument"
+        },
+        {
+          "calcId": 3954,
+          "short_title_en": "CATCH Rule",
+          "slug": "catch-canadian-assessment-tomography-childhood-head-injury-rule"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "608",
+      "canadian-ct-head-injury-trauma-rule"
+    ]
+  },
+  "scriptLoader": []
+}

@@ -1,0 +1,1036 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Agitation",
+          "Anxious",
+          "Depressed",
+          "Weight Loss/Gain"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+93",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+93",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "4058.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\">In a cross-sectional study of patients recruited from both a general population and of psychiatric outpatients with diagnoses of major depressive disorder or dysthymia, the sensitivity of the MADRS for detecting any depressive episode with a cutoff of ten points was found to be 0.95, with an AUC of 0.99 (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23541841\" target=\"_blank\">Schulte-van Maaren et al 2013</a>).</p>\n<p dir=\"ltr\">The MADRS was compared with the <calculator id=\"10043\">Hamilton Rating Scale for Depression (HAM-D)</calculator> against clinical assessments of depression. Correlation was 0.71 for the MADRS and 0.65 for the HAM-D (<a href=\"https://books.google.com/books/about/Measuring_Health.html?id=06t-63RaYk0C\" target=\"_blank\">McDowell 2006</a>).</p>\n<p dir=\"ltr\">In a cross-sectional study of patients with a diagnosis of Alzheimer dementia, the MADRS was found to have concurrent validity with the Cornell Scale for Depression in Dementia (CSDD), with a correlation coefficient of 0.74-0.93 (p &lt;0.0001) (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15708735\" target=\"_blank\">M&uuml;ller-Thomsen et al 2005</a>).</p>\n<p dir=\"ltr\">The correlation between the MADRS and Research Diagnostic Criteria (RDC) is 0.70, and the correlation between the MADRS and Inventory of Depressive Symptomatology-Clinician (IDS-C) is 0.81 (<a href=\"https://www.appi.org/Handbook_of_Psychiatric_Measures_Second_Edition\" target=\"_blank\">Montgomery and Asberg 2000</a>). The inter-rater reliability for the MADRS was found to be 0.89-0.97 (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/444788\" target=\"_blank\">Montgomery and Asberg 1979</a>).</p>\n<p dir=\"ltr\">Intraclass coefficients for the MADRS were 0.66-0.82, and a Pearson correlation coefficient between raters has been reported to be as high as 0.98 (<a href=\"https://books.google.com/books/about/Measuring_Health.html?id=06t-63RaYk0C\" target=\"_blank\">McDowell 2006</a>).</p>",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"151\" /><col width=\"186\" /><col width=\"66\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"7\">\n<p dir=\"ltr\"><strong>Apparent sadness</strong></p>\n<p dir=\"ltr\">(despondency, gloom, and despair (more than just ordinary transient low spirits), reflected in speech, facial expression, and posture; rate by depth and inability to brighten up)</p>\n</td>\n<td>\n<p dir=\"ltr\">No sadness</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Looks dispirited but brightens up without difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Appears sad and unhappy most of the time</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Looks miserable all the time; extremely despondent</p>\n</td>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"7\">\n<p dir=\"ltr\"><strong>Reported sadness</strong></p>\n<p dir=\"ltr\">(reports of depressed mood, regardless of whether it is reflected in appearance or not; includes low spirits, despondency, or the feeling of being beyond help and without hope)</p>\n</td>\n<td>\n<p dir=\"ltr\">Occasional sadness in keeping with circumstances</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Sad or low but brightens up without difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Pervasive feelings of sadness or gloominess; mood still influenced by external circumstances</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Continuous or unvarying sadness, misery, or despondency</p>\n</td>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"7\">\n<p dir=\"ltr\"><strong>Inner tension</strong></p>\n<p dir=\"ltr\">(feelings of ill-defined discomfort, edginess, inner turmoil, mental tension mounting to either panic, dread, or anguish; rate&nbsp;by intensity, frequency, duration, and extent of reassurance called for)</p>\n</td>\n<td>\n<p dir=\"ltr\">Placid; only fleeting inner tension</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Occasional feelings of edginess and ill-defined discomfort</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Continuous feelings of inner tension or intermittent panic which the patient can only master with some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unrelenting dread or anguish; overwhelming panic</p>\n</td>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"7\">\n<p dir=\"ltr\"><strong>Reduced sleep</strong></p>\n<p dir=\"ltr\">(experience of reduced duration or depth of sleep compared to the&nbsp;patient's own normal pattern when well)</p>\n</td>\n<td>\n<p dir=\"ltr\">Sleeps as normal</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Slight difficulty dropping off to sleep, or slightly reduced, light, or fitful sleep</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Sleep reduced or broken by at least two hours</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;2-3 hours of sleep</p>\n</td>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"7\">\n<p dir=\"ltr\"><strong>Reduced appetite</strong></p>\n<p dir=\"ltr\">(feeling of loss of appetite; rate by loss of desire for food or the need to force oneself to eat)</p>\n</td>\n<td>\n<p dir=\"ltr\">Normal or increased appetite</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Slightly reduced appetite</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No appetite; food is tasteless</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Needs persuasion to eat</p>\n</td>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"7\">\n<p dir=\"ltr\"><strong>Concentration difficulty</strong></p>\n<p dir=\"ltr\">(difficulties in collecting one&rsquo;s thoughts mounting to incapacitating lack of concentration; rate by intensity, frequency, and degree of incapacity produced)</p>\n</td>\n<td>\n<p dir=\"ltr\">No difficulties in concentrating</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Occasional difficulties in collecting one&rsquo;s thoughts</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Difficulties in concentrating and sustaining thought which reduces ability to read or hold a conversation</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable to read or converse without great initiative</p>\n</td>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"7\">\n<p dir=\"ltr\"><strong>Lassitude </strong></p>\n<p dir=\"ltr\">(difficulty getting started or slowness initiating and performing everyday activities)</p>\n</td>\n<td>\n<p dir=\"ltr\">Hardly any difficulty getting started in daily activities; no sluggishness</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Difficulty in starting activities</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Difficulty starting simple routine activities, which are carried out with effort</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Complete lassitude; unable to do anything without help</p>\n</td>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"7\">\n<p dir=\"ltr\"><strong>Inability to feel</strong></p>\n<p dir=\"ltr\">(subjective experience of reduced interest in the surroundings or activities that normally give pleasure; the ability to react with adequate emotion to circumstances or people is reduced)</p>\n</td>\n<td>\n<p dir=\"ltr\">Normal interest in surroundings/other people</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Reduced ability to enjoy usual interests</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Loss of interest in surroundings; loss of feelings for friends/acquaintances</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Emotionally paralyzed, unable to feel anger, grief, or pleasure; complete failure to feel for close relatives and friends</p>\n</td>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"7\">\n<p dir=\"ltr\"><strong>Pessimistic thoughts</strong></p>\n<p dir=\"ltr\">(thoughts of guilt, inferiority, self reproach, sinfulness, remorse, and ruin)</p>\n</td>\n<td>\n<p dir=\"ltr\">No pessimistic thoughts</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Fluctuating ideas of failure, self reproach, or self depreciation</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Persistent self accusations or definite but still rational ideas of guilt; increasingly pessimistic about the future</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Delusions of ruin, remorse, or irredeemable sin; absurd and unshakable self accusations</p>\n</td>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"7\">\n<p dir=\"ltr\"><strong>Suicidal thoughts</strong></p>\n<p dir=\"ltr\">(feeling that life is not worth living, that a natural death would be welcome, suicidal thoughts, and the preparations for suicide; suicidal attempts should not in themselves influence the rating)</p>\n</td>\n<td>\n<p dir=\"ltr\">Enjoys life</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Weary of life; only fleeting suicidal thoughts</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Feels better off dead; suicidal thoughts common and considered as possible solution but no specific plans/intention</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">(Worsening symptoms)</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Explicit plans for suicide</p>\n</td>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-4f21431c-7fff-2164-edf2-0b438b007afc\"><span id=\"docs-internal-guid-4f21431c-7fff-2164-edf2-0b438b007afc\">&nbsp;</p>",
+            "more_info_en": "<p>Interpretation:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>MADRS</strong></p>\n</td>\n<td>\n<p><strong>Depression severity</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>0-8</p>\n</td>\n<td>\n<p>Depressive symptoms absent</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>9-17</p>\n</td>\n<td>\n<p>Mild</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>18-34</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>35-60</p>\n</td>\n<td>\n<p>Severe</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>From <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/10967373\" target=\"_blank\">M&uuml;ller 2000</a>. Cutoffs vary by reference.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/444788",
+                  "text": "Montgomery SA, Åsberg M. A new depression scale designed to be sensitive to change. Br J Psychiatry. 1979;134:382-9."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/8675968 ",
+                  "text": "Galinowski A, Lehert P. Structural validity of MADRS during antidepressant treatment. Int Clin Psychopharmacol. 1995;10(3):157-61."
+                },
+                {
+                  "href": "https://www.appi.org/Handbook_of_Psychiatric_Measures_Second_Edition",
+                  "text": "Montgomery SA, Asberg M: Montgomery-Asberg depression rating scale, in Handbook of psychiatric measures. Washington, DC, APA, 2000, pp 531–33."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10967373 ",
+                  "text": "Müller MJ, Szegedi A, Wetzel H, Benkert O. Moderate and severe depression. Gradations for the Montgomery-Asberg Depression Rating Scale. J Affect Disord. 2000;60(2):137-40."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12185396 ",
+                  "text": "Bech P, Tanghøj P, Andersen HF, Overø K. Citalopram dose-response revisited using an alternative psychometric approach to evaluate clinical effects of four fixed citalopram doses compared to placebo in patients with major depression. Psychopharmacology (Berl). 2002;163(1):20-5."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/15708735",
+                  "text": "Müller-thomsen T, Arlt S, Mann U, Mass R, Ganzer S. Detecting depression in Alzheimer's disease: evaluation of four different scales. Arch Clin Neuropsychol. 2005;20(2):271-6."
+                },
+                {
+                  "href": "https://books.google.com/books/about/Measuring_Health.html?id=06t-63RaYk0C",
+                  "text": "McDowell, I. (2006). Measuring Health: A guide to rating scales and questionnaires 3rd Ed. New York: Oxford University Press."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23541841",
+                  "text": "Schulte-van maaren YW, Carlier IV, Zitman FG, et al. Reference values for major depression questionnaires: the Leiden Routine Outcome Monitoring Study. J Affect Disord. 2013;149(1-3):342-9."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Joshua Salvi, MD, PhD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Stuart Montgomery",
+              "qa_en": null
+            },
+            {
+              "approved": null,
+              "name": "Dr. Marie Åsberg",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-01350c45-7fff-87f9-9dc6-a67960d1be5e\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Unlike the <calculator id=\"10043\">Hamilton Rating Scale for Depression (HAM-D)</calculator>, does not assess sexual function, hypochondriasis, diurnal variation, or depersonalization, among others.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Not diagnostic for major depressive disorder; rather, can help stratify severity of depressive symptoms.</p>\n</li>\n</ul>",
+            "use_case_en": "<p>Adult patients with suspected depression.</p>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-cf9cb3d6-7fff-b581-658f-dd23b9903be2\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Highly sensitive (95% in cross-sectional studies in the general population), so may be helpful in ruling out depression (though not diagnostic of major depressive disorder).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Correlates well with other rating scales, such as the <calculator id=\"10043\">HAM-D</calculator>.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">High interrater reliability makes it useful in both clinical and research settings; can be used to stratify severity of depressive symptoms and for trending severity of a patient&rsquo;s depressive episode.</p>\n</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "",
+            "management_en": "<p>Always consider the patient&rsquo;s entire clinical picture when assessing a depressive episode, as this tool is not diagnostic for depression. It can supplement clinical assessment and assist in trending a patient&rsquo;s symptoms to determine therapeutic response.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Anxiety",
+          "Depression/Suicidality"
+        ],
+        "dosing": false,
+        "equation_logic": "658e5bec186d88b5cc32e78869bb541f",
+        "equation_logic_text": "var calc_output = [];\n\n       var apparent = parseFloat(apparent);\n       var reported = parseFloat(reported);\n       var tension = parseFloat(tension);\n       var sleep = parseFloat(sleep);\n       var appetite = parseFloat(appetite);\n       var concentration = parseFloat(concentration);\n       var lassitude = parseFloat(lassi);\n       var feel = parseFloat(feel);\n       var pessimistic = parseFloat(pessimistic);\n       var suicidal = parseFloat(suicidal);\n\n       var score = apparent + reported + tension + sleep + appetite + concentration + lassitude + feel + pessimistic + suicidal;\n       var msg;\n\n       if (score >= 0 && score <= 8) {\n           msg = 'Depressive symptoms absent';\n       }\n       if (score >= 9 && score <= 17) {\n           msg = 'Mild depression';\n       }\n       if (score >= 18 && score <= 34) {\n           msg = 'Moderate depression';\n       }\n       if (score >= 35 && score <= 60) {\n           msg = 'Severe depression';\n       }\n\ncalc_output.push({\n   name: 'mini',\n   value: score,\n   value_text: 'points',\n   message: msg\n});\ncalc_output.push({\n   name: 'MADRS',\n   value: score,\n   value_text: 'points',\n   message: msg\n});\n",
+        "favorite_id": 4058,
+        "full_title_en": "Montgomery-Asberg Depression Rating Scale (MADRS)",
+        "input_schema": [
+          {
+            "subheading": "Rate each of the following based on clinical interview with the patient:",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Apparent sadness",
+            "name": "apparent",
+            "optional": false,
+            "options": [
+              {
+                "label": "No sadness",
+                "value": 0
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 1
+              },
+              {
+                "label": "Looks dispirited but brightens up without difficulty",
+                "value": 2
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 3
+              },
+              {
+                "label": "Appears sad and unhappy most of the time",
+                "value": 4
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 5
+              },
+              {
+                "label": "Looks miserable all the time; extremely despondent",
+                "value": 6
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Despondency, gloom, and despair (more than just ordinary transient low spirits), reflected in speech, facial expression, and posture; rate by depth and inability to brighten up",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Reported sadness",
+            "name": "reported",
+            "optional": false,
+            "options": [
+              {
+                "label": "Occasional sadness in keeping with circumstances",
+                "value": 0
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 1
+              },
+              {
+                "label": "Sad or low but brightens up without difficulty",
+                "value": 2
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 3
+              },
+              {
+                "label": "Pervasive feelings of sadness or gloominess; mood still influenced by external circumstances",
+                "value": 4
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 5
+              },
+              {
+                "label": "Continuous or unvarying sadness, misery, or despondency",
+                "value": 6
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Reports of depressed mood, regardless of whether it is reflected in appearance or not; includes low spirits, despondency, or the feeling of being beyond help and without hope",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Inner tension",
+            "name": "tension",
+            "optional": false,
+            "options": [
+              {
+                "label": "Placid; only fleeting inner tension",
+                "value": 0
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 1
+              },
+              {
+                "label": "Occasional feelings of edginess and ill-defined discomfort",
+                "value": 2
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 3
+              },
+              {
+                "label": "Continuous feelings of inner tension or intermittent panic which the patient can only master with some difficulty",
+                "value": 4
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 5
+              },
+              {
+                "label": "Unrelenting dread or anguish; overwhelming panic",
+                "value": 6
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Feelings of ill-defined discomfort, edginess, inner turmoil, mental tension mounting to either panic, dread, or anguish; rate by intensity, frequency, duration, and extent of reassurance called for",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Reduced sleep",
+            "name": "sleep",
+            "optional": false,
+            "options": [
+              {
+                "label": "Sleeps as normal",
+                "value": 0
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 1
+              },
+              {
+                "label": "Slight difficulty dropping off to sleep, or slightly reduced, light, or fitful sleep",
+                "value": 2
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 3
+              },
+              {
+                "label": "Sleep reduced or broken by at least two hours",
+                "value": 4
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 5
+              },
+              {
+                "label": "<2-3 hours of sleep",
+                "value": 6
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Experience of reduced duration or depth of sleep compared to the patient's own normal pattern when well",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Reduced appetite",
+            "name": "appetite",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal or increased appetite",
+                "value": 0
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 1
+              },
+              {
+                "label": "Slightly reduced appetite",
+                "value": 2
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 3
+              },
+              {
+                "label": "No appetite; food is tasteless",
+                "value": 4
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 5
+              },
+              {
+                "label": "Needs persuasion to eat",
+                "value": 6
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Feeling of loss of appetite; rate by loss of desire for food or the need to force oneself to eat",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Concentration difficulty",
+            "name": "concentration",
+            "optional": false,
+            "options": [
+              {
+                "label": "No difficulties in concentrating",
+                "value": 0
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 1
+              },
+              {
+                "label": "Occasional difficulties in collecting one’s thoughts",
+                "value": 2
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 3
+              },
+              {
+                "label": "Difficulties in concentrating and sustaining thought which reduces ability to read or hold a conversation",
+                "value": 4
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 5
+              },
+              {
+                "label": "Unable to read or converse without great initiative",
+                "value": 6
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Difficulties in collecting one’s thoughts mounting to incapacitating lack of concentration; rate by intensity, frequency, and degree of incapacity produced",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Lassitude",
+            "name": "lassi",
+            "optional": false,
+            "options": [
+              {
+                "label": "Hardly any difficulty getting started in daily activities; no sluggishness",
+                "value": 0
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 1
+              },
+              {
+                "label": "Difficulty in starting activities",
+                "value": 2
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 3
+              },
+              {
+                "label": "Difficulty starting simple routine activities, which are carried out with effort",
+                "value": 4
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 5
+              },
+              {
+                "label": "Complete lassitude; unable to do anything without help",
+                "value": 6
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Difficulty getting started or slowness initiating and performing everyday activities",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Inability to feel",
+            "name": "feel",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal interest in surroundings/other people",
+                "value": 0
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 1
+              },
+              {
+                "label": "Reduced ability to enjoy usual interests",
+                "value": 2
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 3
+              },
+              {
+                "label": "Loss of interest in surroundings; loss of feelings for friends/acquaintances",
+                "value": 4
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 5
+              },
+              {
+                "label": "Emotionally paralyzed, unable to feel anger, grief, or pleasure; complete failure to feel for close relatives and friends",
+                "value": 6
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Subjective experience of reduced interest in the surroundings or activities that normally give pleasure; the ability to react with adequate emotion to circumstances or people is reduced",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Pessimistic thoughts",
+            "name": "pessimistic",
+            "optional": false,
+            "options": [
+              {
+                "label": "No pessimistic thoughts",
+                "value": 0
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 1
+              },
+              {
+                "label": "Fluctuating ideas of failure, self reproach, or self depreciation",
+                "value": 2
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 3
+              },
+              {
+                "label": "Persistent self accusations or definite but still rational ideas of guilt; increasingly pessimistic about the future",
+                "value": 4
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 5
+              },
+              {
+                "label": "Delusions of ruin, remorse, or irredeemable sin; absurd and unshakable self accusations",
+                "value": 6
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Thoughts of guilt, inferiority, self reproach, sinfulness, remorse, and ruin",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Suicidal thoughts",
+            "name": "suicidal",
+            "optional": false,
+            "options": [
+              {
+                "label": "Enjoys life",
+                "value": 0
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 1
+              },
+              {
+                "label": "Weary of life; only fleeting suicidal thoughts",
+                "value": 2
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 3
+              },
+              {
+                "label": "Feels better off dead; suicidal thoughts common and considered as possible solution but no specific plans/intention",
+                "value": 4
+              },
+              {
+                "label": "(Worsening symptoms)",
+                "value": 5
+              },
+              {
+                "label": "Explicit plans for suicide; active preparations",
+                "value": 6
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Feeling that life is not worth living, that a natural death would be welcome, suicidal thoughts, and the preparations for suicide; suicidal attempts should not in themselves influence the rating",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use in adults only (&ge;18 years). Rate based on&nbsp;clinical interview with the patient. Use clinical judgment to determine&nbsp;whether the rating lies on the defined scale steps (0, 2, 4, 6 points) or between them (1, 3, 5 points, denoted as \"(Worsening symptoms)\").</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited title",
+            "time": "2018-4-30 9:58 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "still trying to get this calc to show up",
+            "time": "2018-4-30 10:04 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "built calc",
+            "time": "2019-04-11 04:47 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited title",
+            "time": "2019-04-15 12:01 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added contributors",
+            "time": "2019-04-15 12:03 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited calc",
+            "time": "2019-04-15 12:48 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited creatoe",
+            "time": "2019-04-15 12:54 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited creator",
+            "time": "2019-04-15 12:55 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited title",
+            "time": "2019-04-15 12:58 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited title",
+            "time": "2019-04-15 01:16 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited title",
+            "time": "2019-04-15 01:17 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added link to ham d",
+            "time": "2019-04-15 01:52 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited tips/formula",
+            "time": "2019-04-16 11:16 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited tips",
+            "time": "2019-04-16 11:21 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-04-16 11:24 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-04-22 06:18 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-04-30 10:50 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-04-30 10:52 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "GW edit",
+            "time": "2019-05-02 12:33 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added specialties",
+            "time": "2019-05-02 05:05 PM",
+            "user": "rachel"
+          }
+        ],
+        "md5": "b9b9393413db56b616ed164f240f9069",
+        "medium_description_en": "<p>Stratifies severity of depressive episodes in adults.</p>",
+        "purpose_en": [
+          "Prognosis",
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "MADRS",
+          "Montgomery–Åsberg Depression Rating Scale",
+          "antidepressants",
+          "HAM-D",
+          "primary depressive illness",
+          "depression",
+          "major depressive disorder",
+          "major depression",
+          "depressive disorder",
+          "depression severity",
+          "depressive symptoms",
+          "depression rating",
+          "depression scale",
+          "diagnostic questionnaire"
+        ],
+        "search_id": "c-4058",
+        "seo": {
+          "keywords_en": "MADRS, Montgomery–Åsberg Depression Rating Scale, antidepressants, HAM-D, primary depressive illness, depression, major depressive disorder, major depression, depressive disorder, depression severity, depressive symptoms, depression rating, depression scale, diagnostic questionnaire",
+          "meta_description_en": "The Montgomery-Åsberg Depression Rating Scale stratifies severity of depressive episodes in adults."
+        },
+        "short_description_en": "Depression severity in adults.",
+        "short_title_en": "MADRS",
+        "slug": "montgomery-asberg-depression-rating-scale-madrs",
+        "specialty_en": [
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Psychiatry"
+        ],
+        "system_en": [
+          "Psychiatric"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Joshua",
+          "hasDisclosure": [],
+          "img": "https://cdn-web-img.mdcalc.com/people/fellows/josh-salvi.jpg",
+          "lastName": "Salvi",
+          "name": "Joshua Salvi, MD, PhD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "joshua-salvi",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Stuart Montgomery, BSC, MD, FRC Psych, is a retired psychiatrist. He was an emeritus professor of psychiatry at London University School of Medicine and served as president of the European College of Neuropsychopharmacology and the British Association of Psychopharmacology. Dr. Montgomery's research interests include depression, anxiety disorders, schizophrenia, and bipolar disorder.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Stuart Montgomery",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-stuart-montgomery.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Montgomery+SA%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "about_en": "<p>Marie Åsberg, MD, PhD, is a psychiatrist and professor in the department of clinical sciences at the Danderyd Hospital in Sweden. Dr. Åsberg’s primary research is focused on depression and suicide prevention.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Marie Åsberg",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-marie-asberg.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Asberg+M%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4058/montgomery-asberg-depression-rating-scale-madrs",
+        "description": "The Montgomery-Åsberg Depression Rating Scale stratifies severity of depressive episodes in adults.",
+        "keywords": "MADRS, Montgomery–Åsberg Depression Rating Scale, antidepressants, HAM-D, primary depressive illness, depression, major depressive disorder, major depression, depressive disorder, depression severity, depressive symptoms, depression rating, depression scale, diagnostic questionnaire",
+        "title": "Montgomery-Asberg Depression Rating Scale (MADRS)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10195,
+          "short_title_en": "DSM-5 Criteria for Major Depressive Disorder",
+          "slug": "dsm-5-criteria-major-depressive-disorder"
+        },
+        {
+          "calcId": 10043,
+          "short_title_en": "HAM-D",
+          "slug": "hamilton-depression-rating-scale-ham-d"
+        },
+        {
+          "calcId": 10466,
+          "short_title_en": "EPDS",
+          "slug": "edinburgh-postnatal-depression-scale-epds"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4058",
+      "montgomery-asberg-depression-rating-scale-madrs"
+    ]
+  },
+  "scriptLoader": []
+}

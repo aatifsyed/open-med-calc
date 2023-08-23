@@ -1,0 +1,569 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Back Pain",
+          "Fatigue",
+          "Joint Pain",
+          "Weight Loss/Gain"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\"><span>RFM = 64 &ndash; (20 x (height/waist)) + (12 x sex*)</span><b></b></p>\n<p dir=\"ltr\"><span>*sex = 0 for male, 1 for female</span></p>\n<p></p>",
+            "more_info_en": "<p>Obesity is defined as RFM &ge;33.9% for women and &ge;22.8% for men.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/30030479/",
+                  "text": "Woolcott OO, Bergman RN. Relative fat mass (Rfm) as a new estimator of whole-body fat percentage ─ A cross-sectional study in American adult individuals. Sci Rep. 2018;8(1):10980."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/33487268/",
+                  "text": "Corrêa CR, Formolo NPS, Dezanetti T, Speretta GFF, Nunes EA. Relative fat mass is a better tool to diagnose high adiposity when compared to body mass index in young male adults: A cross-section study. Clin Nutr ESPEN. 2021;41:225-233."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/31911664/",
+                  "text": "Woolcott OO, Bergman RN. Defining cutoffs to diagnose obesity using the relative fat mass (Rfm): Association with mortality in NHANES 1999-2014. Int J Obes (Lond). 2020;44(6):1301-1310."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/31649287/",
+                  "text": "Woolcott OO, Bergman RN. Relative Fat Mass as an estimator of whole-body fat percentage among children and adolescents: A cross-sectional study using NHANES. Sci Rep. 2019;9(1):15279."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/31891616/",
+                  "text": "Guzmán-León AE, Velarde AG, Vidal-Salas M, Urquijo-Ruiz LG, Caraveo-Gutiérrez LA, Valencia ME. External validation of the relative fat mass (Rfm) index in adults from north-west Mexico using different reference methods. PLoS One. 2019;14(12):e0226767."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Orison O. Woolcott",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p><span>Do you use Relative Fat Mass (RFM) and want to contribute your expertise?&nbsp;</span><a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a><span>&nbsp;our contributor team!</span></p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p><span>Do you use Relative Fat Mass (RFM) and want to contribute your expertise?&nbsp;</span><a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a><span>&nbsp;our contributor team!</span></p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Cancer",
+          "Coronary Artery Disease",
+          "Diabetes Mellitus",
+          "Hypertension",
+          "Obesity"
+        ],
+        "dosing": false,
+        "equation_logic": "35004d745cb6c1cf10126c6450111d10",
+        "equation_logic_text": "var calc_output = [];\n\nvar height = parseFloat(height);\nvar waist = parseFloat(waist);\nvar sex = parseFloat(sex);\n\nvar rfm = 64 - (20 * (height/waist)) + (12 * sex);\n\nvar c = 'Not obese';\nif (sex == 0 && rfm >= 22.8) {\n    c = 'Obese';\n}\nif (sex == 1 && rfm >= 33.9) {\n    c = 'Obese';\n}\n\ncalc_output.push({\n    name: 'mini',\n    value: rfm.toFixed(1),\n    value_text: '%',\n    message: 'Relative Fat Mass'\n});\ncalc_output.push({\n    name: 'RFM',\n    value: rfm.toFixed(1),\n    value_text: '%',\n    message: 'Relative Fat Mass'\n});\ncalc_output.push({\n    name: 'Class',\n    value: c,\n    value_text: '',\n    message: 'Classification'\n});",
+        "favorite_id": 10472,
+        "full_title_en": "Relative Fat Mass (RFM)",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Height</p>",
+            "name": "height",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "ht_adult"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Waist Circumference</p>",
+            "name": "waist",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "waist_circumference"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "<p>Sex</p>",
+            "mdcalc_info_concept": null,
+            "name": "sex",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Male",
+                "value": 0
+              },
+              {
+                "label": "Female",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use this tool to estimate body adiposity in adult patients &ge;20 years.</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "0b0ea2abdfd2af2a5a4b39a5f6eec01f",
+        "medium_description_en": "<p>Estimates whole body fat percentage among adults.</p>",
+        "publishedAt": "2023-04-06T17:49:45.171Z",
+        "purpose_en": [
+          "Calculation"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "Relative Fat Mass (RFM)",
+          "rfm",
+          "fat mass",
+          "body fat",
+          "body mass",
+          "obesity",
+          "relative mass",
+          "fat"
+        ],
+        "search_id": "c-10472",
+        "seo": {
+          "keywords_en": "Relative Fat Mass (RFM), rfm, fat mass, body fat, body mass, obesity, relative mass, fat, bmi, bsa, body mass index",
+          "meta_description_en": "The Relative Fat Mass (RFM) estimates whole body fat percentage among adults."
+        },
+        "short_description_en": "<p>Body fat estimation.</p>",
+        "short_title_en": "RFM",
+        "slug": "relative-fat-mass-rfm",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Endocrinology",
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Primary Care"
+        ],
+        "system_en": [
+          "Endocrine and Metabolic",
+          "Musculoskeletal"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "794d4e65-1480-439e-a9ea-e3f93cc7c4bc"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Orison O. Woolcott, MD, is a physiology and epidemiology researcher affiliated with the Ronin Institute in Montclair, NJ and the Institute for Globally Distributed Open Research and Education (IGDORE) in Sweden.&nbsp;He is also a senior editor of The Lancet Regional Health. Dr. Woolcott&rsquo;s primary research is focused on obesity and diabetes.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:833,&quot;3&quot;:{&quot;1&quot;:0},&quot;9&quot;:0,&quot;11&quot;:3,&quot;12&quot;:0}\">Orison O. Woolcott, MD, is a physiology and epidemiology researcher affiliated with the Ronin Institute in Montclair, NJ and the Institute for Globally Distributed Open Research and Education (IGDORE) in Sweden.&nbsp;He is also a senior editor of The Lancet Regional Health. Dr. Woolcott&rsquo;s primary research is focused on obesity and diabetes.</span></p>",
+          "createdAt": "2023-04-06T16:58:28.896Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Orison O. Woolcott",
+          "photo_en": "https://cdn-web-img.mdcalc.com/dr-orison-o-woolcott.jpeg",
+          "publishedAt": "2023-04-06T16:58:30.116Z",
+          "pubmedLink": "https://pubmed.ncbi.nlm.nih.gov/?term=woolcott+oo%5Bauthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2023-04-06T20:40:35.152Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10472/relative-fat-mass-rfm",
+        "description": "The Relative Fat Mass (RFM) estimates whole body fat percentage among adults.",
+        "keywords": "Relative Fat Mass (RFM), rfm, fat mass, body fat, body mass, obesity, relative mass, fat, bmi, bsa, body mass index",
+        "title": "Relative Fat Mass (RFM)"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "2.54",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 90,
+          "error_max_si": 228.6,
+          "error_max_us": 90,
+          "error_min": 48,
+          "error_min_si": 121.92,
+          "error_min_us": 48,
+          "name": "Height (Adult)",
+          "normal_max_si": 213,
+          "normal_max_us": 84,
+          "normal_min_si": 152,
+          "normal_min_us": 60,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "ht_adult",
+          "units_si": "cm",
+          "units_us": "in",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 80,
+          "warn_max_si": 203.2,
+          "warn_max_us": 80,
+          "warn_min": 48,
+          "warn_min_si": 121.92,
+          "warn_min_us": 48
+        },
+        {
+          "conversion": "2.54",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 150,
+          "error_max_si": 381,
+          "error_max_us": 150,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Waist Circumference",
+          "normal_max_si": 94,
+          "normal_max_us": 37,
+          "normal_min_si": 64,
+          "normal_min_us": 25,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "waist_circumference",
+          "units_si": "cm",
+          "units_us": "in",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 120,
+          "warn_max_si": 304.8,
+          "warn_max_us": 120,
+          "warn_min": 10,
+          "warn_min_si": 25.4,
+          "warn_min_us": 10
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 29,
+          "short_title_en": "BMI & BSA",
+          "slug": "body-mass-index-bmi-body-surface-area-bsa"
+        },
+        {
+          "calcId": 10108,
+          "short_title_en": "FIGO Staging for Ovarian Cancer",
+          "slug": "figo-staging-ovarian-cancer-2014"
+        },
+        {
+          "calcId": 3908,
+          "short_title_en": "RENAL Nephrometry Score",
+          "slug": "renal-nephrometry-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10472",
+      "relative-fat-mass-rfm"
+    ]
+  },
+  "scriptLoader": []
+}

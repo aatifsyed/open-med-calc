@@ -1,0 +1,619 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Jaundice"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p><img style=\"max-width: 100%;\" src=\"https://cdn-web-img.mdcalc.com/content/liver-decompensation.png\" alt=\"\"></p>\n<p>Portal hypertension = at least F1 esophageal varices (i.e., small and straight) on endoscopy OR platelets &lt;100,000/&mu;L with splenomegaly (&gt;12 cm diameter).</p>\n<p>Extension of hepatectomy: major resection = removal of &ge;3 adjacent segments.</p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"*\"><col width=\"*\"><col width=\"*\"><col width=\"*\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Risk Group</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Liver decompensation rate</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Median length of stay</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><b>Risk of mortality due to liver failure</b></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n<td>\n<p dir=\"ltr\">4.9%</p>\n</td>\n<td>\n<p dir=\"ltr\">7 days</p>\n</td>\n<td>\n<p dir=\"ltr\">4.4%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Intermediate</p>\n</td>\n<td>\n<p dir=\"ltr\">28.6%</p>\n</td>\n<td>\n<p dir=\"ltr\">8 days</p>\n</td>\n<td>\n<p dir=\"ltr\">9.0%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">High</p>\n</td>\n<td>\n<p dir=\"ltr\">60.0%</p>\n</td>\n<td>\n<p dir=\"ltr\">11 days</p>\n</td>\n<td>\n<p dir=\"ltr\">25.0%</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://jamanetwork.com/journals/jamasurgery/fullarticle/2526245?alert=article",
+                  "text": "Citterio D, Facciorusso A, Sposito C, Rota R, Bhoori S, Mazzaferro V. Hierarchic Interaction of Factors Associated With Liver Decompensation After Resection for Hepatocellular Carcinoma. JAMA Surg. 2016;151(9):846-53."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Vincenzo Mazzaferro",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the&nbsp;Liver Decompensation Risk Score&nbsp;and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a>&nbsp;our contributor team!</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the&nbsp;Liver Decompensation Risk Score&nbsp;and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a>&nbsp;our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Cirrhosis",
+          "Hepatocellular Carcinoma"
+        ],
+        "dosing": false,
+        "equation_logic": "ccf17c321b72d82793801ee6ebe432d5",
+        "equation_logic_text": "var calc_output = [];\n\nvar hypertension = parseFloat(hypertension)\nvar extension = parseFloat(extension)\nvar meld = parseFloat(meld)\n\nvar risk\nvar los\nvar mortality\nvar percent\n\nif (hypertension == 1) {\n   if (extension == 0) {\n\t\trisk = 'Intermediate'\n     \tlos = 'Median length of stay 8 days'\n     \tmortality = '9.0'\n     \tpercent = '28.6'\n   }\n\telse if (extension == 1) {\n\t\trisk = 'High'\n      \tlos = 'Median length of stay 11 days'\n      \tmortality = '25.0'\n     \tpercent = '60.0'\n   }\n}\nelse if (hypertension == 0 && extension == 1){\nrisk = 'Intermediate'\nlos = 'Median length of stay 8 days'\nmortality = '9.0'\npercent = '28.6'\n}\n\nelse if (hypertension == 0 && extension == 0) {\n\t\tif (meld == 0) {\n\t\trisk = 'Low'  \n        los = 'Median length of stay 7 days'\n        mortality = '4.4'\n     \tpercent = '4.9'\n   }\n\telse if (meld == 1) {\n\t\trisk = 'Intermediate'\n      \tlos = 'Median length of stay 8 days'\n      \tmortality = '9.0'\n     \tpercent = '28.6'\n   }\n}\n  \n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: risk,\n    value_text: '',\n    message:'Risk of liver decompensation'\n});\ncalc_output.push({\n    name: 'risk',\n    value: risk,\n    value_text: 'risk',\n    message: ''\n});\ncalc_output.push({\n    name: 'percent',\n    value: percent,\n    value_text: '%',\n    message: 'Rate of postop liver decompensation <br/><br/>' + los\n});\ncalc_output.push({\n    name: 'mortality',\n    value: mortality,\n    value_text: '%',\n    message: 'Risk of mortality due to liver failure'\n});\n",
+        "favorite_id": 10052,
+        "full_title_en": "Liver Decompensation Risk after Hepatectomy for Hepatocellular Carcinoma (HCC)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Portal hypertension",
+            "md_calc_info_concept": null,
+            "name": "hypertension",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "At least F1 esophageal varices (i.e., small and straight) on endoscopy OR platelets <100,000/μL with splenomegaly (>12 cm diameter)",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Extension of hepatectomy",
+            "mdcalc_info_concept": null,
+            "name": "extension",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Minor",
+                "value": 0
+              },
+              {
+                "label": "Major",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Major resection = removal of ≥3 adjacent segments",
+            "type": "radio"
+          },
+          {
+            "conditionality": "hypertension == 0 && extension == 0",
+            "default": null,
+            "label_en": "<calculator id=\"78\">MELD Score</calculator>",
+            "mdcalc_info_concept": null,
+            "name": "meld",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "≤9",
+                "value": 0
+              },
+              {
+                "label": ">9",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "Claiming calc id",
+            "time": "2018-7-11 9:54 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Built calc",
+            "time": "2018-7-11 10:28 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Equation logic added",
+            "time": "2018-7-11 10:45 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2018-7-13 2:03 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Edits from RK",
+            "time": "2018-7-13 2:17 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Edits",
+            "time": "2018-7-13 2:36 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2018-7-26 12:28 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2018-7-26 12:29 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits",
+            "time": "2018-7-26 12:31 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added image",
+            "time": "2018-8-9 5:12 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-12-07 02:51 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-12-07 02:57 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added hepatic",
+            "time": "2018-12-07 03:00 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-01-11 02:10 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2019-01-11 02:12 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "changed toggle to radia",
+            "time": "2019-01-11 02:12 PM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "3b86df7de062f0a89bf2580adc88e2b0",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-71c59796-899e-b7d6-fe35-932124eb5f77\">Predicts risk of liver decompensation after hepatectomy for hepatocellular carcinoma (HCC). </span></p>",
+        "publishedAt": "2022-04-21T20:28:11.467Z",
+        "purpose_en": [
+          "Algorithm",
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "Liver decompensation",
+          "hepatocellular carcinoma",
+          "hepatectomy",
+          "risk",
+          "liver risk",
+          "HCC"
+        ],
+        "search_id": "c-10052",
+        "seo": {
+          "keywords_en": "Liver decompensation, risk, hepatectomy, hepatocellular carcinoma",
+          "meta_description_en": "The Liver Decompensation Risk after Hepatectomy predicts risk of liver decompensation after hepatectomy for hepatocellular carcinoma."
+        },
+        "short_description_en": "<p>Post-hepatectomy decompensation.</p>",
+        "short_title_en": "Liver Decompensation Risk",
+        "slug": "liver-decompensation-risk-hepatectomy-hepatocellular-carcinoma-hcc",
+        "specialty_en": [
+          "Gastroenterology",
+          "Hematology and Oncology",
+          "Hepatology",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Gastrointestinal",
+          "Hepatic",
+          "Oncologic"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "41ffd0a1-1468-4e3a-9314-770e9520ef8e"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Vincenzo Mazzaferro, MD, is a professor of medicine and director of the Gastrointestinal and Hepato-Pancreatic Surgery and Liver Transplantation Unit at the Istituto Nazionale dei Tumori in Milan, Italy. He is an avid researcher of liver transplantation and studies treatment of metastatic cancers to the liver and novel treatments of tumors. Dr. Mazzaferro’s research group was responsible for the development of the Milan Criteria, which has been adopted as a transplant guideline in many countries. </p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Vincenzo Mazzaferro",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-vincenzo-mazzaferro.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Mazzaferro+V%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10052/liver-decompensation-risk-hepatectomy-hepatocellular-carcinoma-hcc",
+        "description": "The Liver Decompensation Risk after Hepatectomy predicts risk of liver decompensation after hepatectomy for hepatocellular carcinoma.",
+        "keywords": "Liver decompensation, risk, hepatectomy, hepatocellular carcinoma",
+        "title": "Liver Decompensation Risk after Hepatectomy for Hepatocellular Carcinoma (HCC)"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 78,
+          "short_title_en": "MELD Na (UNOS/OPTN)",
+          "slug": "meld-score-model-end-stage-liver-disease-12-older"
+        },
+        {
+          "calcId": 10031,
+          "short_title_en": "REACH-B Score",
+          "slug": "reach-b-score-hepatocellular-carcinoma-hcc"
+        },
+        {
+          "calcId": 10094,
+          "short_title_en": "GALAD Model for HCC",
+          "slug": "galad-model-hepatocellular-carcinoma-hcc"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10052",
+      "liver-decompensation-risk-hepatectomy-hepatocellular-carcinoma-hcc"
+    ]
+  },
+  "scriptLoader": []
+}

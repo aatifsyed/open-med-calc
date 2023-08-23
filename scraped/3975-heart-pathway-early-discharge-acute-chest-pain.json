@@ -1,0 +1,689 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "3975.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The HEART Pathway was developed by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25737484\" target=\"_blank\" rel=\"noopener\">Mahler et al</a> in 2015 in a randomized controlled single-center trial.</p>\n<ul>\n<li>Control arm was managed at the discretion of care providers encouraged to follow American College of Cardiology/American Heart Association guidelines for acute chest pain.</li>\n<li>The use of the HEART Pathway in this study was designed to mimic the real world in that it was used as an ADP. &nbsp;Patient care was at the discretion of the health care provider and not mandated by the outcome of the HEART Pathway.</li>\n<li><em>n </em>= 282, with 141 patients in each treatment group.</li>\n<li>Primary outcome: rate of objective cardiac testing (stress test, coronary CTA, or invasive coronary angiography) within 30 days of presentation.</li>\n<li>Secondary outcomes: early discharge rate, index length of stay, cardiac related recurrent ED visits, and non-index hospitalization at 30 days.</li>\n<li>The rate of objective cardiac testing in the HEART Pathway group was 12% less than the usual care group.</li>\n<li>The rate of early discharge in the HEART Pathway was 21% higher than the usual care group.</li>\n<li>The index length of stay was 12 hours shorter using the HEART Pathway.</li>\n<li>There was no significant difference between the two groups for cardiac related recurrent ED visits or non-index hospitalization at 30 days.</li>\n<li>No patients identified for early discharge in either group had missed MACE during the first 30 day follow up period.</li>\n<li>Study was not powered to adequately detect difference in major adverse cardiac event (MACE) between the two study groups.</li>\n</ul>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27765481\" target=\"_blank\" rel=\"noopener\">Riley et al in 2017</a> published a cost analysis of the HEART Pathway compared to usual care using the same dataset as the original HEART Pathway trial.</p>\n<ul>\n<li><em>n</em> = 270, missing billing data of 12 patients from the original study.</li>\n<li>Cost metrics considered in each group were index visit cost, total cost at 30 days, cardiac related health care cost at 30 days, cardiac and noncardiac diagnostic testing cost, ED cost, inpatient cost for index visit, and outpatient cost.</li>\n<li>HEART Pathway patients had a significantly lower mean and median cost for both index visit and 30 day follow up. &nbsp;</li>\n<li>There was not a significant difference in cost between the median and mean costs of the other metrics.</li>\n<li>Average savings per patient was $216 using the HEART Pathway. &nbsp;On a larger scale, this would mean approximately $2 billion in savings per year for undifferentiated chest pain.</li>\n</ul>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28087371\" target=\"_blank\" rel=\"noopener\">Mahler and colleagues (2017)</a> also published a secondary analysis looking at high sensitivity cardiac troponin (hs-cTnI and hs-cTnT).</p>\n<ul>\n<li>Compared risk stratification using cardiac troponin I (cTnI) vs. high sensitivity cardiac troponin (hs-cTnI and hs-cTnT) in calculating the HEART Pathway score.</li>\n<li><em>n </em>= 133, patients had blood samples sent for cTnI, hs-cTnI, and hs-cTnT.</li>\n<li>All of the troponin assays had poor sensitivity for predicting MACE when used separately from the HEART Score.</li>\n<li>There was no difference in the predicted risk of MACE between the use of serial cTnI and 3-hour hs-cTnI in the HEART Pathway.</li>\n<li>Using hs-cTnT in the HEART Pathway led one patient with an NSTEMI to be misclassified as low risk.</li>\n<li>The study found the HEART Pathway using serial cTnI or 3-hour hs-cTnI to have sensitivity and NPV of 100% for 30-day MACE.</li>\n<li>Although hs-cTnT use in the HEART Pathway caused an NSTEMI to be misclassified as low risk, the reduction in sensitivity was not statistically significant, given the small study population. The authors recommend further appropriately-powered studies to determine small differences in the accuracy of the high sensitivity troponin assays.</li>\n</ul>",
+            "formula_en": "<p>Addition of the selected points:</p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<td>&nbsp;</td>\n<td>\n<p><strong>0 points</strong></p>\n</td>\n<td>\n<p><strong>1 point</strong></p>\n</td>\n<td>\n<p><strong>2 points</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>History</strong><strong><sup>1</sup></strong></p>\n</td>\n<td>\n<p>Slightly suspicious</p>\n</td>\n<td>\n<p>Moderately suspicious</p>\n</td>\n<td>\n<p>Highly suspicious</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>EKG</strong></p>\n</td>\n<td>\n<p>Normal</p>\n</td>\n<td>\n<p>Non-specific repolarization disturbance<sup>2</sup></p>\n</td>\n<td>\n<p>Significant ST depression<sup>3</sup></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Age (years)</strong></p>\n</td>\n<td>\n<p>&lt;45</p>\n</td>\n<td>\n<p>45-64</p>\n</td>\n<td>\n<p>&ge;65</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Risk factors</strong><strong><sup>4</sup></strong></p>\n</td>\n<td>\n<p>No known risk factors</p>\n</td>\n<td>\n<p>1-2 risk factors</p>\n</td>\n<td>\n<p>&ge;3 risk factors or history of atherosclerotic disease</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Initial troponin</strong><strong><sup>5</sup></strong></p>\n</td>\n<td>\n<p>&le;normal limit</p>\n</td>\n<td>\n<p>1-3x normal limit</p>\n</td>\n<td>\n<p>&gt;3x normal limit</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<ol>\n<li>e.g. Retrosternal pain, pressure, radiation to jaw/left shoulder/arms, duration 5&ndash;15 min, initiated by exercise/cold/emotion, perspiration, nausea/vomiting, reaction on nitrates within mins, patient recognizes symptoms.&nbsp;Low risk features of chest pain include: well localized, sharp, non-exertional, no diaphoresis, no nausea or vomiting, and reproducible with palpation.</li>\n<li>LBBB, typical changes suggesting LVH, repolarization disorders suggesting digoxin, unchanged known repolarization disorders.</li>\n<li>Significant ST-segment depression or elevation without LBBB, LVH, or digoxin.</li>\n<li>HTN, hypercholesterolemia, DM, obesity (BMI &gt;30 kg/m&sup2;), smoking (current, or smoking cessation &le;3 mo), positive family history (parent or sibling with CVD before age 65).</li>\n<li>Use local assays and corresponding cutoffs.</li>\n</ol>",
+            "more_info_en": "<p>Interpretation:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>HEART Score</strong></p>\n</td>\n<td>\n<p><strong>Initial troponin</strong></p>\n</td>\n<td>\n<p><strong>Risk</strong></p>\n</td>\n<td>\n<p><strong>Recommendation</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p>&le;3</p>\n</td>\n<td>\n<p>0 points</p>\n</td>\n<td>\n<p>Low (0.9-1.7% 30-day MACE)</p>\n</td>\n<td>\n<p>Repeat troponin at 3 hours and if negative, discharge home with outpatient follow-up.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1-2 points</p>\n</td>\n<td>\n<p>High (12-65% 30-day MACE)</p>\n</td>\n<td>\n<p>Cardiology consultation and admission recommended. Further testing indicated.</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p>&ge;4</p>\n</td>\n<td>\n<p>0 points</p>\n</td>\n<td>\n<p>High (12-65% 30-day MACE)</p>\n</td>\n<td>\n<p>Admit to hospital or observation. Further testing indicated.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1-2 points</p>\n</td>\n<td>\n<p>High (12-65% 30-day MACE)</p>\n</td>\n<td>\n<p>Cardiology consultation and admission recommended. Further testing indicated.</p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25737484",
+                  "text": "Mahler SA, Riley RF, Hiestand BC, et al. The HEART Pathway randomized trial: identifying emergency department patients with acute chest pain for early discharge. Circ Cardiovasc Qual Outcomes. 2015;8(2):195-203."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://annals.org/aim/article/2622872/effect-using-heart-score-patients-chest-pain-emergency-department-stepped  ",
+                  "text": "Poldervaart JM, Reitsma JB, Backus BE, et al. Effect of Using the HEART Score in Patients With Chest Pain in the Emergency Department: A Stepped-Wedge, Cluster Randomized Trial. Ann Intern Med. 2017;"
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27765481 ",
+                  "text": "Riley RF, Miller CD, Russell GB, et al. Cost analysis of the History, ECG, Age, Risk factors, and initial Troponin (HEART) Pathway randomized control trial. Am J Emerg Med. 2017;35(1):77-81."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28087371 ",
+                  "text": "Mahler SA, Stopyra JP, Apple FS, et al. Use of the HEART Pathway with high sensitivity cardiac troponins: A secondary analysis. Clin Biochem. 2017;"
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Cullen Clark, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Simon A. Mahler",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>The HEART Pathway was designed to aid in efficiently evaluating patients with acute chest pain using the previously validated <calculator id=\"1752\">HEART Score</calculator>.</li>\n<li>Identifies patients who are safe for early discharge versus those who need observation, admission, and potentially emergent cardiology assessment.</li>\n<li>While patients with ischemic changes on EKG or elevated troponin may be classified as low risk using the HEART Pathway, the creators recommend <em>not </em>to rely on the HEART Pathway in cases like this. <strong>New elevations in troponin or EKG changes require further workup and should not be deemed low risk.</strong></li>\n<li>The creators of the HEART Pathway recommend <em>against</em> using this clinical decision tool in patients with known coronary artery disease as their disease state puts them at significant increased risk of ACS.</li>\n<li>Designed for patients presenting to the emergency department with chest pain; not tested in already-hospitalized patients with chest pain.</li>\n</ul>",
+            "use_case_en": "<p>Patients &ge;21 years old presenting in the emergency department with acute chest pain concerning for ACS.</p>",
+            "why_use_en": "<ul>\n<li>Chest pain is one of the most common and potentially life-threatening chief complaints in emergency medicine. Many patients presenting with chest pain undergo unnecessarily extensive and costly evaluations to rule out ACS. The HEART Pathway can reduce the number of prolonged and invasive evaluations while maintaining high sensitivity and negative predictive value for ACS.</li>\n<li>Unlike other scoring systems such as <calculator id=\"665\">TIMI Risk Index</calculator> or <calculator id=\"1099\">GRACE</calculator>, the HEART Pathway is designed to predict the likelihood of ACS in the patient presenting to the emergency department with acute chest pain. TIMI and GRACE are used to risk stratify patients who have been diagnosed with ACS.</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>The HEART Pathway is an accelerated diagnostic pathway (ADP). It is not designed to replace clinical judgment.</li>\n<li>Any patient with a concerning presentation or clinical progression should receive workup and treatment based on the clinician&rsquo;s discretion, regardless of the HEART Pathway&rsquo;s predicted risk.</li>\n<li>Shared decision making is a crucial part of further management after ACS risk has been determined, especially in patients with moderate risk who are recommended for observation and comprehensive cardiac evaluation. There is notable risk involved with hospitalization as well as risk of false-positive or non-diagnostic testing that would result in invasive procedures such as cardiac catheterization. The patient should be presented with the risk of both missed ACS and hospitalization for further workup. See the <a href=\"https://www.ahajournals.org/cms/asset/7fae345d-bb7b-4488-97a3-cfc8bc526bcf/hcq0031203820001.jpeg\" target=\"_blank\" rel=\"noopener\">Chest Pain Choice Decision Aid from Mayo Clinic</a> for risk-specific decision aids.</li>\n<li>Any patient presenting with chest pain and subsequently discharged should be informed that even with a negative workup, there is still a small risk of ACS. &nbsp;Patients should be set up with close follow-up and given extensive return precautions prior to discharge.</li>\n</ul>",
+            "critical_actions_en": "<ul>\n<li>Clinician judgment should prevail, even if patients are deemed low risk by the HEART Pathway. &nbsp;If there is some other cause for concern of acute cardiac event, workup should be individualized to the patient.</li>\n<li>All patients presenting to the ED with chest pain concerning for ACS should receive aspirin unless there is an absolute contraindication (known allergy, active bleeding, or the patient has received a therapeutic dose prior to arrival).</li>\n</ul>",
+            "management_en": "<ul>\n<li>Low risk patients with a follow-up troponin (at 3 hours) can be considered for safe discharge home with appropriate follow-up.</li>\n<li>High risk patients require admission, serial cardiac biomarkers and EKG, and cardiology consult.</li>\n</ul>\n<p><img style=\"max-width: 100%;\" src=\"https://cdn-web-img.mdcalc.com/content/heart-pathway-early-discharge-acute-chest-pain-visual.jpg\" alt=\"\"></p>\n<p>From <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25737484\" target=\"_blank\" rel=\"noopener\">Mahler 2015</a>.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 3975,
+                "createdAt": "2019-07-02T20:19:25.027Z",
+                "description": "Emergency Medicine Practice",
+                "id": 19,
+                "link": "https://www.ebmedicine.net/topics.php?paction=showTopicSeg&topic_id=545&seg_id=9279#heartpathway",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: HEART Pathway",
+                "updatedAt": "2020-02-12T21:13:27.943Z"
+              }
+            ],
+            "sdm_tool": [
+              {
+                "CalculatorId": 3975,
+                "createdAt": "2019-07-02T20:19:25.030Z",
+                "description": "Mayo Clinic",
+                "id": 3,
+                "link": "http://shareddecisions.mayoclinic.org/decision-aid-information/chest-pain-choice-decision-aid/",
+                "order": 0,
+                "text": "Chest Pain Choice Decision Aid",
+                "updatedAt": "2020-02-12T21:13:27.965Z"
+              }
+            ],
+            "teaching": [
+              {
+                "CalculatorId": 3975,
+                "createdAt": "2019-07-02T20:19:25.023Z",
+                "description": "The Skeptics’ Guide to EM",
+                "id": 8,
+                "link": "http://thesgem.com/2016/04/sgem151-groove-is-in-the-heart-pathway/",
+                "order": 1,
+                "text": "Groove is in the HEART Pathway",
+                "updatedAt": "2020-02-12T21:13:27.903Z"
+              },
+              {
+                "CalculatorId": 3975,
+                "createdAt": "2019-07-02T20:19:25.025Z",
+                "description": "EM One",
+                "id": 9,
+                "link": "https://emergencyone.me/2015/08/01/heart-pathway/",
+                "order": 2,
+                "text": "HEART PATHWAY for Cardiac Risk",
+                "updatedAt": "2020-02-12T21:13:27.923Z"
+              },
+              {
+                "CalculatorId": 3975,
+                "createdAt": "2019-07-02T20:19:25.021Z",
+                "description": "Dr. Simon A. Mahler, HEART Pathway Creator",
+                "id": 7,
+                "link": "https://www.aamc.org/download/370806/data/simonmahlerslides.pdf",
+                "order": 0,
+                "text": "The HEART Pathway: Bridging the Gap Between Operations, Research, and Education",
+                "updatedAt": "2020-02-12T21:13:27.881Z"
+              }
+            ],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Myocardial Infarction"
+        ],
+        "dosing": false,
+        "equation_logic": "66bd842c1fc761c8595b548a0d3a8653",
+        "equation_logic_text": "var calc_output = [];\n\n\n\n//addition of points\nvar v = parseInt(history) + parseInt(ekg) + parseInt(age) + parseInt(risk_factors) + parseInt(troponin);\n\n\n//interpretation\nvar risk, risk2, rec;\nif (v < 4) { \n\tif(troponin == 0){\n\t\trisk = 'Low';\n\t\trisk2 = '0.9-1.7% 30-day MACE';\n    \trec = 'Repeat troponin at 3 hours and if negative, discharge home with outpatient follow-up.'; \n    }else if(0 < troponin < 3){\n    \trisk = 'High';\n    \trisk2 = '12-65% 30-day MACE';\n    \trec = 'Cardiology consultation and admission recommended. Further testing indicated.';\n    }\n    \n}\nif (v > 3) { \n\trisk = 'High';\n    risk2 = '12-65% 30-day MACE';\n    if(troponin == 0){\n    \trec = 'Admit to hospital or observation. Further testing indicated.'; \n    }else if(0 < troponin < 3){\n    \trec = 'Cardiology consultation and admission recommended. Further testing indicated.';\n    }\n}\n\n\ncalc_output.push({ \n\tname: 'mini', \n\tvalue: risk, \n\tvalue_text: 'risk', \n\tmessage: risk2\n});\ncalc_output.push({ \n\tname: 'HEART Score', \n\tvalue: v, \n\tvalue_text: 'points', \n\tmessage: 'HEART Pathway Score'\n});\ncalc_output.push({ \n\tname: 'Risk', \n\tvalue: risk, \n\tvalue_text: 'risk', \n\tmessage: risk2 + '<br/><br/>' + rec\n});",
+        "favorite_id": 3975,
+        "full_title_en": "HEART Pathway for Early Discharge in Acute Chest Pain",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "History",
+            "mdcalc_info_concept": null,
+            "name": "history",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Slightly suspicious",
+                "value": 0
+              },
+              {
+                "label": "Moderately suspicious",
+                "value": 1
+              },
+              {
+                "label": "Highly suspicious",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "EKG",
+            "mdcalc_info_concept": null,
+            "name": "ekg",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal",
+                "value": 0
+              },
+              {
+                "label": "Non-specific repolarization disturbance",
+                "value": 1
+              },
+              {
+                "label": "Significant ST depression",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "1 point: No ST depression but LBBB, LVH, repolarization changes (ex: digoxin); 2 points: ST depression/elevation not due to LBBB, LVH, or digoxin",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Age",
+            "mdcalc_info_concept": null,
+            "name": "age",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "<45",
+                "value": 0
+              },
+              {
+                "label": "45-64",
+                "value": 1
+              },
+              {
+                "label": "≥65",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Risk factors",
+            "mdcalc_info_concept": null,
+            "name": "risk_factors",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No known risk factors",
+                "value": 0
+              },
+              {
+                "label": "1-2 risk factors",
+                "value": 1
+              },
+              {
+                "label": "≥3 risk factors or history of atherosclerotic disease",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Risk factors: HTN, hypercholesterolemia, DM, obesity (BMI >30 kg/m<sup>2</sup>), smoking (current, or smoking cessation ≤3 mo), positive family history (parent or sibling with CVD before age 65); atherosclerotic disease: prior MI, PCI/CABG, CVA/TIA, or peripheral arterial disease",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Initial troponin",
+            "mdcalc_info_concept": null,
+            "name": "troponin",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "≤normal limit",
+                "value": 0
+              },
+              {
+                "label": "1-3x normal limit",
+                "value": 1
+              },
+              {
+                "label": ">3x normal limit",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Use local assays and corresponding cutoffs",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use in patients &ge;21 years old presenting with symptoms suggestive of ACS. Do not use if new ST-segment elevation &ge;1 mm or other new EKG changes, hypotension, life expectancy less than 1 year, or noncardiac medical/surgical/psychiatric illness determined by the provider to require admission.</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited calc",
+            "time": "2020-02-12T16:13:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-02-12T16:06:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited calc",
+            "time": "2020-02-12T15:58:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "reverted",
+            "time": "2019-04-17T12:41:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added guidelines link",
+            "time": "2019-04-17T12:39:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added search terms",
+            "time": "2018-10-12T10:46:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited partner content",
+            "time": "2018-09-22T21:35:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "b6ce87cc576fa97df229de8379994280",
+        "medium_description_en": "<p>Identifies emergency department patients with acute chest pain for early discharge.</p>",
+        "publishedAt": "2022-04-21T20:29:31.874Z",
+        "purpose_en": [
+          "Diagnosis",
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "Heart",
+          "heart score",
+          "heart path",
+          "rule out"
+        ],
+        "search_id": "c-3975",
+        "seo": {
+          "keywords_en": "heart, heart score, heart path, rule out, HEART Pathway for Early Discharge in Acute Chest Pain, heart pathway",
+          "meta_description_en": "The HEART Pathway for Early Discharge in Acute Chest Pain identifies emergency department patients with acute chest pain for early discharge."
+        },
+        "short_description_en": "<p>Early discharge in acute chest pain.</p>",
+        "short_title_en": "HEART Pathway",
+        "slug": "heart-pathway-early-discharge-acute-chest-pain",
+        "specialty_en": [
+          "Cardiology",
+          "Emergency Medicine"
+        ],
+        "system_en": [
+          "Cardiac"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "6fec26af-467f-4e15-b6f8-45458bbf4110"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Cullen Clark, MD, is a combined emergency medicine/pediatrics resident at Louisiana State University Health Sciences Center in New Orleans. Originally from Louisville, Kentucky, Cullen is a graduate of the University of Louisville School of Medicine. His areas of interest include pediatric emergency medicine, pediatric critical care, pain management in the emergency department, and disaster medicine.</p>",
+          "firstName": "Cullen",
+          "hasDisclosure": [],
+          "img": "cullen-clark.jpg",
+          "lastName": "Clark",
+          "name": "Cullen Clark, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "cullen-clark",
+          "updatedAt": "2023-04-06T20:17:43.267Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Dr. Simon A. Mahler, MD, is an associate professor of emergency medicine at Wake Forest Baptist Health in Winston-Salem, North Carolina. He is board certified in emergency medicine and is also the chief medical officer of Decision Point Informatics, LLC. Dr. Mahler’s research interests include decision support in chest pain patients presenting to the emergency department.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Simon A. Mahler",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-simon-a-mahler.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Mahler+SA%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T17:39:37.095Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3975/heart-pathway-early-discharge-acute-chest-pain",
+        "description": "The HEART Pathway for Early Discharge in Acute Chest Pain identifies emergency department patients with acute chest pain for early discharge.",
+        "keywords": "heart, heart score, heart path, rule out, HEART Pathway for Early Discharge in Acute Chest Pain, heart pathway",
+        "title": "HEART Pathway for Early Discharge in Acute Chest Pain"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 1752,
+          "short_title_en": "HEART Score",
+          "slug": "heart-score-major-cardiac-events"
+        },
+        {
+          "calcId": 665,
+          "short_title_en": "TIMI Risk Index",
+          "slug": "timi-risk-index"
+        },
+        {
+          "calcId": 10471,
+          "short_title_en": "Thakar Score",
+          "slug": "acute-renal-failure-cardiac-surgery-thakar-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3975",
+      "heart-pathway-early-discharge-acute-chest-pain"
+    ]
+  },
+  "scriptLoader": []
+}

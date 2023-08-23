@@ -1,0 +1,759 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p>This calculator includes inputs based on race, which may or may not provide better estimates; this calculator can be run with Race as &ldquo;Unknown,&rdquo; but users should know this defaults to the &ldquo;White&rdquo; option. Our evidence section reviews some of the issues with Race in this model.&nbsp;<a href=\"https://www.mdcalc.com/race\" rel=\"noopener noreferrer\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?q=https://www.mdcalc.com/race&amp;source=gmail&amp;ust=1632945061987000&amp;usg=AFQjCNFHRRxG7_ZvVdEhZIQz2LsJKodMKw\">See here</a> for more on our approach to addressing race and bias on MDCalc.</p>",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Weight Loss/Gain"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "3647.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul> <li>The <a href='http://www.ncbi.nlm.nih.gov/pubmed/2593165?dopt=Abstract' target='_blank'>original Gail model</a> (also known as Gail model 1) was developed in 1989 using data derived from a subset of the Breast Cancer Detection Demonstration Project, a breast cancer screening program that ran from 1973 to 1980, and was initially designed to predict the risk of developing invasive cancer or carcinoma in situ.</li> <li>The Gail model was modified by statisticians (also known as Gail model 2) in order to predict the risk of invasive cancer specifically, and the modified version is the basis for the model that is widely used today.</li> <li>Both models were <a href='http://www.ncbi.nlm.nih.gov/pubmed/10491430?dopt=Abstract' target='_blank'>validated</a> in 1999 for the National Surgical Adjuvant Breast and Bowel Project (NSABP) using data from the Breast Cancer Prevention Trial, based on data from 5,969 white women age 35 and older.</li> <li>Gail and colleagues carried out a <a href='https://www.ncbi.nlm.nih.gov/pubmed/18042936' target='_blank'>case-control study</a> in 2007 looking specifically at risk for black women, and found that the original model underestimated the risk in this population. They developed a model based on data from 1,607 black women with invasive breast cancer and 1,647 without in the Women's Contraceptive and Reproductive Experiences (CARE) Study and found that 30.3% of black women had elevated risk (using a cutoff of 1.66% for 5-year risk), compared with 14.5% as estimated by the previous tool. The Gail model now incorporates these findings to estimate risk for black women.</li> <li>Similarly, they developed a <a href='https://www.ncbi.nlm.nih.gov/pubmed/21562243' target='_blank' data-saferedirecturl='https://www.google.com/url?hl=en&amp;q=https://www.ncbi.nlm.nih.gov/pubmed/21562243>model</a> specific for Asian and Pacific Islander American women, looking at 589 cases and 952 controls in the Asian American Breast Cancer Study, and calibrated their model using data from the Women's Health Initiative (WHI). They found that the previous Gail model tended to <i>over</i>estimate risk in this population. The Gail model now incorporates these findings to estimate risk for Asian and Pacific Islander American women.</li> <li>With regard to newer models, <a href='http://www.ncbi.nlm.nih.gov/pubmed/14627668' target='_blank'>Amir and colleagues</a> compared four different breast cancer risk assessment models in 1,933 patients and found that the Tyrer-Cuzick model was superior (the Gail model, Claus model, and BRCAPRO all underestimated risk).</li> </ul>",
+            "formula_en": "",
+            "more_info_en": "<ul> <li>The Gail Model is one of the oldest risk models—originally published in 1989—and well validated.</li> <li>These parameters were used as criteria for the National Surgical Adjuvant Breast and Bowel Project (NSABP) prevention trials to identify patients with increased risk of breast cancer (5 year risk of &gt;1.7%).</li> <li>Lifetime risk estimates assume a life expectancy of 90 years.</li> </ul>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/2593165?dopt=Abstract",
+                  "text": "Gail MH, Brinton LA, Byar DP, Corle DK, Green SB, Shairer C, Mulvihill JJ: Projecting individualized probabilities of developing breast cancer for white females who are being examined annually. J Natl Cancer Inst 81(24):1879-86, 1989"
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10547390",
+                  "text": "Gail MH, Costantino JP, Bryant J, Croyle R, Freedman L, Helzlsouer K, Vogel V: Weighing the risks and benefits of tamoxifen treatment for preventing breast cancer. J Natl Cancer Inst 91(21):1829-46, 1999."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=11238697&query_hl=7&itool=pubmed_docsum",
+                  "text": "Rockhill B, Spiegelman D, Byrne C, Hunter DJ, Colditz GA: Validation of the Gail et al. model of breast cancer risk prediction and implications for chemoprevention. J Natl Cancer Inst 93(5):358-66, 2001."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/18042936",
+                  "text": "Gail MH, Costantino JP, Pee D, Bondy M, Newman L, Selvan M, Anderson GL, Malone KE, Marchbanks PA, McCaskill-Stevens W, Norman SA, Simon MS, Spirtas R, Ursin G, and Bernstein L. Projecting Individualized Absolute Invasive Breast Cancer Risk in African American Women. J Natl Cancer Inst 99(23):1782-1792, 2007."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/21562243",
+                  "text": "Matsuno RK, Costantino JP, Ziegler RG, Anderson GL, Li H, Pee D, Gail MH. Projecting Individualized Absolute Invasive Breast Cancer Risk in Asian and Pacific Island American Women. J Natl Cancer Inst 2011."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/14627668 ",
+                  "text": "Amir E, Evans DG, Shenton A et al. Evaluation of breast cancer risk assessment packages in the family history evaluation and screening programme. J Med Genet. 2003;40:807-814"
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/23127309",
+                  "text": "Quante AS, Whittemore AS, Shriver T et al. Breast cancer risk assessment across the risk continuum: genetic and nongenetic risk factors contributing to differential model performance. Breast Cancer Res. 2012 Nov 5;14(6):R144"
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3827770/",
+                  "text": "Banegas MP, Gail MH, LaCroix A, Thompson B, Martinez ME, Wactawski-Wende J, John EM, Hubbell FA, Yasmeen S, Katki HA. Evaluating breast cancer risk projections for Hispanic women. Breast Cancer Res Treat. 2012 Feb;132(1):347-53."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/14983484",
+                  "text": "Kaur JS, Roubidoux MA, Sloan J, Novotny P. Can the Gail model be useful in American Indian and Alaska Native populations? Cancer. 2004 Mar 1;100(5):906-12"
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/10491430?dopt=Abstract",
+                  "text": "Costantino JP, Gail MH, Pee D, Anderson S, Redmond CK, Benichou J, Wieand HS: Validation studies for models projecting the risk of invasive and total breast cancer incidence. J Natl Cancer Inst 91(18):1541-8, 1999."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Akiko Chiba, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Mitchell Gail",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>The Gail Model for Breast Cancer risk estimates the absolute 5 year risk and lifetime risk of developing breast cancer.</li> <li>Family history includes only first degree relatives with breast cancer, which is not enough information to estimate the risk of a patient having BRCA mutation. It also underestimates the cancer risk for patients with extensive family history.</li> <li>The Gail Model is a good predictor of risk for populations but not for individuals.</li> <li>It adjusts risk for race/ethnicity.</li> <li>It may underestimate breast cancer risk in patients with atypical hyperplasia and strong family history.</li> <li>The Gail Model was NOT designed to estimate risk for: <ul> <li>Women with a prior diagnosis of breast cancer, lobular carcinoma in situ (LCIS), or ductal carcinoma in situ (DCIS).</li> <li>Women who have received previous radiation therapy to the chest for treatment of Hodgkin lymphoma.</li> <li>Women with gene mutations in BRCA1 or BRCA2, or those who are known to have certain genetic syndromes that increase risk for breast cancer.</li> <li>Women of age &lt;35 or &gt;85.</li> </ul> </li> </ul>",
+            "use_case_en": "<p>The Gail Model is one of several risk assessment models that can help determine the absolute 5 year risk and lifetime risk of developing breast cancer.</p> <ul> <li>Other models include the Tyrer-Cuzick (also referred to as IBIS, International Breast Cancer Intervention Study) model, the Claus model, BRCAPro, and BOADICEA (Breast and Ovarian Analysis of Disease Incidence and Carrier Estimation Algorithm).</li> </ul>",
+            "why_use_en": "<p>It helps determine which risk-reduction options—medical (chemoprevention with tamoxifen), surgical (prophylactic mastectomy) or lifestyle changes only—are most appropriate for individual patients by weighing risks and benefits of intervention versus likelihood of developing cancer.</p> "
+          },
+          "next_steps": {
+            "advice_en": "<p>Patients who have an increased risk of developing breast cancer, defined as calculated 5 year risk >1.7%, are candidates for chemoprevention (such as tamoxifen).</p>",
+            "critical_actions_en": "<p>Patients with elevated breast cancer risk (>1.7%) should be referred to a breast surgeon to discuss possible risk reduction interventions.</p> ",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Breast Cancer"
+        ],
+        "dosing": false,
+        "equation_logic": "02092c361e4bcbdfa7e8c655084b8ffe",
+        "equation_logic_text": "/* jslint white: true */\n\nfunction GailCalculator(userCurrentAge, userMenarcheAge, userFirstLiveBirthAge, userFirstDegreeRel, userHadBiopsy, userNumBiopsy, userHyperPlasia, userRace) {\n    var self = this;\n\n    this.BcptConvert = {\n        //Note in the question that if the age is unknown, user should type in 0        \n        getCurrentAge: function(userCurrentAge) {\n            switch (true) {\n                case (userCurrentAge > 0 && userCurrentAge < 35):\n                    return 34\n                case (userCurrentAge <= 0 && userCurrentAge >= 90):\n                    return 90\n                default:\n                    return userCurrentAge\n            }\n        },\n        getMenarcheAge: function(userMenarcheAge) {\n            switch (userMenarcheAge) {\n                case 0:\n                    return 99\n                case 1:\n                    return 10\n                case 2:\n                    return 13\n                case 3:\n                    return 14\n            }\n        },\n        getFirstLiveBirthAge: function(userFirstLiveBirthAge) {\n            switch (userFirstLiveBirthAge) {\n                case 0:\n                    return 0\n                case 1:\n                    return 15\n                case 2:\n                    return 22\n                case 3:\n                    return 27\n                case 4:\n                    return 31\n                case 5:\n                    return 99\n            }\n        },\n        getFirstDegRelatives: function(userFirstDegreeRel) {\n            switch (userFirstDegreeRel) {\n                case 0:\n                    return 99\n                case 1:\n                    return 0\n                case 2:\n                    return 1\n                case 3:\n                    return 2\n            }\n        },\n        getEverHadBiopsy: function(userHadBiopsy) {\n            switch (userHadBiopsy) {\n                case 0:\n                    return 99\n                case 1:\n                    return 0\n                case 2:\n                    return 1\n            }\n        },\n        getNumberOfBiopsy: function(userNumBiopsy) {\n            switch (userNumBiopsy) {\n                case 1:\n                    return 1\n                case 2:\n                    return 2\n            }\n        },\n        getHyperPlasia: function(userHyperPlasia) {\n            switch (userHyperPlasia) {\n                case 0:\n                    return 99\n                case 1:\n                    return 0\n                case 2:\n                    return 1\n            }\n        },\n        getRace: function(userRace) {\n            switch (userRace) {\n                case 0:\n                    return 1\n                case 1:\n                    return 2\n                case 2:\n                    return 3\n                case 3:\n                    return 7\n                case 4:\n                    return 8\n                case 5:\n                    return 9\n                case 6:\n                    return 10\n                case 7:\n                    return 11\n                case 8:\n                    return 12\n                case 9:\n                    return 1    \n                default:\n                    return 1\n            }\n        },\n        menarcheAge: function(menarcheAge) {\n            switch (true) {\n                case (menarcheAge >= 7 && menarcheAge < 12):\n                    return 2\n                case (menarcheAge >= 12 && menarcheAge < 14):\n                    return 1\n                case (menarcheAge >= 14 && menarcheAge <= 39 || menarcheAge == 99):\n                    return 0\n                default:\n                    return 0\n            }\n        },\n        firstLiveBirthAge: function(firstLiveBirthAge) {\n            switch (true) {\n                case (firstLiveBirthAge == 0):\n                    return 2\n                case (firstLiveBirthAge < 20 || firstLiveBirthAge == 99):\n                    return 0\n                case (firstLiveBirthAge >= 20 && firstLiveBirthAge < 25):\n                    return 1\n                case (firstLiveBirthAge >= 25 && firstLiveBirthAge < 30):\n                    return 2\n                case (firstLiveBirthAge >= 30 && firstLiveBirthAge <= 55):\n                    return 3\n                default:\n                    return 0\n            }\n        },\n        everHadBiopsy: function(everHadBiopsy) {\n            switch (everHadBiopsy) {\n                case (99):\n                    return 0\n                default:\n                    return everHadBiopsy\n            }\n        },\n        numberOfBiopsy: function(numberOfPreviousBiopsy, everHadBiopsy) {\n            switch (true) {\n                case (everHadBiopsy == 99):\n                    return 99\n                case (numberOfPreviousBiopsy == 0 || (numberOfPreviousBiopsy == 99 && everHadBiopsy == 99)):\n                    return 0\n                case (numberOfPreviousBiopsy == 1 || (numberOfPreviousBiopsy == 99 && everHadBiopsy == 1)):\n                    return 1\n                case (numberOfPreviousBiopsy > 1 && numberOfPreviousBiopsy <= 30):\n                    return 2\n                default:\n                    return 0\n            }\n        },\n        hyperplasia: function(hyperPlasia, everHadBiopsy) {\n            switch (true) {\n                case (everHadBiopsy == 0):\n                    return 99\n                default:\n                    return hyperPlasia\n            }\n        },\n        firstDegRelatives: function(firstDegRelatives, race) {\n            if (race == undefined) {\n                switch (true) {\n                    case (firstDegRelatives == 0 || firstDegRelatives == 99):\n                        return 0\n                    case (firstDegRelatives == 1):\n                        return 1\n                    case (firstDegRelatives >= 2 && firstDegRelatives <= 31):\n                        return 2\n                    default:\n                        return 0\n                }\n            } else {\n                switch (true) {\n                    case (firstDegRelatives == 0 || firstDegRelatives == 99):\n                        return 0\n                    case (firstDegRelatives == 1):\n                        return 1\n                    case (firstDegRelatives >= 2 && firstDegRelatives <= 31 && race < 7):\n                        return 2\n                    case (firstDegRelatives >= 2 && race >= 7):\n                        return 1\n                    default:\n                        return 0\n                }\n            }\n\n        },\n        currentAgeIndicator: function(currentAge) {\n            switch (true) {\n                case (currentAge < 50):\n                    return 0\n                case (currentAge >= 50):\n                    return 1\n                default:\n                    return 0\n            }\n        },\n        rHyperplasia: function(hyperplasia, everHadBiopsy) {\n            switch (hyperplasia) {\n                case 1:\n                    return 1.82;\n                case 0:\n                    return 0.93;\n                default:\n                    return 1.0;\n            }\n        }\n    };\n\n    this.RiskCalculator = {\n        calculateRisk: function(riskindex, currentAge, projectionAge, ageIndicator, numberOfBiopsy, menarcheAge, firstLiveBirthAge, firstDegRelatives, everHadBiopsy, ihyp, rhyp, irace) {\n\n            var numCovPattInGailModel = 216\n            var bet2 = self.InitiateRickCalculatorVars.bet2(8, 12)\n            var t = self.InitiateRickCalculatorVars.t(15)\n            var rmu2 = self.InitiateRickCalculatorVars.rmu2(14, 12)\n            var rlan2 = self.InitiateRickCalculatorVars.rlan2(14, 12)\n            var rf2 = self.InitiateRickCalculatorVars.rf2(2, 13)\n\n            var bet = []\n            var rf = []\n            var abs = []\n            var rlan = []\n            var rmu = []\n            var sumb = []\n            var sumbb = []\n\n            var retval = 0.0;\n            var i\n            var j\n            var k\n            var n = 216\n            var r = 0.0\n            var ni = 0\n            var ti = currentAge\n            var ns = 0\n            var ts = projectionAge\n            var abss = 0.0\n            var incr\n            var ilev\n            var r8iTox2 = self.Conveniences.createTwoDimensionArray(216, 9)\n\n            for (i = 0; i < 8; i++) {\n                bet[i] = bet2[i][irace - 1];\n            }\n\n\n            if (irace == 2) {\n                if (menarcheAge == 2) {\n                    menarcheAge = 1;\n                    firstLiveBirthAge = 0;\n                }\n            }\n\n            for (i = 1; i <= 15; ++i) {\n                if (ti < t[i - 1]) {\n                    ni = i - 1;\n                    break;\n                }\n            }\n\n            for (i = 1; i <= 15; ++i) {\n                if (ts <= t[i - 1]) {\n                    ns = i - 1\n                    break;\n                }\n            }\n\n            incr = 0;\n\n            if (riskindex == 2 && irace < 7) {\n                incr = 3;\n            }\n\n            cindx = 0;\n            cindx = incr + irace - 1;\n\n            for (i = 0; i < 14; ++i) {\n                rmu[i] = rmu2[i][cindx];\n                rlan[i] = rlan2[i][cindx];\n            }\n\n            rf[0] = rf2[0][incr + irace - 1];\n            rf[1] = rf2[1][incr + irace - 1];\n\n            if (riskindex == 2 && irace >= 7) {\n                rf[0] = rf2[0][12];\n                rf[1] = rf2[1][12];\n            }\n\n            if (riskindex >= 2) {\n                menarcheAge = 0;\n                numberOfBiopsy = 0;\n                firstLiveBirthAge = 0;\n                firstDegRelatives = 0;\n                rhyp = 1.0;\n            }\n\n            ilev = ageIndicator * 108 + menarcheAge * 36 + numberOfBiopsy * 12 + firstLiveBirthAge * 3 + firstDegRelatives + 1;\n\n            for (k = 0; k < 216; ++k) {\n                r8iTox2[k][0] = 1.0;\n            }\n\n            for (k = 0; k < 108; ++k) {\n                r8iTox2[k][1] = 0.0;\n                r8iTox2[108 + k][1] = 1.0;\n            }\n\n            for (j = 1; j <= 2; ++j) {\n                for (k = 1; k <= 36; ++k) {\n                    r8iTox2[(j - 1) * 108 + k - 1][2] = 0.0;\n                    r8iTox2[(j - 1) * 108 + 36 + k - 1][2] = 1.0;\n                    r8iTox2[(j - 1) * 108 + 72 + k - 1][2] = 2.0;\n                }\n            }\n\n            for (j = 1; j <= 6; ++j) {\n                for (k = 1; k <= 12; ++k) {\n                    r8iTox2[(j - 1) * 36 + k - 1][3] = 0.0;\n                    r8iTox2[(j - 1) * 36 + 12 + k - 1][3] = 1.0;\n                    r8iTox2[(j - 1) * 36 + 24 + k - 1][3] = 2.0;\n                }\n            }\n\n            for (j = 1; j <= 18; ++j) {\n                for (k = 1; k <= 3; ++k) {\n                    r8iTox2[(j - 1) * 12 + k - 1][4] = 0.0;\n                    r8iTox2[(j - 1) * 12 + 3 + k - 1][4] = 1.0;\n                    r8iTox2[(j - 1) * 12 + 6 + k - 1][4] = 2.0;\n                    r8iTox2[(j - 1) * 12 + 9 + k - 1][4] = 3.0;\n                }\n            }\n\n            for (j = 1; j <= 72; ++j) {\n                r8iTox2[(j - 1) * 3 + 1 - 1][5] = 0.0;\n                r8iTox2[(j - 1) * 3 + 2 - 1][5] = 1.0;\n                r8iTox2[(j - 1) * 3 + 3 - 1][5] = 2.0;\n            }\n\n            for (i = 0; i < 216; ++i) {\n                r8iTox2[i][6] = r8iTox2[i][1] * r8iTox2[i][3];\n                r8iTox2[i][7] = r8iTox2[i][4] * r8iTox2[i][5];\n            }\n\n            for (i = 0; i < 216; ++i) {\n                r8iTox2[i][8] = 1.0;\n            }\n\n            for (i = 0; i < 216; ++i) {\n                sumb[i] = 0.0;\n                for (j = 0; j < 8; ++j) {\n                    sumb[i] += bet[j] * r8iTox2[i][j];\n                }\n            }\n\n            for (i = 1; i <= 108; ++i) {\n                sumbb[i - 1] = sumb[i - 1] - bet[0];\n            }\n\n            for (i = 109; i <= 216; ++i) {\n                sumbb[i - 1] = sumb[i - 1] - bet[0] - bet[1];\n            }\n\n            for (j = 1; j <= 6; ++j) {\n                rlan[j - 1] = rlan[j - 1] * rf[0];\n            }\n\n            for (j = 7; j <= 14; ++j) {\n                rlan[j - 1] = rlan[j - 1] * rf[1];\n            }\n\n            i = ilev\n\n            sumbb[i - 1] += Math.log(rhyp);\n\n            if (i <= 108) {\n                sumbb[i + 107] += Math.log(rhyp);\n            }\n\n\n            if (ts <= t[ni]) {\n                abs[i - 1] = 1.0 - Math.exp(-(rlan[ni - 1] * Math.exp(sumbb[\n                    i - 1]) + rmu[ni - 1]) * (ts - ti));\n                abs[i - 1] = abs[i - 1] * rlan[ni - 1] * Math.exp(\n                    sumbb[i - 1]) / (rlan[ni - 1] * Math.exp(sumbb[\n                    i - 1]) + rmu[ni - 1]);\n            } else {\n                abs[i - 1] = 1.0 - Math.exp(-(rlan[ni - 1] * Math.exp(sumbb[\n                    i - 1]) + rmu[ni - 1]) * (t[ni] - ti));\n                abs[i - 1] = abs[i - 1] * rlan[ni - 1] * Math.exp(\n                    sumbb[i - 1]) / (rlan[ni - 1] * Math.exp(sumbb[\n                    i - 1]) + rmu[ni - 1]);\n                if (ns - ni > 0) {\n                    if (projectionAge > 50.0 && currentAge < 50.0) {\n                        r = 1.0 - Math.exp(-(rlan[ns - 1] * Math.exp(sumbb[i + 107]) + rmu[ns - 1]) * (ts - t[ns - 1]));\n                        r = r * rlan[ns - 1] * Math.exp(sumbb[i + 107]) / (rlan[ns - 1] * Math.exp(sumbb[i + 107]) + rmu[ns - 1]);\n                        r = r * (Math.exp(-(rlan[ni - 1] * Math.exp(sumbb[i - 1]) + rmu[ni - 1]) * (t[ni] - ti)));\n                        if (ns - ni > 1) {\n                            menarcheAge = ns - 1;\n                            for (j = ni + 1; j <= menarcheAge; ++j) {\n                                if (t[j - 1] >= 50.0) {\n                                    r = r * (Math.exp(-(rlan[j - 1] * Math.exp(sumbb[\n                                        i + 107]) + rmu[j - 1]) * (t[\n                                        j] - t[j - 1])));\n                                } else {\n                                    r = r * (Math.exp(-(rlan[j - 1] * Math.exp(sumbb[\n                                        i - 1]) + rmu[j - 1]) * (t[j] - t[j - 1])));\n                                }\n                            }\n                        }\n                        abs[i - 1] += r;\n                    } else {\n                        r = 1.0 - Math.exp(-(rlan[ns - 1] * Math.exp(sumbb[i - 1]) + rmu[ns - 1]) * (ts - t[ns - 1]));\n                        r = r * rlan[ns - 1] * Math.exp(sumbb[i - 1]) / (\n                            rlan[ns - 1] * Math.exp(sumbb[i - 1]) +\n                            rmu[ns - 1]);\n                        r = r * (Math.exp(-(rlan[ni - 1] * Math.exp(sumbb[i - 1]) +\n                            rmu[ni - 1]) * (t[ni] - ti)));\n                        if (ns - ni > 1) {\n                            menarcheAge = ns - 1;\n                            for (j = ni + 1; j <= menarcheAge; ++j) {\n                                r = r * (Math.exp(-(rlan[j - 1] * Math.exp(sumbb[i -\n                                    1]) + rmu[j - 1]) * (t[j] - t[\n                                    j - 1])));\n                            }\n                        }\n                        abs[i - 1] += r;\n                    }\n                }\n\n                if (ns - ni > 1) {\n                    if (projectionAge > 50.0 && currentAge < 50.0) {\n                        menarcheAge = ns - 1\n                        for (k = ni + 1; k <= menarcheAge; ++k) {\n                            if (t[k - 1] >= 50.0) {\n                                r = 1.0 - Math.exp(-(rlan[k - 1] * Math.exp(sumbb[\n                                    i + 107]) + rmu[k - 1]) * (t[k] -\n                                    t[k - 1]));\n                                r = r * rlan[k - 1] * Math.exp(sumbb[i +\n                                    107]) / (rlan[k - 1] * Math.exp(sumbb[\n                                    i + 107]) + rmu[k - 1]);\n                            } else {\n                                r = 1.0 - Math.exp(-(rlan[k - 1] * Math.exp(sumbb[\n                                    i - 1]) + rmu[k - 1]) * (t[k] -\n                                    t[k - 1]));\n                                r = r * rlan[k - 1] * Math.exp(sumbb[i - 1]) / (rlan[k - 1] * Math.exp(sumbb[i -\n                                    1]) + rmu[k - 1]);\n                            }\n                            r = r * (Math.exp(-(rlan[ni - 1] * Math.exp(sumbb[i - 1]) + rmu[ni - 1]) * (t[ni] - ti)));\n                            numberOfBiopsy = k - 1;\n                            for (j = ni + 1; j <= numberOfBiopsy; ++j) {\n                                if (t[j - 1] >= 50.0) {\n                                    r = r * (Math.exp(-(rlan[j - 1] * Math.exp(sumbb[\n                                        i + 107]) + rmu[j - 1]) * (t[\n                                        j] - t[j - 1])));\n                                } else {\n                                    r = r * (Math.exp(-(rlan[j - 1] * Math.exp(sumbb[\n                                        i - 1]) + rmu[j - 1]) * (t[j] - t[j - 1])));\n                                }\n                            }\n                            abs[i - 1] += r\n                        }\n                    } else {\n                        menarcheAge = ns - 1;\n                        for (k = ni + 1; k <= menarcheAge; ++k) {\n                            r = 1.0 - Math.exp(-(rlan[k - 1] * Math.exp(sumbb[i -\n                                1]) + rmu[k - 1]) * (t[k] - t[k -\n                                1]));\n                            r = r * rlan[k - 1] * Math.exp(sumbb[i - 1]) /\n                                (rlan[k - 1] * Math.exp(sumbb[i - 1]) +\n                                    rmu[k - 1]);\n                            r = r * (Math.exp(-(rlan[ni - 1] * Math.exp(sumbb[i - 1]) + rmu[ni - 1]) * (t[ni] - ti)));\n                            numberOfBiopsy = k - 1;\n                            for (j = ni + 1; j <= numberOfBiopsy; ++j) {\n                                r = r * (Math.exp(-(rlan[j - 1] * Math.exp(sumbb[i -\n                                    1]) + rmu[j - 1]) * (t[j] - t[\n                                    j - 1])));\n                            }\n                            abs[i - 1] += r;\n                        }\n                    }\n                }\n            }\n\n            abss = abs[i - 1] * 1000.0;\n            abss = abss.toFixed(0)\n            abss = abss / 10.0\n\n            retval = abs[i - 1];\n\n            return retval;\n        }\n    };\n\n    this.Helper = {\n        riskcalc: function(riskIndex, currentAge, projectionAge, menarcheAge, firstLiveBirthAge, everHadBiopsy, numberOfBiopsy, hyperPlasia, firstDegRelatives, race) {\n            var ageIndicator\n            var rHyperPlasia\n\n            // currentAge = self.BcptConvert.getCurrentAge(currentAge);\n            menarcheAge = self.BcptConvert.menarcheAge(menarcheAge);\n            firstLiveBirthAge = self.BcptConvert.firstLiveBirthAge(firstLiveBirthAge);\n            everHadBiopsy = self.BcptConvert.everHadBiopsy(everHadBiopsy);\n            numberOfBiopsy = self.BcptConvert.numberOfBiopsy(numberOfBiopsy, everHadBiopsy);\n            hyperPlasia = self.BcptConvert.hyperplasia(hyperPlasia, everHadBiopsy);\n            // race = self.BcptConvert.getRace(race);\n\n            if (race < 7) {\n                firstDegRelatives = self.BcptConvert.firstDegRelatives(firstDegRelatives);\n            } else {\n                firstDegRelatives = self.BcptConvert.firstDegRelatives(firstDegRelatives, race);\n            };\n\n            ageIndicator = self.BcptConvert.currentAgeIndicator(currentAge);\n            rHyperPlasia = self.BcptConvert.rHyperplasia(hyperPlasia, everHadBiopsy);\n\n            return self.RiskCalculator.calculateRisk(riskIndex, currentAge, projectionAge, ageIndicator, numberOfBiopsy, menarcheAge, firstLiveBirthAge, firstDegRelatives, everHadBiopsy, hyperPlasia, rHyperPlasia, race)\n        }\n    };\n\n    this.Conveniences = {\n        createTwoDimensionArray: function(row, column) {\n            var twoDimensionArray = new Array()\n            for (i = 0; i < row; i++) {\n                twoDimensionArray[i] = new Array(column)\n            }\n            return twoDimensionArray\n        }\n    };\n\n    this.InitiateRickCalculatorVars = {\n        t: function(elementCount) {\n            var t = new Array(elementCount)\n\n            t[0] = 20.0;\n            t[1] = 25.0;\n            t[2] = 30.0;\n            t[3] = 35.0;\n            t[4] = 40.0;\n            t[5] = 45.0;\n            t[6] = 50.0;\n            t[7] = 55.0;\n            t[8] = 60.0;\n            t[9] = 65.0;\n            t[10] = 70.0;\n            t[11] = 75.0;\n            t[12] = 80.0;\n            t[13] = 85.0;\n            t[14] = 90.0;\n\n            return t\n        },\n        rmu2: function(row, column) {\n            var rmu2 = self.Conveniences.createTwoDimensionArray(row, column);\n\n            rmu2[0][0] = 49.3 * 0.00001;\n            rmu2[1][0] = 53.1 * 0.00001;\n            rmu2[2][0] = 62.5 * 0.00001;\n            rmu2[3][0] = 82.5 * 0.00001;\n            rmu2[4][0] = 130.7 * 0.00001;\n            rmu2[5][0] = 218.1 * 0.00001;\n            rmu2[6][0] = 365.5 * 0.00001;\n            rmu2[7][0] = 585.2 * 0.00001;\n            rmu2[8][0] = 943.9 * 0.00001;\n            rmu2[9][0] = 1502.8 * 0.00001;\n            rmu2[10][0] = 2383.9 * 0.00001;\n            rmu2[11][0] = 3883.2 * 0.00001;\n            rmu2[12][0] = 6682.8 * 0.00001;\n            rmu2[13][0] = 14490.8 * 0.00001;\n\n            rmu2[0][1] = 0.00074354;\n            rmu2[1][1] = 0.00101698;\n            rmu2[2][1] = 0.00145937;\n            rmu2[3][1] = 0.00215933;\n            rmu2[4][1] = 0.00315077;\n            rmu2[5][1] = 0.00448779;\n            rmu2[6][1] = 0.00632281;\n            rmu2[7][1] = 0.00963037;\n            rmu2[8][1] = 0.01471818;\n            rmu2[9][1] = 0.02116304;\n            rmu2[10][1] = 0.03266035;\n            rmu2[11][1] = 0.04564087;\n            rmu2[12][1] = 0.06835185;\n            rmu2[13][1] = 0.13271262;\n\n            rmu2[0][2] = 43.7 * 0.00001;\n            rmu2[1][2] = 53.3 * 0.00001;\n            rmu2[2][2] = 70.0 * 0.00001;\n            rmu2[3][2] = 89.7 * 0.00001;\n            rmu2[4][2] = 116.3 * 0.00001;\n            rmu2[5][2] = 170.2 * 0.00001;\n            rmu2[6][2] = 264.6 * 0.00001;\n            rmu2[7][2] = 421.6 * 0.00001;\n            rmu2[8][2] = 696.0 * 0.00001;\n            rmu2[9][2] = 1086.7 * 0.00001;\n            rmu2[10][2] = 1685.8 * 0.00001;\n            rmu2[11][2] = 2515.6 * 0.00001;\n            rmu2[12][2] = 4186.6 * 0.00001;\n            rmu2[13][2] = 8947.6 * 0.00001;\n\n            rmu2[0][3] = 44.12 * 0.00001;\n            rmu2[1][3] = 52.54 * 0.00001;\n            rmu2[2][3] = 67.46 * 0.00001;\n            rmu2[3][3] = 90.92 * 0.00001;\n            rmu2[4][3] = 125.34 * 0.00001;\n            rmu2[5][3] = 195.70 * 0.00001;\n            rmu2[6][3] = 329.84 * 0.00001;\n            rmu2[7][3] = 546.22 * 0.00001;\n            rmu2[8][3] = 910.35 * 0.00001;\n            rmu2[9][3] = 1418.54 * 0.00001;\n            rmu2[10][3] = 2259.35 * 0.00001;\n            rmu2[11][3] = 3611.46 * 0.00001;\n            rmu2[12][3] = 6136.26 * 0.00001;\n            rmu2[13][3] = 14206.63 * 0.00001;\n\n            rmu2[0][4] = 0.00074354;\n            rmu2[1][4] = 0.00101698;\n            rmu2[2][4] = 0.00145937;\n            rmu2[3][4] = 0.00215933;\n            rmu2[4][4] = 0.00315077;\n            rmu2[5][4] = 0.00448779;\n            rmu2[6][4] = 0.00632281;\n            rmu2[7][4] = 0.00963037;\n            rmu2[8][4] = 0.01471818;\n            rmu2[9][4] = 0.02116304;\n            rmu2[10][4] = 0.03266035;\n            rmu2[11][4] = 0.04564087;\n            rmu2[12][4] = 0.06835185;\n            rmu2[13][4] = 0.13271262;\n\n            rmu2[0][5] = 43.7 * 0.00001;\n            rmu2[1][5] = 53.3 * 0.00001;\n            rmu2[2][5] = 70.0 * 0.00001;\n            rmu2[3][5] = 89.7 * 0.00001;\n            rmu2[4][5] = 116.3 * 0.00001;\n            rmu2[5][5] = 170.2 * 0.00001;\n            rmu2[6][5] = 264.6 * 0.00001;\n            rmu2[7][5] = 421.6 * 0.00001;\n            rmu2[8][5] = 696.0 * 0.00001;\n            rmu2[9][5] = 1086.7 * 0.00001;\n            rmu2[10][5] = 1685.8 * 0.00001;\n            rmu2[11][5] = 2515.6 * 0.00001;\n            rmu2[12][5] = 4186.6 * 0.00001;\n            rmu2[13][5] = 8947.6 * 0.00001;\n\n            rmu2[0][6] = 0.000210649076;\n            rmu2[1][6] = 0.000192644865;\n            rmu2[2][6] = 0.000244435215;\n            rmu2[3][6] = 0.000317895949;\n            rmu2[4][6] = 0.000473261994;\n            rmu2[5][6] = 0.000800271380;\n            rmu2[6][6] = 0.001217480226;\n            rmu2[7][6] = 0.002099836508;\n            rmu2[8][6] = 0.003436889186;\n            rmu2[9][6] = 0.006097405623;\n            rmu2[10][6] = 0.010664526765;\n            rmu2[11][6] = 0.020148678452;\n            rmu2[12][6] = 0.037990796590;\n            rmu2[13][6] = 0.098333900733;\n\n            rmu2[0][7] = 0.000173593803;\n            rmu2[1][7] = 0.000295805882;\n            rmu2[2][7] = 0.000228322534;\n            rmu2[3][7] = 0.000363242389;\n            rmu2[4][7] = 0.000590633044;\n            rmu2[5][7] = 0.001086079485;\n            rmu2[6][7] = 0.001859999966;\n            rmu2[7][7] = 0.003216600974;\n            rmu2[8][7] = 0.004719402141;\n            rmu2[9][7] = 0.008535331402;\n            rmu2[10][7] = 0.012433511681;\n            rmu2[11][7] = 0.020230197885;\n            rmu2[12][7] = 0.037725498348;\n            rmu2[13][7] = 0.106149118663;\n\n            rmu2[0][8] = 0.000229120979;\n            rmu2[1][8] = 0.000262988494;\n            rmu2[2][8] = 0.000314844090;\n            rmu2[3][8] = 0.000394471908;\n            rmu2[4][8] = 0.000647622610;\n            rmu2[5][8] = 0.001170202327;\n            rmu2[6][8] = 0.001809380379;\n            rmu2[7][8] = 0.002614170568;\n            rmu2[8][8] = 0.004483330681;\n            rmu2[9][8] = 0.007393665092;\n            rmu2[10][8] = 0.012233059675;\n            rmu2[11][8] = 0.021127058106;\n            rmu2[12][8] = 0.037936954809;\n            rmu2[13][8] = 0.085138518334;\n\n            rmu2[0][9] = 0.000563507269;\n            rmu2[1][9] = 0.000369640217;\n            rmu2[2][9] = 0.001019912579;\n            rmu2[3][9] = 0.001234013911;\n            rmu2[4][9] = 0.002098344078;\n            rmu2[5][9] = 0.002982934175;\n            rmu2[6][9] = 0.005402445702;\n            rmu2[7][9] = 0.009591474245;\n            rmu2[8][9] = 0.016315472607;\n            rmu2[9][9] = 0.020152229069;\n            rmu2[10][9] = 0.027354838710;\n            rmu2[11][9] = 0.050446998723;\n            rmu2[12][9] = 0.072262026612;\n            rmu2[13][9] = 0.145844504021;\n\n            rmu2[0][10] = 0.000465500812;\n            rmu2[1][10] = 0.000600466920;\n            rmu2[2][10] = 0.000851057138;\n            rmu2[3][10] = 0.001478265376;\n            rmu2[4][10] = 0.001931486788;\n            rmu2[5][10] = 0.003866623959;\n            rmu2[6][10] = 0.004924932309;\n            rmu2[7][10] = 0.008177071806;\n            rmu2[8][10] = 0.008638202890;\n            rmu2[9][10] = 0.018974658371;\n            rmu2[10][10] = 0.029257567105;\n            rmu2[11][10] = 0.038408980974;\n            rmu2[12][10] = 0.052869579345;\n            rmu2[13][10] = 0.074745721133;\n\n            rmu2[0][11] = 0.000212632332;\n            rmu2[1][11] = 0.000242170741;\n            rmu2[2][11] = 0.000301552711;\n            rmu2[3][11] = 0.000369053354;\n            rmu2[4][11] = 0.000543002943;\n            rmu2[5][11] = 0.000893862331;\n            rmu2[6][11] = 0.001515172239;\n            rmu2[7][11] = 0.002574669551;\n            rmu2[8][11] = 0.004324370426;\n            rmu2[9][11] = 0.007419621918;\n            rmu2[10][11] = 0.013251765130;\n            rmu2[11][11] = 0.022291427490;\n            rmu2[12][11] = 0.041746550635;\n            rmu2[13][11] = 0.087485802065;\n\n            return rmu2\n        },\n        rlan2: function(row, column) {\n            var rlan2 = self.Conveniences.createTwoDimensionArray(row, column)\n\n            rlan2[0][0] = 1.0 * 0.00001;\n            rlan2[1][0] = 7.6 * 0.00001;\n            rlan2[2][0] = 26.6 * 0.00001;\n            rlan2[3][0] = 66.1 * 0.00001;\n            rlan2[4][0] = 126.5 * 0.00001;\n            rlan2[5][0] = 186.6 * 0.00001;\n            rlan2[6][0] = 221.1 * 0.00001;\n            rlan2[7][0] = 272.1 * 0.00001;\n            rlan2[8][0] = 334.8 * 0.00001;\n            rlan2[9][0] = 392.3 * 0.00001;\n            rlan2[10][0] = 417.8 * 0.00001;\n            rlan2[11][0] = 443.9 * 0.00001;\n            rlan2[12][0] = 442.1 * 0.00001;\n            rlan2[13][0] = 410.9 * 0.00001;\n\n            rlan2[0][1] = 0.00002696;\n            rlan2[1][1] = 0.00011295;\n            rlan2[2][1] = 0.00031094;\n            rlan2[3][1] = 0.00067639;\n            rlan2[4][1] = 0.00119444;\n            rlan2[5][1] = 0.00187394;\n            rlan2[6][1] = 0.00241504;\n            rlan2[7][1] = 0.00291112;\n            rlan2[8][1] = 0.00310127;\n            rlan2[9][1] = 0.00366560;\n            rlan2[10][1] = 0.00393132;\n            rlan2[11][1] = 0.00408951;\n            rlan2[12][1] = 0.00396793;\n            rlan2[13][1] = 0.00363712;\n\n            rlan2[0][2] = 2.00 * 0.00001;\n            rlan2[1][2] = 7.10 * 0.00001;\n            rlan2[2][2] = 19.70 * 0.00001;\n            rlan2[3][2] = 43.80 * 0.00001;\n            rlan2[4][2] = 81.10 * 0.00001;\n            rlan2[5][2] = 130.70 * 0.00001;\n            rlan2[6][2] = 157.40 * 0.00001;\n            rlan2[7][2] = 185.70 * 0.00001;\n            rlan2[8][2] = 215.10 * 0.00001;\n            rlan2[9][2] = 251.20 * 0.00001;\n            rlan2[10][2] = 284.60 * 0.00001;\n            rlan2[11][2] = 275.70 * 0.00001;\n            rlan2[12][2] = 252.30 * 0.00001;\n            rlan2[13][2] = 203.90 * 0.00001;\n\n            rlan2[0][3] = 1.22 * 0.00001;\n            rlan2[1][3] = 7.41 * 0.00001;\n            rlan2[2][3] = 22.97 * 0.00001;\n            rlan2[3][3] = 56.49 * 0.00001;\n            rlan2[4][3] = 116.45 * 0.00001;\n            rlan2[5][3] = 195.25 * 0.00001;\n            rlan2[6][3] = 261.54 * 0.00001;\n            rlan2[7][3] = 302.79 * 0.00001;\n            rlan2[8][3] = 367.57 * 0.00001;\n            rlan2[9][3] = 420.29 * 0.00001;\n            rlan2[10][3] = 473.08 * 0.00001;\n            rlan2[11][3] = 494.25 * 0.00001;\n            rlan2[12][3] = 479.76 * 0.00001;\n            rlan2[13][3] = 401.06 * 0.00001;\n\n            rlan2[0][4] = 0.00002696;\n            rlan2[1][4] = 0.00011295;\n            rlan2[2][4] = 0.00031094;\n            rlan2[3][4] = 0.00067639;\n            rlan2[4][4] = 0.00119444;\n            rlan2[5][4] = 0.00187394;\n            rlan2[6][4] = 0.00241504;\n            rlan2[7][4] = 0.00291112;\n            rlan2[8][4] = 0.00310127;\n            rlan2[9][4] = 0.00366560;\n            rlan2[10][4] = 0.00393132;\n            rlan2[11][4] = 0.00408951;\n            rlan2[12][4] = 0.00396793;\n            rlan2[13][4] = 0.00363712;\n\n            rlan2[0][5] = 2.00 * 0.00001;\n            rlan2[1][5] = 7.10 * 0.00001;\n            rlan2[2][5] = 19.70 * 0.00001;\n            rlan2[3][5] = 43.80 * 0.00001;\n            rlan2[4][5] = 81.10 * 0.00001;\n            rlan2[5][5] = 130.70 * 0.00001;\n            rlan2[6][5] = 157.40 * 0.00001;\n            rlan2[7][5] = 185.70 * 0.00001;\n            rlan2[8][5] = 215.10 * 0.00001;\n            rlan2[9][5] = 251.20 * 0.00001;\n            rlan2[10][5] = 284.60 * 0.00001;\n            rlan2[11][5] = 275.70 * 0.00001;\n            rlan2[12][5] = 252.30 * 0.00001;\n            rlan2[13][5] = 203.90 * 0.00001;\n\n            rlan2[0][6] = 0.000004059636;\n            rlan2[1][6] = 0.000045944465;\n            rlan2[2][6] = 0.000188279352;\n            rlan2[3][6] = 0.000492930493;\n            rlan2[4][6] = 0.000913603501;\n            rlan2[5][6] = 0.001471537353;\n            rlan2[6][6] = 0.001421275482;\n            rlan2[7][6] = 0.001970946494;\n            rlan2[8][6] = 0.001674745804;\n            rlan2[9][6] = 0.001821581075;\n            rlan2[10][6] = 0.001834477198;\n            rlan2[11][6] = 0.001919911972;\n            rlan2[12][6] = 0.002233371071;\n            rlan2[13][6] = 0.002247315779;\n\n            rlan2[0][7] = 0.000000000001;\n            rlan2[1][7] = 0.000099483924;\n            rlan2[2][7] = 0.000287041681;\n            rlan2[3][7] = 0.000545285759;\n            rlan2[4][7] = 0.001152211095;\n            rlan2[5][7] = 0.001859245108;\n            rlan2[6][7] = 0.002606291272;\n            rlan2[7][7] = 0.003221751682;\n            rlan2[8][7] = 0.004006961859;\n            rlan2[9][7] = 0.003521715275;\n            rlan2[10][7] = 0.003593038294;\n            rlan2[11][7] = 0.003589303081;\n            rlan2[12][7] = 0.003538507159;\n            rlan2[13][7] = 0.002051572909;\n\n            rlan2[0][8] = 0.000007500161;\n            rlan2[1][8] = 0.000081073945;\n            rlan2[2][8] = 0.000227492565;\n            rlan2[3][8] = 0.000549786433;\n            rlan2[4][8] = 0.001129400541;\n            rlan2[5][8] = 0.001813873795;\n            rlan2[6][8] = 0.002223665639;\n            rlan2[7][8] = 0.002680309266;\n            rlan2[8][8] = 0.002891219230;\n            rlan2[9][8] = 0.002534421279;\n            rlan2[10][8] = 0.002457159409;\n            rlan2[11][8] = 0.002286616920;\n            rlan2[12][8] = 0.001814802825;\n            rlan2[13][8] = 0.001750879130;\n\n            rlan2[0][9] = 0.000045080582;\n            rlan2[1][9] = 0.000098570724;\n            rlan2[2][9] = 0.000339970860;\n            rlan2[3][9] = 0.000852591429;\n            rlan2[4][9] = 0.001668562761;\n            rlan2[5][9] = 0.002552703284;\n            rlan2[6][9] = 0.003321774046;\n            rlan2[7][9] = 0.005373001776;\n            rlan2[8][9] = 0.005237808549;\n            rlan2[9][9] = 0.005581732512;\n            rlan2[10][9] = 0.005677419355;\n            rlan2[11][9] = 0.006513409962;\n            rlan2[12][9] = 0.003889457523;\n            rlan2[13][9] = 0.002949061662;\n\n            rlan2[0][10] = 0.000000000001;\n            rlan2[1][10] = 0.000071525212;\n            rlan2[2][10] = 0.000288799028;\n            rlan2[3][10] = 0.000602250698;\n            rlan2[4][10] = 0.000755579402;\n            rlan2[5][10] = 0.000766406354;\n            rlan2[6][10] = 0.001893124938;\n            rlan2[7][10] = 0.002365580107;\n            rlan2[8][10] = 0.002843933070;\n            rlan2[9][10] = 0.002920921732;\n            rlan2[10][10] = 0.002330395655;\n            rlan2[11][10] = 0.002036291235;\n            rlan2[12][10] = 0.001482683983;\n            rlan2[13][10] = 0.001012248203;\n\n            rlan2[0][11] = 0.000012355409;\n            rlan2[1][11] = 0.000059526456;\n            rlan2[2][11] = 0.000184320831;\n            rlan2[3][11] = 0.000454677273;\n            rlan2[4][11] = 0.000791265338;\n            rlan2[5][11] = 0.001048462801;\n            rlan2[6][11] = 0.001372467817;\n            rlan2[7][11] = 0.001495473711;\n            rlan2[8][11] = 0.001646746198;\n            rlan2[9][11] = 0.001478363563;\n            rlan2[10][11] = 0.001216010125;\n            rlan2[11][11] = 0.001067663700;\n            rlan2[12][11] = 0.001376104012;\n            rlan2[13][11] = 0.000661576644;\n\n            return rlan2\n        },\n        bet2: function(row, column) {\n            var bet2 = self.Conveniences.createTwoDimensionArray(row, column)\n\n            bet2[0][0] = -0.7494824600;\n            bet2[1][0] = 0.0108080720;\n            bet2[2][0] = 0.0940103059;\n            bet2[3][0] = 0.5292641686;\n            bet2[4][0] = 0.2186262218;\n            bet2[5][0] = 0.9583027845;\n            bet2[6][0] = -0.2880424830;\n            bet2[7][0] = -0.1908113865;\n\n            bet2[0][1] = -0.3457169653;\n            bet2[1][1] = 0.0334703319;\n            bet2[2][1] = 0.2672530336;\n            bet2[3][1] = 0.1822121131;\n            bet2[4][1] = 0.0000000000;\n            bet2[5][1] = 0.4757242578;\n            bet2[6][1] = -0.1119411682;\n            bet2[7][1] = 0.0000000000;\n\n            bet2[0][2] = -0.7494824600;\n            bet2[1][2] = 0.0108080720;\n            bet2[2][2] = 0.0940103059;\n            bet2[3][2] = 0.5292641686;\n            bet2[4][2] = 0.2186262218;\n            bet2[5][2] = 0.9583027845;\n            bet2[6][2] = -0.2880424830;\n            bet2[7][2] = -0.1908113865;\n\n            for (i = 6; i <= 11; i++) {\n                bet2[0][i] = 0.00000000000000;\n                bet2[1][i] = 0.00000000000000;\n                bet2[2][i] = 0.07499257592975;\n                bet2[3][i] = 0.55263612260619;\n                bet2[4][i] = 0.27638268294593;\n                bet2[5][i] = 0.79185633720481;\n                bet2[6][i] = 0.00000000000000;\n                bet2[7][i] = 0.00000000000000;\n            }\n\n            return bet2\n        },\n        rf2: function(row, column) {\n            var rf2 = self.Conveniences.createTwoDimensionArray(row, column)\n\n            rf2[0][0] = 0.5788413;\n            rf2[1][0] = 0.5788413;\n\n            rf2[0][1] = 0.72949880;\n            rf2[1][1] = 0.74397137;\n\n            rf2[0][2] = 0.5788413;\n            rf2[1][2] = 0.5788413;\n\n            rf2[0][3] = 1.0;\n            rf2[1][3] = 1.0;\n\n            rf2[0][4] = 1.0;\n            rf2[1][4] = 1.0;\n\n            rf2[0][5] = 1.0;\n            rf2[1][5] = 1.0;\n\n            for (i = 6; i <= 11; i++) {\n                rf2[0][i] = 0.47519806426735;\n                rf2[1][i] = 0.50316401683903;\n            }\n\n            rf2[0][12] = 1.0;\n            rf2[1][12] = 1.0;\n\n            return rf2\n        }\n    };\n\n    this.calculate = function() {\n        var currentAge = self.BcptConvert.getCurrentAge(userCurrentAge)\n        var menarcheAge = self.BcptConvert.getMenarcheAge(userMenarcheAge)\n        var firstLiveBirthAge = self.BcptConvert.getFirstLiveBirthAge(userFirstLiveBirthAge)\n        var firstDegreeRel = self.BcptConvert.getFirstDegRelatives(userFirstDegreeRel)\n        var hadBiopsy = self.BcptConvert.getEverHadBiopsy(userHadBiopsy)\n        var numBiopsy = self.BcptConvert.getNumberOfBiopsy(userNumBiopsy)\n        var hyperPlasia = self.BcptConvert.getHyperPlasia(userHyperPlasia)\n        var race = self.BcptConvert.getRace(userRace)\n\n        var msg;\n        if (userRace == 2) {\n            msg = \"<br/><br/>The Gail Model has <u>not</u> been extensively evaluated for Hispanic women, and some retrospective data suggests that the relative risks may not be accurate for this population. Use caution when interpreting these results.\";\n        } else if (userRace == 9) {\n            msg = \"<br/><br/>The Gail Model has <u>not</u> been extensively evaluated for American Indian and Alaskan Native women, while some retrospective data suggest that the relative risks are accurate for this population. Use caution when interpreting these results.\";\n        } else {\n            msg= \"\";\n        }\n\n        calc_output = []\n\n        // Calculate 5 year risk.  \n        var absRisk5yr = self.Helper.riskcalc(1, currentAge, currentAge + 5, menarcheAge, firstLiveBirthAge, hadBiopsy, numBiopsy, hyperPlasia, firstDegreeRel, race)\n        var avgRisk5yr = self.Helper.riskcalc(2, currentAge, currentAge + 5, menarcheAge, firstLiveBirthAge, hadBiopsy, numBiopsy, hyperPlasia, firstDegreeRel, race)\n        var absRiskPctg5yr = parseFloat((parseFloat(absRisk5yr.toFixed(6))*100)).toFixed(1)\n        var avgRiskPctg5yr = parseFloat((parseFloat(avgRisk5yr.toFixed(6))*100)).toFixed(1)\n\n        calc_output.push({\n            name: 'mini',\n            value: absRiskPctg5yr.toString() + '%',\n            value_text: '',\n            message:  '5-year breast cancer risk'\n        });\n\n        calc_output.push({\n            name: '5-year breast cancer risk',\n            value: absRiskPctg5yr.toString() + '%',\n            value_text: '',\n            message:  '5-year breast cancer risk<br/><br/>Compared with ' + avgRiskPctg5yr.toString() +'% for the average ' + currentAge + ' year old woman' + msg\n        });\n\n        // Calculate lifetime risk. \n        var absRisklife = self.Helper.riskcalc(1, currentAge, 90, menarcheAge, firstLiveBirthAge, hadBiopsy, numBiopsy, hyperPlasia, firstDegreeRel, race)\n        var avgRisklife = self.Helper.riskcalc(2, currentAge, 90, menarcheAge, firstLiveBirthAge, hadBiopsy, numBiopsy, hyperPlasia, firstDegreeRel, race)\n        var absRiskPctglife = parseFloat((parseFloat(absRisklife.toFixed(6))*100).toFixed(1))\n        var avgRiskPctglife = parseFloat((parseFloat(avgRisklife.toFixed(6))*100).toFixed(1))\n\n        calc_output.push({\n            name: 'Lifetime breast cancer risk',\n            value: absRiskPctglife.toString() + '%',\n            value_text: '',\n            message: 'Lifetime breast cancer risk<br/><br/>Compared with ' + avgRiskPctglife.toString() + '% for the average ' + currentAge+' year old woman'\n        });\n\n        return calc_output\n    };\n}\n\n// GailCalculator(userCurrentAge, userMenarcheAge, userFirstLiveBirthAge, userFirstDegreeRel, userHadBiopsy, userNumBiopsy, userHyperPlasia, userRace)\n// var calculation = new GailCalculator(75, 3, 3, 2, 2, 1, 2, 0).calculate()\n\nvar userCurrentAge = parseFloat(userCurrentAge)\nvar userMenarcheAge = parseFloat(userMenarcheAge)\nvar userFirstLiveBirthAge = parseFloat(userFirstLiveBirthAge)\nvar userFirstDegreeRel = parseFloat(userFirstDegreeRel)\n\nvar userNumBiopsy\nif (parseFloat(userHadBiopsy) == 2) {\n    userNumBiopsy = 1\n} else if (parseFloat(userHadBiopsy) == 3) {\n    userNumBiopsy = 2\n} else {\n    userNumBiopsy = 0\n}\n\nvar userHadBiopsy = (parseFloat(userHadBiopsy) == 3) ? 2 : parseFloat(userHadBiopsy)\n// var userNumBiopsy = ((typeof userNumBiopsy == 'undefined') || (userHadBiopsy !== 2 && userHadBiopsy !== 3)) ? 0 : parseFloat(userNumBiopsy)\nvar userHyperPlasia = ((typeof userNumBiopsy == 'undefined') || (userHadBiopsy !== 2)) ? 0 : parseFloat(userHyperPlasia)\n\nvar userRace = parseFloat(userRace)\n\nif (userRace == 3) {\n    userRace = parseFloat(asianSubRace)\n}\n\nvar calc_output = new GailCalculator(userCurrentAge, userMenarcheAge, userFirstLiveBirthAge, userFirstDegreeRel, userHadBiopsy, userNumBiopsy, userHyperPlasia, userRace).calculate()",
+        "favorite_id": 3647,
+        "full_title_en": "Gail Model for Breast Cancer Risk",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Age",
+            "name": "userCurrentAge",
+            "optional": false,
+            "tips_en": "Valid for women 35-85 years old.",
+            "type": "textbox",
+            "unit": "gail_age"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "First menstrual period",
+            "name": "userMenarcheAge",
+            "optional": false,
+            "options": [
+              {
+                "label": "Unknown",
+                "value": 0
+              },
+              {
+                "label": "7-11 years old",
+                "value": 1
+              },
+              {
+                "label": "12-13 years old ",
+                "value": 2
+              },
+              {
+                "label": ">13 years old",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "First live birth",
+            "name": "userFirstLiveBirthAge",
+            "optional": false,
+            "options": [
+              {
+                "label": "Unknown",
+                "value": 5
+              },
+              {
+                "label": "No births",
+                "value": 0
+              },
+              {
+                "label": "<20 years old",
+                "value": 1
+              },
+              {
+                "label": "20-24 years old",
+                "value": 2
+              },
+              {
+                "label": "25-29 years old",
+                "value": 3
+              },
+              {
+                "label": "≥30 years old",
+                "value": 4
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "First-degree relatives with breast cancer",
+            "name": "userFirstDegreeRel",
+            "optional": false,
+            "options": [
+              {
+                "label": "Unknown",
+                "value": 0
+              },
+              {
+                "label": "0",
+                "value": 1
+              },
+              {
+                "label": "1",
+                "value": 2
+              },
+              {
+                "label": ">1",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Include only mother, sisters and daughters",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Previous breast biopsy",
+            "name": "userHadBiopsy",
+            "optional": false,
+            "options": [
+              {
+                "label": "Unknown",
+                "value": 0
+              },
+              {
+                "label": "0",
+                "value": 1
+              },
+              {
+                "label": "1",
+                "value": 2
+              },
+              {
+                "label": ">1",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "userHadBiopsy == 2 || userHadBiopsy == 3",
+            "default": null,
+            "label_en": "≥1 breast biopsy with atypical hyperplasia",
+            "name": "userHyperPlasia",
+            "optional": false,
+            "options": [
+              {
+                "label": "Unknown",
+                "value": 0
+              },
+              {
+                "label": "No",
+                "value": 1
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Race/ethnicity",
+            "name": "userRace",
+            "optional": false,
+            "options": [
+              {
+                "label": "White",
+                "value": 0
+              },
+              {
+                "label": "African-American",
+                "value": 1
+              },
+              {
+                "label": "Hispanic",
+                "value": 2
+              },
+              {
+                "label": "Asian-American",
+                "value": 3
+              },
+              {
+                "label": "American-Indian/Alaskan Native",
+                "value": 9
+              },
+              {
+                "label": "Unknown",
+                "value": 10
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "userRace == 3",
+            "default": null,
+            "label_en": "Asian-American sub race",
+            "name": "asianSubRace",
+            "optional": false,
+            "options": [
+              {
+                "label": "Chinese",
+                "value": 3
+              },
+              {
+                "label": "Japanese",
+                "value": 4
+              },
+              {
+                "label": "Filipino",
+                "value": 5
+              },
+              {
+                "label": "Hawaiian",
+                "value": 6
+              },
+              {
+                "label": "Pacific Islander",
+                "value": 7
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>The Gail Model is for use in women with no history of breast cancer, DCIS or LCIS. Other tools may be more appropriate for women with known mutations in BRCA1, BRCA2, or other hereditary syndromes associated with breast cancer. See the Evidence section for more information.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added race warning",
+            "time": "2021-09-28T16:47:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "adjusted instructions",
+            "time": "2020-11-12T10:04:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "race input edits",
+            "time": "2020-07-30T14:10:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "removed defaults",
+            "time": "2019-02-28T11:34:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "1f750fa7b63f007a13f22e9762866968",
+        "medium_description_en": "<p>Estimates risk for breast cancer based on demographic and clinical data.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "Gail",
+          "ca",
+          "breast",
+          "brca1"
+        ],
+        "search_id": "c-3647",
+        "seo": {
+          "keywords_en": "Gail Model for Breast Cancer Risk, gail model, gail calculator, gail model for breast ca, breast cancer awareness, breast cancer prognosis, brCA prognostic tool, risk of breast cancer, risk calculator breast cancer",
+          "meta_description_en": "The Gail Model for Breast Cancer Risk estimates risk for breast cancer based on demographic and clinical data."
+        },
+        "short_description_en": "Breast CA risk based on demographic and clinical data.",
+        "short_title_en": "Gail Model for Breast CA Risk",
+        "slug": "gail-model-breast-cancer-risk",
+        "specialty_en": [
+          "Family Practice",
+          "Hematology and Oncology",
+          "Internal Medicine",
+          "OB-Gyn",
+          "Radiation Oncology",
+          "Radiology",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Oncologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Akiko",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Chiba",
+          "name": "Akiko Chiba, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Mitchell Gail, MD, PhD, is an adjunct professor at Johns Hopkins University and a principal investigator at the National Cancer Institute Division of Cancer Epidemiology & Genetics, Biostatistics Branch. He is a former president of the American Statistical Association. He has won numerous awards, most notably the American Cancer Society Award for Research Excellence in Cancer Epidemiology and Prevention. His research focuses on creating models for determining absolute risk of diseases.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Mitchell Gail",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-mitchell-gail.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Gail+MH%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T16:47:45.010Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3647/gail-model-breast-cancer-risk",
+        "description": "The Gail Model for Breast Cancer Risk estimates risk for breast cancer based on demographic and clinical data.",
+        "keywords": "Gail Model for Breast Cancer Risk, gail model, gail calculator, gail model for breast ca, breast cancer awareness, breast cancer prognosis, brCA prognostic tool, risk of breast cancer, risk calculator breast cancer",
+        "title": "Gail Model for Breast Cancer Risk"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 85,
+          "error_max_si": 85,
+          "error_max_us": 85,
+          "error_min": 34,
+          "error_min_si": 34,
+          "error_min_us": 34,
+          "name": "Age",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "gail_age",
+          "units_si": "years",
+          "units_us": "years",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 84,
+          "warn_max_si": 84,
+          "warn_max_us": 84,
+          "warn_min": 35,
+          "warn_min_si": 35,
+          "warn_min_us": 35
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 3909,
+          "short_title_en": "<p>Additional Nodal Metastasis Nomogram</p>",
+          "slug": "additional-nodal-metastasis-nomogram"
+        },
+        {
+          "calcId": 3312,
+          "short_title_en": "mGPS for Cancer Outcomes",
+          "slug": "modified-glasgow-prognostic-score-mgps-cancer-outcomes"
+        },
+        {
+          "calcId": 2048,
+          "short_title_en": "Gleason Score",
+          "slug": "gleason-score-prostate-cancer"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3647",
+      "gail-model-breast-cancer-risk"
+    ]
+  },
+  "scriptLoader": []
+}

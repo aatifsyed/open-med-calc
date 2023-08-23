@@ -1,0 +1,1632 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Joint Pain"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">PAS = (A x 3.33 + B + C) / 3, where</p>\n<ul>\n<li>A = Health Assessment Questionnaire Disability Index (HAQ-DI), calculated by averaging of the selected categorical scores* below.</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">B = Pain Visual Analog Scale (ask patient to rate pain on a scale of 0-10, where 10 is worst pain imaginable).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">C = Patient Global Assessment of Disease Activity (ask patient to rate how well they are doing in the past week considering all the ways their disease affects them on a scale of 0-10, where 10 is the worst).</p>\n</li>\n</ul>\n<p>*Categorical score is the highest selected score within a given category. Example: If patient can self-dress without any difficulty but shampoos hair with much difficulty, the categorical score for dress and groom&nbsp;is 2.</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"213\" /><col width=\"112\" /><col width=\"124\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Is patient able to dress and groom</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Self-dress, including shoelaces and buttons</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Shampoo hair</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Is patient able to a</strong><strong>rise</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Stand up from a straight chair</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Get in and out of bed</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Is patient able to e</strong><strong>at</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Cut own meat</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Lift a full cup or glass to mouth</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Open a new milk carton</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Is patient able to w</strong><strong>alk</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Walk outdoors on flat ground</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Climb up five steps</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Is patient able to p</strong><strong>erform hygiene activities</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Wash and dry body</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Take a tub bath</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Get on and off toilet</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Is patient able to r</strong><strong>each</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Reach and get down a 5-pound object (such as a bag of sugar) from above head</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Bend down to pick up clothing from floor</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Is patient able to g</strong><strong>rip</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Open car doors</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Open previously opened jars</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Turn faucets on and off</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><strong>Is patient able to p</strong><strong>erform other activities</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Run errands and shop</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Get in and out of car</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Do chores such as vacuuming or yard work</p>\n</td>\n<td>\n<p dir=\"ltr\">Without any difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With some difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">With much difficulty</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Unable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">If patient uses any aids or devices and/or requires help from another person for any given category, the score for that category is adjusted upward to 2. If the categorical score is already &ge;2, the score remains unchanged.</p>\n<p dir=\"ltr\"></p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"*\" /><col width=\"*\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>PAS</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Disease activity</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0.00-0.25</p>\n</td>\n<td>\n<p dir=\"ltr\">Remission</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0.26-3.70</p>\n</td>\n<td>\n<p dir=\"ltr\">Low/minimal</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">3.71-7.99</p>\n</td>\n<td>\n<p dir=\"ltr\">Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">8.00-10.00</p>\n</td>\n<td>\n<p dir=\"ltr\">High/severe</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-1685c015-7fff-34c5-942e-179a39289677\"></span><span id=\"docs-internal-guid-1685c015-7fff-34c5-942e-179a39289677\"><br /></span></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.jrheum.org/content/32/12/2410",
+                  "text": "Wolfe F, Michaud K, Pincus T. A composite disease activity scale for clinical practice, observational studies, and clinical trials: the patient activity scale (PAS/PAS-II). J Rheumatol. 2005;32(12):2410-5."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.rheumatology.org/Portals/0/Files/Rheumatoid%20Arthritis%20Disease%20Activity%20Measures.pdf",
+                  "text": "Anderson J, Caplan L, Yazdany J, et al. Rheumatoid arthritis disease activity measures: American College of Rheumatology recommendations for use in clinical practice. Arthritis Care Res (Hoboken). 2012;64(5):640-7."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Frederick Wolfe",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the&nbsp;PAS for RA and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the&nbsp;PAS for RA and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [
+              {
+                "CalculatorId": 10127,
+                "createdAt": "2019-07-02T20:18:29.814Z",
+                "description": "Guideline from ACR",
+                "id": 12,
+                "link": "https://www.mdcalc.com/guidelines/other/treatment-rheumatoid-arthritis",
+                "order": 0,
+                "society": "American College of Rheumatology",
+                "text": "Treatment of Rheumatoid Arthritis",
+                "updatedAt": "2021-03-19T20:37:00.943Z"
+              }
+            ],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Rheumatoid Arthritis"
+        ],
+        "dosing": false,
+        "equation_logic_text": "//outputs\nvar calc_output = [];\n\n//user inputs\nvar haq1 = parseFloat(haq1);\nvar haq2 = parseFloat(haq2);\nvar haq3 = parseFloat(haq3);\nvar haq4 = parseFloat(haq4);\nvar haq5 = parseFloat(haq5);\nvar haq6 = parseFloat(haq6);\nvar haq7 = parseFloat(haq7);\nvar haq8 = parseFloat(haq8);\nvar haq9 = parseFloat(haq9);\nvar haq10 = parseFloat(haq10);\nvar haq11 = parseFloat(haq11);\nvar haq12 = parseFloat(haq12);\nvar haq13 = parseFloat(haq13);\nvar haq14 = parseFloat(haq14);\nvar haq15 = parseFloat(haq15);\nvar haq16 = parseFloat(haq16);\nvar haq17 = parseFloat(haq17);\nvar haq18 = parseFloat(haq18);\nvar haq19 = parseFloat(haq19);\nvar haq20 = parseFloat(haq20);\n\nvar device1 = parseFloat(device1);\nvar device2 = parseFloat(device2);\nvar device3 = parseFloat(device3);\nvar device4 = parseFloat(device4);\nvar device5 = parseFloat(device5);\nvar device6 = parseFloat(device6);\nvar device7 = parseFloat(device7);\n\nvar help1 = parseFloat(help1);\nvar help2 = parseFloat(help2);\nvar help3 = parseFloat(help3);\nvar help4 = parseFloat(help4);\nvar help5 = parseFloat(help5);\nvar help6 = parseFloat(help6);\nvar help7 = parseFloat(help7);\nvar help8 = parseFloat(help8);\n\nvar dressing = Math.max(haq1, haq2);\nvar arising = Math.max(haq3, haq4);\nvar eating = Math.max(haq5, haq6, haq7);\nvar walking = Math.max(haq8, haq9);\nvar hygiene = Math.max(haq10, haq11, haq12);\nvar reach = Math.max(haq13, haq14);\nvar grip = Math.max(haq15, haq16, haq17);\nvar activities = Math.max(haq18, haq19, haq20);\n\nif (dressing < 2) {\n  if (device1 > 0 || help1 > 0) {\n    dressing = 2;\n  }\n}\nif (arising < 2) {\n  if (device2 > 0 || help2 > 0) {\n    arising = 2;\n  }\n}\nif (eating < 2) {\n  if (device3 > 0 || help3 > 0) {\n    eating = 2;\n  }\n}\nif (walking < 2) {\n  if (device4 > 0 || help4 > 0) {\n    walking = 2;\n  }\n}\nif (hygiene < 2) {\n  if (device5 > 0 || help5 > 0) {\n    hygiene = 2;\n  }\n}\nif (reach < 2) {\n  if (device6 > 0 || help6 > 0) {\n    reach = 2;\n  }\n  }  \nif (grip < 2) {\n  if (device7 > 0 || help7 > 0) {\n    grip = 2;\n  }\n}\nif (activities < 2) {\n  if (help8 > 0) {\n    activities = 2;\n  }\n}\n\nvar haq = dressing + arising + eating + walking + hygiene + reach + grip + activities;\nhaq = haq/8;\n\nvar pain = parseFloat(pain);\nvar global = parseFloat(global);\nvar risk;\nvar msg;\n\n//final score\nvar score = (haq*3.33) + pain + global;\nscore = score/3;\nscore = score.toFixed(2);\n  \n//disease activity\nif (score <= 0.25 && score >= 0){\n  risk = 'Remission';\n    msg = risk;\n} else if (score <= 3.70 && score >= 0.26){\n  risk = 'Low/minimal';\n    msg = risk + \" disease activity\";\n} else if (score <= 7.99 && score >= 3.71){\n  risk = 'Moderate';\n    msg = risk + \" disease activity\";\n} else{\n  risk = 'High/severe';\n    msg = risk + \" disease activity\";\n}\n\n//result for user \ncalc_output.push({\n  name: 'mini',\n  value: score,\n  value_text: 'points',\n  message: msg\n});\ncalc_output.push({\n  name: 'group',\n  value: score,\n  value_text: 'points',\n  message: 'PAS'\n});\ncalc_output.push({\n  name: 'ppf',\n  value: risk,\n  value_text: '',\n  message: 'Disease activity<br/><br/><guideline id = \"10123\">ACR guideline</guideline>'\n});\n",
+        "favorite_id": 10127,
+        "full_title_en": "Patient Activity Scale (PAS) for RA",
+        "input_schema": [
+          {
+            "subheading": "Health Assessment Questionnaire Disability Index",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "subheading": "<strong>Dress and groom - is the patient able to:</strong>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Self-dress, including shoelaces and buttons",
+            "name": "haq1",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Shampoo hair",
+            "name": "haq2",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "<strong>Rise - is the patient able to:</strong>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Stand up from a straight chair",
+            "name": "haq3",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Get in and out of bed",
+            "name": "haq4",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "<strong>Eat - is the patient able to:</strong>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Cut own meat",
+            "name": "haq5",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Lift a full cup or glass to mouth",
+            "name": "haq6",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Open a new milk carton",
+            "name": "haq7",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "<strong>Walk - is the patient able to:</strong>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Walk outdoors on flat ground",
+            "name": "haq8",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Climb up five steps",
+            "name": "haq9",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "<strong>Hygiene - is the patient able to:</strong>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Wash and dry body",
+            "name": "haq10",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Take a tub bath",
+            "name": "haq11",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Get on and off toilet",
+            "name": "haq12",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "<strong>Reach - is the patient able to:</strong>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Reach and get down a 5-pound object (such as a bag of sugar) from above head",
+            "name": "haq13",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Bend down to pick up clothing from floor",
+            "name": "haq14",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "<strong>Grip - is the patient able to:</strong>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Open car doors",
+            "name": "haq15",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Open previously opened jars",
+            "name": "haq16",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Turn faucets on and off",
+            "name": "haq17",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "<strong>Other - is the patient able to:</strong>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Run errands and shop",
+            "name": "haq18",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Get in and out of car",
+            "name": "haq19",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Do chores such as vacuuming or yard work",
+            "name": "haq20",
+            "optional": false,
+            "options": [
+              {
+                "label": "Without any difficulty",
+                "value": 0
+              },
+              {
+                "label": "With some difficulty",
+                "value": 1
+              },
+              {
+                "label": "With much difficulty",
+                "value": 2
+              },
+              {
+                "label": "Unable",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "<strong>Aids or devices used by patient</strong>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Devices for dressing",
+            "name": "device1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Button hook, zipper pull",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Devices for arising",
+            "name": "device2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Special or built up chair",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Devices for eating",
+            "name": "device3",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Built up or special utensils",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Devices for walking",
+            "name": "device4",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Cane, walker, crutches, wheelchair",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Devices for hygiene activities",
+            "name": "device5",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Raised toilet seat, bathtub seat, bathtub bar, long-handled appliances in bathroom",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Devices for reaching",
+            "name": "device6",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Long-handled appliances for reach",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Devices for gripping",
+            "name": "device7",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Jar opener (for jars previously opened)",
+            "type": "toggle"
+          },
+          {
+            "subheading": "<strong>Patient needs help from another person</strong>",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Dressing and grooming",
+            "name": "help1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Arising",
+            "name": "help2",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Eating",
+            "name": "help3",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Walking",
+            "name": "help4",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Hygiene activities",
+            "name": "help5",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Reaching",
+            "name": "help6",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Gripping and opening things",
+            "name": "help7",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Errands and chores",
+            "name": "help8",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "subheading": "Pain Visual Analog Scale",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Ask patient to rate pain on a scale of 0-10, where 10 is the worst pain imaginable",
+            "name": "pain",
+            "optional": false,
+            "options": [
+              {
+                "label": "0",
+                "value": 0
+              },
+              {
+                "label": "1",
+                "value": 1
+              },
+              {
+                "label": "2",
+                "value": 2
+              },
+              {
+                "label": "3",
+                "value": 3
+              },
+              {
+                "label": "4",
+                "value": 4
+              },
+              {
+                "label": "5",
+                "value": 5
+              },
+              {
+                "label": "6",
+                "value": 6
+              },
+              {
+                "label": "7",
+                "value": 7
+              },
+              {
+                "label": "8",
+                "value": 8
+              },
+              {
+                "label": "9",
+                "value": 9
+              },
+              {
+                "label": "10",
+                "value": 10
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "subheading": "Patient Global Assessment of Disease Activity",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Ask patient to rate how well they are doing in the past week considering all the ways their disease affects them on a scale of 0-10, where 10 is the worst",
+            "name": "global",
+            "optional": false,
+            "options": [
+              {
+                "label": "0",
+                "value": 0
+              },
+              {
+                "label": "1",
+                "value": 1
+              },
+              {
+                "label": "2",
+                "value": 2
+              },
+              {
+                "label": "3",
+                "value": 3
+              },
+              {
+                "label": "4",
+                "value": 4
+              },
+              {
+                "label": "5",
+                "value": 5
+              },
+              {
+                "label": "6",
+                "value": 6
+              },
+              {
+                "label": "7",
+                "value": 7
+              },
+              {
+                "label": "8",
+                "value": 8
+              },
+              {
+                "label": "9",
+                "value": 9
+              },
+              {
+                "label": "10",
+                "value": 10
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Note: the <calculator id=\"10128\">PAS II</calculator> is an alternative to the PAS. PAS II uses a slightly different questionnaire with fewer questions than the original PAS, though the overall accuracy of the two is the same.</p>",
+        "logs": [
+          {
+            "message": "edited description",
+            "time": "2021-03-19T16:36:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited results",
+            "time": "2019-05-23T14:22:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added guidelines info",
+            "time": "2019-05-01T17:08:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "publish",
+            "time": "2019-03-07T11:25:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "GW edits",
+            "time": "2019-03-07T10:57:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "RK edits",
+            "time": "2019-03-05T13:08:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-02-26T14:27:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-02-26T14:26:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-02-26T11:29:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited heading",
+            "time": "2019-02-26T11:08:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-02-18T13:50:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-02-18T13:43:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-02-18T13:41:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula table",
+            "time": "2019-02-18T13:34:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2019-02-18T13:18:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugged",
+            "time": "2019-02-18T12:09:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added new code",
+            "time": "2019-02-18T12:04:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugged",
+            "time": "2019-02-18T11:37:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2019-02-08T17:22:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added haq inputs",
+            "time": "2019-02-08T16:42:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edit",
+            "time": "2019-01-28T14:50:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2019-01-17T16:27:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "equation logic - declare risk and msg",
+            "time": "2019-01-14T13:52:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "changed haq unit",
+            "time": "2019-01-14T13:02:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "removed HAQ I link",
+            "time": "2019-01-14T12:44:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-01-11T12:36:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "link to target = new window",
+            "time": "2019-01-11T12:06:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added dummy text",
+            "time": "2019-01-11T12:03:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added inputs",
+            "time": "2019-01-11T11:58:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "building calc",
+            "time": "2019-01-10T16:46:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "",
+        "medium_description_en": "<p>Quantifies severity of rheumatoid arthritis (RA) using patient-reported symptoms.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "Disease activity",
+          "pain vas",
+          "haq",
+          "arthritis",
+          "patient global health"
+        ],
+        "search_id": "c-10127",
+        "seo": {
+          "keywords_en": "Disease activity, arthritis, patient global health, haq, pain vas",
+          "meta_description_en": "The Patient Activity Scale (PAS) for RA quantifies severity of rheumatoid arthritis (RA) using patient-reported symptoms."
+        },
+        "short_description_en": "RA severity, more extensive than PAS II.",
+        "short_title_en": "Patient Activity Scale for RA",
+        "slug": "patient-activity-scale-pas-ra",
+        "specialty_en": [
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Orthopedics",
+          "Primary Care",
+          "Rheumatology"
+        ],
+        "system_en": [
+          "Musculoskeletal",
+          "Rheumatologic"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "Frederick Wolfe, MD, is a rheumatologist and clinical professor of medicine at the University of Kansas School of Medicine. He is also the director of the National Data Bank for Rheumatic Disease. Dr. Wolfe’s primary research is focused on outcomes of rheumatic diseases.",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Frederick Wolfe",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-frederick-wolfe.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Wolfe+F%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10127/patient-activity-scale-pas-ra",
+        "description": "The Patient Activity Scale (PAS) for RA quantifies severity of rheumatoid arthritis (RA) using patient-reported symptoms.",
+        "keywords": "Disease activity, arthritis, patient global health, haq, pain vas",
+        "title": "Patient Activity Scale (PAS) for RA"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10128,
+          "short_title_en": "Patient Activity Scale II for RA",
+          "slug": "patient-activity-scale-ii-pas-ii-ra"
+        },
+        {
+          "calcId": 2176,
+          "short_title_en": "DAS28-ESR for Rheumatoid Arthritis",
+          "slug": "disease-activity-score-28-rheumatoid-arthritis-esr-das28-esr"
+        },
+        {
+          "calcId": 2193,
+          "short_title_en": "DAS28-CRP for Rheumatoid Arthritis",
+          "slug": "disease-activity-score-28-rheumatoid-arthritis-crp-das28-crp"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10127",
+      "patient-activity-scale-pas-ra"
+    ]
+  },
+  "scriptLoader": []
+}

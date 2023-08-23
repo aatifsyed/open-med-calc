@@ -1,0 +1,318 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chronic Pain",
+          "Constipation",
+          "Depressed",
+          "Fatigue",
+          "Loss of Appetite",
+          "Nausea",
+          "Pain",
+          "Weight Loss/Gain"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "ManufacturerWebsite": [],
+              "Original/Primary Reference": [],
+              "Other References": [],
+              "Outcomes": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Yale Addiction Implementation Science Team",
+              "qa_en": null
+            },
+            {
+              "approved": null,
+              "name": "The EMBED Design Team",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Chronic Pain",
+          "Drug/Alcohol Use",
+          "Ingestion/Overdose",
+          "Substance Withdrawal"
+        ],
+        "dosing": false,
+        "equation_logic": "f7e144653847bc9b092189fe9f007e5e",
+        "equation_logic_text": "calc_output = [];\n\nvar oud = parseFloat(oud);\nvar treatment = parseFloat(treatment);\nvar withdrawal = parseFloat(withdrawal);\nvar pregnant = parseFloat(pregnant);\nvar waiver = parseFloat(waiver);\n\nvar resultNumber = 0;\n\nif (oud == 0) {\n    resultNumber = 1;\n} else if (treatment == 1) {\n    resultNumber = 3;\n} else if (withdrawal == 0) {\n    if (pregnant == 1) {\n        if (waiver == 1) {\n            resultNumber = 11;\n        } else if (waiver == 0) {\n            resultNumber = 5;\n        }\n    } else if (pregnant == 0) {\n        if (waiver == 1) {\n            resultNumber = 10;\n        } else if (waiver == 0) {\n            resultNumber = 4;\n        }\n    }\n} else if (withdrawal == 1) {\n    if (pregnant == 1) {\n        if (waiver == 1) {\n            resultNumber = 13;\n        } else if (waiver == 0) {\n            resultNumber = 7;\n        }\n    } else if (pregnant == 0) {\n        if (waiver == 1) {\n            resultNumber = 12;\n        } else if (waiver == 0) {\n            resultNumber = 6;\n        }\n    } \n} else if (withdrawal == 2) {\n    if (pregnant == 1) {\n        if (waiver == 1) {\n            resultNumber = 15;\n        } else if (waiver == 0) {\n            resultNumber = 9;\n        }\n    } else if (pregnant == 0) {\n        if (waiver == 1) {\n            resultNumber = 14;\n        } else if (waiver == 0) {\n            resultNumber = 8;\n        }\n    }\n}\n\nvar header = '';\nvar msg = '';\nvar ns = '';\n\nif (resultNumber == 1) {\n    header = 'Advice: Does not meet criteria';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient does not meet diagnostic criteria for opioid use disorder. Therefore, I did not initiate treatment or place a referral for ongoing treatment.';\n    ns = '<div> <u>Orders</u><br />  - None <br /><br /> <u>Prescriptions</u><br />  - None <br /><br /> <u>AVS/Discharge Instructions</u><br />  - None <br /><br /> <u>Refer to opioid treatment program or office-based treatment</u>';\n} else if (resultNumber == 2) {\n    header = 'Advice: Not ready for BUP';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient does not meet criteria for ED-initiated buprenorphine or is not ready for medication for addiction treatment at this time. However, the patient is willing to accept referral for addiction treatment, and I will generate a referral.'\n    ns = '<div> <u>Orders</u><br /> - None <br /><br /> <u>Prescriptions</u><br />  - None <br /><br /> <u>AVS/Discharge Instructions</u><br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray)<br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</u>';\n} else if (resultNumber == 3) {\n    header = 'Advice: Not ready for treatment';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this app, I determined that this patient has untreated opioid use disorder but at this time declined initiation of buprenorphine despite a brief motivational conversation. Therefore, they have received information regarding referral and harm reduction strategies. The patient has been offered the opportunity to return for treatment at any time if they change their mind.';\n    ns = '<div> <u>Orders</u><br /> - None <br /><br /> <u>Prescriptions</u><br />  - None <br /><br /> <u>AVS/Discharge Instructions</u><br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray)<br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</u>';\n} else if (resultNumber == 4) {\n    header = 'Advice: Hold in ED';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient has: <BLOCKQUOTE> (1) Opioid use disorder. <br/> (2) A clinical opioid withdrawal scale of less than 8. <br/> (3) Has expressed readiness to begin treatment with buprenorphine.</BLOCKQUOTE> The patient will receive: <BLOCKQUOTE> (1) Buprenorphine 4 mg once their COWS score is 8 or greater in the ED today. <br/> (2) A prescription for naloxone. <br/> (3) Referral to treatment. <br/> (4) Education on opioid use disorder, naloxone use, this study, and instructions to return to the ED in 24 hours for their next dose of buprenorphine if they are unable to schedule an appointment with a buprenorphine prescriber tomorrow.</BLOCKQUOTE>';\n    ns = '<div> <u>Orders</u><br /> - No orders at this time <br /> - Hold the patient in the ED until withdrawal worsens to a COWS score of 8 or more and order Buprenorphine-naloxone SL tablet 4mg or return to this calculator for further guidance. <br /><br /> <u>Prescriptions</u><br />  - Naloxone Nasal Spray 4mg <br /><br /> <u>AVS/Discharge Instructions</u><br /> - Return to the ED daily for up to 72 hours for additional dosing of buprenorphine <br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray) <br /> - Buprenorphine medication instructions <br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</u>';\n} else if (resultNumber == 5) {\n    header = 'Advice: Hold in ED';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient has: <BLOCKQUOTE> (1) Opioid use disorder. <br/> (2) A clinical opioid withdrawal scale of less than 8. <br/> (3) Has expressed readiness to begin treatment with buprenorphine.</BLOCKQUOTE> The patient will receive: <BLOCKQUOTE> (1) Buprenorphine 4 mg once their COWS score is 8 or greater in the ED today. <br/> (2) A prescription for naloxone. <br/> (3) Referral to treatment. <br/> (4) Education on opioid use disorder, naloxone use, this study, and instructions to return to the ED in 24 hours for their next dose of buprenorphine if they are unable to schedule an appointment with a buprenorphine prescriber tomorrow.</BLOCKQUOTE>';\n    ns = '<div> <u>Orders</u><br /> - No orders at this time <br /> - Hold the patient in the ED until withdrawal worsens to a COWS score of 8 or more and order Buprenorphine tablet 4mg or return to this calculator for further guidance. <br /><br /> <u>Prescriptions</u><br />  - Naloxone Nasal Spray 4mg <br /><br /> <u>AVS/Discharge Instructions</u><br /> - Return to the ED daily for up to 72 hours for additional dosing of buprenorphine <br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray) <br /> - Buprenorphine medication instructions <br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</u>';\n} else if (resultNumber == 6) {\n    header = 'Advice: Start 4mg BUP (2x)';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient has: <BLOCKQUOTE> (1) Opioid use disorder. <br/> (2) A clinical opioid withdrawal scale of 8-12. <br/> (3) Has expressed readiness to begin treatment with buprenorphine.</BLOCKQUOTE> The patient will receive: <BLOCKQUOTE> (1) Buprenorphine 4 mg in the ED today, be observed for at least 30 minutes, and given another 4mg dose if they have no side effects. <br/> (2) A prescription for naloxone nasal spray. <br/> (3) Referral to treatment. <br/> (4) Education on opioid use disorder, naloxone use, this study, and instructions to return to the ED in 24 hours for their next dose of buprenorphine if they are unable to schedule an appointment with a buprenorphine prescriber tomorrow.</BLOCKQUOTE>';\n    ns = '<div> <u>Orders</u><br /> - Buprenorphine-naloxone SL tablet 4mg <br /> - Administer 4mg now. Observe patient for at least 30 minutes. If no adverse events, administer second dose. <br /><br /> <u>Prescriptions</u><br />  - Naloxone Nasal Spray 4mg <br /><br /> <u>AVS/Discharge Instructions</u><br /> - Return to the ED daily for up to 72 hours for additional dosing of buprenorphine <br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray) <br /> - Buprenorphine medication instructions <br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</div>';\n} else if (resultNumber == 7) {\n    header = 'Advice: Start 4mg BUP (2x)';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient has: <BLOCKQUOTE> (1) Opioid use disorder. <br/> (2) A clinical opioid withdrawal scale of 8-12. <br/> (3) Has expressed readiness to begin treatment with buprenorphine. </BLOCKQUOTE> The patient will receive: <BLOCKQUOTE> (1) Buprenorphine 4 mg in the ED today, be observed for at least 30 minutes, and given another 4mg dose if they have no side effects. <br/> (2) A prescription for naloxone nasal spray. <br/> (3) Referral to treatment. <br/> (4) Education on opioid use disorder, naloxone use, this study, and instructions to return to the ED in 24 hours for their next dose of buprenorphine if they are unable to schedule an appointment with a buprenorphine prescriber tomorrow.</BLOCKQUOTE>';\n    ns = '<div> <u>Orders</u><br /> - Buprenorphine tablet 4mg <br /> - Administer 4mg now. Observe patient for at least 30 minutes. If no adverse events, administer second dose. <br /><br /> <u>Prescriptions</u><br />  - Naloxone Nasal Spray 4mg <br /><br /> <u>AVS/Discharge Instructions</u><br /> - Return to the ED daily for up to 72 hours for additional dosing of buprenorphine <br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray) <br /> - Buprenorphine medication instructions <br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</u>';\n} else if (resultNumber == 8) {\n    header = 'Advice: Start 8mg BUP';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient has: <BLOCKQUOTE> (1) Opioid use disorder. <br/> (2) A clinical opioid withdrawal scale of greater than 12. <br/> (3) Has expressed readiness to begin treatment with buprenorphine. </BLOCKQUOTE> The patient will receive: <BLOCKQUOTE> (1) Buprenorphine 8 mg in the ED today and then be observed for at least 30 minutes to ensure no side effects to the medication. <br/> (2) A prescription for naloxone nasal spray. <br/> (3) Referral to treatment. <br/> (4) Education on opioid use disorder, naloxone use, this study, and instructions to return to the ED in 24 hours for their next dose of buprenorphine if they are unable to schedule an appointment with a buprenorphine prescriber tomorrow.</BLOCKQUOTE>';\n    ns = '<div> <u>Orders</u><br /> - Buprenorphine-naloxone SL tablet 8mg <br /><br /> <u>Prescriptions</u><br />  - Naloxone Nasal Spray 4mg <br /><br /> <u>AVS/Discharge Instructions</u><br /> - Return to the ED daily for up to 72 hours for additional dosing of buprenorphine <br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray) <br /> - Buprenorphine medication instructions <br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</u>';\n} else if (resultNumber == 9) {\n    header = 'Advice: Start 8mg BUP';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient has: <BLOCKQUOTE> (1) Opioid use disorder. <br/> (2) A clinical opioid withdrawal scale of greater than 12. <br/> (3) Has expressed readiness to begin treatment with buprenorphine. </BLOCKQUOTE> The patient will receive: <BLOCKQUOTE> (1) Buprenorphine 8 mg in the ED today and then be observed for at least 30 minutes to ensure no side effects to the medication. <br/> (2) A prescription for naloxone nasal spray. <br/> (3) Referral to treatment. <br/> (4) Education on opioid use disorder, naloxone use, this study, and instructions to return to the ED in 24 hours for their next dose of buprenorphine if they are unable to schedule an appointment with a buprenorphine prescriber tomorrow.</BLOCKQUOTE>';\n    ns = '<div> <u>Orders</u><br /> - Buprenorphine tablet 8mg <br /><br /> <u>Prescriptions</u><br />  - Naloxone Nasal Spray 4mg <br /><br /> <u>AVS/Discharge Instructions</u><br /> - Return to the ED daily for up to 72 hours for additional dosing of buprenorphine <br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray) <br /> - Buprenorphine medication instructions <br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</u>';\n} else if (resultNumber == 10) {\n    header = 'Advice: BUP Rx for Home';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient has: <BLOCKQUOTE> (1) Opioid use disorder. <br/> (2) A clinical opioid withdrawal scale of less than 8. <br/> (3) Has expressed readiness to begin treatment with buprenorphine. </BLOCKQUOTE> The patient will receive: <BLOCKQUOTE> (1) Instructions for home induction of buprenorphine. <br/> (2) Prescriptions for buprenorphine 16mg sublingual daily for 3 days and naloxone spray. <br/> (3) Referral to treatment. <br/> (4) Education on opioid use disorder, naloxone use, this study and instructions to return to the emergency department in 24 hours for their next dose of buprenorphine if they are unable to schedule an appointment with a buprenorphine prescriber tomorrow.</BLOCKQUOTE>';\n    ns = \"<div> <u>Orders</u><br /> - None <br /><br /> <u>Prescriptions</u><br />  - Naloxone Nasal Spray 4mg <br /> - Buprenorphine-naloxone SL tablet or film 16mg <br /><br /> <u>AVS/Discharge Instructions</u><br /> - <a href='https://medicine.yale.edu/edbup/quickstart/Home_Buprenorphine_Initiation_338574_42801_v1.pdf' target='_blank'>Instructions for unobserved induction</a> <br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray) <br /> - Buprenorphine medication instructions <br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</u>\";\n} else if (resultNumber == 11) {\n    header = 'Advice: BUP Rx for Home';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient has: <BLOCKQUOTE> (1) Opioid use disorder. <br/> (2) A clinical opioid withdrawal scale of less than 8. <br/> (3) Has expressed readiness to begin treatment with buprenorphine. </BLOCKQUOTE> The patient will receive: <BLOCKQUOTE> (1) Instructions for home induction of buprenorphine. <br/> (2) Prescriptions for buprenorphine 16mg sublingual daily for 3 days and naloxone spray. <br/> (3) Referral to treatment <br/> (4) Education on opioid use disorder, naloxone use, this study and instructions to return to the emergency department in 24 hours for their next dose of buprenorphine if they are unable to schedule an appointment with a buprenorphine prescriber tomorrow.</BLOCKQUOTE>';\n    ns = \"<div> <u>Orders</u><br /> - None <br /><br /> <u>Prescriptions</u><br />  - Naloxone Nasal Spray 4mg <br /> - Buprenorphine tablet 16mg <br /><br /> <u>AVS/Discharge Instructions</u><br /> - <a href='https://medicine.yale.edu/edbup/quickstart/Home_Buprenorphine_Initiation_338574_42801_v1.pdf' target='_blank'>Instructions for unobserved induction</a><br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray) <br /> - Buprenorphine medication instructions <br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</div>\";\n} else if (resultNumber == 12) {\n    header = 'Advice: Start 4mg BUP (2x)';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient has: <BLOCKQUOTE> (1) Opioid use disorder. <br/> (2) A clinical opioid withdrawal scale of 8-12. <br/> (3) Has expressed readiness to begin treatment with buprenorphine. </BLOCKQUOTE> The patient will receive: <BLOCKQUOTE> (1) Buprenorphine 4 mg in the ED today, be observed for at least 30 minutes, and given another 4mg dose if they have no side effects. <br/> (2) Prescriptions for buprenorphine 16mg sublingual daily for 3 days and naloxone nasal spray. <br/> (3) Referral to treatment. <br/> (4) Education on opioid use disorder, naloxone use, this study and instructions to return to the emergency department in 24 hours for their next dose of buprenorphine if they are unable to schedule an appointment with a buprenorphine prescriber tomorrow.</BLOCKQUOTE>';\n    ns = '<div> <u>Orders</u><br /> - Buprenorphine-naloxone SL tablet 4mg <br /> - Administer 4mg now. Observe patient for at least 30 minutes. If no adverse events, administer second dose.  <br /><br /> <u>Prescriptions</u><br />  - Naloxone Nasal Spray 4mg <br /> - Buprenorphine-naloxone SL tablet or film 16mg <br /><br /> <u>AVS/Discharge Instructions</u><br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray) <br /> - Buprenorphine medication instructions <br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</div>';\n} else if (resultNumber == 13) {\n    header = 'Advice: Start 4mg BUP (2x)';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient has: <BLOCKQUOTE> (1) Opioid use disorder. <br/> (2) A clinical opioid withdrawal scale of 8-12. <br/> (3) Has expressed readiness to begin treatment with buprenorphine. </BLOCKQUOTE> The patient will receive: <BLOCKQUOTE> (1) Buprenorphine 4 mg in the ED today, be observed for at least 30 minutes, and given another 4mg dose if they have no side effects. <br/> (2) Prescriptions for buprenorphine 16mg sublingual daily for 3 days and naloxone nasal spray. <br/> (3) Referral to treatment. <br/> (4) Education on opioid use disorder, naloxone use, this study and instructions to return to the emergency department in 24 hours for their next dose of buprenorphine if they are unable to schedule an appointment with a buprenorphine prescriber tomorrow.</BLOCKQUOTE>';\n    ns = '<div> <u>Orders</u><br /> - Buprenorphine tablet 4mg <br /> - Administer 4mg now. Observe patient for at least 30 minutes. If no adverse events, administer second dose.  <br /><br /> <u>Prescriptions</u><br />  - Naloxone Nasal Spray 4mg <br /> - Buprenorphine tablet 16mg <br /><br /> <u>AVS/Discharge Instructions</u><br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray) <br /> - Buprenorphine medication instructions <br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</div>';\n} else if (resultNumber == 14) {\n    header = 'Advice: Start 8mg BUP';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient has: <BLOCKQUOTE> (1) Opioid use disorder. <br/> (2) A clinical opioid withdrawal scale of greater than 12. <br/> (3) Has expressed readiness to begin treatment with buprenorphine. </BLOCKQUOTE> The patient will receive: <BLOCKQUOTE> (1) Buprenorphine 8 mg in the ED today and then be observed for at least 30 minutes to ensure no side effects to the medication. <br/> (2) A prescription for buprenorphine 16mg sublingual daily for 3 days and for naloxone nasal spray. <br/> (3) Referral to treatment. <br/> (4) Education on opioid use disorder, naloxone use, this study and instructions to return to the emergency department in 24 hours for their next dose of buprenorphine if they are unable to schedule an appointment with a buprenorphine prescriber tomorrow.</BLOCKQUOTE>';\n    ns = '<div> <u>Orders</u><br /> - Buprenorphine-naloxone SL tablet 8mg  <br /><br /> <u>Prescriptions</u><br />  - Naloxone Nasal Spray 4mg <br /> - Buprenorphine-naloxone SL tablet or film 16mg <br /><br /> <u>AVS/Discharge Instructions</u><br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray) <br /> - Buprenorphine medication instructions <br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</div>';\n} else if (resultNumber == 15) {\n    header = 'Advice: Start 8mg BUP';\n    msg = 'I have used the MDCalc-EMBED Buprenorphine Initiation decision support calculator to assess this patient for opioid use disorder, opioid withdrawal, and readiness for treatment. Using this calculator, I determined that this patient has: <BLOCKQUOTE> (1) Opioid use disorder. <br/> (2) A clinical opioid withdrawal scale of greater than 12. <br/> (3) Has expressed readiness to begin treatment with buprenorphine. </BLOCKQUOTE> The patient will receive: <BLOCKQUOTE> (1) Buprenorphine 8 mg in the ED today and then be observed for at least 30 minutes to ensure no side effects to the medication. <br/> (2) A prescription for buprenorphine 16mg sublingual daily for 3 days and for naloxone nasal spray. <br/> (3) Referral to treatment. <br/> (4) Education on opioid use disorder, naloxone use, this study, and instructions to return to the emergency department in 24 hours for their next dose of buprenorphine if they are unable to schedule an appointment with a buprenorphine prescriber tomorrow.</BLOCKQUOTE>';\n    ns = '<div> <u>Orders</u><br /> - Buprenorphine tablet 8mg  <br /><br /> <u>Prescriptions</u><br />  - Naloxone Nasal Spray 4mg <br /> - Buprenorphine tablet 16mg <br /><br /> <u>AVS/Discharge Instructions</u><br /> - Opioid Use Disorder <br /> - Naloxone (nasal spray) <br /> - Buprenorphine medication instructions <br /><br /> <u>Refer to opioid treatment program or office-based treatment</u><br /><br /> <u>Provide Harm Reduction Strategies</u><br /> - Prevent infections: Use alcohol pads and sterile water. Avoid sharing or reusing supplies (needles, cookers, cotton) <br /> - Always use with a friend or let someone know (so they can check on you) <br /> - Leave door ajar or unlocked <br /> - Avoid mixing opioids with alcohol and other sedatives <br /> - Start slow or try a test dose, especially if it has been a while since your last use <br /> - Test out a new supply to see how strong it is – inject slowly or do less to start <br /> - Keep naloxone (Narcan) with you at all times</div>';\n}\n\ncalc_output.push({\n    name: '10484_EMBED_result',\n    value: header,\n    value_text: '',\n    message: msg,\n    next_steps: ns\n});",
+        "favorite_id": 10484,
+        "full_title_en": "Emergency Department-Initiated Buprenorphine for Opioid Use Disorder (EMBED)",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p><span>OUD Present</span></p>",
+            "md_calc_info_concept": null,
+            "name": "oud",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "oud == 1",
+            "default": null,
+            "label_en": "<p>How ready is the patient to start treatment with Buprenorphine today?</p>\n<p><span>Brief Neogotiation Interview</span></p>",
+            "md_calc_info_concept": null,
+            "name": "treatment",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 0
+              },
+              {
+                "label": "Not Ready for Treatment",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "oud == 1 && treatment == 0",
+            "default": null,
+            "label_en": "<p><span>Withdraw Severity</span></p>\n<p>Assessed COWS Score</p>",
+            "md_calc_info_concept": null,
+            "name": "withdrawal",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "<8 <br> None to Mild",
+                "value": 0
+              },
+              {
+                "label": "8-12 <br> Mild to Moderate",
+                "value": 1
+              },
+              {
+                "label": ">12 <br> Moderate to Severe",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "oud == 1 && treatment == 0 && withdrawal >= 0",
+            "default": null,
+            "label_en": "<p>Is the patient pregnant?</p>",
+            "md_calc_info_concept": null,
+            "name": "pregnant",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "oud == 1 && treatment == 0 && withdrawal >= 0",
+            "default": null,
+            "label_en": "<p>Do you have a waiver to prescribe Buprenorphine?</p>",
+            "md_calc_info_concept": null,
+            "name": "waiver",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "is_manual": false,
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "dc5fa888b480a27271ac787857e82399",
+        "medium_description_en": "<p>Assess OUD, opioid withdrawal, and treatment readiness for ED-initiated buprenorphine.</p>",
+        "publishedAt": "2023-08-08T16:52:30.468Z",
+        "purpose_en": [
+          "Calculation"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "embed",
+          "Emergency Department-Initiated Buprenorphine for Opioid Use Disorder (EMBED)",
+          "buprenorphin",
+          "emergency department",
+          "emergency room",
+          "opioid misuse",
+          "opioid use",
+          "opioid use disorder",
+          "oud",
+          "opioid withdrawal",
+          "drug withdrawal",
+          "withdrawal"
+        ],
+        "search_id": "c-10484",
+        "seo": {
+          "keywords_en": "embed, Emergency Department-Initiated Buprenorphine for Opioid Use Disorder (EMBED), buprenorphine, emergency department, emergency room, opioid misuse, opioid use, opioid use disorder, oud, opioid withdrawal, drug withdrawal, withdrawal",
+          "meta_description_en": "Emergency Department-Initiated Buprenorphine for Opioid Use Disorder (EMBED) assess OUD, opioid withdrawal, and treatment readiness for ED-initiated buprenorphine."
+        },
+        "short_description_en": "<p>Buprenorphine readiness assessment.</p>",
+        "short_title_en": "EMBED",
+        "slug": "emergency-department-initiated-buprenorphine-opioid-use-disorder-embed",
+        "specialty_en": [
+          "Anesthesiology",
+          "Critical Care",
+          "Emergency Medicine",
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Pain Management",
+          "Primary Care",
+          "Psychiatry",
+          "Toxicology"
+        ],
+        "system_en": [
+          "Neurologic",
+          "Psychiatric"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "81434756-d5fc-4c7d-b9d2-7f5af7f0f3a6"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<h3 class=\"embedBottomCreatorTitle\">The Creators</h3>\n<div class=\"embedCreatorList\">\n<ul>\n<li>Gail D&rsquo;Onofrio</li>\n<li>Kathryn Hawk</li>\n<li>David Fiellin</li>\n</ul>\n</div>",
+          "createdAt": "2023-08-08T16:52:21.851Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Yale Addiction Implementation Science Team",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/donofrio.67738b18.jpg",
+          "publishedAt": "2023-08-08T16:52:22.993Z",
+          "pubmedLink": null,
+          "signedCOI": false,
+          "updatedAt": "2023-08-15T19:27:13.785Z"
+        },
+        {
+          "about_en": "<h3 class=\"embedBottomCreatorTitle\">The Creators</h3>\n<div class=\"embedCreatorList\">\n<ul>\n<li>Edward Melnick</li>\n<li>Gail D&rsquo;Onofrio</li>\n<li>Jessica Ray</li>\n<li>Matthew Maleska</li>\n<li>Yauheni Solad</li>\n<li>Shara Martel</li>\n<li>Osama Ahmed</li>\n<li>Molly Jeffery</li>\n<li>Tim Platts-Mills</li>\n<li>Erik Hess</li>\n<li>Bidisha Nath</li>\n</ul>\n</div>",
+          "createdAt": "2023-08-08T16:56:05.870Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "The EMBED Design Team",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/melnick.5097a2b5.jpg",
+          "publishedAt": "2023-08-08T16:56:06.735Z",
+          "pubmedLink": null,
+          "signedCOI": false,
+          "updatedAt": "2023-08-15T19:27:49.792Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [],
+      "headConfig": {
+        "canonicalUrl": "/calc/10484/emergency-department-initiated-buprenorphine-opioid-use-disorder-embed",
+        "description": "Emergency Department-Initiated Buprenorphine for Opioid Use Disorder (EMBED) assess OUD, opioid withdrawal, and treatment readiness for ED-initiated buprenorphine.",
+        "keywords": "embed, Emergency Department-Initiated Buprenorphine for Opioid Use Disorder (EMBED), buprenorphine, emergency department, emergency room, opioid misuse, opioid use, opioid use disorder, oud, opioid withdrawal, drug withdrawal, withdrawal",
+        "title": "Emergency Department-Initiated Buprenorphine for Opioid Use Disorder (EMBED)"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [],
+      "societies": {},
+      "validSections": []
+    }
+  },
+  "query": {
+    "slug": [
+      "10484",
+      "emergency-department-initiated-buprenorphine-opioid-use-disorder-embed"
+    ]
+  },
+  "scriptLoader": []
+}

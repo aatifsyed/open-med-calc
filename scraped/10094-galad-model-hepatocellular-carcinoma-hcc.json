@@ -1,0 +1,674 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Jaundice",
+          "Abdominal Pain",
+          "Weight Loss/Gain"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">GALAD Score = -10.08 + 0.09 x A + 1.67 x G + 2.34 log<sub>10</sub>(AF) + 0.04 x L + 1.33 x log<sub>10</sub>(D)</p>\n<p dir=\"ltr\">Where variables are as follows:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"72\" /><col width=\"226\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Value</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>G</strong>ender</p>\n</td>\n<td>\n<p dir=\"ltr\">0 if female</p>\n<p dir=\"ltr\">1 if male</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>A</strong>ge</p>\n</td>\n<td>\n<p dir=\"ltr\">Age, years</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">AFP-<strong>L</strong>3</p>\n</td>\n<td>\n<p dir=\"ltr\">Alpha fetoprotein L3, %</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>AF</strong>P</p>\n</td>\n<td>\n<p dir=\"ltr\">Alpha fetoprotein, ng/mL</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>D</strong>CP</p>\n</td>\n<td>\n<p dir=\"ltr\">Des-carboxy-prothrombin, ng/mL</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p></p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<p dir=\"ltr\">Probability of concurrent HCC in this CLD patient = exp(Z) / (1 + exp(Z))</p>\n<p dir=\"ltr\">Where Z = GALAD Score</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/24220911",
+                  "text": "Johnson PJ, Pirrie SJ, Cox TF, et al. The detection of hepatocellular carcinoma using a prospectively developed and validated model based on serological biomarkers. Cancer Epidemiol Biomarkers Prev. 2014;23(1):144-53."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21132575",
+                  "text": "Kumada T, Toyoda H, Kiriyama S, et al. Predictive value of tumor markers for hepatocarcinogenesis in patients with hepatitis C virus. J Gastroenterol. 2011;46(4):536-44."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27936479",
+                  "text": "Best J, Bilgi H, Heider D, et al. The GALAD scoring algorithm based on AFP, AFP-L3, and DCP significantly improves detection of BCLC early stage hepatocellular carcinoma. Z Gastroenterol. 2016;54(12):1296-1305."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "name": "Dr. Philip J. Johnson"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p><span id=\"docs-internal-guid-15b8d3d8-7fff-467a-afd0-8d30007c313b\">Use in patients with chronic liver disease (CLD).</span></p>",
+            "why_use_en": "<ul>\n<li dir=\"ltr\">Estimates risk that a CLD patient has HCC using only tumor markers and demographics (i.e., no imaging).</li>\n<li dir=\"ltr\"><abbr title=\"Area under receiver operating characteristic curve\">AUROC</abbr> was 0.92 in one validation study (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27936479\" target=\"_blank\">Best 2016</a>).</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-78890880-7fff-e30a-af6a-112a6a74fb6e\">Use clinical judgment to determine how closely to surveil patients for HCC.</span></p>",
+            "critical_actions_en": "",
+            "management_en": "<p><span id=\"docs-internal-guid-08c47fcc-7fff-3098-e3d6-27b8725ec8bc\">No guidelines currently exist for thresholds at which to image patients based on GALAD results. One large prospective study suggests patients with AFP &ge;10 ng/mL or AFP-L3 &ge;5% be imaged with CT or MRI every 3-6 months (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/21132575\" target=\"_blank\">Kumada 2011</a>).</span></p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          }
+        },
+        "disease_en": [
+          "Hepatocellular Carcinoma"
+        ],
+        "dosing": false,
+        "equation_logic": "2141134005fd516b26549c41d3f45122",
+        "equation_logic_text": "var calc_output = [];\n\nvar age = parseFloat(age);\nvar afp13 = parseFloat(afpl3);\nvar afp = parseFloat(afp);\nvar dcp = parseFloat(dcp);\nvar gender = parseFloat(gender);\n\nvar score = -10.08 + 0.09*age + 1.67*gender + 2.34*Math.log10(afp) + 0.04*afpl3 + 1.33*Math.log10(dcp); \n\nvar prob = (Math.exp(score) / (1 + Math.exp(score)))*100;\n\n//results\n\ncalc_output.push({\n   name: 'mini',\n   value: prob.toFixed(2),\n   value_text: '%',\n   message:'Probability of concurrent HCC'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score.toFixed(2),\n    value_text: 'points',\n    message: 'GALAD Score'\n});\ncalc_output.push({\n    name: 'prob',\n    value: prob.toFixed(2),\n    value_text: '%',\n    message: 'Probability of concurrent HCC in this CLD patient'\n});\n\n",
+        "favorite_id": 10094,
+        "full_title_en": "GALAD Model for Hepatocellular Carcinoma (HCC)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "label_en": "Gender",
+            "name": "gender",
+            "optional": false,
+            "options": [
+              {
+                "label": "Female",
+                "value": 0
+              },
+              {
+                "label": "Male",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "label_en": "Age",
+            "name": "age",
+            "optional": false,
+            "type": "textbox",
+            "unit": "age"
+          },
+          {
+            "conditionality": "",
+            "label_en": "Alpha fetoprotein L3 (AFP-L3)",
+            "name": "afpl3",
+            "optional": false,
+            "type": "textbox",
+            "unit": "afp_l3"
+          },
+          {
+            "conditionality": "",
+            "label_en": "Alpha fetoprotein (AFP)",
+            "name": "afp",
+            "optional": false,
+            "type": "textbox",
+            "unit": "afp"
+          },
+          {
+            "conditionality": "",
+            "label_en": "Des-carboxy-prothrombin (DCP)",
+            "name": "dcp",
+            "optional": false,
+            "type": "textbox",
+            "unit": "dcp"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "claiming calc id",
+            "time": "2018-09-19 08:59 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added inputs",
+            "time": "2018-09-19 09:44 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added equation logic",
+            "time": "2018-09-19 10:09 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited links",
+            "time": "2018-09-19 10:10 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "LS edits",
+            "time": "2018-09-19 10:12 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "LS edits",
+            "time": "2018-09-19 10:14 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Edits to formula",
+            "time": "2018-09-19 10:16 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added units",
+            "time": "2018-09-21 11:12 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugged",
+            "time": "2018-09-21 11:28 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "removed extra <p> tags from Why Use",
+            "time": "2018-10-02 06:34 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-10-03 12:14 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "changed description",
+            "time": "2018-11-01 07:14 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "expanded acronyms (GW feedback)",
+            "time": "2018-11-06 09:23 AM",
+            "user": "rachel"
+          }
+        ],
+        "md5": "06ddcaa914cedcc65bf25bddf70ada75",
+        "medium_description_en": "<p>Diagnoses HCC based on serum biomarkers in patients with chronic liver disease (CLD).</p>",
+        "purpose_en": [
+          "Diagnosis",
+          "Calculation"
+        ],
+        "search_abbreviation_en": [
+          "Chronic liver disease",
+          "CLD",
+          "GALAD score",
+          "HCC diagnosis"
+        ],
+        "search_id": "c-10094",
+        "seo": {
+          "keywords_en": "Chronic liver disease, CLD, GALAD score, HCC diagnosis",
+          "meta_description_en": "The GALAD Model for Hepatocellular Carcinoma (HCC) diagnoses HCC based on serum biomarkers."
+        },
+        "short_description_en": "HCC diagnosis.",
+        "short_title_en": "GALAD Model for HCC",
+        "slug": "galad-model-hepatocellular-carcinoma-hcc",
+        "specialty_en": [
+          "Hepatology",
+          "Internal Medicine",
+          "Hospitalist Medicine",
+          "Hematology and Oncology"
+        ],
+        "system_en": [
+          "Oncologic",
+          "Gastrointestinal"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "Philip J. Johnson, MD, FRCP, is a professor in translational oncology at the University of Liverpool. He is also the deputy director of the North West Cancer Research Centre, University of Liverpool. Dr. Johnson’s primary research is focused on diagnosis and prognosis of hepatobiliary and pancreatic cancer.",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Philip J. Johnson",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-philip-j-johnson.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Johnson+PJ%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10094/galad-model-hepatocellular-carcinoma-hcc",
+        "description": "The GALAD Model for Hepatocellular Carcinoma (HCC) diagnoses HCC based on serum biomarkers.",
+        "keywords": "Chronic liver disease, CLD, GALAD score, HCC diagnosis",
+        "title": "GALAD Model for Hepatocellular Carcinoma (HCC)"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 100000,
+          "error_max_si": 100000,
+          "error_max_us": 100000,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "AFP",
+          "normal_max_si": 6,
+          "normal_max_us": 6,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "afp",
+          "units_si": "ng/mL",
+          "units_us": "ng/mL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 6,
+          "warn_max_si": 6,
+          "warn_max_us": 6,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 100,
+          "error_max_si": 100,
+          "error_max_us": 100,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "AFP_L3",
+          "normal_max_si": 10,
+          "normal_max_us": 10,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "afp_l3",
+          "units_si": "%",
+          "units_us": "%",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 10,
+          "warn_max_si": 10,
+          "warn_max_us": 10,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 120,
+          "error_max_si": 120,
+          "error_max_us": 120,
+          "error_min": 0.001,
+          "error_min_si": 0.001,
+          "error_min_us": 0.001,
+          "name": "Age",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "age",
+          "units_si": "years",
+          "units_us": "years",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0.1,
+          "warn_min_si": 0.1,
+          "warn_min_us": 0.1
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 100,
+          "error_max_si": 100,
+          "error_max_us": 100,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "DCP",
+          "normal_max_si": 7.5,
+          "normal_max_us": 7.5,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "dcp",
+          "units_si": "ng/mL",
+          "units_us": "ng/mL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 7.5,
+          "warn_max_si": 7.5,
+          "warn_max_us": 7.5,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 10147,
+          "short_title_en": "UKELD Score",
+          "slug": "united-kingdom-model-end-stage-liver-disease-ukeld"
+        },
+        {
+          "calcId": 10240,
+          "short_title_en": "CLIF-C ACLF",
+          "slug": "clif-c-aclf-acute-chronic-liver-failure"
+        },
+        {
+          "calcId": 10068,
+          "short_title_en": "NAFLD Activity Score",
+          "slug": "nafld-non-alcoholic-fatty-liver-disease-activity-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10094",
+      "galad-model-hepatocellular-carcinoma-hcc"
+    ]
+  },
+  "scriptLoader": []
+}

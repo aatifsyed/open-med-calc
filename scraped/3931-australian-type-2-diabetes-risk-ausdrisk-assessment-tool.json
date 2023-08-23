@@ -1,0 +1,768 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Preventive Care/Screening"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "3931.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The Australian Type 2 Diabetes Risk (AUSDRISK) Assessment Tool was developed by the Baker IDI Heart and Diabetes Institute on behalf of the Australian state and territory governments as part of the Council of Australian Governments (COAG) Reducing the Diabetes Risk initiative, and the derivation study by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20170456\" target=\"_blank\" rel=\"noopener\">Chen et al</a> was published in 2010. &nbsp;This study was a 5-year follow up of 6,060 non-diabetic participants&nbsp;in the Australian Diabetes and Lifestyle study (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/12062857\" target=\"_blank\" rel=\"noopener\">Dunstan 2002</a>).</p>\n<p>Incident diabetes at follow up was the outcome measure and a risk prediction model was developed by analyzing various demographic and health measurements of the study subjects using logistic regression.</p>\n<p>The prediction model was then converted to a score, which was validated in two independent Australian cohorts.</p>\n<p>Using a score of &ge;12 , the sensitivity, specificity, and positive predictive value for identifying incident diabetes over the 5 year study period were 74.0%, 67.7%, and 12.7% respectively. Using a score of &ge;6, sensitivity was 97.7% (95% CI 95.4&ndash;99.0).</p>\n<p>AUSDRISK was externally validated (along with several other diabetes risk assessment models) in a cohort of 2,506 Dutch patients and found to have among the highest C-statistic of 12 basic models (i.e., those including noninvasive variables only) at 0.83 (95% CI&nbsp;0.82&ndash;0.84) at 10 years (<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3445426/\" target=\"_blank\" rel=\"noopener\">Abbasi 2012</a>).</p>",
+            "formula_en": "<p>&nbsp;</p> <table> <tbody> <tr> <td colspan=\"2\"> <p><strong>Variable</strong></p> </td> <td> <p><strong>Points</strong></p> </td> </tr> <tr> <td> <p><strong>Age</strong></p> </td> <td> <p>25-34</p> <p>35-44</p> <p>45-54</p> <p>55-64</p> <p>≥65</p> </td> <td> <p>0</p> <p>2</p> <p>4</p> <p>6</p> <p>8</p> </td> </tr> <tr> <td> <p><strong>Sex</strong></p> </td> <td> <p>Female</p> <p>Male</p> </td> <td> <p>0</p> <p>3</p> </td> </tr> <tr> <td> <p><strong>Ethnicity</strong></p> <p>Also used to determine waist circumference categories; see below</p> </td> <td> <p>Southern European</p> <p>Asian</p> <p>Aboriginal/Torres Strait Islander</p> <p>Pacific Islander</p> <p>Other</p> </td> <td> <p>2</p> <p>2</p> <p>2</p> <p>2</p> <p>0</p> </td> </tr> <tr> <td> <p><strong>Parental history of diabetes</strong></p> </td> <td> <p>No</p> <p>Yes</p> </td> <td> <p>0</p> <p>3</p> </td> </tr> <tr> <td> <p><strong>History of high blood glucose*</strong></p> </td> <td> <p>No</p> <p>Yes</p> </td> <td> <p>0</p> <p>6</p> </td> </tr> <tr> <td> <p><strong>Use of antihypertensive medications</strong></p> </td> <td> <p>No</p> <p>Yes</p> </td> <td> <p>0</p> <p>2</p> </td> </tr> <tr> <td> <p><strong>Current smoker</strong></p> </td> <td> <p>No</p> <p>Yes</p> </td> <td> <p>0</p> <p>2</p> </td> </tr> <tr> <td> <p><strong>Physical inactivity**</strong></p> </td> <td> <p>No</p> <p>Yes</p> </td> <td> <p>0</p> <p>2</p> </td> </tr> <tr> <td> <p><strong>Waist circumference***</strong></p> </td> <td> <p>Category 1</p> <p>Category 2</p> <p>Category 3</p> </td> <td> <p>0</p> <p>4</p> <p>7</p> </td> </tr> <tr> <td> <p><strong>BMI</strong></p> <p><em>Note</em>: In the study, several models were tested in terms of quantifying obesity; per first author Dr. Lei Chen, the addition of BMI does not significantly increase discriminatory power (see Creator Insights for further detail), but may be used in cases where waist circumference cannot be accurately measured.</p> </td> <td> <p>Normal (&lt;25)</p> <p>Overweight (25 to less than 30)</p> <p>Obese (30 to less than 35)</p> <p>Morbidly obese (≥35)</p> </td> <td> <p>0</p> <p>3</p> <p>6</p> <p>8</p> </td> </tr> </tbody> </table> <p>*Patients were asked if they had ever been told their glucose level was high, including during pregnancy for women.</p> <p>**Physical inactivity&nbsp;was defined as less than 150 minutes per week of walking (if continuous and ≥10 minutes) and/or moderate or vigorous activity.</p> <p>***For Aboriginal/Torres Strait Islander or Asian&nbsp;background:</p> <ul> <li>Category 1: &lt;90 cm (men), &lt;80 cm (women)</li> <li>Category 2: 90–99 cm (men), 80–89 cm (women)</li> <li>Category 3: ≥100 cm (men), ≥90 cm (women)</li> </ul> <p>For&nbsp;Southern European, Pacific Islander, or other:</p> <ul> <li>Category 1: &lt;102 cm (men), &lt;88 cm (women)</li> <li>Category 2: 102–109 cm (men), &nbsp;88–99 cm (women)</li> <li>Category 3: ≥110 cm (men), ≥100 cm (women)</li> </ul> <p>From <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20170456\" target=\"_blank\">Chen 2010</a>.</p>",
+            "more_info_en": "<p>&nbsp;</p> <table> <tbody> <tr> <td> <p><strong>AUSDRISK Score</strong></p> </td> <td> <p><strong>5-year Risk* of Type 2 DM </strong></p> </td> </tr> <tr> <td> <p>&lt;5</p> </td> <td>1 in 100</td> </tr> <tr> <td> <p>6-8</p> </td> <td>1 in 50</td> </tr> <tr> <td> <p>9-11</p> </td> <td>1 in 30</td> </tr> <tr> <td> <p>12-15</p> </td> <td> <p>1 in 14</p> </td> </tr> <tr> <td> <p>16-19</p> </td> <td> <p>1 in 7</p> </td> </tr> <tr> <td> <p>&gt;20</p> </td> <td> <p>1 in 3</p> </td> </tr> </tbody> </table> <p><br>May overestimate risk in patients &lt;25 years old and may underestimate risk in Aboriginal and Torres Strait Islanders.</p> <p>From <a href=\"http://www.racgp.org.au/download/Documents/Guidelines/Diabetes/2015diabetesmanagement.pdf\" target=\"_blank\">General Practice Management Guidelines of Type 2 DM, Royal Australian College of General Practitioners 2016</a>.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "http://www.racgp.org.au/download/Documents/Guidelines/Diabetes/2015diabetesmanagement.pdf ",
+                  "text": "Royal Australasian College of General Practitioners: General Practice Management of Type II Diabetes Guidelines 2016-2018"
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/20170456",
+                  "text": "Chen L, Magliano DJ, Balkau B, Colagiuri S, Zimmet PZ, Tonkin AM, Mitchell P, Phillips PJ, Shaw JE. AUSDRISK: an Australian Type 2 Diabetes Risk Assessment Tool based on demographic, lifestyle and simple anthropometric measures. Med J Aust. 2010 Feb 15;192(4):197-202."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12062857",
+                  "text": "Dunstan DW, Zimmet PZ, Welborn TA, et al. The Australian Diabetes, Obesity and Lifestyle Study (AusDiab)--methods and response rates. Diabetes Res Clin Pract. 2002;57(2):119-29."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/?term=26468399 ",
+                  "text": "Malo JA, Versace VL, Janus ED, Laatikainen T, Peltonen M, Vartiainen E, Coates MJ, Dunbar JA. Evaluation of AUSDRISK as a screening tool for lifestyle modification programs: international implications for policy and cost-effectiveness. BMJ Open Diabetes Res Care. 2015 Oct 5;3(1):e000125. doi: 10.1136/bmjdrc-2015-000125. eCollection 2015."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3445426/ ",
+                  "text": "Abbasi A, Peelen LM, Corpeleijn E, van der Schouw YT, Stolk RP, Spijkerman AM, van der A DL, Moons KG, Navis G, Bakker SJ, Beulens JW. Prediction models for risk of developing type 2 diabetes: systematic literature search and independent external validation study. BMJ. 2012 Sep 18;345:e5900. doi: 10.1136/bmj.e5900."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Stuart McMaster, MBChB"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Lei Chen",
+              "qa_en": "<p><strong>Why did you develop the AUSDRISK tool? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong><br /> Predicting risk for future type 2 diabetes is essential to identifying people who are suitable for diabetes prevention programs.</p> <p><strong>What pearls, pitfalls and/or tips do you have for users of the AUSDRISK tool? Are there cases when it has been applied, interpreted, or used inappropriately?</strong><br /> Like any risk score, it provides a broad indication of average risk for people with the parameters as entered. It was developed using data from Australia (with a predominantly white Anglo-Celtic population), and so absolute risk levels may vary in other populations.</p> <p><strong>In your practice, how does the AUSDRISK tool help you counsel patients?</strong><br /> It is straightforward, and gives a reasonable assessment of diabetes risk.</p><p><strong>In the paper, you mention that several different models were tested in terms of the measure of obesity: BMI, waist circumference, or both. Which model do you prefer, and why?</strong><br />I would recommend using the prediction model with waist circumference, but without BMI. In circumstances where waist circumference is not available, the model with BMI can be used instead. In the paper, we have described the reason why we chose to use waist circumference in detail. The prediction model with waist circumference only works well both in terms of discrimination and calibration. The model with the inclusion of both waist and BMI did not improve the calibration significantly (Box 2).</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>The Australian Type 2 Diabetes Risk (AUSDRISK) Assessment Tool identifies Australian adults at high risk for developing diabetes based on demographic, lifestyle, and simple anthropometric measures.</li> <li>Targeted for use in primary care screening.</li> <li>Enables identification of high risk individuals for focused lifestyle counseling and/or further investigation.</li> <li>Developed specifically for the Australian population but has allowance for ethnicity and country of birth, so it may have validity in other countries with similar demographics.</li> <li>Has been validated in a separate study examining an external cohort of Dutch patients.</li> <li>May overestimate risk in patients &lt;25 years.</li> <li>Some versions of the AUSDRISK eliminate BMI, but the authors found that it resulted in a loss of discriminatory power.</li> </ul>",
+            "use_case_en": "<p>Primary care lifestyle screening for adults ≥25 years of age.</p>",
+            "why_use_en": "<ul> <li>Includes only non-invasive variables.</li> <li>Provides objective score to help support recommendations of lifestyle modification to patients by primary care physicians.</li> <li>In identified high-risk patients, enables further investigation and appropriate management of risk and lifestyle factors to prevent the development of diabetes.</li> <li>In Australia, AUSDRISK score ≥12 is a prerequisite for physician access to Medicare items for health assessment of patients in the 40-49 age group.</li> </ul>"
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "<p>Monitor for symptomatic diabetes (e.g. polyuria, polydipsia, loss of sensation).</p>",
+            "management_en": "<ul> <li>In Australia, patients with scores ≥12 should be investigated for possible diabetes and enrolled for advice regarding diet, weight control, and exercise.</li> </ul> <p>Diagnostic criteria for diabetes (Australia):</p> <ul> <ul> <li>Fasting blood glucose (FBG) ≥7.0 mmol/L, confirmed by a second reading on a separate day OR</li> <li>Oral glucose tolerance test (OGTT) showing FBG ≥7.0 mmol/L&nbsp;or 2-hour blood glucose ≥11.1mmol/L OR</li> <li>Hemoglobin A1c (HgbA1c) ≥48 mmol/mol (6.5%) on two separate occasions.</li> </ul> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [
+              {
+                "link": "https://www.mdcalc.com/diabetes-practice-pearls",
+                "text": "Practice Pearls: Diabetes"
+              }
+            ],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Diabetes Mellitus"
+        ],
+        "dosing": false,
+        "equation_logic": "7f774d7436d7a041bcc6444a464254fd",
+        "equation_logic_text": "var calc_output = [];\n\nvar age = parseFloat(age);\nvar sex = parseFloat(sex);\nvar ethnicity;\nvar ethnicity_points;\nvar famhx = parseFloat(famhx);\nvar highbg = parseFloat(highbg);\nvar htn = parseFloat(htn);\nvar smoker = parseFloat(smoker);\nvar inactive = parseFloat(inactive);\nvar waistcirc;\nvar waistcirc_risk;\nvar waistcirc_cat;\nvar bmi = parseFloat(bmi);\nvar msg;\nvar risk_5yr;\n\nif (UOMSYSTEM == true) { // US units, conversion needed\n\twaistcirc = parseFloat(waistcirc) * 2.54\n}\nelse {\n\twaistcirc = parseFloat(waistcirc)\n}\n\n// define ethnicities\nif (ethnicity == 0) { // other\n\tethnicity_points = 0\n}\nelse { // Southern European, Asian, Aboriginal, Pacific Islander\n\tethnicity_points = 2\n}\n\n// define waist circumference category risk\nif (ethnicity == 2 || ethnicity == 3) {\n\twaistcirc_risk = 'high'\n}\nif (ethnicity == 0 || ethnicity == 1 || ethnicity == 4) {\n\twaistcirc_risk = 'low'\n}\n\n// define waist circumference categories\n\n// waist circumference category 1: aboriginal or asian\nif (waistcirc_risk == 'high' && sex == 3 && waistcirc < 90) {\n\twaistcirc_cat = 0\n}\nelse if (sex == 0 && waistcirc < 80) {\n\twaistcirc_cat = 0\n}\n\n// waist circumference category 1: non-aboriginal non-asian\nif (waistcirc_risk == 'low' && sex == 3 && waistcirc < 102) {\n\twaistcirc_cat = 0\n}\nif (waistcirc_risk == 'low' && sex == 0 && waistcirc < 88) {\n\twaistcirc_cat = 0\n}\n\n// waist circumference category 2: aboriginal or asian\nif (waistcirc_risk == 'high' && sex == 3 && waistcirc >= 90 && waistcirc < 100) {\n\twaistcirc_cat = 4\n}\nif (waistcirc_risk == 'high' && sex == 0 && waistcirc >= 80 && waistcirc < 90) {\n\twaistcirc_cat = 4\n}\n\n// waist circumference category 2: non-aboriginal non-asian\nif (waistcirc_risk == 'low' && sex == 3 && waistcirc >= 102 && waistcirc < 110) {\n\twaistcirc_cat = 4\n}\nif (waistcirc_risk == 'low' && sex == 0 && waistcirc >= 88 && waistcirc < 100) {\n\twaistcirc_cat = 4\n}\n\n// waist circumference category 3: aboriginal or asian\nif (waistcirc_risk == 'high' && sex == 3 && waistcirc >= 100) {\n\twaistcirc_cat = 7\n}\nif (waistcirc_risk == 'high' && sex == 0 && waistcirc >= 90) {\n\twaistcirc_cat = 7\n}\n\n// waist circumference category 3: non-aboriginal non-asian\nif (waistcirc_risk == 'low' && sex == 3 && waistcirc >= 110) {\n\twaistcirc_cat = 7\n}\nif (waistcirc_risk == 'low' && sex == 0 && waistcirc >= 100) {\n\twaistcirc_cat = 7\n}\n\nvar opt = parseFloat(options);\nif(opt == 2){\n\tvar risk = age + sex + famhx + highbg + htn + smoker + inactive + bmi + ethnicity_points + waistcirc_cat; \t\n}\nif(opt == 0){\n\tvar risk = age + sex + famhx + highbg + htn + smoker + inactive + ethnicity_points + waistcirc_cat; \n}\nif(opt == 1){\n\tvar risk = age + sex + famhx + highbg + htn + smoker + inactive + bmi + ethnicity_points; \n}\n\n\n\nif (risk <= 5) {\n\trisk_5yr = '1 in 100'\n\tmsg = ''\n}\nif (risk >= 6 && risk <= 8) {\n\trisk_5yr = '1 in 50'\n\tmsg = ''\n}\nif (risk >= 9 && risk <= 11) {\n\trisk_5yr = '1 in 30'\n\tmsg = ''\n}\nif (risk >= 12 && risk <= 15) {\n\trisk_5yr = '1 in 14'\n\tmsg = 'High risk. Investigate for possible diabetes.'\n}\nif (risk >= 16 && risk <= 19) {\n\trisk_5yr = '1 in 7'\n\tmsg = 'High risk. Investigate for possible diabetes.'\n}\nif (risk >= 20) {\n\trisk_5yr = '1 in 3'\n\tmsg = 'High risk. Investigate for possible diabetes.'\n}\n\ncalc_output.push({ // message on app\n    name: 'mini',\n    value: risk,\n    value_text: ' points',\n    message: '' \n});\ncalc_output.push({\n    name: 'risk',\n    value: risk,\n    value_text: ' points',\n    message: msg \n});\ncalc_output.push({\n    name: 'risk_5yr',\n    value: risk_5yr,\n    value_text: '',\n    message: '5-year risk of developing Type 2 DM'\n});",
+        "favorite_id": 3931,
+        "full_title_en": "Australian Type 2 Diabetes Risk (AUSDRISK) Assessment Tool",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Age (years)",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "25-34",
+                "value": 0
+              },
+              {
+                "label": "35-44",
+                "value": 2
+              },
+              {
+                "label": "45-54",
+                "value": 4
+              },
+              {
+                "label": "55-64",
+                "value": 6
+              },
+              {
+                "label": "≥65",
+                "value": 8
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Sex",
+            "name": "sex",
+            "optional": false,
+            "options": [
+              {
+                "label": "Female",
+                "value": 0
+              },
+              {
+                "label": "Male",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Ethnicity",
+            "name": "ethnicity",
+            "optional": false,
+            "options": [
+              {
+                "label": "Southern European",
+                "value": 1
+              },
+              {
+                "label": "Asian",
+                "value": 2
+              },
+              {
+                "label": "Aboriginal/Torres Strait Islander",
+                "value": 3
+              },
+              {
+                "label": "Pacific Islander",
+                "value": 4
+              },
+              {
+                "label": "Other",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Parental history of diabetes",
+            "name": "famhx",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "History of high blood glucose",
+            "name": "highbg",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 6
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Ask patient if they have ever been told their blood glucose is high, including during pregnancy for women",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Use of antihypertensive medications",
+            "name": "htn",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Current smoker",
+            "name": "smoker",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Physical inactivity",
+            "name": "inactive",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Less than 150 minutes per week of walking (if continuous and ≥10 minutes) and/or moderate or vigorous activity.",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Obesity parameter",
+            "name": "options",
+            "optional": false,
+            "options": [
+              {
+                "label": "Waist circumference",
+                "value": 0
+              },
+              {
+                "label": "BMI",
+                "value": 1
+              },
+              {
+                "label": "Both",
+                "value": 2
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Study recommendation: waist circumference",
+            "type": "radio"
+          },
+          {
+            "conditionality": "options == 0 || options ==2",
+            "default": null,
+            "label_en": "Waist circumference",
+            "name": "waistcirc",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "waist_circumference"
+          },
+          {
+            "conditionality": "options == 1 || options ==2",
+            "default": null,
+            "label_en": "<calculator id='29'>BMI</calculator>",
+            "name": "bmi",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal (<25)",
+                "value": 0
+              },
+              {
+                "label": "Overweight (25–29.9)",
+                "value": 3
+              },
+              {
+                "label": "Obese (30–34.9)",
+                "value": 6
+              },
+              {
+                "label": "Morbidly obese (≥35)",
+                "value": 8
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Not for use in people with diagnosed diabetes. Use for screening in adults ≥25 years of age.</p> <p>Note: BMI, waist circumference, or both may be used as the obesity parameter. The study's authors recommend using waist circumference only, as it has the greatest discriminatory power.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added search terms",
+            "time": "2019-04-12 11:26 AM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "e15ad2ece914203728fe36ef5978a176",
+        "medium_description_en": "<p>Estimates risk of developing type 2 diabetes, mainly in Australian patients.</p>",
+        "purpose_en": [
+          "Diagnosis",
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "ausdrisk",
+          "australian",
+          "diabetes",
+          "dm",
+          "t2dm",
+          "type 2 diabetes",
+          "aus d risk"
+        ],
+        "search_id": "c-3931",
+        "seo": {
+          "keywords_en": "AUSDRISK, australian diabetes risk, diabetes risk, dm risk, diabetes mellitus risk",
+          "meta_description_en": "AUSDRISK estimates risk of developing type 2 diabetes in Australian patients."
+        },
+        "short_description_en": "Estimates diabetes risk.",
+        "short_title_en": "AUSDRISK",
+        "slug": "australian-type-2-diabetes-risk-ausdrisk-assessment-tool",
+        "specialty_en": [
+          "Endocrinology",
+          "Family Practice",
+          "Primary Care"
+        ],
+        "system_en": [
+          "Endocrine and Metabolic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Stuart",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "McMaster",
+          "name": "Stuart McMaster, MBChB",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": false,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Lei Chen, MBBS, MMed, MD, PhD, is an endocrinologist and researcher. Her Ph.D is in epidemiology and she has over 15 years of experience in epidemiological and clinical studies in obesity, diabetes and co-morbidities.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Lei Chen",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-lei-chen.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=chen+lei%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T15:27:03.945Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3931/australian-type-2-diabetes-risk-ausdrisk-assessment-tool",
+        "description": "AUSDRISK estimates risk of developing type 2 diabetes in Australian patients.",
+        "keywords": "AUSDRISK, australian diabetes risk, diabetes risk, dm risk, diabetes mellitus risk",
+        "title": "Australian Type 2 Diabetes Risk (AUSDRISK) Assessment Tool"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "2.54",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 150,
+          "error_max_si": 381,
+          "error_max_us": 150,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Waist Circumference",
+          "normal_max_si": 94,
+          "normal_max_us": 37,
+          "normal_min_si": 64,
+          "normal_min_us": 25,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "waist_circumference",
+          "units_si": "cm",
+          "units_us": "in",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 120,
+          "warn_max_si": 304.8,
+          "warn_max_us": 120,
+          "warn_min": 10,
+          "warn_min_si": 25.4,
+          "warn_min_us": 10
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 4031,
+          "short_title_en": "Hypoglycemia Risk Score",
+          "slug": "hypoglycemia-risk-score"
+        },
+        {
+          "calcId": 4020,
+          "short_title_en": "ADA Diabetes Risk Calculator",
+          "slug": "american-diabetes-association-ada-risk-calculator"
+        },
+        {
+          "calcId": 4001,
+          "short_title_en": "Cambridge Diabetes Risk Score",
+          "slug": "cambridge-diabetes-risk-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3931",
+      "australian-type-2-diabetes-risk-ausdrisk-assessment-tool"
+    ]
+  },
+  "scriptLoader": []
+}

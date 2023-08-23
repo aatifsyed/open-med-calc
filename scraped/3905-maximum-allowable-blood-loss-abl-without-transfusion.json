@@ -1,0 +1,606 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Bleeding",
+          "Injury/Trauma"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+84",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+84",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "3905.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The maximum allowable blood loss equation was developed by Jeffrey Gross based on an accepted equation for blood loss and incorporating a correction for isovolumetric hemodilution using a mathematical differential.</p>",
+            "formula_en": "<p>ABL = [EBV x (H<sub>i</sub>-H<sub>f</sub>)] / H<sub>av</sub>, where EBV = body weight, kg x average blood volume*, mL/kg and other variables are as follows:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>Variable</strong></p>\n</td>\n<td><strong>Description</strong></td>\n</tr>\n<tr>\n<td>ABL</td>\n<td>\n<p>Allowable blood loss</p>\n</td>\n</tr>\n<tr>\n<td>EBV</td>\n<td>\n<p>Estimated blood volume</p>\n</td>\n</tr>\n<tr>\n<td>H<sub>i</sub></td>\n<td>\n<p>Initial hemoglobin</p>\n</td>\n</tr>\n<tr>\n<td>H<sub>f</sub></td>\n<td>\n<p>Final hemoglobin (cutoff for transfusion)</p>\n</td>\n</tr>\n<tr>\n<td>H<sub>av</sub></td>\n<td>\n<p>Average of initial and final hemoglobin</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>*Average blood volume by age:</p>\n<table>\n<tbody>\n<tr>\n<td><strong>Age</strong></td>\n<td>\n<p><strong>Average blood volume, mL/kg</strong></p>\n</td>\n</tr>\n<tr>\n<td>Adult man</td>\n<td>\n<p>75</p>\n</td>\n</tr>\n<tr>\n<td>Adult woman</td>\n<td>\n<p>65</p>\n</td>\n</tr>\n<tr>\n<td>Infant</td>\n<td>\n<p>80</p>\n</td>\n</tr>\n<tr>\n<td>Neonate</td>\n<td>\n<p>85</p>\n</td>\n</tr>\n<tr>\n<td>Premature neonate</td>\n<td>\n<p>96</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p></p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/8659805",
+                  "text": "Practice Guidelines for blood component therapy: A report by the American Society of Anesthesiologists Task Force on Blood Component Therapy."
+                },
+                {
+                  "href": "http://www.sld.cu/galerias/pdf/sitios/anestesiologia/practical_guidelines_blood_transfusion.pdf",
+                  "text": "Practice guidelines for blood transfusion: a compilation from recent peer-reviewed literature. American Red Cross. "
+                }
+              ],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/6829965",
+                  "text": "Gross JB. Estimating Allowable Blood Loss Corrected for Dilution. Anesthesiology 58.2 (1983): 277-280."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Amit Patel, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Jeffrey B. Gross",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>The Maximum Allowable Blood Loss Without Transfusion calculator suggests how much blood can be lost, typically during surgery, before transfusion should be considered.</li> <li>Transfusion triggers&nbsp;vary by patient and clinical presentation.</li> <li>Patients&nbsp;with hemoglobin concentrations below 6 g/dL almost always require transfusion. In stable patients with hemoglobin values 6-10 g/dL, the decision whether to transfuse is based on an evaluation of clinical status; patients with values above 10 g/dL rarely require transfusion unless they are unstable or have signs/symptoms consistent with continued hemorrhage.</li> </ul> <p><strong>Point to Keep in Mind</strong></p> <ul> <li><a href='https://www.ncbi.nlm.nih.gov/pubmed/6829965' target='_blank'>Gross in 1983</a> showed that a blood loss greater than 20% of estimated blood volume will cause the maximum allowable value to be inaccurate.</li> </ul>",
+            "use_case_en": "<p><span>Patients with blood loss, typically during surgery, who may need transfusion.</span></p>",
+            "why_use_en": "<p>Helps with determining when to transfuse a patient if blood count values are not immediately available.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>During blood loss, dilution of remaining hemoglobin occurs as intravascular volume is maintained by fluid shifts and administration of fluids.</li> <li>Consider transfusing if estimated blood loss exceeds calculated allowable blood loss.</li> </ul>",
+            "critical_actions_en": "",
+            "management_en": "<ul> <li>Estimating blood loss intraoperatively can be done via direct measure of blood in suction canister along with measuring soiled sponges.</li> <li>This method is only an estimate to measure blood loss. Patient vitals and clinical signs should be evaluated clinically first.</li> <li>Capacity by sponge type: <ul> <li>4x4s: ~10 mL blood</li> <li>Gauze sponges (Ray-Tec):~10-20 mL blood</li> <li>Laparotomy (lap) sponges: ~50-100 mL blood</li> </ul> </li> <li>Consider timing of blood loss. Acute blood loss may not present with a drop in hemoglobin. Always monitor clinical metrics such as hemodynamics and respiratory status along with anticipated blood loss.</li> <li>The trigger to transfuse varies by patient.</li> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Anemia",
+          "Trauma"
+        ],
+        "dosing": false,
+        "equation_logic": "83fe5303fb69e2369dfc6b9fb887b0b8",
+        "equation_logic_text": "var calc_output = [];\nvar abv, ebv, abl;\nvar msg = 'Allowable Blood Loss';\nvar age = parseFloat(age);\nvar hi = parseFloat(hi);\nvar hf = parseFloat(hf);\nvar wt = parseFloat(wt);\nvar hav = (hi+hf)/2;\n\nif (age == 1) {\n    abv = 75;\n}\nif (age == 2) {\n    abv = 65;\n}\nif (age == 3) {\n    abv = 80;\n}\nif (age == 4) {\n    abv = 85;\n}\nif (age == 5) {\n    abv = 96;\n}\nebv = wt * abv;\n\nabl = ((ebv * (hi - hf)) / hav);\ncalc_output.push({ name: 'mini', value: abl.toFixed(1), value_text: 'mL', message: 'Allowable Blood Loss' });\ncalc_output.push({ name: 'max ABL', value: abl.toFixed(1), value_text: 'mL', message: 'Allowable Blood Loss' });",
+        "favorite_id": 3905,
+        "full_title_en": "Maximum Allowable Blood Loss (ABL) Without Transfusion",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Age",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "Adult man",
+                "value": 1
+              },
+              {
+                "label": "Adult woman",
+                "value": 2
+              },
+              {
+                "label": "Infant",
+                "value": 3
+              },
+              {
+                "label": "Neonate",
+                "value": 4
+              },
+              {
+                "label": "Premature neonate",
+                "value": 5
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Weight",
+            "name": "wt",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "wt"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Hemoglobin (initial)",
+            "name": "hi",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "hgb"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Hemoglobin (final)",
+            "name": "hf",
+            "optional": false,
+            "tips_en": "Lowest acceptable hemoglobin, by clinical judgment",
+            "type": "textbox",
+            "unit": "hgb"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited creators name",
+            "time": "2020-03-09T11:54:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited creator name",
+            "time": "2020-03-09T11:48:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited evidence",
+            "time": "2020-03-09T11:47:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "fixed extra spacing under formula",
+            "time": "2020-03-09T10:42:00.000Z",
+            "user": "allyssa"
+          },
+          {
+            "message": "edited logic/evidence",
+            "time": "2020-03-06T17:13:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited the logic/evidence",
+            "time": "2020-03-06T16:52:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "67da3bfe813e35251358b019626f7bc1",
+        "medium_description_en": "<p>Estimates the maximum allowable blood loss intraoperatively before transfusion should be considered.</p>",
+        "purpose_en": [
+          "Calculation"
+        ],
+        "search_abbreviation_en": [
+          "abl",
+          "hb",
+          "hgb",
+          "hemoglobin"
+        ],
+        "search_id": "c-3905",
+        "seo": {
+          "keywords_en": "Maximum Allowable Blood Loss, allowable blood loss, blood loss surgery, blood loss operation, blood loss during surgery, hgb loss, hb loss",
+          "meta_description_en": "The Maximum Allowable Blood Loss (ABL) estimates the maximum allowable blood loss intraoperatively before transfusion should be considered, based on initial hemoglobin, weight and final hemoglobin."
+        },
+        "short_description_en": "Estimates maximum blood loss allowable intra-op before transfusion.",
+        "short_title_en": "Maximum ABL",
+        "slug": "maximum-allowable-blood-loss-abl-without-transfusion",
+        "specialty_en": [
+          "Anesthesiology",
+          "Critical Care",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Hematologic",
+          "Respiratory"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Amit",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Patel",
+          "name": "Amit Patel, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Jeffrey B. Gross, MD, is a professor of medicine and and chair of the department of anesthesiology at the the University of Connecticut. He is currently the chairman of the Task Force on Perioperative Management of Patients with Obstructive Sleep Apnea for the American Society of Anesthesiologists. Dr. Gross is an active researcher investigating novel methods in management in anesthesia.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Jeffrey B. Gross",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/jeffrey-b-gross.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Gross+JB%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3905/maximum-allowable-blood-loss-abl-without-transfusion",
+        "description": "The Maximum Allowable Blood Loss (ABL) estimates the maximum allowable blood loss intraoperatively before transfusion should be considered, based on initial hemoglobin, weight and final hemoglobin.",
+        "keywords": "Maximum Allowable Blood Loss, allowable blood loss, blood loss surgery, blood loss operation, blood loss during surgery, hgb loss, hb loss",
+        "title": "Maximum Allowable Blood Loss (ABL) Without Transfusion"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "10",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 25,
+          "error_max_si": 250,
+          "error_max_us": 25,
+          "error_min": 0.5,
+          "error_min_si": 5,
+          "error_min_us": 0.5,
+          "name": "Hemoglobin",
+          "normal_max_si": 170,
+          "normal_max_us": 17,
+          "normal_min_si": 120,
+          "normal_min_us": 12,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "hgb",
+          "units_si": "g/L",
+          "units_us": "g/dL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 20,
+          "warn_max_si": 200,
+          "warn_max_us": 20,
+          "warn_min": 4,
+          "warn_min_si": 40,
+          "warn_min_us": 4
+        },
+        {
+          "conversion": "0.453592",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 600,
+          "error_max_si": 272.1552,
+          "error_max_us": 600,
+          "error_min": 0.5,
+          "error_min_si": 0.226796,
+          "error_min_us": 0.5,
+          "name": "Weight",
+          "normal_max_si": 150,
+          "normal_max_us": 330,
+          "normal_min_si": 1,
+          "normal_min_us": 2,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "wt",
+          "units_si": "kg",
+          "units_us": "lbs",
+          "updatedAt": "2022-12-01T20:01:08.372Z",
+          "warn_max": 500,
+          "warn_max_si": 226.796,
+          "warn_max_us": 500,
+          "warn_min": 0.5,
+          "warn_min_si": 0.226796,
+          "warn_min_us": 0.5
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 1667,
+          "short_title_en": "Absolute Reticulocyte Count",
+          "slug": "absolute-reticulocyte-count-reticulocyte-index"
+        },
+        {
+          "calcId": 1316,
+          "short_title_en": "Shock Index",
+          "slug": "shock-index"
+        },
+        {
+          "calcId": 10058,
+          "short_title_en": "Shock Index, Pediatric Age-Adjusted (SIPA)",
+          "slug": "shock-index-pediatric-age-adjusted-sipa"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3905",
+      "maximum-allowable-blood-loss-abl-without-transfusion"
+    ]
+  },
+  "scriptLoader": []
+}

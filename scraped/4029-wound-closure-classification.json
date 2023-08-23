@@ -1,0 +1,545 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Injury/Trauma"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+171",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+171",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "4029.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>&nbsp;</p>\n<p><strong>Primary Closure vs. Delayed Primary Closure (PC vs. DPC)</strong></p>\n<p>In 2013, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23803860\" target=\"_blank\" rel=\"noopener\">Bhangu et al</a> performed a systematic review and meta-analysis of 8 randomized control trials (RCT) comparing primary vs. delayed primary skin closure in specifically contaminated (CDC&rsquo;s National Healthcare Safety Network class III) and dirty-infected (class IV) abdominal incisions. The review concluded that delayed primary closure (DPC) may represent a simple, reliable, and potentially cost-effective way of reducing SSI, but the analysis was inconclusive due to the poor study designs, high risk of bias, and clinical heterogeneity.</p>\n<ul>\n<li>The RCTs included 623 patients with various abdominal wounds: post-appendectomy, repair of perforated hollow viscus injury, ileostomy closure, trauma, and intra-abdominal abscess or other peritonitis.</li>\n<li>The RCTs had varying time to review for DPC patients (2&ndash;5 days postoperatively), criteria to continue DPC, and definitions of wound infection.</li>\n<li>The review noted a high rate of heterogeneity (77%) between the study designs of the RCTs. When controlling for the heterogeneity, the risk of surgical site infection (SSI) was reduced in patients with DPC (odds ratio, 0.65; 95% CI, 0.40-0.93; p=0.02). However, when accounting for the heterogeneity, the risk of SSI in DPC patients was no longer significant (odds ratio, 0.65; 95% CI, 0.25-1.64, p=0.36).</li>\n</ul>\n<p>In 2015, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26558667\" target=\"_blank\" rel=\"noopener\">Halawi and Morwood</a> performed an evidence-based review of the acute management of open fractures. When looking specifically at the timing of wound closure, the review referenced the following 2 studies:</p>\n<ul>\n<li><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/6337266\" target=\"_blank\" rel=\"noopener\">Benson et al&rsquo;</a>s double-blind prospective study of 82 open fractures found no increased risk of infection when wound closure was delayed for 5 days postoperatively in highly contaminated fractures while receiving prophylactic antibiotics.</li>\n<li><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/11041582\" target=\"_blank\" rel=\"noopener\">Gopal et al</a> retrospectively reviewed 84 patients with Gustilo type IIIB (extensive soft tissue damage with inadequate coverage) and IIIC (arterial injury requiring repair) open tibia fractures who underwent debridement, fracture fixation, and vascularized muscle flap either within or 72 hours after injury (early vs delayed). The study concluded that the low rates of infections in the early fracture fixation and flap coverage group supported the concept that delayed coverage was not necessary if healthy soft tissue can be imported reliably into the zone of injury.</li>\n<li>Similar to abdominal closures, the review concluded that questions still persist regarding primary closure vs delayed primary closure of open fractures.&nbsp;</li>\n</ul>",
+            "formula_en": "<p>Selection of the appropriate type:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>Wound Features</strong></p>\n</td>\n<td>\n<p><strong>Classification</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Clean wound with minimal tissue loss, e.g. surgical wounds, clean lacerations.</p>\n</td>\n<td>\n<p>Primary</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Significant tissue loss precluding tension-free approximation of edges, devitalized edges, ulcerations, or abscess cavities.</p>\n</td>\n<td>\n<p>Secondary</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Grossly contaminated wounds with or without significant tissue loss, e.g. contaminated by soil or feces, animal bites, projectiles.</p>\n</td>\n<td>\n<p>Tertiary (Delayed Primary)</p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "more_info_en": "<table>\n<tbody>\n<tr>\n<td>\n<p><strong>Classification</strong></p>\n</td>\n<td>\n<p><strong>Description</strong></p>\n</td>\n<td>\n<p><strong>Management*</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Primary</p>\n</td>\n<td>\n<p>Healing by primary or first intention. Wound is mechanically closed by approximation of wound edges.</p>\n</td>\n<td>\n<p>Closure ideally performed within 6-8 hours of trauma. If well-vascularized, may be closed up to 24 hours after trauma.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Secondary</p>\n</td>\n<td>\n<p>Healing by secondary or second intention. Wound is left open to heal largely by the formation of granulation tissue and contraction.</p>\n</td>\n<td>\n<p>No surgical closure. Daily dressing changes. Consider negative pressure vacuum therapy.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Tertiary</p>\n</td>\n<td>\n<p>Healing by tertiary or third intention. Delayed closure of a wound after a variable period of time for which it has been left open.</p>\n</td>\n<td>\n<p>Thoroughly explore, irrigate, and debride. Observe for 3-7 days before surgical closure or skin grafting. May benefit from negative pressure vacuum therapy.</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>From&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/m/pubmed/27363660/?i=5&amp;from=/26424609/related\" target=\"_blank\" rel=\"noopener\">Kugler et al 2016</a>,&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23231938\" target=\"_blank\" rel=\"noopener\">Vargo 2012</a>,&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28976825\" target=\"_blank\" rel=\"noopener\">Kaushik et al 2017</a>,&nbsp;<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28985633\" target=\"_blank\" rel=\"noopener\">Cherubino et al 2017</a>.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.surgeryjournal.co.uk/article/S0263-9319(06)70069-2/fulltext",
+                  "text": "Kumar S, Leaper DJ. Classification and management of acute wounds. Surgery (Oxford). 2005 Feb 1; 23(2):47-51."
+                },
+                {
+                  "href": "https://www.facs.org/~/media/files/quality%20programs/trauma/tqip/tqip%20bpgs%20in%20the%20management%20of%20orthopaedic%20traumafinal.ashx",
+                  "text": "ACS TQIP. Best Practices in the Management of Orthopedic Trauma. ACS TQIP Best Practice Guidelines website. "
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23803860",
+                  "text": "Bhangu A, Singh P, Lundy J, Bowley DM. Systemic Review and Meta-analysis of Randomized Clinical Trials Comparing Primary vs Delayed Primary Skin Closure in Contaminated and Dirty Abdominal Incisions. JAMA Surg. 2013;148(8):779-786."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26558667",
+                  "text": "Halawi MJ, Morwood MP. Acute Management of Open Fractures: An Evidence-Based Review. Orthopedics. 2015;38(11):e1025-33."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/6337266",
+                  "text": "Benson DR, Riggins RS, Lawrence RM, Hoeprich PD, Huston AC, Harrison JA. Treatment of open fractures: a prospective study. J Trauma. 1983;23(1):25-30."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/11041582",
+                  "text": "Gopal S, Majumder S, Batchelor AG, Knight SL, De Boer P, Smith RM. Fix and flap: the radical orthopaedic and plastic treatment of severe open fractures of the tibia. J Bone Joint Surg Br. 2000: 82(7):959-966."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23231938",
+                  "text": "Vargo D. Negative pressure wound therapy in the prevention of wound infection in high risk abdominal wound closures. Am J Surg. 2012 Dec;204(6):1021-3. "
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28976825",
+                  "text": "Kaushik D, Joshi N, Kumar R, Gaba S, Sapra R, Kumar K. Negative pressure wound therapy versus gauze dressings for the treatment of contaminated traumatic wounds. J Wound Care. 2017 Oct 2;26(10):600-606."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28985633",
+                  "text": "Cherubino M, Valdatta L, Tos P, D’Arpa S, Troisi L, Igor P, Corradi F, Khan U. Role of Negative Pressure Therapy as Damage Control in Soft Tissue Reconstruction for Open Tibial Fractures. J Reconstr Microsurg. 2017 Oct;33(S 01):S08-S13."
+                },
+                {
+                  "href": "https://global-help-publications.storage.googleapis.com/books/help_practicalplasticsurgery.pdf",
+                  "text": "Semer NB. Practical Plastic Surgery for Nonsurgeons. Authors Choice Press; 2007."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/m/pubmed/27363660/?i=5&from=/26424609/related",
+                  "text": "Kugler NW, Carver TW, Paul JS. Negative pressure therapy is effective in abdominal incision closure. J Surg Res. 2016;203(2):491-4."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Jennie Kim, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. David Leaper",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>The types of wound closure are clearly described; however, patient-specific characteristics, such as risk factors and nutritional status, in addition to the quality of the wound itself, will make every clinical scenario different.</li>\n<li>Surgeon experience and judgment often dictate type and timing of closure.</li>\n<li>Has limited application in abdominal and orthopedic wounds. Multiple studies (of varying levels of evidence) have compared primary versus delayed primary closure of contaminated or infected abdominal wounds, and of traumatic open orthopedic wounds, in the context of reducing surgical site infections&mdash; currently no definitive evidence-based consensus exists on the optimal time of primary skin closure for either abdominal or orthopedic wounds.</li>\n</ul>",
+            "use_case_en": "<p>Patients with open wounds after traumatic injuries. The types of wound closure will differ depending on the wound&rsquo;s etiology and pattern of injury, morphology, contamination classification, and complexity.</p>",
+            "why_use_en": "<p>The type and timing of wound closure in traumatic or contaminated wounds play a role in the incidence of surgical site infections. Surgical site infections are a source of significant morbidity to the patient and increased health care costs.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>Management will depend on the diagnosed pathology or injury, and wound closure will differ depending on the clinical scenario.</li>\n<li>Surgeon experience and judgment will generally dictate the type and timing of closure. Multiple studies of varying levels of evidence&nbsp;have compared primary versus delayed primary closure of contaminated or infected abdominal wounds in the context of reducing surgical site infections, with no definite conclusions.</li>\n</ul>",
+            "critical_actions_en": "",
+            "management_en": "<ul>\n<li>For the management of open fractures, <a href=\"https://www.facs.org/~/media/files/quality%20programs/trauma/tqip/tqip%20bpgs%20in%20the%20management%20of%20orthopaedic%20traumafinal.ashx\" target=\"_blank\" rel=\"noopener\">ACS TQIP guidelines</a>, which are based on expert opinion due to lack of evidence, recommend that skin defects overlying open fractures should be closed at the time of initial debridement.</li>\n<li>For open fractures associated with wounds requiring coverage with skin grafting or soft tissue transfers (in other words, Gustilo type IIIB), it is recommended that coverage be completed within seven days from the time of the injury.</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [
+              {
+                "description": "Emergency Trauma Care",
+                "link": "https://www.ebmedicine.net/topics.php?paction=showTopicSeg&topic_id=558&seg_id=9486",
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: Wound Closure Classification"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Burns",
+          "Trauma"
+        ],
+        "dosing": false,
+        "equation_logic": "e59675114c8dabaaeeaaa39b21dd2d4b",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nvar woundclass = parseFloat(classification);\n\nvar classRN;\nvar management;\nvar extra;\n\nif(woundclass === 1){\n\tclassRN = 'Primary';\n\tmanagement = 'Perform closure within 6-8 hours of trauma. If well-vascularized, may be closed up to 24 hours after trauma.';\n    extra = ''\n}\nif(woundclass === 2){\n\tclassRN = 'Secondary';\n\tmanagement = 'No surgical closure. Daily dressing changes. Consider negative pressure vacuum therapy.';\n    extra = ''\n}\nif(woundclass === 3){\n\tclassRN = 'Tertiary';\n\tmanagement = 'Thoroughly explore, irrigate, and debride. Observe for 3-7 days before surgical closure or skin grafting. May benefit from negative pressure vacuum therapy.';\n    extra = ' (also known as delayed primary closure)'\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: classRN,\n    value_text: '',\n    message: ''\n});\ncalc_output.push({\n    name: 'Wound Closure Classification',\n    value: classRN,\n    value_text: '',\n    message: 'Wound Closure Classification' + extra\n});\ncalc_output.push({\n    name: 'Management',\n    value: '',\n    value_text: '',\n    message: management\n});",
+        "favorite_id": 4029,
+        "full_title_en": "Wound Closure Classification",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Classification</p>",
+            "name": "classification",
+            "optional": false,
+            "options": [
+              {
+                "label": "Clean wounds with minimal tissue loss, e.g. surgical wounds, clean lacerations",
+                "value": 1
+              },
+              {
+                "label": "Significant tissue loss precluding tension-free approximation of edges, devitalized edges, ulcerations, or abscess cavities",
+                "value": 2
+              },
+              {
+                "label": "Grossly contaminated wounds with or without significant tissue loss",
+                "value": 3
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use in patients with open wounds, with a focus on wounds resulting from trauma.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "partner content added",
+            "time": "2018-7-20 1:26 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited EB Med link",
+            "time": "2018-09-14 10:33 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added reviewer",
+            "time": "2019-01-14 02:51 PM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "f0876eeb009a45d5600f41441b910848",
+        "medium_description_en": "<p>Classifies types of wound closure.</p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "wound healing",
+          "wound classification",
+          "surgical wound classification"
+        ],
+        "search_id": "c-4029",
+        "seo": {
+          "keywords_en": "Surgical wound classification, wound classification, surgical site infections, SSIs, wound healing, wound infection",
+          "meta_description_en": "The Wound Closure Classification stratifies types of wounds to help guide strategies for closure."
+        },
+        "short_description_en": "<p>Wound closure.</p>",
+        "short_title_en": "Wound Closure Classification",
+        "slug": "wound-closure-classification",
+        "specialty_en": [
+          "Critical Care",
+          "Critical Care (Pediatric)",
+          "Emergency Medicine",
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Primary Care",
+          "Surgery (General)",
+          "Surgery (Trauma)"
+        ],
+        "system_en": [
+          "Any/All"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Jennie",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Kim",
+          "name": "Jennie Kim, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>David Leaper, MD, ChM, DSc, FRCS, FACS, FLS, is an emeritus professor of clinical sciences at the Institute of Skin Integrity and Infection Prevention at the University of Huddersfield and emeritus professor of surgery at the University of Newcastle upon Tyne. He has served as president of the Surgical Infection Society of Europe and the European Wound Management Association. Dr. Leaper’s primary research interests include surgical site infection, sepsis and critical care, and wound healing.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. David Leaper",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-david-leaper.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Leaper+D%5BAu%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4029/wound-closure-classification",
+        "description": "The Wound Closure Classification stratifies types of wounds to help guide strategies for closure.",
+        "keywords": "Surgical wound classification, wound classification, surgical site infections, SSIs, wound healing, wound infection",
+        "title": "Wound Closure Classification"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": "1741",
+          "short_title_en": "ABG Analysis",
+          "slug": "arterial-blood-gas-abg-analyzer"
+        },
+        {
+          "calcId": "72",
+          "short_title_en": "Maintenance Fluids",
+          "slug": "maintenance-fluids-calculations"
+        },
+        {
+          "calcId": "83",
+          "short_title_en": "Parkland Formula for Burns",
+          "slug": "parkland-formula-burns"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4029",
+      "wound-closure-classification"
+    ]
+  },
+  "scriptLoader": []
+}

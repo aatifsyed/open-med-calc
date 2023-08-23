@@ -1,0 +1,781 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Joint Pain",
+          "Pain"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">ASDAS-CRP = (0.12 x back pain) + (0.06 x morning stiffness) + (0.11 x patient global assessment of disease activity) + (0.07 x peripheral pain/swelling) + (0.58 x ln(CRP + 1))</p>\n<p dir=\"ltr\"></p>\n<p dir=\"ltr\">Where variables are:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"133\" /><col width=\"315\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\">Back pain</p>\n</td>\n<td>\n<p dir=\"ltr\">Ask the patient: \"How would you describe the overall level of AS neck, back, or hip pain you have had?\"</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Morning stiffness</p>\n</td>\n<td>\n<p dir=\"ltr\">Ask the patient: \"How would you describe the overall level of morning stiffness you have had from the time you wake up?\"</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Patient global assessment of disease activity</p>\n</td>\n<td>\n<p dir=\"ltr\">Ask the patient: \"How active was your spondylitis, on average, during the last week?\"</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Peripheral pain/swelling</p>\n</td>\n<td>\n<p dir=\"ltr\">Ask the patient: \"How would you describe the overall level of pain/swelling in joints other than neck, back, or hips you have had?\"</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">CRP</p>\n</td>\n<td>\n<p dir=\"ltr\">C-reactive protein, mg/L</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">All variables, except CRP, should be graded on a scale of 0 (least severe) to 10 (most severe).</p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"*\" /><col width=\"*\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>ASDAS-CRP</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Disease activity </strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;1.3</p>\n</td>\n<td>\n<p dir=\"ltr\">Inactive</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">1.3-2.0</p>\n</td>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">2.1-3.5</p>\n</td>\n<td>\n<p dir=\"ltr\">High</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;3.5</p>\n</td>\n<td>\n<p dir=\"ltr\">Very high</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/18625618",
+                  "text": "Lukas C, Landewé R, Sieper J, et al. Development of an ASAS-endorsed disease activity score (ASDAS) in patients with ankylosing spondylitis. Ann Rheum Dis. 2009;68(1):18-24."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://onlinelibrary.wiley.com/doi/full/10.1002/acr.20575",
+                  "text": "Zochling J. Measures of symptoms and disease status in ankylosing spondylitis: Ankylosing Spondylitis Disease Activity Score (ASDAS), Ankylosing Spondylitis Quality of Life Scale (ASQoL), Bath Ankylosing Spondylitis Disease Activity Index (BASDAI), Bath Ankylosing Spondylitis Functional Index (BASFI), Bath Ankylosing Spondylitis Global Score (BAS-G), Bath Ankylosing Spondylitis Metrology Index (BASMI), Dougados Functional Index (DFI), and Health Assessment Questionnaire for the Spondylarthropathies (HAQ-S). Arthritis Care Res (Hoboken). 2011;63 Suppl 11:S47-58."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "name": "Dr. Cédric Lukas"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-4a1c56b0-c8d4-5b72-25bf-f01bdcfc2760\">Other than CRP, all values are self-reported by the patient and therefore subjective.</span></p>",
+            "use_case_en": "",
+            "why_use_en": "<p><span id=\"docs-internal-guid-28446d4d-c8d4-cb61-c203-1c48db7f0c64\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The ASDAS-CRP is the preferred disease activity index according to the Assessment of SpondyloArthritis international Society (ASAS).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">May be useful for trending disease activity over time.</p>\n</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-db7956a4-c8d5-06a4-167d-20f7e0e268c2\">May be useful in helping to guide treatment decisions; e.g. detecting improvement with TNF inhibitors.</span></p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          }
+        },
+        "disease_en": [
+          "Rheumatoid Arthritis"
+        ],
+        "dosing": false,
+        "equation_logic": "4159d9d65b7975183bcd93e26c307b9c",
+        "equation_logic_text": "var calc_output = [];\nvar peripheral = parseFloat(peripheral);\nvar back = parseFloat(back);\nvar duration = parseFloat(duration);\nvar global = parseFloat(global);\nvar crp = parseFloat(crp);\n if (UOMSYSTEM == true) {\nvar crp = parseFloat(crp);\n}if (UOMSYSTEM == false) {\n  var crp = parseFloat(crp)*10;\n}\n\nvar index = 0.12*back + 0.06*duration + 0.11*global + 0.07*peripheral + 0.58*Math.log(crp + 1);\n\nvar index2 = index.toFixed(1)\n\nvar activity\n\nif (index2 < 1.3) {\n  activity = 'Inactive'\n}\nelse if (index2 >= 1.3 && index2 < 2.1) {\n  activity = 'Low'\n}\nelse if (index2 >= 2.1 && index2 <= 3.5) {\n    activity = 'High'\n}\n\nelse {\n    activity = 'Very high'\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: index2,\n    value_text: 'points',\n    message: activity + ' disease activity'\n});\ncalc_output.push({\n    name: 'index',\n    value: index2,\n    value_text: 'points',\n    message: 'ASDAS-CRP'\n});\ncalc_output.push({\n    name: 'activity',\n    value: activity,\n    value_text: '',\n    message: 'Disease activity'\n});",
+        "favorite_id": 10047,
+        "full_title_en": "Ankylosing Spondylitis Disease Activity Score with CRP (ASDAS-CRP)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Back pain",
+            "name": "back",
+            "optional": false,
+            "options": [
+              {
+                "label": "0: least severe",
+                "value": 0
+              },
+              {
+                "label": "1",
+                "value": 1
+              },
+              {
+                "label": "2",
+                "value": 2
+              },
+              {
+                "label": "3",
+                "value": 3
+              },
+              {
+                "label": "4",
+                "value": 4
+              },
+              {
+                "label": "5",
+                "value": 5
+              },
+              {
+                "label": "6",
+                "value": 6
+              },
+              {
+                "label": "7",
+                "value": 7
+              },
+              {
+                "label": "8",
+                "value": 8
+              },
+              {
+                "label": "9",
+                "value": 9
+              },
+              {
+                "label": "10: most severe",
+                "value": 10
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Ask the patient: \"How would you describe the overall level of AS neck, back, or hip pain you have had?\"",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Duration of morning stiffness",
+            "name": "duration",
+            "optional": false,
+            "options": [
+              {
+                "label": "0: least severe",
+                "value": 0
+              },
+              {
+                "label": "1",
+                "value": 1
+              },
+              {
+                "label": "2",
+                "value": 2
+              },
+              {
+                "label": "3",
+                "value": 3
+              },
+              {
+                "label": "4",
+                "value": 4
+              },
+              {
+                "label": "5",
+                "value": 5
+              },
+              {
+                "label": "6",
+                "value": 6
+              },
+              {
+                "label": "7",
+                "value": 7
+              },
+              {
+                "label": "8",
+                "value": 8
+              },
+              {
+                "label": "9",
+                "value": 9
+              },
+              {
+                "label": "10: most severe",
+                "value": 10
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Ask the patient: \"How would you describe the overall level of morning stiffness you have had from the time you wake up?\"",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Patient global assessment of disease activity",
+            "name": "global",
+            "optional": false,
+            "options": [
+              {
+                "label": "0: least severe",
+                "value": 0
+              },
+              {
+                "label": "1",
+                "value": 1
+              },
+              {
+                "label": "2",
+                "value": 2
+              },
+              {
+                "label": "3",
+                "value": 3
+              },
+              {
+                "label": "4",
+                "value": 4
+              },
+              {
+                "label": "5",
+                "value": 5
+              },
+              {
+                "label": "6",
+                "value": 6
+              },
+              {
+                "label": "7",
+                "value": 7
+              },
+              {
+                "label": "8",
+                "value": 8
+              },
+              {
+                "label": "9",
+                "value": 9
+              },
+              {
+                "label": "10: most severe",
+                "value": 10
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Ask the patient: \"How active was your spondylitis, on average, during the last week?\"",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Peripheral pain/swelling",
+            "name": "peripheral",
+            "optional": false,
+            "options": [
+              {
+                "label": "0: least severe",
+                "value": 0
+              },
+              {
+                "label": "1",
+                "value": 1
+              },
+              {
+                "label": "2",
+                "value": 2
+              },
+              {
+                "label": "3",
+                "value": 3
+              },
+              {
+                "label": "4",
+                "value": 4
+              },
+              {
+                "label": "5",
+                "value": 5
+              },
+              {
+                "label": "6",
+                "value": 6
+              },
+              {
+                "label": "7",
+                "value": 7
+              },
+              {
+                "label": "8",
+                "value": 8
+              },
+              {
+                "label": "9",
+                "value": 9
+              },
+              {
+                "label": "10: most severe",
+                "value": 10
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Ask the patient: \"How would you describe the overall level of pain/swelling in joints other than neck, back, or hips you have had?\"",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "label_en": "<abbr title='C-reactive protein'>CRP</abbr>",
+            "name": "crp",
+            "optional": false,
+            "type": "textbox",
+            "unit": "crp_dl"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "Claiming calc ID",
+            "time": "2018-6-28 5:41 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Building calc",
+            "time": "2018-6-28 6:47 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "w/o equation logic",
+            "time": "2018-6-28 7:03 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Equation logic added",
+            "time": "2018-6-28 7:35 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "equation logic edited",
+            "time": "2018-7-3 9:41 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "equation logic added",
+            "time": "2018-7-3 9:49 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK edits added",
+            "time": "2018-7-6 2:18 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-7-16 2:16 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-7-16 5:25 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-7-16 5:26 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "2nd round edits",
+            "time": "2018-7-19 7:41 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "equation logic edited",
+            "time": "2018-7-19 9:03 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "GW edits",
+            "time": "2018-7-23 4:30 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "changed unit for crp ",
+            "time": "2018-11-07 11:18 AM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "baa33bb021074c8fc2cffc936e1f1f02",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-e1d21e46-4857-c7ef-80f1-50b95f726f1a\">Stratifies severity of ankylosing spondylitis (AS) using clinical and laboratory data, specifically CRP.</span></p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "Ankylosing spondylitis",
+          "disease activity score",
+          "AS",
+          "ASDAS",
+          "CRP",
+          "disease activity index"
+        ],
+        "search_id": "c-10047",
+        "seo": {
+          "keywords_en": "Ankylosing spondylitis, disease activity score, AS, ASDAS, CRP, RA, rheumatoid arthritis, disease activity index, DAS28, DAS28-CRP",
+          "meta_description_en": "The Ankylosing Spondylitis Disease Activity Score with CRP (ASDAS-CRP) describes severity of ankylosing spondylitis (AS) using clinical and laboratory data, specifically CRP."
+        },
+        "short_description_en": "AS severity based on CRP.  ",
+        "short_title_en": "ASDAS-CRP for Ankylosing Spondylitis",
+        "slug": "ankylosing-spondylitis-disease-activity-score-crp-asdas-crp",
+        "specialty_en": [
+          "Rheumatology",
+          "Orthopedics"
+        ],
+        "system_en": [
+          "Musculoskeletal",
+          "Rheumatologic"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Cédric Lukas, MD, PhD, is an associate professor of rheumatology at University Hospital Lapeyronie in Montpellier, France. He is a member of the EULAR Research Center in Montpellier. Dr. Lukas’ primary research is focused on autoimmune disease, inflammatory disease, and clinical rheumatology.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Cédric Lukas",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-cedric-lukas.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Lukas+C%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10047/ankylosing-spondylitis-disease-activity-score-crp-asdas-crp",
+        "description": "The Ankylosing Spondylitis Disease Activity Score with CRP (ASDAS-CRP) describes severity of ankylosing spondylitis (AS) using clinical and laboratory data, specifically CRP.",
+        "keywords": "Ankylosing spondylitis, disease activity score, AS, ASDAS, CRP, RA, rheumatoid arthritis, disease activity index, DAS28, DAS28-CRP",
+        "title": "Ankylosing Spondylitis Disease Activity Score with CRP (ASDAS-CRP)"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "0.1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 200,
+          "error_max_si": 20,
+          "error_max_us": 200,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "crp_dl",
+          "normal_max_si": 0.3,
+          "normal_max_us": 3,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "crp_dl",
+          "units_si": "mg/dL",
+          "units_us": "mg/L",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 10,
+          "warn_max_us": 100,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 10050,
+          "short_title_en": "ASDAS-ESR for Ankylosing Spondylitis",
+          "slug": "ankylosing-spondylitis-disease-activity-score-esr-asdas-esr"
+        },
+        {
+          "calcId": 10127,
+          "short_title_en": "Patient Activity Scale for RA",
+          "slug": "patient-activity-scale-pas-ra"
+        },
+        {
+          "calcId": 10128,
+          "short_title_en": "Patient Activity Scale II for RA",
+          "slug": "patient-activity-scale-ii-pas-ii-ra"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10047",
+      "ankylosing-spondylitis-disease-activity-score-crp-asdas-crp"
+    ]
+  },
+  "scriptLoader": []
+}

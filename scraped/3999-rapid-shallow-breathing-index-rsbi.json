@@ -1,0 +1,584 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p><strong>Tips for COVID-19:</strong> Use to determine floor vs. ICU.&nbsp;Predicts successful extubation.</p>",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Dyspnea",
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "3999.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p><strong>Background</strong></p>\n<p><span>The RSBI was originally conceived in a prospective observational study by </span><a href=\"http://www.nejm.org/doi/full/10.1056/NEJM199105233242101\" target=\"_blank\" rel=\"noopener\"><span>Yang and Tobin in 1991</span></a><span>, who sought to examine which indices based on physiologic measurements could be used to predict successful extubation in mechanically ventilated patients considered ready for liberation from the ventilator. They found the RSBI to have a </span><strong>sensitivity of 97% and a specificity of 64%.</strong><span> In other words, the probability of having a positive RSBI in patients who were successfully extubated was 97%, and the probability of having a negative RSBI in patients who were unsuccessfully extubated was 64%. Successful extubation was defined as the patient still breathing on their own for at least 24 hours following extubation. After that, numerous follow-up studies were performed to look at the RSBI, many of which were summarized in a 2001 meta-analysis by </span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/11742961\" target=\"_blank\" rel=\"noopener\"><span>Meade et al</span></a><span>. Their </span><strong>pooled sensitivity and specificity were somewhat poorer: 84% and 44%, </strong><span>respectively, with a </span><strong>pooled positive likelihood ratio of 1.49 and a pooled negative likelihood ratio of 0.39.</strong></p>\n<p><strong>Caveats</strong></p>\n<p><span>As stated before, the RSBI is worse at predicting failure of extubation. Some studies have helped to elucidate which subsets of patients may be more likely to have a false negative RSBI, including the following: female gender, smaller endotracheal tube size, and active closed-system suctioning. </span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/8970349\" target=\"_blank\" rel=\"noopener\"><span>Epstein and Ciubotaru</span></a><span> looked retroactively at 218 ICU patients that were ultimately successfully extubated and had a documented RSBI within 24 hours preceding extubation, and found that &ldquo;women were more likely to have [RSBI]&gt;100&hellip;lower tidal volumes&hellip;and higher respiratory rate&hellip;&rdquo; (</span><em><span>p</span></em><span> &lt;0.05 for all these findings). Thus, the RSBI calculation results in an inflated number value in female patients. </span></p>\n<p><span>This paper also found that patients with smaller endotracheal tubes had, on average, a higher RSBI, which also reached statistical significance. Furthermore, they found that the effect that a small endotracheal tube had on inflating a patient&rsquo;s RBSI was more pronounced in women than in men. Another study by </span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19245731\" target=\"_blank\" rel=\"noopener\"><span>Seymour et al in 2009</span></a><span> observed that when intubated patients are being suctioned during spontaneous breathing trials, respiratory rate increases and tidal volume decreases, which would also artificially inflate the calculated RSBI.</span></p>\n<p><span>Another index that is potentially more useful than the RSBI in predicting extubation success is the maximum inspiratory pressure (MIP), also referred to as negative inspiratory force (NIF), which is the maximum negative pressure generated inhaling against an obstructed airway. The MIP can be thought of as a proxy measurement for respiratory muscle strength. A recent paper by </span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26834339\" target=\"_blank\" rel=\"noopener\"><span>Bien Udos et al</span></a><span> compared the predictive value of the MIP versus the RSBI in a population of 195 patients and found that the MIP compared favorably with a sensitivity and specificity of 93% and 95%, respectively, compared with their measurements of the RSBI&rsquo;s sensitivity in the same population: 84% and 91%, respectively.</span></p>\n<p><strong>Outcomes Data</strong></p>\n<p><span>A </span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16878032\" target=\"_blank\" rel=\"noopener\"><span>2006 RCT in </span><em><span>Critical Care Medicine</span></em></a><span> sought to determine whether a clinical practice algorithm incorporating RSBI would change outcomes compared with an algorithm that was identical except with RSBI omitted. They found that the algorithm incorporating RSBI prolonged the time that it took to liberate patients from the ventilator by one day, and did not result in any difference in the rates of in-hospital mortality, extubation failure, or need for tracheostomy. This raised the concern that the RSBI leads to unnecessary delays in extubation without any demonstrable benefit. However, the algorithm required that a patient have a positive RSBI in order to proceed to SBT. As discussed above, there exists a subset of patients in whom the RSBI will be a false negative. Thus, it is quite possible that some of these patients whose SBT was pushed back because of a negative RSBI result were indeed ready to proceed to an SBT. &nbsp;</span></p>\n<p><strong>A Few Finer Points</strong></p>\n<p><span>The original study by Yang and Tobin calculated the RSBI using a manual tidal volume measurement, via a spirometer connected to the patient&rsquo;s endotracheal tube during a one-minute period of spontaneous breathing before an SBT. Tidal volume (V<sub>T</sub>) was calculated by taking the minute ventilation and dividing it by the respiratory rate, f. Naturally, it is much easier to measure the RSBI by looking at the measurements automatically taken by the vent machine. A study by </span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26785962\" target=\"_blank\" rel=\"noopener\">Souza and Lugon</a><span> verified that measuring tidal volume via the vent machine&rsquo;s readings was consistent with the manual measurement taken on the same patient. In this study, measuring V<sub>T</sub> manually was performed identically to the original Yang study. Whereas, measuring V<sub>T</sub> via the vent was performed by placing the patient on pressure support for 5 minutes, then once again dividing the average minute ventilation over this time period by the average respiratory rate.</span></p>\n<p><span>Another question that has arisen following the rise of RSBI&rsquo;s popularity is whether it is applicable to patients who have been mechanically ventilated for a prolonged period of time. </span><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22770598\" target=\"_blank\" rel=\"noopener\"><span>Verceles et al</span></a><span> examined the applicability of the RSBI to patients in a long term acute care facility who had been mechanically ventilated for &gt;21 days, all of whom had underwent tracheostomy. They found no relationship between initial RSBI or daily RSBI and likelihood of successful liberation from the vent. However, they did find that, over the entire course of the patient stay, the </span><em><span>average </span></em><span>RSBI value was statistically lower in patients who were ultimately successfully liberated from the vent. That being said, the average RSBI values were patients that were weaned versus not weaned were 78.7 and 99.3, respectively. In other words, this is a departure from the traditional application of the RSBI as a binary result (either positive or negative), so it is difficult to apply the results of this study to actual practice.</span></p>",
+            "formula_en": "<p>RSBI (breaths/min/L) = f/V<sub>T</sub>,</p>\n<p>where f is respiratory rate and V<sub>T</sub> is tidal volume in L.</p>",
+            "more_info_en": "<p>Interpretation:</p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<td>\n<p><strong>RSBI</strong></p>\n</td>\n<td>\n<p><strong>Interpretation</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>&lt;105</p>\n</td>\n<td>\n<p>Likely successful wean to extubation (97% sensitive, original study), \"positive\"</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>&gt;105</p>\n</td>\n<td>\n<p>Likely to fail extubation, \"negative\"</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Note: in the original study, a value of 105 was not specified as being positive or negative. As always, use clinician judgment in borderline cases.</p>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.nejm.org/doi/full/10.1056/NEJM199105233242101",
+                  "text": "Yang KL, Tobin MJ. A prospective study of indexes predicting the outcome of trials of weaning from mechanical ventilation. N Engl J Med. 1991;324(21):1445-50."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/8970349",
+                  "text": "Epstein SK, Ciubotaru RL. Influence of Gender and Endotracheal Tube Size on Preextubation Breathing Pattern. Am J Respir Crit Care Med. 1996;154(6 Pt 1):1647-52."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16878032",
+                  "text": "Tanios MA, Nevins ML, Hendra KP, Cardinal P, Allan JE, Naumova EN, Epstein SK. A randomized, controlled trial of the role of weaning predictors in clinical decision making. Crit Care Med.2006;34(10):2530-5."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/19245731 ",
+                  "text": "Seymour CW, Cross BJ, Cooke CR, Gallop RL, Fuchs BD. Physiologic impact of closed-system endotracheal suctioning in spontaneously breathing patients receiving mechanical ventilation. Respir Care. 2009;54(3):367-74."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26834339",
+                  "text": "Bien Udos S, Souza GF, Campos ES, et al. Maximum inspiratory pressure and rapid shallow breathing index as predictors of successful ventilator weaning. J Phys Ther Sci. 2015;27(12):3723-7."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/26785962 ",
+                  "text": "Souza LC, Lugon JR. The rapid shallow breathing index as a predictor of successful mechanical ventilation weaning: clinical utility when calculated from ventilator data. J Bras Pneumol. 2015;41(6):530-5."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22770598 ",
+                  "text": "Verceles AC, Diaz-abad M, Geiger-brown J, Scharf SM. Testing the prognostic value of the rapid shallow breathing index in predicting successful weaning in patients requiring prolonged mechanical ventilation. Heart Lung. 2012;41(6):546-52."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/11742961",
+                  "text": "Meade M, Guyatt G, Cook D, Griffith L, Sinuff T, Kergl C, Mancebo J, Esteban A, Epsein S. Predicting success in weaning from mechanical ventilation. Chest. 2001;120(6 Suppl):400S-24S. "
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Lubabah Ben-Ghaly, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Karl L. Yang",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>The RSBI is one component of a clinical assessment that may help predict success versus failure of extubation.</li>\n<li>Applies only to patients who are breathing spontaneously, since the formula is based on respiratory rate and tidal volume, which would be artificially dictated by vent settings in modes such as assist control and pressure control.</li>\n<li>More sensitive than specific (positive RSBI predicts successful extubation better than negative RSBI predicts unsuccessful extubation).</li>\n<li>Data show that women are more likely than men to have a negative RSBI (predicting failure) independent of actual extubation outcome. Clinicians can use the positive RSBI as an additional supporting data point to for the decision to extubate.</li>\n<li>Although the RSBI is generally accepted as helpful in predicting success of extubation, there is a dearth of convincing evidence that its application in decision-making leads to a change in outcomes.</li>\n<li>\n<p><em><strong>The RSBI should not be the sole determinant of extubation.</strong>&nbsp;</em>Consider other data points before attempting extubation, including:</p>\n<ul>\n<li>Spontaneous awakening trials (SAT) and spontaneous breathing trials (SBT).</li>\n<li>Adequacy of gas exchange.</li>\n<li>Absence of copious secretions.</li>\n<li>Strength of cough.</li>\n<li>Hemodynamic stability.</li>\n<li>Resolution/improvement of pathology that necessitated intubation in the first place.</li>\n</ul>\n</li>\n</ul>",
+            "use_case_en": "<p>Intubated patients who are breathing spontaneously, such as during a spontaneous breathing trial, and meet other clinical criteria for weaning from mechanical ventilation.</p>",
+            "why_use_en": "<ul>\n<li>Helps clinicians identify patients at risk for failed extubation.</li>\n<li>Provides an easily interpretable binary result: positive (&lt;105) predicts success and negative (&gt;105) predicts failure.</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "<ul>\n<li>The RSBI is only applicable to patients that are clinically ready for weaning from the ventilator.</li>\n<li>It is not meant to answer the question of whether a patient is ready for extubation. Rather, it helps to predict the outcome after extubation.</li>\n</ul>",
+            "management_en": "<p>Patients with RSBI &lt;105 (&ldquo;positive&rdquo;):</p>\n<ul>\n<li>If the patient otherwise meets criteria for liberation from the ventilator, a positive RSBI means they are likely to have successful extubation.</li>\n<li>Clinicians can use the positive RSBI as an additional supporting data point for the decision to extubate.</li>\n</ul>\n<p>Patients with RSBI &gt;105 (&ldquo;negative&rdquo;):</p>\n<ul>\n<li>These patients are more likely to fail extubation.</li>\n<li>However, there are multiple confounding factors that make a patient more likely to have a negative RSBI, including female gender, smaller endotracheal tube size, and active suctioning during spontaneous breathing.</li>\n<li>If a patient has a negative RSBI, but in all other respects is ready for extubation, consider potential confounding factors at play resulting in an inflated RSBI value (i.e., a negative RSBI should not necessarily deter clinicians from deciding to extubate).</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Coronavirus",
+          "COVID-19",
+          "Idiopathic Pulmonary Fibrosis",
+          "Pneumonia",
+          "Respiratory Distress",
+          "Sepsis"
+        ],
+        "dosing": false,
+        "equation_logic": "8c1fd5c6f2eb4766fa67d631ceeaf315",
+        "equation_logic_text": "var calc_output = [];\n \n//user inputs\nvar f = parseFloat(f);\nvar vt = parseFloat(vt) / 1000;\n\nvar rsbi = (f/vt).toFixed(0);\n\nvar result = 'Likely successful extubation by RSBI.';\nvar resultsmall = 'Consider all patient factors before extubating (see Pearls/Pitfalls for suggestions). 97% sensitive, original study.';\nif(rsbi > 104){\n\tresult = 'Likely to fail extubation by RSBI.';\n\tresultsmall = 'See Pearls/Pitfalls for limitations of negative RSBI.';\n}\n \n//results\ncalc_output.push({\n    name: 'mini',\n    value: rsbi,\n    value_text: 'breaths/min/L',\n    message: result\n});\ncalc_output.push({\n    name: 'Result',\n    value: rsbi,\n    value_text: 'breaths/min/L',\n    message: result + '<br/>' + resultsmall\n});\n",
+        "favorite_id": 3999,
+        "full_title_en": "Rapid Shallow Breathing Index (RSBI)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Respiratory rate</p>",
+            "name": "f",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "rr"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Tidal volume</p>",
+            "name": "vt",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "tv"
+          }
+        ],
+        "instructions_en": "<p>Use in intubated patients breathing spontaneously who meet other clinical criteria for weaning from mechanical ventilation. The RSBI should not be the sole determinant of extubation.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited warning",
+            "time": "2020-03-23T22:06:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited covid",
+            "time": "2020-03-17T23:48:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added covid messaging",
+            "time": "2020-03-17T13:59:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added reviewer",
+            "time": "2019-01-14T14:42:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "e0d178ebe21e1619019c2ea1ef349c89",
+        "medium_description_en": "<p>Predicts successful extubation, to be used only as a single component of the clinical picture.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "rsbi",
+          "rapid shallow breathing index",
+          "rapid shallow breathing",
+          "extubation",
+          "extubation failure",
+          "rapid shallow",
+          "breathing index",
+          "covid-19",
+          "covid 19",
+          "covid19",
+          "coronavirus"
+        ],
+        "search_id": "c-3999",
+        "seo": {
+          "keywords_en": "Rsbi, rapid shallow breathing index, rapid shallow breathing, extubation, extubation failure, rapid shallow, breathing index",
+          "meta_description_en": "Predicts successful extubation, to be used only as a single component of the clinical picture."
+        },
+        "short_description_en": "<p>Predicts extubation success.</p>",
+        "short_title_en": "RSBI",
+        "slug": "rapid-shallow-breathing-index-rsbi",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Pulmonology"
+        ],
+        "system_en": [
+          "Respiratory"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Lubabah",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Ben-Ghaly",
+          "name": "Lubabah Ben-Ghaly, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Karl L. Yang, MD, is an associate professor clinical medicine at the Indiana University School of Medicine. He is a practicing physician in sleep medicine and pulmonary critical care. Dr. Yang's primary contributions to the medical literature have been in optimal management of mechanical ventilation.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Karl L. Yang",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-karl-l-yang.png",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Yang+KL%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3999/rapid-shallow-breathing-index-rsbi",
+        "description": "Predicts successful extubation, to be used only as a single component of the clinical picture.",
+        "keywords": "Rsbi, rapid shallow breathing index, rapid shallow breathing, extubation, extubation failure, rapid shallow, breathing index",
+        "title": "Rapid Shallow Breathing Index (RSBI)"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 90,
+          "error_max_si": 90,
+          "error_max_us": 90,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Respiratory Rate",
+          "normal_max_si": 20,
+          "normal_max_us": 20,
+          "normal_min_si": 12,
+          "normal_min_us": 12,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "rr",
+          "units_si": "breaths/min",
+          "units_us": "breaths/min",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 70,
+          "warn_max_si": 70,
+          "warn_max_us": 70,
+          "warn_min": 5,
+          "warn_min_si": 5,
+          "warn_min_us": 5
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 1000,
+          "error_max_si": 1000,
+          "error_max_us": 1000,
+          "error_min": 1,
+          "error_min_si": 1,
+          "error_min_us": 1,
+          "name": "Tidal Volume",
+          "normal_max_si": 600,
+          "normal_max_us": 600,
+          "normal_min_si": 400,
+          "normal_min_us": 400,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "tv",
+          "units_si": "mL",
+          "units_us": "mL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 700,
+          "warn_max_si": 700,
+          "warn_max_us": 700,
+          "warn_min": 10,
+          "warn_min_si": 10,
+          "warn_min_us": 10
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 4062,
+          "short_title_en": "Horowitz Index (P/F Ratio)",
+          "slug": "horowitz-index-lung-function-p-f-ratio"
+        },
+        {
+          "calcId": 3914,
+          "short_title_en": "SMART-COP Score",
+          "slug": "smart-cop-score-pneumonia-severity"
+        },
+        {
+          "calcId": 3962,
+          "short_title_en": "Shorr Score",
+          "slug": "shorr-score-mrsa-pneumonia"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3999",
+      "rapid-shallow-breathing-index-rsbi"
+    ]
+  },
+  "scriptLoader": []
+}

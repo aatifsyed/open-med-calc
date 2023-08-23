@@ -1,0 +1,566 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Abdominal Pain",
+          "Blood in Stool",
+          "Hematemesis",
+          "Melena",
+          "Vomiting",
+          "Weakness"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+139",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+139",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "3643.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul> <li>The pre-endoscopy Rockall Score was developed from prospectively collected data on 3,981 patients presenting with acute upper GI bleeding at 74 hospitals in the United Kingdom as part of a national audit. The outcomes examined were rebleeding and death.</li> <li>Data from an additional 2,956 patients who had undergone an intervention, either endoscopy or emergency surgery, were used to develop the <calculator id='3642'>complete Rockall Score</calculator>.</li> <li>The score was validated by a second set of data including 1,625 patients as a subsequent part of the national audit.</li> <li><a href='http://gut.bmj.com/content/44/3/331.full' target='_blank'>Vreeburg and colleagues</a> conducted a validation study in the Netherlands looking at 951 patients at 12 hospitals presenting with upper GI bleed. They found that the Rockall Score could reliably stratify patients into low or high risk for mortality, but it was not accurate in predicting rebleeding risk (which has also been studied as an independent predictor for mortality).</li> </ul>",
+            "formula_en": "<p>Addition of selected points.</p>",
+            "more_info_en": "<p><strong>Score interpretation:</strong></p> <div class='table-responsive'> <table class='table table-bordered table-hover'> <tbody> <tr> <th colspan='2'>Mortality rates, by pre-endoscopy score</th> </tr> <tr> <td style='text-align: center;'><strong>Score</strong></td> <td style='text-align: center;'><strong>% Chance of mortality</strong></td> </tr> <tr> <td style='text-align: center;'>0</td> <td style='text-align: center;'>0.2%</td> </tr> <tr> <td style='text-align: center;'>1</td> <td style='text-align: center;'>2.4%</td> </tr> <tr> <td style='text-align: center;'>2</td> <td style='text-align: center;'>5.6%</td> </tr> <tr> <td style='text-align: center;'>3</td> <td style='text-align: center;'>11%</td> </tr> <tr> <td style='text-align: center;'>4</td> <td style='text-align: center;'>24.6%</td> </tr> <tr> <td style='text-align: center;'>5</td> <td style='text-align: center;'>39.6%</td> </tr> <tr> <td style='text-align: center;'>6</td> <td style='text-align: center;'>48.9%</td> </tr> <tr> <td style='text-align: center;'>7</td> <td style='text-align: center;'>50%</td> </tr> </tbody> </table> <p>Adapted from <a href='http://www.ncbi.nlm.nih.gov/pubmed/8675081' target='_blank'>Rockall et al.</a></p> </div><p><strong>Comorbidities were defined as any of the following:</strong></p> <ul> <li>Cardiac failure</li> <li>Ischaemic heart disease</li> <li>Asthma</li> <li>COPD</li> <li>Diabetes mellitus</li> <li>Rheumatoid arthritis</li> <li>Liver failure</li> <li>Renal failure</li> <li>Disseminated malignancy</li> <li>Other</li> <li>Pneumonia</li> <li>Dementia</li> <li>Recent major operation</li> <li>Malignancy</li> <li>CVA/TIA</li> <li>Haematological malignancy</li> <li>Hypertension</li> <li>Trauma/burns</li> <li>Other cardiac disease</li> <li>Major sepsis</li> <li>Other liver disease</li> </ul>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/8675081",
+                  "text": "Rockall TA, Logan RF, Devlin HB, Northfield TC. Risk assessment after acute upper gastrointestinal haemorrhage. Gut. 1996 Mar;38(3):316-21. PMID: 8675081."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/20598244",
+                  "text": "Pang SH, Ching JY, Lau JY, Sung JJ, Graham DY, Chan FK. Comparing the Blatchford and pre-endoscopic Rockall score in predicting the need for endoscopic therapy in patients with upper GI hemorrhage. Gastrointest Endosc. 2010 Jun;71(7):1134-40. doi: 10.1016/j.gie.2010.01.028."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "http://gut.bmj.com/content/44/3/331.full",
+                  "text": "Vreeburg EM, Terwee CB, et. al. Validation of the Rockall risk scoring system in upper gastrointestinal bleeding. Gut 1999;44:331-335 doi:10.1136/gut.44.3.331."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Rachel Kwon, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Timothy Rockall",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>The pre-endoscopy Rockall Score estimates mortality in patients with active upper GI bleed who have not had endoscopy.</li> <li>It is supported by multiple validation studies, most showing moderate prediction of death at higher risk.</li> <li>It can predict very low risk patients, but with less accuracy.</li> <li>The pre-endoscopy score is calculated based on clinical bleeding (i.e., without endoscopy results).</li> </ul>",
+            "use_case_en": "<p>Patients with clinical upper GI bleeding, prior to endoscopy.</p>",
+            "why_use_en": "<ul> <li>Upper GI bleeding may present in different degrees of severity, from minor bleeding that can be managed outpatient to severe, life-threatening hemorrhage.</li> <li>The pre-endoscopy Rockall Score can help stratify which patients need endoscopy and intensive care. It is less accurate at identifying low-risk patients (e.g. those who may be treated as outpatients).</li> </ul> "
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>The Rockall Score predicts mortality better than does chance alone, but overall should be interpreted with caution—a score of ‘0’ in some studies suggested very low mortality, but in others was not a consistent indicator.</li> <li>Other scores such as the <calculator id='518'>Glasgow-Blatchford Score</calculator> may perform better, particularly for identifying very low risk patients. According to the <a href='http://gi.org/guideline/management-of-patients-with-ulcer-bleeding/' target='_blank'>American College of Gastroenterology’s management guidelines</a> for patients with overt upper GI bleeding, neither the Rockall nor Glasgow-Blatchford scores can reliably predict which individual patients will need an intervention, except for patients with a <calculator id='518'>Glasgow-Blatchford Score</calculator> of 0 (< 1% chance of requiring intervention).</li> </ul>",
+            "critical_actions_en": "<p>Patients with a high mortality or risk of rebleeding should be considered for intervention and/or monitoring.</p>",
+            "management_en": "<ul> <li>Consider diagnostic endoscopy for patients with high risk of mortality from upper GI bleeding. </li> <li>Consider ICU level of care for patients who are hemodynamically unstable from upper GI bleeding.</li> <li><b>Note:</b> The pre-endoscopy Rockall Score has not been shown to clearly identify individual patients who require intervention.</li> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Anemia",
+          "GI Bleeding"
+        ],
+        "dosing": false,
+        "equation_logic": "34d4a3ea5931b5dfa2b3c0aa4b1655a4",
+        "equation_logic_text": "var calc_output = [];\n\n\nvar u, msg, pcntm, pcntr;\nu =  parseFloat(age)+parseFloat(shock)+parseFloat(comor);\n\nswitch (u) {\ncase 0: pcntm = \"0.2\"; break;\ncase 1: pcntm = \"2.4\"; break;\ncase 2: pcntm = \"5.6\"; break;\ncase 3: pcntm = \"11\"; break;\ncase 4: pcntm = \"24.6\"; break;\ncase 5: pcntm = \"39.6\"; break;\ncase 6: pcntm = \"48.9\"; break;\ncase 7: pcntm = \"50\"; break;\ndefault: pcntm = \"50\"; break;\n}\n\nmsg = pcntm + \"% mortality prior to endoscopy.\";\n\ncalc_output.push({ name: 'mini', value: u, value_text: 'points', message: msg });\ncalc_output.push({ name: 'Rockall Pre-Endoscopy', value: u, value_text: 'points', message: msg });",
+        "favorite_id": 3643,
+        "full_title_en": "Rockall Score for Upper GI Bleeding (Pre-Endoscopy)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Age",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "<60 years",
+                "value": 0
+              },
+              {
+                "label": "60-79 years",
+                "value": 1
+              },
+              {
+                "label": "≥80 years",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Shock",
+            "name": "shock",
+            "optional": false,
+            "options": [
+              {
+                "label": "No shock (SBP ≥100 AND HR <100)",
+                "value": 0
+              },
+              {
+                "label": "Tachycardia (SBP ≥100 AND HR ≥100)",
+                "value": 1
+              },
+              {
+                "label": "Hypotension (SBP <100)",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Comorbidities",
+            "name": "comor",
+            "optional": false,
+            "options": [
+              {
+                "label": "No major comorbidity",
+                "value": 0
+              },
+              {
+                "label": "Any comorbidity EXCEPT renal failure, liver failure, and/or disseminated malignancy",
+                "value": 2
+              },
+              {
+                "label": "Renal failure, liver failure, and/or disseminated malignancy",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "Use this score for upper GI bleed patients who have NOT yet had endoscopy. Use the <calculator id='3642'>Complete Rockall Score</calculator> for patients who have had endoscopy.",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edits to anemia tag",
+            "time": "2019-06-19 10:12 AM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "767be733cfbfb8013159cb1fbdb39537",
+        "medium_description_en": "<p>Determines severity of GI bleeding, prior to endoscopy.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "rockall",
+          "GI bleed",
+          "melena",
+          "prognosis",
+          "mortality",
+          "BRBPR",
+          "rectal bleeding",
+          "hematochezia",
+          "prs"
+        ],
+        "search_id": "c-3643",
+        "seo": {
+          "keywords_en": "rockall score, rockall bleeding score, rockall calc, rockall bleeding, rockall GI bleeding, rockall GI bleed, rockall bleeding calc, rockall bleeding mdcalc, rockall bleeding severity, rockall prognosis bleed, rockall prognosis, rockall prognosis GI bleed, rockall scale, GI bleeding score, bleeding severity score, GI bleeding severity score, GI bleed prognosis, gi bleed mortality",
+          "meta_description_en": "The Rockall Score for Upper GI Bleeding (Pre-Endoscopy) determines severity of GI (gastrointestinal) bleeding prior to diagnosed GI bleeding by endoscopy."
+        },
+        "short_description_en": "Determines severity of GI bleeding, prior to endoscopy.",
+        "short_title_en": "Rockall Score (Pre-Endoscopy)",
+        "slug": "rockall-score-upper-gi-bleeding-pre-endoscopy",
+        "specialty_en": [
+          "Emergency Medicine",
+          "Gastroenterology",
+          "Internal Medicine",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Gastrointestinal"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Rachel Kwon, MD, is the managing editor at MDCalc. Her clinical training is in general surgery, and she is a former research fellow in patient safety and evidence-based surgery in the Nuffield Department of Surgical Sciences at the University of Oxford. She is also co-author and co-editor of <em>50 Studies Every Surgeon Should Know</em> (Oxford University Press).</p>",
+          "firstName": "Rachel",
+          "hasDisclosure": [],
+          "img": "https://cdn-web-img.mdcalc.com/people/rachel-kwon.jpg",
+          "lastName": "Kwon",
+          "name": "Rachel Kwon, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Past",
+          "target": "rachel-kwon",
+          "updatedAt": "2023-04-06T20:26:54.776Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Timothy Rockall, MD, is a consultant surgeon at the Royal Surrey County Hospital in Guildford. He specializes in gastrointestinal surgery and the management of colorectal disease. He has a particular interest in the development and practice of laparoscopic surgery and has developed an international reputation in the practice of laparoscopic resection for colorectal disease including bowel cancer. Dr. Rockall is also the creator of the <calculator id='3642'>Complete Rockall Score for Upper GI Bleeding</calculator>.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Timothy Rockall",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-timothy-rockall.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Rockall+TA%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3643/rockall-score-upper-gi-bleeding-pre-endoscopy",
+        "description": "The Rockall Score for Upper GI Bleeding (Pre-Endoscopy) determines severity of GI (gastrointestinal) bleeding prior to diagnosed GI bleeding by endoscopy.",
+        "keywords": "rockall score, rockall bleeding score, rockall calc, rockall bleeding, rockall GI bleeding, rockall GI bleed, rockall bleeding calc, rockall bleeding mdcalc, rockall bleeding severity, rockall prognosis bleed, rockall prognosis, rockall prognosis GI bleed, rockall scale, GI bleeding score, bleeding severity score, GI bleeding severity score, GI bleed prognosis, gi bleed mortality",
+        "title": "Rockall Score for Upper GI Bleeding (Pre-Endoscopy)"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3642,
+          "short_title_en": "Rockall Score (Complete)",
+          "slug": "rockall-score-upper-gi-bleeding-complete"
+        },
+        {
+          "calcId": 3923,
+          "short_title_en": "Forrest Classification",
+          "slug": "forrest-classification-upper-gi-bleeding"
+        },
+        {
+          "calcId": 3801,
+          "short_title_en": "AIMS65",
+          "slug": "aims65-score-upper-gi-bleeding-mortality"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3643",
+      "rockall-score-upper-gi-bleeding-pre-endoscopy"
+    ]
+  },
+  "scriptLoader": []
+}

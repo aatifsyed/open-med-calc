@@ -1,0 +1,554 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "diagnostic_criteria",
+        "chief_complaint_en": [
+          "Chest Pain",
+          "Injury/Trauma"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+102",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+102",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "3815.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The NEXUS CT Chest Decision Instrument was prospectively derived and validated by <a href=\"http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001883\" target=\"_blank\">Rodriguez et al</a> in a cohort of 11,477 blunt trauma patients (6,002 patients for derivation phase and 5,475 for validation). Seven parameters from a list of 14 were selected by recursive partitioning.</p> <p>For major injury only, the tool was 99.2% sensitive (95% CI 95.4%–100%), and 31.7% specific (95% CI 29.9%–33.5%). Negative predictive value (NPV) was 99.9% (95% CI 99.3%–100%). &nbsp;The tool was 100% sensitive for aortic and great vessel injuries.</p> <p>For either major or minor injury, sensitivity was 90.7% (95% CI 88.3%–92.8%), specificity 37.9% (95% CI 35.8%–40.1%), and NPV 91.8% (95% CI 89.7%–93.6%).</p>",
+            "formula_en": "<p>Series of Yes/No questions as listed.</p>",
+            "more_info_en": "<p>If any criteria are positive, major or minor thoracic injury can NOT be excluded.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001883 ",
+                  "text": "Rodriguez RM, Langdorf MI, Nishijima D, Baumann BM, Hendey GW, Medak AJ, Raja AS, Allen IE, Mower WR. Derivation and validation of two decision instruments for selective chest CT in blunt trauma: a multicenter prospective observational study (NEXUS Chest CT). PLoS Med. 2015 Oct 6;12(10):e1001883. doi: 10.1371/journal.pmed.1001883. eCollection 2015."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23925583",
+                  "text": "Rodriguez RM, Hendey GW, Marek G, Dery RA, Bjoring A. A pilot study to derive clinical variables for selective chest radiography in blunt trauma patients. Ann Emerg Med. 2006 May;47(5):415-8. Epub 2005 Dec 27."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23925583",
+                  "text": "Rodriguez RM, Anglin D, Langdorf MI, Baumann BM, Hendey GW, Bradley RN, Medak AJ, Raja AS, Juhn P, Fortman J, Mulkerin W, Mower WR. NEXUS chest: validation of a decision instrument for selective chest imaging in blunt trauma. JAMA Surg. 2013 Oct;148(10):940-6. doi: 10.1001/jamasurg.2013.2757."
+                },
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/21045745",
+                  "text": "Rodriguez RM, Hendey GW, Mower W, Kea B, Fortman J, Merchant G, Hoffman JR. Derivation of a decision instrument for selective chest radiography in blunt trauma. J Trauma. 2011 Sep;7(3):549-53. PMID: 21045745."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Michael Jones, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Robert Rodriguez",
+              "qa_en": "<p><strong>Why did you develop the NEXUS Chest CT Decision Instruments (DI)? Was there a clinical experience that inspired you to create this tool for clinicians?</strong><br> Our development of the NEXUS Chest CT DIs arose during our original NEXUS CXR study work. At this time (around 2005-2008), we noted that chest CT was becoming increasingly common -- both independently and as part of head-to-pelvis CT (pan-scan). Compared to CXR, chest CT is much more expensive and is associated with radiation to radiosensitive anatomical regions, which may induce cancer in the disproportionately young trauma population. We performed a study that demonstrated low yield of trauma chest CT for clinically significant injury in certain scenarios that further pushed us to perform our chest CT DI development work.</p> <p><strong>What pearls, pitfalls and/or tips do you have for users of the NEXUS Chest CT DI? Are there cases when they have been applied, interpreted, or used inappropriately?</strong><br>Two pitfalls: First, these DIs are intended to be used in awake, non-intubated, hemodynamically stable, adult (15 years or older) trauma patients—NOT critically ill, severely injured, poly-trauma patients or for intubated patients. To apply these DIs, clinicians have to be able to assess whether patients have criteria, such as chest wall or sternal tenderness. <br><br>Second, these are one-way rules that only tell you whether CT may be safely omitted, and you should only apply NEXUS Chest CT in patients that you initially believe to need chest CT. The presence of 1 or more DI criteria does not dictate the need for chest CT in patients who would not otherwise be imaged. Misapplication of these DIs to other patients who were not being considered for CT may paradoxically lead to unnecessary increases in imaging.</p> <p>In terms of pearls we have 3:</p> <ol> <li>In developing these DIs, we were very cognizant of time pressures and mental work-load associated with implementation of complicated decision rules. All of our criteria are very simple elements of the standard trauma history and physical exam that should not take extra time. For ease of use the 4 physical exam criteria (chest wall, sternum, thoracic spine and scapula tenderness) may be simply lumped together as any bony tenderness of the thorax or upper back. </li> <li>We also recognized inherent differences in opinion regarding the need to diagnose minor thoracic injuries. We therefore developed 2 DIs: For clinicians who believe that nearly all injuries should be detected, we recommend the “All” DI, which detects both clinically major and minor injuries with high sensitivity. For those who believe that only management-changing injuries are important, we recommend “Major”, which retains very high sensitivity for clinically major injuries (with slightly lower sensitivity for minor injuries). Major has higher specificity, thereby sparing a larger number of patients from CT.</li> <li>We recommend the incorporation of the NEXUS Chest DIs and algorithm as checklists into chart templates and electronic medical records to further streamline and simplify clinicians' decision-making.</li> </ol> <p><strong>What recommendations do you have for healthcare providers once they have applied the NEXUS Chest CT DI? What are the next steps?</strong><br> In terms of charting or documenting their decision-making, clinicians may state that a “patient meets NEXUS Chest CT low risk criteria for injury” or “patient ruled out for significant thoracic injury by NEXUS Chest CT” in a manner similar to that used with the NEXUS Cervical Spine or other decision rules.</p> <p><strong>How does the NEXUS Chest CT DI compare with your NEXUS chest DI for blunt trauma?</strong><br>Our NEXUS Chest DIs (NEXUS CXR and NEXUS Chest CT) are meant to be used sequentially. For most patients we recommend first applying NEXUS CXR. If a patient is deemed low risk by this NEXUS CXR, then no imaging (neither CXR nor chest CT) is recommended. If chest CT is being considered after CXR, then apply NEXUS Chest CT to determine whether CT may be safely omitted.</p> <p><strong>Any other comments on the NEXUS Chest CT DI?</strong><br>Overall, our NEXUS Chest DIs provide clinicians with evidence-based mechanisms to use basic physical exam and history findings for selective imaging, instead of reflexive imaging, to safely and efficiently rule out injury in appropriate patients. By safely eliminating the need for imaging upfront, our DIs and algorithm will decrease costs, save provider and patient time, and decrease unnecessary radiation exposure.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>The NEXUS CT Chest Decision Instrument is comprised of two parts, one that maximizes sensitivity for major injury and the other for major or minor injury.</li> <li>Uses findings from routine trauma exam.</li> <li>100% sensitive for aortic and great vessel injury (a key component of the rule, as these are devastating injuries that must not be missed).</li> <li>Can be used sequentially with <calculator id=\"2075\">NEXUS Chest Decision Instrument for Blunt Chest Trauma</calculator>.</li> </ul>",
+            "use_case_en": "<p>Blunt trauma patients in whom CT chest is considered as part of the diagnostic evaluation.</p>",
+            "why_use_en": "<p>Identifies patients that can safely be ruled out for clinically significant thoracic and intra-thoracic injuries, potentially safely reducing CT scanning by 25-37% in blunt trauma patients.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>If any criteria are positive, major or minor thoracic injury can NOT be excluded, and further workup, including but not limited to CT chest, is warranted.</p>",
+            "critical_actions_en": "<p>Clinical decision tools are meant to assist practitioners with making appropriate and evidence based decisions in the management of patients. The NEXUS CT Chest Decision Instrument suggests that a CT chest can be safely avoided in situations where the provider suspects thoracic injury, is considering CT imaging and answers negatively to the NEXUS CT Chest Decision Instrument. In these situations, the provider can feel confident that significant thoracic and intra-thoracic injuries are not missed.</p>",
+            "management_en": "<p>Should be used in conjunction with standard trauma evaluation and resuscitation.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Trauma"
+        ],
+        "dosing": false,
+        "equation_logic": "59dda8cb773ea8e68e199895c00c520d",
+        "equation_logic_text": "var calc_output = [];\n\nvar u = parseInt(cxr) + parseInt(distracting) + parseInt(ttp);\nvar v = parseInt(deceleration);\nvar p = u + v;\n\nvar mini_msg, msg;\n\nif (u > 0 && v == 0) {\n    mini_msg = 'Cannot exclude thoracic injury';\n    msg = 'Cannot exclude thoracic injury; consider further workup including chest CT';\n    msg2 = '';\n} else if (u > 0 && v > 0) {\n    mini_msg = 'Cannot exclude thoracic injury';\n    msg = 'Cannot exclude thoracic injury; consider further workup including chest CT';\n    msg2 = '';\n} else if (u == 0 && v == 1) {\n    mini_msg = 'Cannot exclude thoracic injury';\n    msg = 'Cannot exclude thoracic injury; consider further workup including chest CT';\n    msg2 = '<br/><br/>Major or minor injury: 95.4% sensitive, 25.5% specific';\n} else {\n    mini_msg = 'No Chest CT required by NEXUS Chest';\n    msg = 'All MAJOR AND MINOR criteria are ABSENT - no Chest CT by NEXUS Chest.';\n    msg2 = '<br/><br/>Major injury: 99.2% sensitive, 31.7% specific<br/>Major or minor injury: 90.7% sensitive, 37.9% specific';\n}\n\n\ncalc_output.push({ name: 'mini', value: '', value_text: '', message: mini_msg });\ncalc_output.push({ name: 'NEXUS Chest Rule', value: '', value_text: '', message: msg + msg2 });",
+        "favorite_id": 3815,
+        "full_title_en": "NEXUS Chest CT Decision Instrument for CT Imaging",
+        "input_schema": [
+          {
+            "subheading": "Clinically Major Thoracic Injuries",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "Abnormal chest X-ray",
+            "name": "cxr",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "CXR showing any thoracic injury (including clavicle fracture) or widened mediastinum",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "Distracting injury",
+            "name": "distracting",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "Chest wall, sternum, thoracic spine, or scapular tenderness",
+            "name": "ttp",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "subheading": "All Thoracic Injuries",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "Rapid deceleration mechanism",
+            "name": "deceleration",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Fall from >20 feet/6.1 m or MVA at >40 mph/64.4 km/hr with sudden deceleration.",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Use in awake, non-intubated, hemodynamically stable blunt trauma patients ≥15 years old in whom a CT chest is considered as part of the normal diagnostic evaluation.</p>",
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "4c92bf55758d7787e395bcf7e287fa80",
+        "medium_description_en": "<p>Identifies blunt trauma patients with clinically significant thoracic injuries.</p>",
+        "purpose_en": [
+          "Rule Out"
+        ],
+        "search_abbreviation_en": [
+          "ct",
+          "chest",
+          "chest trauma",
+          "trauma"
+        ],
+        "search_id": "c-3815",
+        "seo": {
+          "keywords_en": "NEXUS Chest Rule, nexus chest, nexus injury rule, chest trauma rule, chest trauma score, chest trauma calc, CT chest needed, chest trauma workup, chest trauma workup, chest injury workup, chest injury w/u, chest injury scan, chest injury scan need, CXR decision, chest injury prognosis, chest trauma prognosis, nexus chest calc, nexus chest score, nexus chest prognosis, nexus chest online, nexus chest decision, nexus chest CT need, nexus chest scan need, nexus CXR, nexus CT chest",
+          "meta_description_en": "The NEXUS Chest CT Decision Instrument for CT Imaging identifies blunt trauma patients that have clinically significant thoracic injuries."
+        },
+        "short_description_en": "Identifies clinically significant thoracic injuries in blunt trauma patients.",
+        "short_title_en": "NEXUS Chest CT Decision Instrument",
+        "slug": "nexus-chest-ct-decision-instrument-ct-imaging",
+        "specialty_en": [
+          "Critical Care",
+          "Critical Care (Neurologic)",
+          "Emergency Medicine",
+          "Surgery (Trauma)"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Neurologic",
+          "Respiratory"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Michael",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Jones",
+          "name": "Michael Jones, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Robert Rodriguez, MD, is a professor of clinical emergency medicine and the residency research director at UCSF School of Medicine. He is also an attending emergency room physician. Dr. Rodriguez's research interests include deriving decision instruments for imaging in blunt trauma, critical care in the ED, infectious disease presentations to the ED, homeless and immigrant population access and care in the ED, and defensive medicine.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Robert Rodriguez",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-robert-rodriguez.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Rodriguez%20RM%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3815/nexus-chest-ct-decision-instrument-ct-imaging",
+        "description": "The NEXUS Chest CT Decision Instrument for CT Imaging identifies blunt trauma patients that have clinically significant thoracic injuries.",
+        "keywords": "NEXUS Chest Rule, nexus chest, nexus injury rule, chest trauma rule, chest trauma score, chest trauma calc, CT chest needed, chest trauma workup, chest trauma workup, chest injury workup, chest injury w/u, chest injury scan, chest injury scan need, CXR decision, chest injury prognosis, chest trauma prognosis, nexus chest calc, nexus chest score, nexus chest prognosis, nexus chest online, nexus chest decision, nexus chest CT need, nexus chest scan need, nexus CXR, nexus CT chest",
+        "title": "NEXUS Chest CT Decision Instrument for CT Imaging"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 2075,
+          "short_title_en": "NEXUS Chest Rule",
+          "slug": "nexus-chest-decision-instrument-blunt-chest-trauma"
+        },
+        {
+          "calcId": 3953,
+          "short_title_en": "CHALICE Rule",
+          "slug": "chalice-childrens-head-injury-algorithm-prediction-important-clinical-events-rule"
+        },
+        {
+          "calcId": 3955,
+          "short_title_en": "Palchak (UC Davis) Rule",
+          "slug": "palchak-uc-davis-rule-pediatric-head-trauma"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3815",
+      "nexus-chest-ct-decision-instrument-ct-imaging"
+    ]
+  },
+  "scriptLoader": []
+}

@@ -1,0 +1,658 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Weakness",
+          "Weight Loss/Gain"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>Multivariate nomogram, with assigned points to 8 criteria.</p>",
+            "more_info_en": "<img src=\"https://cdn-web-img.mdcalc.com/content/additional-lymph-node-metastasis-nomogram_pdf__page_2_of_7_.png\">",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/16021535",
+                  "text": "Specht MC, Kattan MW, Gonen M, Fey J, Van Zee KJ. Predicting nonsentinel node status after positive sentinel lymph biopsy for breast cancer: clinicians versus nomogram. Ann Surg Oncol. 2005 Aug;12(8):654-9."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/15251163",
+                  "text": "Goyal A, Douglas-Jones A, Newcombe RG, Mansel RE; ALMANAC Trialists Group. Predictors of non-sentinel lymph node metastasis in breast cancer patients. Eur J Cancer. 2004 Jul;40(11):1731-7."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "http://education.surgery.ufl.edu/Lectures/Van%20Zee%20SLN%20Nomogram%20Ann%20Surg%20Onc%202003.pdf",
+                  "text": "Van Zee KJ, et. al. A nomogram for predicting the likelihood of additional nodal metastases in breast cancer patients with a positive sentinel node biopsy. Ann Surg Oncol. 2003 Dec;10(10):1140-51."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "name": "Dr. Kimberly Van Zee",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          }
+        },
+        "disease_en": [
+          "Breast Cancer"
+        ],
+        "dosing": false,
+        "equation_logic": "",
+        "equation_logic_text": "var calc_output = [];\nvar msg;\nvar p, n, s;\nvar u;\nif (parseFloat(numneg) == 14) { n = 0; }\nif (parseFloat(numneg) == 13) { n = 3; }\nif (parseFloat(numneg) == 12) { n = 5; }\nif (parseFloat(numneg) == 11) { n = 9; }\nif (parseFloat(numneg) == 10) { n = 13; }\nif (parseFloat(numneg) == 9) { n = 16; }\nif (parseFloat(numneg) == 8) { n = 19; }\nif (parseFloat(numneg) == 7) { n = 23; }\nif (parseFloat(numneg) == 6) { n = 27; }\nif (parseFloat(numneg) == 5) { n = 33; }\nif (parseFloat(numneg) == 4) { n = 36; }\nif (parseFloat(numneg) == 3) { n = 43; }\nif (parseFloat(numneg) == 2) { n = 48; }\nif (parseFloat(numneg) == 1) { n = 57; }\nif (parseFloat(numneg) == 0) { n = 80; }\n\nif (parseFloat(numpos) == 7) { p = 95; }\nif (parseFloat(numpos) == 6) { p = 80; }\nif (parseFloat(numpos) == 5) { p = 65; }\nif (parseFloat(numpos) == 4) { p = 47; }\nif (parseFloat(numpos) == 3) { p = 33; }\nif (parseFloat(numpos) == 2) { p = 16; }\nif (parseFloat(numpos) <= 1) { p = 0; }\n\nif (parseFloat(size) > 8.5) { s = 100; }\nif (parseFloat(size) <= 8.5 && parseFloat(size) > 8) { s = 95; }\nif (parseFloat(size) <= 8 && parseFloat(size) > 7.5) { s = 89; }\nif (parseFloat(size) <= 7.5 && parseFloat(size) > 7) { s = 85; }\nif (parseFloat(size) <= 7 && parseFloat(size) > 6.5) { s = 78; }\nif (parseFloat(size) <= 6.5 && parseFloat(size) > 6) { s = 72; }\nif (parseFloat(size) <= 6 && parseFloat(size) > 5.5) { s = 67; }\nif (parseFloat(size) <= 5.5 && parseFloat(size) > 5) { s = 62; }\nif (parseFloat(size) <= 5 && parseFloat(size) > 4.5) { s = 55; }\nif (parseFloat(size) <= 4.5 && parseFloat(size) > 4) { s = 50; }\nif (parseFloat(size) <= 4 && parseFloat(size) > 3.5) { s = 44; }\nif (parseFloat(size) <= 3.5 && parseFloat(size) > 3) { s = 37; }\nif (parseFloat(size) <= 3 && parseFloat(size) > 2.5) { s = 34; }\nif (parseFloat(size) <= 2.5 && parseFloat(size) > 2) { s = 27; }\nif (parseFloat(size) <= 2 && parseFloat(size) > 1.5) { s = 22; }\nif (parseFloat(size) <= 1.5 && parseFloat(size) > 1) { s = 15; }\nif (parseFloat(size) <= 1 && parseFloat(size) > 0.5) { s = 10; }\nif (parseFloat(size) <= 0.5 && parseFloat(size) > 0) { s = 5; }\nif (parseFloat(size) == 0) { s = 0; }\n\n\nu = n + p + s + parseFloat(meth) + parseFloat(er) + parseFloat(multi) + parseFloat(lvi) + parseFloat(nuc);\n\n\nif (u < 58) { msg = \"<2% predicted probability of SLN metastasis\";\n} if (u >= 58 && u < 93) { msg = \"2-5% predicted probability of non-SLN metastasis\";\n} if (u >= 93 && u < 122) { msg = \"5-10% predicted probability of non-SLN metastasis\";\n} if (u >= 122 && u < 155) { msg = \"10-20% predicted probability of non-SLN metastasis\";\n} if (u >= 155 && u < 175) { msg = \"20-30% predicted probability of non-SLN metastasis\";\n} if (u >= 175 && u < 192) { msg = \"30-40% predicted probability of non-SLN metastasis\";\n} if (u >= 192 && u < 210) { msg = \"40-50% predicted probability of non-SLN metastasis\";\n} if (u >= 210 && u < 225) { msg = \"50-60% predicted probability of non-SLN metastasis\";\n} if (u >= 225 && u < 242) { msg = \"60-70% predicted probability of non-SLN metastasis\";\n} if (u >= 242 && u < 263) { msg = \"70-80% predicted probability of non-SLN metastasis\";\n} if (u >= 263 && u < 305) { msg = \"80-92% predicted probability of non-SLN metastasis\";\n} if (u >= 305) { msg = \">92% predicted probability of non-SLN metastasis\";\n}\n\n\ncalc_output.push({\n    name: 'mini',\n    value: u,\n    value_text: 'points',\n    message: msg\n});\ncalc_output.push({\n    name: 'Dutch Criteria',\n    value: u,\n    value_text: 'points',\n    message: msg\n});",
+        "favorite_id": 3909,
+        "full_title_en": "Additional Nodal Metastasis Nomogram",
+        "input_schema": [
+          {
+            "label_en": "Nuclear Grade",
+            "name": "nuc",
+            "optional": false,
+            "options": [
+              {
+                "label": "Ductal I",
+                "value": 0
+              },
+              {
+                "label": "Ductal II",
+                "value": 1
+              },
+              {
+                "label": "Ductal III",
+                "value": 10
+              },
+              {
+                "label": "Lobular",
+                "value": 6
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          },
+          {
+            "default": 0,
+            "label_en": "Lymphovascular Invasion (LVI)",
+            "name": "lvi",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 22
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "default": 0,
+            "label_en": "Multifocal",
+            "name": "multi",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 15
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "default": 0,
+            "label_en": "Estrogen Receptor (ER) Status",
+            "name": "er",
+            "optional": false,
+            "options": [
+              {
+                "label": "Negative",
+                "value": 0
+              },
+              {
+                "label": "Positive",
+                "value": 17
+              }
+            ],
+            "show_points": true,
+            "type": "toggle"
+          },
+          {
+            "label_en": "Number of negative <abbr title='Sentinel Lymph Nodes'>SLN</abbr>s",
+            "name": "numneg",
+            "optional": false,
+            "show_points": false,
+            "tips_en": "Range: 0-14",
+            "type": "textbox",
+            "unit": "neg_sln"
+          },
+          {
+            "label_en": "Number of positive <abbr title='Sentinel Lymph Nodes'>SLN</abbr>s",
+            "name": "numpos",
+            "optional": false,
+            "show_points": false,
+            "tips_en": "Range: 0-7",
+            "type": "textbox",
+            "unit": "pos_sln"
+          },
+          {
+            "label_en": "Pathologic Size of Tumor",
+            "name": "size",
+            "optional": false,
+            "show_points": false,
+            "tips_en": "Range: 0-9 cm",
+            "type": "textbox",
+            "unit": "path_tum_size"
+          },
+          {
+            "label_en": "Method of detection of <abbr title='Sentinel Lymph Nodes'>SLN</abbr> metastases",
+            "name": "meth",
+            "optional": false,
+            "options": [
+              {
+                "label": "<abbr title='Immunohistochemistry'>IHC</abbr>",
+                "value": 0
+              },
+              {
+                "label": "Serial <abbr title='Hematoxylin and eosin'>HE</abbr>",
+                "value": 23
+              },
+              {
+                "label": "Routine",
+                "value": 35
+              },
+              {
+                "label": "Frozen",
+                "value": 81
+              }
+            ],
+            "show_points": true,
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [],
+        "md5": "fa7325e42af805502433f76dcacecdff",
+        "medium_description_en": "<p>Predicts likelihood of breast cancer with sentinel lymph node metastasis has also spread to additional lymph nodes.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "additional",
+          "lymph",
+          "mets",
+          "breast CA"
+        ],
+        "search_id": "c-3909",
+        "seo": {
+          "keywords_en": "breast ca, nodal mets, nodal metastasis, breast cancer, brca, additional nodal mets",
+          "meta_description_en": "The Additional Nodal Metastasis Nomogram predicts likelihood of breast cancer with sentinel lymph node metastasis has also spread to additional lymph nodes."
+        },
+        "short_description_en": "Additional lymph node mets in breast CA.",
+        "short_title_en": "<p>Additional Nodal Metastasis Nomogram</p>",
+        "slug": "additional-nodal-metastasis-nomogram",
+        "specialty_en": [
+          "Hematology and Oncology",
+          "Internal Medicine",
+          "OB-Gyn",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Oncologic"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Kimberly J. Van Zee, MS, MD, is a surgical oncologist exclusively practicing and primarily researching topics within the realm of breast cancer treatment. She sees outpatients in the new Evelyn H. Lauder Breast Center and performs surgeries regularly. She has received the American Cancer Society's Clinical Oncology Career Development award, and is frequently in the New York Magazine's 'Best Doctors in New York.'</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Kimberly Van Zee",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-kimberly-van-zee.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Van+Zee+KJ%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3909/additional-nodal-metastasis-nomogram",
+        "description": "The Additional Nodal Metastasis Nomogram predicts likelihood of breast cancer with sentinel lymph node metastasis has also spread to additional lymph nodes.",
+        "keywords": "breast ca, nodal mets, nodal metastasis, breast cancer, brca, additional nodal mets",
+        "title": "Additional Nodal Metastasis Nomogram"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 9,
+          "error_max_si": 9,
+          "error_max_us": 9,
+          "error_min": -1,
+          "error_min_si": -1,
+          "error_min_us": -1,
+          "name": "cm",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "path_tum_size",
+          "units_si": "cm",
+          "units_us": "cm",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 8,
+          "warn_max_si": 8,
+          "warn_max_us": 8,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 7,
+          "error_max_si": 7,
+          "error_max_us": 7,
+          "error_min": -1,
+          "error_min_si": -1,
+          "error_min_us": -1,
+          "name": "Negative SLNs",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "pos_sln",
+          "units_si": " ",
+          "units_us": " ",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 6,
+          "warn_max_si": 6,
+          "warn_max_us": 6,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 14,
+          "error_max_si": 14,
+          "error_max_us": 14,
+          "error_min": -1,
+          "error_min_si": -1,
+          "error_min_us": -1,
+          "name": "Negative SLNs",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "neg_sln",
+          "units_si": " ",
+          "units_us": " ",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 13,
+          "warn_max_si": 13,
+          "warn_max_us": 13,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 3647,
+          "short_title_en": "Gail Model for Breast CA Risk",
+          "slug": "gail-model-breast-cancer-risk"
+        },
+        {
+          "calcId": 3925,
+          "short_title_en": "Fong Score",
+          "slug": "fong-clinical-risk-score-colorectal-cancer-recurrence"
+        },
+        {
+          "calcId": 3315,
+          "short_title_en": "Khorana Risk Score for VTE",
+          "slug": "khorana-risk-score-venous-thromboembolism-cancer-patients"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3909",
+      "additional-nodal-metastasis-nomogram"
+    ]
+  },
+  "scriptLoader": []
+}

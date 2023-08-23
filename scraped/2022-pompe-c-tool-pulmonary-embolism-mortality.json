@@ -1,0 +1,677 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain",
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+119",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+119",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "2022.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p><span style='text-decoration: underline;'><strong>Derivation</strong></span></p> <ul> <li>POMPE-C was derived from secondary analysis of a multicenter registry data from 22 emergency departments in the US from 2005 to 2008.</li> <li>Multiple patient variables were collected including lab, ekg and radiology studies. Patients with cancer were also qualified as active cancer, metastatic malignancy or inactive cancer.</li> <li>Incidental findings of filling defects on staging CT scans were excluded.</li> <li>24 potential variables were compared to 30-day mortality, first with a classification and regression technique (CART) analysis and then by a bivariate analysis (t-test or chi-square). Variables that met statistical standards to be included then underwent ROC curve analysis. <ul> <li>8 variables were identified as predictors:</li> </ul> </li> </ul> <div class='table-responsive'> <table class='table table-bordered table-hover'> <tbody> <tr> <th>Variable</th> <th>Odds Ratio (95%CI)</th> </tr> <tr> <td>Weight</td> <td>0.99 (0.98-1)</td> </tr> <tr> <td>Highest RR</td> <td>1.05 (1.01-1.09)</td> </tr> <tr> <td>SaO2</td> <td>0.94 (0.89-0.99)</td> </tr> <tr> <td>HR &gt; 99</td> <td>2.8 (1.38-5.64)</td> </tr> <tr> <td>AMS</td> <td>4.36 (1.47-13)</td> </tr> <tr> <td>Resp. Distress</td> <td>2.22 (1.12-4.43)</td> </tr> <tr> <td>DNR</td> <td>4.72 (1.75-12.76)</td> </tr> <tr> <td>Unilateral Limb Swelling</td> <td>2.08 (1-4.36)</td> </tr> </tbody> </table> <ul> <li>A second regression and bivariate analysis was then performed for the included predictors for death at 30 days, with a Pearson’s goodness of fit P value of 0.94 and McFadden’s R-squared of 0.21.</li> <li>Within the derivation cohort 1880 patients had a diagnosis of PE, with 408 having active cancer and 108 having inactive cancer. 51 (12.5%) of the active cancer patients died of any cause within 30 days.</li> <li>AUC under the ROC for each group: <ul> <li>Active Cancer 0.84 (95% CI: 0.78 to 0.89)</li> <li>All PE patients 0.8 (95% CI: 0.76 to 0.85)</li> <li>Inactive cancer 0.85 (95% CI: 0.66 to 1.0)</li> </ul> </li> <li>PESI score performed well for identifying low risk patients from the derivation cohort, but when applied to the 408 patients with active cancer had a reduced accuracy with an AUC of 0.68 (compared to 0.79 for the entire cohort).</li> </ul> <p><span style='text-decoration: underline;'><strong>Validation</strong></span></p> <ul> <li>Validation was performed prospectively in the US, New Zealand and Europe by research assistants in real time on patients with active cancer. Percentage mortality estimate was calculated.</li> <li>14,121 patients were identified. 202 had active cancer, but 20 did not complete the enrollment process or were missing data resulting in 182 patients that were included in the final cohort of the validation study. <ul> <li>27 (15%) died within 30 days of the study.</li> <li>AUC of the ROC was 0.86 (95% CI: 0.78 to 0.93).</li> </ul> </li> <li>From the logistic equation, cutoffs were selected that predicted very low and very high 30-day mortality probability. <ul> <li>A cutoff of 5% was selected as a low probability of death. <ul> <li>50 patients (27%) had a POMPE-C estimate ≤5% with no deaths within 30 days.</li> </ul> </li> <li>A cutoff of 50% was selected as a high probability of death. <ul> <li>13 patients (7%) had a POMPE-C estimate &gt;50% and 10 (77%) died.</li> </ul> </li> </ul> </li> <li>A subanalysis of patients incidentally diagnosed with PE in the emergency department was performed. <ul> <li>16 patients were identified that were not discharged. <ul> <li>One died within 30 days, with a POMPE-C of 46%.</li> <li>15 lived, and 9 had a POMPE-C &lt;5%.</li> </ul> </li> <li>19 other patients were discharged from the emergency department. <ul> <li>There were no deaths</li> <li>Mean POPME-C score was 6±8% and 14 had scores ≤5%.</li> </ul> </li> </ul> </li> </ul> </div>",
+            "formula_en": "<p><b>Probability (P) of death using the POMPE-C formula:</b></p> <p>P = 100*(1 - 1 / (1 + Exp(3.718 + 1.551*DNR + 0.799*RespDistress + 0.734*Leg Swelling + 1.473*AMS + 1.027*HR + 0.044*RR + (-0.0636*SAT) + (-0.012*Body Weight))))</p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/22475313",
+                  "text": "Kline JA, Roy PM, Than MP, Hernandez J, Courtney DM, Jones AE, Penaloza A, Pollack CV Jr. Derivation and validation of a multivariate model to predict mortality from pulmonary embolism with cancer: The POMPE-C tool. Thromb Res. 2012 May;129(5):e194-9. doi: 10.1016/j.thromres.2012.03.015. Epub 2012 Apr 3."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/24226257",
+                  "text": "Nendaz M, Spirk D, Kucher N, Aujesky D, Hayoz D, Beer JH, Husmann M, Frauchiger B, Korte W, Wuillemin WA, Jäger K, Righini M, Bounameaux H. Multicentre validation of the Geneva Risk Score for hospitalised medical patients at risk of venous thromboembolism. Explicit ASsessment of Thromboembolic RIsk and Prophylaxis for Medical PATients in SwitzErland (ESTIMATE).Thromb Haemost. 2014 Mar 3;111(3):531-8. doi: 10.1160/TH13-05-0427. Epub 2013 Nov 14."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/24819040",
+                  "text": "van der Hulle T, den Exter PL, Kooiman J, van der Hoeven JJ, Huisman MV, Klok FA. J Thromb Haemost. Meta-analysis of the efficacy and safety of new oral anticoagulants in patients with cancer-associated acute venous thromboembolism. 2014 Jul;12(7):1116-20. doi: 10.1111/jth.12605. Epub 2014 Jun 19."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Benjamin Slovis, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Jeffrey Kline",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>The POMPE-C Prediction Tool was risk stratifies patients diagnosed with pulmonary embolism and have active cancer.</p> <ul> <li>The POMPE-C prediction tool predicts mortality directly (at 30 days), not a risk category of mortality.</li> <li>Active cancer has been shown to be a risk factor for PE, but less so for cancer in remission.</li> <li>The POMPE-C has not been validated for incidental PE (PE found on imaging but without symptoms), though a small sample was identified and found to be low-risk overall.</li> <li>The POMPE-C may be more accurate in predicting outcome than the <calculator id='1304'>PESI Score</calculator> in the setting of patients with active cancer.</li> <li>The POMPE-C has not yet been validated for selecting patients for outpatient management (though there is potential for future research).</li> </ul>",
+            "use_case_en": "<p>In the setting of a patient with known cancer who has been diagnosed with a pulmonary embolism, the POMPE-C can be used to estimate their mortality. </p>",
+            "why_use_en": "<ul> <li>Risk stratification is a vital part of the evaluation of a patient diagnosed with PE.</li> <li>Most risk-stratification tools use cancer as a prognostic indicator, but no risk stratification tool exists for those patients with known cancer.</li> <li>Those patients that are determined to be low risk (score ≤5%) may warrant outpatient management (though this has not been validated).</li> </ul> "
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>The POMPE-C score is a well designed and validated prediction rule for patients with known cancer and new PE. Larger prospective validation studies are required before it can be utilized to guide disposition and treatment.</li> <li>The purpose of this study was to set the groundwork for tools with aid in the management of cancer patients found to have incidental PE, as well as those diagnosed with PE who are low risk.</li> <li>Active vs. Inactive cancer may confusing in certain settings, however even inactive had good prediction in the POMPE-C model. (ROC AUC analysis was still 0.85 for inactive cancer with wide confidence intervals).</li> </ul>",
+            "critical_actions_en": "<ul> <li>No calculator should trump clinical gestalt. A clinically high risk patient should be managed as such, regardless of POMPE-C score.</li> <li>The POMPE-C is only meant for patients with cancer and for risk stratification after the non-incidental diagnosis of PE has been made.</li> <li>Additional pathology and comorbidities should not be overlooked in the setting of a low POMPE-C score.</li> <li>Never delay resuscitative efforts for risk stratification.</li> </ul> ",
+            "management_en": "<ul> <li>For those patients with a POMPE-C risk of mortality of of ≤5%: <ul> <li>Overall risk of mortality is low. No patients in this group died in the study.</li> <li>Consider this group for outpatient management and anticoagulation therapy.</li> </ul> </li> <li>For those patients with a POMPE-C mortality estimate &gt;5%: <ul> <li>Overall of mortality in this group was not low, but with a posterior probability of 0/50 (95% CI: 0-7%).</li> <li>106 patients in this group survived &gt;30 days.</li> <li>Consider this group for admission and management.</li> </ul> </li> <li>For those patient with a POMPE-C score of &gt;50%: <ul> <li>Overall risk of mortality was very high with a posterior probability of 73% (95%CI: 46-95%).</li> <li>Consider this group admission and goals of care discussion.</li> </ul> </li> </ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Cancer",
+          "Chemotherapy",
+          "Pulmonary Embolism"
+        ],
+        "dosing": false,
+        "equation_logic": "ba3d548e97219992b0ec8e2bd9fd697b",
+        "equation_logic_text": "var calc_output = [];\nvar r, u, x, y, z;\nvar wt = parseFloat(wt);\n\nvar dnr = parseFloat(dnr);\nvar resp_dist = parseFloat(resp_dist);\nvar uls = parseFloat(uls);\nvar ams = parseFloat(ams);\nvar hr = parseFloat(hr);\nvar rr = parseFloat(rr);\nvar sat = parseFloat(sat);\nvar wt = parseFloat(wt) * 2.2; // weight comes to us in kilos but for this study actually uses lbs\n\nvar r = 3.718 + (1.551711 * dnr) + (0.799617 * resp_dist) + (0.734339 * uls) +\n  (1.473451 * ams) + (hr * 1.027895) + (0.04422 * rr) + (-0.063644 * sat) + (-\n    0.011613 * wt);\n\nvar u = 1 + (Math.exp(r));\nvar x = 1 / u;\nvar y = 100 * (1 - x);\nvar z = Math.round(y);\n\ncalc_output.push({\n  name: 'mini',\n  value: z,\n  value_text: '%',\n  message: 'Chance of 30-day mortality'\n});\ncalc_output.push({\n  name: 'POMPE-C Tool',\n  value: z,\n  value_text: '%',\n  message: 'Chance of mortality within 30 days.'\n});\n",
+        "favorite_id": 2022,
+        "full_title_en": "POMPE-C Tool for Pulmonary Embolism Mortality",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Do not resuscitate",
+            "name": "dnr",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "New or existing desire of patient to not be resuscitated from death (verbal or written)",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Respiratory distress",
+            "name": "resp_dist",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Obvious anxiety from dyspnea or increased work of breathing",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Unilateral leg swelling",
+            "name": "uls",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Leg or arm with new, noticeable swelling causing asymmetry",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Altered mental status",
+            "name": "ams",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "New or different from baseline",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Heart rate ≥100 in past 6 hours",
+            "name": "hr",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Highest respiratory rate in past 6 hours",
+            "name": "rr",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "rr"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "Weight",
+            "name": "wt",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "wt"
+          },
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "O2 Sat on room air",
+            "name": "sat",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "sat"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "fdb780d646aef64517bfa9b11f5804c9",
+        "medium_description_en": "<p>Predicts mortality for cancer patients with PE.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "Pompe-C",
+          "VTE",
+          "DVT",
+          "PE",
+          "clotting",
+          "chest pain",
+          "shortness of breath",
+          "DNR",
+          "CA",
+          "Cancer"
+        ],
+        "search_id": "c-2022",
+        "seo": {
+          "keywords_en": "pompe-c, pompe dvt, pompe pe, pompe vte, pompe tool, pompe DNR, pompe prognosis, pompe mortality, pompe-c dvt, pompe-c pe, pompe-c vte, pompe-c tool, pompe-c morality, pompe-c prognosis, pompe calc, pompe-c calc, pompe equation, pompe prediction tool, pompe prediction, PE cancer, Pulmonary embolism cancer, PE CA, pulmonary embolism CA, pe mortality cancer, pe mortality CA",
+          "meta_description_en": "The POMPE-C tool predicts mortality for patients with pulmonary embolism with cancer."
+        },
+        "short_description_en": "Mortality for cancer patients with PE.",
+        "short_title_en": "POMPE-C Tool",
+        "slug": "pompe-c-tool-pulmonary-embolism-mortality",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Hematology and Oncology",
+          "Hospitalist Medicine"
+        ],
+        "system_en": [
+          "Hematologic",
+          "Oncologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Benjamin H. Slovis, MD, MA, is an emergency medicine physician and informatician in the department of emergency medicine at Thomas Jefferson University in Philadelphia. A native of New Jersey, Dr. Slovis attended Cornell University for his undergraduate studies and received his MD from UMDNJ–Robert Wood Johnson Medical School. He completed his residency at the Icahn School of Medicine at Mount Sinai and a National Library of Medicine Post-Doctoral Research Fellowship with a masters degree from the department of Biomedical Informatics at Columbia University. His research interests include clinical decision support systems, health-information exchange, and medical education.</p>",
+          "firstName": "Benjamin",
+          "hasDisclosure": [],
+          "img": "ben-slovis.jpeg",
+          "lastName": "Slovis",
+          "name": "Benjamin Slovis, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "benjamin-slovis",
+          "updatedAt": "2023-04-06T20:24:56.957Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Jeffrey Kline, MD, is a professor of emergency medicine and physiology and the vice chair of research at Indiana University. Among other research, he has conducted clinical studies using breath-based methods to diagnose and assess the severity of PE. He co-founded BreathQuant Medical Systems Inc to advance practical applications of 16 patents for medical devices. Dr. Kline has published over 50 manuscripts in the area of PE.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Jeffrey Kline",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-jeffrey-kline.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Kline+JA%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/2022/pompe-c-tool-pulmonary-embolism-mortality",
+        "description": "The POMPE-C tool predicts mortality for patients with pulmonary embolism with cancer.",
+        "keywords": "pompe-c, pompe dvt, pompe pe, pompe vte, pompe tool, pompe DNR, pompe prognosis, pompe mortality, pompe-c dvt, pompe-c pe, pompe-c vte, pompe-c tool, pompe-c morality, pompe-c prognosis, pompe calc, pompe-c calc, pompe equation, pompe prediction tool, pompe prediction, PE cancer, Pulmonary embolism cancer, PE CA, pulmonary embolism CA, pe mortality cancer, pe mortality CA",
+        "title": "POMPE-C Tool for Pulmonary Embolism Mortality"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 100.1,
+          "error_max_si": 100.1,
+          "error_max_us": 100.1,
+          "error_min": 40,
+          "error_min_si": 40,
+          "error_min_us": 40,
+          "name": "O2 Sat",
+          "normal_max_si": 100,
+          "normal_max_us": 100,
+          "normal_min_si": 95,
+          "normal_min_us": 95,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "sat",
+          "units_si": "%",
+          "units_us": "%",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100.01,
+          "warn_max_si": 100.01,
+          "warn_max_us": 100.01,
+          "warn_min": 70,
+          "warn_min_si": 70,
+          "warn_min_us": 70
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 90,
+          "error_max_si": 90,
+          "error_max_us": 90,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Respiratory Rate",
+          "normal_max_si": 20,
+          "normal_max_us": 20,
+          "normal_min_si": 12,
+          "normal_min_us": 12,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "rr",
+          "units_si": "breaths/min",
+          "units_us": "breaths/min",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 70,
+          "warn_max_si": 70,
+          "warn_max_us": 70,
+          "warn_min": 5,
+          "warn_min_si": 5,
+          "warn_min_us": 5
+        },
+        {
+          "conversion": "0.453592",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 600,
+          "error_max_si": 272.1552,
+          "error_max_us": 600,
+          "error_min": 0.5,
+          "error_min_si": 0.226796,
+          "error_min_us": 0.5,
+          "name": "Weight",
+          "normal_max_si": 150,
+          "normal_max_us": 330,
+          "normal_min_si": 1,
+          "normal_min_us": 2,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "wt",
+          "units_si": "kg",
+          "units_us": "lbs",
+          "updatedAt": "2022-12-01T20:01:08.372Z",
+          "warn_max": 500,
+          "warn_max_si": 226.796,
+          "warn_max_us": 500,
+          "warn_min": 0.5,
+          "warn_min_si": 0.226796,
+          "warn_min_us": 0.5
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 3315,
+          "short_title_en": "Khorana Risk Score for VTE",
+          "slug": "khorana-risk-score-venous-thromboembolism-cancer-patients"
+        },
+        {
+          "calcId": 2011,
+          "short_title_en": "DASH Score",
+          "slug": "dash-prediction-score-recurrent-vte"
+        },
+        {
+          "calcId": 1304,
+          "short_title_en": "PESI Score",
+          "slug": "pulmonary-embolism-severity-index-pesi"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "2022",
+      "pompe-c-tool-pulmonary-embolism-mortality"
+    ]
+  },
+  "scriptLoader": []
+}

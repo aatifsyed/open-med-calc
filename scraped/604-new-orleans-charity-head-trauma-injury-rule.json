@@ -1,0 +1,681 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Head Injury",
+          "Injury/Trauma"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "604.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li>The NOC were derived from analysis of 520 patients, &gt;3 years of age, who presented with minor head trauma within in 24 hours of their injury.</li>\n<li>The NOC were then validated among 909 patients presenting to a single US level 1 trauma center. The rule was found to be <b>100%</b> sensitive for all intracranial injuries and had a specificity of 25%.</li>\n<li>6.5% of patients had intracranial injuries on CT (93/1429) and of those, 0.4% (6/1429) required neurosurgical intervention.</li>\n<li>Subsequent studies have found the NOC to have a sensitivity of 86-100% for intracranial injuries.There is conflicting evidence as to whether the NOC performs better than the CCHR for detecting all clinically significant intracranial injuries, with two validation trials finding that both had 100% sensitivity for these injuries, another trial2 finding that the NOC was more sensitive (99.4 vs. 87.2%) and one additional trial finding that the CCHR was more sensitive for detecting clinically significant intracranial injuries (95 vs. 86%).</li>\n<li>Regardless, in all settings the NOC has been shown to be less specific than the CCHR (50.6% vs 12.7%1, 39.7% vs. 5.6%2, 36.3% vs. 10.2%3 and 65% vs. 28%4).</li>\n<li>Another issue is the interrater reliability of applying the NOC vs. the CCHR. The kappa values for physician interpretation of the rules, CCHR vs NOC, were 0.85 vs 0.47. Physicians misinterpreted the rules as not requiring imaging for 4.0% of patients according to CCHR and 5.5% according to NOC (P = .04)1.</li>\n<li>The New Orleans Criteria have been validated in several settings and to 100% sensitivity for detecting injuries that will require neurosurgery.\n<ul>\n<li>There is an outlier study based on patients evaluated in a center in Tunisia that found the NOC to only be 82% sensitive (25/1017 patients with GCS 15 who were NOC negative, or 2.5%) for injuries that required neurosurgical intervention.</li>\n<li>There has been at least one trial that found the NOC was more sensitive than the CCHR (99.4% vs 87.3%). Though this comes at the price of markedly decreased specificity (5.6% vs. 39.7%).</li>\n<li>In United States, Canada and the Netherlands, both the NOC and the CCHR have demonstrated 100% sensitivity for ruling out intracranial injuries that would require neurosurgical intervention.</li>\n</ul>\n</li>\n</ul>",
+            "formula_en": "<p>Series of Yes/No Questions, as above.</p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10891517",
+                  "text": "Haydel MJ, Preston CA, Mills TJ, Luber S, Blaudeau E, DeBlieux PM. Indications for computed tomography in patients with minor head injury. N Engl J Med. 2000 Jul 13;343(2):100-5."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16189365",
+                  "text": "Smits M, Dippel DW, de Haan GG, Dekker HM, Vos PE, Kool DR, Nederkoorn PJ, Hofman PA, Twijnstra A, Tanghe HL, Hunink MG. External validation of the Canadian CT Head Rule and the New Orleans Criteria for CT scanning in patients with minor head injury. JAMA. 2005 Sep 28;294(12):1519-25."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22251188",
+                  "text": "Papa L, Stiell IG, Clement CM, Pawlowicz A, Wolfram A, Braga C, Draviam S, Wells GA. Performance of the Canadian CT Head Rule and the New Orleans Criteria for predicting any traumatic intracranial injury on computed tomography in a United States Level I trauma center. Acad Emerg Med. 2012 Jan;19(1):2-10. doi: 10.1111/j.1553-2712.2011.01247.x."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22921164",
+                  "text": "Bouida W, Marghli S, Souissi S, Ksibi H, Methammem M, Haguiga H, Khedher S, Boubaker H, Beltaief K, Grissa MH, Trimech MN, Kerkeni W, Chebili N, Halila I, Rejeb I, Boukef R, Rekik N, Bouhaja B, Letaief M, Nouira S. Prediction value of the Canadian CT head rule and the New Orleans criteria for positive head CT scan and acute neurosurgical procedures in minor head trauma: a multicenter external validation study. Ann Emerg Med. 2013 May;61(5):521-7. doi: 10.1016/j.annemergmed.2012.07.016. Epub 2012 Aug 22."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16189364",
+                  "text": "Stiell IG, Clement CM, Rowe BH, Schull MJ, Brison R, Cass D, Eisenhauer MA, McKnight RD, Bandiera G, Holroyd B, Lee JS, Dreyer J, Worthington JR, Reardon M, Greenberg G, Lesiuk H, MacPhail I, Wells GA. Comparison of the Canadian CT Head Rule and the New Orleans Criteria in patients with minor head injury. JAMA. 2005 Sep 28;294(12):1511-8."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Daniel Runde, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Micelle J. Haydel",
+              "qa_en": "<dl><dt>Why did you develop the New Orleans/Charity Head Injury/Trauma Rule? Was there a clinical experience that inspired you to create this tool for clinicians?</dt><dd>As a resident at the University of Pittsburgh, I was convinced that CT was overused in patients with minor head injury (MHI). When I became faculty at Charity Hospital in New Orleans, I was much wiser and less cavalier, noting that occasionally some patients with MHI really did have badness on CT. But not very many, and usually it was quite unexpected. As a county hospital, we had little funds available for research, but I plied the residents with candy and ended up enrolling over 1,000 patients.</dd><dt>What pearls, pitfalls and/or tips do you have for users of the New Orleans/Charity Head Injury/Trauma Rule? Are there cases in which it has been applied, interpreted, or used inappropriately?</dt><dd>Users should be aware that the original data set only included patients with either loss of consciousness or post-traumatic amnesia, although subsequent studies have shown that the 'rule' is equally sensitive in patients without loss of consciousness. The mnemonic HEAD CT'S can be used to remember the seven criteria: headache, emesis, age over 60, drug or alcohol intoxication, convulsion, trauma visible above the clavicles, and short-term memory deficits. Several definitions are important when using this rule. Trauma visible above the clavicles implies any bruises, contusions or lacerations. Short-term memory deficits are defined as loss of anterograde amnesia, not the expected retrograde amnesia.</dd><dt>What recommendations do you have for health care providers once they have applied the New Orleans/Charity Head Injury/Trauma Rule? Are there any adjustments or updates you would make to the score given recent changes in medicine like imaging or the research we now have on concussion?</dt><dd>Clinical decision rules do not replace clinical judgment.</dd></dl>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>The New Orleans Criteria (NOC) were developed to help physicians determine which patients need CT head imaging.</p>\n<ul>\n<li>The NOC has been demonstrated in several prospective trials to have a sensitivity of 100% for intracranial injuries that require neurosurgical intervention.</li>\n</ul>\n<p><strong>Points to keep in mind:</strong></p>\n<ul>\n<li>The NOC authors' goal was to find a rule that was 100% sensitive for all intracranial injuries, not just those that would require neurosurgical intervention. In the original validation study and two other trials, the NOC was found to be 99.4-100% sensitive for these injuries.</li>\n<li>One recent trial among trauma patients in Tunisia found that the NOC was only 82-86% sensitive for injuries requiring neurosurgery and for all clinically important brain injuries, suggesting that the NOC might not be translatable to all clinical settings.</li>\n<li>While the NOC is less complex than the CCHR, and both rules have excellent sensitivity, the NOC is much less specific than the CCHR in all settings given the NOC&rsquo;s very broad questions, especially &ldquo;Any trauma above the clavicles.&rdquo;</li>\n</ul>",
+            "use_case_en": "<p>Patients with head injury and loss of consciousness (LOC) who are neurologically normal (i.e., GCS 15 and normal brief neurological exam).</p>",
+            "why_use_en": "<ul>\n<li>There are more than 8 million patients who present annually to US Emergency Departments for evaluation of head trauma. The vast majority of these patients have minor head trauma that will not require specialized treatment or neurosurgical treatment. At the same time, rates of CT imaging of the head have risen dramatically in the US, more than doubling from the early 1990s through the 2000s.</li>\n<li>Using the NOC as a clinical decision aid would allow physicians to safely forgo head CT in 12-25% of patients presenting to the emergency department with minor head trauma.</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>Consider CT Head pending outcome of the rule.</li>\n<li>Consider Neurosurgery Consult as per rule guidelines.</li>\n</ul>",
+            "critical_actions_en": "<ul>\n<li>Providers in more conservative settings could consider applying both rules and choosing to image if either rule suggests that a patient is not completely low risk according to their respective criteria.</li>\n<li>If a trauma patient, with a head injury and loss of consciousness, presenting with a <calculator id=\"64\">GCS</calculator> 15 is positive for any of the NOC (age &gt;60, headache, vomiting, alcohol or drug intoxication, persistent anterograde amnesia, visible trauma above the clavicle or seizures) then they require a CT scan of the head to evaluate for intracranial injury.</li>\n<li>If the patient does not have any of the NOC then they can be discharged without undergoing a CT of the head and without the need for any further clinical observation.</li>\n</ul>",
+            "management_en": "<p>In patients with signs of intracranial hemorrhage, contusion, skull fracture, or other abnormalities diagnosed on brain imaging:</p>\n<ul>\n<li>Always assess <abbr title=\"Airway, breathing, and circulation\">ABCs</abbr> first.</li>\n<li>Neurosurgery consultation.</li>\n<li>Consider hypertonic saline or mannitol after consultation with neurosurgery.</li>\n<li>Admit to neurosurgical ICU for monitoring and further care.</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": 3,
+              "evidence": 3.8,
+              "popularity": 4
+            },
+            "partner_contact": [
+              {
+                "description": "Evidence-Based Urgent Care",
+                "link": "https://www.ebmedicine.net/topics/trauma/closed-head-injury-urgent-care/calculators",
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: New Orleans Head CT Rule"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Trauma"
+        ],
+        "dosing": false,
+        "equation_logic": "61a1b1ff10a62280a22acf21abf33bf0",
+        "equation_logic_text": "var calc_output = [];\nvar msg = '';\nvar mini_msg = '';\nvar headache = parseInt(headache);\nvar vomiting = parseInt(vomiting);\nvar age_60 = parseInt(age_60);\nvar alcohol_drug_intoxication = parseInt(alcohol_drug_intoxication);\nvar amnesia = parseInt(amnesia);\nvar visible_trauma = parseInt(visible_trauma);\nvar seizure = parseInt(seizure);\n\nvar u = headache + vomiting + age_60 + alcohol_drug_intoxication + amnesia + visible_trauma + seizure;\n\nif (u > 0) {\n    mini_msg = 'CT necessary';\n    msg = 'The New Orleans Head CT Rule suggests a head CT is necessary for this patient to rule out an intracranial traumatic finding (sensitivity 97-100%).'\n}\nif (u == 0) {\n    mini_msg = 'CT <u>not</u> necessary';\n    msg = 'The New Orleans Head CT Rule suggests a head CT is NOT necessary for this patient to rule out an intracranial traumatic finding (sensitivity 97-100%).'\n}\ncalc_output.push({\n    name: 'mini',\n    value: ' ',\n    value_text: ' ',\n    message: mini_msg\n});\ncalc_output.push({\n    name: 'New Orleans Head CT Rule',\n    value: ' ',\n    value_text: ' ',\n    message: msg\n});",
+        "favorite_id": 604,
+        "full_title_en": "New Orleans/Charity Head Trauma/Injury Rule",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Headache",
+            "md_calc_info_concept": null,
+            "name": "headache",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Vomiting",
+            "md_calc_info_concept": null,
+            "name": "vomiting",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Age > 60",
+            "md_calc_info_concept": null,
+            "name": "age_60",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Alcohol or drug intoxication",
+            "md_calc_info_concept": null,
+            "name": "alcohol_drug_intoxication",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Persisent anterograde amnesia (short-term memory deficits)",
+            "md_calc_info_concept": null,
+            "name": "amnesia",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Visible trauma above the clavicle",
+            "md_calc_info_concept": null,
+            "name": "visible_trauma",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Seizure",
+            "md_calc_info_concept": null,
+            "name": "seizure",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Use ONLY in patients with head injury and loss of consciousness (LOC)&nbsp;who are neurologically normal (i.e., GCS 15 and normal brief neurological exam).</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "updated search terms",
+            "time": "2018-10-18 12:01 PM",
+            "user": "natalie"
+          },
+          {
+            "message": "head injury chief complaint",
+            "time": "2018-10-19 09:50 AM",
+            "user": "natalie"
+          },
+          {
+            "message": "edited instructions",
+            "time": "2019-02-18 05:40 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited instruction",
+            "time": "2019-02-18 05:43 PM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "12002bc5ba572353cd67ec4bb678cef8",
+        "medium_description_en": "<p>Criteria for which patients are unlikely to require imaging after head trauma.</p>",
+        "publishedAt": "2022-04-21T20:29:44.015Z",
+        "purpose_en": [
+          "Diagnosis",
+          "Rule Out"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "noc",
+          "head trauma",
+          "new orleans",
+          "Charity Head Trauma",
+          "NOC head rule",
+          "new orleans criteria"
+        ],
+        "search_id": "c-604",
+        "seo": {
+          "keywords_en": "NOC head rule, NOC head imaging, NOC head scale, new orleans imaging, new orleans criteria, new orleans head injury, NOC head trauma",
+          "meta_description_en": "The New Orleans/Charity Head Trauma/Injury Rule Offers criteria for which patients are unlikely to require imaging after head trauma."
+        },
+        "short_description_en": "<p>Very sensitive, rules out imaging in some.</p>",
+        "short_title_en": "New Orleans Head CT Rule",
+        "slug": "new-orleans-charity-head-trauma-injury-rule",
+        "specialty_en": [
+          "Emergency Medicine",
+          "Neurology",
+          "Surgery (General)",
+          "Surgery (Trauma)"
+        ],
+        "system_en": [
+          "Musculoskeletal",
+          "Neurologic"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "025d36d3-f961-444e-8313-fc5811e32c52"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Daniel Runde, MD, is currently the assistant residency director and an assistant professor of emergency medicine at the University of Iowa Hospitals and Clinics. He received his medical degree at the University of Iowa Carver College of Medicine and completed residency in emergency medicine at St. Luke’s-Roosevelt Hospital Center in New York. He recently finished his Medical Education Fellowship at the department of emergency medicine at Harbor-UCLA. Dr. Runde is interested in evidence-based medicine with a focus on patient-important clinical outcomes, CT utilization in the emergency department and education and evaluation in medical education. Currently, he is in the process of obtaining a Masters in Medical Education through the Office of Consultation and Research in Medical Education at the University of Iowa Hospitals and Clinics.</p>",
+          "firstName": "Daniel",
+          "hasDisclosure": [],
+          "img": "daniel-runde.jpg",
+          "lastName": "Runde",
+          "name": "Daniel Runde, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "daniel-runde",
+          "updatedAt": "2023-04-06T20:24:46.787Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Micelle J. Haydel, MD, is the residency director of emergency medicine and associate professor of clinical medicine at Louisiana State University Health Sciences Center. She began her career in medicine as a nurse, completing her training at LSU School of Nursing and then later attended Tulane School of Medicine for her medical degree. Dr. Haydel currently researches head and facial injury/trauma.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Micelle J. Haydel",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-micelle-j-haydel.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Haydel+MJ%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/604/new-orleans-charity-head-trauma-injury-rule",
+        "description": "The New Orleans/Charity Head Trauma/Injury Rule Offers criteria for which patients are unlikely to require imaging after head trauma.",
+        "keywords": "NOC head rule, NOC head imaging, NOC head scale, new orleans imaging, new orleans criteria, new orleans head injury, NOC head trauma",
+        "title": "New Orleans/Charity Head Trauma/Injury Rule"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3955,
+          "short_title_en": "Palchak (UC Davis) Rule",
+          "slug": "palchak-uc-davis-rule-pediatric-head-trauma"
+        },
+        {
+          "calcId": 3954,
+          "short_title_en": "CATCH Rule",
+          "slug": "catch-canadian-assessment-tomography-childhood-head-injury-rule"
+        },
+        {
+          "calcId": 10423,
+          "short_title_en": "NEXUS Head CT Instrument",
+          "slug": "nexus-head-ct-instrument"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "604",
+      "new-orleans-charity-head-trauma-injury-rule"
+    ]
+  },
+  "scriptLoader": []
+}

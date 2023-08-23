@@ -1,0 +1,843 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "diagnostic_criteria",
+        "chief_complaint_en": [
+          "Chest Pain"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+101",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+101",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "10077.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\">Original, Derivation Rothrock Study (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/12359278\" target=\"_blank\">Rothrock 2002</a>)</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In 2002, investigators attempted to develop a clinical decision rule to identify criteria to predict clinically significant findings on chest x-ray in adult patients presenting to the ED with non-traumatic chest pain.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">A prospective observational trial was performed at a single urban ED which enrolled 1,650 patients who underwent chest x-ray for non-traumatic chest pain.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">17% of the study population had a clinically significant finding on chest x-ray.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Using 10 criteria (all except CHF history and smoking history from Modified Rothrock Criteria), sensitivity was 95% and NPV 98%.</p>\n</li>\n</ul>\n<p dir=\"ltr\">Subsequent Studies (<a href=\"https://www.hindawi.com/journals/aem/2014/241935/\" target=\"_blank\">Newsom 2014</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20219160\" target=\"_blank\">Hess 2010</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22978726\" target=\"_blank\">Poku 2012</a>)</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In 2014, Newsom et al attempted to externally validate the Rothrock Criteria by performing a retrospective validation at a different ED.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">However, the sensitivity was found to be only 79% for clinically significant chest x-ray findings in this population.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The NPV remained at 98%, consistent with the derivation study due to the significantly lower prevalence of pathology (5.2%) in the subsequent study population.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Despite not being able to validate the clinical decision tool, the investigators were able to determine that a history of CHF is highly influential in identifying which patients are at risk for having a clinically significant chest x-ray abnormality.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In 2014, another group (Hess et al) attempted to derive a different clinical decision tool to identify criteria to predict clinically significant findings on chest x-ray.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The derivation study showed promise as the absence of CHF history, smoking, and lung auscultation abnormalities was 100% sensitive for clinically significant chest x-ray abnormalities in their study population.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Unfortunately, attempts to validate this derivation rule were unsuccessful, with a sensitivity of 78.3% in the derivation study population.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">However, this work demonstrated that a history of smoking was influential in identifying patients who are at risk for having a clinically significant chest x-ray abnormality.</p>\n</li>\n</ul>\n<p dir=\"ltr\">Newsom Study, Modified Rothrock Criteria (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29427301\" target=\"_blank\">Newsom 2018</a>)</p>\n<p dir=\"ltr\"><span id=\"docs-internal-guid-17341d64-7fff-7bdd-4471-567ec937e912\"></span></p>\n<ul style=\"margin-top: 0pt; margin-bottom: 0pt;\">\n<li dir=\"ltr\">\n<p dir=\"ltr\">In 2018, Newsom et al performed a prospective, observational study at three emergency departments in an attempt to validate a clinical decision tool to identify patients at risk for clinically relevant chest x-ray findings by modifying the Rothrock Criteria to add CHF and smoking history to the criteria.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In this study of 1,089 patients with non-traumatic chest pain, 6.4% had clinically significant chest x-ray abnormalities.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In this population, the Modified Rothrock Criteria were found to be 92.9% sensitive for clinically significant abnormalities found on CXR as well as having a NPV of 98.4%.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Implementation of these criteria would have decreased the amount of CXR performed by 28.9%.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The application of the rule would have resulted in five missed diagnoses of the 70 clinically significant ED diagnoses found:</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Three cases of pneumonia missed (88.5% sensitive for pneumonia).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Two pleural effusions missed (94.1% sensitive for pleural effusions).</p>\n</li>\n</ul>\n<li>In this validation study, prevalence of pathology was much lower than in the derivation study, demonstrating impact of prevalence on NPV and the application of clinical decision tools in unique populations.&nbsp;</li>\n</ul>",
+            "formula_en": "<p dir=\"ltr\">Selection of the appropriate criteria:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"208\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Age &ge;60 years</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><abbr title=\"Chronic heart failure\">CHF</abbr> history</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Smoking history</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Hemoptysis</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Tuberculosis history</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Thromboembolic history</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Prior/current alcohol abuse</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Fever &ge;100.4&deg;F (38&deg;C)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Oxygen saturation &lt;90%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Respiratory rate &gt;24</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Diminished breath sounds</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Rales</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-c4e4e062-108c-7177-a9ed-7a8835783999\"></span><span id=\"docs-internal-guid-c4e4e062-108c-7177-a9ed-7a8835783999\"><br /></span></p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"66\" /><col width=\"118\" /><col width=\"187\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria present</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk group</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Recommendation</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n<td>\n<p dir=\"ltr\">Chest x-ray not needed</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;0</p>\n</td>\n<td>\n<p dir=\"ltr\">Not low</p>\n</td>\n<td>\n<p dir=\"ltr\">Consider chest x-ray</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-d4e476a7-108c-edb0-3730-1a088d5e615d\"></span><span id=\"docs-internal-guid-d4e476a7-108c-edb0-3730-1a088d5e615d\"><br /></span></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/29427301",
+                  "text": "Newsom C, Jeanmonod R, Woolley W, et al. Prospective Validation and Refinement of a Decision Rule to Obtain Chest X-ray in Patients With Nontraumatic Chest Pain in the Emergency Department. Acad Emerg Med. 2018;25(6):650-656."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12359278",
+                  "text": "Rothrock SG, Green SM, Costanzo KA, Fanelli JM, Cruzen ES, Pagane JR. High yield criteria for obtaining non-trauma chest radiography in the adult emergency department population. J Emerg Med. 2002;23(2):117-24."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.hindawi.com/journals/aem/2014/241935/",
+                  "text": "Newsom C, Jeanmonod R, Weller K, Boutros K, Reiter M, Jeanomonod D. Validation of a decision rule and derivation of a modified rule to obtain chest radiograph in patients with nontraumatic chest pain in the emergency department. Adv Emerg Med. 2014."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/20219160",
+                  "text": "Hess EP, Perry JJ, Ladouceur P, Wells GA, Stiell IG. Derivation of a clinical decision rule for chest radiography in emergency department patients with chest pain and possible acute coronary syndrome. CJEM. 2010;12(2):128-34."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22978726",
+                  "text": "Poku JK, Bellamkonda-athmaram VR, Bellolio MF, et al. Failure of prospective validation and derivation of a refined clinical decision rule for chest radiography in emergency department patients with chest pain and possible acute coronary syndrome. Acad Emerg Med. 2012;19(9):E1004-10."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Matthew Negaard, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Case K. Newsom",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Application of this decision tool would have missed five clinically relevant diagnoses in the study population: three pneumonias and two pleural effusions.</p>\n</li>\n<li dir=\"ltr\"><span id=\"docs-internal-guid-1d4ccb91-7fff-7b2c-98fa-76384c80dc82\">The prevalence of clinically relevant ED findings on chest x-ray in the study population was 6.4%. In populations where prevalence is higher, negative predictive value (98.4% in the study) would decrease (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29427301\" target=\"_blank\">Newsom 2018</a>).</span></li>\n</ul>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-c565a025-1198-9ba5-0cde-fe8ad7bb4dd0\">Patients presenting to the emergency department for non-traumatic chest pain.</span></p>",
+            "why_use_en": "<ul>\n<li>Can potentially safely eliminate unnecessary x-ray in patients presenting to EDs with non-traumatic chest pain (92.9% sensitive, NPV 98.4% for clinically relevant ED findings on chest x-ray).</li>\n<li>In the validation study, application of the score would have decreased chest x-ray usage by 28.9%.</li>\n<li>The study authors estimate a potential decrease of $58 million per year in healthcare costs as a result of the potential decrease number of chest x-rays performed with application of the clinical decision tool.&nbsp;</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "<ul>\n<li>Consider prevalence of clinically significant chest x-ray findings in your population in comparison to the study population before applying the clinical decision tool to your practice.&nbsp;</li>\n<li>Though the criteria had excellent sensitivity and NPV for the study population, it did miss cases of pneumonia and pleural effusions. If clinical suspicion for these diagnosis is high despite absence of study criteria, consider performing chest x-ray.&nbsp;</li>\n</ul>",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Congestive Heart Failure",
+          "Heart Failure",
+          "Respiratory Distress"
+        ],
+        "dosing": false,
+        "equation_logic": "4e32499108d5240bc2475495d5c90b51",
+        "equation_logic_text": "var calc_output = [];\nvar score = parseFloat(rales) + parseFloat(breath) + parseFloat(respiratory) + parseFloat(o2) + parseFloat(fever) + parseFloat(alc) + parseFloat(thrombo) + parseFloat(tuberculosis) + parseFloat(fever) + parseFloat(hemoptysis) + parseFloat(smoking) + parseFloat(chf) + parseFloat(age);\nvar msg;\nvar risk;\nif (score == 0) {\n    risk = 'Low risk';\n    msg = 'Chest x-ray not necessary';\n} else if (score > 0) {\n    risk = 'Not low risk';\n    msg = 'Consider chest x-ray';\n}\ncalc_output.push({ name: 'mini', value: risk, value_text: '', message: msg });\n\ncalc_output.push({ name: 'Risk', value: risk, value_text: '', message: msg });",
+        "favorite_id": 10077,
+        "full_title_en": "Newsom Score for Non-traumatic Chest Pain",
+        "input_schema": [
+          {
+            "subheading": "Criteria",
+            "subheading_instructions": "Presence of ≥1 means the patient is not low risk:",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Age ≥60 years",
+            "name": "age",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<abbr title = \"Chronic heart failure\">CHF</abbr> history",
+            "name": "chf",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "As reported by patient",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Smoking history",
+            "name": "smoking",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "As reported by patient",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Hemoptysis",
+            "name": "hemoptysis",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Tuberculosis history",
+            "name": "tuberculosis",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "As reported by patient",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Thromboembolic history",
+            "name": "thrombo",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "As reported by patient",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Prior/current alcohol abuse",
+            "name": "alc",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "As reported by patient",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Fever ≥100.4°F (38°C)",
+            "name": "fever",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Oxygen saturation <90%",
+            "name": "o2",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Respiratory rate >24",
+            "name": "respiratory",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Diminished breath sounds",
+            "name": "breath",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Rales",
+            "name": "rales",
+            "optional": true,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p><span id=\"docs-internal-guid-d446a735-1197-f353-bff0-4c3eb6aee57c\">Use in patients presenting to the emergency department for non-traumatic chest pain.</span></p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "claiming calc id",
+            "time": "2018-8-6 2:27 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "built calc",
+            "time": "2018-8-6 4:09 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Added subheading",
+            "time": "2018-8-6 4:17 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "equation logic added",
+            "time": "2018-8-6 7:54 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2018-8-6 8:14 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "changed back to non DC",
+            "time": "2018-8-7 2:01 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Added inline citations",
+            "time": "2018-8-7 12:01 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "Added middle initial for creator",
+            "time": "2018-8-8 11:39 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK reviews",
+            "time": "2018-8-10 12:31 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-10-25 11:24 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-10-25 11:36 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-10-25 11:40 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "changed language from \"High\" to \"Not Low\" risk",
+            "time": "2018-10-29 11:04 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "contributor content edits",
+            "time": "2018-11-01 09:51 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added abbr",
+            "time": "2018-11-01 07:28 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added tips",
+            "time": "2018-11-01 07:31 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "changed result",
+            "time": "2018-11-01 07:35 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "restoring calc id 10077 : Newsom from 10083 - unable to identify issue caused by overwrite",
+            "time": "2018-12-11 11:25 AM",
+            "user": "sang"
+          },
+          {
+            "message": "restoring equation logic 10077: Newsom from 10083 - need to identify issue caused overwrite",
+            "time": "2018-12-11 11:33 AM",
+            "user": "sang"
+          },
+          {
+            "message": "added reviewer",
+            "time": "2019-01-14 03:06 PM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "5d1987c97cbe22e91bf4d033e684c8f6",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-c8ad5943-1072-4605-48cd-f4617d2555d0\">Rules out need for chest x-ray in chest pain patients (non-traumatic).</span></p>",
+        "purpose_en": [
+          "Rule Out",
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "Non traumatic",
+          "nontraumatic",
+          "congestive heart failure",
+          "x-ray",
+          "respiratory distress",
+          "chest complaints"
+        ],
+        "search_id": "c-10077",
+        "seo": {
+          "keywords_en": "Non-traumatic, congestive heart failure, x-ray, chest complaints, respiratory distress, nontraumatic",
+          "meta_description_en": "The Newsom Score for Non-traumatic Chest Pain determines which patients with non-traumatic chest complaints require chest x-ray."
+        },
+        "short_description_en": "Chest x-ray in non-traumatic chest pain.",
+        "short_title_en": "Newsom Score",
+        "slug": "newsom-score-non-traumatic-chest-pain",
+        "specialty_en": [
+          "Cardiology",
+          "Critical Care",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Radiology"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Respiratory"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Matthew Negaard, MD, is a current third-year emergency medicine resident at the University of Iowa. He grew up in Sioux City, Iowa and attended Northwestern College in Orange City, Iowa for his undergraduate education. Dr. Negaard received his medical degree from the University of Iowa Carver College of Medicine where he began to develop an interest in emergency medicine and sports medicine. He has continued to develop and expand his interest in those fields as well as medical education through clinical research and evidence-based practice activities. He plans to pursue a sports medicine fellowship upon completion of his residency.</p>",
+          "firstName": "Matthew",
+          "hasDisclosure": [],
+          "img": "matthew-negaard.jpg",
+          "lastName": "Negaard",
+          "name": "Matthew Negaard, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "matthew-negaard",
+          "updatedAt": "2023-04-06T20:23:57.716Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Case K. Newsom, DO, is an emergency physician in the St. Luke's University Health Network in Bethlehem, Pennsylvania. Dr. Newsom’s primary research is focused on traumatic injuries.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Case K. Newsom",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-case-k-newsom.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Newsom+C%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10077/newsom-score-non-traumatic-chest-pain",
+        "description": "The Newsom Score for Non-traumatic Chest Pain determines which patients with non-traumatic chest complaints require chest x-ray.",
+        "keywords": "Non-traumatic, congestive heart failure, x-ray, chest complaints, respiratory distress, nontraumatic",
+        "title": "Newsom Score for Non-traumatic Chest Pain"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3800,
+          "short_title_en": "Framingham HF Criteria",
+          "slug": "framingham-heart-failure-diagnostic-criteria"
+        },
+        {
+          "calcId": 3987,
+          "short_title_en": "NYHA Heart Failure Classification",
+          "slug": "new-york-heart-association-nyha-functional-classification-heart-failure"
+        },
+        {
+          "calcId": 3803,
+          "short_title_en": "MAGGIC Risk Calculator for HF",
+          "slug": "maggic-risk-calculator-heart-failure"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10077",
+      "newsom-score-non-traumatic-chest-pain"
+    ]
+  },
+  "scriptLoader": []
+}

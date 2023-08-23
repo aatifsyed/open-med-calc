@@ -1,0 +1,953 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain",
+          "Cough",
+          "Fever",
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The 4C Mortality Score was derived from a prospective observational cohort study based upon positively tested COVID-19 patients admitted to 260 hospitals in England, Scotland and Wales. The score includes eight variables consisting of age, sex, number of comorbidities, respiratory rate, peripheral oxygen saturation, Glasgow coma scale score, urea level, and C-reactive protein. The score, ranging from 0-21, predicts in-hospital mortality from low risk to very high risk. The score, when compared against existing scores for CAP and COVID-19, performed better in predicting in-hospital mortality in the validation cohort.</p>\n<p>The score performed well in the internal validation of the study along with external validation studies. The score is limited to determining in-patient hospital mortality and is not designed to be applicable to the outpatient setting. Overall generalizability of the score needs to be further investigated as it was derived and validated in a primarily homogeneous ethnic and age cohort.</p>\n<p></p>",
+            "formula_en": "<table width=\"334\" height=\"182\">\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p>Variable</p>\n</td>\n<td>Points</td>\n</tr>\n<tr>\n<td rowspan=\"5\">Age, years<br><br><br><br></td>\n<td>\n<p>&lt;50</p>\n</td>\n<td>0</td>\n</tr>\n<tr>\n<td>\n<p>50-59</p>\n</td>\n<td>2</td>\n</tr>\n<tr>\n<td>\n<p>60-69</p>\n</td>\n<td>4</td>\n</tr>\n<tr>\n<td>\n<p>70-79</p>\n</td>\n<td>6</td>\n</tr>\n<tr>\n<td>\n<p>&ge;80</p>\n</td>\n<td>7</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Sex at birth</td>\n<td>\n<p>Female</p>\n</td>\n<td>0</td>\n</tr>\n<tr>\n<td>\n<p>Male</p>\n</td>\n<td>1</td>\n</tr>\n<tr>\n<td rowspan=\"3\">Number of comorbidities*</td>\n<td>\n<p>0</p>\n</td>\n<td>0</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>1</td>\n</tr>\n<tr>\n<td>\n<p>&ge;2</p>\n</td>\n<td>2</td>\n</tr>\n<tr>\n<td rowspan=\"3\">Respiratory rate, breaths/min</td>\n<td>\n<p>&lt;20</p>\n</td>\n<td>0</td>\n</tr>\n<tr>\n<td>\n<p>20-29</p>\n</td>\n<td>1</td>\n</tr>\n<tr>\n<td>\n<p>&ge;30</p>\n</td>\n<td>2</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Peripheral oxygen saturation on room air</td>\n<td>\n<p>&ge;92%</p>\n</td>\n<td>0</td>\n</tr>\n<tr>\n<td>\n<p>&lt;92%</p>\n</td>\n<td>2</td>\n</tr>\n<tr>\n<td rowspan=\"2\"><calculator id=\"64\">Glasgow Coma Scale</calculator></td>\n<td>\n<p>15</p>\n</td>\n<td>0</td>\n</tr>\n<tr>\n<td>\n<p>&lt;15</p>\n</td>\n<td>2</td>\n</tr>\n<tr>\n<td rowspan=\"3\">Urea or BUN (use measurement available)</td>\n<td>\n<p>Urea &lt;7 mmol/L (&lt;42 mg/dL)</p>\n<p>OR&nbsp;</p>\n<p>BUN &lt;19.6 mg/dL</p>\n</td>\n<td>0</td>\n</tr>\n<tr>\n<td>\n<p>Urea &ge;7 to &le;14 mmol/L (&ge;42mg/dL to &le;84 mg/dL)</p>\n<p>OR</p>\n<p>BUN &ge;19.6 to &le;39.2 mg/dL</p>\n</td>\n<td>1</td>\n</tr>\n<tr>\n<td>\n<p>Urea &gt;14 mmol/L (&gt;84 mg/dL)</p>\n<p>OR</p>\n<p>BUN &gt;39.2 mg/dL</p>\n<p></p>\n</td>\n<td>3</td>\n</tr>\n<tr>\n<td rowspan=\"3\">C-reactive protein, mg/L</td>\n<td>\n<p>&lt;50 mg/L (&lt;5 mg/dL)</p>\n</td>\n<td>0</td>\n</tr>\n<tr>\n<td>\n<p>50-99 mg/L (5-9.9 mg/dL)</p>\n</td>\n<td>1</td>\n</tr>\n<tr>\n<td>\n<p>&ge;100 mg/L (&ge;10 mg/dL)</p>\n</td>\n<td>2</td>\n</tr>\n</tbody>\n</table>\n<p>*Comorbidities include chronic cardiac disease, chronic respiratory disease (excluding asthma), chronic renal disease (estimated glomerular filtration rate &le;30), mild to severe liver disease, dementia, chronic neurological conditions, connective tissue disease, diabetes mellitus (diet, tablet, or insulin controlled), HIV or AIDS, and malignancy.</p>",
+            "more_info_en": "<p>Interpretation:</p>\n<table width=\"311\" height=\"93\">\n<tbody>\n<tr>\n<td>\n<p><strong>4C Mortality Score</strong></p>\n</td>\n<td><strong>Risk group</strong></td>\n<td><strong>In-hospital mortality</strong></td>\n</tr>\n<tr>\n<td>\n<p>0-3</p>\n</td>\n<td>Low&nbsp;</td>\n<td>1.2-1.7%</td>\n</tr>\n<tr>\n<td>\n<p>4-8</p>\n</td>\n<td>Intermediate</td>\n<td>9.1-9.9%</td>\n</tr>\n<tr>\n<td>\n<p>9-14</p>\n</td>\n<td>High</td>\n<td>31.4-34.9%</td>\n</tr>\n<tr>\n<td>\n<p>&ge;15</p>\n</td>\n<td>Very high</td>\n<td>61.5-66.2%</td>\n</tr>\n</tbody>\n</table>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.bmj.com/content/370/bmj.m3339",
+                  "text": "Knight SR, Ho A, Pius R, et al. Risk stratification of patients admitted Kto hospital with covid-19 using the ISARIC WHO Clinical Characterisation Protocol: development and validation of the 4C Mortality Score. BMJ. 2020;370:m3339."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.bmj.com/content/370/bmj.m3339",
+                  "text": "Knight SR, Ho A, Pius R, et al. Risk stratification of patients admitted Kto hospital with covid-19 using the ISARIC WHO Clinical Characterisation Protocol: development and validation of the 4C Mortality Score. BMJ. 2020;370:m3339."
+                },
+                {
+                  "href": "https://www.nature.com/articles/s41598-021-97332-1",
+                  "text": "Jones A, Pitre T, Junek M, et al. External validation of the 4C mortality score among COVID-19 patients admitted to hospital in Ontario, Canada: a retrospective study. Sci Rep. 2021;11(1):18638."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Miguel Reyes, MD "
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Ewen M. Harrison",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>Designed specifically for hospitalized COVID-19 patients. This may not apply to patients seen in the outpatient setting.</li>\n<li>Requires eight specific predictors of mortality, not all of which may be immediately available in all settings (e.g. <abbr title=\"C-reactive protein\">CRP</abbr>).&nbsp;&nbsp;</li>\n<li>Patient population in the study had a median age of 73 years old, 82% white, with an overall mortality of 32.2%. All patients were from England, Scotland, and Wales. Consider when applying this to your patient population</li>\n</ul>",
+            "use_case_en": "<p>Apply to risk stratify patients who are admitted with COVID-19.</p>",
+            "why_use_en": "<p>Risk stratification of admitted COVID-19 patients to aid in determining mortality risk, decision for level of care, and prognostication.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>Threshold for level of care may change during resource-limited situations such as the current COVID-19 outbreak.</li>\n<li>Apply to admitted patients and not designed to influence the decision to discharge at initial presentation.</li>\n</ul>\n<p></p>",
+            "critical_actions_en": "<p>When applying to a hospitalized COVID-19 patient, score may be used in conjunction with clinical suspicion to determine mortality risk and appropriate level of care.</p>",
+            "management_en": "<ul>\n<li>Low risk - May be suitable for outpatient management</li>\n<li>Intermediate risk - May be suitable for general inpatient treatment</li>\n<li>High risk - May require aggressive treatment and higher level of monitoring</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Coronavirus",
+          "COVID-19"
+        ],
+        "dosing": false,
+        "equation_logic": "683274ff813ad309324ed356440fb82a",
+        "equation_logic_text": "var calc_output=[];\n\nif (parseFloat(avail) == 0) { \nvar criteria = parseFloat(one) + parseFloat(two) + parseFloat(three) + parseFloat(four) + parseFloat(five) + parseFloat(six) + parseFloat(seven) + parseFloat(eight);\n} else if (parseFloat(avail) == 1) {\n  var criteria = parseFloat(one) + parseFloat(two) + parseFloat(three) + parseFloat(four) + parseFloat(five) + parseFloat(six) + parseFloat(bun) + parseFloat(eight);\n}\n\nvar risk;\nvar group;\n\nif (criteria >= 0 && criteria <= 3) {\n  risk = '1.2-1.7';\n  group = 'Low';\n} else if (criteria>=4 && criteria <= 8) {\n  risk = '9.1-9.9';\n  group = 'Intermediate';\n} else if (criteria >= 9 && criteria <= 14) {\n  risk = '31.4-34.9';\n  group = 'High';\n} else if (criteria >= 15) {\n  risk = '61.5-66.2';\n  group = 'Very high';\n}\n\ncalc_output.push({\n    name: 'mini',\n    value: criteria,\n    value_text: 'points',\n    message: risk + '% in-hospital mortality'\n});\ncalc_output.push({\n    name: 'criteria',\n    value: criteria,\n    value_text: 'points',\n    message: '4C Mortality Score'\n});\ncalc_output.push({\n    name: 'group',\n    value: group, \n    value_text: 'risk',\n    message: ''\n});\ncalc_output.push({\n    name: 'risk',\n    value: risk, \n    value_text: '%',\n    message: 'In-hospital mortality'\n});",
+        "favorite_id": 10338,
+        "full_title_en": "4C Mortality Score for COVID-19",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Age, years</p>",
+            "name": "one",
+            "optional": false,
+            "options": [
+              {
+                "label": "<50",
+                "value": 0
+              },
+              {
+                "label": "50-59",
+                "value": 2
+              },
+              {
+                "label": "60-69",
+                "value": 4
+              },
+              {
+                "label": "70-79",
+                "value": 6
+              },
+              {
+                "label": "≥80",
+                "value": 7
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Sex at birth</p>",
+            "name": "two",
+            "optional": false,
+            "options": [
+              {
+                "label": "Female",
+                "value": 0
+              },
+              {
+                "label": "Male",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Number of comorbidities</p>",
+            "name": "three",
+            "optional": false,
+            "options": [
+              {
+                "label": "0",
+                "value": 0
+              },
+              {
+                "label": "1",
+                "value": 1
+              },
+              {
+                "label": "≥2",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Comorbidities include chronic cardiac disease, chronic respiratory disease (excluding asthma), chronic renal disease (estimated glomerular filtration rate ≤30), mild to severe liver disease, dementia, chronic neurological conditions, connective tissue disease, diabetes mellitus (diet, tablet, or insulin controlled), HIV or AIDS, and malignancy.",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Respiratory rate, breaths/min</p>",
+            "name": "four",
+            "optional": false,
+            "options": [
+              {
+                "label": "<20",
+                "value": 0
+              },
+              {
+                "label": "20-29",
+                "value": 1
+              },
+              {
+                "label": "≥30",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Peripheral oxygen saturation on room air</p>",
+            "name": "five",
+            "optional": false,
+            "options": [
+              {
+                "label": "≥92%",
+                "value": 0
+              },
+              {
+                "label": "<92%",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p><calculator id=\"64\">Glasgow Coma Scale</calculator></p>",
+            "name": "six",
+            "optional": false,
+            "options": [
+              {
+                "label": "15",
+                "value": 0
+              },
+              {
+                "label": "<15",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Select measurement available</p>",
+            "name": "avail",
+            "optional": false,
+            "options": [
+              {
+                "label": "BUN",
+                "value": 1
+              },
+              {
+                "label": "Urea",
+                "value": 0
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "avail==0",
+            "default": 0,
+            "label_en": "<p>Urea</p>",
+            "name": "seven",
+            "optional": false,
+            "options": [
+              {
+                "label": "<7 mmol/L (<42 mg/dL)",
+                "value": 0
+              },
+              {
+                "label": "≥7 to ≤14 mmol/L (≥42mg/dL to ≤84 mg/dL)",
+                "value": 1
+              },
+              {
+                "label": ">14 mmol/L (>84 mg/dL)",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "avail==1",
+            "default": 0,
+            "label_en": "<p>BUN</p>",
+            "name": "bun",
+            "optional": false,
+            "options": [
+              {
+                "label": "<19.6 mg/dL",
+                "value": 0
+              },
+              {
+                "label": "≥19.6 to ≤39.2 mg/dL",
+                "value": 1
+              },
+              {
+                "label": ">39.2 mg/dL",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>C-reactive protein</p>",
+            "name": "eight",
+            "optional": false,
+            "options": [
+              {
+                "label": "<50 mg/L (<5 mg/dL)",
+                "value": 0
+              },
+              {
+                "label": "50-99 mg/L (5-9.9 mg/dL)",
+                "value": 1
+              },
+              {
+                "label": "≥100 mg/L (≥10 mg/dL)",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use with admitted patients diagnosed with COVID-19.</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited logic",
+            "time": "2021-02-12T11:45:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits to content",
+            "time": "2021-02-04T21:29:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "changelog edits 2/4/21",
+            "time": "2021-02-04T08:39:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edits ",
+            "time": "2021-02-02T16:56:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited evidence",
+            "time": "2021-02-02T16:53:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits to Evidence",
+            "time": "2021-02-02T16:52:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited calc",
+            "time": "2021-02-02T16:46:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-02-02T16:15:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-02-02T16:14:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits",
+            "time": "2021-02-02T16:09:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits to calc",
+            "time": "2021-02-02T15:46:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2021-01-20T18:42:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added content",
+            "time": "2021-01-20T17:55:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "updated urea and c-reactive inputs from updated paper table",
+            "time": "2020-11-30T07:18:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited evidence table",
+            "time": "2020-10-21T14:07:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited",
+            "time": "2020-10-21T11:37:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited creactive units",
+            "time": "2020-10-21T11:31:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited evidence table",
+            "time": "2020-10-21T11:29:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2020-10-21T11:28:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added creator",
+            "time": "2020-10-21T11:07:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "fixed evidence table",
+            "time": "2020-10-21T11:06:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited content",
+            "time": "2020-10-21T11:01:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-10-21T10:47:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added creator",
+            "time": "2020-10-21T10:27:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added creator",
+            "time": "2020-10-21T10:14:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited creactive protein units",
+            "time": "2020-10-21T09:35:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited urea units",
+            "time": "2020-10-21T08:28:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "made changelog edits",
+            "time": "2020-10-16T09:34:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added units to radio",
+            "time": "2020-10-08T12:55:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-10-08T12:49:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "changed to radio inputs",
+            "time": "2020-10-08T12:40:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added link to glasgow score",
+            "time": "2020-10-07T21:53:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added link to charlson calc",
+            "time": "2020-10-07T21:52:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added creator",
+            "time": "2020-10-07T21:50:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added calc links",
+            "time": "2020-10-07T21:44:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "debugged!!",
+            "time": "2020-10-06T01:18:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2020-10-06T00:01:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2020-10-05T23:32:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2020-10-05T23:00:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited calc content",
+            "time": "2020-10-05T22:25:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-09-24T14:27:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2020-09-24T14:20:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-09-24T14:19:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-09-24T11:48:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-09-24T11:45:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-09-22T07:45:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-09-21T10:36:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-09-21T10:21:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-09-21T09:57:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2020-09-21T09:39:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited units",
+            "time": "2020-09-21T09:25:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-09-21T09:20:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added logic",
+            "time": "2020-09-21T08:28:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "claimed calc id",
+            "time": "2020-09-21T08:10:00.000Z",
+            "user": "michael"
+          }
+        ],
+        "md5": "895783db163149151b0ac83d2f65c5e6",
+        "medium_description_en": "<p>Predicts in-hospital mortality in patients admitted with COVID-19.</p>",
+        "publishedAt": "2022-04-21T20:28:48.399Z",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "4C Mortality Score for COVID-19, 4C, 4C mortality, 4C covid-19, 4c covid, 4c covid mortality, covid mortality, covid score, covid mortality score, 4c covid-19 mortality, covid-19 mortality, covid-19 mortality score, coronavirus mortality score, coronavirus mortality, 4c coronavirus mortality, 4c coronavirus, coronavirus, covid-19, covid"
+        ],
+        "search_id": "c-10338",
+        "seo": {
+          "keywords_en": "4C Mortality Score for COVID-19, 4C, 4C mortality, 4C covid-19, 4c covid, 4c covid mortality, covid mortality, covid score, covid mortality score, 4c covid-19 mortality, covid-19 mortality, covid-19 mortality score, coronavirus mortality score, coronavirus mortality, 4c coronavirus mortality, 4c coronavirus, coronavirus, covid-19, covid",
+          "meta_description_en": "The 4C Mortality Score for COVID-19 predicts mortality in patients admitted to hospital with COVID-19."
+        },
+        "short_description_en": "<p>In-hospital COVID-19 mortality.</p>",
+        "short_title_en": "4C Mortality Score for COVID-19",
+        "slug": "4c-mortality-score-covid-19",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Infectious Disease",
+          "Internal Medicine",
+          "Pulmonology"
+        ],
+        "system_en": [
+          "Respiratory"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "9445acca-b1a8-45a3-acf3-038a3e682480"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Ewen M. Harrison, PhD, MBChB, FRCS, MSc, is a professor of surgery and data science at the University of Edinburgh in Scotland. He is also the lead of the surgical informatics group in the Centre for Medical Informatics at the University of Edinburgh. Dr. Harrison's primary research is focused on the crowd-sourcing of patient level data, wearable technology, and global surgery.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Ewen M. Harrison",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-ewen-m-harrison.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://pubmed.ncbi.nlm.nih.gov/?term=Harrison+EM+%5Bauthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10338/4c-mortality-score-covid-19",
+        "description": "The 4C Mortality Score for COVID-19 predicts mortality in patients admitted to hospital with COVID-19.",
+        "keywords": "4C Mortality Score for COVID-19, 4C, 4C mortality, 4C covid-19, 4c covid, 4c covid mortality, covid mortality, covid score, covid mortality score, 4c covid-19 mortality, covid-19 mortality, covid-19 mortality score, coronavirus mortality score, coronavirus mortality, 4c coronavirus mortality, 4c coronavirus, coronavirus, covid-19, covid",
+        "title": "4C Mortality Score for COVID-19"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10279,
+          "short_title_en": "MuLBSTA Score",
+          "slug": "mulbsta-score-viral-pneumonia-mortality"
+        },
+        {
+          "calcId": 10354,
+          "short_title_en": "CHOSEN Risk Score",
+          "slug": "covid-home-safely-now-chosen-risk-score-covid-19"
+        },
+        {
+          "calcId": 10371,
+          "short_title_en": "CIRC",
+          "slug": "covid-19-inpatient-risk-calculator-circ"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10338",
+      "4c-mortality-score-covid-19"
+    ]
+  },
+  "scriptLoader": []
+}

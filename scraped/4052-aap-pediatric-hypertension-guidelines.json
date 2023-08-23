@@ -1,0 +1,774 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p>This tool has been developed in partnership with the American Academy of Pediatrics. The authors, editors, and contributors are expert authorities in the field of pediatrics. No commercial involvement of any kind has been solicited or accepted in the development of the content of this tool. Advertising does not influence editorial decisions or content. The appearance of advertising on MDCalc sites is neither a guarantee nor an endorsement by the AAP of the product, service, or company, or the claims made for the product in such advertising.</p>",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Any/All"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+01",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+01",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "4052.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>Multiple models were used to evaluate pediatric blood pressure data, and this data is based off of a quantile regression model. </p> <p>These percentiles are based on normal weight children (BMI &lt;85th percentile), as including overweight and obese children was thought to increase bias, knowing that these patients have a higher prevalence of high blood pressure. Therefore, the BP values in the new pediatric guidelines are several mmHg lower than previous youth hypertension guidelines.  </p>",
+            "formula_en": "<p>Individual regression equations for boys/girls and SBP/DBP percentiles for children aged 1-12 years are published in <a href=\"https://academic.oup.com/aje/article/167/6/653/154351\" target=\"_blank\">Rosner 2008</a>.</p>",
+            "more_info_en": "<p>Interpretation:</p>\n<p></p>\n<table>\n<tbody>\n<tr>\n<td></td>\n<td>\n<p><strong>1-12 years old</strong></p>\n</td>\n<td>\n<p><strong>&ge;13 years old</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Normal BP</strong></p>\n</td>\n<td>\n<p>SBP &lt;90th percentile, and</p>\n<p>DBP &lt;90th percentile&nbsp;</p>\n</td>\n<td style=\"white-space: nowrap;\">\n<p>SBP &lt;120</p>\n<p>DBP &lt;80</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Elevated BP</strong></p>\n</td>\n<td>\n<p>SBP &ge;90th percentile but &lt;95th percentile, or</p>\n<p>DBP &ge;90th percentile but &lt;95th percentile, or</p>\n<p>120/80 to &lt;95th percentile&nbsp;(whichever is lower)</p>\n</td>\n<td style=\"white-space: nowrap;\">\n<p>SBP 120-129</p>\n<p>DBP &lt;80</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Stage 1 HTN</strong></p>\n</td>\n<td>\n<p>SBP &ge;95th percentile&nbsp;but &lt;12 mm Hg above 95th percentile, or</p>\n<p>SBP &ge;95th percentile&nbsp;but &lt;12 mm Hg above 95th percentile, or</p>\n<p>130-139/80-89 (whichever is lower)</p>\n</td>\n<td>\n<p style=\"white-space: nowrap;\">SBP 130-139</p>\n<p>DBP 80-89</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Stage 2 HTN</strong></p>\n</td>\n<td>\n<p>SBP or DBP &ge;12 mm Hg above 95th percentile, or</p>\n<p>&ge;140/90 (whichever is lower)</p>\n</td>\n<td>\n<p style=\"white-space: nowrap;\">SBP &ge;140</p>\n<p>DBP &ge;90</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Use the higher of the two values; e.g. if a 14 year old has BP 135/90, diagnosis is Stage 2 HTN.</p>\n<p>From <a href=\"http://pediatrics.aappublications.org/content/early/2017/08/21/peds.2017-1904\" target=\"_blank\">Flynn 2017</a>.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "http://pediatrics.aappublications.org/content/early/2017/08/21/peds.2017-1904",
+                  "text": "Flynn JT, Kaelber DC, Baker-smith CM, et al. Clinical Practice Guideline for Screening and Management of High Blood Pressure in Children and Adolescents. Pediatrics. 2017;140(3)"
+                },
+                {
+                  "href": "http://pediatrics.aappublications.org/content/142/3/e20182096",
+                  "text": "Baker-Smith CM, Flinn SK, Flynn JT, et al. Diagnosis, Evaluation, and Management of High Blood Pressure in Children and Adolescents. Pediatrics. 2018;142(3)"
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://academic.oup.com/aje/article/167/6/653/154351 ",
+                  "text": "Rosner B, Cook N, Portman R, Daniels S, Falkner B. Determination of blood pressure percentiles in normal-weight children: some methodological issues. Am J Epidemiol 2008; 167(6): 653-66."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Sneha Daya, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Bernard Rosner",
+              "qa_en": null
+            },
+            {
+              "approved": null,
+              "name": "Dr. Joseph T. Flynn",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>These values are based on auscultatory measurements, not oscillometric devices or ambulatory blood pressure measurements.</li>\n<li>Blood pressure should ideally be taken by auscultatory measurement after child has been seated for 3-5 minutes with back supported and legs uncrossed. Blood pressure should be measured on the right arm for consistency. Correct cuff size should be used to ensure accuracy of measurement.</li>\n<li>If the initial blood pressure is elevated, providers should take two additional measurements at the same visit and use the average value.</li>\n<li>For children &ge;13 years of age, this calculator has been adjusted to meet definitions presented in the <a href=\"http:/hyper.ahajournals.org/content/early/2017/11/10/HYP.0000000000000065\" target=\"_blank\">2017 AHA/ACC adult hypertension guidelines</a> in order to facilitate the management of older adolescents with high blood pressure.</li>\n</ul>",
+            "use_case_en": "<p>Children aged 1-17 years old.</p>",
+            "why_use_en": "<ul>\n<li>Classifies blood pressure in pediatric patients, which varies based on age and gender.</li>\n<li>Measuring BP at routine well-child visits enables early detection of primary&nbsp;hypertension&nbsp;as well as detection of asymptomatic hypertension&nbsp;secondary to another underlying disorder. Hypertension is a known major contributor to cardiovascular disease.</li>\n<li>Can guide timing of:</li>\n<ul>\n<li>Blood pressure recheck.</li>\n<li>Diagnostic evaluation.</li>\n<li>Treatment initiation.</li>\n</ul>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>Screening for hypertension is recommended in children beginning at age 3 years.</li>\n<li>There are many etiologies for falsely elevated BP, such as anxiety or caffeine intake, and therefore the diagnosis of hypertension is made by checking multiple measurements over time.</li>\n<li>Hypertension is diagnosed if a child has auscultatory-confirmed BP readings &ge;95th percentile on 3 different visits.</li>\n</ul>",
+            "critical_actions_en": "<p>If the patient is symptomatic (encephalopathy, acute kidney injury, congestive heart failure) with Stage 2 HTN level, OR the BP is &gt;30 mmHg above the 95th percentile (or &gt;180/120 mmHg in an adolescent), refer to emergency department immediately for evaluation and treatment of acute severe HTN. </p>",
+            "management_en": "<p>AAP recommendations for management (from <a href=\"http://pediatrics.aappublications.org/content/early/2017/08/21/peds.2017-1904\" target=\"_blank\">Flynn 2017</a>):</p> <p><strong>Normal BP</strong></p> <ul> <li>No additional action is needed.</li> <li>BP should be rechecked at the next routine well-child care visit.</li> </ul> <p><strong>Elevated BP</strong></p> <ul> <li>Lifestyle interventions (nutrition, sleep, physical activity) should be initiated.</li> <li>BP should be rechecked by auscultatory measurement in 6 months.</li> <ul> <li>If it remains elevated at 6 months, upper and lower extremity BP should be checked and lifestyle measures should be repeated.</li> <li>If BP is still elevated after 12 months from initial measurement, ambulatory blood pressure monitoring (ABPM) should be ordered along with diagnostic evaluation, and subspecialty referral should be considered.</li> </ul> </ul> <p><strong>Stage 1 hypertension</strong></p> <ul> <li>If asymptomatic, lifestyle interventions should be initiated.</li> <li>BP should be rechecked by auscultatory measurement in 1-2 weeks.</li> <ul> <li>If it remains classified as Stage 1 HTN at 1-2 weeks, upper and lower extremity BP should be checked, and BP should be checked in 3 months by auscultation with consideration for nutrition/weight management referral.</li> <li>If BP continues to be classified as Stage 1 HTN after 3 visits, ABPM should be ordered along with diagnostic evaluation, and treatment should be initiated with consideration for subspecialty referral.</li> </ul> </ul> <p><strong>Stage 2 hypertension</strong></p> <ul> <li>If asymptomatic, lifestyle interventions should be initiated.</li> <li>BP should be rechecked by auscultatory measurement in 1 week OR the patient can be directly referred to a subspecialist within 1 week.</li> <ul> <li>If it remains classified as Stage 2 HTN at 1 week, ABPM should be ordered along with diagnostic evaluation, and treatment should be initiated OR the patient should be referred to subspecialty care within 1 week.</li> </ul> </ul> <p>Additional note: any patient with evidence of LVH may not participate in sports until BP is normalized with therapy. Athletes with Stage 2 HTN (even without evidence of target organ injury) should not participate in sports until HTN is controlled by lifestyle modification or pharmacologic therapy.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Hypertension"
+        ],
+        "dosing": false,
+        "equation_logic": "17e3c1842cb876b0b4ad815e50ced7c9",
+        "equation_logic_text": "var calc_output = [];\n\nvar age = parseFloat(age)\nvar sex = parseInt(sex)\nvar ht = parseFloat(ht)\nvar sbp = parseInt(sbp)\nvar dbp = parseInt(dbp)\n\nif (UOMSYSTEM == true) {\n    ht = ht * 2.54\n}\n\n// height constants\nif (sex == 0) {\n    var b0 = [71.0728, 102.6662, 13.6814, 10.9219] // sbp 90, sbp 95, dbp 90, dbp 95 for boys\n} else {\n    var b0 = [92.4497, 117.6411, 31.5473, 42.9427] // sbp 90, sbp 95, dbp 90, dbp 95 for girls\n}\n\nfunction add(a, b) {\n    return a + b;\n}\n\n// knots\nif (sex == 0) { // boys\n    var knot_age = [5.06, 10.79, 13.22, 14.51, 17.30]\n    var knot_ht = [107.8, 140.0, 154.5, 166.4, 179.1]\n    var knot_ageht = [-15.000, 8.900, 50.375, 112.684, 250.040]\n} else { // girls\n    var knot_age = [5.00, 10.70, 13.16, 14.51, 17.33]\n    var knot_ht = [106.7, 140.7, 154.0, 160.5, 168.9]\n    var knot_ageht = [6.701, 16.438, 46.800, 84.460, 203.608]\n}\n\nif (sex == 0) {\n    height_c = 150\n} else {\n    height_c = 147\n}\nvar ageht = (age - 10) * (ht - height_c)\n\n// regression equations\nvar y2a = Math.max(age - knot_age[0], 0)\nvar y2b = Math.max(age - knot_age[3], 0)\nvar y2c = Math.max(age - knot_age[4], 0)\nvar y3a = Math.max(age - knot_age[1], 0)\nvar y4a = Math.max(age - knot_age[2], 0)\n\nvar x2a = Math.max(ht - knot_ht[0], 0)\nvar x2b = Math.max(ht - knot_ht[3], 0)\nvar x2c = Math.max(ht - knot_ht[4], 0)\nvar x3a = Math.max(ht - knot_ht[1], 0)\nvar x4a = Math.max(ht - knot_ht[2], 0)\n\nvar w2a = Math.max(ageht - knot_ageht[0], 0)\nvar w2b = Math.max(ageht - knot_ageht[3], 0)\nvar w2c = Math.max(ageht - knot_ageht[4], 0)\nvar w3a = Math.max(ageht - knot_ageht[1], 0)\nvar w4a = Math.max(ageht - knot_ageht[2], 0)\n\n// age parameters: variables\nvar age1 = Math.pow(y2a, 3) - Math.pow(y2b, 3) * (knot_age[4] - knot_age[0]) / (knot_age[4] - knot_age[3]) + Math.pow(y2c, 3) * (knot_age[3] - knot_age[0]) / (knot_age[4] - knot_age[3])\nvar age2 = Math.pow(y3a, 3) - Math.pow(y2b, 3) * (knot_age[4] - knot_age[1]) / (knot_age[4] - knot_age[3]) + Math.pow(y2c, 3) * (knot_age[3] - knot_age[1]) / (knot_age[4] - knot_age[3])\nvar age3 = Math.pow(y4a, 3) - Math.pow(y2b, 3) * (knot_age[4] - knot_age[2]) / (knot_age[4] - knot_age[3]) + Math.pow(y2c, 3) * (knot_age[3] - knot_age[2]) / (knot_age[4] - knot_age[3])\n\nvar age_var = [age, age1 / 100, age2 / 100, age3 / 100]\n\n// age parameters: constants\nif (sex == 0) { // boys\n    var age_con_90 = [-0.5897, 0.9540, -3.2255, 5.8280]\n    var age_con_95 = [-1.2263, 0.8589, 3.2534, -15.7885]\n    var age_con_90d = [1.7899, -2.0949, 11.8906, -20.3017]\n    var age_con_95d = [1.7121, -1.5447, 6.0756, -5.5880]\n} else { // girls\n    var age_con_90 = [-1.8508, 2.5523, -13.6421, 26.2260]\n    var age_con_95 = [-2.0964, 2.6981, -11.2572, 13.4182]\n    var age_con_90d = [-0.1910, 0.8482, -4.9950, 5.5448]\n    var age_con_95d = [-0.2087, 1.2659, -7.7504, 8.4270]\n}\n\n// height parameters: variables\nvar ht1 = Math.pow(x2a, 3) - Math.pow(x2b, 3) * (knot_ht[4] - knot_ht[0]) / (knot_ht[4] - knot_ht[3]) + Math.pow(x2c, 3) * (knot_ht[3] - knot_ht[0]) / (knot_ht[4] - knot_ht[3])\nvar ht2 = Math.pow(x3a, 3) - Math.pow(x2b, 3) * (knot_ht[4] - knot_ht[1]) / (knot_ht[4] - knot_ht[3]) + Math.pow(x2c, 3) * (knot_ht[3] - knot_ht[1]) / (knot_ht[4] - knot_ht[3])\nvar ht3 = Math.pow(x4a, 3) - Math.pow(x2b, 3) * (knot_ht[4] - knot_ht[2]) / (knot_ht[4] - knot_ht[3]) + Math.pow(x2c, 3) * (knot_ht[3] - knot_ht[2]) / (knot_ht[4] - knot_ht[3])\n\nvar ht_var = [ht, ht1 / 100, ht2 / 100, ht3 / 100]\n\n// height parameters: constants\nif (sex == 0) { // boys\n    var ht_con_90 = [0.3275, -0.0005, 0.0181, -0.0707]\n    var ht_con_95 = [0.1576, 0.0072, -0.0076, -0.0516]\n    var ht_con_90d = [0.3408, -0.0062, 0.0239, -0.0268]\n    var ht_con_95d = [0.3914, -0.0095, 0.0458, -0.0634]\n} else { // girls\n    var ht_con_90 = [0.2495, 0.0000, 0.0494, -0.3050]\n    var ht_con_95 = [0.0991, 0.0053, 0.0132, -0.1836]\n    var ht_con_90d = [0.3330, -0.0093, 0.0772, -0.2338]\n    var ht_con_95d = [0.2634, -0.0082, 0.0706, -0.1836]\n}\n\n// age-height parameters: variables\nvar ageht1 = Math.pow(w2a, 3) - Math.pow(w2b, 3) * (knot_ageht[4] - knot_ageht[0]) / (knot_ageht[4] - knot_ageht[3]) + Math.pow(w2c, 3) * (knot_ageht[3] - knot_ageht[0]) / (knot_ageht[4] - knot_ageht[3])\nvar ageht2 = Math.pow(w3a, 3) - Math.pow(w2b, 3) * (knot_ageht[4] - knot_ageht[1]) / (knot_ageht[4] - knot_ageht[3]) + Math.pow(w2c, 3) * (knot_ageht[3] - knot_ageht[1]) / (knot_ageht[4] - knot_ageht[3])\nvar ageht3 = Math.pow(w4a, 3) - Math.pow(w2b, 3) * (knot_ageht[4] - knot_ageht[2]) / (knot_ageht[4] - knot_ageht[3]) + Math.pow(w2c, 3) * (knot_ageht[3] - knot_ageht[2]) / (knot_ageht[4] - knot_ageht[3])\n\nvar ageht_var = [ageht, ageht1 / 10000, ageht2 / 10000, ageht3 / 10000]\n\n// age-height parameters: constants\nif (sex == 0) { // boys\n    var ageht_con_90 = [-0.0200, 0.1457, -0.2721, 0.1573]\n    var ageht_con_95 = [-0.0325, 0.0706, -0.1432, 0.1009]\n    var ageht_con_90d = [-0.0499, 0.1898, -0.2958, 0.0953]\n    var ageht_con_95d = [-0.0340, 0.1515, -0.2269, 0.0567]\n} else { // girls\n    var ageht_con_90 = [-0.0184, -0.1813, 0.2673, -0.1041]\n    var ageht_con_95 = [-0.0338, -0.4799, 0.7190, -0.3037]\n    var ageht_con_90d = [-0.0012, -0.3665, 0.5893, -0.3214]\n    var ageht_con_95d = [0.0138, -0.4419, 0.6751, -0.3217]\n}\n\n// combine age, height, and age-height parameters \nvar age_sum_90 = 0;\nvar ht_sum_90 = 0;\nvar ageht_sum_90 = 0;\nfor (var i = 0; i < age_var.length; i++) {\n    age_sum_90 += age_var[i] * age_con_90[i];\n    ht_sum_90 += ht_var[i] * ht_con_90[i];\n    ageht_sum_90 += ageht_var[i] * ageht_con_90[i];\n}\n\nvar age_sum_95 = 0;\nvar ht_sum_95 = 0;\nvar ageht_sum_95 = 0;\nfor (var i = 0; i < age_var.length; i++) {\n    age_sum_95 += age_var[i] * age_con_95[i];\n    ht_sum_95 += ht_var[i] * ht_con_95[i];\n    ageht_sum_95 += ageht_var[i] * ageht_con_95[i];\n}\n\nvar age_sum_90d = 0;\nvar ht_sum_90d = 0;\nvar ageht_sum_90d = 0;\nfor (var i = 0; i < age_var.length; i++) {\n    age_sum_90d += age_var[i] * age_con_90d[i];\n    ht_sum_90d += ht_var[i] * ht_con_90d[i];\n    ageht_sum_90d += ageht_var[i] * ageht_con_90d[i];\n}\n\nvar age_sum_95d = 0;\nvar ht_sum_95d = 0;\nvar ageht_sum_95d = 0;\nfor (var i = 0; i < age_var.length; i++) {\n    age_sum_95d += age_var[i] * age_con_95d[i];\n    ht_sum_95d += ht_var[i] * ht_con_95d[i];\n    ageht_sum_95d += ageht_var[i] * ageht_con_95d[i];\n}\n\n// 90th percentile SBP\nvar sbp_90 = b0[0] + age_sum_90 + ht_sum_90 + ageht_sum_90\n\n// 95th percentile SBP\nvar sbp_95 = b0[1] + age_sum_95 + ht_sum_95 + ageht_sum_95\n\n// 90th percentile DBP\nvar dbp_90 = b0[2] + age_sum_90d + ht_sum_90d + ageht_sum_90d\n\n// 95th percentile DBP\nvar dbp_95 = b0[3] + age_sum_95d + ht_sum_95d + ageht_sum_95d\n\n// interpretation\n\nvar sbp_94 = sbp_95 - 1\nvar dbp_94 = dbp_95 - 1\nvar sbp_96 = sbp_95 + 12\nvar dbp_96 = dbp_95 + 12\nvar sbp_99 = sbp_95 + 30\nvar dbp_99 = dbp_95 + 30\n\nsbp_90 = sbp_90.toFixed(0)\nsbp_94 = sbp_94.toFixed(0)\nsbp_95 = sbp_95.toFixed(0)\nsbp_96 = sbp_96.toFixed(0)\nsbp_99 = sbp_99.toFixed(0)\n\ndbp_90 = dbp_90.toFixed(0)\ndbp_94 = dbp_94.toFixed(0)\ndbp_95 = dbp_95.toFixed(0)\ndbp_96 = dbp_96.toFixed(0)\ndbp_99 = dbp_99.toFixed(0)\n\nif (sex == 0) {\n    sex = 'boy'\n} else if (sex == 1) {\n    sex = 'girl'\n}\n\nvar result, msg, mgmt\n\nif (age < 13) {\n    if (sbp_90 > 120) {\n        var sbp_90 = 120\n    }\n    if (dbp_90 > 80) {\n        var dbp_90 = 80\n    }\n    if (sbp_95 > 130) {\n        var sbp_95 = 130\n    }\n    if (sbp_96 > 140) {\n        var sbp_96 = 140\n    }\n    if (dbp_96 > 90) {\n        var dbp_96 = 90\n    }\n\n    var sbp_index\n\n    if (sbp < sbp_90) {\n        sbp_index = 0\n    } else if (sbp >= sbp_90 && sbp < sbp_95) {\n        sbp_index = 1\n    } else if (sbp >= sbp_95 && sbp < sbp_96) {\n        sbp_index = 2\n    } else if (sbp >= sbp_96 && sbp < sbp_99) {\n        sbp_index = 3\n    } else if (sbp >= sbp_99) {\n        sbp_index = 4\n    }\n\n    var dbp_index\n\n    if (dbp < dbp_90) {\n        dbp_index = 0\n    } else if (dbp >= dbp_90 && dbp < dbp_95) {\n        dbp_index = 1\n    } else if (dbp >= dbp_95 && dbp < dbp_96) {\n        dbp_index = 2\n    } else if (dbp >= dbp_96 && dbp < dbp_99) {\n        dbp_index = 3\n    } else if (dbp >= dbp_99) {\n        dbp_index = 4\n    }\n\n    var normal = 'Normal BP'\n    var elevated = 'Elevated BP'\n    var stage1 = 'Stage 1 HTN'\n    var stage2 = 'Stage 2 HTN'\n    var critical = 'Critical HTN'\n\n    var results = [\n        [normal, elevated, stage1, stage2, critical],\n        [elevated, elevated, stage1, stage2, critical],\n        [stage1, stage1, stage1, stage2, critical],\n        [stage2, stage2, stage2, stage2, critical],\n        [critical, critical, critical, critical, critical]\n    ]\n\n    var result = results[sbp_index][dbp_index]\n\n    var msg, mgmt\n\n    if (result == normal) {\n        msg = \"Normal BP in this \" + age + \"-year-old \" + sex + \" is SBP <\" + sbp_90 + \" and DBP <\" + dbp_90 + \" (see Evidence for details)\"\n        mgmt = 'Check BP at next routine well-child visit.'\n    } else if (result == elevated) {\n        msg = \"Elevated BP in this \" + age + \"-year-old \" + sex + \" is SBP \" + sbp_90 + \"-\" + sbp_94 + \" and/or DBP \" + dbp_90 + \"-\" + dbp_94 + \" (see Evidence for details)\"\n        mgmt = 'Initiate lifestyle interventions; re-check BP in 6 months. See Next Steps for details.'\n    } else if (result == stage1) {\n        msg = \"Stage 1 HTN in this \" + age + \"-year-old \" + sex + \" is SBP \" + sbp_95 + \"-\" + sbp_96 + \" and/or DBP \" + dbp_95 + \"-\" + dbp_96 + \" (see Evidence for details)\"\n        mgmt = 'If asymptomatic, initiate lifestyle interventions and recheck BP in 1-2 weeks. See Next Steps for details.'\n    } else if (result == stage2) {\n        msg = \"Stage 2 HTN in this \" + age + \"-year-old \" + sex + \" is SBP ≥\" + sbp_96 + \" and/or DBP ≥\" + dbp_96 + \" (see Evidence for details)\"\n        mgmt = 'If asymptomatic, initiate lifestyle interventions and recheck BP in 1 week, OR refer directly to subspecialist within 1 week. See Next Steps for details.'\n    } else if (result == critical) {\n        msg = \"Critical HTN in this \" + age + \"-year-old \" + sex + \" is SBP ≥\" + sbp_99 + \" and/or DBP ≥\" + dbp_99 + \" (see Evidence for details)\"\n        mgmt = 'Consider urgent evaluation and treatment.'\n    }\n}\n\n\n    if (age >= 13) { // different limits if patient is 13 years or older\n        if (sbp < 120 && dbp < 80) {\n            result = 'Normal BP'\n            msg = \"Normal BP in this \" + age + \"-year-old \" + sex + \" is SBP <120 and DBP <80\"\n        }  if (sbp >= 120 && sbp <= 129 && dbp < 80) {\n            result = 'Elevated BP'\n            msg = \"Elevated BP in this \" + age + \"-year-old \" + sex + \" is SBP 120-129 and DBP <80\"\n        }  if ((sbp >= 130 && sbp <= 139) || (dbp >= 80 && dbp <= 89)) {\n            result = 'Stage 1 HTN'\n            msg = \"Stage 1 HTN in this \" + age + \"-year-old \" + sex + \" is SBP 130-139 and/or DBP 80-89\"\n        }  if (sbp >= 140 || dbp >= 90) {\n            result = 'Stage 2 HTN'\n            msg = \"Stage 2 HTN in this \" + age + \"-year-old \" + sex + \" is SBP ≥140 and/or DBP ≥90\"\n        }\n    }\n    \n    calc_output.push({\n        name: 'mini',\n        value: result,\n        value_text: '',\n        message: msg\n    });\n    calc_output.push({\n        name: 'pt sbp',\n        value: result,\n        value_text: '',\n        message: msg\n    });\n    calc_output.push({\n        name: 'rec',\n        value: '',\n        value_text: '',\n        message: mgmt\n    });",
+        "favorite_id": 4052,
+        "full_title_en": "AAP Pediatric Hypertension Guidelines",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Age",
+            "name": "age",
+            "optional": false,
+            "tips_en": "Decimal values recommended (e.g. for a child who is 5 years and 6 months, enter 5.5)",
+            "type": "textbox",
+            "unit": "age_peds_htn"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Sex",
+            "name": "sex",
+            "optional": false,
+            "options": [
+              {
+                "label": "Male",
+                "value": 0
+              },
+              {
+                "label": "Female",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Height",
+            "name": "ht",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "ht_peds_htn"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Systolic BP",
+            "name": "sbp",
+            "optional": false,
+            "tips_en": "Normal values are age-dependent; do not use this calculator in patients with hypotension",
+            "type": "textbox",
+            "unit": "sbp_peds"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Diastolic BP",
+            "name": "dbp",
+            "optional": false,
+            "tips_en": "Normal values are age-dependent; do not use this calculator in patients with hypotension",
+            "type": "textbox",
+            "unit": "dbp_peds"
+          }
+        ],
+        "instructions_en": "<p>Use in children aged 1-17 years.&nbsp;Not for use in patients with low blood pressure.&nbsp;Recommendations are based on&nbsp;<a href=\"http://pediatrics.aappublications.org/content/140/3/e20171904.figures-only\" target=\"_blank\">AAP's 2017 Clinical Practice Guideline</a>&nbsp;(Table 3).&nbsp;Note that cutoffs reported in the calculator may&nbsp;vary&nbsp;slightly from the published tables, as the calculator accommodates for ages between whole numbers (e.g. 5.5 years), and the tables use simplified values to account for ages between whole numbers.&nbsp;For children &ge;13 years of age, this calculator has been adjusted to meet definitions presented in the&nbsp;<a href=\"http://hyper.ahajournals.org/content/early/2017/11/10/HYP.0000000000000065\" target=\"_blank\">2017 AHA/ACC hypertension guidelines</a>&nbsp;for adults.&nbsp;</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "multiple copy edits from 2nd round testing",
+            "time": "2018-4-20 2:4 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added advertising disclaimer",
+            "time": "2018-09-11 11:00 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added AAP to description",
+            "time": "2018-09-11 11:04 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "test \"Publish\"",
+            "time": "2018-09-11 11:05 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added contributor comments to Why Use",
+            "time": "2018-10-09 09:22 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added link to Technical Report",
+            "time": "2018-10-15 05:34 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "changed BP units to remove normals",
+            "time": "2018-10-19 11:41 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added css style to last column of F&F table",
+            "time": "2018-10-25 02:17 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added link to guideline in instructions and warning for critical HTN per AAP feedback",
+            "time": "2018-11-12 03:25 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added note about normals/low BP",
+            "time": "2018-11-13 11:50 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "revised Formula table",
+            "time": "2018-11-13 12:34 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "revised result",
+            "time": "2018-11-16 04:09 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "revised result",
+            "time": "2018-11-26 01:20 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "added note to Instructions about different cutoffs, per creators",
+            "time": "2018-11-30 10:37 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "debugged",
+            "time": "2019-04-04 03:27 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited cutoffs",
+            "time": "2019-04-10 03:51 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "bug fix",
+            "time": "2019-04-19 10:55 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "bug fix",
+            "time": "2019-04-19 11:41 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "added search terms",
+            "time": "2019-06-06 10:19 AM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added search terms",
+            "time": "2019-06-06 10:20 AM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "f31556c6016b6ffecc0417d057e02b05",
+        "medium_description_en": "<p>Diagnoses hypertension in pediatric patients; official guideline of the American Academy of Pediatrics.</p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "Paediatric hypertension",
+          "paediatric htn",
+          "pediatric htn",
+          "htn",
+          "hypertension",
+          "blood pressure",
+          "guidelines",
+          "pediatric hypertension",
+          "aap pediatric hypertension guidelines",
+          "aap pediatric htn guidelines"
+        ],
+        "search_id": "c-4052",
+        "seo": {
+          "keywords_en": "Hypertension, pediatric hypertension, HTN, pediatric HTN, prehypertension, elevated blood pressure, blood pressure, cardiovascular disease, systolic blood pressure, diastolic blood pressure, primary HTN, renovascular HTN, white coat hypertension, masked hypertension, BP percentile",
+          "meta_description_en": "The Pediatric Hypertension Guidelines (AAP) diagnose hypertension in pediatric patients."
+        },
+        "short_description_en": "Pediatric HTN diagnosis.",
+        "short_title_en": "AAP Pediatric HTN Guidelines",
+        "slug": "aap-pediatric-hypertension-guidelines",
+        "specialty_en": [
+          "Cardiology",
+          "Family Practice",
+          "Nephrology",
+          "Pediatric Subspecialty",
+          "Pediatrics"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Renal",
+          "Vascular"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Sneha",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Daya",
+          "name": "Sneha Daya, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Bernard Rosner, PhD, is a professor of biostatistics at the Harvard T.H. Chan School of Public Health, Harvard Medical School, and Brigham and Women's Hospital. His work has had cardiovascular, pulmonary, ophthalmologic, oncologic, and nutritional applications. Dr. Rosner's primary research interests involve statistical modeling of longitudinal data, analysis of clustered continuous, binary, and ordinal data, and methods for the adjustment of regression models to address measurement error.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Bernard Rosner",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-bernard-rosner.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Rosner+BA%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "about_en": "<p>Joseph T. Flynn, MD, MS, is a professor of pediatrics at the University of Washington School of Medicine, where he holds the Dr. Robert O. Hickman Endowed Chair in Pediatric Nephrology. He is also chief of the division of nephrology at Seattle Children’s Hospital, and has served as president of the American Society of Pediatric Nephrology, on the Working Group of the National High Blood Pressure Education Program, and as co-chair of an American Academy of Pediatrics committee focused on childhood hypertension. Dr. Flynn’s research interests involve the epidemiology and treatment of childhood hypertension, as well as cardiovascular complications of pediatric chronic kidney disease.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Joseph T. Flynn",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-joseph-t-flynn.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Flynn+JT%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4052/aap-pediatric-hypertension-guidelines",
+        "description": "The Pediatric Hypertension Guidelines (AAP) diagnose hypertension in pediatric patients.",
+        "keywords": "Hypertension, pediatric hypertension, HTN, pediatric HTN, prehypertension, elevated blood pressure, blood pressure, cardiovascular disease, systolic blood pressure, diastolic blood pressure, primary HTN, renovascular HTN, white coat hypertension, masked hypertension, BP percentile",
+        "title": "AAP Pediatric Hypertension Guidelines"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 18,
+          "error_max_si": 18,
+          "error_max_us": 18,
+          "error_min": 1,
+          "error_min_si": 1,
+          "error_min_us": 1,
+          "name": "Age (peds)",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "age_peds_htn",
+          "units_si": "years",
+          "units_us": "years",
+          "updatedAt": "2023-08-02T22:55:44.370Z",
+          "warn_max": 18,
+          "warn_max_si": 18,
+          "warn_max_us": 18,
+          "warn_min": 1,
+          "warn_min_si": 1,
+          "warn_min_us": 1
+        },
+        {
+          "conversion": "2.54",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 200,
+          "error_max_si": 508,
+          "error_max_us": 200,
+          "error_min": 10,
+          "error_min_si": 25.4,
+          "error_min_us": 10,
+          "name": "Height (peds)",
+          "normal_max_si": 203,
+          "normal_max_us": 80,
+          "normal_min_si": 63,
+          "normal_min_us": 25,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "ht_peds_htn",
+          "units_si": "cm",
+          "units_us": "in",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 240,
+          "warn_max_si": 609.6,
+          "warn_max_us": 240,
+          "warn_min": 10,
+          "warn_min_si": 25.4,
+          "warn_min_us": 10
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 300,
+          "error_max_si": 300,
+          "error_max_us": 300,
+          "error_min": 75,
+          "error_min_si": 75,
+          "error_min_us": 75,
+          "name": "SBP, Peds",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "sbp_peds",
+          "units_si": "mm Hg",
+          "units_us": "mm Hg",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 300,
+          "warn_max_si": 300,
+          "warn_max_us": 300,
+          "warn_min": 75,
+          "warn_min_si": 75,
+          "warn_min_us": 75
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 200,
+          "error_max_si": 200,
+          "error_max_us": 200,
+          "error_min": 40,
+          "error_min_si": 40,
+          "error_min_us": 40,
+          "name": "SBP, Peds",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "dbp_peds",
+          "units_si": "mm Hg",
+          "units_us": "mm Hg",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 200,
+          "warn_max_si": 200,
+          "warn_max_us": 200,
+          "warn_min": 40,
+          "warn_min_si": 40,
+          "warn_min_us": 40
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 74,
+          "short_title_en": "Mean Arterial Pressure (MAP)",
+          "slug": "mean-arterial-pressure-map"
+        },
+        {
+          "calcId": 10168,
+          "short_title_en": "WAT-1 for Peds Withdrawal",
+          "slug": "withdrawal-assessment-tool-wat-1-pediatric-withdrawal"
+        },
+        {
+          "calcId": 10071,
+          "short_title_en": "REVEAL Score 2.0 for PAH",
+          "slug": "reveal-registry-risk-score-pulmonary-arterial-hypertension-pah"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4052",
+      "aap-pediatric-hypertension-guidelines"
+    ]
+  },
+  "scriptLoader": []
+}

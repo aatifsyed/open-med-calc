@@ -1,0 +1,1212 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Bleeding",
+          "Weakness"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+130",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+130",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "10011.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>x = number of&nbsp;units required / frequency of&nbsp;units negative for the antigen</p>\n<p>where x = minimum number of&nbsp;units to antigen type</p>\n<p>Example for patients with single antibodies:</p>\n<ul>\n<li>Four c-negative donors are required for a patient with anti-c.</li>\n<li>The frequency of the c antigen is 80%.&nbsp;</li>\n<li>x = 4 / (1 - 0.8) = 20</li>\n<li>Answer: a minimum of 20 donors should be antigen typed.</li>\n</ul>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://ebooks.aabb.org/product/technical-manual-18th-edition",
+                  "text": "AABB Technical Manual 18th Ed 2014.pdf. By Mark K. Fung, Brenda J. Grossman, Christopher D. Hillyer, and Connie Westhoff."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/11604582 ",
+                  "text": "Shulman IA, Downes KA, Sazama K, Maffei LM. Pretransfusion compatibility testing for red blood cell administration. Curr Opin Hematol 2001;8:397-404."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Ronald George Hauser, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "OTHER",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<ul>\n<li>Use in blood bank setting to ensure recipient compatibility with RBCs for transfusion.</li>\n<li>The calculator is typically used for patients with one or more alloantibodies, or for patients at risk for development of alloantibodies. Blood bank laboratory staff may find this calculator particularly useful.</li>\n</ul>",
+            "why_use_en": "<p>An accurate estimate of the number of RBC units to screen helps in the management of blood bank workflow. A prohibitively large estimate of the number of units to screen may require contact outside of the patient&rsquo;s blood bank (i.e., regional blood donor center, rare blood unit registry).</p>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>Follow AABB Standards for respective compatibility testing steps.</li>\n<li>The default values provided are for a Caucasian donor population. They can be replaced with antigen frequencies in non-Caucasian donor populations (or antigen frequencies for antigens not explicitly listed).</li>\n</ul>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Anemia"
+        ],
+        "dosing": false,
+        "equation_logic": "20939ef57d134259eab592e3123cb1f6",
+        "equation_logic_text": "var calc_output = [];\n\nvar bigk, lilk, bigm, bign, bigs, lils, fya, fyb, jka, jkb, bigc, lilc, bige, lile, cw, lea, leb, p1, lua, lub\n\nif (bigk == 1) {\n bigk = 1 - parseFloat(bigk_value) / 100  \n}\nelse if (bigk == 0) {\n  bigk = 1\n}\n\nif (lilk == 1) {\n lilk = 1 - parseFloat(lilk_value) / 100  \n}\nelse if (lilk == 0){\n  lilk = 1\n}\n\nif (bigm == 1) {\n bigm = 1 - parseFloat(bigm_value) / 100\n}\nelse if (bigm == 0){\n  bigm = 1\n}\n\nif (bign == 1) {\n bign = 1 - parseFloat(bign_value) / 100\n}\nelse if (bign == 0){\n  bign = 1\n}\n\nif (bigs == 1) {\n bigs = 1 - parseFloat(bigs_value) / 100\n}\nelse if (bigs == 0){\n  bigs = 1\n}\n\nif (lils == 1) {\n lils = 1 - parseFloat(lils_value) / 100\n}\nelse if (lils == 0){\n  lils = 1\n}\n\nif (fya == 1) {\n fya = 1 - parseFloat(fya_value) / 100\n}\nelse if (fya == 0){\n  fya = 1\n}\n\nif (fyb == 1) {\n fyb = 1 - parseFloat(fyb_value) / 100\n}\nelse if (fyb == 0){\n  fyb = 1\n}\n\nif (jka == 1) {\n jka = 1 - parseFloat(jka_value) / 100\n}\nelse if (jka == 0){\n  jka = 1\n}\n\nif (jkb == 1) {\n jkb = 1 - parseFloat(jkb_value) / 100\n}\nelse if (jkb == 0){\n  jkb = 1\n}\n\nif (bigc == 1) {\n bigc = 1 - parseFloat(bigc_value) / 100\n}\nelse if (bigc == 0){\n  bigc = 1\n}\n\nif (lilc == 1) {\n lilc = 1 - parseFloat(lilc_value) / 100\n}\nelse if (lilc == 0){\n  lilc = 1\n}\n\nif (bige == 1) {\n bige = 1 - parseFloat(bige_value) / 100\n}\nelse if (bige == 0){\n  bige = 1\n}\n\nif (lile == 1) {\n lile = 1 - parseFloat(lile_value) / 100\n}\nelse if (lile == 0){\n  lile = 1\n}\n\nif (cw == 1) {\n cw = 1 - parseFloat(cw_value) / 100\n}\nelse if (cw == 0){\n  cw = 1\n}\n\nif (lea == 1) {\n lea = 1 - parseFloat(lea_value) / 100\n}\nelse if (lea == 0){\n  lea = 1\n}\n\nif (leb == 1) {\n leb = 1 - parseFloat(leb_value) / 100\n}\nelse if (leb == 0){\n  leb = 1\n}\n\nif (p1 == 1) {\n p1 = 1 - parseFloat(p1_value) / 100\n}\nelse if (p1 == 0){\n  p1 = 1\n}\n\nif (lua == 1) {\n lua = 1 - parseFloat(lua_value) / 100\n}\nelse if (lua == 0){\n  lua = 1\n}\n\nif (lub == 1) {\n lub = 1 - parseFloat(lub_value) / 100\n}\nelse if (lub == 0){\n  lub = 1\n}\n\nvar prod = parseFloat(bigk) * parseFloat(lilk) * parseFloat(bigm) * parseFloat(bign) * parseFloat(bigs) * parseFloat(lils) * parseFloat(fya) * parseFloat(fyb) * parseFloat(jka) * parseFloat(jkb) * parseFloat(bigc) * parseFloat(lilc) * parseFloat(bige) * parseFloat(lile) * parseFloat(cw) * parseFloat(lea) * parseFloat(leb) * parseFloat(p1) * parseFloat(lua) * parseFloat(lub)\n\nvar screening = parseFloat(units) / prod\n\n// if ((screening - Math.floor(screening)) != 0) {\n//  screening = Math.ceil(screening)\n// }\n// else {\n//  screening = screening\n// }\n\nvar msg \n\nif (screening >= 25) {\n  msg = '. Screening a large number of units (≥25) may be impractical for certain blood banks. Consideration of alternative methods to obtain rare units may be desirable (i.e., regional blood donor center, rare blood unit registry).'\n}\nelse {\n  msg = ''\n}\n\nprod = prod*100;\n\ncalc_output.push({\n   name: 'mini',\n   value: screening.toFixed(0),\n   value_text: 'units',\n   message: 'Number of units estimated to be screened'\n});\ncalc_output.push({\n   name: 'units',\n   value: screening.toFixed(0),\n   value_text: 'units',\n   message: 'Number of units estimated to be screened' + msg\n});\ncalc_output.push({\n   name: 'units',\n   value: prod.toFixed(0),\n   value_text: '%',\n   message: 'Approximate percent of compatible donor units'\n});",
+        "favorite_id": 10011,
+        "full_title_en": "RBC Units to Screen for Compatibility",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Number of desired units",
+            "name": "units",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "unitless"
+          },
+          {
+            "subheading": "Antigen profile: should the screen exclude RBC units with this antigen?",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "C",
+            "name": "bigc",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "bigc == 1",
+            "default": 68,
+            "label_en": "C frequency",
+            "name": "bigc_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "c",
+            "name": "lilc",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "lilc == 1",
+            "default": 80,
+            "label_en": "c frequency",
+            "name": "lilc_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "E",
+            "name": "bige",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "bige == 1",
+            "default": 29,
+            "label_en": "E frequency",
+            "name": "bige_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "e",
+            "name": "lile",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "lile == 1",
+            "default": 98,
+            "label_en": "e frequency",
+            "name": "lile_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "K",
+            "name": "bigk",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "bigk == 1",
+            "default": 9,
+            "label_en": "K frequency",
+            "name": "bigk_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "k",
+            "name": "lilk",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "lilk == 1",
+            "default": 99,
+            "label_en": "k frequency",
+            "name": "lilk_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Jk(a)",
+            "name": "jka",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "jka == 1",
+            "default": 76,
+            "label_en": "Jk(a) frequency",
+            "name": "jka_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Jk(b)",
+            "name": "jkb",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "jkb == 1",
+            "default": 74,
+            "label_en": "Jk(b) frequency",
+            "name": "jkb_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Fy(a)",
+            "name": "fya",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "fya == 1",
+            "default": 68,
+            "label_en": "Fy(a) frequency",
+            "name": "fya_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Fy(b)",
+            "name": "fyb",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "fyb == 1",
+            "default": 80,
+            "label_en": "Fy(b) frequency",
+            "name": "fyb_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "M",
+            "name": "bigm",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "bigm == 1",
+            "default": 79,
+            "label_en": "M frequency",
+            "name": "bigm_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "N",
+            "name": "bign",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "bign == 1",
+            "default": 70,
+            "label_en": "N frequency",
+            "name": "bign_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "S",
+            "name": "bigs",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "bigs == 1",
+            "default": 52,
+            "label_en": "S frequency",
+            "name": "bigs_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "s",
+            "name": "lils",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "lils == 1",
+            "default": 90,
+            "label_en": "s frequency",
+            "name": "lils_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Le(a)",
+            "name": "lea",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "lea == 1",
+            "default": 22,
+            "label_en": "Le(a) frequency",
+            "name": "lea_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Le(b)",
+            "name": "leb",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "leb == 1",
+            "default": 72,
+            "label_en": "Le(b) frequency",
+            "name": "leb_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Lu(a)",
+            "name": "lua",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "lua == 1",
+            "default": 8,
+            "label_en": "Lu(a) frequency",
+            "name": "lua_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Lu(b)",
+            "name": "lub",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "lub == 1",
+            "default": 99.9,
+            "label_en": "Lu(b) frequency",
+            "name": "lub_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "P1",
+            "name": "p1",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "p1 == 1",
+            "default": 79,
+            "label_en": "P1 frequency",
+            "name": "p1_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "C(w)",
+            "name": "cw",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "cw == 1",
+            "default": 2,
+            "label_en": "C(w) frequency",
+            "name": "cw_value",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "basic_stats"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited contributors",
+            "time": "2019-08-27T15:23:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-08-13T16:37:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited results",
+            "time": "2019-08-13T12:49:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "GW edits",
+            "time": "2018-10-01T14:56:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "testing",
+            "time": "2018-10-01T10:13:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "iOS testing",
+            "time": "2018-10-01T10:03:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "iOS testing",
+            "time": "2018-10-01T09:51:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "fixed rounding ",
+            "time": "2018-09-27T09:58:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added specialty Transfusion Medicine",
+            "time": "2018-09-13T17:54:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "contributor feedback + 1st round edits (STILL DEBUGGING)",
+            "time": "2018-08-30T12:21:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "changed warning messages",
+            "time": "2018-08-15T16:59:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "fixed rounding",
+            "time": "2018-08-02T12:51:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "test",
+            "time": "2018-07-20T17:00:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "removed HTML from description",
+            "time": "2018-07-19T17:31:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "contributor feedback",
+            "time": "2018-06-05T17:15:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "alpha testing",
+            "time": "2018-05-11T16:30:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "alpha testing",
+            "time": "2018-05-10T17:50:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "new calc build",
+            "time": "2018-05-10T17:45:00.000Z",
+            "user": "rachel"
+          }
+        ],
+        "md5": "2277c87fb2fd63f07a0f06a128bb02de",
+        "medium_description_en": "<p>Estimates number of donor RBC units to screen to obtain a desired number of antigen-negative units.</p>",
+        "purpose_en": [
+          "Calculation",
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "inventory screen",
+          "antigen profile",
+          "red blood cell",
+          "APPROXIMATE NUMBER OF UNITS FOR COMPATIBILITY TESTING"
+        ],
+        "search_id": "c-10011",
+        "seo": {
+          "keywords_en": "Inventory screen, antigen profile, ABO testing, Rh, transfusion reaction, transfusion medicine",
+          "meta_description_en": "RBC Compatibility Testing determines number of donors needed to be antigen typed to obtain appropriate number of antigen-negative donors."
+        },
+        "short_description_en": "Donors to antigen type.",
+        "short_title_en": "RBC Compatibility Testing",
+        "slug": "rbc-units-screen-compatibility",
+        "specialty_en": [
+          "Hematology and Oncology",
+          "Pathology",
+          "Transfusion Medicine"
+        ],
+        "system_en": [
+          "Hematologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Ronald \\\"George\\\" Hauser, MD, is an assistant professor in laboratory medicine at Yale University School of Medicine who splits his time between clinical medicine and informatics research.  As an attending physician, he practices medicine at the interface between other clinicians and the clinical laboratories, which include Chemistry, Hematology, Microbiology, and the Blood Bank.  He also works along with medical residents, particularly at the Veterans Affairs Hospital in West Haven, Connecticut.  He practices clinical informatics for various projects affiliated at Yale University and the Veterans Health Administration (VHA) including the Recipient Epidemiology and Donor Evaluation Study (REDS; Yale, NIH) and the HIV, Hepatitis, and Related Conditions program (VHA).</p>",
+          "firstName": "Ronald",
+          "hasDisclosure": [],
+          "img": "george-hauser.jpg",
+          "lastName": "Hauser",
+          "name": "Ronald George Hauser, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "george-hauser",
+          "updatedAt": "2023-04-06T20:18:56.600Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Other creator.</p>",
+          "createdAt": "2022-04-08T13:27:37.821Z",
+          "deceased": true,
+          "firstName": "",
+          "lastName": "",
+          "name": "OTHER",
+          "photo_en": null,
+          "publishedAt": "2023-01-10T18:10:35.625Z",
+          "pubmedLink": null,
+          "signedCOI": false,
+          "updatedAt": "2023-01-10T18:11:49.358Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10011/rbc-units-screen-compatibility",
+        "description": "RBC Compatibility Testing determines number of donors needed to be antigen typed to obtain appropriate number of antigen-negative donors.",
+        "keywords": "Inventory screen, antigen profile, ABO testing, Rh, transfusion reaction, transfusion medicine",
+        "title": "RBC Units to Screen for Compatibility"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 100000,
+          "error_max_si": 100000,
+          "error_max_us": 100000,
+          "error_min": -1,
+          "error_min_si": -1,
+          "error_min_us": -1,
+          "name": "Patients",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "unitless",
+          "units_si": " ",
+          "units_us": " ",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 1000,
+          "warn_max_si": 1000,
+          "warn_max_us": 1000,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 100,
+          "error_max_si": 100,
+          "error_max_us": 100,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "percentages",
+          "normal_max_si": 100,
+          "normal_max_us": 100,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "basic_stats",
+          "units_si": "%",
+          "units_us": "%",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 100,
+          "warn_max_si": 100,
+          "warn_max_us": 100,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 4065,
+          "short_title_en": "Blood Volume Calculation",
+          "slug": "blood-volume-calculation"
+        },
+        {
+          "calcId": 4066,
+          "short_title_en": "Sickle Cell RBC Exchange Volume",
+          "slug": "sickle-cell-rbc-exchange-volume"
+        },
+        {
+          "calcId": 10012,
+          "short_title_en": "Donor Lymphocyte Infusion Volume",
+          "slug": "donor-lymphocyte-infusion-dli-volume"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10011",
+      "rbc-units-screen-compatibility"
+    ]
+  },
+  "scriptLoader": []
+}

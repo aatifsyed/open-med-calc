@@ -1,0 +1,752 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p>This calculator is not externally validated, and as such, should be used with caution.</p>",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain",
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+05",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+05",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "10020.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p><span id=\"docs-internal-guid-27921c0d-7fff-f8e4-e3ce-2020bcc4d092\">The ACTION ICU Score was developed retrospectively from 29,973 patients in the ACTION registry, with an overall ICU complication rate of 14.3%. In the derivation cohort, the score performed with R<sup>2</sup> = 0.94, C-statistic 0.73 (95% CI 0.72-0.74). It has not yet been prospectively validated in a separate population. </p>",
+            "formula_en": "<table><colgroup><col width=\"152\" /><col width=\"61\" /><col width=\"53\" /><col width=\"62\" /><col width=\"63\" /><col width=\"61\" /></colgroup>\n<tbody>\n<tr>\n<td></td>\n<td>\n<p dir=\"ltr\"><strong>0 points</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>1 point</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>2 points</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>3 points</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>5 points</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Age, years</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;70</p>\n</td>\n<td>\n<p dir=\"ltr\">&ge;70</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Serum creatinine, mg/dL</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;1.1</p>\n</td>\n<td>\n<p dir=\"ltr\">&ge;1.1</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Heart rate, bpm</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;85</p>\n</td>\n<td>\n<p dir=\"ltr\">85-100</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">&ge;100</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Systolic blood pressure, mmHg</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">&ge;145</p>\n</td>\n<td>\n<p dir=\"ltr\">125-145</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;125</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Initial troponin, times above upper limit of normal</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;12</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">&ge;12</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Heart failure signs or symptoms</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>ST depression on EKG</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Prior revascularization</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Chronic lung disease</strong></p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "more_info_en": "<p>Interpretation:</p>\n<div dir=\"ltr\">\n<div dir=\"ltr\">\n<table>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>ACTION ICU Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk of complications requiring ICU care&nbsp;among initially uncomplicated patients with NSTEM</strong>I<strong>*</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&le;1</p>\n</td>\n<td>\n<p dir=\"ltr\">3.4%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n<td>\n<p dir=\"ltr\">4.9%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n<td>\n<p dir=\"ltr\">5.5%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n<td>\n<p dir=\"ltr\">6.9%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n<td>\n<p dir=\"ltr\">9.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n<td>\n<p dir=\"ltr\">12%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">7</p>\n</td>\n<td>\n<p dir=\"ltr\">14.6%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">8</p>\n</td>\n<td>\n<p dir=\"ltr\">17.4%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">9</p>\n</td>\n<td>\n<p dir=\"ltr\">20.8%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">10</p>\n</td>\n<td>\n<p dir=\"ltr\">23.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">11</p>\n</td>\n<td>\n<p dir=\"ltr\">27.7%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">12</p>\n</td>\n<td>\n<p dir=\"ltr\">31%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">13</p>\n</td>\n<td>\n<p dir=\"ltr\">31.5%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">14</p>\n</td>\n<td>\n<p dir=\"ltr\">39.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;14</p>\n</td>\n<td>\n<p dir=\"ltr\">&gt;39.3%</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">*Cardiac arrest, shock, high-grade atrioventricular block, respiratory failure, stroke, or death during index admission.&nbsp;</p>\n<p></p>\n<p><span style=\"font-size: 10pt; font-family: Arial; color: #0000ff; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;</span></p>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://jaha.ahajournals.org/content/7/11/e008894 ",
+                  "text": "Fanaroff AC, Chen AY, Thomas LE, et al. Risk Score to Predict Need for Intensive Care in Initially Hemodynamically Stable Adults With Non-ST-Segment-Elevation Myocardial Infarction. J Am Heart Assoc. 2018;7(11)."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21167342",
+                  "text": "Chin CT, Chen AY, Wang TY, et al. Risk adjustment for in-hospital mortality of contemporary patients with acute myocardial infarction: the acute coronary treatment and intervention outcomes network (ACTION) registry-get with the guidelines (GWTG) acute myocardial infarction mortality model and risk score. Am Heart J. 2011;161(1):113-122.e2."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/books/NBK83609/",
+                  "text": "National Clinical Guidelines Centre (UK). Stable Angina: Methods, Evidence & Guidance [Internet]. London: Royal College of Physicians (UK); 2011 Jul. (NICE Clinical Guidelines, No. 126.) 14, Risk scores. Available from: https://www.ncbi.nlm.nih.gov/books/NBK83609/."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5776676/",
+                  "text": "Fanaroff AC, Peterson ED, Chen AY, et al. Intensive Care Unit Utilization and Mortality Among Medicare Patients Hospitalized with Non-ST-Segment Elevation Myocardial Infarction. JAMA Cardiol. 2017;2(1):36-44."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Christopher Tainter, MD, RDMS"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Alexander C. Fanaroff",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-4d781b5a-7fff-4ba6-78b8-d8cb26535848\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Derived in patients &ge;65 years old, and may not apply to younger patients.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Different institutions may use different thresholds for ICU admission.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Not yet prospectively validated.</p>\n</li>\n</ul>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-b8f2550f-7fff-23be-6577-835ee539a750\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Emergency patients with NSTEMI, to predict likelihood of complications requiring ICU care for patients with NSTEMI.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Should not be used in patients with STEMI, cardiogenic shock, or cardiac arrest.</p>\n</li>\n</ul>",
+            "why_use_en": "<p><span id=\"docs-internal-guid-0fe6cfe3-7fff-68d8-3ecc-6eda73c3d15b\">Helps identify patients who are initially stable but may later develop complications requiring a higher level of care, and may therefore help with disposition and avoiding failure to rescue.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-80b99550-7fff-9594-0b66-93229cfcdb5d\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients with low risk for complications requiring ICU care may be considered for admission outside of an ICU setting.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients with high risk for complications requiring ICU care may benefit from early admission to the ICU. &nbsp;</p>\n</li>\n</ul>",
+            "critical_actions_en": "<p>This predictive tool should not replace clinical judgment. Not all factors benefiting from ICU care can be accounted for in this score.</p>",
+            "management_en": "<p><span id=\"docs-internal-guid-7b2c2a1e-7fff-c138-177a-2036c341ada3\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Hospital systems should define their own threshold for ICU admission, based on ICU capacity, non-ICU resource availability, etc.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">For example, an ACTION ICU threshold of 5 might triage 50% of patients to the ICU, with an expected complication rate of &lt;10% for non-ICU patients, while an ACTION ICU threshold of 12 might triage 50% of only very high risk patients to the ICU.</p>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Acute Coronary Syndrome",
+          "Myocardial Infarction"
+        ],
+        "dosing": false,
+        "equation_logic": "08e14fa932c0ccbdf835dfc947d50af2",
+        "equation_logic_text": "var calc_output = [];\n\nvar age = parseFloat(age)\nvar cr = parseFloat(cr)\nvar hr = parseFloat(hr)\nvar bp = parseFloat(bp)\nvar troponin = parseFloat(troponin)\nvar hf = parseFloat(hf)\nvar stdep = parseFloat(stdep)\nvar pci = parseFloat(pci)\nvar lung = parseFloat(lung)\n\nvar score = age + cr + hr + bp + troponin + hf + stdep + pci + lung\n\nvar risk = [ \"3.4\", \"3.4\", \"4.9\", \"5.5\", \"6.9\", \"9.3\", \"12\", \"14.6\", \"17.4\", \"20.8\", \"23.3\", \"27.7\", \"31\", \"31.5\", \"39.3\", \">39.3\", \">39.3\", \">39.3\", \">39.3\", \">39.3\", \">39.3\" ]\n\nvar comp = risk[score]\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: comp + '% risk'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'ACTION ICU Score'\n});\ncalc_output.push({\n    name: 'comp',\n    value: comp,\n    value_text: '%',\n    message: 'Risk of complications requiring ICU care among initially uncomplicated patients with NSTEMI (cardiac arrest, shock, high-grade AV block, respiratory failure, stroke, or death during index admission)'\n});",
+        "favorite_id": 10020,
+        "full_title_en": "ACTION ICU Score for Intensive Care in NSTEMI",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Age, years",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "<70",
+                "value": 0
+              },
+              {
+                "label": "≥70",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Serum creatinine, mg/dL",
+            "name": "cr",
+            "optional": false,
+            "options": [
+              {
+                "label": "<1.1",
+                "value": 0
+              },
+              {
+                "label": "≥1.1",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Heart rate, bpm",
+            "name": "hr",
+            "optional": false,
+            "options": [
+              {
+                "label": "<85",
+                "value": 0
+              },
+              {
+                "label": "85-100",
+                "value": 1
+              },
+              {
+                "label": "≥100",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Systolic blood pressure, mmHg",
+            "name": "bp",
+            "optional": false,
+            "options": [
+              {
+                "label": "≥145",
+                "value": 0
+              },
+              {
+                "label": "125-145",
+                "value": 1
+              },
+              {
+                "label": "<125",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Ratio of initial troponin to upper limit of normal",
+            "name": "troponin",
+            "optional": false,
+            "options": [
+              {
+                "label": "<12",
+                "value": 0
+              },
+              {
+                "label": "≥12",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Signs or symptoms of heart failure",
+            "name": "hf",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "ST segment depression on EKG",
+            "name": "stdep",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Prior revascularization",
+            "name": "pci",
+            "optional": false,
+            "options": [
+              {
+                "label": "Yes",
+                "value": 0
+              },
+              {
+                "label": "No",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Chronic lung disease",
+            "name": "lung",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Use in emergency patients with NSTEMI.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "creator approved",
+            "time": "2019-11-06T17:06:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "new content",
+            "time": "2019-04-12T11:44:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "edited references",
+            "time": "2019-04-12T10:34:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2019-04-12T10:29:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "ready to go live",
+            "time": "2018-07-23T16:51:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "itemized search terms ",
+            "time": "2018-07-23T16:46:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "ready to go live",
+            "time": "2018-07-16T11:39:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "references ",
+            "time": "2018-07-12T17:45:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "JS testing edits ",
+            "time": "2018-06-25T08:52:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-06-22T11:45:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "NB added creator edits to equation logic",
+            "time": "2018-06-22T10:27:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "creator edits",
+            "time": "2018-06-22T10:19:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "NB assigned testing edits ",
+            "time": "2018-06-18T15:34:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "testing",
+            "time": "2018-06-14T10:24:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "creator name edited",
+            "time": "2018-06-13T18:30:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "equation logic added",
+            "time": "2018-06-13T12:25:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "equation logic added",
+            "time": "2018-06-06T16:34:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "Edits addressed by Rachel in #natalie_projects cont.",
+            "time": "2018-06-05T11:56:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "Edits addressed by Rachel in #natalie_projects ",
+            "time": "2018-06-04T10:20:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "First try!",
+            "time": "2018-06-01T15:37:00.000Z",
+            "user": "natalie"
+          }
+        ],
+        "md5": "88fba18618ec8cb18198f9ef00837ed7",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-8d89269d-bcb7-f6d1-c8ac-540878579c2a\">Predicts risk of NSTEMI complications requiring ICU care.</span></p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "ICU risk score",
+          "stemi",
+          "nstemi complications",
+          "mortality risk score"
+        ],
+        "search_id": "c-10020",
+        "seo": {
+          "keywords_en": "ICU, MI, heart attack, cardiac arrest, NSTEMI, STEMI, ACTION registry",
+          "meta_description_en": "The ACTION ICU Score for Intensive Care in NSTEMI predicts risk of NSTEMI complications requiring ICU care."
+        },
+        "short_description_en": "Critical NSTEMI complications.",
+        "short_title_en": "ACTION ICU Score",
+        "slug": "action-icu-score-intensive-care-nstemi",
+        "specialty_en": [
+          "Cardiology",
+          "Critical Care",
+          "Family Practice",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Cardiac"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Christopher Tainter, MD, RDMS, is an intensivist and emergency physician at the University of California, San Diego. Raised in Seattle, Dr. Tainter received his medical degree from the University of Washington School of Medicine. He then completed an emergency medicine residency at the Mount Sinai Hospital in New York City, and a fellowship in anesthesia critical care medicine at the Massachusetts General Hospital.  He is the fellowship director for UCSD's emergency medicine/anesthesia critical care medicine fellowship program.</p>",
+          "firstName": "Christopher",
+          "hasDisclosure": [],
+          "img": "christopher-tainter.jpg",
+          "lastName": "Tainter",
+          "name": "Christopher Tainter, MD, RDMS",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "christopher-tainter",
+          "updatedAt": "2023-04-06T20:25:08.680Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Alexander C. Fanaroff, MD, is a cardiologist and chief fellow at the Duke Clinical Research Institute. He is a recipient of the American Heart Association (AHA) Fellow-to-Faculty Transition Award. Dr. Fanaroff’s primary research interests are in interventional cardiology and course of care for patients with cardiovascular illnesses.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Alexander C. Fanaroff",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-alexander-fanaroff.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Fanaroff+AC%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10020/action-icu-score-intensive-care-nstemi",
+        "description": "The ACTION ICU Score for Intensive Care in NSTEMI predicts risk of NSTEMI complications requiring ICU care.",
+        "keywords": "ICU, MI, heart attack, cardiac arrest, NSTEMI, STEMI, ACTION registry",
+        "title": "ACTION ICU Score for Intensive Care in NSTEMI"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 38,
+          "short_title_en": "Framingham Risk Score (Hard Coronary Heart Disease)",
+          "slug": "framingham-risk-score-hard-coronary-heart-disease"
+        },
+        {
+          "calcId": 10403,
+          "short_title_en": "SAPS 3",
+          "slug": "simplified-acute-physiology-score-saps-3"
+        },
+        {
+          "calcId": 4044,
+          "short_title_en": "SAPS II",
+          "slug": "simplified-acute-physiology-score-saps-ii"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10020",
+      "action-icu-score-intensive-care-nstemi"
+    ]
+  },
+  "scriptLoader": []
+}

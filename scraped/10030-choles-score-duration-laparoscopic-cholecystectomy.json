@@ -1,0 +1,733 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Abdominal Pain",
+          "Jaundice"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"193\" /><col width=\"165\" /><col width=\"91\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Age, years</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;40</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;40</p>\n</td>\n<td>\n<p dir=\"ltr\">1.5</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Gender</p>\n</td>\n<td>\n<p dir=\"ltr\">Male</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Female</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Indication</p>\n</td>\n<td>\n<p dir=\"ltr\">Pancreatitis</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Colic, dyskinesia, or polyp</p>\n</td>\n<td>\n<p dir=\"ltr\">0.5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Common bile duct stone</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Acalculous or cholecystitis</p>\n</td>\n<td>\n<p dir=\"ltr\">2.5</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><calculator id=\"29\">BMI</calculator></p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;25</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">25-35</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;35</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Common bile duct diameter</p>\n</td>\n<td>\n<p dir=\"ltr\">Normal</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Dilated</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Gallbladder wall</p>\n</td>\n<td>\n<p dir=\"ltr\">Normal</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Thick</p>\n</td>\n<td>\n<p dir=\"ltr\">1.5</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Pre-operative CT done</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">1.5</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Intra-op cholangiogram planned</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Number of previous surgical admissions</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">1-2</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;2</p>\n</td>\n<td>\n<p dir=\"ltr\">2.5</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><calculator id=\"10024\">ASA Class</calculator></p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;2</p>\n</td>\n<td>\n<p dir=\"ltr\">2.5</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"109\" /><col width=\"134\" /><col width=\"206\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>CholeS Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk group</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Likelihood of operative time &gt;90 minutes</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0-3.5</p>\n</td>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n<td>\n<p dir=\"ltr\">5.1%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">4-8</p>\n</td>\n<td>\n<p dir=\"ltr\">Intermediate</p>\n</td>\n<td>\n<p dir=\"ltr\">5.1-41.8%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;8</p>\n</td>\n<td>\n<p dir=\"ltr\">High</p>\n</td>\n<td>\n<p dir=\"ltr\">41.8%</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://link.springer.com/article/10.1007/s00464-018-6030-6",
+                  "text": "Bharamgoudar R, Sonsale A, Hodson J, Griffiths E. The development and validation of a scoring tool to predict the operative duration of elective laparoscopic cholecystectomy. Surg Endosc. 2018;32(7):3149-3157."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Ewen A. Griffiths",
+              "qa_en": "<p><strong>Why did you develop the CholeS Score? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p>\n<p>We wanted to use the CholeS dataset, a large multicentre audit of over 8,000 cholecystectomies carried out in the UK collecting intra-operative and postoperative outcomes of these operations in 2014, to look at predictive factors for <g class=\"gr_ gr_65 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep\" id=\"65\" data-gr-id=\"65\">operative</g> duration in laparoscopic cholecystectomy. As cholecystectomy is a very common operation, we felt that analysis of factors which accurately predicted the duration of surgery would potentially benefit surgeons in several ways: (1) to accurately schedule theatre lists to avoid underutilization and over-runs; (2) reduce costs from cancellations or underbooked lists; and (3) help theatre staff, schedulers, administrators and surgeons in preparing theatre lists.</p>\n<p>The score was developed by Reshma Bharamgoudar, Aniket Sonsale, James Hodson, and Ewen Griffiths, and we are very grateful for the surgeons and teams who contributed data to the CholeS study to allow this score to be developed.&nbsp;</p>\n<p><strong>What pearls, pitfalls and/or tips do you have for users of the CholeS Score? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p>\n<p>It is only for use in elective surgery, as the data was derived from a cohort of patients undergoing elective surgery, so don't use the score for patients having emergency surgery.</p>\n<p>The score is for use in patients who are having laparoscopic surgery and not straight to open cholecystectomy.</p>\n<p>The score doesn't take into account the extra time to train junior surgeons, or the anesthesia or theatre turnover time, so these need to be taken into account.</p>\n<p>The score uses easily available preoperative data, such as age and gender.</p>\n<p><strong>What recommendations do you have for doctors once they have applied the CholeS Score? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p>\n<p>Once the CholeS score is calculated, it can be used to predict the likelihood of the operation taking more than 90 minutes. For example, the groups (low, intermediate, and high) have the risks of 5.1%, 5.1 to 41.8%, or &gt;41.8% of the operation taking more than 90 minutes to complete.&nbsp;</p>\n<p>Surgeons who would like a slightly more accurate prediction should look at Figure 1 in the main paper.</p>\n<p>We externally validated the score using data from our own hospital's database, and the score was accurate on this dataset too.</p>\n<p><strong>How do you use the CholeS Score in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p>\n<p>The score in our hospital is used to help assess how many patients we can fit into a standard half-day cholecystectomy lists. For example, we can usually fit <g class=\"gr_ gr_72 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace\" id=\"72\" data-gr-id=\"72\">in</g> three <g class=\"gr_ gr_73 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling multiReplace\" id=\"73\" data-gr-id=\"73\">low risk</g> cases for surgery (i.e., those predicted to be easy and have a low risk of taking more than 90 mins). But if we have a patient with adverse features and a high risk of taking longer than 90 mins, then we usually only schedule two patients.&nbsp;The score is also used if there is an <g class=\"gr_ gr_52 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace\" id=\"52\" data-gr-id=\"52\">all day</g> mixed theatre list with around 90 minutes spare operating, to make sure we fit in a likely short duration case rather than one that is likely to be more difficult and thus lead to an overrun on the list.</p>\n<p><strong>Any other research in the pipeline that you&rsquo;re particularly excited about?</strong></p>\n<p>We have also assessed and developed scores on the following related topics which may interest your readers:</p>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29956029\" target=\"_blank\">Griffiths et al, Surg Endosc 2018 Jun 28</a>, &ldquo;Utilisation of an operative difficulty grading scale for laparoscopic cholecystectomy.&rdquo; This is an intra-operative score which grades the surgical difficulties of performing cholecystectomy and correlates this with postoperative outcome.</p>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5094477/\" target=\"_blank\">Sutcliffe et al, HPB (Oxford). 2016 Nov;18(11):922-928</a>, &ldquo;Preoperative risk factors for conversion from laparoscopic to open cholecystectomy: a validated risk score derived from a prospective U.K. database of 8820 patients.&rdquo; This score can be calculated before surgery to predict the risk of conversion to open <g class=\"gr_ gr_61 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-del replaceWithoutSep\" id=\"61\" data-gr-id=\"61\">surgery,</g> and is also good for scheduling lists and consenting patients.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>Applies only to lap chole, not to other operations.</p>",
+            "use_case_en": "<ul>\n<li>Use in patients undergoing elective cholecystectomy.</li>\n<li>Do not use for emergency cases.</li>\n</ul>",
+            "why_use_en": "<p>May help with operative scheduling and more accurate estimates of operative times.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>May be used in booking operative time.</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Cholangitis",
+          "Cholecystitis"
+        ],
+        "dosing": false,
+        "equation_logic_text": "var calc_output = [];\n\nvar age = parseFloat(age)\nvar gender = parseFloat(gender)\nvar indication = parseFloat(indication)\nvar bmi = parseFloat(bmi)\nvar ductdiameter = parseFloat(ductdiameter)\nvar gallbladderwall = parseFloat(gallbladderwall)\nvar preopct = parseFloat(preopct)\nvar cholangiogram = parseFloat(cholangiogram)\nvar surgadmits = parseFloat(surgadmits)\nvar asa = parseFloat(asa)\n\nvar score = age + gender + indication + bmi + ductdiameter + gallbladderwall + preopct + cholangiogram + surgadmits + asa \n\nvar risk \nvar optime\n\nif (score <=3.5) {\n    risk = 'Low'\n    optime = '5.1'   \n}    \nelse if (score >= 4 && score <= 8) { \n    risk = 'Intermediate'\n    optime = '5.1-41.8' \n}\nelse {\n    risk = 'High'\n    optime = '41.8'\n} \n\n//results \ncalc_output.push({\n    name: 'mini',\n    value: optime,\n    value_text: '%',\n    message: risk + ' chance of OR time >90 mins'\n    });\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'CholeS Score'\n    });\ncalc_output.push({\n    name: 'risk',\n    value: risk, \n    value_text: 'risk',\n    message: ''\n});\ncalc_output.push({\n    name: 'optime',\n    value: optime, \n    value_text: '%',\n    message:'Likelihood of operative time >90 minutes'\n});",
+        "favorite_id": 10030,
+        "full_title_en": "CholeS Score for Duration of Laparoscopic Cholecystectomy",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Age, years",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "<40",
+                "value": 0
+              },
+              {
+                "label": "≥40",
+                "value": 1.5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Gender",
+            "name": "gender",
+            "optional": false,
+            "options": [
+              {
+                "label": "Male",
+                "value": 1
+              },
+              {
+                "label": "Female",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Indication",
+            "name": "indication",
+            "optional": false,
+            "options": [
+              {
+                "label": "Pancreatitis",
+                "value": 0
+              },
+              {
+                "label": "Colic, dyskinesia, or polyp",
+                "value": 0.5
+              },
+              {
+                "label": "Common bile duct stone",
+                "value": 2
+              },
+              {
+                "label": "Acalculous or cholecystitis",
+                "value": 2.5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<calculator id=\"29\">BMI</calculator>",
+            "name": "bmi",
+            "optional": false,
+            "options": [
+              {
+                "label": "<25",
+                "value": 0
+              },
+              {
+                "label": "25-35",
+                "value": 1
+              },
+              {
+                "label": ">35",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Common bile duct diameter",
+            "name": "ductdiameter",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal",
+                "value": 0
+              },
+              {
+                "label": "Dilated",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Gallbladder wall",
+            "name": "gallbladderwall",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal",
+                "value": 0
+              },
+              {
+                "label": "Thick",
+                "value": 1.5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Pre-operative CT done",
+            "name": "preopct",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1.5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Intra-op cholangiogram planned",
+            "name": "cholangiogram",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Number of previous surgical admissions",
+            "name": "surgadmits",
+            "optional": false,
+            "options": [
+              {
+                "label": "0 ",
+                "value": 0
+              },
+              {
+                "label": "1-2",
+                "value": 1
+              },
+              {
+                "label": ">2",
+                "value": 2.5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<calculator id=\"10024\">ASA Class</calculator>",
+            "name": "asa",
+            "optional": false,
+            "options": [
+              {
+                "label": "1",
+                "value": 0
+              },
+              {
+                "label": "2",
+                "value": 1
+              },
+              {
+                "label": ">2",
+                "value": 2.5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "edited inputs",
+            "time": "2020-04-16T20:30:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "updated interview links",
+            "time": "2018-11-27T16:33:00.000Z",
+            "user": "allyssa"
+          },
+          {
+            "message": "added creator interview",
+            "time": "2018-11-27T13:55:00.000Z",
+            "user": "allyssa"
+          },
+          {
+            "message": "itemized search terms ",
+            "time": "2018-07-23T16:44:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "GW edits",
+            "time": "2018-07-23T12:26:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "bullets",
+            "time": "2018-07-20T13:00:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "capital Class",
+            "time": "2018-07-19T17:04:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "evidence cut offs edit",
+            "time": "2018-07-13T16:38:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "LS edits",
+            "time": "2018-07-13T16:30:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "edit",
+            "time": "2018-07-10T17:19:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "fixed eq logic",
+            "time": "2018-07-05T17:03:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "eq logic first try",
+            "time": "2018-07-05T15:21:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "RK launchpad edits addressed",
+            "time": "2018-06-28T12:07:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "links added",
+            "time": "2018-06-20T11:18:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "cont",
+            "time": "2018-06-20T11:10:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "inputs cont",
+            "time": "2018-06-20T10:58:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "just need inputs",
+            "time": "2018-06-19T18:05:00.000Z",
+            "user": "natalie"
+          }
+        ],
+        "md5": "",
+        "medium_description_en": "<p>Predicts operative time of laparoscopic cholecystectomy.</p>",
+        "purpose_en": [
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "Choles score",
+          "lap chol duration"
+        ],
+        "search_id": "c-10030",
+        "seo": {
+          "keywords_en": "Cholecystectomy duration",
+          "meta_description_en": "The CholeS Score for Duration of Laparoscopic Cholecystectomy predicts operative time of laparoscopic cholecystectomy."
+        },
+        "short_description_en": "Lap chole duration. ",
+        "short_title_en": "CholeS Score",
+        "slug": "choles-score-duration-laparoscopic-cholecystectomy",
+        "specialty_en": [
+          "Critical Care",
+          "Gastroenterology",
+          "Hepatology",
+          "Internal Medicine",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Gastrointestinal"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Ewen A. Griffiths, MD, FRCS, is an upper gastrointestinal specialist at Queen Elizabeth Hospital in Birmingham, England. He is also an honorary senior clinical lecturer at the University of Birmingham. Dr. Griffiths' research focuses primarily on hypoxia-associated factors and minimally invasive general surgery procedures.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Ewen A. Griffiths",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-ewen-a-griffiths.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Griffiths+EA%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10030/choles-score-duration-laparoscopic-cholecystectomy",
+        "description": "The CholeS Score for Duration of Laparoscopic Cholecystectomy predicts operative time of laparoscopic cholecystectomy.",
+        "keywords": "Cholecystectomy duration",
+        "title": "CholeS Score for Duration of Laparoscopic Cholecystectomy"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 78,
+          "short_title_en": "MELD Na (UNOS/OPTN)",
+          "slug": "meld-score-model-end-stage-liver-disease-12-older"
+        },
+        {
+          "calcId": 340,
+          "short_title_en": "Child-Pugh Score",
+          "slug": "child-pugh-score-cirrhosis-mortality"
+        },
+        {
+          "calcId": 10042,
+          "short_title_en": "Oakland Score",
+          "slug": "oakland-score-safe-discharge-lower-gi-bleed"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10030",
+      "choles-score-duration-laparoscopic-cholecystectomy"
+    ]
+  },
+  "scriptLoader": []
+}

@@ -1,0 +1,755 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p>BRUE has been updated. BRUE 2.0 has been recommended as a replacement for the older tool. <a href=\"https://www.mdcalc.com/calc/10400/brief-resolved-unexplained-events-2.0-brue-2.0-criteria-infants?utm_source=site&amp;utm_medium=link&amp;utm_campaign=brue_1\" target=\"_blank\" rel=\"noopener\"><strong>Click here to view.</strong></a></p>",
+        "calc_type": "diagnostic_criteria",
+        "chief_complaint_en": [
+          "Injury/Trauma"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "4016.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The BRUE Criteria and risk stratification algorithm were created in 2016 as a <a href=\"https://pediatrics.aappublications.org/content/early/2016/04/21/peds.2016-0590\" target=\"_blank\" rel=\"noopener\">clinical practice guideline</a> published by the American Academy of Pediatrics. A comprehensive review of the available ALTE literature was performed and used to inform key action statements. When definitive data was not available, expert consensus of a multidisciplinary committee was used.</p>\n<p>The guidelines were created with the following goals:</p>\n<ul>\n<li>Replace the term apparent life-threatening event (ALTE) with brief resolved unexplained event (BRUE).</li>\n<li>Allow stratification of patients who present with a BRUE into low and higher-risk categories.</li>\n<li>Provide evidence-based guidelines for the evaluation and management of patient categorized as lower risk.</li>\n</ul>\n<p>Risk in patients presenting with a BRUE was defined by risk of either adverse recurrent events or eventual diagnosis with a serious underlying disorder. Several studies in the ALTE literature have attempted to identify predictive variables of this risk.</p>\n<p>Claudius and Keens performed a prospective observational analysis of all children presenting with ALTE (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/17403838\" target=\"_blank\" rel=\"noopener\">Claudius and Keens, 2007</a>). Of the 59 infants included, 8 were deemed to necessitate admission, with age &lt;30 days and the presence of multiple reported events identifying all patients. Prematurity was also noted to be a significant risk factor, though inclusion did not identify any additional patients.</p>\n<p>In a retrospective cohort study of 625 patients admitted for ALTE, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/?term=18950797\" target=\"_blank\" rel=\"noopener\">Al-Kindy et al</a> identified risk factors for &ldquo;extreme&rdquo; vital sign changes (e.g. sustained bradycardia, apnea, or desaturation), including post-conceptional age &lt;43 weeks, premature birth, and URI symptoms.</p>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22743742\" target=\"_blank\" rel=\"noopener\">Mittal et al</a> performed a prospective cohort study of 300 infants evaluated in the ER for ALTE. Logistic regression identified prematurity, abnormal physical examination, cyanotic color change, and the absence of URI symptoms and choking as significant predictors of need for admission.</p>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23734987\" target=\"_blank\" rel=\"noopener\">Kaji et al</a> reported on factors predictive of need for admission in a multi-institution, observational cohort study of 832 patients presenting with ALTE. Aside from obvious need for admission at the time of initial evaluation (e.g. oxygen requirement), a significant medical history (e.g. cardiopulmonary or neuromuscular disease) and the presence of &gt;1 event in the preceding 24 hours identified the majority of patients requiring admission.</p>\n<p>Lastly, a systematic review of 37 studies by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23415612\" target=\"_blank\" rel=\"noopener\">Tieder et al</a> sought to determine risk factors for future adverse events and/or serious underlying diagnosis. Risk factors included history of prematurity, multiple ALTEs, and suspected child maltreatment.</p>\n<p>Notably, the BRUE Criteria were created based on systematic review of the ALTE literature. As such, prospective studies are needed to define the true incidence of BRUE, determine final diagnoses and outcomes of both low and higher-risk infants, and elucidate the role and utility of diagnostic testing in higher-risk infants.</p>",
+            "formula_en": "<p>To be classified as a BRUE, all of the following must be true:</p>\n<ul>\n<li>Infant &lt;1 year old.</li>\n<li>Asymptomatic on presentation (no URI symptoms, no fever).</li>\n<li>No explanation for the event after conducting history and physical (e.g. GER, feeding difficulties).</li>\n<li>History of sudden, brief, and now resolved episode consisting of &ge;1 of the following:</li>\n<ul>\n<li>Cyanosis or pallor.</li>\n<li>Absent, decreased, or irregular breathing.</li>\n<li>Marked change in tone (hyper or hypotonia).</li>\n<li>Altered level of responsiveness.</li>\n</ul>\n</ul>\n<p>Then, for a BRUE to be classified as low risk, all of the following must also be true:</p>\n<ul>\n<li>Episode duration &lt;1 minute.</li>\n<li>&gt;2 months of age.</li>\n<li>No history of prematurity.*</li>\n<li>No prior BRUE.</li>\n<li>No need for CPR by medical provider.</li>\n</ul>\n<p>*&ge;32 weeks gestational age or&nbsp;&ge;45 weeks postconceptional age for infants born at &lt;32 weeks.</p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://pediatrics.aappublications.org/content/early/2016/04/21/peds.2016-0590",
+                  "text": "Tieder JS, Bonkowsky JL, Etzel RA, et al. Brief Resolved Unexplained Events (Formerly Apparent Life-Threatening Events) and Evaluation of Lower-Risk Infants. Pediatrics. 2016;137(5)"
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28814262",
+                  "text": "Zwemer E, Claudius I, Tieder J. Update on the Evaluation and Management of Brief Resolved Unexplained Events (Previously Apparent Life-Threatening Events). Rev Recent Clin Trials. 2017;12. doi:10.2174/1574887112666170816150104."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/17403838 ",
+                  "text": "Claudius I, Keens T. Do all infants with apparent life-threatening events need to be admitted?. Pediatrics. 2007;119(4):679-83."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/18950797",
+                  "text": "Al-kindy HA, Gélinas JF, Hatzakis G, Côté A. Risk factors for extreme events in infants hospitalized for apparent life-threatening events. J Pediatr. 2009;154(3):332-7, 337.e1-2."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22743742",
+                  "text": "Mittal MK, Sun G, Baren JM. A clinical decision rule to identify infants with apparent life-threatening event who can be safely discharged from the emergency department. Pediatr Emerg Care. 2012;28(7):599-605."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23734987 ",
+                  "text": "Kaji AH, Santillanes G, Claudius I, et al. Do infants less than 12 months of age with an apparent life-threatening event need transport to a pediatric critical care center?. Prehosp Emerg Care. 2013;17(3):304-11."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23415612 ",
+                  "text": "Tieder JS, Altman RL, Bonkowsky JL, et al. Management of apparent life-threatening events in infants: a systematic review. J Pediatr. 2013;163(1):94-9.e1-6."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Eric Zwemer, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Joel S. Tieder",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>Developed via <a href=\"https://pediatrics.aappublications.org/content/early/2016/04/21/peds.2016-0590\" target=\"_blank\" rel=\"noopener\">expert consensus</a> by the American Academy of Pediatrics (AAP).</li>\n<li>The criteria require that an extensive history and physical examination have failed to reveal a cause of the episode.</li>\n<li>Can be used in inpatient, outpatient, and emergency department settings.</li>\n<li>Note that choking, gagging, and red color change, which were part of the ALTE definition, are <em>not</em> part of the BRUE Criteria.</li>\n<li>Risk is defined by the likelihood of adverse recurrent events or eventual diagnosis of a serious underlying disorder.</li>\n<li>BRUEs represent a separate entity from sudden infant death syndrome (SIDS).</li>\n</ul>",
+            "use_case_en": "<p>Infants &lt;1 year old presenting for evaluation after a brief, unexplained, and now resolved event consisting of &ge;1 of the following:</p>\n<ul>\n<li>Cyanosis or pallor.</li>\n<li>Absent, decreased, or irregular breathing.</li>\n<li>Marked change in tone.</li>\n<li>Altered level of responsiveness.</li>\n</ul>",
+            "why_use_en": "<ul>\n<li>Replaces the term ALTE, which is broader and does not identify patients who are lower risk.</li>\n<li>May give providers comfort in discharging lower risk BRUE patients home.</li>\n<li>May reduce the need for unnecessary diagnostic testing which may be invasive and expensive.</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Key action statements from AAP for <strong>lower risk </strong>infants (adapted from <a href=\"https://pediatrics.aappublications.org/content/early/2016/04/21/peds.2016-0590\" target=\"_blank\" rel=\"noopener\">Tieder 2016</a>):</p>\n<table>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p><strong>Recommendation</strong></p>\n</td>\n<td>\n<p><strong>Level of Evidence</strong></p>\n</td>\n<td>\n<p><strong>Strength of Recommendation</strong></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top;\" rowspan=\"4\">\n<p><strong>Should do</strong></p>\n</td>\n<td>\n<p>Assess social risk factors to detect child abuse</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Offer CPR training resources</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Educate about BRUEs</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Use shared decision-making</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top;\" rowspan=\"16\">\n<p><strong>Should NOT do</strong></p>\n</td>\n<td>\n<p>Chest x-ray</p>\n</td>\n<td>\n<p>B</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>VBG or ABG</p>\n</td>\n<td>\n<p>B</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Overnight sleep study</p>\n</td>\n<td>\n<p>B</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Echo</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Home cardiorespiratory monitoring</p>\n</td>\n<td>\n<p>B</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Neuroimaging (CT, MRI, or ultrasonography) to detect neurologic disorders</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>EEG to detect neurologic disorders</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Antiepileptic medication</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>WBC count, blood culture, or CSF analysis or culture to detect occult bacterial infection</p>\n</td>\n<td>\n<p>B</p>\n</td>\n<td>\n<p>Strong</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Chest x-ray to assess for pulmonary infection</p>\n</td>\n<td>\n<p>B</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Investigations for GER (e.g. upper GI series, pH probe, endoscopy, barium contrast study, nuclear scintigraphy, ultrasound)</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Prescribe acid suppression therapy</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Serum Na, K, Cl, BUN, Cr, calcium, or ammonia</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Weak</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>VBG or ABG</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Urine organic acids, plasma amino acids, or plasma acylcarnitines</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Laboratory evaluation for anemia</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top;\" rowspan=\"3\">\n<p><strong>May do</strong></p>\n</td>\n<td>\n<p>Briefly monitor with pulse oximetry and serial observation</p>\n</td>\n<td>\n<p>D</p>\n</td>\n<td>\n<p>Weak</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>12-lead EKG</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Weak</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Pertussis testing</p>\n</td>\n<td>\n<p>B</p>\n</td>\n<td>\n<p>Weak</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top;\" rowspan=\"6\">\n<p><strong>Not needed</strong></p>\n</td>\n<td>\n<p>Admission solely for cardiorespiratory monitoring</p>\n</td>\n<td>\n<p>B</p>\n</td>\n<td>\n<p>Weak</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Neuroimaging (CT, MRI, or ultrasonography) to detect child abuse</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Weak</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Urinalysis (bag or catheter)</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Weak</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Respiratory viral testing</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Weak</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Serum lactic acid or bicarbonate</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Weak</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Blood glucose</p>\n</td>\n<td>\n<p>C</p>\n</td>\n<td>\n<p>Moderate</p>\n</td>\n</tr>\n</tbody>\n</table>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>Level A</strong></p>\n</td>\n<td>\n<ul>\n<li>Intervention: well-designed and well-conducted trials, meta-analyses.</li>\n<li>Diagnosis: Independent gold standard studies.</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Level B</strong></p>\n</td>\n<td>\n<ul>\n<li>Trials or diagnostic studies with minor limitations.</li>\n<li>Consistent findings from multiple observational studies.</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Level C</strong></p>\n</td>\n<td>\n<ul>\n<li>Single or few observational studies, or</li>\n<li>Multiple studies with inconsistent findings or major limitations.</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Level D</strong></p>\n</td>\n<td>\n<ul>\n<li>Expert opinion.</li>\n<li>Case reports.</li>\n<li>Reasoning from first principles.</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Level X</strong></p>\n</td>\n<td>\n<ul>\n<li>Exceptional situations where validating studies cannot be performed and there is a clear preponderance of benefit/harm.</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Levels of evidence, from <a href=\"https://pediatrics.aappublications.org/content/early/2016/04/21/peds.2016-0590\" target=\"_blank\" rel=\"noopener\">Tieder 2016</a>:</p>",
+            "critical_actions_en": "<ul>\n<li>Evidence-based guidelines for evaluation and management should only be applied to patients categorized as having had a lower risk BRUE.</li>\n<li>An appropriate social history and examination is critical to screen for potential child abuse and neglect.</li>\n<li>BRUE Criteria and evidence-based recommendations are not a substitute for individual physician judgment.</li>\n</ul>",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": "",
+        "disease_en": [
+          "Trauma"
+        ],
+        "dosing": false,
+        "equation_logic": "ae928d880590e3e82180466984e6b711",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nvar initial = parseFloat(infant) + parseFloat(asx) + parseFloat(hp) + parseFloat(episode);\n\nvar msg, risk, rec;\n\nif (initial < 4){\n    msg = \"Not BRUE\"\n    risk = \"\"\n    rec = \"Entry criteria not fulfilled\"\n}\nif(initial == 4){\n    var brue = parseFloat(cyanosis) + parseFloat(breathing) + parseFloat(tone) + parseFloat(altered);\n    if (brue >= 1){ \n    var other = parseFloat(duration) + parseFloat(age) + parseFloat(prematurity) + parseFloat(prior) + parseFloat(cpr);\n\tmsg = \"BRUE\";\n\trisk = \"Not lower risk\";\n    rec = \". Proceed with usual workup.\";\n    }\n    if (brue == 0) {\n    msg = \"Not BRUE\"\n    risk = ''\n    rec = 'Proceed with usual workup'\n    }\n\n\tif(other == 5){\n\t\tmsg = \"BRUE\";\n\t\trisk = \"Lower risk\";\n        rec = \". Assess social risk factors to detect child abuse. Should not admit for monitoring or do laboratory workup. See Advice for details.\"\n\t}\n   if (other < 5) {\n        msg = \"BRUE\"\n        risk = 'Not lower risk'\n        rec = ''\n    }\n}\n//results\ncalc_output.push({\n    name: 'mini',\n    value: msg,\n    value_text: '',\n    message: risk\n});\ncalc_output.push({\n    name: 'Result',\n    value: msg,\n    value_text: '',\n    message: risk + rec\n});\n",
+        "favorite_id": 4016,
+        "full_title_en": "Brief Resolved Unexplained Events (BRUE) Criteria for Infants",
+        "input_schema": [
+          {
+            "subheading": "Entry criteria",
+            "subheading_instructions": "Must fulfill all 4 to evaluate for BRUE",
+            "type": "subheading"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "Infant <1 year old",
+            "name": "infant",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "Asymptomatic on presentation",
+            "name": "asx",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "E.g. no <abbr title='Upper respiratory infection'>URI</abbr> symptoms, no fever",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "No explanation for the event after conducting history and physical",
+            "name": "hp",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "E.g. <abbr title='Gastroesophageal reflux'>GER</abbr>, feeding difficulties",
+            "type": "toggle"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "History of sudden, brief, and now resolved episode",
+            "name": "episode",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "subheading": "BRUE criteria",
+            "subheading_instructions": "Must fulfill ≥1 to qualify as BRUE; episode consisting of:",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "infant == 1 && asx == 1 && hp == 1 && episode == 1",
+            "default": 0,
+            "label_en": "Cyanosis or pallor",
+            "name": "cyanosis",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "infant == 1 && asx == 1 && hp == 1 && episode == 1",
+            "default": 0,
+            "label_en": "Absent, decreased, or irregular breathing",
+            "name": "breathing",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "infant == 1 && asx == 1 && hp == 1 && episode == 1",
+            "default": 0,
+            "label_en": "Marked change in tone",
+            "name": "tone",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Hyper or hypotonia",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "infant == 1 && asx == 1 && hp == 1 && episode == 1",
+            "default": 0,
+            "label_en": "Altered level of responsiveness",
+            "name": "altered",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "subheading": "Lower risk BRUE criteria",
+            "subheading_instructions": "Must fulfill all 5 to qualify as lower risk BRUE",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "cyanosis == 1 || breathing == 1 || tone == 1 || altered == 1",
+            "default": 0,
+            "label_en": "Episode duration <1 minute",
+            "name": "duration",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "cyanosis == 1 || breathing == 1 || tone == 1 || altered == 1",
+            "default": 0,
+            "label_en": "Age >2 months",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "cyanosis == 1 || breathing == 1 || tone == 1 || altered == 1",
+            "default": 0,
+            "label_en": "No history of prematurity",
+            "name": "prematurity",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "≥32 weeks gestational age or ≥45 weeks postconceptional age",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "cyanosis == 1 || breathing == 1 || tone == 1 || altered == 1",
+            "default": 0,
+            "label_en": "No prior BRUE",
+            "name": "prior",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "cyanosis == 1 || breathing == 1 || tone == 1 || altered == 1",
+            "default": 0,
+            "label_en": "No need for CPR by medical provider",
+            "name": "cpr",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Use in infants &lt;1 year old who are asymptomatic and in their normal state of health at the time of evaluation. Do not use in symptomatic patients (e.g. fever, respiratory distress) or those with obvious cause for prior symptoms.</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "fbb7521eedaf1e52d320f19b939b2cc1",
+        "medium_description_en": "<p>Classifies unexplained events and replaces the Apparent Life Threatening Events (ALTE) classification.</p>",
+        "publishedAt": "2022-04-21T20:29:36.607Z",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "brue",
+          "alte",
+          "sids"
+        ],
+        "search_id": "c-4016",
+        "seo": {
+          "keywords_en": "Brue, alte, sids",
+          "meta_description_en": "The Brief Resolved Unexplained Events (BRUE) Criteria for Infants classifies unexplained events and replaces the Apparent Life Threatening Events (ALTE) classification."
+        },
+        "short_description_en": "<p>Classifies unexplained events in infants.</p>",
+        "short_title_en": "BRUE Criteria",
+        "slug": "brief-resolved-unexplained-events-brue-criteria-infants",
+        "specialty_en": [
+          "Emergency Medicine",
+          "Family Practice",
+          "Pediatrics"
+        ],
+        "system_en": [
+          "Any/All"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "c6e0d16a-2851-4537-8564-0d65378eaf0f"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Eric",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Zwemer",
+          "name": "Eric Zwemer, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Joel S. Tieder, MD, MPH is a Professor of Pediatrics in the Division of Hospital Medicine at Seattle Children&rsquo;s Hospital and the University Of Washington School Of Medicine. He is a pediatric hospitalist with scholarly focus on improving the delivery of quality care for hospitalized children, particularly through overcoming healthcare disparities and the use of evidence-based and family-centered care. Nationally, he is the Chair for the American Academy of Pediatrics&rsquo; Council for Quality Improvement and Patient Safety.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Joel S. Tieder",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-joel-s-tieder.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Tieder+JS%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T15:36:26.650Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4016/brief-resolved-unexplained-events-brue-criteria-infants",
+        "description": "The Brief Resolved Unexplained Events (BRUE) Criteria for Infants classifies unexplained events and replaces the Apparent Life Threatening Events (ALTE) classification.",
+        "keywords": "Brue, alte, sids",
+        "title": "Brief Resolved Unexplained Events (BRUE) Criteria for Infants"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10400,
+          "short_title_en": "BRUE 2.0",
+          "slug": "brief-resolved-unexplained-events-2.0-brue-2.0-criteria-infants"
+        },
+        {
+          "calcId": 4029,
+          "short_title_en": "Wound Closure Classification",
+          "slug": "wound-closure-classification"
+        },
+        {
+          "calcId": 4037,
+          "short_title_en": "FAST",
+          "slug": "focused-assessment-sonography-trauma-fast"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4016",
+      "brief-resolved-unexplained-events-brue-criteria-infants"
+    ]
+  },
+  "scriptLoader": []
+}

@@ -1,0 +1,637 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p>This dosing tool is intended to assist with calculation, not to provide comprehensive or definitive drug information. Always double-check dosing of any drug and consult a pharmacist when necessary.</p>",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Intoxication/Overdose"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "4036.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/4715199\" target=\"_blank\" rel=\"noopener\">Bismuth et al (1973)</a> investigated the relationship between serum potassium concentrations and mortality in patients treated for digitoxin toxicity at the Fernand Widal Toxicology Center, Paris between 1967 and 1972. Of 91 patients with digitoxin toxicity, the majority of whom (81/91) took digitoxin with suicidal intent, all patients with initial serum potassium &gt;5.5 mEq/L died, whereas all patients with initial serum potassium &lt;5 mEq/L survived.</p>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/2188752\" target=\"_blank\" rel=\"noopener\">Antman et al (1990)</a> conducted a nationwide, prospective, open-label, multicenter clinical trial of patients with potentially life-threatening digitalis intoxication treated with purified digoxin-specific Fab fragments. 119/148 (80%) had resolution of all signs and symptoms of digitalis toxicity; 14/148 (9%) showed improvement; 15/148 (10%) showed no response (though this group included moribund patients and those retrospectively believed to not be suffering from digitalis toxicity). Of patients with cardiac arrest treated with Fab fragments, 30/56 (54%) survived hospitalization.</p>",
+            "formula_en": "<p>Number of vials = ( serum digoxin level, ng/mL x patient weight, kg ) / 100</p>\n<p>OR</p>\n<p>Number of vials = ( amount ingested, mg / 0.5 mg/vial ) x 80% bioavailability</p>\n<p>Number of vials should always be rounded up to the next whole number.</p>\n<p><strong>Empiric therapy for acute poisoning:</strong></p>\n<p>10-20 vials (adult or child)</p>\n<p><strong>Empiric therapy for chronic poisoning:</strong></p>\n<p>Adult: 3-6 vials</p>\n<p>Child: 1-2 vials</p>\n<p>Example: 60-year old woman (65 kg) develops acute kidney injury from gastroenteritis and presents to the ED with altered mental status and bradycardia. Her serum digoxin level is 2.8 ng/mL (3.6 nmol/L). How many vials of DigiFab should be administered?</p>\n<ul>\n<li>No. of vials = ( serum digoxin level, ng/mL x patient weight, kg ) / 100</li>\n<li>No. of vials = 2.8 ng/mL x 65 kg / 100</li>\n<li>No. of vials = 1.82 = 2 vials</li>\n<li>(No. of vials should be rounded up)</li>\n</ul>\n<p>Example: a 30-year old man (70 kg) presents to the ED after intentionally ingesting 4 mg of a family member&rsquo;s digoxin. Atropine IV is ineffective and his heart rate remains 20-30. How many vials of DigiFab should be administered?</p>\n<ul>\n<li>No. of vials = ( amount ingested, mg / 0.5 mg/vial ) x 80% bioavailability</li>\n<li>No. of vials = 4 mg / 0.5 (mg/vial) x 80%</li>\n<li>No. of vials = 6.4 = 7 vials</li>\n<li>(No. of vials should be rounded up)</li>\n</ul>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/18824911 ",
+                  "text": "Lapostolle F, Borron SW, Verdier C, Taboulet P, Guerrier G, Adnet F, Clemessy JL, Bismuth C, Baud FJ. Digoxin-specific Fab fragments as single first-line therapy in digitalis poisoning. Crit Care Med. 2008 Nov;36(11):3014-8. doi: 10.1097/CCM.0b013e31818b341c."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/2188752 ",
+                  "text": "Antman EM, Wenger TL, Butler VP Jr, Haber E, Smith TW. Treatment of 150 cases of Life-Threatening Digitalis Intoxication With Digoxin-Specific Fab Antibody Fragments: Final Report of a Multicenter Study. Circulation. 1990;81:1744-52."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/4715199 ",
+                  "text": "Bismuth C, Gaultier M, Conso F, Efthymiou ML. Hyperkalemia in Acute Digitalis Poisoning: Prognostic Significance and Therapeutic Implications. Clin Toxicol. 1973;6(2):153-62."
+                },
+                {
+                  "href": "http://www.gsk.com.au/resources.ashx/prescriptionmedicinesproductschilddataproinfo/854/FileName/6C4EF0296B7C0A32232861F2B1609EB3/PI_Digibind_Injection.pdf ",
+                  "text": "Digibind® Injection Information, Manufacturer's Guidelines"
+                },
+                {
+                  "href": "https://accesspharmacy.mhmedical.com/book.aspx?bookid=1163 ",
+                  "text": "Hack JB. Cardioactive Steroids. In: Hoffman R, Howland MA, Lewin N et al. Goldfrank's Toxicologic Emergencies, Tenth Edition. McGraw-Hill Education / Medical; 2014."
+                },
+                {
+                  "href": "https://accesspharmacy.mhmedical.com/book.aspx?bookid=1163",
+                  "text": "Howland MA. Digoxin-Specific Antibody Fragments. In: Hoffman R, Howland MA, Lewin N et al. Goldfrank's Toxicologic Emergencies, Tenth Edition. McGraw-Hill Education / Medical; 2014."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Scott Lucyk, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Frédéric Lapostolle",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>Cardioactive steroid toxicity can cause nearly any dysrhythmia with the exception of a rapidly conducted supraventricular tachydysrhythmia.</li>\n<li>The serum digoxin level must be considered in the context of the patient&rsquo;s clinical presentation; a reliable serum digoxin level must be obtained at steady-state (i.e., obtained &ge;6 hours after ingestion). The serum digoxin level may be misleadingly high if obtained &lt;6 hours after ingestion.</li>\n<li>Digoxin levels measured after administration of DigiFab will be falsely elevated. If required, <em>free</em> digoxin levels will need to be measured (not readily available at all labs).</li>\n<li>Hyperkalemia acts as a marker of poisoning severity in acute digoxin overdose. Correcting mild elevations in serum potassium without administering DigiFab will <em>not</em> improve survival (see Next Steps for details).</li>\n<li>Impaired creatinine clearance and aging (associated with decreased function of renal, hepatic, and cardiac systems) may result in clinical toxicity at lower serum digoxin levels.</li>\n<li>Electrolyte abnormalities (specifically hypokalemia, but including hypomagnesemia, hypercalcemia, hypernatremia) may result in dysrhythmias at lower serum digoxin levels.</li>\n<li>Drugs including quiNIDine, verapamil, dilTIAZem, carvedilol, amiodarone, and spironolactone will result in decreased digoxin protein binding, thereby increasing free digoxin levels.</li>\n</ul>\n<p><strong>Tips from the creator:</strong></p>\n<ul>\n<li>The calculator is appropriate for vials containing (approximately) 40 mg of antibodies.</li>\n<li>Slow infusion (i.e., 2 hours) improves Fab efficacy. This way of infusion is preferable when rhythm disturbances are not life-threatening.</li>\n<li>In the case of chronic overdose, if digoxin level (in prehospital setting for example) is missing, a dose of 3 vials is appropriate (experience-based recommendation).</li>\n</ul>",
+            "use_case_en": "<p><strong>General:</strong></p>\n<ul>\n<li>Acute, acute on chronic, or chronic digoxin toxicity.</li>\n<li>Poisoning with cardioactive steroid.</li>\n</ul>\n<p><strong>Specific indications:</strong></p>\n<ul>\n<li>Any digoxin-related life-threatening dysrhythmia (independent of digoxin level).</li>\n<li>Potassium concentration &gt;5 mEq/L in acute digoxin poisoning.</li>\n<li>Elevated serum digoxin level, chronic digoxin toxicity associated with dysrhythmias, significant gastrointestinal symptoms, or altered mental status.</li>\n<li>Serum digoxin level &gt;15 ng/mL (19.2 nmol/L) at any time, or &gt;10 ng/mL (12.8 nmol/L) 6-hours post-ingestion (independent of symptoms).</li>\n<li>Acute ingestion &gt;10 mg digoxin in an adult.</li>\n<li>Acute ingestion &gt;4 mg digoxin in a child.</li>\n<li>Poisoning with a non-digoxin cardioactive steroid (e.g. plants like foxglove and lily of the valley).</li>\n</ul>",
+            "why_use_en": "<p>DigiFab is an effective antidote for acute, acute on chronic, and chronic digoxin toxicity. It is also indicated for poisoning from other cardioactive steroids.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Frequent premature ventricular complexes (PVCs) may be closely followed by ventricular dysrhythmias.</p>",
+            "critical_actions_en": "<ul>\n<li>Potassium abnormalities, specifically hypokalemia, may worsen digoxin toxicity, even at therapeutic digoxin levels.</li>\n<li>If mild hyperkalemia, correction is not advised, as treatment with DigiFab will decrease potassium concentrations.</li>\n<ul>\n<li>Treatment to lower serum potassium concentrations should be performed prior to DigiFab administration <strong>only</strong> if (1) hyperkalemia is believed to be worsening AV nodal block and bradycardia AND (2) DigiFab is not immediately available.</li>\n</ul>\n<li>If hypokalemia, cautious correction is advised prior to the administration of DigiFab.</li>\n<li>If worsening toxicity/dysrhythmia or if toxicity does not improve with correction of hypokalemia, DigiFab should be immediately administered.</li>\n<li>Though debated, calcium salts should not be administered to patients with hyperkalemia secondary to digoxin toxicity.</li>\n<li>Transcutaneous and especially transvenous pacing should be avoided in patients with digoxin toxicity due to risk for precipitating dysrhythmias.</li>\n</ul>",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 4036,
+                "createdAt": "2020-10-08T17:55:30.087Z",
+                "description": "Emergency Medicine Practice ",
+                "id": 198,
+                "link": "https://www.ebmedicine.net/topics.php?paction=showTopic&topic_id=646&ad=calculators",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: DigiFab (Digibind) Dosing",
+                "updatedAt": "2020-10-08T17:55:30.087Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Drug/Alcohol Use",
+          "Ingestion/Overdose"
+        ],
+        "dosing": true,
+        "equation_logic": "ae6a327dccaf4082c1dea14d79e26fbe",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nif (choose == 0) {\n    var weight = parseFloat(weight)\n    var dig = parseFloat(dig)\n    if (UOMSYSTEM == true) {\n        var dig = parseFloat(dig)\n    }\n    else {\n        var dig = parseFloat(dig) / 1.281\n    }\n    var vials = dig * weight / 100\n}\n\nif (choose == 1) {\n    var amount = parseFloat(amount)\n    var vials = amount / 0.5 * 0.8\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: Math.ceil(vials),\n    value_text: 'vials',\n    message: 'DigiFab dose (40 mg vials)'\n});\ncalc_output.push({\n    name: 'big score',\n    value: Math.ceil(vials),\n    value_text: 'vials',\n    message: 'DigiFab dose (assumes each vial contains 40 mg)'\n});",
+        "favorite_id": 4036,
+        "full_title_en": "DigiFab (Digibind) Dosing for Digoxin Poisoning",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Choose available data</p>",
+            "name": "choose",
+            "optional": false,
+            "options": [
+              {
+                "label": "Serum digoxin level",
+                "value": 0
+              },
+              {
+                "label": "Amount ingested",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "choose == 0",
+            "default": null,
+            "label_en": "<p>Patient body weight</p>",
+            "name": "weight",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "wt"
+          },
+          {
+            "conditionality": "choose == 0",
+            "default": null,
+            "label_en": "<p>Serum digoxin level</p>",
+            "name": "dig",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "dig"
+          },
+          {
+            "conditionality": "choose == 1",
+            "default": null,
+            "label_en": "<p>Amount ingested</p>",
+            "name": "amount",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "dig_mg"
+          }
+        ],
+        "instructions_en": "<p>Therapeutic range for serum digoxin level is 0.8&ndash;2.0 ng/mL (1.0&ndash;2.6 nmol/L).&nbsp;If acute poisoning and serum digoxin confirmed &gt;10 ng/mL, give empiric dose (10-20 vials). See Evidence for details.</p>\n<p>Additional considerations for treatment of digoxin toxicity include:</p>\n<ul>\n<li>Atropine 0.5 mg IV for acute toxicity if bradydysrhythmias or high degree AV block.</li>\n<li>Cautious correction of electrolyte abnormalities, specifically hypokalemia and hypomagnesemia (may result in dysrhythmias at lower serum digoxin levels).</li>\n</ul>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added partner content",
+            "time": "2020-10-08T10:55:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added interview",
+            "time": "2019-09-05T10:36:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added pharmacy tag",
+            "time": "2019-02-18T18:13:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added note to result about 40 mg vials",
+            "time": "2018-09-20T09:39:00.000Z",
+            "user": "rachel"
+          }
+        ],
+        "md5": "a9d557995e898bd0fe571b716462f79b",
+        "medium_description_en": "<p>Doses DigiFab in patients with confirmed digoxin poisoning or overdose.</p>",
+        "purpose_en": [
+          "Calculation",
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "digoxin",
+          "overdose",
+          "DigiFab",
+          "dosing",
+          "poisoning",
+          "treatment"
+        ],
+        "search_id": "c-4036",
+        "seo": {
+          "keywords_en": "digibind calc, digibind calculator, digibind dosing, digibind dosing calculator, digibind dosing calc, digibind mdcalc, digi dosing calc, digi dosing, digi dosing calculator, digoxin poisoning, digoxin poison, digoxin poisoning calc, digoxin poison calc, digoxin overdose, digoxin od, digitoxin poisoning, digitoxin poison, digitoxin poisoning calc, digitoxin poison calc, digitoxin overdose, digitoxin od, digibind treatment, digitoxin treatment, digoxin treatment, digitalis treatment",
+          "meta_description_en": "The DigiFab Dosing calculator doses DigiFab in patients with confirmed digoxin poisoning or overdose."
+        },
+        "short_description_en": "<p>DigiFab dosing for digoxin toxicity.</p>",
+        "short_title_en": "DigiFab (Digibind) Dosing",
+        "slug": "digifab-dosing-digoxin-poisoning",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Pharmacy",
+          "Toxicology"
+        ],
+        "system_en": [
+          "Any/All"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Scott Lucyk, MD, is an emergency physician and medical toxicologist with the Poison and Drug Information Service (PADIS) in Calgary, Alberta, Canada. Dr. Lucyk obtained his Fellowship of the Royal College of Physicians of Canada (FRCPC) in emergency medicine from the University of Alberta, followed by a fellowship in medical toxicology at the New York Poison Control Center in New York City. Currently, he is the associate medical director at PADIS and the program director of the clinical pharmacology and toxicology subspecialty in Calgary. Dr. Lucyk focuses his non-clinical time on medical education and resident teaching.</p>",
+          "firstName": "Scott",
+          "hasDisclosure": [],
+          "img": "scott-lucyk.jpg",
+          "lastName": "Lucyk",
+          "name": "Scott Lucyk, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "scott-lucyk",
+          "updatedAt": "2023-04-06T20:23:25.192Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Frédéric Lapostolle, MD, PhD, is an emergency physician at Avicenne Hospital in Bobigny, France. He is deputy medical director of Samu 93 Emergency Rescue Service. Dr. Lapostolle is a professor of emergency medicine and has authored or co-authored over 100 papers in his specialty.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Frédéric Lapostolle",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-frederic-lapostolle.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Frederic+Lapostolle%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T16:22:41.805Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4036/digifab-dosing-digoxin-poisoning",
+        "description": "The DigiFab Dosing calculator doses DigiFab in patients with confirmed digoxin poisoning or overdose.",
+        "keywords": "digibind calc, digibind calculator, digibind dosing, digibind dosing calculator, digibind dosing calc, digibind mdcalc, digi dosing calc, digi dosing, digi dosing calculator, digoxin poisoning, digoxin poison, digoxin poisoning calc, digoxin poison calc, digoxin overdose, digoxin od, digitoxin poisoning, digitoxin poison, digitoxin poisoning calc, digitoxin poison calc, digitoxin overdose, digitoxin od, digibind treatment, digitoxin treatment, digoxin treatment, digitalis treatment",
+        "title": "DigiFab (Digibind) Dosing for Digoxin Poisoning"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 20,
+          "error_max_si": 20,
+          "error_max_us": 20,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Amount digoxin ingested",
+          "normal_max_si": 0,
+          "normal_max_us": 2,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "dig_mg",
+          "units_si": "mg",
+          "units_us": "mg",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 10,
+          "warn_max_si": 10,
+          "warn_max_us": 10,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "1.281",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 10,
+          "error_max_si": 12.81,
+          "error_max_us": 10,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Serum digoxin level",
+          "normal_max_si": 2.6,
+          "normal_max_us": 2,
+          "normal_min_si": 1,
+          "normal_min_us": 0.8,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "dig",
+          "units_si": "nmol/L",
+          "units_us": "ng/mL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 3,
+          "warn_max_si": 3.843,
+          "warn_max_us": 3,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "0.453592",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 600,
+          "error_max_si": 272.1552,
+          "error_max_us": 600,
+          "error_min": 0.5,
+          "error_min_si": 0.226796,
+          "error_min_us": 0.5,
+          "name": "Weight",
+          "normal_max_si": 150,
+          "normal_max_us": 330,
+          "normal_min_si": 1,
+          "normal_min_us": 2,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "wt",
+          "units_si": "kg",
+          "units_us": "lbs",
+          "updatedAt": "2022-12-01T20:01:08.372Z",
+          "warn_max": 500,
+          "warn_max_si": 226.796,
+          "warn_max_us": 500,
+          "warn_min": 0.5,
+          "warn_min_si": 0.226796,
+          "warn_min_us": 0.5
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 10170,
+          "short_title_en": "Morphine Milligram Equivalents",
+          "slug": "morphine-milligram-equivalents-mme-calculator"
+        },
+        {
+          "calcId": 1741,
+          "short_title_en": "ABG Analysis",
+          "slug": "arterial-blood-gas-abg-analyzer"
+        },
+        {
+          "calcId": 3813,
+          "short_title_en": "Estimated Serum Concentration of Alcohols",
+          "slug": "estimated-ethanol-toxic-alcohol-serum-concentration-based-ingestion"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4036",
+      "digifab-dosing-digoxin-poisoning"
+    ]
+  },
+  "scriptLoader": []
+}

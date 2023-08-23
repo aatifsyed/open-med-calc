@@ -1,0 +1,555 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Headache",
+          "Muscle Stiffness",
+          "Pain"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+143",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+143",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "3988.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The Rule of 7s was first proposed by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16396843\" target=\"_blank\">Avery et al</a> as a mathematical model examining risk factors for Lyme meningitis. <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19403476\" target=\"_blank\">Garro et al</a> prospectively validated the rule in a study of 50 children aged 2–18 years in a Lyme endemic region. &nbsp;Fourteen children had LM, six had possible LM and 30 were ultimately diagnosed with aseptic meningitis. Categories of low (&lt;10%), indeterminate (10-50%), and high (&gt;50%) probabilities of LM were derived based on percent of CSF mononuclear cells, duration of headache and presence of cranial nerve neuropathy.</p> <p>Positive predictive value with a cutoff of &gt;50% probability of LM was 100% (95% CI 66-100%). &nbsp;Negative predictive value was 100% (95% CI 82-100%) with a cutoff of &lt;10% probability of LM. The authors noted that when the patient had &lt;7 days of headache, &lt;70% mononuclear cells and no cranial neuropathy, the probability of LM was always less than 10%, therefore making them low risk for LM. &nbsp;</p> <p>This study was validated in a large retrospective cohort study by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19403476\" target=\"_blank\">Cohn and Nigrovic et al</a> via electronic medical record data in three pediatric emergency departments in Lyme endemic areas. &nbsp;A sample of 423 children, aged 90 days to 19 years, included 117 who were diagnosed with Lyme meningitis and 306 who were diagnosed with aseptic meningitis. Specificity of the Rule of 7s for low risk was 41% (95% CI 36-47%), and sensitivity was 96% (95% CI 90%–99%).</p>",
+            "formula_en": "<p><span>Addition of the selected points:</span></p> <div class=\"table-responsive\"> <table class=\"table table-bordered\"> <tbody> <tr> <td>&nbsp;</td> <td> <p><strong>0 points</strong></p> </td> <td> <p><strong>1 point</strong></p> </td> </tr> <tr> <td> <p><span>Number of days of headache</span></p> </td> <td> <p><span>&lt;7</span></p> </td> <td> <p><span>≥7</span></p> </td> </tr> <tr> <td> <p><span>CSF mononuclear cells</span></p> </td> <td> <p><span>&lt;70%</span></p> </td> <td> <p><span>≥70%</span></p> </td> </tr> <tr> <td> <p><span>7th (or other) cranial nerve palsy</span></p> </td> <td> <p><span>No</span></p> </td> <td> <p><span>Yes</span></p> </td> </tr> </tbody> </table> </div>",
+            "more_info_en": "<p>Interpretation:</p> <div class=\"table-responsive\"> <table class=\"table table-bordered\"> <tbody> <tr> <td> <p><strong>Rule of 7s</strong></p> </td> <td> <p><strong>Risk</strong></p> </td> </tr> <tr> <td> <p>0 points</p> </td> <td> <p>Low risk for Lyme meningitis</p> </td> </tr> <tr> <td> <p>1–3 points</p> </td> <td> <p>Not low risk for Lyme meningitis</p> </td> </tr> </tbody> </table> </div>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/19403476 ",
+                  "text": "Garro AC, Rutman M, Simonsen K, Jaeger JL, Chapin K, Lockhart G. Prospective validation of a clinical prediction model for Lyme meningitis in children. Pediatrics. 2009;123(5):e829-34."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16396843",
+                  "text": "Avery RA, Frank G, Glutting JJ, Eppes SC. Prediction of Lyme meningitis in children from a Lyme disease-endemic region: a logistic-regression model using history, physical, and laboratory findings. Pediatrics. 2006;117(1):e1-7."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "http://pediatrics.aappublications.org/content/129/1/e46 ",
+                  "text": "Cohn KA, Thompson AD, Shah SS, et al. Validation of a clinical prediction rule to distinguish Lyme meningitis from aseptic meningitis. Pediatrics. 2012;129(1):e46-53."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Matthew Lecuyer, MD, MPH"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Aris Garro",
+              "qa_en": "<p><strong>Why did you develop the Rule of 7s? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p> <p>My colleagues and I in emergency medicine and infectious disease often were faced with the clinical scenario where a child was known to have meningitis but it was peak enterovirus and Lyme disease season. Because Lyme disease tests take a while to result, the treatment decision is difficult, and we felt a clinical decision tool would be a useful way to guide treating providers.</p> <p><strong>What pearls, pitfalls and/or tips do you have for users of the Rule of 7s? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p> <p>It has a good negative likelihood ratio for Lyme meningitis, so if the score indicates a low risk of Lyme meningitis there is no need to empirically treat. The converse is not true, so if a patient is not low risk for Lyme meningitis, it does not mean they are high risk. Rather it should be interpreted as an indeterminate risk.</p> <p><strong>What recommendations do you have for doctors once they have applied the Rule of 7s? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p> <p>It is crucial to communicate well with a patient's primary care provider as treatment may need to be adjusted based on serology results or changes in symptoms.</p> <p>Based on European data, Lyme disease experts believe that oral antibiotics are likely adequate to treat Lyme meningitis (traditionally IV beta-lactamase antibiotics have been recommended). It is important to note that this has not been well studies in the U.S. nor in children, but will be the focus of a planned clinical trial based in the U.S.</p> <p>Additionally, there is recent evidence that a course of oral doxycycline is safe in younger children (it has traditionally been avoided in children less than 8 years old). Doxycycline has good CSF penetrance and therefore if oral antibiotics are adequate to treat Lyme meningitis, doxycycline would be the preferred alternative to amoxicillin, which does not have good CSF penetrance.</p> <p><strong>How do you use the Rule of 7s in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p> <p>During the mid to late summer, when enterovirus and Lyme disease peak, I use the Rule of 7's when I have a child with meningitis but an unclear causative organism. If the rule indicates low risk of Lyme meningitis, then I do not start a child on antibiotics. If the rule indicates an indeterminate risk, I arrange close follow up with the child's primary care provider and have a discussion about empiric antibiotics pending Lyme serology results.</p> <p><strong>What qualifies as a Lyme endemic area?</strong></p> <p>The best source for up-to-date Lyme disease prevalence in the U.S. is the CDC data, which is publicly available <a href=\"https://www.cdc.gov/lyme/stats/\" target=\"_blank\">here</a>.</p> <p><strong>How has the Rule of 7s impacted clinical practice in your institution or other institutions in a Lyme endemic area?</strong></p> <p>It helps clinicians make real-time treatment decisions in situations where Lyme serology results are unknown / pending.</p> <p><strong>Any other research in the pipeline that you&rsquo;re particularly excited about?&nbsp;</strong></p> <p>Pedi Lyme Net is a network of pediatric hospitals in Lyme endemic regions of the U.S. that is collecting biosamples from children with Lyme disease and Lyme disease mimics to develop novel diagnostic techniques. The goal is to identify tests that can be used with a high degree of accuracy at the point-of-care.</p> <p>Additionally, we are planning a non-inferiority trial of oral doxycycline versus IV cefTRIAXone for the treatment of Lyme meningitis in children in the U.S.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li><span>If CSF RBC &gt;500, CSF WBC must be corrected using a ratio of 1 WBC for every 500 RBC in the CSF cell count. </span></li> <li><span>Should not be used in settings where patients do not have access to close follow-up with a medical provider.</span></li> </ul>",
+            "use_case_en": "<p><span>In Lyme endemic areas when deciding to start antibiotics in pediatric patients who:</span></p> <ul> <li><span>Are 2–18 years old, AND</span></li> <li><span>Have undergone a lumbar puncture and CSF demonstrates pleocytosis (CSF WBC ≥10 cells/mm³, corrected for CSF RBC if &gt;500 using a ratio of 1 WBC for every 500 RBC).</span></li> </ul>",
+            "why_use_en": "<ul> <li><span>Validated by a retrospective cohort study of over 400 children in Lyme endemic areas.</span></li> <li><span>Can help guide clinicians assessing the need to initiate antibiotic therapy for Lyme meningitis (LM), versus observation and close follow-up.</span></li> </ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>This tool should be used to assist a clinician in decision-making and not replace clinical evaluation of a patient.</li> <li>Patients with scores 1–3 are NOT low risk for Lyme meningitis, and antibiotic therapy for LM should be considered.</li> <li>Patients with scores 0 are at low risk for LM. Symptoms may be due to aseptic meningitis or other etiology. Use clinical judgment and consider availability of follow-up with both the patient and primary care provider before electing to treat patient symptoms with antibiotics.</li> </ul>",
+            "critical_actions_en": "<p><span>The Rule of 7s is meant to aid in the decision to start antibiotics for suspected Lyme versus aseptic meningitis. &nbsp;It should not replace clinical judgement and clinician assessment of patients. </span></p>",
+            "management_en": "<p>If patient is low risk for LM, consider discharge and discuss with patient and primary care provider to ensure adequate follow-up. If patient is not low risk for LM, consider antibiotic therapy that will cover <em>Borrelia burgdorferi</em>, taking into account the patient’s age.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 3988,
+                "createdAt": "2019-07-02T20:19:26.734Z",
+                "description": "Pediatric Emergency Medicine Practice",
+                "id": 20,
+                "link": "https://www.ebmedicine.net/topics.php?paction=showTopicSeg&topic_id=585&seg_id=9487",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: Rule of 7s",
+                "updatedAt": "2019-07-31T15:01:34.692Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Meningitis"
+        ],
+        "dosing": false,
+        "equation_logic": "ab5fa7681f6c0104cbb650f10cad17b4",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nvar headache = parseFloat(headache);\nvar csf = parseFloat(csf);\nvar palsy = parseFloat(palsy);\n\nvar msg = 'Not low';\nvar extra = 'Consider antibiotics to cover Borrelia burgdorferi.';\nvar no = headache + csf + palsy;\nif(no === 0){\n\tmsg = 'Low';\n    extra = 'Antibiotics not recommended, ensure close patient follow up, use clinical judgement re: disposition.';\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: msg,\n    value_text: 'risk',\n    message: 'for Lyme meningitis. '\n});\ncalc_output.push({\n    name: 'Points',\n    value: no,\n    value_text: 'points',\n    message: 'Rule of 7s'\n});\ncalc_output.push({\n    name: 'Rule of 7s',\n    value: msg,\n    value_text: 'risk',\n    message: 'for Lyme meningitis. ' + extra\n});\n\n",
+        "favorite_id": 3988,
+        "full_title_en": "Rule of 7s for Lyme Meningitis",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Number of days of headache",
+            "name": "headache",
+            "optional": false,
+            "options": [
+              {
+                "label": "<7",
+                "value": 0
+              },
+              {
+                "label": "≥7",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<abbr title='Cerebrospinal fluid'>CSF</abbr> mononuclear cells",
+            "name": "csf",
+            "optional": false,
+            "options": [
+              {
+                "label": "<70%",
+                "value": 0
+              },
+              {
+                "label": "≥70%",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Lymphocytes and monocytes",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "7th (or other) cranial nerve palsy",
+            "name": "palsy",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p><span>Use in pediatric patients (aged 2&ndash;18 years) in a Lyme endemic area with <abbr style=\"color: #ffb600;\" title=\"cerebrospinal fluid\">CSF</abbr> pleocytosis, defined as CSF WBC &ge;10 cells/mm&sup3; (corrected for CSF RBC if &gt;500 using a ratio of 1 WBC for every 500 RBC).</span></p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited contributor",
+            "time": "2019-07-31T11:01:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "change abbr color in instructions",
+            "time": "2018-11-05T14:40:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "added EB Med link",
+            "time": "2018-09-14T10:57:00.000Z",
+            "user": "rachel"
+          }
+        ],
+        "md5": "5d6dc2048af229a23b005ba14fc23763",
+        "medium_description_en": "<p><span>Distinguishes Lyme meningitis from aseptic meningitis.</span></p>",
+        "purpose_en": [
+          "Diagnosis",
+          "Rule Out"
+        ],
+        "search_abbreviation_en": [
+          "lyme",
+          "rule of 7s",
+          "rule of seven",
+          "rule of sevens",
+          "rule of 7",
+          "lyme disease",
+          "lime disease"
+        ],
+        "search_id": "c-3988",
+        "seo": {
+          "keywords_en": "Lyme, rule of 7s, rule of seven, rule of sevens, rule of 7, lyme disease, lime disease",
+          "meta_description_en": "The Rule of 7s for Lyme Meningitis distinguishes Lyme meningitis from aseptic meningitis."
+        },
+        "short_description_en": "Lyme meningitis diagnosis.",
+        "short_title_en": "Rule of 7s",
+        "slug": "rule-7s-lyme-meningitis",
+        "specialty_en": [
+          "Emergency Medicine",
+          "Family Practice",
+          "Infectious Disease",
+          "Internal Medicine",
+          "Pediatric Subspecialty",
+          "Pediatrics"
+        ],
+        "system_en": [
+          "Infectious",
+          "Neurologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Matthew Lecuyer, MD, MPH, is an attending physician and instructor in pediatric emergency medicine at the Children’s National Medical Center/George Washington University in Washington, DC. Dr. Lecuyer received his undergraduate degree from Georgetown University and his medical degree from the University of Massachusetts. He completed his pediatrics training at Northwestern/Lurie Children’s Hospital of Chicago in Chicago, IL, before completing his fellowship in pediatric emergency medicine and MPH at Brown University in Providence, RI. His interests include health policy, LGBTQ+ medicine, and pediatric emergency medicine.</p>",
+          "firstName": "Matthew",
+          "hasDisclosure": [],
+          "img": "matthew-lecuyer.png",
+          "lastName": "Lecuyer",
+          "name": "Matthew Lecuyer, MD, MPH",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "matthew-lecuyer",
+          "updatedAt": "2023-04-06T20:22:55.336Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Aris Garro, MD, MPH, is an associate professor of pediatrics and emergency medicine at the Warren Alpert Medical School of Brown University in Rhode Island. He works clinically at Hasbro Children’s Hospital Emergency Department, and in 2013, he won the Outstanding Physician Award from the University Emergency Medicine Foundation. Dr. Garro’s research interests include Lyme disease, meningitis, and asthma in pediatric patients.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Aris Garro",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-aris-garro.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Garro+AC%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3988/rule-7s-lyme-meningitis",
+        "description": "The Rule of 7s for Lyme Meningitis distinguishes Lyme meningitis from aseptic meningitis.",
+        "keywords": "Lyme, rule of 7s, rule of seven, rule of sevens, rule of 7, lyme disease, lime disease",
+        "title": "Rule of 7s for Lyme Meningitis"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": "3911",
+          "short_title_en": "Bacterial Meningitis Score",
+          "slug": "bacterial-meningitis-score-children"
+        },
+        {
+          "calcId": "64",
+          "short_title_en": "Glasgow Coma Scale (GCS)",
+          "slug": "glasgow-coma-scale-score-gcs"
+        },
+        {
+          "calcId": "3702",
+          "short_title_en": "Pediatric GCS",
+          "slug": "pediatric-glasgow-coma-scale-pgcs"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3988",
+      "rule-7s-lyme-meningitis"
+    ]
+  },
+  "scriptLoader": []
+}

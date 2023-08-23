@@ -1,0 +1,591 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "This dosing tool is intended to assist with calculation, not to provide comprehensive or definitive drug information. Always double-check dosing of any drug and consult a pharmacist when necessary.",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Bleeding",
+          "Injury/Trauma"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "4025.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>A meta-analysis by Corcoran et al examined use of liberal IV fluid administration intraoperatively versus a goal-directed strategy and the resulting outcomes. A number of online databases were searched for US randomized control trials of liberal fluids vs. goal-directed therapy. 3,861 patients from 23 goal-directed studies and 1,160 from 12 liberal fluid studies were reviewed. Patients in the liberal group of the LVR stratum had a higher risk of pneumonia, pulmonary edema, and a longer hospital stay. Using goal-directed therapy resulted in a lower risk of pneumonia, renal complications, and a shorter length of hospital stay compared to liberal fluid management. Liberal fluid therapy was associated with an increased length of hospital stay, time to first bowel movement, and risk of pneumonia compared to goal-directed therapy (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22253274\" target=\"_blank\">Corcoran 2012</a>).</p> <p><strong>Postop GI dysfunction:</strong></p> <p>Postoperative GI dysfunction is a frequent complication of patients undergoing surgery, postulated to be secondary to splanchnic hypoperfusion. A search of major online databases was conducted, and 3,410 patients were evaluated for the study over 16 controlled trials. They evaluated GI complications as major or minor, where major was considered life threatening or required surgical intervention, and minor required only medical therapy. Both major and minor GI complications were reduced using goal directed therapy (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19837807\" target=\"_blank\">Giglio 2009</a>).</p> <p><strong>Clinician judgment vs. Doppler evaluation of fluid status:</strong></p> <p>108 patients undergoing elective colorectal resection were studied in a double blind, prospective randomized control trial in which an esophageal Doppler probe was placed intraoperatively. In one group, patients received perioperative fluid at the anesthesiologist’s discretion, whereas in the other group, patients received fluid boluses per Doppler evaluation. Aortic flow time, stroke volume cardiac output, and cardiac index were all higher in the intervention group; additional improved outcomes included decreased postoperative hospital stay, fewer postoperative complications, and ability to tolerate PO intake earlier (<a href=\"http://onlinelibrary.wiley.com/doi/10.1002/bjs.5454/full\" target=\"_blank\">Noblett 2006</a>).  </p> <p><strong>Liberal vs. restrictive strategy:</strong></p> <p>In this study, two different intraoperative fluid regimens were utilized and postoperative outcomes evaluated in 152 patients with ASA physical status of I-III and undergoing elective intra-abdominal surgery. Patients were randomly assigned to one of two groups and given either liberal or restrictive fluid volumes. Results included lower complication rate, earlier BM, and shorter hospital stays in the restrictive group as compared to the liberal group. They also found that postoperative days 1 to 3, the restrictive fluid group had significantly higher hematocrit and albumin concentrations (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15983453\" target=\"_blank\">Nisanevich 2005</a>).</p> <p><strong>0.9% saline vs. Plasma-Lyte:</strong></p> <p>In this study by Shaw et al, researchers looked at the morbidity and mortality effects of using 0.9% saline as compared to Plasma-Lyte, a balanced fluid solution. The hypothesis came as the result of the potential for high volumes of 0.9% saline to cause hyperchloremic acidosis. Looking at the Premier Perspective Comparative Database, 30,000+ patients who underwent major open abdominal surgery with 0.9% saline and 926 patients with balanced crystalloid solution were evaluated. They looked primarily at major morbidity and secondarily at acidosis-related complications. The researchers found that there was a 2% higher chance of mortality in the saline group, and using a match study, found that there was a 10% increase in chance of complications such as renal failure requiring dialysis, need for transfusions, electrolyte disturbances and infections in the saline group compared to the balanced fluid group (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22470070\" target=\"_blank\">Shaw 2012</a>).</p>",
+            "formula_en": "<ul>\n<li><calculator id=\"72\">Hourly maintenance fluid</calculator><strong>,</strong> mL/hr = body weight, kg + 40 mL</li>\n<li><strong>NPO fluid deficit,</strong> mL = hourly maintenance fluid, mL/hr &times; time spent NPO, hrs</li>\n<li><strong>1st hour fluids:</strong> &frac12; NPO fluid deficit + hourly maintenance fluid</li>\n<li><strong>2nd hour fluids:</strong> &frac14; NPO fluid deficit + hourly maintenance fluid + fluid loss from surgical trauma*</li>\n<li><strong>3rd hour fluids:</strong> &frac14; NPO fluid deficit + hourly maintenance fluid + fluid loss from surgical trauma*</li>\n<li><strong>4th hour fluids and beyond:</strong>&nbsp;hourly maintenance fluid&nbsp;+&nbsp;fluid&nbsp;loss from surgical trauma*</li>\n</ul>\n<p>*Estimated fluid loss from surgical trauma:</p>\n<table>\n<tbody>\n<tr>\n<td><strong>Minimal</strong></td>\n<td>e.g. hernia repair, laparoscopy</td>\n<td>2-4 mL/kg/hr (calculator uses 3 mL/kg/hr)</td>\n</tr>\n<tr>\n<td><strong>Moderate</strong></td>\n<td>e.g. open cholecystectomy, open appendectomy</td>\n<td>4-6 mL/kg/hr&nbsp;(calculator uses 5 mL/kg/hr)</td>\n</tr>\n<tr>\n<td><strong>Severe</strong></td>\n<td>e.g. bowel resection</td>\n<td>6-8 mL/kg/hr (calculator uses 7 mL/kg/hr</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22253274  ",
+                  "text": "Corcoran T, Rhodes JE, Clarke S, Myles PS, Ho KM. Perioperative fluid management strategies in major surgery: a stratified meta-analysis. Anesth Analg. 2012;114(3):640-51."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/19837807",
+                  "text": "Giglio MT, Marucci M, Testini M, Brienza N. Goal-directed haemodynamic therapy and gastrointestinal complications in major surgery: a meta-analysis of randomized controlled trials. Br J Anaesth. 2009;103(5):637-46."
+                },
+                {
+                  "href": "http://onlinelibrary.wiley.com/doi/10.1002/bjs.5454/full ",
+                  "text": "Noblett SE, Snowden CP, Shenton BK, Horgan AF. Randomized clinical trial assessing the effect of Doppler-optimized fluid management on outcome after elective colorectal resection. Br J Surg. 2006;93(9):1069-76."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/15983453 ",
+                  "text": "Nisanevich V, Felsenstein I, Almogy G, Weissman C, Einav S, Matot I. Effect of intraoperative fluid management on outcome after intraabdominal surgery. Anesthesiology. 2005;103(1):25-32."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22470070 ",
+                  "text": "Shaw AD, Bagshaw SM, Goldstein SL, et al. Major complications, mortality, and resource utilization after open abdominal surgery: 0.9% saline compared to Plasma-Lyte. Ann Surg. 2012;255(5):821-9."
+                },
+                {
+                  "href": "http://www.nejm.org/doi/full/10.1056/NEJMoa1101549#t=article",
+                  "text": "Maitland K, Babiker A, Kiguli S, Molyneux E. The FEAST trial of fluid bolus in African children with severe infection. Lancet. 2012;379(9816):613."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "David Convissar, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Tomas Corcoran",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>The current suggested practice of intraoperative fluid management is a goal-directed approach where fluids are given with the intent of producing clinical benefit. In doing so, the aim is to optimize stroke volume, a practice that has repeatedly demonstrated a reduction in morbidity in the perioperative period (<a href=\"http://onlinelibrary.wiley.com/doi/10.1002/bjs.5454/full\" target=\"_blank\">Noblett 2006</a>).</li> <li>Balanced fluid solutions such as Ringer’s Lactate or Iso-Lyte are recommended rather than normal saline because of similar electrolyte composition to plasma along with a buffer such as lactate, and large volumes of 0.9% saline can result in hyperchloremic acidosis. Crystalloid solutions will remain intravascularly before diffusing out for approximately 25–30 minutes, as opposed to colloids, which can last up to a day and a half (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22470070\" target=\"_blank\">Shaw 2012</a>).</li> <li>In patients with significant heart failure, COPD, or ESRD, all of whom are susceptible to fluid overload, consider smaller amounts of fluid.</li> <li>In longer cases, which may require large volumes of crystalloid fluid or result in major fluid shifts, consider colloid  in conjunction with crystalloids.</li> <li>Despite randomized trials finding significant improvements in length of stay, bowel function, and decreased postoperative complications of the kidney and lungs, only a minimal reduction in mortality has been demonstrated with the use of goal-directed fluid therapy over fixed volume and more liberal regimens (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19837807\" target=\"_blank\">Giglio 2009</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15983453\" target=\"_blank\">Nisanevich 2005</a>).</li> </ul>",
+            "use_case_en": "<ul> <li>Patients undergoing surgery.</li> <li>Best applied in patients without conditions predisposing them to fluid overload, e.g. heart failure, COPD, kidney failure on dialysis.</li> </ul>",
+            "why_use_en": "<ul> <li>Recent evidence suggests that the administration of arbitrary amounts of fluids in the operating room can have dire consequences. Demonstrated in the FEAST trial, 3,000 septic pediatric patients were treated with saline, albumin, or no fluids at all, resulting in death at 48 hours, most highly in those bolused large amounts of normal saline (<a href=\"http://www.nejm.org/doi/full/10.1056/NEJMoa1101549#t=article\" target=\"_blank\">Maitland 2005</a>).</li> <li>In a number of recent meta-analyses, patients receiving fluid using a goal-directed therapy regimen had improved postoperative outcomes with fewer renal, pulmonary, and gastrointestinal complications as well as decreased length of hospital stay and faster return of GI function (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19837807\" target=\"_blank\">Giglio 2009</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15983453\" target=\"_blank\">Nisanevich 2005</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22253274\" target=\"_blank\">Corcoran 2012</a>).</li> </ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>Fluid output should be monitored during operations to evaluate tissue perfusion (0.5 mL/kg/hr urine in patients with Foley catheters may help guide decisions).</li> <li>For most healthy patients with few co-morbidities undergoing minimally invasive procedures (i.e., in the outpatient setting) such as laparoscopic procedures, eye surgery, and other short cases, 1–2 L of a balanced electrolyte solution provides effective rehydration.</li> <li>As always, use clinical judgment in order to fully evaluate a patient’s fluid requirement.</li> <li>In longer cases, those with expected major fluid shifts, or with patients who cannot tolerate large amounts of IV fluid, consider the use of adjuvant colloid solutions to help maintain intravascular blood volume.</li> <li>Consider special cases such as patients undergoing GI surgery who have had bowel prep and may have excess fluid loss and greater requirements than the average patient.</li> </ul>",
+            "critical_actions_en": "<ul> <li>Be wary of fluid management in patients who cannot tolerate excessive amounts of IV fluids, as this can result in decreased healing time and increased hospital stays with complications.</li> <li>Other intraoperative issues such as hypotension, tachycardia, and even EKG changes can often be attributed to the patient being severely hypovolemic and undergoing the stress of surgery, and, as such, the patient should be hydrated appropriately.</li> </ul>",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Any/All"
+        ],
+        "dosing": true,
+        "equation_logic": "3ca4c78da7e181cc0c7ebe0bf2354e9a",
+        "equation_logic_text": "//outputs\nvar calc_output = [];\n\n//user inputs\nvar time = parseFloat(time);\nvar weight = parseFloat(weight);\nvar severity = parseFloat(severity) * weight\n\n//calculations\nvar rate_hourly = weight + 40\nvar deficit = rate_hourly * time\nvar hour1 = deficit / 2 + rate_hourly\nvar hour2 = deficit / 4 + rate_hourly + severity\nvar hour4 = rate_hourly + severity\n\n//result user sees\ncalc_output.push({\n  name: 'mini',\n  value: rate_hourly.toFixed(0),\n  value_text: 'mL/hr',\n  message: 'Hourly maintenance fluid'\n});\ncalc_output.push({\n  name: 'maintenance',\n  value: rate_hourly.toFixed(0),\n  value_text: 'mL/hr',\n  message: 'Hourly maintenance fluid'\n});\ncalc_output.push({\n  name: 'deficit',\n  value: deficit.toFixed(0),\n  value_text: 'mL',\n  message: 'NPO fluid deficit'\n});\ncalc_output.push({\n  name: 'severity',\n  value: hour1.toFixed(0),\n  value_text: 'mL/hr',\n  message: '1st hour fluids<br/><br/>2nd hour: ' + hour2.toFixed(0) + ' mL/hr<br/>3rd hour: ' + hour2.toFixed(0) + ' mL/hr<br/>4th hr and beyond: ' + hour4.toFixed(0) + ' mL/hr'\n});",
+        "favorite_id": 4025,
+        "full_title_en": "Intraoperative Fluid Dosing in Adult Patients",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Weight",
+            "name": "weight",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "wt"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Time spent NPO",
+            "name": "time",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "time"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Estimated severity of trauma to tissue",
+            "name": "severity",
+            "optional": false,
+            "options": [
+              {
+                "label": "Minimal",
+                "value": 3
+              },
+              {
+                "label": "Moderate",
+                "value": 5
+              },
+              {
+                "label": "Severe",
+                "value": 7
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Minimal: e.g. hernia repair, laparoscopy. Moderate: e.g. open cholecystectomy, open appendectomy. Severe: e.g. bowel resection.",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Use in patients undergoing surgery who weigh ≥20 kg and do not have conditions that could otherwise result in fluid overload such as heart failure, COPD, or kidney failure on dialysis. This calculator provides a base hourly fluid requirement, fluid deficit, and hour-by-hour fluid requirement based on surgical needs.</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added reviewer",
+            "time": "2019-01-14 02:55 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added pharmacy tag",
+            "time": "2019-02-18 06:15 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "bug fix",
+            "time": "2019-04-15 10:55 AM",
+            "user": "rachel"
+          },
+          {
+            "message": "bug fix",
+            "time": "2019-04-15 10:56 AM",
+            "user": "rachel"
+          }
+        ],
+        "md5": "b7a74d62597e54e0f14cdb09bf355e84",
+        "medium_description_en": "<p>Doses IV fluids intraoperatively.</p>",
+        "purpose_en": [
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "Iv fluids",
+          "intra op",
+          "intra-op",
+          "intra op fluid management"
+        ],
+        "search_id": "c-4025",
+        "seo": {
+          "keywords_en": "Iv fluids, intra op, intra-op, intra op fluid management",
+          "meta_description_en": "Intraoperative Fluid Management in Adult Patients doses IV fluids intraoperatively."
+        },
+        "short_description_en": "Doses IV fluids.",
+        "short_title_en": "Intraop Fluid Dosing",
+        "slug": "intraoperative-fluid-dosing-adult-patients",
+        "specialty_en": [
+          "Anesthesiology",
+          "Critical Care",
+          "Pharmacy",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Any/All"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "David",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Convissar",
+          "name": "David Convissar, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": false,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Tomas Corcoran, MD, is a clinical professor and research director in the department of anesthesia and pain medicine at Royal Perth Hospital in Perth, Australia. He was, notably, the chief investigator of a global study on the effects of dexamethasone on post-surgical emesis. Dr. Corcoran's clinical research focuses on surgical outcomes and anesthetics.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Tomas Corcoran",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-tomas-corcoran.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Corcoran%20T%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4025/intraoperative-fluid-dosing-adult-patients",
+        "description": "Intraoperative Fluid Management in Adult Patients doses IV fluids intraoperatively.",
+        "keywords": "Iv fluids, intra op, intra-op, intra op fluid management",
+        "title": "Intraoperative Fluid Dosing in Adult Patients"
+      },
+      "isCMECalc": true,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 72,
+          "error_max_si": 72,
+          "error_max_us": 72,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Hours",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "time",
+          "units_si": "hours",
+          "units_us": "hours",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 24.001,
+          "warn_max_si": 24.001,
+          "warn_max_us": 24.001,
+          "warn_min": 0.999,
+          "warn_min_si": 0.999,
+          "warn_min_us": 0.999
+        },
+        {
+          "conversion": "0.453592",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 600,
+          "error_max_si": 272.1552,
+          "error_max_us": 600,
+          "error_min": 0.5,
+          "error_min_si": 0.226796,
+          "error_min_us": 0.5,
+          "name": "Weight",
+          "normal_max_si": 150,
+          "normal_max_us": 330,
+          "normal_min_si": 1,
+          "normal_min_us": 2,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "wt",
+          "units_si": "kg",
+          "units_us": "lbs",
+          "updatedAt": "2022-12-01T20:01:08.372Z",
+          "warn_max": 500,
+          "warn_max_si": 226.796,
+          "warn_max_us": 500,
+          "warn_min": 0.5,
+          "warn_min_si": 0.226796,
+          "warn_min_us": 0.5
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 83,
+          "short_title_en": "Parkland Formula for Burns",
+          "slug": "parkland-formula-burns"
+        },
+        {
+          "calcId": 4038,
+          "short_title_en": "Gupta Perioperative Risk",
+          "slug": "gupta-perioperative-risk-myocardial-infarction-cardiac-arrest-mica"
+        },
+        {
+          "calcId": 72,
+          "short_title_en": "Maintenance Fluids",
+          "slug": "maintenance-fluids-calculations"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4025",
+      "intraoperative-fluid-dosing-adult-patients"
+    ]
+  },
+  "scriptLoader": []
+}

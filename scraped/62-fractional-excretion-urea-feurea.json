@@ -1,0 +1,672 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "AMS",
+          "Dizziness",
+          "Weakness"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>Fractional Excretion of Urea (FEUrea) = (Serum<sub>Cr</sub> * U<sub>Urea</sub>) / (Serum<sub>Urea</sub> x U<sub>Cr</sub>) %</p>",
+            "more_info_en": "<p>This test can provide similar information to the <calculator id=\"60\">FENa</calculator> equation, but can still be used in patients on diuretic therapy (diuretics alter the sodium concentration, making the FENa equation unusable).</p>\n<table>\n<tbody>\n<tr>\n<th></th>\n<th>\n<p>Prerenal</p>\n</th>\n<th>Intrinsic renal</th>\n<th>Postrenal</th>\n</tr>\n<tr>\n<td>\n<p>FENa</p>\n</td>\n<td>&lt;1%</td>\n<td>&gt;1%</td>\n<td>&gt;4%</td>\n</tr>\n<tr>\n<td>\n<p>FEUrea</p>\n</td>\n<td>&le; 35%</td>\n<td>&gt;50%</td>\n<td>N/A</td>\n</tr>\n</tbody>\n</table>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/1415365",
+                  "text": "Kaplan AA, Kohn OF. Fractional excretion of urea as a guide to renal dysfunction. Am J Nephrol. 1992;12(1-2):49-54."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12427149",
+                  "text": "Carvounis CP, Nisar S, Guro-Razuman S. Significance of the fractional excretion of urea in the differential diagnosis of acute renal failure. Kidney Int 2002;62(6):2223-2229."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3387621",
+                  "text": "Darmon M, Vincent F, Dellamonica J, et al. Diagnostic performance of fractional excretion of urea in the evaluation of critically ill patients with acute kidney injury: a multicenter cohort study. Critical Care 2011;15(4):R178."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Andre A. Kaplan",
+              "qa_en": ""
+            },
+            {
+              "approved": false,
+              "name": "Dr. Orly F. Kohn",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p>While lesser known than FENa, the FEUrea can be used in patients on diuretics, since urea excretion is not significantly affected by diuretics.</p>",
+            "use_case_en": "",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "",
+            "management_en": "<p>In patients with acute kidney and suspected obstructive uropathy, consider bedside ultrasound to evaluate for hydronephrosis, bladder distention, etc. Empiric Foley catheter placement may also be valid in some settings, though it may also be associated with complications, and does not rule out ureteral obstructions above the bladder.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Acid-Base Disturbance",
+          "Acute Kidney Injury",
+          "CHF",
+          "Renal Failure"
+        ],
+        "dosing": false,
+        "equation_logic": "df3e407a11d86a5710389f24b324fcf9",
+        "equation_logic_text": "var calc_output = [];\n\n// these guys cancel each other out just like FENa so no converions needed.\n\nvar v = 100 * (parseFloat(urine_urea) * parseFloat(creatinine)) / (parseFloat(\n  urine_creatinine) * parseFloat(bun));\nvar msg = '';\nif (v < 35) {\n  msg = 'FEUrea <35% suggests pre-renal disease';\n}\nif (v > 35) {\n  msg = 'FEUrea >35% suggests intrinsic renal disease';\n}\ncalc_output.push({\n  name: 'mini',\n  value: v.toFixed(1),\n  value_text: '%',\n  message: 'FEUrea'\n});\ncalc_output.push({\n  name: '62_FEUrea_result',\n  value: v.toFixed(1),\n  value_text: '%',\n  message: msg\n});\n",
+        "favorite_id": 62,
+        "full_title_en": "Fractional Excretion of Urea (FEUrea)",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "BUN or serum urea",
+            "name": "bun",
+            "optional": false,
+            "tips_en": "Enter BUN in mg/dL or serum urea in mmol/L",
+            "type": "textbox",
+            "unit": "bun"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "Serum creatinine",
+            "name": "creatinine",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "cr"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "Urine urea",
+            "name": "urine_urea",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "urea_urine"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "Urine creatinine",
+            "name": "urine_creatinine",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "cr_urine"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited creator approved logo",
+            "time": "2019-11-07T09:24:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "creator reviews",
+            "time": "2019-11-06T17:04:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2019-07-24T11:24:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added disease tag",
+            "time": "2019-04-22T10:44:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added new creators",
+            "time": "2019-02-19T12:00:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Added new original reference",
+            "time": "2019-02-19T10:56:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added search terms",
+            "time": "2019-01-24T11:29:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "moved Advice to Management, updated based on valid user feedback (anthony.dean@uphs.upenn.edu)",
+            "time": "2018-11-27T17:09:00.000Z",
+            "user": "allyssa"
+          }
+        ],
+        "md5": "a4223cadcf3e39cc5da863b912b83fc5",
+        "medium_description_en": "<p>Determines the cause of renal failure. Similar to the FENa, but can be used on patients on diuretics.</p>",
+        "publishedAt": "2022-04-21T20:29:44.650Z",
+        "purpose_en": [
+          "Calculation",
+          "Diagnosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "renal",
+          "aki",
+          "arf",
+          "fena",
+          "feurea",
+          "urea",
+          "excretion",
+          "fractional"
+        ],
+        "search_id": "c-62",
+        "seo": {
+          "keywords_en": "Fractional Excretion of Urea (FEUrea), FEUrea, urea calc, urea fraction, urea percentage, urea %, fraction urea, fraction extretion urea, fe urea, esrd feurea, esrf, feurea, esrf urea, esrd urea, diuretics fe, diuretics fe calc, diuretics fe score, diuretics fe percentage, diuretics fractional, diuretics fractional excretion, diuretics fractional urea, diuretics fractional urea calc, diuretics fractional urea score, diuretics fractional calc, diuretics fractional urea mdcalc. diuretics fractional excretion calc, diuretics fractional excretions score, diuretics fractional excretions",
+          "meta_description_en": "The Fractional Excretion of Urea (FEUrea) determines the cause of renal failure. Similar to the FENa, but can be used on patients on diuretics."
+        },
+        "short_description_en": "<p>Similar to FENa; for pts on diuretics.</p>",
+        "short_title_en": "FEUrea",
+        "slug": "fractional-excretion-urea-feurea",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Family Practice",
+          "Geriatrics",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Nephrology",
+          "Primary Care"
+        ],
+        "system_en": [
+          "Renal"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "dda1e956-b792-4830-a750-b43f703793fb"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "Andre A. Kaplan, MD, FACP, FASN, is a nephrologist at UConn Health. He is also a professor of medicine at University of Connecticut School of Medicine. Dr. Kaplan’s primary research is focused on kidney disease and dialysis.",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Andre A. Kaplan",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-andre-a-kaplan.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Kaplan%20AA%5BAuthor%5D&cauthor=true&cauthor_uid=1415365",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "about_en": "Orly F. Kohn, MD, is an associate professor of medicine at the University of Chicago Medicine. She is also the medical director of the Home Dialysis Unit at the University of Chicago. Dr. Kohn’s primary research is focused on diabetic nephropathy, home dialysis, and electrolyte disorders.",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Orly F. Kohn",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-orly-f-kohn.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Kohn%20OF%5BAuthor%5D&cauthor=true&cauthor_uid=1415365",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/62/fractional-excretion-urea-feurea",
+        "description": "The Fractional Excretion of Urea (FEUrea) determines the cause of renal failure. Similar to the FENa, but can be used on patients on diuretics.",
+        "keywords": "Fractional Excretion of Urea (FEUrea), FEUrea, urea calc, urea fraction, urea percentage, urea %, fraction urea, fraction extretion urea, fe urea, esrd feurea, esrf, feurea, esrf urea, esrd urea, diuretics fe, diuretics fe calc, diuretics fe score, diuretics fe percentage, diuretics fractional, diuretics fractional excretion, diuretics fractional urea, diuretics fractional urea calc, diuretics fractional urea score, diuretics fractional calc, diuretics fractional urea mdcalc. diuretics fractional excretion calc, diuretics fractional excretions score, diuretics fractional excretions",
+        "title": "Fractional Excretion of Urea (FEUrea)"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "0.357",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 500,
+          "error_max_si": 178.5,
+          "error_max_us": 500,
+          "error_min": 1,
+          "error_min_si": 0.357,
+          "error_min_us": 1,
+          "name": "BUN",
+          "normal_max_si": 7.1,
+          "normal_max_us": 20,
+          "normal_min_si": 2.9,
+          "normal_min_us": 8,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "bun",
+          "units_si": "mmol/L",
+          "units_us": "mg/dL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 300,
+          "warn_max_si": 107.1,
+          "warn_max_us": 300,
+          "warn_min": 2,
+          "warn_min_si": 0.714,
+          "warn_min_us": 2
+        },
+        {
+          "conversion": "88.4",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 40,
+          "error_max_si": 3536,
+          "error_max_us": 40,
+          "error_min": 0.01,
+          "error_min_si": 0.8840000000000001,
+          "error_min_us": 0.01,
+          "name": "Creatinine",
+          "normal_max_si": 115,
+          "normal_max_us": 1.3,
+          "normal_min_si": 62,
+          "normal_min_us": 0.7,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "cr",
+          "units_si": "µmol/L",
+          "units_us": "mg/dL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 10,
+          "warn_max_si": 884,
+          "warn_max_us": 10,
+          "warn_min": 0,
+          "warn_min_si": 0,
+          "warn_min_us": 0
+        },
+        {
+          "conversion": "88.4",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 700,
+          "error_max_si": 61880.00000000001,
+          "error_max_us": 700,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Urine Creatinine",
+          "normal_max_si": 32708,
+          "normal_max_us": 370,
+          "normal_min_si": 1768,
+          "normal_min_us": 20,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "cr_urine",
+          "units_si": "µmol/L",
+          "units_us": "mg/dL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 450,
+          "warn_max_si": 39780,
+          "warn_max_us": 450,
+          "warn_min": 1,
+          "warn_min_si": 88.4,
+          "warn_min_us": 1
+        },
+        {
+          "conversion": "0.357",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 1800,
+          "error_max_si": 642.6,
+          "error_max_us": 1800,
+          "error_min": 0,
+          "error_min_si": 0,
+          "error_min_us": 0,
+          "name": "Urine Urea",
+          "normal_max_si": 250,
+          "normal_max_us": 700,
+          "normal_min_si": 125,
+          "normal_min_us": 350,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "urea_urine",
+          "units_si": "mmol/L",
+          "units_us": "mg/dL",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 700,
+          "warn_max_si": 249.9,
+          "warn_max_us": 700,
+          "warn_min": 1,
+          "warn_min_si": 0.357,
+          "warn_min_us": 1
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 60,
+          "short_title_en": "FENa",
+          "slug": "fractional-excretion-sodium-fena"
+        },
+        {
+          "calcId": 43,
+          "short_title_en": "Creatinine Clearance",
+          "slug": "creatinine-clearance-cockcroft-gault-equation"
+        },
+        {
+          "calcId": 76,
+          "short_title_en": "MDRD GFR Equation",
+          "slug": "mdrd-gfr-equation"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "pearlsPitfallsViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "62",
+      "fractional-excretion-urea-feurea"
+    ]
+  },
+  "scriptLoader": []
+}

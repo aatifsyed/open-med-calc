@@ -1,0 +1,619 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Agitation",
+          "Fever",
+          "Headache",
+          "Seizure"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+21",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+21",
+        "cmeReleaseDate": "2020-06-07 00:00:00+00+00",
+        "cmeVersion": "3911.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p>The original Bacterial Meningitis Score was derived from a multicenter, retrospective cohort study published by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/17200475\" target=\"_blank\">Nigrovic et al in JAMA 2007</a>. &nbsp;Data were collected from 20 participating emergency departments of academic medical centers over a three year period. 3,295 patients aged 29 days to 19 years with CSF pleocytosis were scored using the BMS.</p> <p>Of the 1,714 who were categorized as very low risk, two were found to have bacterial meningitis. Both miscategorized patients were &lt;2 months of age and had E. coli meningitis with an E. coli UTI but negative urinalysis.</p> <p>Sensitivity of BMS for bacterial meningitis was 98.3% (95% CI 94.2-99.8%). NPV was 99.9% (95% CI 99.6-100%). The investigators attempted to refine the score using recursive partitioning, which led to a simpler model with only three variables, but it also led to one additional patient with meningitis being misclassified as very low risk.</p> <p>Given the two misclassified patients were under the age of two months, the investigators analyzed the BMS for a subgroup of all patients under two months of age and found sensitivity was 92.3% (95% CI 74.9-99.4%), NPV 99.5% (95% CI 98.3-99.9%).</p> <p>The BMS was validated by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/12359784\" target=\"_blank\">Nigrovic et al in Archive of Disease in Childhood, 2012</a>. This was a meta analysis of studies published between 2002 and 2012 and included 4,896 patients aged 29 days to 19 years. Sensitivity was 99.3% (95% CI 98.7-99.7%) for bacterial meningitis and NPV was 98.3% (95% CI 96.6-99.3%).</p> <p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23910166\" target=\"_blank\">Kulik et al in 2013</a> published a systematic review of several bacterial meningitis predictive rules, and of the studies reviewed, the BMS had the highest quality evidence and the best performance to date. They recommended that the score still be further evaluated with prospective trials.</p>",
+            "formula_en": "<p><span>Addition of the selected points:</span></p>\n<table>\n<tbody>\n<tr>\n<td>&nbsp;</td>\n<td>\n<p><strong>0 points</strong></p>\n</td>\n<td>\n<p><strong>1 point</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>CSF Gram stain</strong></p>\n</td>\n<td>\n<p><span>Negative</span></p>\n</td>\n<td>\n<p><span>Positive</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>CSF absolute neutrophil count (ANC) </strong></p>\n</td>\n<td>\n<p><span>&lt;1,000 cells/&mu;L</span></p>\n</td>\n<td>\n<p><span>&ge;1,000 cells/&micro;L</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>CSF protein </strong></p>\n</td>\n<td>\n<p><span>&lt;80 mg/dL (800 mg/L)</span></p>\n</td>\n<td>\n<p><span>&ge;80 mg/dL (800 mg/L)</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Peripheral blood ANC </strong></p>\n</td>\n<td>\n<p><span>&lt;10,000 cells/&mu;L</span></p>\n</td>\n<td>\n<p><span>&ge;10,000 cells/&mu;L</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Seizure at (or prior to) initial presentation</strong></p>\n</td>\n<td>\n<p><span>No</span></p>\n</td>\n<td>\n<p><span>Yes</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p><br /><br /></p>",
+            "more_info_en": "<p>Interpretation:</p> <table> <tbody> <tr> <td> <p><strong>Bacterial Meningitis Score</strong></p> </td> <td> <p><strong>Risk for Bacterial Meningitis</strong></p> </td> </tr> <tr> <td> <p>0</p> </td> <td> <p>Very low risk</p> </td> </tr> <tr> <td> <p>&gt;0</p> </td> <td> <p>Not very low risk</p> </td> </tr> </tbody> </table> <p><br><br></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/17200475",
+                  "text": "Nigrovic LE, Kuppermann N, Macias CG, et al. Clinical prediction rule for identifying children with cerebrospinal fluid pleocytosis at very low risk of bacterial meningitis. JAMA. 2007;297(1):52-60."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12359784",
+                  "text": "Nigrovic LE, Kuppermann N, Malley R. Development and validation of a multivariate predictive model to distinguish bacterial from aseptic meningitis in children in the post-haemophilus influenza era. Pediatrics. 2002; 110: 712-9."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23910166",
+                  "text": "Kulik DM, Uleryk EM, Maguire JL. Does this child have bacterial meningitis? A systematic review of clinical prediction rules for children with suspected bacterial meningitis. J Emerg Med. 2013;45(4):508-19."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/22764093 ",
+                  "text": "Nigrovic LE, Malley R, Kuppermann N. Meta-analysis of bacterial meningitis score validation studies. Arch Dis Child. 2012;97(9):799-805."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Cullen Clark, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Lise Nigrovic",
+              "qa_en": "<p><strong>Why did you develop the Bacterial Meningitis Score? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p> <p><span style=\"font-weight: 400;\">When I was a resident in pediatrics, I found myself admitting well-appearing children who had meningitis, spent two days in the hospital, and then went home after their cultures were negative. Doing that over and over again made me wonder if we could do better and distinguish between children who have viral infections, which require only supportive care and are managed much better at home, and those who have the rare but serious bacterial meningitis. This question launched both the Bacterial Meningitis Score as well as my career in clinical research. &nbsp;</span></p> <p>&nbsp;</p> <p><strong>In this day and age, when hospital administrators are concerned with &ldquo;unnecessary&rdquo; admissions, this kind of score can be really helpful in stratifying those patients. </strong></p> <p><span style=\"font-weight: 400;\">Yes, of course we don&rsquo;t want to spend unnecessary health-care dollars, but it&rsquo;s also a major inconvenience for families, especially those who have other children at home, and the parents have to miss work. We want to reduce non-value-added care&mdash;hospitalization and antibiotics for a child with a viral infection doesn&rsquo;t help them get better any more quickly. </span></p> <p>&nbsp;</p> <p><strong>What pearls, pitfalls and/or tips do you have for users of the Bacterial Meningitis Score? Are there cases when it has been applied, interpreted, or used inappropriately?</strong></p> <p><span style=\"font-weight: 400;\">Clinical prediction rules are meant to </span><em><span style=\"font-weight: 400;\">assist</span></em><span style=\"font-weight: 400;\"> judgment, not replace it. So they give you a risk estimate based on our best available evidence. But fundamentally, clinicians have to use their best judgment. Bacterial meningitis is a bad disease. The children who were misclassified by the Bacterial Meningitis Score were small babies with petechial rashes. So, I would be particularly cautious about applying the Score to babies under two months, especially those with a petechial rash.</span></p> <p>&nbsp;</p> <p><span style=\"font-weight: 400;\">A long-acting parenteral antibiotic like cefTRIAXone can further mitigate the risk. Even if the patient is low risk, I would strongly consider a single dose of antibiotics prior to discharge while you wait for bacterial cultures.</span></p> <p>&nbsp;</p> <p><strong>We&rsquo;ve always stressed that prediction tools shouldn&rsquo;t be used in cases where you&rsquo;re already pretty sure of the diagnosis clinically; they should be used to help you if you&rsquo;re </strong><strong><em>not </em></strong><strong>sure. </strong><span style=\"font-weight: 400;\">&nbsp;</span></p> <p><span style=\"font-weight: 400;\">Before applying a clinical prediction rule, I would consider the seriousness of the disease in question. &nbsp;When you have a really deadly disease, like bacterial meningitis, you need that low risk group to be</span><em><span style=\"font-weight: 400;\"> very </span></em><span style=\"font-weight: 400;\">low. The risk of bacterial meningitis in the low risk group of the Bacterial Meningitis Score is 1 in 1,000, which is very low, but it&rsquo;s not zero, so if there&rsquo;s uncertainty, there&rsquo;s a strong argument for erring on the side of caution. If a rule is for low-risk ankle sprain, and somebody has delay in diagnosis of a nondisplaced fracture, it&rsquo;s arguably not as serious as missing bacterial meningitis. </span><a href=\"http://annals.org/aim/article/719975/translating-clinical-research-clinical-practice-impact-using-prediction-rules-make\" target=\"_blank\"><span style=\"font-weight: 400;\">Riley in Annals of Internal Medicine</span></a><span style=\"font-weight: 400;\"> talks about tools </span><em><span style=\"font-weight: 400;\">assisting</span></em><span style=\"font-weight: 400;\"> versus </span><em><span style=\"font-weight: 400;\">directing</span></em><span style=\"font-weight: 400;\"> clinicians, and that&rsquo;s how I think about the framing of clinical prediction rules in general. They shouldn&rsquo;t say &ldquo;you MUST do this,&rdquo; but instead, &ldquo;here&rsquo;s a risk estimate,&rdquo; and then ultimately, it&rsquo;s up to the clinician and their experience and judgment. </span></p> <p>&nbsp;</p> <p><strong>What recommendations do you have for doctors once they have applied the Bacterial Meningitis Score? Are there any adjustments or updates you would make to the score given recent changes in medicine?</strong></p> <p><span style=\"font-weight: 400;\">The countervailing thing to recognize is that vaccines have widespread uptake&mdash;we&rsquo;ve moved from PCV7 to PCV13, and meningococcal vaccines, so the incidence of bacterial meningitis has gone down. The pre-test probability is declining, and knowing that, the negative predictive value is likely to be even better as the prevalence goes down. </span></p> <p>&nbsp;</p> <p><span style=\"font-weight: 400;\">If the patient is otherwise well and the score is low risk with no factors, then I think that&rsquo;s a very appropriate patient for outpatient management. If the patient has one or more factors, then 24 hours in the hospital and antibiotics is a reasonable approach. Some of those children may also be candidates for outpatient management in a shared decision making model, but I think the easiest interpretation would be to say those patients should be considered for inpatient management with parenteral antibiotics while awaiting preliminary culture results.</span></p> <p>&nbsp;</p> <p><span style=\"font-weight: 400;\">The other thing is, we usually wait 48 hours for culture results to exclude bacterial growth, but the vast majority of cultures grow within the first 24 hours, so even if they had one factor but the cultures were negative, they might not have to stay two days.</span></p> <p>&nbsp;</p> <p><strong>How do you use the Bacterial Meningitis Score in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p> <p><span style=\"font-weight: 400;\">If I identify meningitis in a patient and I think they&rsquo;re low risk for bacterial disease, I feel comfortable giving them a dose of cefTRIAXone and letting them go home. We&rsquo;re a little bit confounded by being here in New England because many of the children who don&rsquo;t look like they have bacterial meningitis have Lyme meningitis. And that&rsquo;s a whole other kettle of worms, whether they need to be admitted to the hospital or not. So sometimes we think they&rsquo;re low risk for bacterial meningitis, but we hospitalize them while awaiting the results of Lyme titers, which also take two days, like the culture results. It confuses things a little bit, but that&rsquo;s a regional issue. </span><em><span style=\"font-weight: 400;\">(Editor&rsquo;s Note: MDCalc is developing a calc for the Rule of 7s for Lyme Meningitis, </span></em><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19403476\" target=\"_blank\"><em><span style=\"font-weight: 400;\">derived</span></em></a><em><span style=\"font-weight: 400;\"> by Dr. Aris Garro et al and </span></em><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22184651\" target=\"_blank\"><em><span style=\"font-weight: 400;\">validated</span></em></a><em><span style=\"font-weight: 400;\"> in a large study by Dr. Nigrovic et al.)</span></em></p> <p>&nbsp;</p> <p><strong>Does a history of febrile seizures or epilepsy alter the value of the prediction rule (which includes seizure at onset as a risk factor)?</strong></p> <p><span style=\"font-weight: 400;\">Using my clinician hat, a patient who has a seizure in the setting of fever and also has a history of seizures is much less concerning than a patient who&rsquo;s never had a seizure before, but we don&rsquo;t have the power to examine that, so the scientist in me says I can&rsquo;t comment! I can&rsquo;t scientifically say that my work has sorted that out. </span></p> <p>&nbsp;</p> <p><strong>What are your thoughts on antibiotic overuse and misuse?</strong></p> <p><span style=\"font-weight: 400;\">I think it&rsquo;s important to be judicious in the use of antibiotics. We want to have effective antibiotics for serious bacterial infections like meningitis. From a public health standpoint, though, the overtreatment of viral meningitis is probably not the major driver of bacterial resistance, though every little bit contributes&mdash;pharyngitis and otitis are much bigger-ticket items in terms of antibiotic prescriptions. I wrote another paper in </span><a href=\"http://pediatrics.aappublications.org/content/131/4/670\" target=\"_blank\"><span style=\"font-weight: 400;\">Pediatrics</span></a><span style=\"font-weight: 400;\"> where we just looked at the number of admissions to pediatric hospitals, and this is not the driver of resistance. But that being said, not everybody needs antibiotics, so if we can identify them, we can save unnecessary use of the big-gun antibiotics, like cefTRIAXone, so that they&rsquo;ll work when we really need them to.</span></p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul> <li>The Bacterial Meningitis Score (BMS) predicts bacterial vs. aseptic etiology in pediatric patients (aged 29 days to 19 years) with suspected meningitis. &nbsp;</li> </ul> <ul> <li>Can help determine if the patient will require admission for parenteral antibiotics while awaiting CSF culture results.</li> <li>Higher score indicates higher likelihood of bacterial meningitis.</li> <li>Sensitivity, specificity, and negative predictive value of the BMS&nbsp;decrease significantly for children under the age of 2 months.</li> <li>Creators of the BMS advise against using the score in children who have already received antibiotics prior to LP, are ill-appearing, are &lt;2 months of age, or have exam findings indicative of invasive bacterial infection such as petechiae and purpura.</li> <li>Not effective at ruling out potentially harmful nervous system infections requiring antibiotics (e.g. herpes encephalitis, Lyme meningitis, tuberculous meningitis).</li> <li>Meningococcal meningitis can present without CSF pleocytosis; thus, these patients can be misclassified as not having inclusion criteria for the use of the BMS. It is important to perform a thorough physical exam to assess for petechiae or purpura if there is suspicion for meningococcemia or meningitis, as CSF may be falsely normal.</li> </ul>",
+            "use_case_en": "<p>Pediatric patients (aged 29 days to 19 years) with suspected meningitis.</p> <p>Do NOT use if the patient:</p> <ul> <li>Is critically ill, requiring respiratory or vasopressor support.</li> <li>Received antibiotics &lt;72 hours prior to lumbar puncture.</li> <li>Has a&nbsp;<abbr title=\"Ventriculoperitoneal\">VP</abbr> shunt or recent neurosurgery.</li> <li>Is immunosuppressed.</li> <li>Has proof of another bacterial infection (e.g. UTI, bone infection, known bacteremia) that warrants inpatient antibiotic therapy.</li> <li>Has known active Lyme Disease.</li> </ul>",
+            "why_use_en": "<ul> <li>Bacterial meningitis incidence has dramatically decreased since the advent of highly effective vaccines against the more common causes (<em>H. flu</em>, <em>S. pneumo</em>), making it more challenging to determine which patients should be admitted and observed while awaiting CSF culture results.</li> </ul> <ul> <li>Helps stratify which patients do not necessarily require observation, due to higher likelihood of aseptic (i.e., spontaneously resolving) meningitis.</li> <li>Helps avoid financial burden and health risk associated with hospitalization for observation and parenteral antibiotic administration.</li> </ul>"
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "<ul> <li>Physician gestalt, severity of illness and clinical presentation supersedes the application of the BMS prediction rule.</li> <li>If significant suspicion for bacterial meningitis, err on the side of caution and admit for observation and empiric antibiotics.</li> </ul>",
+            "management_en": "<p>For patients at very low risk for bacterial meningitis (BMS 0):</p>\n<ul>\n<li>Consider discharge with close follow-up (ideally within 24&ndash;48 hours) and return precautions for family, including new seizure activity, altered mental status, purpuric rash, or other concerning symptoms.</li>\n<li>Consider a single dose of long-acting antibiotics with good CSF penetration, such as ceftriaxone, prior to discharge.</li>\n</ul>\n<p>For patients with at least 1 risk factor for bacterial meningitis or high clinical suspicion (BMS &gt;0):</p>\n<ul>\n<li>Consider admission for parenteral antibiotics and observation while awaiting CSF culture results.</li>\n<li>Make sure CSF is sent for culture.</li>\n<li>Consider continuous monitoring of vital signs and regular neurologic exams.</li>\n<li>If not previously administered, start empiric broad spectrum antibiotics.</li>\n<li>Consider expanding antimicrobial coverage:</li>\n<ul>\n<li>If concern for herpes encephalitis, add acyclovir.</li>\n<li>If high clinical suspicion for tuberculous meningitis, consult with infectious disease specialist and consider rifAMPin, isoniazid, pyrazinamide, and a fluoroquinolone or aminoglycoside.</li>\n</ul>\n<li>Consider steroid administration based on clinical presentation, geographic area, and potential risk factors.</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 3911,
+                "createdAt": "2019-07-02T20:19:16.764Z",
+                "description": "Pediatric Emergency Medicine Practice",
+                "id": 14,
+                "link": "https://www.ebmedicine.net/topics/infectious-disease/pediatric-bacterial-meningitis",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: Bacterial Meningitis Score",
+                "updatedAt": "2019-12-06T18:22:22.582Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Meningitis"
+        ],
+        "dosing": false,
+        "equation_logic": "b50b56c447e440a065a5fa9ba37ad95a",
+        "equation_logic_text": "var calc_output = [];\n\nvar u = parseFloat(gram) + parseFloat(prot) + parseFloat(blood_anc) + parseFloat(seizures) + parseFloat(spinal_neut);\nvar msg;\n\nif (u == 0) { msg = \"Very low risk for bacterial meningitis.\"; }\nif (u > 0) { msg = \"NOT very low risk for bacterial meningitis.\"; }\n\ncalc_output.push({\n    name: 'mini',\n    value: u,\n    value_text: 'points',\n    message: msg\n});\ncalc_output.push({\n    name: 'bac meningitis',\n    value: u,\n    value_text: 'points',\n    message: msg\n});",
+        "favorite_id": 3911,
+        "full_title_en": "Bacterial Meningitis Score for Children",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<abbr title='Cerebrospinal Fluid'>CSF</abbr> Gram stain positive",
+            "name": "gram",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "CSF <abbr title='Absolute Neutrophil Count'><calculator id='19'>ANC</calculator></abbr> ≥1,000 cells/µL",
+            "name": "spinal_neut",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "CSF protein ≥80 mg/dL (800 mg/L)",
+            "name": "prot",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Peripheral blood <calculator id='19'>ANC</calculator> ≥10,000 cells/µL",
+            "name": "blood_anc",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Seizure at (or prior to) initial presentation",
+            "name": "seizures",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Use in patients aged 29 days to 19 years with <abbr style=\"color: #ffb600;\" title=\"Cerebrospinal Fluid\">CSF</abbr> WBC &ge;10 cells/&mu;L. Do not use if patient is critically ill, recently received antibiotics, has a <abbr style=\"color: #ffb600;\" title=\"Ventriculoperitoneal\">VP</abbr> shunt or recent neurosurgery, is immunosuppressed, or has other bacterial infection requiring antibiotics (including Lyme disease).</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "creator reviewed",
+            "time": "2019-12-06T13:22:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "creator edits",
+            "time": "2019-12-03T14:45:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "eb med",
+            "time": "2019-11-07T10:24:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added partner content",
+            "time": "2018-11-09T12:07:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "change abbr color in instructions",
+            "time": "2018-11-05T14:36:00.000Z",
+            "user": "sang"
+          }
+        ],
+        "md5": "5b5c0b7905b27a7c4344fa4d2f61156c",
+        "medium_description_en": "<p>Rules out bacterial meningitis.</p>",
+        "purpose_en": [
+          "Diagnosis",
+          "Rule Out"
+        ],
+        "search_abbreviation_en": [
+          "gram stain",
+          "csf protein",
+          "anc",
+          "seizures",
+          "spinal fluid",
+          "bms",
+          "bacterial meningitis",
+          "aseptic meningitis",
+          "csf",
+          "spinal tap",
+          "lumbar puncture",
+          "LP",
+          "cerebrospinal fluid",
+          "spinal fluid",
+          "pleocytosis",
+          "meningitis"
+        ],
+        "search_id": "c-3911",
+        "seo": {
+          "keywords_en": "Meningitis, bacterial meningitis, antibiotics, lumbar puncture, LP, spinal tap, CSF, cerebrospinal fluid, pleocytosis, BMS ",
+          "meta_description_en": "The Bacterial Meningitis Score for Children predicts likelihood of bacterial (versus aseptic) meningitis in children."
+        },
+        "short_description_en": "Likelihood of bacterial meningitis in children.",
+        "short_title_en": "Bacterial Meningitis Score",
+        "slug": "bacterial-meningitis-score-children",
+        "specialty_en": [
+          "Critical Care (Pediatric)",
+          "Emergency Medicine",
+          "Family Practice",
+          "Infectious Disease",
+          "Pediatrics"
+        ],
+        "system_en": [
+          "Immunologic",
+          "Infectious",
+          "Neurologic"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Cullen Clark, MD, is a combined emergency medicine/pediatrics resident at Louisiana State University Health Sciences Center in New Orleans. Originally from Louisville, Kentucky, Cullen is a graduate of the University of Louisville School of Medicine. His areas of interest include pediatric emergency medicine, pediatric critical care, pain management in the emergency department, and disaster medicine.</p>",
+          "firstName": "Cullen",
+          "hasDisclosure": [],
+          "img": "cullen-clark.jpg",
+          "lastName": "Clark",
+          "name": "Cullen Clark, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "cullen-clark",
+          "updatedAt": "2023-04-06T20:17:43.267Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Lise E. Nigrovic, MD, MPH, is an associate professor of pediatrics and emergency medicine at Harvard Medical School. She serves as co-director of  Population Science for the Institutional Centers for Clinical and Translational Research (ICCTR) and the Boston Children’s Hospital Medical Research Office for Harvard Catalyst. Dr. Nigrovic’s research focus has been in the approach to diagnosis and management of children with infectious and traumatic emergencies.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Lise Nigrovic",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-lise-nigrovic.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Nigrovic+LE%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3911/bacterial-meningitis-score-children",
+        "description": "The Bacterial Meningitis Score for Children predicts likelihood of bacterial (versus aseptic) meningitis in children.",
+        "keywords": "Meningitis, bacterial meningitis, antibiotics, lumbar puncture, LP, spinal tap, CSF, cerebrospinal fluid, pleocytosis, BMS ",
+        "title": "Bacterial Meningitis Score for Children"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10204,
+          "short_title_en": "PECARN Febrile Infants (29-60 Days Old)",
+          "slug": "pecarn-rule-low-risk-febrile-infants-29-60-days-old"
+        },
+        {
+          "calcId": 19,
+          "short_title_en": "Absolute Neutrophil Count",
+          "slug": "absolute-neutrophil-count-anc"
+        },
+        {
+          "calcId": 3401,
+          "short_title_en": "Immunization Schedule Calculator",
+          "slug": "immunization-schedule-calculator"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3911",
+      "bacterial-meningitis-score-children"
+    ]
+  },
+  "scriptLoader": []
+}

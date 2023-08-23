@@ -1,0 +1,742 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Chronic Pain",
+          "Extremity Pain",
+          "Joint Pain"
+        ],
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">Age x 0.02 + sum of all other selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"*\" /><col width=\"*\" /><col width=\"*\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\">Age, years</p>\n</td>\n<td>\n<p dir=\"ltr\">Multiply by 0.02</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Sex</p>\n<br /><br /><br /><br /></td>\n<td>\n<p dir=\"ltr\">Male</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Female</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">Distribution of involved joints</p>\n</td>\n<td>\n<p dir=\"ltr\">Small joints in hands/feet</p>\n</td>\n<td>\n<p dir=\"ltr\">0.5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Upper extremities only</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Upper and lower extremities</p>\n</td>\n<td>\n<p dir=\"ltr\">1.5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Other</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Symmetric distribution</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">0.5</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Duration of morning stiffness</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;30 min</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">30-59 min</p>\n</td>\n<td>\n<p dir=\"ltr\">0.5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;60 min</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Number of tender joints (out of 68)</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;4</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">4-10</p>\n</td>\n<td>\n<p dir=\"ltr\">0.5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;11</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">Number of swollen joints (out of 66)</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;4</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">4-10</p>\n</td>\n<td>\n<p dir=\"ltr\">0.5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;11</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\">C-reactive protein level, mg/L</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;5</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">5-50</p>\n</td>\n<td>\n<p dir=\"ltr\">0.5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;51</p>\n</td>\n<td>\n<p dir=\"ltr\">1.5</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Rheumatoid factor</p>\n</td>\n<td>\n<p dir=\"ltr\">Negative</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Positive</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Anti-CCP antibodies</p>\n</td>\n<td>\n<p dir=\"ltr\">Negative</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Positive</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"99\" /><col width=\"134\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk group*</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&le;6.0</p>\n</td>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><span id=\"docs-internal-guid-03a97e46-fef2-9b3a-8322-6212f663e117\">&gt;6.0 and &lt;8.0</span></p>\n</td>\n<td>\n<p dir=\"ltr\">Indeterminate</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;8.0</p>\n</td>\n<td>\n<p dir=\"ltr\">High</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">*In the validation study including 3 separate cohorts, combined negative predictive value for developing rheumatoid arthritis was 83% for scores &le;6.0, and combined positive predictive value for scores &ge;8.0 was 97%.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/17265478",
+                  "text": "Van der helm-van mil AH, Le cessie S, Van dongen H, Breedveld FC, Toes RE, Huizinga TW. A prediction rule for disease outcome in patients with recent-onset undifferentiated arthritis: how to guide individual treatment decisions. Arthritis Rheum. 2007;56(2):433-40."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/18668546",
+                  "text": "Van der helm-van mil AH, Detert J, Le cessie S, et al. Validation of a prediction rule for disease outcome in patients with recent-onset undifferentiated arthritis: moving toward individualized treatment decision-making. Arthritis Rheum. 2008;58(8):2241-7."
+                },
+                {
+                  "href": "https://www.sciencedirect.com/science/article/pii/S0049017213001728",
+                  "text": "Mcnally E, Keogh C, Galvin R, Fahey T. Diagnostic accuracy of a clinical prediction rule (CPR) for identifying patients with recent-onset undifferentiated arthritis who are at a high risk of developing rheumatoid arthritis: a systematic review and meta-analysis. Semin Arthritis Rheum. 2014;43(4):498-507."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Annette H. van der Helm-van Mil",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the&nbsp;Leiden Rule for Undifferentiated Arthritis and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the Leiden Rule for Undifferentiated Arthritis and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Acute Pain",
+          "Chronic Pain",
+          "Rheumatoid Arthritis"
+        ],
+        "dosing": false,
+        "equation_logic_text": "var calc_output = [];\n\nvar age = parseFloat(age)\nvar sex = parseFloat(sex)\nvar joints = parseFloat(joints)\nvar symmetric = parseFloat(symmetric)\nvar stiffness = parseFloat(stiffness)\nvar tender = parseFloat(tender)\nvar swollen = parseFloat(swollen)\nvar crp = parseFloat(crp)\nvar rf = parseFloat(rf)\nvar ccp = parseFloat(ccp)\n\nvar score = age * 0.02 + sex + joints + symmetric + stiffness + tender + swollen + crp + rf + ccp\nvar score = score.toFixed(1)\n\nvar risk, rate\n\nif (score <= 6.0) {\n\trisk = 'Low'\n\trate = 'NPV 83%'\n}\nelse if (score > 6.0 && score < 8.0) {\n\trisk = 'Indeterminate'\n\trate = ''\n}\nelse {\n\trisk = 'High'\n\trate = 'PPV 97%'\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: risk + ' risk'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'Leiden Rule for Undifferentiated Arthritis'\n});\ncalc_output.push({\n    name: 'Score',\n    value: risk, \n    value_text: 'risk',\n    message: rate \n});\n",
+        "favorite_id": 10023,
+        "full_title_en": "Leiden Clinical Prediction Rule for Undifferentiated Arthritis",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Age",
+            "name": "age",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "age_adult"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Sex",
+            "name": "sex",
+            "optional": false,
+            "options": [
+              {
+                "label": "Male",
+                "value": 0
+              },
+              {
+                "label": "Female",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Distribution of involved joints",
+            "name": "joints",
+            "optional": false,
+            "options": [
+              {
+                "label": "Small joints in hands/feet",
+                "value": 0.5
+              },
+              {
+                "label": "Upper extremities only",
+                "value": 1
+              },
+              {
+                "label": "Upper and lower extremities",
+                "value": 1.5
+              },
+              {
+                "label": "Other",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Symmetric distribution",
+            "name": "symmetric",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 0.5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Duration of morning stiffness",
+            "name": "stiffness",
+            "optional": false,
+            "options": [
+              {
+                "label": "<30 min",
+                "value": 0
+              },
+              {
+                "label": "30-59 min",
+                "value": 0.5
+              },
+              {
+                "label": "≥60 min",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Number of tender joints (out of 68)",
+            "name": "tender",
+            "optional": false,
+            "options": [
+              {
+                "label": "<4",
+                "value": 0
+              },
+              {
+                "label": "4-10",
+                "value": 0.5
+              },
+              {
+                "label": "≥11",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Number of swollen joints (out of 66)",
+            "name": "swollen",
+            "optional": false,
+            "options": [
+              {
+                "label": "<4",
+                "value": 0
+              },
+              {
+                "label": "4-10",
+                "value": 0.5
+              },
+              {
+                "label": "≥11",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "C-reactive protein level, mg/L",
+            "name": "crp",
+            "optional": false,
+            "options": [
+              {
+                "label": "<5",
+                "value": 0
+              },
+              {
+                "label": "5-50",
+                "value": 0.5
+              },
+              {
+                "label": "≥51",
+                "value": 1.5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Rheumatoid factor",
+            "name": "rf",
+            "optional": false,
+            "options": [
+              {
+                "label": "Negative",
+                "value": 0
+              },
+              {
+                "label": "Positive",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Anti-CCP antibodies ",
+            "name": "ccp",
+            "optional": false,
+            "options": [
+              {
+                "label": "Negative",
+                "value": 0
+              },
+              {
+                "label": "Positive",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "edited calc creator",
+            "time": "2019-10-31T16:50:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "ready to go live",
+            "time": "2018-07-16T11:39:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "short title ",
+            "time": "2018-07-16T11:01:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "RK edits--validation ",
+            "time": "2018-07-16T10:45:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "GW edits--title",
+            "time": "2018-07-16T10:44:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "Edits from JS testing",
+            "time": "2018-07-11T00:16:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "formula updated",
+            "time": "2018-06-29T13:39:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "creator name updated",
+            "time": "2018-06-27T12:13:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "RK edits",
+            "time": "2018-06-27T12:08:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "equation logic added",
+            "time": "2018-06-14T11:46:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "Edits made",
+            "time": "2018-06-13T09:57:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "ready for review",
+            "time": "2018-06-11T14:29:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "new calc",
+            "time": "2018-06-11T14:12:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-e044c1e4-efd3-3f90-4ea8-652e204fa6b8\">Diagnoses rheumatoid arthritis in patients with recent-onset undifferentiated arthritis.</span></p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "Arthritis",
+          "undifferentiated arthritis",
+          "rheumatoid arthritis",
+          "Leiden Rule"
+        ],
+        "search_id": "c-10023",
+        "seo": {
+          "keywords_en": "Arthritis, undifferentiated arthritis, rheumatoid arthritis, prediction rule, Leiden Rule",
+          "meta_description_en": "The Leiden Clinical Prediction Rule for Undifferentiated Arthritis diagnoses rheumatoid arthritis in patients with onset undifferentiated arthritis."
+        },
+        "short_description_en": "Rheumatoid arthritis diagnosis.",
+        "short_title_en": "Leiden Rule for Arthritis",
+        "slug": "leiden-clinical-prediction-rule-undifferentiated-arthritis",
+        "specialty_en": [
+          "Family Practice",
+          "Internal Medicine",
+          "Orthopedics",
+          "Rheumatology"
+        ],
+        "system_en": [
+          "Musculoskeletal",
+          "Rheumatologic"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Annette H. van der Helm-van Mil, MD, PhD, is a professor in the rheumatology department at Leiden University Medical Center, Netherlands. She is also a professor at Erasmus Medical Center in Rotterdam, Netherlands. Dr. van der Helm-van Mil’s primary research is focused on early arthritis, arthralgia, and imaging.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Annette H. van der Helm-van Mil",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-annette-h-van-der-mil.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=van+der+Helm-van+Mil+AH%5BAu%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10023/leiden-clinical-prediction-rule-undifferentiated-arthritis",
+        "description": "The Leiden Clinical Prediction Rule for Undifferentiated Arthritis diagnoses rheumatoid arthritis in patients with onset undifferentiated arthritis.",
+        "keywords": "Arthritis, undifferentiated arthritis, rheumatoid arthritis, prediction rule, Leiden Rule",
+        "title": "Leiden Clinical Prediction Rule for Undifferentiated Arthritis"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 110,
+          "error_max_si": 110,
+          "error_max_us": 110,
+          "error_min": 18,
+          "error_min_si": 18,
+          "error_min_us": 18,
+          "name": "Age",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "age_adult",
+          "units_si": "years",
+          "units_us": "years",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 110,
+          "warn_max_si": 110,
+          "warn_max_us": 110,
+          "warn_min": 18,
+          "warn_min_si": 18,
+          "warn_min_us": 18
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 10092,
+          "short_title_en": "ACR/EULAR Criteria for Rheumatoid Arthritis",
+          "slug": "acr-eular-2010-rheumatoid-arthritis-classification-criteria"
+        },
+        {
+          "calcId": 10049,
+          "short_title_en": "Age-Adjusted ESR/CRP for RA",
+          "slug": "age-adjusted-esr-crp-rheumatoid-arthritis"
+        },
+        {
+          "calcId": 2194,
+          "short_title_en": "SDAI for Rheumatoid Arthritis",
+          "slug": "simple-disease-activity-index-sdai-rheumatoid-arthritis"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10023",
+      "leiden-clinical-prediction-rule-undifferentiated-arthritis"
+    ]
+  },
+  "scriptLoader": []
+}

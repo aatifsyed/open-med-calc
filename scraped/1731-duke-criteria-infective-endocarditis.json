@@ -1,0 +1,702 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "diagnostic_criteria",
+        "chief_complaint_en": [
+          "Fever",
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "1731.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li>In the original study by Durack et al, 405 consecutive cases of suspected IE in 353 patients were evaluated in a tertiary hospital from 1985 to 1992.</li>\n<li>Duke Criteria tried to improve on the older von Reyn criteria.</li>\n<li>80% of the 69 pathologically confirmed cases were classified as clinically definite endocarditis by Duke Criteria.</li>\n<li>The older criteria(von Reyn) classified only 35(51%) of the 69 pathologically confirmed cases into the probable category(p&lt;0.0001).</li>\n<li>12(17%) pathologically confirmed cases were rejected by the older criteria, but none were rejected by the Duke criteria.</li>\n<li>Of the 150 cases rejected by older criteria, 11 were definite, 87 were probable, and 52 were rejected by the Duke Criteria.</li>\n<li>Duke Criteria was validated during the late 1990s with 11 major studies which included 1700 geographically and clinically diverse patient groups(adult, pediatric and geriatric patients, patients from the community, those with and without injection drug use, patients with both native and prosthetic valves, and patients treated outside of the United States).</li>\n<li>It showed high sensitivity(&gt;80%) and a high negative predictive value in these studies.</li>\n</ul>",
+            "formula_en": "<p>Selection of the appropriate criteria.</p>",
+            "more_info_en": "<p>These are technically the &ldquo;modified&rdquo; or &ldquo;revised&rdquo; Duke Criteria, which were updated in 2000. The updates included:</p>\n<ul>\n<li>&ldquo;Possible&rdquo; IE modified to include patients having 1 major and 1 minor criterion, or 3 minor criteria.</li>\n<li>Nosocomially acquired<em> Staphylococcus aureus</em> bacteremia &nbsp;also included.</li>\n<li><em>Coxiella burnetii</em> criteria mentioned above included.</li>\n<li>Trans-esophageal echocardiography (TEE) &nbsp;recommended for patients with prosthetic valves, rated at least &ldquo;possible&rdquo; by clinical criteria, or complicated IE (paravalvular abcess); Trans-thoracic echocardiography (TTE) in other patients.</li>\n<li>Echocardiographic minor criteria eliminated.</li>\n</ul>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/8154507",
+                  "text": "Durack DT, Lukes AS, Bright DK. New criteria for diagnosis of infective endocarditis: utilization of specific echocardiographic findings. Duke Endocarditis Service. Am J Med. 1994 Mar;96(3):200-9. PubMed PMID: 8154507."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10770721",
+                  "text": "Li JS, Sexton DJ, Mick N, Nettles R, Fowler VG Jr, Ryan T, Bashore T, Corey GR. Proposed modifications to the Duke criteria for the diagnosis of infective endocarditis. Clin Infect Dis. 2000 Apr;30(4):633-8. Epub 2000 Apr 3. PubMed PMID: 10770721."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Pranay Aryal, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. David Durack",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>Formal criteria to diagnose and stratify patients suspected of having infective endocarditis (IE) into &ldquo;definite&rdquo;, &ldquo;possible&rdquo;, and &ldquo;rejected&rdquo;.</li>\n<li>Should be applied to patients in whom there is a high clinical suspicion of IE.</li>\n<li>Negative cultures may be confounded by a recent history of treatment with antibiotics.</li>\n<li><calculator id=\"3121\">The IE Mortality Risk Score</calculator> can help risk stratify patients' 6 month outcome once IE is confirmed.</li>\n</ul>",
+            "use_case_en": "<p>Suspect IE and consider the Duke Criteria in patients with:</p>\n<ul>\n<li>Prolonged fever (Fever of Unknown Origin).</li>\n<li>Fever and vascular phenomena (stroke, limb ischemia, physical findings of septic emboli).</li>\n<li>Persistently positive blood cultures (2 or more).</li>\n<li>Prosthetic valves who are febrile.</li>\n<li>Injection drug users who are febrile.</li>\n<li>A pre-disposing heart condition who are febrile.</li>\n<li>Fever with a recent history of hospitalization.</li>\n</ul>",
+            "why_use_en": "<p>Patients with IE can have a wide range of clinical features and the diagnosis can be challenging. This criteria is sensitive for disease detection, and has a high negative predictive value.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>The diagnosis of infective endocarditis must be made as soon as possible to initiate therapy.</p>\n<p><strong>&ldquo;Definite&rdquo;:</strong></p>\n<ul>\n<li>Start antibiotic treatment based on guidelines and microbiology.</li>\n<li>Identify candidates who need surgical treatment.</li>\n</ul>\n<p><strong>&ldquo;Possible&rdquo;:</strong></p>\n<ul>\n<li>Use clinical judgment to decide if the patient has IE.</li>\n<li>Consider trans-esophageal echocardiography (TEE), if not done.</li>\n<li>Identify candidates who need surgical treatment.</li>\n<li>Examine the patient regularly to watch for major or minor signs of IE.</li>\n<li>Examine for physical findings suggestive of IE (Roth&rsquo;s spots, Osler's nodes, Janeway lesions.</li>\n<li>Draw blood cultures regularly if not positive earlier to look for microbiologic evidence.</li>\n</ul>\n<p><strong>&ldquo;Rejected&rdquo;:</strong></p>\n<ul>\n<li>Consider other causes of fever, like other infectious sources, or rheumatologic or oncologic.</li>\n</ul>",
+            "critical_actions_en": "<ul>\n<li>Prior treatment with even a few days of antibiotics may mask pathological evidence of IE(micro-organisms in the tissue or histological evidence).</li>\n<li>Consider trans-esophageal echocardiography if the clinical suspicion is high and the patient is in the &ldquo;possible&rdquo; group.</li>\n<li>Consider IE, if previously not suspected, if persistently positive (2 or more) blood cultures.</li>\n<li>For patients who have subacute IE and are hemodynamically stable, empiric antibiotics can be avoided so that additional blood cultures can be obtained without the confounding effect of empiric treatment.</li>\n</ul>",
+            "management_en": "<p><strong>&ldquo;Definite&rdquo; IE:</strong></p>\n<ul>\n<li>One or more Pathologic criteria, or</li>\n<li>2 major criteria, or</li>\n<li>1 major and 3 minor criteria, or</li>\n<li>5 minor criteria.</li>\n</ul>\n<p><strong>&ldquo;Possible&rdquo; IE:</strong></p>\n<ul>\n<li>1 major criterion and 1 minor criterion, or</li>\n<li>3 minor criterion.</li>\n</ul>\n<p><strong>&ldquo;Rejected&rdquo;:</strong></p>\n<ul>\n<li>Firm alternative diagnosis explaining evidence of IE, or</li>\n<li>Resolution of IE symptoms with antibiotics for less than or equal to 4 days, or</li>\n<li>No pathological evidence of IE at surgery or autopsy, with antibiotic therapy &lt; 4 days, or</li>\n<li>Does not meet criteria of &ldquo;possible&rdquo;, as above.</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 1731,
+                "createdAt": "2020-10-08T17:54:15.082Z",
+                "description": "Emergency Medicine Practice ",
+                "id": 197,
+                "link": "https://www.ebmedicine.net/topics/cardiovascular/infective-endocarditis/calculators",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: Duke Criteria for IE",
+                "updatedAt": "2020-10-08T17:54:15.082Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Endocarditis"
+        ],
+        "dosing": false,
+        "equation_logic": "cd7035ca727784df3e89509e06a98858",
+        "equation_logic_text": "var calc_output = [];\nvar path = 0;\nvar major = 0;\nvar minor = 0;\nvar msg = '';\nvar value_txt;\npath = parseFloat(microorganisms) + parseFloat(lesions);\nmajor = parseFloat(endocarditis) + parseFloat(evidence_endocardial);\nminor = parseFloat(heart_condition_injection_drug) + parseFloat(fever) + parseFloat(vascular) + parseFloat(immunologic) + parseFloat(microbiological);\nif (path > 0) { \n\tmsg += 'This patient meets pathologic criteria for definite infective endocarditis.';\n    value_txt = 'Definite' \n} else if ((major > 1) || (major > 0 && minor > 2) || (minor > 4)) { \n\tmsg += 'This patient meets clinical criteria for definite infective endocarditis.';\n    value_txt = 'Definite' \n} else if ((major > 0 && minor > 0) || (minor > 2)) { \n\tmsg += 'This patient meets clinical criteria for possible infective endocarditis.';\n    value_txt = 'Possible' \n} else { \n\tmsg += 'Endocarditis is typically rejected as a diagnosis when: (1) Firm alternate diagnosis explaining evidence of infective endocarditis; (2) Resolution of infective endocarditis syndrome with antibiotic therapy for \\u22654 days; (3) No pathologic evidence of infective endocarditis at surgery or autopsy, with antibiotic therapy for \\u22644 days; (4) Does not meet criteria for possible infective endocarditis, as above.';\n    value_txt = 'Rejected' }\n\ncalc_output.push({ \n\tname: 'mini', \n\tvalue: value_txt, \n\tvalue_text: '', \n\tmessage: 'See Next Steps for full criteria.' \n});\ncalc_output.push({ \n\tname: '1731_Duke Criteria for IE_result', \n\tvalue: value_txt, \n\tvalue_text: '', \n\tmessage: 'See Next Steps for full criteria.'\n});",
+        "favorite_id": 1731,
+        "full_title_en": "Duke Criteria for Infective Endocarditis",
+        "input_schema": [
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Pathological Criteria",
+            "subheading_instructions": "If either is positive, diagnosis is definite (see Evidence for exceptions)",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Microorganisms in a vegetation",
+            "md_calc_info_concept": null,
+            "name": "microorganisms",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Demonstrated by culture or histologic examination of a vegetation, a vegetation that has embolized, or an intracardiac abscess specimen.",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Pathologic Lesions",
+            "md_calc_info_concept": null,
+            "name": "lesions",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Vegetation or intracardiac abscess confirmed by histologic examination showing active endocarditis.",
+            "type": "toggle"
+          },
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Major Clinical Criteria",
+            "subheading_instructions": "If both are positive, diagnosis is definite (see Evidence for exceptions)",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Blood cultures positive for endocarditis",
+            "md_calc_info_concept": null,
+            "name": "endocarditis",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Typical microorganisms consistent with IE from 2 separate blood cultures, microorganisms consistent with IE from persistently positive blood cultures, single positive blood culture for Coxiella burnetii or antiphase I IgG antibody titer >1:800.",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Evidence of endocardial involvement",
+            "md_calc_info_concept": null,
+            "name": "evidence_endocardial",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Echocardiogram positive for IE, abscess, new partial dehiscence of prosthetic valve, new valvular regurgitation. Note: Worsening or changing of pre-existing murmur NOT sufficient.",
+            "type": "toggle"
+          },
+          {
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Minor Clinical Criteria",
+            "subheading_instructions": "If all are positive, diagnosis is definite (see Evidence for exceptions)",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Predisposing heart condition or injection drug use",
+            "md_calc_info_concept": null,
+            "name": "heart_condition_injection_drug",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Fever",
+            "md_calc_info_concept": null,
+            "name": "fever",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Vascular phenomena",
+            "md_calc_info_concept": null,
+            "name": "vascular",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Major arterial emboli, septic pulmonary infarcts, mycotic aneurysm, intracranial hemorrhage, conjunctival hemorrhages, and Janeway’s lesions.",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Immunologic phenomena",
+            "md_calc_info_concept": null,
+            "name": "immunologic",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Glomerulonephritis, Osler’s nodes, Roth’s spots, and rheumatoid factor.",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Microbiological evidence",
+            "md_calc_info_concept": null,
+            "name": "microbiological",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Positive blood culture but does not meet a major criterion as noted above or serological evidence of active infection with organism consistent with IE.",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added partner content",
+            "time": "2020-10-08T10:54:00.000Z",
+            "user": "michael"
+          }
+        ],
+        "md5": "5eb8c6282be504da201baf37539cb888",
+        "medium_description_en": "<p>Diagnostic criteria for endocarditis.</p>",
+        "publishedAt": "2022-04-21T20:28:59.256Z",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "ie",
+          "murmur"
+        ],
+        "search_id": "c-1731",
+        "seo": {
+          "keywords_en": "Duke Criteria for Infective Endocarditis, duke endo, duke infective, duke criteria, duke infective endo, duke endocarditis, duke infective endocarditis, endocarditis scale, endocarditis criteria, endocarditis score, endocarditis calc, diagnose endocarditis, duke diagnosis, duke endo diagnose, duke endo dx, duke endocarditis diagnose, duke endocarditis calc, duke endocarditis dx, duke rule out, duke r/o, duke endocarditis rule out, duke endocarditis r/o",
+          "meta_description_en": "The Duke Criteria for Infective Endocarditis provides standardized diagnostic criteria for endocarditis."
+        },
+        "short_description_en": "<p>Diagnose endocarditis.</p>",
+        "short_title_en": "Duke Criteria for IE",
+        "slug": "duke-criteria-infective-endocarditis",
+        "specialty_en": [
+          "Cardiology",
+          "Critical Care",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Infectious Disease",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Hematologic",
+          "Infectious"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "3036b246-ff3f-4ca1-8f24-44ac3778b8e2"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Pranay",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Aryal",
+          "name": "Pranay Aryal, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": false,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>David Durack, MD, is an infectious disease specialist who is affiliated with Duke University Hospital and has practiced for 46 years. He received his medical degree from University of Western Australia Faculty of Medicine. Dr. Durack's clinical interests include public health, endocarditis, meningitis, septicemia, MRSA, influenza, and vaccines.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. David Durack",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-david-durack.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Durack+DT%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T16:31:26.544Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/1731/duke-criteria-infective-endocarditis",
+        "description": "The Duke Criteria for Infective Endocarditis provides standardized diagnostic criteria for endocarditis.",
+        "keywords": "Duke Criteria for Infective Endocarditis, duke endo, duke infective, duke criteria, duke infective endo, duke endocarditis, duke infective endocarditis, endocarditis scale, endocarditis criteria, endocarditis score, endocarditis calc, diagnose endocarditis, duke diagnosis, duke endo diagnose, duke endo dx, duke endocarditis diagnose, duke endocarditis calc, duke endocarditis dx, duke rule out, duke r/o, duke endocarditis rule out, duke endocarditis r/o",
+        "title": "Duke Criteria for Infective Endocarditis"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 3121,
+          "short_title_en": "IE Mortality Risk Score",
+          "slug": "infective-endocarditis-ie-mortality-risk-score"
+        },
+        {
+          "calcId": 4027,
+          "short_title_en": "Jones Criteria for ARF",
+          "slug": "jones-criteria-acute-rheumatic-fever-diagnosis"
+        },
+        {
+          "calcId": 10470,
+          "short_title_en": "VIRSTA Score",
+          "slug": "virsta-score"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "1731",
+      "duke-criteria-infective-endocarditis"
+    ]
+  },
+  "scriptLoader": []
+}

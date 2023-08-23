@@ -1,0 +1,669 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Extremity Pain",
+          "Fever"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "1734.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li>A validation study looking only at patients with pathology confirmed necrotizing fasciitis showed that a LRINEC cut-off of 6 for necrotizing fasciitis only had a sensitivity of 59.2% and a specificity of 83.8%, yielding a PPV of 37.9% and NPV of 92.5%. However, the study did show that severe cellulitis had a LRINEC &ge;6 only 16.2% of the time. Other validation studies have shown similarly poor sensitivities and specificities.</li>\n<li>A subsequent retrospective analysis of patients with confirmed necrotizing fasciitis also showed that LRINEC scores &ge;6 were also associated with statistically significant increases in mortality and amputation rates.</li>\n<li>The original derivation study was a retrospective observational study looking at laboratory differences between patients with confirmed necrotizing fasciitis and those with severe cellulitis or abscess. They derived six criteria, CRP, WBC count, hemoglobin, sodium, creatinine and glucose, assigning each of them a point value from 0-4. Using a cut-off of &ge;6 for necrotizing fasciitis, they then retrospectively applied the criteria to separate cohorts of necrotizing fasciitis and severe cellulitis/abscess patients drawn from a similar population as the derivation study. They found that a LRINEC score &ge;6 had a sensitivity of approximately 90% and a specificity of approximately 95%, PPV 92% and NPV 95%. However, this cut-off still missed 10% of patients with necrotizing fasciitis. Subsequent studies of the LRINEC score yielded even poorer sensitivities of around 60% and a specificity in the 80% range. A LRINEC score of &ge;6 could be used as a potential tool to rule in necrotizing fasciitis, but a score &lt;6 should not be used to rule out the diagnosis.</li>\n</ul>",
+            "formula_en": "<p>Addition of the selected points.</p>",
+            "more_info_en": "<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<th>Criteria</th>\n<th>Value</th>\n<th>Points</th>\n</tr>\n<tr>\n<td rowspan=\"2\">CRP (mg/L)</td>\n<td>&lt;150</td>\n<td>0</td>\n</tr>\n<tr>\n<td>&ge;150</td>\n<td>4</td>\n</tr>\n<tr>\n<td rowspan=\"3\">WBC per mm&sup3;</td>\n<td>&lt;15</td>\n<td>0</td>\n</tr>\n<tr>\n<td>15-25</td>\n<td>1</td>\n</tr>\n<tr>\n<td>&gt;25</td>\n<td>2</td>\n</tr>\n<tr>\n<td rowspan=\"3\">Hemoglobin (g/dL)</td>\n<td>&gt;13.5</td>\n<td>0</td>\n</tr>\n<tr>\n<td>11-13.5</td>\n<td>1</td>\n</tr>\n<tr>\n<td>&lt;11</td>\n<td>2</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Sodium</td>\n<td>&ge;135</td>\n<td>0</td>\n</tr>\n<tr>\n<td>&lt;135</td>\n<td>2</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Creatinine</td>\n<td>&le; 1.6 mg/dL / 141 &micro;mol/L</td>\n<td>0</td>\n</tr>\n<tr>\n<td>&gt;1.6 mg/dL / 141 &micro;mol/L</td>\n<td>2</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Glucose</td>\n<td>&le;180 mg/dL / 10 mmol/L</td>\n<td>0</td>\n</tr>\n<tr>\n<td>&gt;180 mg/dL / 10 mmol/L</td>\n<td>1</td>\n</tr>\n</tbody>\n</table>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/15241098",
+                  "text": "Wong CH, Khin LW, Heng KS, Tan KC, Low CO. The LRINEC (Laboratory Risk Indicator for Necrotizing Fasciitis) score: a tool for distinguishing necrotizing fasciitis from other soft tissue infections. Crit Care Med. 2004 Jul;32(7):1535-41. PubMed PMID: 15241098."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/18959694",
+                  "text": "Su YC, et al. Laboratory risk indicator for necrotizing fasciitis score and the outcomes. ANZ J. Surg. 2008; 78:968-72."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/19681416",
+                  "text": "Holland MJ. Application of the Laboratory Risk Indicator in Necrotising Fasciitis (LRINEC) score to patients in a tropical tertiary referral center. Anaesth Intensive Care 2009; 37:588-92."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/29672405",
+                  "text": "Fernando SM, Tran A, Cheng W, et al. Necrotizing Soft Tissue Infection: Diagnostic Accuracy of Physical Examination, Imaging, and LRINEC Score: A Systematic Review and Meta-Analysis. Ann Surg. 2018."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.tzuchimedjnl.com/article/S1016-3190(12)00011-0/abstract",
+                  "text": "Chun-I Liao, Yi-Kung Lee, Yung-Cheng Su, Chin-Hsiang Chuang, Chun-Hing Wong. Validation of the laboratory risk indicator for necrotizing fasciitis (LRINEC) score for early diagnosis of necrotizing fasciitis. Tzu Chi Medical Journal - June 2012 (Vol. 24, Issue 2, Pages 73-76, DOI: 10.1016/j.tcmj.2012.02.009)"
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5468074/",
+                  "text": "Neeki MM, Dong F, Au C, et al. Evaluating the Laboratory Risk Indicator to Differentiate Cellulitis from Necrotizing Fasciitis in the Emergency Department. West J Emerg Med. 2017;18(4):684-689."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Calvin Hwang, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Wong Chin Ho",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>The LRINEC (Laboratory Risk Indicator for Necrotizing Fasciitis) score was developed to distinguish necrotizing fasciitis (nec fasc) from severe cellulitis or abscess.</li>\n<li>Retrospective observational study divided into a developmental cohort and a validation cohort.</li>\n<li>Included 145 patients with necrotizing fasciitis and 309 patients with severe cellulitis or abscesses admitted to Changi General Hospital.</li>\n<li>Developmental cohort consisted of 89 patients with nec fasc and 225 control patients.</li>\n<li>Necrotizing fasciitis defined as operative exploration finding: presence of grayish necrotic fascia, lack of resistance of normally adherent muscular fascia to blunt dissection, lack of bleeding of the fascia during dissection, and the presence of foul-smelling &ldquo;dishwater&rdquo; pus.</li>\n<li>From developmental cohort, authors derived scoring system of six criteria, each worth 0, 1, 2, or 4 points.</li>\n<li>Score was then &ldquo;externally validated&rdquo; on a separate cohort of 56 consecutive patients with nec fasc and 84 control patients with severe cellulitis or abscess seen at Singapore General Hospital during a similar time frame.</li>\n<li>Patients were classified into three groups: low (LRINEC score &le;5, &lt;50% risk for nec fasc), moderate (LRINEC score 6-7, 50-75% risk for nec fasc), and high risk (LRINEC &ge;8, &gt;75% risk for nec fasc).</li>\n<li>Using LRINEC &ge;6 as a cut-off for nec fasc yielded PPV of 92% and NPV of 96%. ~90% of patients with nec fasc had LRINEC &ge;6 while only 3.1-8.4% of control patients had score &ge;6.</li>\n</ul>\n<p><strong>Points to keep in mind:</strong></p>\n<ul>\n<li>10% of patients with nec fasc still had a LRINEC score &lt;6.</li>\n<li>There have been no prospective trials validating the LRINEC score.</li>\n<li>Subsequent validation studies have not replicated the numbers shown in the original study.</li>\n</ul>",
+            "use_case_en": "<ul>\n<li>Patient with a concerning history or physical exam (pain out of proportion to exam, rapidly progressive cellulitis, for example).</li>\n<li>Patient with an unconcerning story (can provide some reassurance if score is very low).</li>\n</ul>",
+            "why_use_en": "<p>The score may be helpful in providing an overall gestalt picture of a patient with a potential necrotizing soft tissue infection -- but it cannot rule out this infection.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>All patients with a high clinical suspicion for necrotizing fasciitis should receive immediate surgical consultation for potential operative debridement.</li>\n<li>Consider calculating a LRINEC score to distinguish patients with severe cellulitis/abscess vs necrotizing fasciitis.</li>\n</ul>",
+            "critical_actions_en": "<ul>\n<li>A LRINEC score &ge;6 is a reasonable cut-off to rule in necrotizing fasciitis, but a LRINEC &lt;6 does not rule out the diagnosis.</li>\n</ul>",
+            "management_en": "<ul>\n<li>Prompt fluid resuscitation and antibiotic administration are crucial in the treatment of necrotizing fasciitis.</li>\n<li>Consider early surgical consultation in borderline cases.</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [
+              {
+                "description": "Emergency Medicine Practice",
+                "link": "https://www.ebmedicine.net/topics.php?paction=showTopicSeg&topic_id=290&seg_id=9446",
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: LRINEC"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Acute Pain",
+          "Cellulitis/Abscess"
+        ],
+        "dosing": false,
+        "equation_logic": "bb672963c54bc1e70b45dbffe59507b9",
+        "equation_logic_text": "var calc_output=[]; \nvar v=parseInt(crp)+parseInt(white_blood_cell_count)+parseInt(hemoglobin)+parseInt(sodium)+parseInt(creatinine)+parseInt(glucose); \nvar text='If high suspicion for necrotizing fasciitis through clinical history and physical exam, do not calculate a LRINEC score, and go straight to operative debridement.<br/><br/>'; \nvar mini_msg=''; \n\nif(v<=5){\n    text+='Consider IV antibiotics and serial labs to monitor response to treatment. Scores <6 were low risk \\u2014 but not no risk \\u2014 for necrotizing soft tissue infections.';\n    mini_msg='Low Risk, but not no risk.'\n} \n\nif(v==6||v==7){\n    text+='Scores of 6 had a PPV of 92% and NPV of 96% for NSTIs. Intermediate Risk for Necrotizing Soft Tissue Infection.<br/><br/>Consider urgent MRI, frozen section biopsy or finger test (manual probing of area in question under local anesthesia). If positive, emergent operative debridement. If negative, IV antibiotics, close observation, serial labs.';\n    mini_msg='Intermediate Risk.'\n} \n\nif(v>7){\n    text+='High Risk for Necrotizing Soft Tissue Infection. <br/>Scores of 8 had a PPV of 93.4% for NSTIs.<br/>Work-up as above or emergent operative debridement.';\n    mini_msg='High Risk.'\n} \n\ncalc_output.push({\n    name:'mini',\n    value:v,\n    value_text:'points',\n    message:mini_msg\n}); \ncalc_output.push({\n    name:'1734_LRINEC Score_result',\n    value:v,\n    value_text:'points',\n    message:text\n});",
+        "favorite_id": 1734,
+        "full_title_en": "LRINEC Score for Necrotizing Soft Tissue Infection",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "C-reactive protein",
+            "mdcalc_info_concept": null,
+            "name": "crp",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "<15 mg/dL (150 mg/L)",
+                "value": 0
+              },
+              {
+                "label": "≥15 mg/dL (150 mg/L)",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "White blood cell count (x10,000/µL)",
+            "mdcalc_info_concept": null,
+            "name": "white_blood_cell_count",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "<15",
+                "value": 0
+              },
+              {
+                "label": "15-25",
+                "value": 1
+              },
+              {
+                "label": ">25",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Hemoglobin (g/dL)",
+            "mdcalc_info_concept": null,
+            "name": "hemoglobin",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": ">13.5",
+                "value": 0
+              },
+              {
+                "label": "11-13.5",
+                "value": 1
+              },
+              {
+                "label": "<11",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Sodium (mEq/L)",
+            "mdcalc_info_concept": null,
+            "name": "sodium",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "≥135",
+                "value": 0
+              },
+              {
+                "label": "<135",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Creatinine",
+            "mdcalc_info_concept": null,
+            "name": "creatinine",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "≤1.6 mg/dL (141 µmol/L)",
+                "value": 0
+              },
+              {
+                "label": ">1.6 mg/dL (141 µmol/L)",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Glucose",
+            "mdcalc_info_concept": null,
+            "name": "glucose",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "≤180 mg/dL (10 mmol/L)",
+                "value": 0
+              },
+              {
+                "label": ">180 mg/dL (10 mmol/L)",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>If high suspicion for necrotizing fasciitis through clinical history and physical exam, do not calculate a LRINEC score and go straight to operative debridement. <br>Note: Use with caution, as the LRINEC Score has performed poorly in external validation, most recently in <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5468074\" target=\"_blank\" rel=\"noopener\">Neeki 2017</a>.</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "reference added",
+            "time": "2018-7-19 3:26 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "edits to reference",
+            "time": "2018-7-19 3:29 PM",
+            "user": "lubaina"
+          },
+          {
+            "message": "added partner link",
+            "time": "2018-09-22 09:12 PM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "b02690fdd222c717844cf72a99987635",
+        "medium_description_en": "<p>Screens for necrotizing soft tissue infections.</p>",
+        "publishedAt": "2022-04-21T20:28:59.472Z",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "necfasc",
+          "fasciitis",
+          "nec fasc",
+          "necrotizing",
+          "gas"
+        ],
+        "search_id": "c-1734",
+        "seo": {
+          "keywords_en": "LRINEC Score, Necrotizing tissue score, soft tissue infection score, LRINEC CRP, LRINEC WBC, necrotizing calc, tissue infection calc, LRINEC screen, debridement score, necrotizing fasciitis score",
+          "meta_description_en": "The LRINEC score screens for necrotizing soft tissue infections that require emergent surgery."
+        },
+        "short_description_en": "<p>Early diagnosis of nec fasc.</p>",
+        "short_title_en": "LRINEC Score",
+        "slug": "lrinec-score-necrotizing-soft-tissue-infection",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Infectious Disease",
+          "Internal Medicine",
+          "Orthopedics",
+          "Podiatry",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Infectious",
+          "Musculoskeletal"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "665be9b2-05ed-4f39-b41b-386037d92bac"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Calvin Hwang, MD, is a clinical assistant professor in the department of orthopaedic surgery at the Stanford University School of Medicine. A native Californian, Dr. Hwang grew up in San Diego and attended Stanford University before venturing off to Case Western Reserve University School of Medicine, where he received his medical degree. He completed his residency at the Stanford/Kaiser Emergency Medicine program and fellowship in sports medicine at Stanford. He is currently a team physician for the Golden State Warriors, Stanford Football and Stanford Volleyball.</p>",
+          "firstName": "Calvin",
+          "hasDisclosure": [],
+          "img": "calvin-hwang.jpg",
+          "lastName": "Hwang",
+          "name": "Calvin Hwang, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Past",
+          "target": "calvin-hwang",
+          "updatedAt": "2023-04-06T20:26:46.100Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": " <p>Wong Chin Ho, MD, is a plastic surgeon accredited by the Ministry of Health of Singapore and head of W Aesthetic Plastic Surgery. He complete advanced surgical training at the Department of Plastic Reconstructive and Aesthetic Surgery at Singapore General Hospital. Dr. Wong is actively involved in clinical research with interests in facial anatomy, anatomical changes of the aging face and aesthetic surgery.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Wong Chin Ho",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-wong-chin-ho.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed?term=Wong%2C%20Chin%20HO%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/1734/lrinec-score-necrotizing-soft-tissue-infection",
+        "description": "The LRINEC score screens for necrotizing soft tissue infections that require emergent surgery.",
+        "keywords": "LRINEC Score, Necrotizing tissue score, soft tissue infection score, LRINEC CRP, LRINEC WBC, necrotizing calc, tissue infection calc, LRINEC screen, debridement score, necrotizing fasciitis score",
+        "title": "LRINEC Score for Necrotizing Soft Tissue Infection"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 4027,
+          "short_title_en": "Jones Criteria for ARF",
+          "slug": "jones-criteria-acute-rheumatic-fever-diagnosis"
+        },
+        {
+          "calcId": 1817,
+          "short_title_en": "Kocher Criteria",
+          "slug": "kocher-criteria-septic-arthritis"
+        },
+        {
+          "calcId": 10085,
+          "short_title_en": "SLICS",
+          "slug": "subaxial-injury-classification-severity-scale-slics"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "1734",
+      "lrinec-score-necrotizing-soft-tissue-infection"
+    ]
+  },
+  "scriptLoader": []
+}

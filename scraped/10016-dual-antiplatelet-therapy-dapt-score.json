@@ -1,0 +1,752 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Bleeding",
+          "Chest Pain",
+          "Shortness of Breath"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"*\" /><col width=\"*\" /><col width=\"*\" /><col width=\"*\" /><col width=\"*\" /><col width=\"*\" /></colgroup>\n<tbody>\n<tr>\n<td></td>\n<td>\n<p dir=\"ltr\"><strong>-2 points</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>-1 points</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>0 points</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>1 point</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>2 points</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Age, years</p>\n</td>\n<td>\n<p dir=\"ltr\">&ge;75</p>\n</td>\n<td>\n<p dir=\"ltr\">65-74</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;65</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Cigarette smoking*</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Diabetes mellitus</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">MI at presentation</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Prior PCI or prior MI</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">PACLitaxel-eluting stent</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Stent diameter &lt;3 mm</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">CHF or LVEF &lt;30%</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Vein graft stent</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">--</p>\n</td>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>*Smoking within 1 year prior to index procedure.<br /><span id=\"docs-internal-guid-1465c56c-dbf0-e9a0-36cd-bd50a756de2f\"></span></p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"89\" /><col width=\"133\" /><col width=\"229\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>DAPT Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Ischemia/bleeding risk*</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Recommendation**</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">-2 to 1</p>\n</td>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n<td>\n<p dir=\"ltr\">Prolonged DAPT not recommended</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;2</p>\n</td>\n<td>\n<p dir=\"ltr\">High</p>\n</td>\n<td>\n<p dir=\"ltr\">Prolonged DAPT recommended</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">*Ischemia was defined as MI, stroke, repeat coronary revascularization, or stent thrombosis. Bleeding was defined as intracerebral bleeding, bleeding causing hemodynamic compromise requiring treatment, or bleeding requiring transfusion.</p>\n<p><span id=\"docs-internal-guid-cbbecdc4-dbf1-8792-dceb-7533f300f4f9\">**From ACC guidelines, <a href=\"http://www.onlinejacc.org/content/68/10/1082\" target=\"_blank\">Levine 2016</a>.</span></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "http://www.onlinejacc.org/content/68/10/1082 ",
+                  "text": "Levine GN, Bates ER, Bittl JA, et al. 2016 ACC/AHA Guideline Focused Update on Duration of Dual Antiplatelet Therapy in Patients With Coronary Artery Disease: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. J Am Coll Cardiol. 2016."
+                }
+              ],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://jamanetwork.com/journals/jama/fullarticle/2508253 ",
+                  "text": "Yeh RW, Secemsky EA, Kereiakes DJ, et al. Development and Validation of a Prediction Rule for Benefit and Harm of Dual Antiplatelet Therapy Beyond 1 Year After Percutaneous Coronary Intervention. JAMA. 2016;315(16):1735-49."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.nejm.org/doi/full/10.1056/NEJM199309023291001 ",
+                  "text": "GUSTO investigators. An International Randomized Trial Comparing Four Thrombolytic Strategies for Acute Myocardial Infarction. N Engl J Med. 1993;329(10):673-82."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "http://annals.org/aim/article-abstract/2631185/use-dual-antiplatelet-therapy-score-guide-treatment-duration-after-percutaneous",
+                  "text": "Piccolo R, Gargiulo G, Franzone A, et al. Use of the Dual-Antiplatelet Therapy Score to Guide Treatment Duration After Percutaneous Coronary Intervention. Ann Intern Med. 2017;167(1):17-25."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27046159",
+                  "text": "Kereiakes DJ, Yeh RW, Massaro JM, et al. DAPT Score Utility for Risk Prediction in Patients With or Without Previous Myocardial Infarction. J Am Coll Cardiol. 2016;67(21):2492-502."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/28982692",
+                  "text": "Yoshikawa Y, Shiomi H, Watanabe H, et al. Validating Utility of Dual Antiplatelet Therapy Score in a Large Pooled Cohort From 3 Japanese Percutaneous Coronary Intervention Studies. Circulation. 2018;137(6):551-562."
+                },
+                {
+                  "href": "http://www.onlinejacc.org/content/69/14/1861?_ga=2.168254563.399869864.1527882860-1363800592.1527882860",
+                  "text": "Banerjee S, Angiolillo DJ, Boden WE, et al. Use of Antiplatelet Therapy/DAPT for Post-PCI Patients Undergoing Noncardiac Surgery. J Am Coll Cardiol. 2017;69(14):1861-1870."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Robert W. Yeh",
+              "qa_en": "<p dir=\"ltr\"><strong>Why did you develop the DAPT Score? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p>\n<p dir=\"ltr\">The question of how long to continue antiplatelet therapy after coronary stent procedures has troubled physicians for many years. On one hand, continuing these medications can prevent heart attacks. On the other hand, the drugs can also lead to bleeding. We wanted to develop a tool that could help clinicians identify who were the best patients to continue long term antiplatelet medications after heart stents, and who were the patients best served by shorter durations of these medications. &nbsp;</p>\n<p dir=\"ltr\"><strong>What pearls, pitfalls and/or tips do you have for users of the DAPT Score? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p>\n<p dir=\"ltr\">The DAPT Score gives clinicians an opportunity to see how patients with particular characteristics fared when randomized to either 30 months or 12 months of dual antiplatelet therapy after receiving a stent. The data are based on the largest ever randomized blinded trial of antiplatelet therapy that we led at the Baim Institute for Clinical Research (formerly Harvard Clinical Research Institute). However, although this is high quality evidence that has made its way into national guidelines, the DAPT Score is meant to be used in conjunction with clinical judgment. In addition, the score was derived in patients who were not taking long term oral anticoagulants like Coumadin and had no history of major bleeding in the past.</p>\n<p dir=\"ltr\"><strong>What recommendations do you have for doctors once they have applied the DAPT Score? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p>\n<p dir=\"ltr\">The DAPT Score should be used to guide antiplatelet duration in conjunction with clinical judgment and applied on an individualized basis. It is not a substitute for clinical judgment. It has been validated across a number of different populations, and continues to perform well in multiple settings in terms of separating patients with high ischemic/low bleeding risk (better served with longer durations of antiplatelet medications) from other patients with low ischemic/high bleeding risk (better served with shorter durations of antiplatelets).</p>\n<p dir=\"ltr\"><strong>How do you use the DAPT Score in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p>\n<p dir=\"ltr\">We use the DAPT Score to aid in discussions with patients and their referring physicians about the proper duration of antiplatelet therapies each day. In the office, using an app is particularly valuable for patients to see what their risks are and to give context to shared decision making around this common conundrum.</p>"
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the&nbsp;DAPT&nbsp;Score&nbsp;and want to contribute your expertise? <a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a> our contributor team!</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the DAPT Score&nbsp;and want to contribute your expertise?&nbsp;<a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\">Join</a>&nbsp;our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Acute Coronary Syndrome",
+          "Intracranial Hemorrhage",
+          "Myocardial Infarction",
+          "Stroke/TIA"
+        ],
+        "dosing": false,
+        "equation_logic_text": "var calc_output = [];\n\nvar age = parseFloat(age)\nvar smoking = parseFloat(smoking)\nvar dm = parseFloat(dm)\nvar mi = parseFloat(mi)\nvar priorpci = parseFloat(priorpci)\nvar stent = parseFloat(stent)\nvar chf = parseFloat(chf)\nvar veinstent = parseFloat(veinstent)\nvar stentdiameter = parseFloat(stentdiameter)\n\nvar score = age + smoking + dm + mi + priorpci + stent + chf + veinstent + stentdiameter\n\nvar risk, rec\n\nif (score >= 2) {\n\trisk = 'High'\n\trec = 'Prolonged DAPT recommended'\n}\nelse {\n\trisk = 'Low'\n\trec = 'Prolonged DAPT not recommended'\n}\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: rec\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'DAPT Score'\n});\ncalc_output.push({\n    name: 'risk',\n    value: risk,\n    value_text: 'risk',\n    message: rec\n});",
+        "favorite_id": 10016,
+        "full_title_en": "Dual Antiplatelet Therapy (DAPT) Score",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Age, years",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "≥75",
+                "value": -2
+              },
+              {
+                "label": "65-74",
+                "value": -1
+              },
+              {
+                "label": "<65",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Cigarette smoking",
+            "name": "smoking",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Smoking within 1 year prior to index procedure.",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Diabetes mellitus",
+            "name": "dm",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "MI at presentation",
+            "name": "mi",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Prior PCI or prior MI",
+            "name": "priorpci",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "PACLitaxel-eluting stent",
+            "name": "stent",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Stent diameter <3 mm",
+            "name": "stentdiameter",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "CHF or LVEF <30%",
+            "name": "chf",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Vein graft stent",
+            "name": "veinstent",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "edited description",
+            "time": "2021-03-19T15:59:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "correct the interview json",
+            "time": "2018-08-07T15:48:00.000Z",
+            "user": "yi"
+          },
+          {
+            "message": "edited space in interview",
+            "time": "2018-08-03T09:18:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "creator interview added ready to go live",
+            "time": "2018-08-03T09:06:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "ready to go live",
+            "time": "2018-07-23T16:51:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "itemized search terms ",
+            "time": "2018-07-23T16:46:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "ready to go live",
+            "time": "2018-07-16T11:39:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "GW edit--short description ",
+            "time": "2018-07-16T10:48:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "default",
+            "time": "2018-07-12T17:53:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "other reference",
+            "time": "2018-07-12T17:12:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "JS testing edits",
+            "time": "2018-06-25T09:02:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-06-22T12:22:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "NB calc testing edits 6/18/18",
+            "time": "2018-06-18T15:40:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "DAPT, RK email edits applied",
+            "time": "2018-06-14T11:48:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "equation logic added",
+            "time": "2018-06-13T18:18:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "DAPT",
+            "time": "2018-06-07T16:44:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "AKIN, inputs remain",
+            "time": "2018-06-07T15:57:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "conditionality complete, ready for RK review",
+            "time": "2018-06-07T12:00:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "pass1",
+            "time": "2018-06-06T18:14:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "Edits addressed by Rachel in #natalie_projects cont.",
+            "time": "2018-06-05T11:56:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "Edits addressed by Rachel in #natalie_projects ",
+            "time": "2018-06-04T10:20:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "First try!",
+            "time": "2018-06-01T15:37:00.000Z",
+            "user": "natalie"
+          }
+        ],
+        "md5": "",
+        "medium_description_en": "<p>Predicts which patients will benefit from prolonged DAPT after coronary stent placement.</p>",
+        "purpose_en": [
+          "Treatment"
+        ],
+        "search_abbreviation_en": [
+          "DAPT Score",
+          "bleeding risk",
+          "ischemic risk"
+        ],
+        "search_id": "c-10016",
+        "seo": {
+          "keywords_en": "PCI, antiplatelet therapy",
+          "meta_description_en": "The DAPT Score predicts which patients will benefit from prolonged DAPT after coronary stent placement."
+        },
+        "short_description_en": "Prolonged (>1 year) dual antiplatelet therapy after PCI. ",
+        "short_title_en": "DAPT Score",
+        "slug": "dual-antiplatelet-therapy-dapt-score",
+        "specialty_en": [
+          "Cardiology",
+          "Family Practice",
+          "Internal Medicine",
+          "Neurology",
+          "Primary Care"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Hematologic"
+        ]
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Robert W. Yeh, MD, is an associate professor of medicine at Harvard Medical School. He is also director of the Richard and Susan Smith Center for Outcomes Research in Cardiology at the Beth Israel Deaconess Medical Center. Dr. Yeh’s primary research interests revolve around improving the value of coronary and vascular devices and therapies in clinical practice.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Robert W. Yeh",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-robert-w-yeh.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Yeh+RW%5BAu%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10016/dual-antiplatelet-therapy-dapt-score",
+        "description": "The DAPT Score predicts which patients will benefit from prolonged DAPT after coronary stent placement.",
+        "keywords": "PCI, antiplatelet therapy",
+        "title": "Dual Antiplatelet Therapy (DAPT) Score"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10227,
+          "short_title_en": "ORBIT Score for Afib",
+          "slug": "orbit-bleeding-risk-score-atrial-fibrillation"
+        },
+        {
+          "calcId": 807,
+          "short_title_en": "HAS-BLED Score",
+          "slug": "has-bled-score-major-bleeding-risk"
+        },
+        {
+          "calcId": 1785,
+          "short_title_en": "HEMORR<sub>2</sub>HAGES Score",
+          "slug": "hemorr2hages-score-major-bleeding-risk"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10016",
+      "dual-antiplatelet-therapy-dapt-score"
+    ]
+  },
+  "scriptLoader": []
+}

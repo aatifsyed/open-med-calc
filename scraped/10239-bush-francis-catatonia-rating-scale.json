@@ -1,0 +1,1203 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "",
+        "chief_complaint_en": [
+          "Altered Mental Status"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p><span id=\"docs-internal-guid-afdac1ef-7fff-7b3d-212b-8a2d906f5172\">The Bush-Francis Catatonia Rating Scale is considered the gold standard for catatonia screening (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/8686483\" target=\"_blank\">Bush and Francis 1996</a>). The sensitivity is 100%, but specificity predictions range from 75-100% as some of the 23 signs are not specific to catatonia. The measure has a high inter-rater reliability (r=0.93 correlation coefficient), but test-retest reliability has not been proven as the natural course of catatonia waxes and wanes (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/21420736\" target=\"_blank\">Sienaert 2011</a>). When compared against five other catatonia rating scales, the Bush-Francis Catatonia Rating Scale was the most widely used. It is regarded as a valid, reliable, and user-friendly catatonia rating scale. </p>",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"200\" /><col width=\"166\" /><col width=\"83\" /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p dir=\"ltr\"><b>Screening questions: if &ge;2 are positive, full scale should be completed</b></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Excitement</strong></p>\n<p dir=\"ltr\">Extreme hyperactivity, constant motor unrest that appears non-purposeful; not attributed to akathisia or goal-directed agitation&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Excessive motion; intermittent</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Constant motion; hyperkinetic without rest periods</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Full-blown catatonic excitement; endless frenzied motor</p>\n<p dir=\"ltr\">activity</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Immobility/stupor</strong></p>\n<p dir=\"ltr\">Extreme hypoactivity, immobile, minimally responsive to stimuli</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Sits abnormally still; may interact briefly</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Virtually no interaction with external world</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Stuporous; non-reactive to painful stimuli</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Mutism</strong></p>\n<p dir=\"ltr\">Verbally unresponsive or minimally responsive</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Verbally unresponsive to majority of questions; incomprehensible whisper</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Speaks &lt;20 words per 5 min</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No speech</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Staring</strong></p>\n<p dir=\"ltr\">Fixed gaze; little or no visual scanning of environment; decreased blinking</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Poor eye contact; repeatedly gazes &lt;20 sec between shifting of attention; decreased blinking</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Gaze held longer than 20 sec; occasionally shifts attention</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Fixed gaze; non-reactive</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Posturing/catalepsy</strong></p>\n<p dir=\"ltr\">Spontaneous maintenance of posture(s), including mundane (e.g. sitting or standing for long periods without reacting)</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;1 min</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;1 min to &lt;15 min</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Bizarre posture, or mundane &gt;15 min</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Grimacing</strong></p>\n<p dir=\"ltr\">Maintenance of odd facial expressions</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;10 sec</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&lt;1 min</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Bizarre expression(s) or maintained &gt;1 min</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Echopraxia/echolalia</strong></p>\n<p dir=\"ltr\">Mimicking of examiner&rsquo;s movements/speech&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Occasional</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Frequent</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Constant</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Stereotypy</strong></p>\n<p dir=\"ltr\">Repetitive, non-goal-directed motor activity (e.g. finger-play, repeatedly touching, patting, or rubbing self); abnormality not inherent in act but in its frequency</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Occasional</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Frequent</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Constant</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Mannerisms</strong></p>\n<p dir=\"ltr\">Odd, purposeful movements (hopping or walking tiptoe, saluting passers-by, or exaggerated caricatures of mundane movements); abnormality inherent in act itself</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Occasional</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Frequent</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Constant</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Verbigeration</strong></p>\n<p dir=\"ltr\">Repetition of phrases or sentences (like a scratched record)</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Occasional</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Frequent; difficult to interrupt</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Constant</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Rigidity</strong></p>\n<p dir=\"ltr\">Maintenance of a rigid position despite efforts to be moved; exclude if cog-wheeling or tremor present</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Mild resistance</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Moderate</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Severe; cannot be repostured</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Negativism</strong></p>\n<p dir=\"ltr\">Apparently motiveless resistance to instructions or attempts to move/examine patient; contrary behavior (does exact opposite of instruction)</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Mild resistance and/or occasionally contrary</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Moderate resistance and/or frequently contrary</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Severe resistance and/or continually contrary</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>Waxy flexibility</strong></p>\n<p dir=\"ltr\">During reposturing of patient, patient offers initial resistance before allowing themselves to be repositioned, similar to that of a bending candle</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Present</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Withdrawal</strong></p>\n<p dir=\"ltr\">Refusal to eat, drink, and/or make eye contact</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Minimal PO intake/interaction for &lt;1 day</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Minimal PO intake/interaction for &gt;1 day</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">No PO intake/interaction for &ge;1 day&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"3\">\n<p><strong>Additional questions: to be completed if &ge;2 of the above are positive</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Impulsivity</strong></p>\n<p dir=\"ltr\">Patient suddenly engages in inappropriate behavior (e.g. runs down hallway, starts screaming, or takes off clothes) without provocation; afterwards can give no, or only a facile explanation</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Occasional</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Frequent</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Constant or not redirectable</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Automatic obedience</strong></p>\n<p dir=\"ltr\">Exaggerated cooperation with examiner&rsquo;s request or spontaneous continuation of movement requested</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Occasional</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Frequent</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Constant</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>Mitgehen</strong></p>\n<p dir=\"ltr\">&ldquo;Anglepoise lamp&rdquo; arm raising in response to light pressure of finger, despite instructions to the contrary</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Present</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>Gegenhalten</strong></p>\n<p dir=\"ltr\">Resistance to passive movement which is proportional to strength of the stimulus; appears automatic rather than willful</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Present</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>Ambitendency</strong></p>\n<p dir=\"ltr\">Patient appears motorically &ldquo;stuck&rdquo; in indecisive, hesitant movement</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Present</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>Grasp reflex</strong></p>\n<p dir=\"ltr\">Per neurological exam</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Present</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><strong>Perseveration</strong></p>\n<p dir=\"ltr\">Repeatedly returns to same topic or persists with movement</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Present</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Combativeness</strong></p>\n<p dir=\"ltr\">Usually in an undirected manner, with no, or only a facile explanation afterwards</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Occasionally strikes out; low potential for injury</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Frequently strikes out; moderate potential for injury</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Serious danger to others</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><strong>Autonomic abnormality</strong></p>\n<p dir=\"ltr\">Parameters: temperature, BP, pulse, respiratory rate, diaphoresis</p>\n</td>\n<td>\n<p dir=\"ltr\">Absent</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Abnormality of 1 parameter (excluding pre-existing hypertension)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Abnormality of 2 parameters</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Abnormality of &ge;3 parameters</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-04824dd7-7fff-b558-7a28-29475323db45\"><span id=\"docs-internal-guid-04824dd7-7fff-b558-7a28-29475323db45\">&nbsp;</p>",
+            "more_info_en": "<p>Interpretation:</p>\n<p>Higher scores indicate greater severity of catatonia.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/8686483",
+                  "text": "Bush G, Fink M, Petrides G, Dowling F, Francis A. Catatonia. I. Rating scale and standardized examination. Acta Psychiatr Scand. 1996;93(2):129-36."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/20425278",
+                  "text": "Francis A. Catatonia: diagnosis, classification, and treatment. Curr Psychiatry Rep. 2010;12(3):180-5."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5183991/ ",
+                  "text": "Rasmussen SA, Mazurek MF, Rosebush PI. Catatonia: Our current understanding of its diagnosis, treatment and pathophysiology. World J Psychiatry. 2016;6(4):391-398."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21420736 ",
+                  "text": "Sienaert P, Rooseleer J, De fruyt J. Measuring catatonia: a systematic review of rating scales. J Affect Disord. 2011;135(1-3):1-9."
+                }
+              ]
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Brandi Karnes, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Andrew Francis",
+              "qa_en": ""
+            },
+            {
+              "approved": false,
+              "name": "Dr. George Bush",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-ed62291d-7fff-7edf-7e61-16c3293d0693\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">The most common symptoms of catatonia, which can be considered &ldquo;red flags&rdquo; to trigger use of this scale, include staring, mutism, and immobility.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">May be used both for initial diagnosis and to monitor treatment response.&nbsp;</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">The full scale is 23 items, with the first 14 questions comprising the screening instrument (Bush-Francis Catatonia Screening Instrument). If &ge;2 of the first 14 questions are positive, this indicates a positive screening and should prompt completion of 9 additional items for a total of 23 items (Bush-Francis Catatonia Rating Scale).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Takes roughly five minutes to complete.&nbsp;</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Many scale items require understanding of traditional psychiatric terminology and how to test them, such as the following:</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Echopraxia: the provider will need to perform a dramaticized movement such as scratching their head.&nbsp;</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Automatic obedience: the provider will need to provide a command that people would not typically follow, such as &ldquo;stick out your tongue, I'm going to put a pin in it.&rdquo;</p>\n</li>\n</ul>\n</ul>",
+            "use_case_en": "<p>Patients with or without psychiatric history with characteristic symptoms of catatonia (e.g. altered consciousness, abnormal motor behavior).</p>",
+            "why_use_en": "<p>Catatonia may be hypokinetic or hyperkinetic and occur in psychotic, affective, and general medical conditions. It is commonly underdiagnosed and undertreated. This scale can help identify this syndrome in daily practice, as well as rate the severity of catatonia and monitor response to treatment.</p>"
+          },
+          "next_steps": {
+            "advice_en": "",
+            "critical_actions_en": "<p><span id=\"docs-internal-guid-580af3a7-7fff-455b-5f21-d8aee6eaf65f\">Monitor for respiratory depression, sedation, or further impairment in consciousness during medication management of catatonia.</p>",
+            "management_en": "<p><span id=\"docs-internal-guid-e364dabf-7fff-0cfb-23fa-2df44c47fae9\">First line management for catatonia is a trial of lorazepam, which may be given PO, IM, or IV depending on the patient&rsquo;s condition (IV having the quickest response time). An accurate lorazepam trial is given as 1-2 mg, then response is monitored over three h<span id=\"docs-internal-guid-e364dabf-7fff-0cfb-23fa-2df44c47fae9\">ours.&nbsp;<span id=\"docs-internal-guid-e364dabf-7fff-0cfb-23fa-2df44c47fae9\">If there is no response and no adverse effects, such as&nbsp;respiratory&nbsp;depression, sedation, or&nbsp;further&nbsp;impaired consciousness<span id=\"docs-internal-guid-e364dabf-7fff-0cfb-23fa-2df44c47fae9\">, the<span id=\"docs-internal-guid-e364dabf-7fff-0cfb-23fa-2df44c47fae9\">n another lorazepam dose can be given&nbsp;with response monitored over 3 hours. Decrease in the Bush-Francis Catatonia Rating Scale by 50% indicates positive treatment response (<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5183991/\" target=\"_blank\">Rasmussen 2016</a>).</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": [
+            "Tyler Kimm, MD",
+            "Vineeth John, MD"
+          ]
+        },
+        "disease_en": [
+          "Delirium",
+          "Catatonia"
+        ],
+        "dosing": false,
+        "equation_logic_text": "var calc_output = [];\n\nvar excite = parseFloat(excite);\nvar immobile = parseFloat(immobile);\nvar mute = parseFloat(mute);\nvar stare = parseFloat(stare);\nvar posture = parseFloat(posture);\nvar grimace = parseFloat(grimace);\nvar echo = parseFloat(echo);\nvar stereo = parseFloat(stereo);\nvar manner = parseFloat(manner);\nvar verb = parseFloat(verb);\nvar rigid = parseFloat(rigid);\nvar negative = parseFloat(negative);\nvar waxy = parseFloat(waxy);\nvar withdrawal = parseFloat(withdrawal);\nvar impulse = parseFloat(impulse) || 0;\nvar auto = parseFloat(auto) || 0;\nvar mit = parseFloat(mit) || 0;\nvar geg = parseFloat(geg) || 0;\nvar amb = parseFloat(amb) || 0;\nvar grasp = parseFloat(grasp) || 0;\nvar preserve = parseFloat(preserve) || 0;\nvar combat = parseFloat(combat) || 0;\nvar ab = parseFloat(ab) || 0;\n\nvar mini = 'Higher scores indicate greater severity of catatonia';\nvar msg = 'Bush-Francis Catatonia Rating Scale<br/><br/>Higher scores indicate greater severity of catatonia';\nvar pt = 'points';\nif ([excite,immobile,mute,stare,posture,grimace,echo,stereo,manner,verb,rigid,negative,waxy,withdrawal].filter(val => val > 0).length >= 2) {\n  var score = excite + immobile + mute + stare + posture + grimace + echo + stereo + manner + verb + rigid + negative + waxy + withdrawal + impulse + auto + mit + geg + amb + grasp + preserve + combat + ab;\n} else {\n  score = ''\n  msg = 'Not positive for catatonia as per Bush-Francis Catatonia Screening'\n  pt = ''\n  mini = 'Not positive for catatonia as per Bush-Francis Catatonia Screening'\n}\n  \n\n\n//results\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: pt,\n    message: mini\n});\ncalc_output.push({\n    name: 'TNM RCC',\n    value: score,\n    value_text: pt,\n    message: msg\n});",
+        "favorite_id": 10239,
+        "full_title_en": "Bush-Francis Catatonia Rating Scale",
+        "input_schema": [
+          {
+            "subheading": "Screening questions: if ≥2 are positive, full scale should be completed",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Excitement",
+            "name": "excite",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Excessive motion; intermittent",
+                "value": 1
+              },
+              {
+                "label": "Constant motion; hyperkinetic without rest periods",
+                "value": 2
+              },
+              {
+                "label": "Full-blown catatonic excitement; endless frenzied motor activity",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Extreme hyperactivity, constant motor unrest that appears non-purposeful; not attributed to akathisia or goal-directed agitation ",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Immobility/stupor",
+            "name": "immobile",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Sits abnormally still; may interact briefly",
+                "value": 1
+              },
+              {
+                "label": "Virtually no interaction with external world",
+                "value": 2
+              },
+              {
+                "label": "Stuporous; non-reactive to painful stimuli",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Extreme hypoactivity, immobile, minimally responsive to stimuli",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Mutism",
+            "name": "mute",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Verbally unresponsive to majority of questions; incomprehensible whisper",
+                "value": 1
+              },
+              {
+                "label": "Speaks <20 words per 5 min",
+                "value": 2
+              },
+              {
+                "label": "No speech",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Verbally unresponsive or minimally responsive",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Staring",
+            "name": "stare",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Poor eye contact; repeatedly gazes <20 sec between shifting of attention; decreased blinking",
+                "value": 1
+              },
+              {
+                "label": "Gaze held longer than 20 sec; occasionally shifts attention",
+                "value": 2
+              },
+              {
+                "label": "Fixed gaze; non-reactive",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Fixed gaze; little or no visual scanning of environment; decreased blinking",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Posturing/catalepsy",
+            "name": "posture",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "<1 min",
+                "value": 1
+              },
+              {
+                "label": ">1 min to <15 min",
+                "value": 2
+              },
+              {
+                "label": "Bizarre posture, or mundane >15 min",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Spontaneous maintenance of posture(s), including mundane (e.g. sitting or standing for long periods without reacting)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Grimacing",
+            "name": "grimace",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "<10 sec",
+                "value": 1
+              },
+              {
+                "label": "<1 min",
+                "value": 2
+              },
+              {
+                "label": "Bizarre expression(s) or maintained >1 min",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Maintenance of odd facial expressions",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Echopraxia/echolalia",
+            "name": "echo",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Occasional",
+                "value": 1
+              },
+              {
+                "label": "Frequent",
+                "value": 2
+              },
+              {
+                "label": "Constant",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Mimicking of examiner’s movements/speech",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Stereotypy",
+            "name": "stereo",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Occasional",
+                "value": 1
+              },
+              {
+                "label": "Frequent",
+                "value": 2
+              },
+              {
+                "label": "Constant",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Repetitive, non-goal-directed motor activity (e.g. finger-play, repeatedly touching, patting, or rubbing self); abnormality not inherent in act but in its frequency",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Mannerisms",
+            "name": "manner",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Occasional",
+                "value": 1
+              },
+              {
+                "label": "Frequent",
+                "value": 2
+              },
+              {
+                "label": "Constant",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Odd, purposeful movements (hopping or walking tiptoe, saluting passers-by, or exaggerated caricatures of mundane movements); abnormality inherent in act itself",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Verbigeration",
+            "name": "verb",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Occasional",
+                "value": 1
+              },
+              {
+                "label": "Frequent; difficult to interrupt",
+                "value": 2
+              },
+              {
+                "label": "Constant",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Repetition of phrases or sentences (like a scratched record)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Rigidity",
+            "name": "rigid",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Mild resistance",
+                "value": 1
+              },
+              {
+                "label": "Moderate",
+                "value": 2
+              },
+              {
+                "label": "Severe; cannot be repostured",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Maintenance of a rigid position despite efforts to be moved; exclude if cog-wheeling or tremor present",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Negativism",
+            "name": "negative",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Mild resistance and/or occasionally contrary",
+                "value": 1
+              },
+              {
+                "label": "Moderate resistance and/or frequently contrary",
+                "value": 2
+              },
+              {
+                "label": "Severe resistance and/or continually contrary",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Apparently motiveless resistance to instructions or attempts to move/examine patient; contrary behavior (does exact opposite of instruction)",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Waxy flexibility",
+            "name": "waxy",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Present",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "During reposturing of patient, patient offers initial resistance before allowing themselves to be repositioned, similar to that of a bending candle",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "Withdrawal",
+            "name": "withdrawal",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Minimal PO intake/interaction for <1 day",
+                "value": 1
+              },
+              {
+                "label": "Minimal PO intake/interaction for >1 day",
+                "value": 2
+              },
+              {
+                "label": "No PO intake/interaction for ≥1 day ",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Refusal to eat, drink, and/or make eye contact",
+            "type": "radio"
+          },
+          {
+            "subheading": "Additional questions: to be completed if ≥2 of the above are positive",
+            "subheading_instructions": "",
+            "type": "subheading"
+          },
+          {
+            "conditionality": "[excite,immobile,mute,stare,posture,grimace,echo,stereo,manner,verb,rigid,negative,waxy,withdrawal].filter(val => val > 0).length >= 2",
+            "default": 0,
+            "label_en": "Impulsivity",
+            "name": "impulse",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Occasional",
+                "value": 1
+              },
+              {
+                "label": "Frequent",
+                "value": 2
+              },
+              {
+                "label": "Constant or not redirectable",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Patient suddenly engages in inappropriate behavior (e.g. runs down hallway, starts screaming, or takes off clothes) without provocation; afterwards can give no, or only a facile explanation",
+            "type": "radio"
+          },
+          {
+            "conditionality": "[excite,immobile,mute,stare,posture,grimace,echo,stereo,manner,verb,rigid,negative,waxy,withdrawal].filter(val => val > 0).length >= 2",
+            "default": 0,
+            "label_en": "Automatic obedience",
+            "name": "auto",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Occasional",
+                "value": 1
+              },
+              {
+                "label": "Frequent",
+                "value": 2
+              },
+              {
+                "label": "Constant",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Exaggerated cooperation with examiner’s request or spontaneous continuation of movement requested",
+            "type": "radio"
+          },
+          {
+            "conditionality": "[excite,immobile,mute,stare,posture,grimace,echo,stereo,manner,verb,rigid,negative,waxy,withdrawal].filter(val => val > 0).length >= 2",
+            "default": 0,
+            "label_en": "Mitgehen",
+            "name": "mit",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Present",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "“Anglepoise lamp” arm raising in response to light pressure of finger, despite instructions to the contrary",
+            "type": "radio"
+          },
+          {
+            "conditionality": "[excite,immobile,mute,stare,posture,grimace,echo,stereo,manner,verb,rigid,negative,waxy,withdrawal].filter(val => val > 0).length >= 2",
+            "default": 0,
+            "label_en": "Gegenhalten",
+            "name": "geg",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Present",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Resistance to passive movement which is proportional to strength of the stimulus; appears automatic rather than willful",
+            "type": "radio"
+          },
+          {
+            "conditionality": "[excite,immobile,mute,stare,posture,grimace,echo,stereo,manner,verb,rigid,negative,waxy,withdrawal].filter(val => val > 0).length >= 2",
+            "default": 0,
+            "label_en": "Ambitendency",
+            "name": "amb",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Present",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Patient appears motorically “stuck” in indecisive, hesitant movement",
+            "type": "radio"
+          },
+          {
+            "conditionality": "[excite,immobile,mute,stare,posture,grimace,echo,stereo,manner,verb,rigid,negative,waxy,withdrawal].filter(val => val > 0).length >= 2",
+            "default": 0,
+            "label_en": "Grasp reflex",
+            "name": "grasp",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Present",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Per neurological exam",
+            "type": "radio"
+          },
+          {
+            "conditionality": "[excite,immobile,mute,stare,posture,grimace,echo,stereo,manner,verb,rigid,negative,waxy,withdrawal].filter(val => val > 0).length >= 2",
+            "default": 0,
+            "label_en": "Perseveration",
+            "name": "preserve",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Present",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Repeatedly returns to same topic or persists with movement",
+            "type": "radio"
+          },
+          {
+            "conditionality": "[excite,immobile,mute,stare,posture,grimace,echo,stereo,manner,verb,rigid,negative,waxy,withdrawal].filter(val => val > 0).length >= 2",
+            "default": 0,
+            "label_en": "Combativeness",
+            "name": "combat",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Occasionally strikes out; low potential for injury",
+                "value": 1
+              },
+              {
+                "label": "Frequently strikes out; moderate potential for injury",
+                "value": 2
+              },
+              {
+                "label": "Serious danger to others",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Usually in an undirected manner, with no, or only a facile explanation afterwards",
+            "type": "radio"
+          },
+          {
+            "conditionality": "[excite,immobile,mute,stare,posture,grimace,echo,stereo,manner,verb,rigid,negative,waxy,withdrawal].filter(val => val > 0).length >= 2",
+            "default": 0,
+            "label_en": "Autonomic abnormality",
+            "name": "ab",
+            "optional": false,
+            "options": [
+              {
+                "label": "Absent",
+                "value": 0
+              },
+              {
+                "label": "Abnormality of 1 parameter (excluding pre-existing hypertension)",
+                "value": 1
+              },
+              {
+                "label": "Abnormality of 2 parameters",
+                "value": 2
+              },
+              {
+                "label": "Abnormality of ≥3 parameters",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "Parameters: temperature, BP, pulse, respiratory rate, diaphoresis",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logs": [
+          {
+            "message": "edited content",
+            "time": "2020-02-03T09:22:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2020-01-28T10:10:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited management",
+            "time": "2020-01-28T10:07:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2020-01-28T09:59:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited why use",
+            "time": "2020-01-28T09:47:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited contributor",
+            "time": "2020-01-25T23:35:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Testing edit",
+            "time": "2020-01-25T23:10:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2019-11-14T10:48:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited contet",
+            "time": "2019-11-14T10:44:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2019-11-14T10:42:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2019-11-14T10:37:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited results",
+            "time": "2019-09-06T10:16:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited results",
+            "time": "2019-09-06T09:48:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-09-05T22:15:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2019-09-05T22:01:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited conditionality",
+            "time": "2019-09-03T13:15:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added contributor name",
+            "time": "2019-08-23T14:35:00.000Z",
+            "user": "allyssa"
+          },
+          {
+            "message": "added creators again",
+            "time": "2019-08-06T15:07:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added search tag",
+            "time": "2019-08-06T15:06:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added dummy text",
+            "time": "2019-08-06T14:02:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added logic",
+            "time": "2019-08-06T13:59:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added inputs",
+            "time": "2019-08-06T13:55:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2019-08-06T13:02:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "claiming id",
+            "time": "2019-07-23T15:24:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "",
+        "medium_description_en": "<p>Assesses severity of catatonia.</p>",
+        "purpose_en": [
+          "Diagnosis"
+        ],
+        "search_abbreviation_en": [
+          "Bush-Francis Catatonia Rating Scale, catatonia, severity of catatonia,  catatonia severity, bush francis"
+        ],
+        "search_id": "c-10239",
+        "seo": {
+          "keywords_en": "Bush-Francis Catatonia Rating Scale, catatonia, severity of catatonia,  catatonia severity, bush francis",
+          "meta_description_en": "The Bush-Francis Catatonia Rating Scale assesses severity of catatonia."
+        },
+        "short_description_en": "Catatonia screening and severity.",
+        "short_title_en": "Bush-Francis Catatonia Rating Scale",
+        "slug": "bush-francis-catatonia-rating-scale",
+        "specialty_en": [
+          "Neurology",
+          "Psychiatry"
+        ],
+        "system_en": [
+          "Neurologic",
+          "Psychiatric"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Brandi",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Karnes",
+          "name": "Brandi Karnes, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": false,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Andrew Francis, MD, PhD, is a professor of psychiatry at Penn State College of Medicine in Hershey, Pennsylvania. He is also the director of electroconvulsive therapy and associate director of residency training at Penn State. Dr. Francis’ primary research is focused on delirium and catatonia.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Andrew Francis",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/francis-andrew.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Francis+A%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "about_en": "<p>George Bush, MD, is an associate professor of psychiatry at Harvard Medical School in Boston, Massachusetts. He is also the the chief medical officer of MagnetiCare TMS of Long Island. Dr. Bush’s primary research is focused on anxiety, depression, and transcranial magnetic stimulation.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. George Bush",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-george-bush.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Bush+G%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10239/bush-francis-catatonia-rating-scale",
+        "description": "The Bush-Francis Catatonia Rating Scale assesses severity of catatonia.",
+        "keywords": "Bush-Francis Catatonia Rating Scale, catatonia, severity of catatonia,  catatonia severity, bush francis",
+        "title": "Bush-Francis Catatonia Rating Scale"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10286,
+          "short_title_en": "Brescia-COVID Severity Scale",
+          "slug": "brescia-covid-respiratory-severity-scale-bcrss-algorithm"
+        },
+        {
+          "calcId": 10166,
+          "short_title_en": "ALSFRS-R for Amyotrophic Lateral Sclerosis",
+          "slug": "revised-amyotrophic-lateral-sclerosis-functional-rating-scale-alsfrs-r"
+        },
+        {
+          "calcId": 10085,
+          "short_title_en": "SLICS",
+          "slug": "subaxial-injury-classification-severity-scale-slics"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10239",
+      "bush-francis-catatonia-rating-scale"
+    ]
+  },
+  "scriptLoader": []
+}

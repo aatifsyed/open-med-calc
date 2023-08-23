@@ -1,0 +1,592 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Bleeding",
+          "Headache",
+          "Nausea",
+          "Numbness",
+          "Pain",
+          "Seizure",
+          "Vision Loss",
+          "Vomiting",
+          "Weakness"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">The PHASES Score is calculated by the addition of the selected points:</p>\n<div dir=\"ltr\" align=\"left\">\n<table><colgroup><col width=\"141\"><col width=\"196\"><col width=\"110\"></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span style=\"text-decoration: underline;\"><strong>P</strong></span>opulation</p>\n</td>\n<td>\n<p dir=\"ltr\">North American, European (other than Finnish)</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Japanese</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Finnish</p>\n</td>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><span style=\"text-decoration: underline;\"><strong>H</strong></span>ypertension</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><span style=\"text-decoration: underline;\"><strong>A</strong></span>ge</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;70 years</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;70 years</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\"><span style=\"text-decoration: underline;\"><strong>S</strong></span>ize of aneurysm</p>\n</td>\n<td>\n<p dir=\"ltr\">&lt;7.0 mm</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">7.0-9.9 mm</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">10.0-19.9 mm</p>\n</td>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;20.0 mm</p>\n</td>\n<td>\n<p dir=\"ltr\">10</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\"><span style=\"text-decoration: underline;\"><strong>E</strong></span>arlier <abbr title=\"subarachnoid hemorrhage\">SAH</abbr> from another aneurysm</p>\n</td>\n<td>\n<p dir=\"ltr\">No</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Yes</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\n<p dir=\"ltr\"><span style=\"text-decoration: underline;\"><strong>S</strong></span>ite of aneurysm</p>\n</td>\n<td>\n<p dir=\"ltr\">Internal carotid artery (ICA)</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Middle cerebral artery (MCA)</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Anterior cerebral arteries (ACA), posterior communicating artery, posterior circulation</p>\n</td>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>&nbsp;</p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\" align=\"left\">\n<table><colgroup><col width=\"211\"><col width=\"237\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>PHASES Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>5-Year Risk of Aneurysm Rupture</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&le;2</p>\n</td>\n<td>\n<p dir=\"ltr\">0.4%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n<td>\n<p dir=\"ltr\">0.7%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">4</p>\n</td>\n<td>\n<p dir=\"ltr\">0.9%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">5</p>\n</td>\n<td>\n<p dir=\"ltr\">1.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">6</p>\n</td>\n<td>\n<p dir=\"ltr\">1.7%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">7</p>\n</td>\n<td>\n<p dir=\"ltr\">2.4%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">8</p>\n</td>\n<td>\n<p dir=\"ltr\">3.2%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">9</p>\n</td>\n<td>\n<p dir=\"ltr\">4.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">10</p>\n</td>\n<td>\n<p dir=\"ltr\">5.3%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">11</p>\n</td>\n<td>\n<p dir=\"ltr\">7.2%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;12</p>\n</td>\n<td>\n<p dir=\"ltr\">17.8%</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>&nbsp;</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/24290159/",
+                  "text": "Greving JP, Wermer MJH, Brown RD, et al. Development of the PHASES score for prediction of risk of rupture of intracranial aneurysms: a pooled analysis of six prospective cohort studies. Lancet Neurol. 2014;13(1):59-66."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/28667020/",
+                  "text": "Bijlenga P, Gondar R, Schilling S, et al. Phases score for the management of intracranial aneurysm: a cross-sectional population-based retrospective study. Stroke. 2017;48(8):2105-2112."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/25757900/",
+                  "text": "Backes D, Vergouwen MDI, Tiel Groenestege AT, et al. Phases score for prediction of intracranial aneurysm growth. Stroke. 2015;46(5):1221-1226."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Jacoba P. Greving",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "",
+            "use_case_en": "<p>Do you use the PHASES Score and want to contribute your expertise? <a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a>&nbsp;our contributor team!</p>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p>Do you use the PHASES Score and want to contribute your expertise? <a href=\"https://www.mdcalc.com/join-us\" target=\"_blank\" rel=\"noopener\">Join</a>&nbsp;our contributor team!</p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Intracranial Aneurysm"
+        ],
+        "dosing": false,
+        "equation_logic": "b471e7c831a1a024e87156672cd5c8f5",
+        "equation_logic_text": "var calc_output = [];\n\nvar population = parseFloat(population);\nvar hypertension = parseFloat(hypertension);\nvar age = parseFloat(age);\nvar size = parseFloat(size);\nvar sah = parseFloat(sah);\nvar site = parseFloat(site);\n\nvar score = population + hypertension + age + size + sah + site;\n\nvar risk;\n\nif (score <= 2) {\n    risk = 0.4;\n} else if (score == 3) {\n    risk = 0.7;\n} else if (score == 4) {\n    risk = 0.9;\n} else if (score == 5) {\n    risk = 1.3;\n} else if (score == 6) {\n    risk = 1.7;\n} else if (score == 7) {\n    risk = 2.4;\n} else if (score == 8) {\n    risk = 3.2;\n} else if (score == 9) {\n    risk = 4.3;\n} else if (score == 10) {\n    risk = 5.3;\n} else if (score == 11) {\n    risk = 7.2;\n} else if (score >= 12) {\n    risk = 17.8;\n}\n\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: 'PHASES Score'\n});\ncalc_output.push({\n    name: 'Score',\n    value: score,\n    value_text: 'points',\n    message: 'PHASES Score'\n});\ncalc_output.push({\n    name: 'Risk',\n    value: risk,\n    value_text: '%',\n    message: '5-year risk of aneurysm rupture'\n})",
+        "favorite_id": 10459,
+        "full_title_en": "PHASES Score",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": null,
+            "label_en": "<p><span style=\"text-decoration: underline;\"><strong>P</strong></span>opulation</p>",
+            "name": "population",
+            "optional": false,
+            "options": [
+              {
+                "label": "North American, European (other than Finnish)",
+                "value": 0
+              },
+              {
+                "label": "Japanese",
+                "value": 3
+              },
+              {
+                "label": "Finnish",
+                "value": 5
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p><span style=\"text-decoration: underline;\"><strong>H</strong></span>ypertension</p>",
+            "name": "hypertension",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p><strong><span style=\"text-decoration: underline;\">A</span></strong>ge</p>",
+            "name": "age",
+            "optional": false,
+            "options": [
+              {
+                "label": "<70 years",
+                "value": 0
+              },
+              {
+                "label": "≥70 years",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p><span style=\"text-decoration: underline;\"><strong id=\"docs-internal-guid-d1fc07a2-7fff-e06d-bb5f-0c3a932ceeb9\">S</strong></span>ize of aneurysm</p>",
+            "name": "size",
+            "optional": false,
+            "options": [
+              {
+                "label": "<7.0 mm",
+                "value": 0
+              },
+              {
+                "label": "7.0-9.9 mm",
+                "value": 3
+              },
+              {
+                "label": "10.0-19.9 mm",
+                "value": 6
+              },
+              {
+                "label": "≥20.0 mm",
+                "value": 10
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p><span style=\"text-decoration: underline;\"><strong>E</strong></span>arlier <abbr title=\"subarachnoid hemorrhage\">SAH</abbr> from another aneurysm</p>",
+            "name": "sah",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": null,
+            "default": 0,
+            "label_en": "<p><span style=\"text-decoration: underline;\"><strong>S</strong></span>ite of aneurysm</p>",
+            "name": "site",
+            "optional": false,
+            "options": [
+              {
+                "label": "Internal carotid artery (ICA)",
+                "value": 0
+              },
+              {
+                "label": "Middle cerebral artery (MCA)",
+                "value": 2
+              },
+              {
+                "label": "Anterior cerebral arteries (ACA), posterior communicating artery, posterior circulation",
+                "value": 4
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p dir=\"ltr\"><span>Use this score to calculate the 5-year risk of rupture of cerebral aneurysms that are found incidentally on imaging.&nbsp;</span></p>\n<p dir=\"ltr\"><span>This score was derived only from North American, European, Japanese, and Finnish populations. Score should be interpreted with caution if using outside of these populations. </span></p>\n<p></p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "050fdd02b25161d0380f6f777329017b",
+        "medium_description_en": "<p>Predicts 5-year risk of rupture of intracranial aneurysms.</p>",
+        "publishedAt": "2023-02-03T16:25:53.519Z",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "PHASES Score",
+          "PHASES",
+          "aneurysm risk",
+          "aneurysm risk score",
+          "intracranial aneurysm",
+          "aneurysm rupture"
+        ],
+        "search_id": "c-10459",
+        "seo": {
+          "keywords_en": "PHASES Score, PHASES, aneurysm risk, aneurysm risk score, intracranial aneurysm, aneurysm rupture, rupture of intracranial aneurysm",
+          "meta_description_en": "The PHASES Score predicts the risk of rupture of intracranial aneurysms."
+        },
+        "short_description_en": "<p>Aneurysm risk.</p>",
+        "short_title_en": "PHASES Score",
+        "slug": "phases-score",
+        "specialty_en": [
+          "Critical Care (Neurologic)",
+          "Emergency Medicine",
+          "Neurology",
+          "Neurosurgery"
+        ],
+        "system_en": [
+          "Neurologic"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "57a42c35-e580-4f74-9085-c6ac5e437d05"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Jacoba P. Greving, MD, is an epidemiologist at the Dutch College of General Practitioners in Utrecht, Netherlands. She was awarded the Rudolf Magnus Young Talent Fellowship in 2013. Dr. Greving&rsquo;s primary research is focused on risks associated with intracranial aneurysms.</p>",
+          "createdAt": "2023-02-03T16:13:44.943Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Jacoba P. Greving",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-jacoba-p-greving.jpeg",
+          "publishedAt": "2023-02-03T16:13:45.757Z",
+          "pubmedLink": "https://pubmed.ncbi.nlm.nih.gov/?term=greving+jp%5Bauthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2023-02-03T19:01:19.392Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10459/phases-score",
+        "description": "The PHASES Score predicts the risk of rupture of intracranial aneurysms.",
+        "keywords": "PHASES Score, PHASES, aneurysm risk, aneurysm risk score, intracranial aneurysm, aneurysm rupture, rupture of intracranial aneurysm",
+        "title": "PHASES Score"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10425,
+          "short_title_en": "CRASH",
+          "slug": "chemotherapy-risk-assessment-scale-high-age-patients-crash-score"
+        },
+        {
+          "calcId": 10474,
+          "short_title_en": "2HELPS2B Score",
+          "slug": "2helps2b-score"
+        },
+        {
+          "calcId": 807,
+          "short_title_en": "HAS-BLED Score",
+          "slug": "has-bled-score-major-bleeding-risk"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10459",
+      "phases-score"
+    ]
+  },
+  "scriptLoader": []
+}

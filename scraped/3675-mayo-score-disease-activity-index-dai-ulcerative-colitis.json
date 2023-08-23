@@ -1,0 +1,635 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Abdominal Pain",
+          "Bleeding",
+          "Blood in Stool",
+          "Diarrhea"
+        ],
+        "cmeEndDate": "2025-07-25 00:00:00+00+85",
+        "cmeLastReviewed": "2022-07-25 00:00:00+00+85",
+        "cmeReleaseDate": "2020-10-08 00:00:00+00+00",
+        "cmeVersion": "3675.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<ul>\n<li>The Mayo score was described by Schroeder et al. in 1987 as a means of assessing response to pH dependent 5-ASA therapy (Asacol) in a double-blind, placebo-controlled trial that included 87 patients. It was designed to be simple to calculate at the bedside but does include endoscopic findings.</li>\n<li>The Mayo score remains unvalidated but correlates closely with quality of life. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/8299896\" target=\"_blank\" rel=\"noopener\">Irvine 1994</a>)</li>\n<li>Numerous other scoring systems for UC disease severity exist and some have been validated. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23891974\" target=\"_blank\" rel=\"noopener\">Travis 2013</a>)</li>\n<li>Despite lack of formal validation, the Mayo Score remains a common assessment tool for ulcerative colitis in current research. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27144850\" target=\"_blank\" rel=\"noopener\">Sandborn 2016</a>)</li>\n</ul>",
+            "formula_en": "<p>Addition of the selected points.</p>",
+            "more_info_en": "<div class=\"table-responsive\">\n<table class=\"table table-bordered table-hover\">\n<tbody>\n<tr>\n<th>Criteria</th>\n<th>Point Value</th>\n</tr>\n<tr>\n<td style=\"text-align: center;\" colspan=\"2\"><strong>Stool Frequency</strong></td>\n</tr>\n<tr>\n<td>Normal</td>\n<td>0</td>\n</tr>\n<tr>\n<td>1&ndash;2 stools/day more than normal</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>3&ndash;4 stools/day more than normal</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>&gt;4 stools/day more than normal</td>\n<td>+3</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\" colspan=\"2\"><strong>Rectal bleeding*</strong></td>\n</tr>\n<tr>\n<td>None</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Visible blood with stool less than half the time</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>Visible blood with stool half of the time or more</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>Passing blood alone</td>\n<td>+3</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\" colspan=\"2\"><strong>Mucosal appearance at endoscopy</strong></td>\n</tr>\n<tr>\n<td>Normal or inactive disease</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Mild disease (erythema, decreased vascular pattern, mild friability)</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>Moderate disease (marked erythema, absent vascular pattern, friability, erosions)</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>Severe disease (spontaneous bleeding, ulceration)</td>\n<td>+3</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\" colspan=\"2\"><strong>Physician rating of disease activity</strong></td>\n</tr>\n<tr>\n<td>Normal</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Mild</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>Moderate</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>Severe</td>\n<td>+3</td>\n</tr>\n</tbody>\n</table>\n<p>*Assigning a score of 3 requires patients to have &ge;50% of bowel movement accompanied by visible blood and 1+ bowel movement with blood alone.</p>\n</div>\n<p><strong>Score interpretation:</strong></p>\n<ul>\n<li>The higher the score, the more severe the case of ulcerative colitis.</li>\n<li>The highest score possible is a 12.</li>\n<li>Scores should be compared to previous scores taken for a patient.</li>\n<li>The mucosal appearance at endoscopy is not included in the Partial Mayo Score.</li>\n</ul>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Manufacturer Website": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Original/Primary Reference": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/3317057",
+                  "text": "Schroeder KW, Tremaine WJ, Ilstrup DM. Coated oral 5-aminosalicylic acid therapy for mildly to moderately active ulcerative colitis. A randomized study. N Engl J Med. 1987 Dec 24;317(26):1625-9. PMID: 3317057."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2597552/",
+                  "text": "Lewis JD, et. al. Use of the Non-invasive Components of the Mayo Score to Assess Clinical Response in Ulcerative Colitis. Inflamm Bowel Dis. Dec 2008; 14(12): 1660–1666. doi: 10.1002/ibd.20520."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/3569765",
+                  "text": "Sutherland LR, et al. 5-Aminosalicylic acid enema in the treatment of distal ulcerative colitis, proctosigmoiditis, and proctitis. Gastroenterology 92.6; 1987: 1894-1898."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4124270/",
+                  "text": "Paine ER. Colonoscopic evaluation in ulcerative colitis. Gastroenterology report 2.3; 2014: 161-168."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/17258735",
+                  "text": "D’Haens G, et al. A review of activity indices and efficacy end points for clinical trials of medical therapy in adults with ulcerative colitis. Gastroenterology 132.2; 2007: 763-786."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/25550182",
+                  "text": "Manginot C et al. An endoscopic Mayo score of 0 is associated with a lower risk of colectomy than a score of 1 in ulcerative colitis. Gut 64.7; 2015: 1181."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/8299896",
+                  "text": "Irvine EJ, et al. Quality of life: a valid and reliable measure of therapeutic efficacy in the treatment of inflammatory bowel disease. Canadian Crohn's Relapse Prevention Trial Study Group. Gastroenterology 106.2; 1994: 287-296."
+                },
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/27144850",
+                  "text": "Sandborn WJ, et al. Ozanimod Induction and Maintenance Treatment for Ulcerative Colitis. New England Journal of Medicine 374.18; 2016: 1754-1762."
+                }
+              ],
+              "Outcomes": [
+                {
+                  "href": "",
+                  "text": ""
+                }
+              ],
+              "Validation": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23891974",
+                  "text": "Travis SPL, et. al. Reliability and Initial Validation of the Ulcerative Colitis Endoscopic Index of Severity. Gastroenterology. 2013;145:987–995."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "John Vizuete, MD, MPH"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "Dr. Kenneth W. Schroeder",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>The Mayo Score for Ulcerative Colitis was developed to standardize the severity of a patient's ulcerative colitis (UC) symptoms, which is particularly helpful to assess response to treatment over time.</li>\n<li>The Mayo Score for Ulcerative Colitis was originally devised in 1987 for a clinical trial for pH dependent 5-ASA (Asacol) at the Mayo Clinic.</li>\n<li>Comprised of 4 parts: stool frequency, rectal bleeding, endoscopic findings and physician&rsquo;s global assessment, each scored from 0-3.</li>\n<li>The physician&rsquo;s global assessment accounts for other signs/symptoms including abdominal pain, physical exam findings (extraintestinal manifestations, fever, tachycardia), functional status, and the patient&rsquo;s overall sense of well being.</li>\n<li>Total scores range from 0-12 with higher scores indicating increased severity of disease.</li>\n<li>Response to therapy is defined differently in each trial, but most use a decrease of 3 or more points.\n<ul>\n<li>Remission is often defined as a total score of 2 or less with all individual categories &le;1. Occasionally, remission is defined stringently as a score of 0.</li>\n<li>Most clinical trials define mucosal healing as an endoscopic score of 0 or 1, although numerous other endoscopic scoring systems exist (D&rsquo;Haens 20074).</li>\n</ul>\n</li>\n<li>The &ldquo;Full&rdquo; or &ldquo;Complete&rdquo; Mayo score incorporates all 4 parts.</li>\n<li>If endoscopic findings are not available, the remaining 3 categories constitute a &ldquo;Modified&rdquo; or &ldquo;Partial&rdquo; Mayo score.</li>\n</ul>\n<p><strong>Points to keep in mind:</strong></p>\n<ul>\n<li>For stool frequency and rectal bleeding, the patient acts as their own point of reference (i.e. number of stools <i>above normal</i>) rather than the absolute number.</li>\n<li>Critics point out an element of subjectivity in the Physician&rsquo;s Global Assessment (sense of well being).</li>\n<li>The score is not designed to predict need for admission or surgical therapy.</li>\n<li>This is not a tool to diagnose ulcerative colitis, rather a tool to evaluate patients with known UC.</li>\n</ul>",
+            "use_case_en": "<ul>\n<li>Patients with known ulcerative colitis, particularly when considering changing, adding, or stopping a UC medication; this is not a tool to diagnose ulcerative colitis.</li>\n<li>The Mayo Score is the most commonly used scoring system for UC in clinical trials and routine practice (<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4124270/\" target=\"_blank\" rel=\"noopener\">Paine 2014</a>).</li>\n</ul>",
+            "why_use_en": "<ul>\n<li>Assesses initial disease severity, change in activity over time, and response to treatment.</li>\n<li>Provides a universal metric to encapsulate disease severity at a given time in a single number.</li>\n</ul>\n<p><strong>Similar calcs:</strong></p>\n<ul>\n<li>Nearly identical to the UC Disease Activity Index (DAI) devised by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/3569765\" target=\"_blank\" rel=\"noopener\">Sutherland et al</a>. Both scores were released in 1987 as objective measures to examine the effects of salicylates in UC. Both rely on the same 4 categories but have miniscule differences in their point assignments</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul>\n<li>Not designed to predict need for admission or surgical therapy</li>\n<li>However, an endoscopic score of 0 is associated with lower risk of colectomy compared to higher scores. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25550182\" target=\"_blank\" rel=\"noopener\">Manginot 2016</a>)</li>\n</ul>",
+            "critical_actions_en": "<p>If endoscopic data are not available, the modified Mayo score performs equally well. (<a href=\"http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2597552/\" target=\"_blank\" rel=\"noopener\">Lewis 2008</a>)</p>",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": {
+              "clinical": "",
+              "evidence": "",
+              "popularity": ""
+            },
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Autoimmune Disorders",
+          "Colitis",
+          "Gastroenteritis",
+          "GI Bleeding",
+          "Inflammatory Bowel Disease"
+        ],
+        "dosing": false,
+        "equation_logic": "e3b5c6e50666a261bd9fcbfd27ac8531",
+        "equation_logic_text": "var calc_output = [];\n\nvar u = parseFloat(stool)+parseFloat(rectal)+parseFloat(mucos)+parseFloat(rating);\nvar msg = 'Scores should be compared to previous scores taken for a patient. <br/><br/>The higher the score (maximum 12 points), the more severe the ulcerative colitis.';\nvar mini_msg = 'Higher scores (maximum 12 points) indicate more severe ulcerative colitis.';\n\ncalc_output.push({ name: 'mini', value: u, value_text: 'points', message: mini_msg });\ncalc_output.push({ name: 'Mayo DAI', value: u, value_text: 'points', message: msg });",
+        "favorite_id": 3675,
+        "full_title_en": "Mayo Score / Disease Activity Index (DAI) for Ulcerative Colitis",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Stool frequency</p>",
+            "name": "stool",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal",
+                "value": 0
+              },
+              {
+                "label": "1-2 stools/day more than normal",
+                "value": 1
+              },
+              {
+                "label": "3-4 stools/day more than normal",
+                "value": 2
+              },
+              {
+                "label": ">4 stools/day more than normal",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Rectal bleeding</p>",
+            "name": "rectal",
+            "optional": false,
+            "options": [
+              {
+                "label": "None",
+                "value": 0
+              },
+              {
+                "label": "Visible blood with stool less than half the time",
+                "value": 1
+              },
+              {
+                "label": "Visible blood with stool half of the time or more",
+                "value": 2
+              },
+              {
+                "label": "Passing blood alone",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "3 points requires patients to have ≥50% of BMs with visible blood AND ≥1 BM with blood alone.",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Mucosal appearance at endoscopy</p>",
+            "name": "mucos",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal or inactive disease",
+                "value": 0
+              },
+              {
+                "label": "Mild disease (erythema, decreased vascular pattern, mild friability)",
+                "value": 1
+              },
+              {
+                "label": "Moderate disease (marked erythema, absent vascular pattern, friability, erosions)",
+                "value": 2
+              },
+              {
+                "label": "Severe disease (spontaneous bleeding, ulceration)",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Physician rating of disease activity</p>",
+            "name": "rating",
+            "optional": false,
+            "options": [
+              {
+                "label": "Normal",
+                "value": 0
+              },
+              {
+                "label": "Mild",
+                "value": 1
+              },
+              {
+                "label": "Moderate",
+                "value": 2
+              },
+              {
+                "label": "Severe",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "updated contributor name",
+            "time": "2018-11-26 05:27 PM",
+            "user": "rachel"
+          },
+          {
+            "message": "edited broken link",
+            "time": "2019-03-13 11:10 AM",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "317995234569cd65c1353ac46de49afb",
+        "medium_description_en": "<p>Assesses severity of ulcerative colitis.</p>",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "search_abbreviation_en": [
+          "mayo",
+          "DAI",
+          "ulcerative colitis",
+          "colitis",
+          "rectal bleed",
+          "melena",
+          "blood in stool",
+          "endoscopy",
+          "uc"
+        ],
+        "search_id": "c-3675",
+        "seo": {
+          "keywords_en": "mayo score, mayo uc, mayo ulcerative colitis, mayo colitis, mayo colitis score, mayo rectal bleeding score, mayo GI bleeding score, disease activity index, mayo DAI, mayo disease activity index, mayo index, mayo dai UC, mayo dai ulcerative colitis, mayo dai colitis, disease activity index colitis, disease activity index UC, disease activity bleed colitis, melena colitis index, melena colitis score, severity UC score, Severity colitis score",
+          "meta_description_en": "Mayo Score / Disease Activity Index (DAI) for Ulcerative Colitis assesses severity of current ulcerative colitis."
+        },
+        "short_description_en": "<p>Assesses severity of ulcerative colitis.</p>",
+        "short_title_en": "Mayo DAI for Ulcerative Colitis",
+        "slug": "mayo-score-disease-activity-index-dai-ulcerative-colitis",
+        "specialty_en": [
+          "Gastroenterology",
+          "Internal Medicine",
+          "Surgery (General)"
+        ],
+        "system_en": [
+          "Gastrointestinal"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>John Vizuete, MD, MPH, is currently a senior gastroenterology fellow at the University of Texas Health Science Center at San Antonio. A native Texan, Dr. Vizuete obtained his BA at the University of Texas at Austin, followed by medical school and internal medicine residency training at UTHSCSA. He also holds a master’s degree in public health. Dr. Vizuete is interested in clinical outcomes in gastrointestinal bleeding, luminal endoscopy, and inflammatory bowel disease and is actively involved in medical education.</p>",
+          "firstName": "John",
+          "hasDisclosure": [],
+          "img": "john-vizuete.jpg",
+          "lastName": "Vizuete",
+          "name": "John Vizuete, MD, MPH",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Past",
+          "target": "john-vizuete",
+          "updatedAt": "2023-04-06T20:28:21.130Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Kenneth W. Schroeder, MD, is an associate professor of medicine, specifically in gastroenterology and hepatology the Mayo Clinic. Dr. Schroeder researches endoscopic diagnosis/treatment of GI diseases and inflammatory bowel disease.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Kenneth W. Schroeder",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-kenneth-w-schroeder.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Schroeder+KW%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/3675/mayo-score-disease-activity-index-dai-ulcerative-colitis",
+        "description": "Mayo Score / Disease Activity Index (DAI) for Ulcerative Colitis assesses severity of current ulcerative colitis.",
+        "keywords": "mayo score, mayo uc, mayo ulcerative colitis, mayo colitis, mayo colitis score, mayo rectal bleeding score, mayo GI bleeding score, disease activity index, mayo DAI, mayo disease activity index, mayo index, mayo dai UC, mayo dai ulcerative colitis, mayo dai colitis, disease activity index colitis, disease activity index UC, disease activity bleed colitis, melena colitis index, melena colitis score, severity UC score, Severity colitis score",
+        "title": "Mayo Score / Disease Activity Index (DAI) for Ulcerative Colitis"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 10237,
+          "short_title_en": "Montreal Classification for IBD",
+          "slug": "montreal-classification-inflammatory-bowel-disease-ibd"
+        },
+        {
+          "calcId": 10235,
+          "short_title_en": "Truelove/Witts Severity Index for UC",
+          "slug": "truelove-witts-severity-index-ulcerative-colitis"
+        },
+        {
+          "calcId": 10395,
+          "short_title_en": "UCEIS",
+          "slug": "ulcerative-colitis-endoscopic-index-of-severity-uceis"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "3675",
+      "mayo-score-disease-activity-index-dai-ulcerative-colitis"
+    ]
+  },
+  "scriptLoader": []
+}

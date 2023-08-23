@@ -1,0 +1,612 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p><span id=\"docs-internal-guid-3b66cdec-7fff-90dc-7dd7-5b76b20d84f4\">Launched during COVID-19 crisis.</span></p>",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Any/All"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p>Neutrophil-lymphocyte ratio (NLR) = (Absolute neutrophil count, cells/&mu;L) / (Absolute lymphocyte count, cells/&mu;L)</p>\n<p>Note: Neutrophil&nbsp;and lymphocyte&nbsp;can also be entered as percentages.</p>",
+            "more_info_en": "<table width=\"*\" height=\"*\">\n<tbody>\n<tr>\n<td><strong>Neutrophil-lymphocyte ratio</strong></td>\n<td><strong>Physiologic stress level</strong></td>\n</tr>\n<tr>\n<td>1-3</td>\n<td>Normal</td>\n</tr>\n<tr>\n<td>4-5</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6-8</td>\n<td>Mild</td>\n</tr>\n<tr>\n<td>9-18</td>\n<td>Moderate</td>\n</tr>\n<tr>\n<td>&gt;18</td>\n<td>Severe</td>\n</tr>\n</tbody>\n</table>\n<p></p>\n<p><img src=\"https://cdn-web-img.mdcalc.com/content/nlr.png\" width=\"100%\">From&nbsp;<a href=\"https://emcrit.org/pulmcrit/nlr/\" target=\"_blank\" rel=\"noopener\">PulmCrit: Neutrophil-Lymphocyte Ratio (2019)</a>.</p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/11723675/",
+                  "text": "Zahorec R. Ratio of Neutrophil to Lymphocyte Counts--Rapid and Simple Parameter of Systemic Inflammation and Stress in Critically Ill.Bratisl Lek Listy. 2001;102(1):5-14. "
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [
+                {
+                  "href": " https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7152924/",
+                  "text": "Yang AP, Liu JP, Tao WQ, Li HM. The diagnostic and predictive role of NLR, d-NLR and PLR in COVID-19 patients. Int Immunopharmacol. 2020;84:106504."
+                }
+              ],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Graham Walker, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Roman Zahorec",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p dir=\"ltr\">The NLR appears to increase with any physiologic stress; it would not help differentiate hemorrhagic shock from septic shock, for example.&nbsp;</p>\n<p dir=\"ltr\">While there is not formally agreed upon cutoffs for NLR, PulmCrit provides some basic ranges to help provide some guidance:&nbsp;</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">A normal NLR is roughly 1-3.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">An NLR of 6-9 suggests mild stress (e.g. a patient with uncomplicated appendicitis).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Critically ill patients will often have an NLR of 9 or higher (occasionally reaching values close to 100).</p>\n</li>\n</ul>\n<p dir=\"ltr\">The NLR does appear to have good discriminant function evaluating patients for possible appendicitis, as well as prognostication for several conditions including pulmonary embolism.</p>\n<p dir=\"ltr\">The NLR may be skewed for several reasons, including steroid use, an active hematologic disorder, and possibly HIV (with this predominantly concerning chronic lymphopenia).</p>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-5f95dae1-7fff-59e7-341a-063dcd84598f\">The NLR may help detect occult physiologic stress in patients with similar symptoms. One example that <a href=\"https://emcrit.org/pulmcrit/nlr/\" target=\"_blank\" rel=\"noopener\">PulmCrit</a>&nbsp;uses is differentiating a simple viral syndrome from bacteremia or sepsis (a viral syndrome might create very mild signs of physiologic distress while sepsis would create severe physiologic distress).</span></p>",
+            "why_use_en": "<p>The NLR appears to be a reasonably good marker of \"physiological stress\" in the body, and in many studies performs better than more commonly used tests like the standard white blood cell count (WBC).</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>The NLR should always be interpreted in the clinical context of the patient and not be used in isolation to diagnose or rule-out disease, however it may be a more useful test than ones medicine routinely uses, like the WBC.</p>",
+            "critical_actions_en": "",
+            "management_en": "<p>The NLR can be trended over time which has been shown to be useful in prognostication of several diseases including intracranial hemorrhage and sepsis.</p>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Any/All"
+        ],
+        "dosing": false,
+        "equation_logic": "14cec1eaf5d3214e271d5f1f601eeb1f",
+        "equation_logic_text": "calc_output = [];\nvar neut = parseFloat(neut);\nvar lymph = parseFloat(lymph);\nvar ratio= neut/lymph;\nratio = ratio.toFixed(0);\nvar level;\n\nif (ratio>=0 & ratio<1) {\n  level = '';\n} else if (ratio>=1 & ratio<=3) {\n  level='Normal';\n} else if (ratio>3 & ratio<=5) {\n  level = '';\n} else if (ratio>=6 & ratio<9) {\n  level='Mild'; \n} else if (ratio>=9 & ratio<=18) {\n  level='Moderate';\n} else if (ratio>18) {\n  level='Severe';\n}\n\ncalc_output.push({\n    name: 'mini',\n    value: ratio,\n    value_text:'',\n    message:'Neutrophil-Lymphocyte Ratio'\n});\ncalc_output.push({\n    name: 'NLR',\n    value: ratio,\n    value_text:'',\n    message: 'Neutrophil-Lymphocyte Ratio'\n});\nif(ratio==1 || ratio==2 || ratio==3 || ratio >= 6) {\ncalc_output.push({\n    name: 'stress',\n    value: level,\n    value_text:'',\n    message:'Physiologic stress level'\n});\n}",
+        "favorite_id": 10305,
+        "full_title_en": "Neutrophil-Lymphocyte Ratio (NLR) Calculator",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p><calculator id=\"19\">Absolute or % neutrophil count</calculator></p>",
+            "name": "neut",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "NLR"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p><calculator id=\"2203\">Absolute or % lymphocyte count</calculator></p>",
+            "name": "lymph",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "NLR"
+          }
+        ],
+        "instructions_en": "<p>Using either the absolute count or the percentage/relative count from a CBC with differential will yield the same NLR result.</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "added contributor",
+            "time": "2020-05-28T15:45:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "changed stress to physiologic stress",
+            "time": "2020-05-28T15:39:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited short title",
+            "time": "2020-05-27T21:37:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited evidence",
+            "time": "2020-05-27T20:55:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-05-27T20:53:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited links in evidence",
+            "time": "2020-05-27T20:48:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited link",
+            "time": "2020-05-27T20:09:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited link",
+            "time": "2020-05-27T20:04:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "changed tips",
+            "time": "2020-05-27T18:12:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added tips",
+            "time": "2020-05-27T12:43:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added content",
+            "time": "2020-05-27T12:14:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "changed short title",
+            "time": "2020-05-27T09:20:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "changed validation source",
+            "time": "2020-05-26T09:11:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-05-26T00:18:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited logic",
+            "time": "2020-05-26T00:17:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited inputs",
+            "time": "2020-05-25T22:06:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "updated calc link",
+            "time": "2020-05-22T14:23:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "updated logic",
+            "time": "2020-05-22T13:59:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "added links",
+            "time": "2020-05-22T13:34:00.000Z",
+            "user": "michael"
+          },
+          {
+            "message": "claimed calc id",
+            "time": "2020-05-22T13:21:00.000Z",
+            "user": "michael"
+          }
+        ],
+        "md5": "e375d7e1c495c85532b908b9426af188",
+        "medium_description_en": "<p>Calculates neutrophil-lymphocyte ratio.</p>",
+        "publishedAt": "2022-04-21T20:28:44.518Z",
+        "purpose_en": [
+          "Calculation"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "Neutrophil-Lymphocyte Ratio (NLR) Calculator, NLR Calculator, NLR, neutrophil, lymphocyte, neutrophil lymphocyte, neutrophil lymphocyte ratio, NLR ratio"
+        ],
+        "search_id": "c-10305",
+        "seo": {
+          "keywords_en": "Neutrophil-Lymphocyte Ratio (NLR) Calculator, NLR Calculator, NLR, neutrophil, lymphocyte, neutrophil lymphocyte, neutrophil lymphocyte ratio, NLR ratio",
+          "meta_description_en": "The Neutrophil-Lymphocyte Ratio (NLR) Calculator calculates neutrophil-lymphocyte ratio. "
+        },
+        "short_description_en": "<p>Neutrophil-lymphocyte ratio calculation.</p>",
+        "short_title_en": "Neutrophil-Lymphocyte Ratio (NLR)",
+        "slug": "neutrophil-lymphocyte-ratio-nlr-calculator",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Infectious Disease",
+          "Internal Medicine"
+        ],
+        "system_en": [
+          "Any/All"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "4af6705a-14de-43c2-910a-b83a07e11dbb"
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Graham Walker, MD, is an emergency physician practicing in San Francisco, California. Dr. Walker attended medical school at the Stanford University School of Medicine and then trained in emergency medicine at St. Luke’s-Roosevelt Hospital Center in New York City, where he was Chief Resident. He returned to the west coast as a Medical Simulation fellow and attending in Stanford’s emergency department. More relevant, of course, is that Dr. Walker is the creator and developer of MDCalc and remains active in content and calculator development, along with our many other endeavors as President of MD Aware, LLC (MDCalc’s parent company).</p>",
+          "firstName": "Graham",
+          "hasDisclosure": [],
+          "img": "https://cdn-web-img.mdcalc.com/people/graham-walker.jpg",
+          "lastName": "Walker",
+          "name": "Graham Walker, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "graham-walker",
+          "updatedAt": "2023-04-06T20:26:06.157Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p> Roman Zahorec, MD, CSc, is professor in the department of anesthesiology and intensive care medicine at the Institute of Oncology St. Alžbety in Slovakia. He is also the head of the department and is a member of the ethics committee. Dr. Zahorec's primary research is focused on anesthesia management in oncology cases and predictive outcomes in critically ill patients.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Roman Zahorec",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-roman-zahorec.png",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://pubmed.ncbi.nlm.nih.gov/?term=zahorec+r+%5Bauthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10305/neutrophil-lymphocyte-ratio-nlr-calculator",
+        "description": "The Neutrophil-Lymphocyte Ratio (NLR) Calculator calculates neutrophil-lymphocyte ratio. ",
+        "keywords": "Neutrophil-Lymphocyte Ratio (NLR) Calculator, NLR Calculator, NLR, neutrophil, lymphocyte, neutrophil lymphocyte, neutrophil lymphocyte ratio, NLR ratio",
+        "title": "Neutrophil-Lymphocyte Ratio (NLR) Calculator"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "1",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 3000,
+          "error_max_si": 3000,
+          "error_max_us": 3000,
+          "error_min": 0.001,
+          "error_min_si": 0.001,
+          "error_min_us": 0.001,
+          "name": "NLR",
+          "normal_max_si": 0,
+          "normal_max_us": 0,
+          "normal_min_si": 0,
+          "normal_min_us": 0,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "NLR",
+          "units_si": "cells/μL or %",
+          "units_us": "cells/μL or %",
+          "updatedAt": "2022-01-03T19:16:05.077Z",
+          "warn_max": 3000,
+          "warn_max_si": 3000,
+          "warn_max_us": 3000,
+          "warn_min": 0.001,
+          "warn_min_si": 0.001,
+          "warn_min_us": 0.001
+        }
+      ],
+      "relCalcs": [
+        {
+          "calcId": 3993,
+          "short_title_en": "Basic Statistics",
+          "slug": "basic-statistics-calc"
+        },
+        {
+          "calcId": 10290,
+          "short_title_en": "IV Drip Rate Calculator",
+          "slug": "iv-drip-rate-calculator"
+        },
+        {
+          "calcId": 19,
+          "short_title_en": "Absolute Neutrophil Count",
+          "slug": "absolute-neutrophil-count-anc"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10305",
+      "neutrophil-lymphocyte-ratio-nlr-calculator"
+    ]
+  },
+  "scriptLoader": []
+}

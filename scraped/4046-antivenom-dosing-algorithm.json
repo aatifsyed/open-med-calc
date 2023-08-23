@@ -1,0 +1,556 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "This dosing tool is intended to assist with calculation, not to provide comprehensive or definitive drug information. Always double-check dosing of any drug and consult a pharmacist when necessary.",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Intoxication/Overdose"
+        ],
+        "cmeEndDate": "2025-10-03 00:00:00+00+00",
+        "cmeLastReviewed": "2022-10-03 00:00:00+00+00",
+        "cmeReleaseDate": "2022-10-07 00:00:00+00+00",
+        "cmeVersion": "4046.1",
+        "cme_status": "enabled",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/21291549\" target=\"_blank\">Lavonas et al</a> analyzed the medical literature regarding use of Crotalidae Polyvalent Immune Fab for pit viper envenomations. After analysis of 42 original articles, this panel of experts met and held a consensus-building meeting, which resulted in a consensus treatment algorithm.</p>",
+            "formula_en": "<p>Algorithm, as follows:</p> <ol> <li><strong>Are there signs of envenomation?</strong> Signs include: <ul> <li>Swelling, tenderness, redness, ecchymosis, or blebs at bite site.</li> <li>Elevated protime, decreased fibrinogen or platelets.</li> <li>Systemic signs (hypotension, bleeding beyond puncture site, refractory vomiting, diarrhea, angioedema, neurotoxicity).</li> </ul> </li> </ol> <p>If YES, proceed to 2.</p> <p>If NO, this is an apparent dry bite or no bite. Observe patient ≥8 hours, repeat labs prior to discharge, and do not administer antivenom.</p> <ol start=\"2\"> <li><strong>Check for indications for antivenom:</strong> <ul> <li>Swelling that is more than minimal and is progressing.</li> <li>Elevated protime, decreased fibrinogen or platelets.</li> <li>Any systemic signs.</li> </ul> </li> </ol> <p>If YES, proceed to 3.</p> <p>If NO, this is an apparent minor envenomation. Observe patient 12-24 hours, repeat labs at 4-6 hrs and prior to discharge, and do not administer antivenom.</p> <ol start=\"3\"> <li><strong>Administer antivenom:</strong> <ul> <li>Establish IV access, give IV fluids.</li> <li>Mix 4-6 vials of crotaline Fab antivenom in 250 mL NS and infuse over 1 hour.</li> <li>Increase dose to 6-8 vials for patients in shock or with serious active bleeding.</li> <li>Reexamine after 1 hour, and proceed to 4.</li> </ul> </li> </ol> <ol start=\"4\"> <li><strong>Check for control of envenomation (after initial antivenom):</strong> <ul> <li>Swelling and tenderness not progressing.</li> <li>Protime, fibrinogen, platelets normal or clearly improving.</li> <li>Clinically stable.</li> <li>Neurotoxicity resolved or clearly improving.</li> </ul> </li> </ol> <p>If YES, monitor patient and perform serial examinations and maintenance therapy (2 vials of antivenom every 6 hours x 3 doses (given 6, 12, and 18 hours after initial control).&nbsp;Maintenance therapy may not be needed if close observation by physician expert is available.</p> <p>If NO, then repeat antivenom until control is achieved.</p>",
+            "more_info_en": "",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21291549",
+                  "text": "Lavonas EJ, Ruha AM, Banner W, et al. Unified treatment algorithm for the management of crotaline snakebite in the United States: results of an evidence-informed consensus workshop. BMC Emerg Med. 2011;11:2."
+                },
+                {
+                  "href": "https://accessemergencymedicine.mhmedical.com/content.aspx?bookid=1163&sectionid=64552562",
+                  "text": "Hoffman R, Howland MA, Lewin N et al. Goldfrank's Toxicologic Emergencies, Tenth Edition. McGraw-Hill Education / Medical; 2014."
+                }
+              ],
+              "Other References": [
+                {
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/29774760",
+                  "text": "Pham HX, Mullins ME. Safety of nonsteroidal anti-inflammatory drugs in copperhead snakebite patients. Clin Toxicol (Phila). 2018;56(11):1121-1127."
+                }
+              ],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Stephen A. Harding, MD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": true,
+              "name": "Dr. Eric J. Lavonas",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li>Based on the Unified Treatment Algorithm (<a href=\"https://bmcemergmed.biomedcentral.com/articles/10.1186/1471-227X-11-2\" target=\"_blank\">Lavonas 2011</a>), which was developed with the goal of quick identification and management of patients who may benefit from Crotalidae Polyvalent Immune Fab.</li>\n<li>There is significant variability among envenomation patients, and this algorithm does not represent a standard of care.</li>\n<li>Report all cases of suspected/confirmed envenomation to poison control (1-800-222-1222).</li>\n</ul>",
+            "use_case_en": "<ul>\n<li>Patients with known or suspected crotaline envenomation (rattlesnake, copperhead, cottonmouth).</li>\n<li>Not valid for snakebites to the head or neck or with cardiovascular collapse: call Poison Control (1-800-222-1222).</li>\n</ul>",
+            "why_use_en": "<ul>\n<li>Approximately 9,000 snakebites are treated yearly in the US, with 5 of those patients dying annually. The case-fatality rate is reported at 1 death per 736 patients.</li>\n<li>The algorithm specifies the manifestations of crotaline envenomation that necessitate aggressive management.</li>\n</ul>"
+          },
+          "next_steps": {
+            "advice_en": "<ul> <li>Leading edge of swelling and tenderness should be marked every 15-30 minutes.</li> <li>Elevate and immobilize extremity, treat pain aggressively with IV opioids, and update tetanus status as needed.</li> </ul>",
+            "critical_actions_en": "<ul>\n<li>Report to poison control (1-800-222-1222) all cases of suspected/confirmed envenomation.</li>\n<li>Avoid the following:</li>\n<ul>\n<li>Cutting or suctioning wound.</li>\n<li>Ice.</li>\n<li>NSAIDs: avoid in rattlesnake/cottonmouth victims (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29774760\" target=\"_blank\">Pham 2018</a>).</li>\n<li>Prophylactic antibiotics.</li>\n<li>Prophylactic fasciotomy.</li>\n<li>Routine use of blood products.</li>\n<li>Electrical shock therapy.</li>\n<li>Steroids, unless allergic phenomena observed.</li>\n<li>Tourniquets.</li>\n</ul>\n</ul>",
+            "management_en": "<p>Maintenance therapy:</p>\n<ul>\n<li>2 vials of antivenom every 6 hours x 3 doses (given 6, 12, and 18 hours after initial control).</li>\n<li>May not be needed if close observation by physician expert is available.</li>\n</ul>\n<p>Follow-up planning:</p>\n<ul>\n<li>Patient should return for worsening swelling not relieved by elevation, or abnormal bleeding (e.g. melena, gum bleeding, easy bruising).</li>\n<li>If fever, rash, or muscle/joint pains occur (i.e., suggesting serum sickness), patient should return.</li>\n<li>Patient should be given bleeding precautions (no contact sports, elective surgery, or dental work for 2 weeks).</li>\n<li>Follow-up:</li>\n<ul>\n<li>Patients who did not require antivenom: as needed.</li>\n<li>Copperhead victims: as needed.</li>\n<li>Cottonmouth and rattlesnake victims: repeat labs (CBC, PT, fibrinogen) twice (2-3 days and 5-7 days after discharge), then as needed.</li>\n</ul>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [
+              {
+                "CalculatorId": 4046,
+                "createdAt": "2019-07-02T20:19:33.705Z",
+                "description": "Emergency Medicine Practice",
+                "id": 27,
+                "link": "https://www.ebmedicine.net/topics.php?paction=showTopicSeg&topic_id=584&seg_id=9488",
+                "order": 0,
+                "society": "EB Medicine",
+                "text": "Calculated Decisions: Antivenom Dosing Algorithm",
+                "updatedAt": "2019-12-06T19:05:31.267Z"
+              }
+            ],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disease_en": [
+          "Ingestion/Overdose"
+        ],
+        "dosing": true,
+        "equation_logic": "e9b0a658c7786fe78bb5f6dba10f93e1",
+        "equation_logic_text": "var calc_output = [];\n\nvar signs = parseFloat(signs)\nvar indications = parseFloat(indications)\nvar control = parseFloat(control)\n\n\nvar result, msg, rec\n\nif (signs == 0) {\n        result = 'No antivenom';\n        msg = 'Apparent dry bite/no bite'\n        rec = 'Recommendation: observe patient ≥8 hours, repeat labs prior to discharge, and do not administer antivenom.'\n}\nelse {\n    if (indications == 1) {\n        result = 'Give antivenom'\n        msg = 'Envenomation with indication for antivenom'\n        rec = 'Mix 4-6 vials (6-8 vials if shock or serious active bleeding) of crotaline Fab antivenom in 250 mL NS; infuse over 1 hour.'\n    }\n    else {\n        result = 'No antivenom';\n        msg = 'Apparent minor envenomation'\n        rec = 'Observe patient 12-24 hours, repeat labs at 4-6 hours and prior to discharge, and do not administer antivenom.'\n    } \n    // else {\n    //         if (control == 1) {\n    //             result = 'Give antivenom';\n    //             msg = 'Monitor patient. Perform serial examinations, maintenance therapy.'\n    //             msg2 = 'Establish IV access, give IV fluids. Mix 4-6 vials of crotaline Fab antivenom in 250 mL NS and infuse over 1 hour (or 6-8 vials if shock or serious active bleeding.'\n    //         }\n    //         else {\n    //             result = 'Repeat antivenom until initial control achieved';\n    //             msg = 'Establish IV access, give IV fluids, mix 4-6 vials of crotaline Fab antivenom in 250 ml NS and infuse over 1 hour. Increase dose to 6-8 vials for patients in shock or with serious active bleeding, reexamine after 1 hour.'\n    //         }\n    //     }\n    }\ncalc_output.push({ \n    name: 'mini', \n    value: result, \n    value_text: '', \n    message: '' \n});\ncalc_output.push({ \n    name: 'Antivenom Dosing', \n    value: result, \n    value_text: '', \n    message: msg \n});\ncalc_output.push({ \n    name: 'Recommendation', \n    value: ' ', \n    value_text: '', \n    message: rec \n});\n\nif (result == 'Give antivenom') {\ncalc_output.push({ \n    name: 'Next steps', \n    value: ' ', \n    value_text: '', \n    message: 'Re-examine after 1 hour. If envenomation controlled, monitor patient, perform serial examinations, and give maintenance therapy (2 vials of antivenom every 6 hours x 3 doses). See Evidence for details.'\n});\n}",
+        "favorite_id": 4046,
+        "full_title_en": "Antivenom Dosing Algorithm",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "Are there signs of envenomation?",
+            "name": "signs",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Swelling, tenderness, redness, ecchymosis, or blebs at bite site; elevated protime, decreased fibrinogen or platelets; systemic signs (hypotension, bleeding beyond puncture site, refractory vomiting, diarrhea, angioedema, neurotoxicity)",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "signs == 1",
+            "default": null,
+            "label_en": "Are there indications for antivenom?",
+            "name": "indications",
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "Swelling that is moderate, severe, and/or progressing; elevated protime, decreased fibrinogen or platelets; any systemic signs",
+            "type": "toggle"
+          }
+        ],
+        "instructions_en": "<p>Use only in cases of symptomatic crotalid snake envenomation (pit vipers including rattlesnakes, cottonmouths, and copperheads) in the US, for CroFab administration. Do not use in cases of coral snake envenomation or snakes not indigenous to the US. Do not use for Anavip administration, as it will result in incorrect dosing. Report all cases of suspected/confirmed envenomation to poison control (1-800-222-1222).</p>",
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "creator approved",
+            "time": "2019-12-06T14:05:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "creator edits",
+            "time": "2019-12-06T14:03:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "creator input",
+            "time": "2019-11-14T12:41:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added anavip link",
+            "time": "2019-11-14T10:59:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "creator input",
+            "time": "2019-11-14T10:58:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added pharmacy tag",
+            "time": "2019-02-18T18:11:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited partner content",
+            "time": "2018-09-07T18:27:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "partner calc added",
+            "time": "2018-09-07T18:25:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "cbcef657db18a45523782f863ffa72d0",
+        "medium_description_en": "<p>Doses antivenom (CroFab only, not Anavip) for pit viper snakebites.</p>",
+        "purpose_en": [
+          "Algorithm"
+        ],
+        "search_abbreviation_en": [
+          "Antivenom",
+          "ASV",
+          "snake bite",
+          "envenomation",
+          "venom",
+          "Crotalidae Polyvalent Immune Fab",
+          "snakebite",
+          "crotalid"
+        ],
+        "search_id": "c-4046",
+        "seo": {
+          "keywords_en": "Antivenom, ASV, snake bite, envenomation, venom, Crotalidae Polyvalent Immune Fab",
+          "meta_description_en": "Antivenom Dosing doses antivenom for snake bites."
+        },
+        "short_description_en": "Antivenom for snake bites.",
+        "short_title_en": "Antivenom Dosing Algorithm",
+        "slug": "antivenom-dosing-algorithm",
+        "specialty_en": [
+          "Emergency Medicine",
+          "Family Practice",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Pharmacy",
+          "Toxicology"
+        ],
+        "system_en": [
+          "Any/All"
+        ]
+      },
+      "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Stephen",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Harding",
+          "name": "Stephen A. Harding, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "creators": [
+        {
+          "about_en": "<p>Eric J. Lavonas, MD, is a practicing emergency physician and medical toxicologist. He is a professor of emergency medicine at the University of Colorado School of Medicine, and has served as the interim director of the emergency department at Denver Health. His research interests include envenomation and antidote development, carbon monoxide poisoning, and health care quality.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": false,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Eric J. Lavonas",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-eric-lavonas.jpg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Lavonas+EJ%5Bau%5D",
+          "signedCOI": false,
+          "updatedAt": "2022-10-07T15:21:09.045Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/4046/antivenom-dosing-algorithm",
+        "description": "Antivenom Dosing doses antivenom for snake bites.",
+        "keywords": "Antivenom, ASV, snake bite, envenomation, venom, Crotalidae Polyvalent Immune Fab",
+        "title": "Antivenom Dosing Algorithm"
+      },
+      "isCMECalc": true,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 4036,
+          "short_title_en": "DigiFab (Digibind) Dosing",
+          "slug": "digifab-dosing-digoxin-poisoning"
+        },
+        {
+          "calcId": 4023,
+          "short_title_en": "Naloxone Drip Dosing",
+          "slug": "naloxone-drip-dosing"
+        },
+        {
+          "calcId": 2040,
+          "short_title_en": "Steroid Conversion",
+          "slug": "steroid-conversion-calculator"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "4046",
+      "antivenom-dosing-algorithm"
+    ]
+  },
+  "scriptLoader": []
+}

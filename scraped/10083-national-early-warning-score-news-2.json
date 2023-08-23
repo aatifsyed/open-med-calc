@@ -1,0 +1,896 @@
+{
+  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<p><strong>Tips for COVID-19:</strong>&nbsp;Use for Crisis Standards of Care.&nbsp;Used for subgroup analyses (not for Crises Standards of Care) in <a href=\"https://www.nejm.org/doi/pdf/10.1056/NEJMoa2001282?articleTools=true\" target=\"_blank\" rel=\"noopener\">Cao et al (2020) NEJM&rsquo;s Lopinavir-Ritonavir study in COVID-19</a>.</p>",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "AMS",
+          "Bleeding",
+          "Chest Pain",
+          "Fever",
+          "Seizure"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "",
+            "formula_en": "<p dir=\"ltr\">Addition of the selected points:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"170\"><col width=\"170\"><col width=\"97\"></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Variable</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Points</strong></p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Respiratory rate, breaths per minute</p>\n</td>\n<td>\n<p dir=\"ltr\">&le;8</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">9-11</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">12-20</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">21-24</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;25</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"4\">\n<p dir=\"ltr\">SpO<sub>2</sub> (on room air or supplemental)</p>\n</td>\n<td>\n<p dir=\"ltr\">&le;91%</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">92-93%</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">94-95%</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;96%</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"7\">\n<p dir=\"ltr\">SpO<sub>2</sub> (if patient has hypercapnic respiratory failure)</p>\n</td>\n<td>\n<p dir=\"ltr\">&le;83%</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">84-85%</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">86-87%</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">88-92%, &ge;93% on room air</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">93-94% on supplemental oxygen</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">95-96% on supplemental oxygen</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;97% on supplemental oxygen</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Room air or supplemental oxygen</p>\n</td>\n<td>\n<p dir=\"ltr\">Supplemental oxygen</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Room air</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Temperature</p>\n</td>\n<td>\n<p dir=\"ltr\">&le;35.0&deg;C (95&deg;F)</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">35.1-36.0&deg;C (95.1-96.8&deg;F)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">36.1-38.0&deg;C (96.9-100.4&deg;F)</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">38.1-39.0&deg;C (100.5-102.2&deg;F)</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;39.1&deg;C (102.3&deg;F)</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"5\">\n<p dir=\"ltr\">Systolic BP, mmHg</p>\n</td>\n<td>\n<p dir=\"ltr\">&le;90</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">91-100</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">101-110</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">111-219</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;220</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"6\">\n<p dir=\"ltr\">Pulse, beats per minute</p>\n</td>\n<td>\n<p dir=\"ltr\">&le;40</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">41-50</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">51-90</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">91-110</p>\n</td>\n<td>\n<p dir=\"ltr\">1</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">111-130</p>\n</td>\n<td>\n<p dir=\"ltr\">2</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;131</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\n<p dir=\"ltr\">Consciousness</p>\n</td>\n<td>\n<p dir=\"ltr\">Alert</p>\n</td>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">New-onset confusion (or disorientation/agitation), responds to voice, responds to pain, or unresponsive</p>\n</td>\n<td>\n<p dir=\"ltr\">3</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-a799da09-7fff-3b85-8bf8-fe305cf40dfd\"><span id=\"docs-internal-guid-a799da09-7fff-3b85-8bf8-fe305cf40dfd\">&nbsp;</span></span></p>\n<p dir=\"ltr\"></p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"*\"><col width=\"93\"><col width=\"205\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>NEW Score</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Clinical risk</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Frequency of monitoring</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Response</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0-4</p>\n</td>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n<td>\n<p dir=\"ltr\">Minimum every 12 hrs if score of 0</p>\n<p dir=\"ltr\">Minimum every 4-6 hrs if score 1-4</p>\n</td>\n<td>\n<p dir=\"ltr\">Assessment by a competent registered nurse or equivalent, to decide change in frequency of clinical monitoring or escalation of care</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Score of 3 in any individual parameter</p>\n</td>\n<td>\n<p dir=\"ltr\">Low-medium</p>\n</td>\n<td rowspan=\"2\">Minimum every hr\n<p dir=\"ltr\"></p>\n</td>\n<td>\n<p dir=\"ltr\">Urgent review by a ward-based doctor, to decide change in frequency of clinical monitoring or escalation of care</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">5-6</p>\n</td>\n<td>\n<p dir=\"ltr\">Medium</p>\n</td>\n<td>\n<p dir=\"ltr\">Urgent review by a ward-based doctor or acute team nurse, to decide if critical care team assessment is needed</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&ge;7</p>\n</td>\n<td>\n<p dir=\"ltr\">High</p>\n</td>\n<td>\n<p dir=\"ltr\">Continuous monitoring of vital signs</p>\n</td>\n<td>\n<p dir=\"ltr\">Emergent assessment by a clinical team or critical care team and usually transfer to higher level of care</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-b962a8c3-7fff-c2e9-c37c-6ecbbdc1a99c\"></span><span id=\"docs-internal-guid-b962a8c3-7fff-c2e9-c37c-6ecbbdc1a99c\"><br></span></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [
+                {
+                  "href": "https://www.rcplondon.ac.uk/projects/outputs/national-early-warning-score-news-2",
+                  "text": "Royal College of Physicians. National Early Warning Score (NEWS) 2: Standardising the assessment of acute-illness severity in the NHS. Updated report of a working party. London: RCP, 2017."
+                }
+              ],
+              "Other References": [],
+              "Outcomes": [],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": []
+          },
+          "creator": [
+            {
+              "approved": false,
+              "name": "Dr. Gary B. Smith",
+              "qa_en": ""
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-1c89ff62-7fff-da06-c7cc-24c7439be006\">May not be reliable in patients with spinal cord injury due to functional disturbance of autonomic responses.</span></p>",
+            "use_case_en": "<p><span id=\"docs-internal-guid-a4ce0fd9-7fff-8af5-b381-f4853e3c09c6\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Patients &ge;16 years old.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Do not use in children &lt;16 years old or pregnant patients.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\"><a href=\"https://www.rcplondon.ac.uk/projects/outputs/national-early-warning-score-news-2\" target=\"_blank\" rel=\"noopener\">The Royal College of Physicians</a> recommends the NEWS2 in the following settings:</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Emergency: for initial assessment, serial monitoring, and assessment for triage.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Ward: for initial inpatient assessment and serial monitoring.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Prehospital: for communication of illness severity to receiving hospitals.</p>\n</li>\n</ul>\n</ul>",
+            "why_use_en": ""
+          },
+          "next_steps": {
+            "advice_en": "<p><span id=\"docs-internal-guid-fca693fc-7fff-091a-4bc9-46047e48d183\">The NEWS2 (and any early warning score) should be used as an adjunct to clinical judgment, not to replace it. Any concern about a patient&rsquo;s clinical condition should prompt urgent investigation regardless of early warning scores.</span></p>",
+            "critical_actions_en": "",
+            "management_en": ""
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Any/All",
+          "Coronavirus",
+          "COVID-19"
+        ],
+        "dosing": false,
+        "equation_logic": "de50162d4728bbb8800fc5f71c8746e8",
+        "equation_logic_text": "var calc_output = []; \nvar resp = parseFloat(resp);\nvar scale1 = parseFloat(scale1);\nvar scale2 = parseFloat(scale2);\nvar room = parseFloat(room);\nvar temp = parseFloat(temp);\nvar bp = parseFloat(bp);\nvar pulse = parseFloat(pulse);\nvar acvpu = parseFloat(acvpu);\nvar failure = parseFloat(failure);\n\n\nif (failure == 0){\n\tvar u = resp + scale1 + room + temp + bp + pulse + acvpu\n}\n\nif (failure == 1){\n\tvar u = resp + scale2 + room + temp + bp + pulse + acvpu\n}\n\nvar risk;\nvar response;\nvar freq;\n\nif (u >= 0 && u <= 4){\n  if (resp == 3||scale1 == 3||scale2 == 3||temp == 3||bp == 3||pulse == 3||acvpu == 3){\n  risk = 'Low-medium';\n  response = 'Urgent review by a ward-based doctor, to decide change in frequency of clinical monitoring or escalation of care';\n  freq = 'Every 1 hour';\n} \n  else{\n  risk = 'Low';\n  response = 'Assessment by a competent registered nurse or equivalent, to decide change in frequency of clinical monitoring or escalation of care';\n\tif(u == 0){\n    freq = 'Every 12 hours';\n    }\n  \telse{\n    freq = 'Every 4-6 hours'; \n\t}\n  }\n}\n\nelse if (u >= 5 && u <= 6){\n  risk = 'Medium';\n  response = 'Urgent review by a ward-based doctor or acute team nurse, to decide if critical care team assessment is needed';\n  freq = 'Every 1 hour';\n}\nelse if (u >= 7){\n  risk = 'High'\n  response = 'Emergent assessment by a clinical team or critical care team and usually transfer to higher level of care'\n  freq = 'Continuous monitoring';\n} \n\ncalc_output.push({\n  name:'mini',\n  value: u,\n  value_text: 'points',\n  message: risk + ' risk'\n});\ncalc_output.push({\n  name:'10083_NEWS2 Score_result (score)',\n  value: u,\n  value_text: 'points',\n  message: 'National Early Warning Score'\n});\ncalc_output.push({\n  name:'10083_NEWS2 Score_result (interpretation)',\n  value:risk,\n  value_text: 'risk',\n  message: response\n});\ncalc_output.push({\n  name:'10083_NEWS2 Score_result (freq)',\n  value:freq,\n  value_text: '',\n  message: 'Frequency of monitoring'\n});",
+        "favorite_id": 10083,
+        "full_title_en": "National Early Warning Score (NEWS) 2",
+        "input_schema": [
+          {
+            "conditionality": "",
+            "default": 2,
+            "label_en": "<p>Respiratory rate, breaths per minute</p>",
+            "mdcalc_info_concept": null,
+            "name": "resp",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "≤8",
+                "value": 3
+              },
+              {
+                "label": "9-11",
+                "value": 1
+              },
+              {
+                "label": "12-20",
+                "value": 0
+              },
+              {
+                "label": "21-24",
+                "value": 2
+              },
+              {
+                "label": "≥25",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": null,
+            "label_en": "<p>Hypercapnic respiratory failure</p>",
+            "md_calc_info_concept": null,
+            "name": "failure",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "No",
+                "value": 0
+              },
+              {
+                "label": "Yes",
+                "value": 1
+              }
+            ],
+            "show_points": false,
+            "tips_en": "",
+            "type": "toggle"
+          },
+          {
+            "conditionality": "failure == 0",
+            "default": 3,
+            "label_en": "<p>SpO₂</p>",
+            "mdcalc_info_concept": null,
+            "name": "scale1",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "≤91%",
+                "value": 3
+              },
+              {
+                "label": "92-93%",
+                "value": 2
+              },
+              {
+                "label": "94-95%",
+                "value": 1
+              },
+              {
+                "label": "≥96%",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "On room air or supplemental O₂",
+            "type": "radio"
+          },
+          {
+            "conditionality": "failure == 1",
+            "default": 3,
+            "label_en": "<p>SpO₂</p>",
+            "mdcalc_info_concept": null,
+            "name": "scale2",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "≤83%",
+                "value": 3
+              },
+              {
+                "label": "84-85%",
+                "value": 2
+              },
+              {
+                "label": "86-87%",
+                "value": 1
+              },
+              {
+                "label": "88-92%, ≥93% on room air",
+                "value": 0
+              },
+              {
+                "label": "93-94% on supplemental O₂",
+                "value": 1
+              },
+              {
+                "label": "95-96% on supplemental O₂",
+                "value": 2
+              },
+              {
+                "label": "≥97% on supplemental O₂",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "If patient has hypercapnic respiratory failure",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 1,
+            "label_en": "<p>Room air or supplemental O₂</p>",
+            "mdcalc_info_concept": null,
+            "name": "room",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Supplemental O₂",
+                "value": 2
+              },
+              {
+                "label": "Room air",
+                "value": 0
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 2,
+            "label_en": "<p>Temperature</p>",
+            "mdcalc_info_concept": null,
+            "name": "temp",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "≤35.0°C (95°F)",
+                "value": 3
+              },
+              {
+                "label": "35.1-36.0°C (95.1-96.8°F)",
+                "value": 1
+              },
+              {
+                "label": "36.1-38.0°C (96.9-100.4°F)",
+                "value": 0
+              },
+              {
+                "label": "38.1-39.0°C (100.5-102.2°F)",
+                "value": 1
+              },
+              {
+                "label": "≥39.1°C (102.3°F)",
+                "value": 2
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 3,
+            "label_en": "<p>Systolic BP, mmHg</p>",
+            "mdcalc_info_concept": null,
+            "name": "bp",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "≤90",
+                "value": 3
+              },
+              {
+                "label": "91-100",
+                "value": 2
+              },
+              {
+                "label": "101-110",
+                "value": 1
+              },
+              {
+                "label": "111-219",
+                "value": 0
+              },
+              {
+                "label": "≥220",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 2,
+            "label_en": "<p>Pulse, beats per minute</p>",
+            "mdcalc_info_concept": null,
+            "name": "pulse",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "≤40",
+                "value": 3
+              },
+              {
+                "label": "41-50",
+                "value": 1
+              },
+              {
+                "label": "51-90",
+                "value": 0
+              },
+              {
+                "label": "91-110",
+                "value": 1
+              },
+              {
+                "label": "111-130",
+                "value": 2
+              },
+              {
+                "label": "≥131",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          },
+          {
+            "conditionality": "",
+            "default": 0,
+            "label_en": "<p>Consciousness</p>",
+            "mdcalc_info_concept": null,
+            "name": "acvpu",
+            "option_fhir_rules": null,
+            "optional": false,
+            "options": [
+              {
+                "label": "Alert",
+                "value": 0
+              },
+              {
+                "label": "New-onset confusion (or disorientation/agitation), responds to voice, responds to pain, or unresponsive",
+                "value": 3
+              }
+            ],
+            "show_points": true,
+            "tips_en": "",
+            "type": "radio"
+          }
+        ],
+        "instructions_en": "<p>Recommended by the <abbr title=\"National Health Service\" style=\"color: #ffb600;\">NHS</abbr> (UK) over the original <calculator id=\"1873\">NEWS</calculator>.&nbsp;</p>",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [
+          {
+            "message": "edited link in warning",
+            "time": "2020-03-23T22:40:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited warning",
+            "time": "2020-03-23T22:33:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited warning",
+            "time": "2020-03-23T22:32:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited warning",
+            "time": "2020-03-23T22:30:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited message",
+            "time": "2020-03-23T22:29:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "covid",
+            "time": "2020-03-17T23:39:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2020-03-17T20:43:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited content",
+            "time": "2020-03-17T20:42:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added covid messaging",
+            "time": "2020-03-17T20:38:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited formula",
+            "time": "2019-07-29T14:51:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "updated description",
+            "time": "2018-12-11T11:25:00.000Z",
+            "user": "allyssa"
+          },
+          {
+            "message": "added \"recommended over NEWS\" to description",
+            "time": "2018-12-10T16:06:00.000Z",
+            "user": "allyssa"
+          },
+          {
+            "message": "updated NEWS calc tag in instructions",
+            "time": "2018-12-10T16:02:00.000Z",
+            "user": "allyssa"
+          },
+          {
+            "message": "added note about supplemental O₂ (GW feedback)",
+            "time": "2018-11-06T09:28:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "change abbr for news",
+            "time": "2018-11-05T14:09:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "change abbr in insturctions",
+            "time": "2018-11-05T14:06:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "change abbr in instructions color",
+            "time": "2018-11-05T14:03:00.000Z",
+            "user": "sang"
+          },
+          {
+            "message": "added link to NEWS",
+            "time": "2018-11-05T13:59:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "added note about NEWS",
+            "time": "2018-11-05T13:57:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "edited result",
+            "time": "2018-11-02T14:52:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited eq logic",
+            "time": "2018-11-02T14:51:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "edited result",
+            "time": "2018-11-02T14:45:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "part 1 first round edits",
+            "time": "2018-11-02T14:19:00.000Z",
+            "user": "natalie"
+          },
+          {
+            "message": "removed \"ACVPU\"",
+            "time": "2018-10-22T12:32:00.000Z",
+            "user": "rachel"
+          },
+          {
+            "message": "1st round edits",
+            "time": "2018-10-17T17:11:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "RK review",
+            "time": "2018-08-10T12:34:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "Debugged",
+            "time": "2018-08-09T22:11:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2018-08-09T16:23:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "debugging",
+            "time": "2018-08-09T15:33:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added equation logic",
+            "time": "2018-08-09T15:26:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added inputs",
+            "time": "2018-08-09T14:39:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "added content",
+            "time": "2018-08-09T09:56:00.000Z",
+            "user": "lubaina"
+          },
+          {
+            "message": "claiming calc id",
+            "time": "2018-08-09T09:48:00.000Z",
+            "user": "lubaina"
+          }
+        ],
+        "md5": "09e63ba23193389eec042fee718d624c",
+        "medium_description_en": "<p><span id=\"docs-internal-guid-96e58532-7fff-12a6-749e-93d26dfa7e62\">Determines the degree of illness of a patient and prompts critical care intervention (recommended by NHS over original NEWS).</span></p>",
+        "publishedAt": "2022-04-21T20:28:15.857Z",
+        "purpose_en": [
+          "Prognosis"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "NEWS",
+          "admission",
+          "mortality",
+          "NEWS 2",
+          "news2",
+          "covid19",
+          "covid-19",
+          "covid 19",
+          "covid",
+          "coronavirus"
+        ],
+        "search_id": "c-10083",
+        "seo": {
+          "keywords_en": "News score, news calc, news 2 score, news 2 calc, news 2, news, national early warning score, national early warning calc, national early illness calc, illness severity, illness severity calc, illness severity score, illness degree, illness degree calc, illness degree score, admission suggestion illness, admission suggestion calc, early warning score news, national early warning calc, national early warning intensive calc, national early warning mortality, news mortality, prognosis mortality, prognosis calc illness, national illness severity score",
+          "meta_description_en": "The National Early Warning Score (NEWS) 2 determines the degree of illness of a patient and prompts critical care intervention."
+        },
+        "short_description_en": "<p>Severity screening of declining conditions, recommended over original NEWS.</p>",
+        "short_title_en": "NEWS2 Score",
+        "slug": "national-early-warning-score-news-2",
+        "specialty_en": [
+          "Critical Care",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Surgery (Trauma)"
+        ],
+        "system_en": [
+          "Cardiac",
+          "Respiratory"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "390ffd8e-e83c-474b-b3d7-dae7eb23f8cb"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Gary B. Smith, Cert Med, FRCA, FRCP, is a visiting professor at the School of Health & Social Care, University of Bournemouth, UK. He is director of the UK Deteriorating Hospital Patient conference and co-director of the International Conferences on Rapid Response Systems. Professor Smith co-developed RSVP (Reason-Story-Vital Signs-Plan), for communicating patient deterioration and the Chain of Prevention, a paradigm for preventing patient deterioration.</p>",
+          "createdAt": "2021-12-23T18:03:17.779Z",
+          "deceased": null,
+          "firstName": "",
+          "lastName": "",
+          "name": "Dr. Gary B. Smith",
+          "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-gary-smith.jpeg",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Smith+GB%5BAuthor%5D",
+          "signedCOI": false,
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10083/national-early-warning-score-news-2",
+        "description": "The National Early Warning Score (NEWS) 2 determines the degree of illness of a patient and prompts critical care intervention.",
+        "keywords": "News score, news calc, news 2 score, news 2 calc, news 2, news, national early warning score, national early warning calc, national early illness calc, illness severity, illness severity calc, illness severity score, illness degree, illness degree calc, illness degree score, admission suggestion illness, admission suggestion calc, early warning score news, national early warning calc, national early warning intensive calc, national early warning mortality, news mortality, prognosis mortality, prognosis calc illness, national illness severity score",
+        "title": "National Early Warning Score (NEWS) 2"
+      },
+      "isCMECalc": false,
+      "measurements": [],
+      "relCalcs": [
+        {
+          "calcId": 1873,
+          "short_title_en": "NEWS Score",
+          "slug": "national-early-warning-score-news"
+        },
+        {
+          "calcId": 1875,
+          "short_title_en": "MEWS Score",
+          "slug": "modified-early-warning-score-mews-clinical-deterioration"
+        },
+        {
+          "calcId": 10278,
+          "short_title_en": "PIRO Score for CAP",
+          "slug": "piro-score-community-acquired-pneumonia"
+        }
+      ],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10083",
+      "national-early-warning-score-news-2"
+    ]
+  },
+  "scriptLoader": []
+}
