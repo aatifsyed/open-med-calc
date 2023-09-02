@@ -17,6 +17,7 @@ async fn main() -> anyhow::Result<()> {
 
     tokio::fs::remove_dir_all(directory).await?;
     tokio::fs::create_dir_all(directory).await?;
+    tokio::fs::create_dir_all(directory.join("calc")).await?;
 
     let root = get_next_js_payload::<Root>(client, "http://mdcalc.com").await?;
     tokio::fs::write(
@@ -36,7 +37,10 @@ async fn main() -> anyhow::Result<()> {
             )
             .await?;
             tokio::fs::write(
-                directory.clone().join(format!("{id}-{slug}.json")),
+                directory
+                    .clone()
+                    .join("calc")
+                    .join(format!("{id}-{slug}.json")),
                 format!("{json:#}"),
             )
             .await?;
