@@ -15,7 +15,7 @@ pub fn library() -> impl Iterator<Item = NormalisedCalc> {
 
 fn scraped() -> impl Iterator<Item = deser::Root> {
     use include_dir::{include_dir, Dir};
-    static DIR: Dir<'static> = include_dir!("$CARGO_MANIFEST_DIR/scraped");
+    static DIR: Dir<'static> = include_dir!("$CARGO_MANIFEST_DIR/scraped/calc");
     DIR.files()
         .map(include_dir::File::contents)
         .map(serde_json::from_slice)

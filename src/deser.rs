@@ -648,7 +648,7 @@ mod tests {
     /// Check that we capture all the information
     #[test]
     fn round_trip_all() {
-        for file in include_dir::include_dir!("$CARGO_MANIFEST_DIR/scraped").files() {
+        for file in include_dir::include_dir!("$CARGO_MANIFEST_DIR/scraped/calc").files() {
             print!("{}...", file.path().display());
             std::io::Write::flush(&mut std::io::stdout()).unwrap();
             test_roundtrip::<Root>(&[
