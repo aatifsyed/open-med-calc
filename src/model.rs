@@ -536,6 +536,7 @@ pub struct PageProps {
     pub is_c_m_e_calc: bool,
     pub measurements: Vec<Measurement>,
     pub societies: HashMap<String, Society>,
+    // [ "whenToUseViewed", "howToUseViewed" ]
     pub valid_sections: Vec<String>,
 }
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -561,48 +562,176 @@ pub struct Root {
     pub gssp: bool,
     pub script_loader: Vec<()>,
 }
-#[test]
-fn all() {
-    for file in include_dir::include_dir!("$CARGO_MANIFEST_DIR/scraped").files() {
-        print!("{}...", file.path().display());
-        std::io::Write::flush(&mut std::io::stdout()).unwrap();
-        test_roundtrip::<Root>(&[serde_json::from_slice(file.contents()).expect("invalid json")]);
-        println!("ok.");
-    }
-}
+
 #[cfg(test)]
-fn test_roundtrip<T: Serialize + serde::de::DeserializeOwned>(samples: &[serde_json::Value]) {
-    for sample in samples {
-        match serde_path_to_error::deserialize::<_, T>(sample.clone()) {
-            Ok(deser) => {
-                let round_tripped = serde_json::to_value(deser).unwrap();
-                pretty_assertions::assert_str_eq!(
-                    redact_nulls_in_objects(round_tripped).to_string(),
-                    redact_nulls_in_objects(sample.clone()).to_string(),
-                    "Round trip failed (roundtripped != sample)"
-                );
-            }
-            Err(e) => {
-                panic!(
-                    "Failed to serialize a {} from json: {e}",
-                    std::any::type_name::<T>()
-                )
+mod tests {
+    use std::collections::HashSet;
+
+    use super::*;
+    use InputSchema::{Dropdown, Radio, Subheading, Textbox, Toggle, Visual};
+
+    impl InputSchema {
+        /// Non-empty ident, unique to all [`InputSchema`]s in a [`Calc`].
+        fn name(&self) -> Option<&str> {
+            match self {
+                Dropdown { name, .. }
+                | Radio { name, .. }
+                | Textbox { name, .. }
+                | Toggle { name, .. } => Some(name.as_str()),
+                Visual { .. } | Subheading { .. } => None,
             }
         }
     }
-}
-#[cfg(test)]
-fn redact_nulls_in_objects(value: serde_json::Value) -> serde_json::Value {
-    pub use serde_json::Value::{Array, Bool, Null, Number, Object, String};
-    match value {
-        leaf @ (Null | Bool(_) | Number(_) | String(_)) => leaf,
-        Array(array) => Array(array.into_iter().map(redact_nulls_in_objects).collect()),
-        Object(object) => Object(
-            object
-                .into_iter()
-                .map(|(k, v)| (k, redact_nulls_in_objects(v)))
-                .filter(|(_k, v)| !matches!(v, Null))
-                .collect(),
-        ),
+
+    #[test]
+    fn all_measurement_units_are_used() {
+        for Root {
+            props:
+                Props {
+                    page_props:
+                        PageProps {
+                            calc: Calc { input_schema, .. },
+                            measurements,
+                            ..
+                        },
+                    ..
+                },
+            ..
+        } in all()
+        {
+            let units_in_schema = input_schema
+                .iter()
+                .filter_map(|it| match it {
+                    Textbox { unit, .. } => Some(unit.as_str()),
+                    _ => None,
+                })
+                .collect::<HashSet<_>>();
+            let defined_units = measurements
+                .iter()
+                .map(|it| it.unit.as_str())
+                .collect::<HashSet<_>>();
+            pretty_assertions::assert_eq!(units_in_schema, defined_units);
+        }
+    }
+
+    #[test]
+    fn not_all_measurement_units_are_idents() {
+        let units_which_are_not_idents = all()
+            .flat_map(|it| it.props.page_props.measurements)
+            .map(|it| it.unit)
+            .filter(|it| !is_ident(it))
+            .collect::<HashSet<_>>();
+        let expected = HashSet::from_iter(["units per day", "drip factor"].map(String::from));
+        pretty_assertions::assert_eq!(units_which_are_not_idents, expected);
+    }
+
+    #[test]
+    fn all_input_schema_names_are_idents() {
+        for name in all()
+            .flat_map(|it| it.props.page_props.calc.input_schema)
+            .filter_map(|it| it.name().map(ToOwned::to_owned))
+        {
+            if !is_ident(name.as_str()) {
+                panic!("{} is not an ident", name)
+            }
+        }
+    }
+
+    #[test]
+    fn input_schema_names_are_unique_in_calcs() {
+        for root in all() {
+            let mut unique = HashSet::new();
+            for name in root
+                .props
+                .page_props
+                .calc
+                .input_schema
+                .iter()
+                .filter_map(InputSchema::name)
+            {
+                let is_unique = unique.insert(name);
+                if !is_unique {
+                    panic!("duplicate key: {}", name)
+                }
+            }
+        }
+    }
+
+    fn all() -> impl Iterator<Item = Root> {
+        use include_dir::{include_dir, Dir};
+        static DIR: Dir<'static> = include_dir!("$CARGO_MANIFEST_DIR/scraped");
+        DIR.files()
+            .map(include_dir::File::contents)
+            .map(serde_json::from_slice::<Root>)
+            .map(Result::unwrap)
+    }
+
+    /// Check that we capture all the information
+    #[test]
+    fn round_trip_all() {
+        for file in include_dir::include_dir!("$CARGO_MANIFEST_DIR/scraped").files() {
+            print!("{}...", file.path().display());
+            std::io::Write::flush(&mut std::io::stdout()).unwrap();
+            test_roundtrip::<Root>(&[
+                serde_json::from_slice(file.contents()).expect("invalid json")
+            ]);
+            println!("ok.");
+        }
+    }
+
+    fn test_roundtrip<T: Serialize + serde::de::DeserializeOwned>(samples: &[serde_json::Value]) {
+        for sample in samples {
+            match serde_path_to_error::deserialize::<_, T>(sample.clone()) {
+                Ok(deser) => {
+                    let round_tripped = serde_json::to_value(deser).unwrap();
+                    pretty_assertions::assert_str_eq!(
+                        redact_nulls_in_objects(round_tripped).to_string(),
+                        redact_nulls_in_objects(sample.clone()).to_string(),
+                        "Round trip failed (roundtripped != sample)"
+                    );
+                }
+                Err(e) => {
+                    panic!(
+                        "Failed to serialize a {} from json: {e}",
+                        std::any::type_name::<T>()
+                    )
+                }
+            }
+        }
+    }
+
+    fn redact_nulls_in_objects(value: serde_json::Value) -> serde_json::Value {
+        pub use serde_json::Value::{Array, Bool, Null, Number, Object, String};
+        match value {
+            leaf @ (Null | Bool(_) | Number(_) | String(_)) => leaf,
+            Array(array) => Array(array.into_iter().map(redact_nulls_in_objects).collect()),
+            Object(object) => Object(
+                object
+                    .into_iter()
+                    .map(|(k, v)| (k, redact_nulls_in_objects(v)))
+                    .filter(|(_k, v)| !matches!(v, Null))
+                    .collect(),
+            ),
+        }
+    }
+
+    /// `s` is:
+    /// - non-empty
+    /// - ascii
+    /// - a valid ident
+    fn is_ident(s: &str) -> bool {
+        if !s.is_ascii() || s.is_empty() {
+            return false;
+        };
+        for (ix, ch) in s.chars().enumerate() {
+            let is_ok = match ix {
+                0 => unicode_ident::is_xid_start(ch),
+                _ => unicode_ident::is_xid_continue(ch),
+            };
+            if !is_ok {
+                return false;
+            }
+        }
+        true
     }
 }
