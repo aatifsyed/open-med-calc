@@ -392,17 +392,8 @@ mod tests {
     }
 
     #[test]
-    fn title_and_instructions() {
-        #[derive(Hash, PartialEq, Eq, Debug)]
-        enum TitleAndInstructions {
-            JustTitle,
-            JustInstructions,
-            Both,
-        }
-        let histogram = crate::scraped()
-            .map(|root| root.props.page_props)
-            .map(NormalisedCalc::try_from)
-            .filter_map(Result::ok)
+    fn histogram_title_and_instructions() {
+        let histogram = crate::library()
             .flat_map(|form| form.items)
             .flat_map(Either::left)
             .flat_map(|markup| match markup {
@@ -411,10 +402,39 @@ mod tests {
                 } => Some(title_and_instructions),
                 Markup::Image { .. } => None,
             })
-            .map(|it| match it {
-                EitherOrBoth::Both(_, _) => TitleAndInstructions::Both,
-                EitherOrBoth::Left(_) => TitleAndInstructions::JustTitle,
-                EitherOrBoth::Right(_) => TitleAndInstructions::JustInstructions,
+            .map(|title_and_instructions| match title_and_instructions {
+                EitherOrBoth::Both(_, _) => "title and instructions",
+                EitherOrBoth::Left(_) => "title",
+                EitherOrBoth::Right(_) => "instructions",
+            })
+            .counts();
+        dbg!(histogram);
+    }
+
+    #[test]
+    fn histogram_units() {
+        let histogram = crate::library()
+            .flat_map(|form| form.items)
+            .flat_map(Either::right)
+            .flat_map(|input| match input.ty {
+                InputType::Choices { .. } => None,
+                InputType::Number {
+                    unit: NumberUnit { name, id, us, si },
+                    max,
+                    min,
+                } => {
+                    let comment = match (name, us, si) {
+                        (None, None, None) => "none",
+                        (None, None, Some(_)) => "si",
+                        (None, Some(_), None) => "us",
+                        (None, Some(_), Some(_)) => "us and si",
+                        (Some(_), None, None) => "name",
+                        (Some(_), None, Some(_)) => "name and si",
+                        (Some(_), Some(_), None) => "name and us",
+                        (Some(_), Some(_), Some(_)) => "name and us and si",
+                    };
+                    Some(comment)
+                }
             })
             .counts();
         dbg!(histogram);
