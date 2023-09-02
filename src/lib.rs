@@ -13,7 +13,7 @@ pub fn library() -> impl Iterator<Item = NormalisedCalc> {
         .flat_map(Result::ok)
 }
 
-fn scraped() -> impl Iterator<Item = deser::Root> {
+pub fn scraped() -> impl Iterator<Item = deser::Root> {
     use include_dir::{include_dir, Dir};
     static DIR: Dir<'static> = include_dir!("$CARGO_MANIFEST_DIR/scraped/calc");
     DIR.files()

@@ -311,11 +311,13 @@ fn none_if_empty(s: &str) -> Option<String> {
     }
 }
 
+#[derive(Clone)]
 pub struct Choice {
     pub description: String,
     pub weight: Number,
 }
 
+#[derive(Clone)]
 pub struct NumberUnit {
     /// "Ethanol (ETOH)"
     /// "Length"
@@ -326,6 +328,7 @@ pub struct NumberUnit {
     pub us_and_si_units: Option<(String, String)>,
 }
 
+#[derive(Clone)]
 pub enum Markup {
     Subheading {
         title_and_instructions: EitherOrBoth<String, String>,
@@ -335,6 +338,7 @@ pub enum Markup {
     },
 }
 
+#[derive(Clone)]
 pub struct Input {
     /// markup like `<p>Age</p>`
     pub title: String,
@@ -344,6 +348,7 @@ pub struct Input {
     pub ident: Ident,
 }
 
+#[derive(Clone)]
 pub enum InputType {
     Choices {
         /// Some forms repeat the descriptions:

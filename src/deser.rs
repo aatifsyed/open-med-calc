@@ -399,6 +399,7 @@ pub struct Calc {
     pub md5: String,
     pub input_schema: Vec<InputSchema>,
     pub logs: Vec<Log>,
+    /// Some("ae6a327dccaf4082c1dea14d79e26fbe")
     #[serde(skip_serializing_if = "Option::is_none")]
     pub equation_logic: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
