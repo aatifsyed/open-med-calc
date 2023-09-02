@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -72,6 +72,7 @@
           },
           "contributor": {
             "expert_name": [
+              "Bryan D. Hayes, PharmD",
               "Jenny L. Koehl, PharmD"
             ]
           },
@@ -431,6 +432,21 @@
         "vuid": "8f805052-fbad-4535-8b3c-04806a637c36"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Bryan D. Hayes, PharmD, FAACT, FASHP, is an assistant professor of emergency medicine and clinical pharmacist at Harvard Medical School/Massachusetts General Hospital. He is also an associate editor and the creator of the CAPSULES series of <a href='http://www.aliem.com/' target='_blank'>Academic Life in Emergency Medicine (ALiEM)</a>. His research interests include toxicology, medication safety and emergency preparedness.</p>",
+          "firstName": "Bryan",
+          "hasDisclosure": [],
+          "img": "https://cdn-web-img.mdcalc.com/people/bryan-d-hayes-pharmd.jpeg",
+          "lastName": "Hayes",
+          "name": "Bryan D. Hayes, PharmD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",

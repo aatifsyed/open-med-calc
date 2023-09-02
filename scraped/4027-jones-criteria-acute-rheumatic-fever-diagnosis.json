@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -7,7 +7,7 @@
     "__N_SSP": true,
     "pageProps": {
       "calc": {
-        "before_use": "<p><span id=\"docs-internal-guid-902d712b-7fff-54c5-d116-131b1fc25a90\">Note: As of 2015, the Jones Criteria have been updated to include the use of doppler echocardiography. See <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25908771\" target=\"_blank\">AHA's update</a>.</p>",
+        "before_use": "<p><span id=\"docs-internal-guid-902d712b-7fff-54c5-d116-131b1fc25a90\">Note: As of 2015, the Jones Criteria have been updated to include the use of doppler echocardiography. See <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25908771\" target=\"_blank\" rel=\"noopener\">AHA's update</a>.</span></p>",
         "calc_type": "diagnostic_criteria",
         "chief_complaint_en": [
           "Abdominal Pain",
@@ -24,8 +24,8 @@
         "cme_status": "enabled",
         "content": {
           "about": {
-            "evidence_based_medicine_en": "<p dir=\"ltr\">The Jones Criteria were initially created by <a href=\"https://jamanetwork.com/journals/jama/article-abstract/271116?redirect=true\" target=\"_blank\">Dr. T Duckett Jones in 1944</a> in an attempt to unify the varying diagnostic criteria of this disease. The &ldquo;major manifestations&rdquo; were those that would offer the least likelihood of improper diagnosis. &ldquo;Minor manifestations&rdquo; could be suggestive of but not diagnostic of ARF.</p>\n<p dir=\"ltr\">These criteria were then later updated by the <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/1404745\" target=\"_blank\">American Heart Association (AHA) in 1992</a>, then <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25908771\" target=\"_blank\">revised in 2015 by the AHA</a> to include the use of doppler echocardiography. The use of certain echo findings (such as evidence of pathologic mitral regurgitation or aortic regurgitation, or morphologic valvulitis findings) are used to fulfill carditis as a major criteria, in the absence of clinical/auscultatory findings.</p>\n<p dir=\"ltr\">This 2015 revision also distinguished low risk populations (ARF incidence &lt;2 per 100,000 school aged children or all-age RHD prevalence &lt;1 per 100,000) and moderate-high risk populations, and included slightly different Jones criteria for each. In high-risk groups, subclinical carditis, monoarthritis, and polyarthralgia become major criteria, the cut-off for fever drops to 38.0C, and the cut-off for ESR drops to 30 mm/hr.</p>\n<p dir=\"ltr\">Most common &ldquo;major criteria&rdquo; found in first episode of ARF is carditis (50-70%), followed by arthritis (35-66%), chorea (10-30%), subcutaneous nodules (0-10%), erythema marginatum (&lt;6%) (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25908771\" target=\"_blank\">Gewitz 2015</a>).</p>",
-            "formula_en": "<p dir=\"ltr\">Revised Jones Criteria (<a href=\"https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000000205\" target=\"_blank\">Gewitz 2015</a>):</p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Diagnosis for initial ARF is positive if evidence of preceding group A streptococcal (GAS) infection is present AND two major criteria (or one major and two minor criteria) from the table below are present.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Diagnosis for recurrent ARF is positive if evidence of preceding GAS infection is present, there is a previous history of ARF or established rheumatic heart disease, AND two major criteria (or one major and two minor OR three minor criteria) from the table below are present.</p>\n</li>\n</ol>\n<div dir=\"ltr\" align=\"left\">\n<table><colgroup><col /><col /></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Evidence of preceding&nbsp;GAS infection (&ge;1 of the following)</strong></p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\">Increased or rising anti-streptolysin O titer or other streptococcal antibodies (anti-DNASE B)</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\">A positive rapid group A streptococcal carbohydrate antigen test in a child whose clinical presentation suggests a high pretest probability of streptococcal pharyngitis</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\">A positive throat culture for group A &beta;-hemolytic streptococci</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Major criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Low-risk populations*</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Moderate- and high-risk populations</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Carditis (clinical and/or subclinical**)</p>\n</td>\n<td>\n<p dir=\"ltr\">Carditis (clinical and/or subclinical**)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Arthritis (polyarthritis only)</p>\n</td>\n<td>\n<p dir=\"ltr\">Arthritis (monoarthritis or polyarthritis; polyarthralgia)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Chorea</p>\n</td>\n<td>\n<p dir=\"ltr\">Chorea</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Erythema marginatum</p>\n</td>\n<td>\n<p dir=\"ltr\">Erythema marginatum</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Subcutaneous nodules</p>\n</td>\n<td>\n<p dir=\"ltr\">Subcutaneous nodules</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Minor criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Low-risk populations*</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Moderate- and high-risk populations</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Prolonged PR interval, after accounting for age variability (unless carditis is a major criterion)</p>\n</td>\n<td>\n<p dir=\"ltr\">Prolonged PR interval, after accounting for age variability (unless carditis is a major criterion)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Polyarthralgia</p>\n</td>\n<td>\n<p dir=\"ltr\">Monoarthralgia</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Fever (&ge;38.5&deg;C or 101.3&deg;F)</p>\n</td>\n<td>\n<p dir=\"ltr\">Fever (&ge;38&deg;C or 100.4&deg;F)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">ESR &ge;60 mm in the first hour and/or CRP &ge;3.0 mg/dL***</p>\n</td>\n<td>\n<p dir=\"ltr\">ESR &ge;30 mm/hr and/or CRP &ge;3.0 mg/dL***</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">*Low-risk populations are those with ARF incidence &le;2 per 100,000 school-aged children or all-age rheumatic heart disease prevalence of &le;1 per 1000 population per year.</p>\n<p dir=\"ltr\">**Subclinical carditis indicates echocardiographic valvulitis.</p>\n<p></p>\n<p dir=\"ltr\">***CRP value must be greater than the upper limit of normal for laboratory; use peak ESR values as ESR may evolve during the course of ARF.</p>",
+            "evidence_based_medicine_en": "<p dir=\"ltr\">The Jones Criteria were initially created by <a href=\"https://jamanetwork.com/journals/jama/article-abstract/271116?redirect=true\" target=\"_blank\" rel=\"noopener\">Dr. T Duckett Jones in 1944</a> in an attempt to unify the varying diagnostic criteria of this disease. The &ldquo;major manifestations&rdquo; were those that would offer the least likelihood of improper diagnosis. &ldquo;Minor manifestations&rdquo; could be suggestive of but not diagnostic of ARF.</p>\n<p dir=\"ltr\">These criteria were then later updated by the <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/1404745\" target=\"_blank\" rel=\"noopener\">American Heart Association (AHA) in 1992</a>, then <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25908771\" target=\"_blank\" rel=\"noopener\">revised in 2015 by the AHA</a> to include the use of doppler echocardiography. The use of certain echo findings (such as evidence of pathologic mitral regurgitation or aortic regurgitation, or morphologic valvulitis findings) are used to fulfill carditis as a major criteria, in the absence of clinical/auscultatory findings.</p>\n<p dir=\"ltr\">This 2015 revision also distinguished low risk populations (ARF incidence &lt;2 per 100,000 school aged children or all-age RHD prevalence &lt;1 per 100,000) and moderate-high risk populations, and included slightly different Jones criteria for each. In high-risk groups, subclinical carditis, monoarthritis, and polyarthralgia become major criteria, the cut-off for fever drops to 38.0C, and the cut-off for ESR drops to 30 mm/hr.</p>\n<p dir=\"ltr\">Most common &ldquo;major criteria&rdquo; found in first episode of ARF is carditis (50-70%), followed by arthritis (35-66%), chorea (10-30%), subcutaneous nodules (0-10%), erythema marginatum (&lt;6%) (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25908771\" target=\"_blank\" rel=\"noopener\">Gewitz 2015</a>).</p>",
+            "formula_en": "<p dir=\"ltr\">Revised Jones Criteria (<a href=\"https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000000205\" target=\"_blank\" rel=\"noopener\">Gewitz 2015</a>):</p>\n<ol>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Diagnosis for initial ARF is positive if evidence of preceding group A streptococcal (GAS) infection is present AND two major criteria (or one major and two minor criteria) from the table below are present.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Diagnosis for recurrent ARF is positive if evidence of preceding GAS infection is present, there is a previous history of ARF or established rheumatic heart disease, AND two major criteria (or one major and two minor OR three minor criteria) from the table below are present.</p>\n</li>\n</ol>\n<div dir=\"ltr\" align=\"left\">\n<table><colgroup><col><col></colgroup>\n<tbody>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Evidence of preceding&nbsp;GAS infection (&ge;1 of the following)</strong></p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\">Increased or rising anti-streptolysin O titer or other streptococcal antibodies (anti-DNASE B)</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\">A positive rapid group A streptococcal carbohydrate antigen test in a child whose clinical presentation suggests a high pretest probability of streptococcal pharyngitis</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\">A positive throat culture for group A &beta;-hemolytic streptococci</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Major criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Low-risk populations*</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Moderate- and high-risk populations</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Carditis (clinical and/or subclinical**)</p>\n</td>\n<td>\n<p dir=\"ltr\">Carditis (clinical and/or subclinical**)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Arthritis (polyarthritis only)</p>\n</td>\n<td>\n<p dir=\"ltr\">Arthritis (monoarthritis or polyarthritis; polyarthralgia)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Chorea</p>\n</td>\n<td>\n<p dir=\"ltr\">Chorea</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Erythema marginatum</p>\n</td>\n<td>\n<p dir=\"ltr\">Erythema marginatum</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Subcutaneous nodules</p>\n</td>\n<td>\n<p dir=\"ltr\">Subcutaneous nodules</p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<p dir=\"ltr\"><strong>Minor criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Low-risk populations*</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Moderate- and high-risk populations</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Prolonged PR interval, after accounting for age variability (unless carditis is a major criterion)</p>\n</td>\n<td>\n<p dir=\"ltr\">Prolonged PR interval, after accounting for age variability (unless carditis is a major criterion)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Polyarthralgia</p>\n</td>\n<td>\n<p dir=\"ltr\">Monoarthralgia</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Fever (&ge;38.5&deg;C or 101.3&deg;F)</p>\n</td>\n<td>\n<p dir=\"ltr\">Fever (&ge;38&deg;C or 100.4&deg;F)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">ESR &ge;60 mm in the first hour and/or CRP &ge;3.0 mg/dL***</p>\n</td>\n<td>\n<p dir=\"ltr\">ESR &ge;30 mm/hr and/or CRP &ge;3.0 mg/dL***</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">*Low-risk populations are those with ARF incidence &le;2 per 100,000 school-aged children or all-age rheumatic heart disease prevalence of &le;1 per 1000 population per year.</p>\n<p dir=\"ltr\">**Subclinical carditis indicates echocardiographic valvulitis.</p>\n<p></p>\n<p dir=\"ltr\">***CRP value must be greater than the upper limit of normal for laboratory; use peak ESR values as ESR may evolve during the course of ARF.</p>",
             "more_info_en": "",
             "references_list": {
               "Clinical Practice Guidelines": [],
@@ -57,7 +57,9 @@
           },
           "contributor": {
             "expert_name": [
-              "Derek Tam, MD, MPH"
+              "Hyunjoo Lee, MD",
+              "Derek Tam, MD, MPH",
+              "Max Berger, MD"
             ]
           },
           "creator": [
@@ -68,14 +70,14 @@
             }
           ],
           "how_to_use": {
-            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-24b77335-7fff-acaa-9a4a-2ccaf5a3b36e\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">An initial presentation of possible ARF should not be diagnosed based on minor criteria alone.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Other illnesses may mimic ARF. Laboratory evidence of an antecedent group A streptococcal (GAS) infection (i.e., streptococcal antibody titers, positive throat culture or rapid Strep test) is mandatory to establish the diagnosis.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Only GAS infections of the upper respiratory tract lead to ARF; GAS skin infections do not lead to ARF.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">A <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25908771\" target=\"_blank\">2015 revision</a> made modifications to the criteria, most notably providing two separate diagnostic pathways for those at low risk and those at moderate/high risk, and adding subclinical carditis as a major criterion. However, the <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/1404745\" target=\"_blank\">1992 (original) version</a> remains popular in clinical use.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Children less than 3 years of age are unlikely to develop an autoimmune response that leads to ARF. Even with laboratory evidence of GAS infection, consider other diagnoses first. Expert consultation with pediatric infectious disease, cardiology, and/or rheumatology may be helpful.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Myocarditis without valvulitis (without new murmur or echo evidence suggestive of RHD) is unlikely to be rheumatic in origin.</p>\n</li>\n</ul>",
+            "pearls_pitfalls_en": "<p><span id=\"docs-internal-guid-24b77335-7fff-acaa-9a4a-2ccaf5a3b36e\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">An initial presentation of possible ARF should not be diagnosed based on minor criteria alone.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Other illnesses may mimic ARF. Laboratory evidence of an antecedent group A streptococcal (GAS) infection (i.e., streptococcal antibody titers, positive throat culture or rapid Strep test) is mandatory to establish the diagnosis.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Only GAS infections of the upper respiratory tract lead to ARF; GAS skin infections do not lead to ARF.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">A <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25908771\" target=\"_blank\" rel=\"noopener\">2015 revision</a> made modifications to the criteria, most notably providing two separate diagnostic pathways for those at low risk and those at moderate/high risk, and adding subclinical carditis as a major criterion. However, the <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/1404745\" target=\"_blank\" rel=\"noopener\">1992 (original) version</a> remains popular in clinical use.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Children less than 3 years of age are unlikely to develop an autoimmune response that leads to ARF. Even with laboratory evidence of GAS infection, consider other diagnoses first. Expert consultation with pediatric infectious disease, cardiology, and/or rheumatology may be helpful.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Myocarditis without valvulitis (without new murmur or echo evidence suggestive of RHD) is unlikely to be rheumatic in origin.</p>\n</li>\n</ul>",
             "use_case_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Use in the diagnosis of suspected acute rheumatic fever (ARF).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Diagnosis of ARF is a clinical diagnosis based on these standard diagnostic criteria.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Do not use to measure rheumatic activity, establish the diagnosis of inactive or chronic rheumatic heart disease, or to predict the course or severity of the disease.</p>\n</li>\n</ul>",
-            "why_use_en": "<p><span id=\"docs-internal-guid-33ba7867-7fff-9f5f-42f0-75cc76443bbb\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">To establish a diagnosis of initial&nbsp;or recurrent acute rheumatic fever.&nbsp;</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Failing to meet the criteria suggests that another diagnosis is more likely.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Adherence to the Jones Criteria will help prevent over-diagnosis and the long-term sequelae of over-diagnosis such as prophylactic antibiotic use, patient/family stress, and insurance concerns.</p>\n</li>\n</ul>"
+            "why_use_en": "<p><span id=\"docs-internal-guid-33ba7867-7fff-9f5f-42f0-75cc76443bbb\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">To establish a diagnosis of initial&nbsp;or recurrent acute rheumatic fever.&nbsp;</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Failing to meet the criteria suggests that another diagnosis is more likely.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Adherence to the Jones Criteria will help prevent over-diagnosis and the long-term sequelae of over-diagnosis such as prophylactic antibiotic use, patient/family stress, and insurance concerns.</p>\n</li>\n</ul>"
           },
           "next_steps": {
-            "advice_en": "<p><span id=\"docs-internal-guid-af293eb1-7fff-a9c4-894a-cad98221af13\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Cases of isolated chorea, indolent carditis, or recurrent episodes of rheumatic fever are more suggestive of rheumatic fever regardless of the presence of other Jones Criteria. In these scenarios, ARF is the presumptive diagnosis until proven otherwise.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Remember that arthralgia (joint pain) is distinct from arthritis (objective findings related to inflammation such as warmth, erythema, or swelling).</p>\n</li>\n</ul>",
-            "critical_actions_en": "<p><span id=\"docs-internal-guid-547963a3-7fff-84da-4fbf-1c93e82f68dd\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Household members living with a patient with confirmed ARF should be screened and treated for GAS infection/colonization when appropriate.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">A penicillin antibiotic is typically the first line treatment for ARF (oral penicillin V or intramuscular penicillin G); amoxicillin can also be considered.</p>\n</li>\n</ul>",
-            "management_en": "<p><span id=\"docs-internal-guid-96da97a9-7fff-263a-c3c9-69490aae17b4\"></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Echocardiogram is key in the evaluation of ARF, and should be performed in all cases of confirmed or suspected ARF.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">If the diagnosis of ARF has been made without evidence of structural heart disease, an echocardiogram and cardiology consult are still recommended.</p>\n</li>\n</ul>"
+            "advice_en": "<p><span id=\"docs-internal-guid-af293eb1-7fff-a9c4-894a-cad98221af13\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Cases of isolated chorea, indolent carditis, or recurrent episodes of rheumatic fever are more suggestive of rheumatic fever regardless of the presence of other Jones Criteria. In these scenarios, ARF is the presumptive diagnosis until proven otherwise.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Remember that arthralgia (joint pain) is distinct from arthritis (objective findings related to inflammation such as warmth, erythema, or swelling).</p>\n</li>\n</ul>",
+            "critical_actions_en": "<p><span id=\"docs-internal-guid-547963a3-7fff-84da-4fbf-1c93e82f68dd\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Household members living with a patient with confirmed ARF should be screened and treated for GAS infection/colonization when appropriate.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">A penicillin antibiotic is typically the first line treatment for ARF (oral penicillin V or intramuscular penicillin G); amoxicillin can also be considered.</p>\n</li>\n</ul>",
+            "management_en": "<p><span id=\"docs-internal-guid-96da97a9-7fff-263a-c3c9-69490aae17b4\"></span></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">Echocardiogram is key in the evaluation of ARF, and should be performed in all cases of confirmed or suspected ARF.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\" role=\"presentation\">If the diagnosis of ARF has been made without evidence of structural heart disease, an echocardiogram and cardiology consult are still recommended.</p>\n</li>\n</ul>"
           },
           "related_resources": {
             "guidelines": [],
@@ -111,6 +113,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Acute Pain",
           "Atrial Fibrillation",
@@ -127,7 +131,9 @@
         "full_title_en": "Jones Criteria for Acute Rheumatic Fever Diagnosis",
         "input_schema": [
           {
-            "subheading": "Evidence of preceding GAS infection (≥1 of the following)",
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Evidence of preceding GAS infection (?1 of the following)",
             "subheading_instructions": "",
             "type": "subheading"
           },
@@ -135,7 +141,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Increased or rising anti-streptolysin O titer or other streptococcal antibodies (anti-DNASE B)",
+            "md_calc_info_concept": null,
             "name": "req1",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -155,7 +163,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "A positive rapid group A streptococcal (GAS) carbohydrate antigen test in a child whose clinical presentation suggests a high pretest probability of streptococcal pharyngitis",
+            "md_calc_info_concept": null,
             "name": "req2",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -175,7 +185,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "A positive throat culture for group A β-hemolytic streptococci",
+            "md_calc_info_concept": null,
             "name": "req3",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -195,7 +207,9 @@
             "conditionality": "req1 > 0 || req2 > 0 || req3 > 0",
             "default": null,
             "label_en": "History of ARF or established rheumatic heart disease",
+            "mdcalc_info_concept": null,
             "name": "history",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -215,7 +229,9 @@
             "conditionality": "req1 > 0 || req2 > 0 || req3 > 0",
             "default": null,
             "label_en": "Population risk",
+            "mdcalc_info_concept": null,
             "name": "pop",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -232,6 +248,8 @@
             "type": "radio"
           },
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Major criteria",
             "subheading_instructions": "",
             "type": "subheading"
@@ -240,7 +258,9 @@
             "conditionality": "pop == 1 || pop == 0",
             "default": 0,
             "label_en": "Carditis (clinical and/or subclinical)",
+            "md_calc_info_concept": null,
             "name": "carditis",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -260,7 +280,9 @@
             "conditionality": "pop == 0",
             "default": 0,
             "label_en": "Arthritis (polyarthritis only)",
+            "md_calc_info_concept": null,
             "name": "arth1",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -280,7 +302,9 @@
             "conditionality": "pop == 1",
             "default": 0,
             "label_en": "Arthritis (monoarthritis or polyarthritis; polyarthralgia)",
+            "md_calc_info_concept": null,
             "name": "arth2",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -300,7 +324,9 @@
             "conditionality": "pop == 1 || pop == 0",
             "default": 0,
             "label_en": "Chorea",
+            "md_calc_info_concept": null,
             "name": "chorea",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -320,7 +346,9 @@
             "conditionality": "pop == 1 || pop == 0",
             "default": 0,
             "label_en": "Erythema marginatum",
+            "md_calc_info_concept": null,
             "name": "em",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -340,7 +368,9 @@
             "conditionality": "pop == 1 || pop == 0",
             "default": 0,
             "label_en": "Subcutaneous nodules",
+            "md_calc_info_concept": null,
             "name": "nodules",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -357,6 +387,8 @@
             "type": "toggle"
           },
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Minor criteria",
             "subheading_instructions": "",
             "type": "subheading"
@@ -365,7 +397,9 @@
             "conditionality": "pop == 1 || pop == 0",
             "default": 0,
             "label_en": "Prolonged PR interval, after accounting for age variability (unless carditis is a major criterion)",
+            "md_calc_info_concept": null,
             "name": "prolonged",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -385,7 +419,9 @@
             "conditionality": "pop == 0",
             "default": 0,
             "label_en": "Polyarthralgia",
+            "md_calc_info_concept": null,
             "name": "arthralgia1",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -405,7 +441,9 @@
             "conditionality": "pop == 1",
             "default": 0,
             "label_en": "Monoarthralgia",
+            "md_calc_info_concept": null,
             "name": "arthralgia2",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -425,7 +463,9 @@
             "conditionality": "pop == 0",
             "default": 0,
             "label_en": "Fever (≥38.5°C or 101.3°F)",
+            "md_calc_info_concept": null,
             "name": "fever1",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -445,7 +485,9 @@
             "conditionality": "pop == 1",
             "default": 0,
             "label_en": "Fever (≥38°C or 100.4°F)",
+            "md_calc_info_concept": null,
             "name": "fever2",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -465,7 +507,9 @@
             "conditionality": "pop == 0",
             "default": 0,
             "label_en": "ESR ≥60 mm in the first hour and/or CRP ≥3.0 mg/dL",
+            "md_calc_info_concept": null,
             "name": "esr1",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -485,7 +529,9 @@
             "conditionality": "pop == 1",
             "default": 0,
             "label_en": "ESR ≥30 mm/hr and/or CRP ≥3.0 mg/dL",
+            "md_calc_info_concept": null,
             "name": "esr2",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -503,6 +549,7 @@
           }
         ],
         "instructions_en": "",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -588,9 +635,11 @@
         ],
         "md5": "2492ea1ba6f51aed30d15d1d64efea9c",
         "medium_description_en": "<p>Diagnoses acute rheumatic fever based on major and minor criteria.</p>",
+        "publishedAt": "2022-04-21T20:29:37.853Z",
         "purpose_en": [
           "Diagnosis"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "jones criteria",
           "rheumatic fever",
@@ -618,7 +667,7 @@
           "keywords_en": "Jones Criteria, Rheumatic Fever, streptococcal pharyngitis, antecedent group A streptococcal infection, rheumatic carditis, myocarditis, valvulitis, mitral regurgitation, apical systolic murmur, basal diastolic murmur, erythema marginatum, subcutaneous nodules, polyarthritis, Sydenham’s chorea, chorea",
           "meta_description_en": "The Jones Criteria for Rheumatic Fever Diagnosis diagnoses acute rheumatic fever based on major and minor criteria."
         },
-        "short_description_en": "Rheumatic fever diagnosis.",
+        "short_description_en": "<p>Rheumatic fever diagnosis.</p>",
         "short_title_en": "Jones Criteria for ARF",
         "slug": "jones-criteria-acute-rheumatic-fever-diagnosis",
         "specialty_en": [
@@ -637,7 +686,11 @@
           "Immunologic",
           "Musculoskeletal",
           "Neurologic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "a182cafd-f41f-4688-86cf-74904521680c"
       },
       "contributors": [
         {
@@ -654,6 +707,36 @@
           "status": "Current",
           "target": "derek-tam",
           "updatedAt": "2023-04-06T20:25:19.744Z"
+        },
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Hyunjoo Lee, MD, is a clinical assistant professor in emergency medicine at Stony Brook University Hospital. Born and raised in New York, she left New York for her undergraduate studies at Swarthmore College where she received a BA in Biology. She returned to New York and did research in B-cell biology and CLL before heading back to school to obtain her MD from Stony Brook University School of Medicine. She completed her emergency medicine residency at Mount Sinai Beth Israel in New York City and a medical education fellowship in the department of emergency medicine at Thomas Jefferson University in Philadelphia.</p>",
+          "firstName": "Hyunjoo",
+          "hasDisclosure": [],
+          "img": "hyunjoo-lee.jpg",
+          "lastName": "Lee",
+          "name": "Hyunjoo Lee, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "hyunjoo-lee",
+          "updatedAt": "2023-04-06T20:23:07.666Z"
+        },
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Max",
+          "hasDisclosure": [],
+          "img": "https://cdn-web-img.mdcalc.com/people/max-berger.png",
+          "lastName": "Berger",
+          "name": "Max Berger, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "max-berger",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
         }
       ],
       "creators": [

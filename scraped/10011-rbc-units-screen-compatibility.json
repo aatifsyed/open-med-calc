@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -45,6 +45,8 @@
           },
           "contributor": {
             "expert_name": [
+              "Alex Ryder, MD, PhD",
+              "Christopher Tormey, MD",
               "Ronald George Hauser, MD"
             ]
           },
@@ -76,6 +78,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Anemia"
         ],
@@ -88,6 +92,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Number of desired units",
             "name": "units",
             "optional": false,
@@ -96,6 +102,8 @@
             "unit": "unitless"
           },
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Antigen profile: should the screen exclude RBC units with this antigen?",
             "subheading_instructions": "",
             "type": "subheading"
@@ -104,7 +112,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "C",
+            "md_calc_info_concept": null,
             "name": "bigc",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -123,6 +133,8 @@
           {
             "conditionality": "bigc == 1",
             "default": 68,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "C frequency",
             "name": "bigc_value",
             "optional": false,
@@ -134,7 +146,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "c",
+            "md_calc_info_concept": null,
             "name": "lilc",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -153,6 +167,8 @@
           {
             "conditionality": "lilc == 1",
             "default": 80,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "c frequency",
             "name": "lilc_value",
             "optional": false,
@@ -164,7 +180,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "E",
+            "md_calc_info_concept": null,
             "name": "bige",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -183,6 +201,8 @@
           {
             "conditionality": "bige == 1",
             "default": 29,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "E frequency",
             "name": "bige_value",
             "optional": false,
@@ -194,7 +214,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "e",
+            "md_calc_info_concept": null,
             "name": "lile",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -213,6 +235,8 @@
           {
             "conditionality": "lile == 1",
             "default": 98,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "e frequency",
             "name": "lile_value",
             "optional": false,
@@ -224,7 +248,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "K",
+            "md_calc_info_concept": null,
             "name": "bigk",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -243,6 +269,8 @@
           {
             "conditionality": "bigk == 1",
             "default": 9,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "K frequency",
             "name": "bigk_value",
             "optional": false,
@@ -254,7 +282,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "k",
+            "md_calc_info_concept": null,
             "name": "lilk",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -273,6 +303,8 @@
           {
             "conditionality": "lilk == 1",
             "default": 99,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "k frequency",
             "name": "lilk_value",
             "optional": false,
@@ -284,7 +316,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Jk(a)",
+            "md_calc_info_concept": null,
             "name": "jka",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -303,6 +337,8 @@
           {
             "conditionality": "jka == 1",
             "default": 76,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Jk(a) frequency",
             "name": "jka_value",
             "optional": false,
@@ -314,7 +350,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Jk(b)",
+            "md_calc_info_concept": null,
             "name": "jkb",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -333,6 +371,8 @@
           {
             "conditionality": "jkb == 1",
             "default": 74,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Jk(b) frequency",
             "name": "jkb_value",
             "optional": false,
@@ -344,7 +384,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Fy(a)",
+            "md_calc_info_concept": null,
             "name": "fya",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -363,6 +405,8 @@
           {
             "conditionality": "fya == 1",
             "default": 68,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Fy(a) frequency",
             "name": "fya_value",
             "optional": false,
@@ -374,7 +418,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Fy(b)",
+            "md_calc_info_concept": null,
             "name": "fyb",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -393,6 +439,8 @@
           {
             "conditionality": "fyb == 1",
             "default": 80,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Fy(b) frequency",
             "name": "fyb_value",
             "optional": false,
@@ -404,7 +452,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "M",
+            "md_calc_info_concept": null,
             "name": "bigm",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -423,6 +473,8 @@
           {
             "conditionality": "bigm == 1",
             "default": 79,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "M frequency",
             "name": "bigm_value",
             "optional": false,
@@ -434,7 +486,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "N",
+            "md_calc_info_concept": null,
             "name": "bign",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -453,6 +507,8 @@
           {
             "conditionality": "bign == 1",
             "default": 70,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "N frequency",
             "name": "bign_value",
             "optional": false,
@@ -464,7 +520,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "S",
+            "md_calc_info_concept": null,
             "name": "bigs",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -483,6 +541,8 @@
           {
             "conditionality": "bigs == 1",
             "default": 52,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "S frequency",
             "name": "bigs_value",
             "optional": false,
@@ -494,7 +554,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "s",
+            "md_calc_info_concept": null,
             "name": "lils",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -513,6 +575,8 @@
           {
             "conditionality": "lils == 1",
             "default": 90,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "s frequency",
             "name": "lils_value",
             "optional": false,
@@ -524,7 +588,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Le(a)",
+            "md_calc_info_concept": null,
             "name": "lea",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -543,6 +609,8 @@
           {
             "conditionality": "lea == 1",
             "default": 22,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Le(a) frequency",
             "name": "lea_value",
             "optional": false,
@@ -554,7 +622,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Le(b)",
+            "md_calc_info_concept": null,
             "name": "leb",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -573,6 +643,8 @@
           {
             "conditionality": "leb == 1",
             "default": 72,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Le(b) frequency",
             "name": "leb_value",
             "optional": false,
@@ -584,7 +656,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Lu(a)",
+            "md_calc_info_concept": null,
             "name": "lua",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -603,6 +677,8 @@
           {
             "conditionality": "lua == 1",
             "default": 8,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Lu(a) frequency",
             "name": "lua_value",
             "optional": false,
@@ -614,7 +690,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Lu(b)",
+            "md_calc_info_concept": null,
             "name": "lub",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -633,6 +711,8 @@
           {
             "conditionality": "lub == 1",
             "default": 99.9,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Lu(b) frequency",
             "name": "lub_value",
             "optional": false,
@@ -644,7 +724,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "P1",
+            "md_calc_info_concept": null,
             "name": "p1",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -663,6 +745,8 @@
           {
             "conditionality": "p1 == 1",
             "default": 79,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "P1 frequency",
             "name": "p1_value",
             "optional": false,
@@ -674,7 +758,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "C(w)",
+            "md_calc_info_concept": null,
             "name": "cw",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -693,6 +779,8 @@
           {
             "conditionality": "cw == 1",
             "default": 2,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "C(w) frequency",
             "name": "cw_value",
             "optional": false,
@@ -702,6 +790,7 @@
           }
         ],
         "instructions_en": "",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -797,10 +886,12 @@
         ],
         "md5": "2277c87fb2fd63f07a0f06a128bb02de",
         "medium_description_en": "<p>Estimates number of donor RBC units to screen to obtain a desired number of antigen-negative units.</p>",
+        "publishedAt": "2022-04-21T20:28:03.431Z",
         "purpose_en": [
           "Calculation",
           "Treatment"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "inventory screen",
           "antigen profile",
@@ -812,7 +903,7 @@
           "keywords_en": "Inventory screen, antigen profile, ABO testing, Rh, transfusion reaction, transfusion medicine",
           "meta_description_en": "RBC Compatibility Testing determines number of donors needed to be antigen typed to obtain appropriate number of antigen-negative donors."
         },
-        "short_description_en": "Donors to antigen type.",
+        "short_description_en": "<p>Donors to antigen type.</p>",
         "short_title_en": "RBC Compatibility Testing",
         "slug": "rbc-units-screen-compatibility",
         "specialty_en": [
@@ -822,9 +913,43 @@
         ],
         "system_en": [
           "Hematologic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "99c9878f-a6e0-49e6-9b2c-da3fb6661d82"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Alex",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Ryder",
+          "name": "Alex Ryder, MD, PhD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Christopher",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Tormey",
+          "name": "Christopher Tormey, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",

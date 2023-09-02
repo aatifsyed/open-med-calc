@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -65,6 +65,8 @@
           },
           "contributor": {
             "expert_name": [
+              "Alex Ryder, MD, PhD",
+              "Christopher Tormey, MD",
               "Ronald George Hauser, MD"
             ]
           },
@@ -100,6 +102,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Anemia",
           "Bleeding/Hemorrhage",
@@ -115,6 +119,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Patient weight",
             "name": "weight",
             "optional": false,
@@ -125,6 +131,8 @@
           {
             "conditionality": "",
             "default": 10,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Desired plasma dosage",
             "name": "dose",
             "optional": false,
@@ -135,6 +143,8 @@
           {
             "conditionality": "",
             "default": 200,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Unit volume",
             "name": "unit",
             "optional": false,
@@ -144,6 +154,7 @@
           }
         ],
         "instructions_en": "<p>Absolute contraindications to transfusion of fresh frozen plasma (FFP): documented intolerance to plasma or components, congenital IgA deficiency with anti-IgA antibodies, etc. Relative contraindications: heart failure, pulmonary edema, etc. Plasma should be ABO-compatible with recipient.</p>",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -199,9 +210,11 @@
         ],
         "md5": "24724c0b3105c967ca02a5233ff352ce",
         "medium_description_en": "<p>Doses plasma for transfusion in patients with active bleeding.</p>",
+        "publishedAt": "2022-04-21T20:29:38.594Z",
         "purpose_en": [
           "Calculation"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "ffp",
           "fresh frozen plasma",
@@ -213,7 +226,7 @@
           "keywords_en": "ffp, plasma, dosing, coagulopathy, bleeding",
           "meta_description_en": "Plasma Volume and Dosing calculates plasma volume and doses plasma for transfusion."
         },
-        "short_description_en": "Plasma transfusion dosing.",
+        "short_description_en": "<p>Plasma transfusion dosing.</p>",
         "short_title_en": "Plasma Dosage",
         "slug": "plasma-dosage",
         "specialty_en": [
@@ -224,9 +237,43 @@
         ],
         "system_en": [
           "Hematologic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "1abbc9fa-2ef4-4d47-971b-c4dbd7fdeb74"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Alex",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Ryder",
+          "name": "Alex Ryder, MD, PhD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Christopher",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Tormey",
+          "name": "Christopher Tormey, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",

@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -23,9 +23,9 @@
         "cme_status": "enabled",
         "content": {
           "about": {
-            "evidence_based_medicine_en": "<p><a href='http://www.ncbi.nlm.nih.gov/pubmed/6471323' target='_blank'><b>Original Study</b></a></p><p>The CAGE questions were first described in 1968 in an original paper presented at an International Conference on Alcoholism. This paper was not not published outside of the proceedings of the meeting; thus, in this 1984 paper, Ewing describes how the CAGE questions were identified and their subsequent use in clinical and research studies. They assert that since its introduction, CAGE has been recognized as one of the most efficient and effective screening devices for alcoholism.</p><p><a href='http://www.ncbi.nlm.nih.gov/pubmed/6120322' target='_blank'><b>Validation</b></a></p><p>In this article, a comparison is made between the efficacy of eight laboratory tests and three rapid interviews (CAGE, Brief MAST, Reich) in the detection of excessive drinking and alcoholism among 385 psychiatric patients. gamma-glutamyl transpeptidase. They found that CAGE was effective in identifying 9 out of 10 alcoholics and 93% of excessive drinkers, compared with the laboratory tests detecting only 33% in these populations.  Authors conclude that due to ease of administration (taking &lt;1 minute), the interview forms have considerable potential for routine screening of high-risk groups such as hospital patients.</p>",
+            "evidence_based_medicine_en": "<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/6471323\" target=\"_blank\" rel=\"noopener\"><b>Original Study</b></a></p>\n<p>The CAGE questions were first described in 1968 in an original paper presented at an International Conference on Alcoholism. This paper was not not published outside of the proceedings of the meeting; thus, in this 1984 paper, Ewing describes how the CAGE questions were identified and their subsequent use in clinical and research studies. They assert that since its introduction, CAGE has been recognized as one of the most efficient and effective screening devices for alcoholism.</p>\n<p><a href=\"https://www.ncbi.nlm.nih.gov/pubmed/6120322\" target=\"_blank\" rel=\"noopener\"><b>Validation</b></a></p>\n<p>In this article, a comparison is made between the efficacy of eight laboratory tests and three rapid interviews (CAGE, Brief MAST, Reich) in the detection of excessive drinking and alcoholism among 385 psychiatric patients. gamma-glutamyl transpeptidase. They found that CAGE was effective in identifying 9 out of 10 alcoholics and 93% of excessive drinkers, compared with the laboratory tests detecting only 33% in these populations. &nbsp;Authors conclude that due to ease of administration (taking &lt;1 minute), the interview forms have considerable potential for routine screening of high-risk groups such as hospital patients.</p>",
             "formula_en": "<p>Addition of the assigned points, as above.</p>",
-            "more_info_en": "<p>The CAGE questions are most commonly used in primary care settings to help discuss alcohol use/abuse.</p><p>The name of the score, “CAGE”, derives from the bolded phrases in the questions, as below:</p><div class='table-responsive'><table class='table table-bordered table-hover'><tr><th>Criteria</th><th>Value</th><th>Points</th></tr><tr><td>Have you ever felt you needed to <b>Cut down on your drinking?</b></td><td>Yes/No</td><td>+1</td></tr><tr><td>Have people <b>Annoyed you by criticizing your drinking?</b></td><td>Yes/No</td><td>+1</td></tr><tr><td>Have you ever felt <b>Guilty about drinking?</b></td><td>Yes/No</td><td>+1</td></tr><tr><td>Have you ever felt you needed a drink first thing in the morning<br/>(<b>Eye-opener</b>) to steady your nerves or to get rid of a hangover?</td><td>Yes/No</td><td>+1</td></tr></table></div>",
+            "more_info_en": "<p>The CAGE questions are most commonly used in primary care settings to help discuss alcohol use/abuse.</p>\n<p>The name of the score, &ldquo;CAGE&rdquo;, derives from the bolded phrases in the questions, as below:</p>\n<div class=\"table-responsive\">\n<table class=\"table table-bordered table-hover\">\n<tbody>\n<tr>\n<th>Criteria</th>\n<th>Value</th>\n<th>Points</th>\n</tr>\n<tr>\n<td>Have you ever felt you needed to <b>Cut down on your drinking?</b></td>\n<td>Yes/No</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>Have people <b>Annoyed you by criticizing your drinking?</b></td>\n<td>Yes/No</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>Have you ever felt <b>Guilty about drinking?</b></td>\n<td>Yes/No</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>Have you ever felt you needed a drink first thing in the morning<br>(<b>Eye-opener</b>) to steady your nerves or to get rid of a hangover?</td>\n<td>Yes/No</td>\n<td>+1</td>\n</tr>\n</tbody>\n</table>\n</div>",
             "references_list": {
               "Clinical Practice Guidelines": [
                 {
@@ -41,29 +41,29 @@
               ],
               "Original/Primary Reference": [
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/6471323",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/6471323",
                   "text": "Ewing JA. Detecting alcoholism. The CAGE questionnaire. JAMA. 1984 Oct 12;252(14):1905-7. PubMed PMID: 6471323."
                 }
               ],
               "Other References": [
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/10888972",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/10888972",
                   "text": "Fiellin DA, Reid M, O'Connor PG. Screening for Alcohol Problems in Primary Care: A Systematic Review. Arch Intern Med. 2000;160(13):1977-1989. PubMed PMID: 10888972."
                 },
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/7966928",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/7966928",
                   "text": "Kitchens JM. Does this patient have an alcohol problem? JAMA. 1994 Dec 14;272(22):1782-7. PubMed PMID: 7966928."
                 },
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/1530196",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/1530196",
                   "text": "Klatsky AL, Armstrong MA, Friedman GD. Alcohol and mortality. Ann Intern Med. 1992;117:646-654. PubMed PMID:1530196."
                 },
                 {
-                  "href": "http://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm",
+                  "href": "https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm",
                   "text": "Centers for Disease Control and Prevention. Alcohol use and health. 2014."
                 },
                 {
-                  "href": "http://pubs.niaaa.nih.gov/publications/aa65/AA65.htm",
+                  "href": "https://pubs.niaaa.nih.gov/publications/aa65/AA65.htm",
                   "text": "The Physicians' Guide to Helping Patients With Alcohol Problems. Washington, DC US Dept of Health and Human Services, Public Health Service, National Institutes of Health, National Institute on Alcohol Abuse and Alcoholism, 1995."
                 }
               ],
@@ -75,7 +75,7 @@
               ],
               "Validation": [
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/6120322",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/6120322",
                   "text": "Bernadt MW, Mumford J, Taylor C, Smith B, Murray RM. Comparison of questionnaire and laboratory tests in the detection of excessive drinking and alcoholism. Lancet. 1982 Feb 6;1(8267):325-8. PubMed PMID: 6120322."
                 }
               ],
@@ -84,6 +84,7 @@
           },
           "contributor": {
             "expert_name": [
+              "Jonathan Avery, MD",
               "Katherine E. Taylor, MD"
             ]
           },
@@ -95,12 +96,12 @@
             }
           ],
           "how_to_use": {
-            "pearls_pitfalls_en": "<ul><li>The CAGE questions are 4 simple and easy-to-remember to screen for alcohol use problems.</li><li>The scale can be administered in &lt; 1 minute by clinicians.</li><li>CAGE is a screening tool: screening <b>measures are NOT intended to provide a diagnosis</b>; diagnosis occurs if/when a patient screens positive.</li><li>An abnormal or positive screening result may thus “raise suspicion” about the presence of an alcohol use problem, while a normal or negative result should suggest a low probability of an alcohol use problem.<ul><li>Scores of 2 or more are a typical cut-off as “screening positive,” as studies show &gt;90% sensitivity for diagnoses of alcohol disorders (excessive drinking, alcoholism).</li></ul></li></ul>",
-            "use_case_en": "<ul><li>CAGE should be included among standard history questions in primary care, emergency department, psychiatric and inpatient hospital settings.</li><li>The recommendation of the National Institute of Alcohol Abuse and Alcoholism is that all patients who drink alcohol should be screened with the CAGE questions. (<a href='http://www.ncbi.nlm.nih.gov/pubmed/10888972' target='_blank'>Fiellin DA 2000</a>)</li><li>CAGE is designed for adults and adolescents &gt;16 years.</li><li>Other at-risk populations where CAGE or another alcohol screening assessment is indicated include:<ul><li>Pregnant women</li><li>College students</li><li>Arrested and incarcerated persons, especially DWI and domestic violence offenders</li></ul></li></ul>",
-            "why_use_en": "<ul><li>Physicians often overlook alcohol problems in patients. (<a href='http://www.ncbi.nlm.nih.gov/pubmed/7966928' target='_blank'>Kitchens JM 1994</a>)</li><li>Simply asking patients how much they drink often leads to an estimate lower than the actual number of alcoholic drinks per day.</li><li>Alcohol disorders are treatable despite physician bias otherwise. (<a href='http://www.ncbi.nlm.nih.gov/pubmed/7966928' target='_blank'>Kitchens JM 1994</a>)</li><li>Without identification and treatment, alcohol problems lead to significant morbidity and mortality:<ul><li>Alcohol is a major factor in suicides, homicides, violent crimes, and fatal motor vehicle accidents. Nearly 88,000 people die from alcohol-related causes annually, making it the third leading preventable cause of death in the United States. (<a href='http://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm' target='_blank'>Centers for Disease Control and Prevention 2014</a>)</li><li>Alcohol is primarily or secondarily implicated in a large number of medical problems.</li><li>The mortality rate in those who drink six or more drinks per day is 50% higher than the rate in matched controls. (<a href='http://www.ncbi.nlm.nih.gov/pubmed/1530196' target='_blank'>Klatsky AL 1992</a>)</li></ul></li></ul>"
+            "pearls_pitfalls_en": "<ul>\n<li>The CAGE questions are 4 simple and easy-to-remember to screen for alcohol use problems.</li>\n<li>The scale can be administered in &lt; 1 minute by clinicians.</li>\n<li>CAGE is a screening tool: screening <b>measures are NOT intended to provide a diagnosis</b>; diagnosis occurs if/when a patient screens positive.</li>\n<li>An abnormal or positive screening result may thus &ldquo;raise suspicion&rdquo; about the presence of an alcohol use problem, while a normal or negative result should suggest a low probability of an alcohol use problem.\n<ul>\n<li>Scores of 2 or more are a typical cut-off as &ldquo;screening positive,&rdquo; as studies show &gt;90% sensitivity for diagnoses of alcohol disorders (excessive drinking, alcoholism).</li>\n</ul>\n</li>\n</ul>",
+            "use_case_en": "<ul>\n<li>CAGE should be included among standard history questions in primary care, emergency department, psychiatric and inpatient hospital settings.</li>\n<li>The recommendation of the National Institute of Alcohol Abuse and Alcoholism is that all patients who drink alcohol should be screened with the CAGE questions. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/10888972\" target=\"_blank\" rel=\"noopener\">Fiellin DA 2000</a>)</li>\n<li>CAGE is designed for adults and adolescents &gt;16 years.</li>\n<li>Other at-risk populations where CAGE or another alcohol screening assessment is indicated include:\n<ul>\n<li>Pregnant women</li>\n<li>College students</li>\n<li>Arrested and incarcerated persons, especially DWI and domestic violence offenders</li>\n</ul>\n</li>\n</ul>",
+            "why_use_en": "<ul>\n<li>Physicians often overlook alcohol problems in patients. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/7966928\" target=\"_blank\" rel=\"noopener\">Kitchens JM 1994</a>)</li>\n<li>Simply asking patients how much they drink often leads to an estimate lower than the actual number of alcoholic drinks per day.</li>\n<li>Alcohol disorders are treatable despite physician bias otherwise. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/7966928\" target=\"_blank\" rel=\"noopener\">Kitchens JM 1994</a>)</li>\n<li>Without identification and treatment, alcohol problems lead to significant morbidity and mortality:\n<ul>\n<li>Alcohol is a major factor in suicides, homicides, violent crimes, and fatal motor vehicle accidents. Nearly 88,000 people die from alcohol-related causes annually, making it the third leading preventable cause of death in the United States. (<a href=\"https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm\" target=\"_blank\" rel=\"noopener\">Centers for Disease Control and Prevention 2014</a>)</li>\n<li>Alcohol is primarily or secondarily implicated in a large number of medical problems.</li>\n<li>The mortality rate in those who drink six or more drinks per day is 50% higher than the rate in matched controls. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/1530196\" target=\"_blank\" rel=\"noopener\">Klatsky AL 1992</a>)</li>\n</ul>\n</li>\n</ul>"
           },
           "next_steps": {
-            "advice_en": "<ul> <li>If a clinician suspects that the patient is minimizing his or her alcohol use, more qualitative questions (i.e., about quantity, frequency, pattern of drinking) should be asked to better determine the nature and extent of the problem.</li> <li>Other validated tests for further assessment include: <ul> <li>Michigan Alcoholism Screening Test (MAST)</li> <li>Alcohol Use Disorders Identification Test (<calculator id='2021'>AUDIT</calculator>)</li> </ul> </li> <li>Data shows that CAGE is less effective in recognizing less severe drinking disorders. In situations where time allows for more in-depth interviewing, incorporating the <calculator id='2021'>AUDIT</calculator> may help to identify a wider spectrum of alcohol problems. (<a href='http://www.ncbi.nlm.nih.gov/pubmed/10888972' target='_blank'>Fiellin DA 2000</a>)</li> </ul>",
+            "advice_en": "<ul>\n<li>If a clinician suspects that the patient is minimizing his or her alcohol use, more qualitative questions (i.e., about quantity, frequency, pattern of drinking) should be asked to better determine the nature and extent of the problem.</li>\n<li>Other validated tests for further assessment include:\n<ul>\n<li>Michigan Alcoholism Screening Test (MAST)</li>\n<li>Alcohol Use Disorders Identification Test (<calculator id=\"2021\">AUDIT</calculator>)</li>\n</ul>\n</li>\n<li>Data shows that CAGE is less effective in recognizing less severe drinking disorders. In situations where time allows for more in-depth interviewing, incorporating the <calculator id=\"2021\">AUDIT</calculator> may help to identify a wider spectrum of alcohol problems. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/10888972\" target=\"_blank\" rel=\"noopener\">Fiellin DA 2000</a>)</li>\n</ul>",
             "critical_actions_en": "<p>In any hospital setting where access to alcohol may be limited, always monitor for signs/symptoms of alcohol withdrawal, even in patients who have not screened positive for an alcohol problem.</p>",
             "management_en": "<p>When screening results are positive, the patient should be referred for further evaluation and treatment of an alcohol use problem. This will vary based on available resources, but ideally the patient will be sent to an addiction psychiatrist, psychologist, or addiction treatment program.</p>"
           },
@@ -119,12 +120,14 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Drug/Alcohol Use"
         ],
         "dosing": false,
-        "equation_logic": "fa85d08a52042c14d215e5c67fac0a3b",
-        "equation_logic_text": "var calc_output = [];\nvar u = parseInt(cut_down) + parseInt(annoyed) + parseInt(guilty) + parseInt(eye_opener);\nvar msg = '';\nvar mini_msg = '';\nif (u <= 1) { msg += 'Screening negative.';\n    mini_msg = 'Screening negative.' }\nif (u > 1) { msg += 'Scores of 2 or higher had a 93% sensitivity/76% specificity for the identification of \\u201cexcessive drinking\\u201d and a 91% sensitivity/77% specificity for the identification of alcoholism.';\n    mini_msg = 'High sensitivity for \\u201cexcessive drinking\\u201d and alcoholism.' }\nif (eye_opener > 0) { msg += '<br/><br/>Some clinicians also consider the \\u201ceye opener\\u201d question as highly concerning for unhealthy drinking behavior, even if all other questions are answered negatively.' }\ncalc_output.push({ name: 'mini', value: u, value_text: 'points', message: mini_msg });\ncalc_output.push({ name: 'CAGE Questions', value: u, value_text: 'points', message: msg });",
+        "equation_logic": "1883c791a04c658a9c53b933d96daac3",
+        "equation_logic_text": "var calc_output = [];\nvar u = parseInt(cut_down) + parseInt(annoyed) + parseInt(guilty) + parseInt(eye_opener);\nvar msg = '';\nvar mini_msg = '';\nif (u <= 1) { msg += 'Screening negative.';\n    mini_msg = 'Screening negative.' }\nif (u > 1) { msg += 'Scores of 2 or higher had a 93% sensitivity/76% specificity for the identification of \\u201cexcessive drinking\\u201d and a 91% sensitivity/77% specificity for the identification of alcoholism.';\n    mini_msg = 'High sensitivity for \\u201cexcessive drinking\\u201d and alcoholism.' }\nif (eye_opener > 0) { msg += '<br/><br/>Some clinicians also consider the \\u201ceye opener\\u201d question as highly concerning for unhealthy drinking behavior, even if all other questions are answered negatively.' }\ncalc_output.push({ \n    name: 'mini', \n    value: u, \n    value_text: 'points', \n    message: mini_msg \n});\ncalc_output.push({ \n    name: '1729_CAGE Questions_result', \n    value: u, \n    value_text: 'points', \n    message: msg \n});",
         "favorite_id": 1729,
         "full_title_en": "CAGE Questions for Alcohol Use",
         "input_schema": [
@@ -132,7 +135,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Have you ever felt you needed to Cut down on your drinking?",
+            "md_calc_info_concept": null,
             "name": "cut_down",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -152,7 +157,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Have people Annoyed you by criticizing your drinking?",
+            "md_calc_info_concept": null,
             "name": "annoyed",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -172,7 +179,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Have you ever felt Guilty about drinking?",
+            "md_calc_info_concept": null,
             "name": "guilty",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -192,7 +201,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Have you ever felt you needed a drink first thing in the morning (Eye-opener) to steady your nerves or to get rid of a hangover?",
+            "md_calc_info_concept": null,
             "name": "eye_opener",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -210,6 +221,8 @@
           }
         ],
         "instructions_en": "",
+        "isVisibleInListView": true,
+        "is_manual": false,
         "logic_language": "javascript",
         "logs": [
           {
@@ -220,9 +233,11 @@
         ],
         "md5": "0ac4097b20601be723f4a516f87d9673",
         "medium_description_en": "<p>Screens for excessive drinking and alcoholism.</p>",
+        "publishedAt": "2022-04-21T20:28:59.007Z",
         "purpose_en": [
           "Diagnosis"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "etoh",
           "drugs",
@@ -233,7 +248,7 @@
           "keywords_en": "CAGE questionnaire, rule out alcoholism, alcohol use disorder criteria, cage alcoholism, alcoholism screening, CAGE alcohol calc, CAGE alcohol screen, cage mdcalc, cage calc, alcoholic calc, cage questions calc, alcohol use questions, excessive drinking calc, excessive drinking screen",
           "meta_description_en": "The CAGE Questions for Alcohol Use screen for excessive drinking and alcoholism."
         },
-        "short_description_en": "Screens for excessive drinking and alcoholism.",
+        "short_description_en": "<p>Screens for excessive drinking and alcoholism.</p>",
         "short_title_en": "CAGE Questions",
         "slug": "cage-questions-alcohol-use",
         "specialty_en": [
@@ -255,9 +270,28 @@
         ],
         "system_en": [
           "Psychiatric"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "ca886746-a8eb-439b-80a1-168fc610014b"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Jonathan Avery, MD, is an assistant professor of psychiatry at the Weill Cornell Medical College, where he maintains a practice in general adult and addiction psychiatry. He is also an attending psychiatrist at New York-Presbyterian Hospital. Dr. Avery is a graduate of the New York University School of Medicine, and he completed residency at New York-Presbyterian Hospital/Payne Whitney Clinic. During residency, he was selected as a fellow in the Group for the Advancement of Psychiatry and won numerous awards for his clinical and academic work. Dr. Avery completed an addiction psychiatry fellowship at the New York University School of Medicine, prior to employment on the Cornell faculty. Dr. Avery now teaches addiction psychiatry and inpatient psychiatry to the Weill Cornell medical students and psychiatry residents of New York-Presbyterian Hospital. He has been published on a variety of topics in psychiatry, including clinician attitudes towards patients and how to use buprenorphine. He was also on the editorial board for the DSM-5 Clinical Cases book.</p>",
+          "firstName": "Jonathan",
+          "hasDisclosure": [],
+          "img": "jonathan-avery.jpeg",
+          "lastName": "Avery",
+          "name": "Jonathan Avery, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Past",
+          "target": "jonathan-avery",
+          "updatedAt": "2023-04-06T20:26:35.654Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",

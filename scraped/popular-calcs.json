@@ -1,0 +1,202 @@
+[
+  {
+    "id": 43,
+    "slug": "creatinine-clearance-cockcroft-gault-equation"
+  },
+  {
+    "id": 3939,
+    "slug": "ckd-epi-equations-glomerular-filtration-rate-gfr"
+  },
+  {
+    "id": 801,
+    "slug": "cha2ds2-vasc-score-atrial-fibrillation-stroke-risk"
+  },
+  {
+    "id": 74,
+    "slug": "mean-arterial-pressure-map"
+  },
+  {
+    "id": 31,
+    "slug": "calcium-correction-hypoalbuminemia"
+  },
+  {
+    "id": 115,
+    "slug": "wells-criteria-pulmonary-embolism"
+  },
+  {
+    "id": 3398,
+    "slug": "ascvd-atherosclerotic-cardiovascular-disease-2013-risk-calculator-aha-acc"
+  },
+  {
+    "id": 48,
+    "slug": "corrected-qt-interval-qtc"
+  },
+  {
+    "id": 76,
+    "slug": "mdrd-gfr-equation"
+  },
+  {
+    "id": 29,
+    "slug": "body-mass-index-bmi-body-surface-area-bsa"
+  },
+  {
+    "id": 68,
+    "slug": "ideal-body-weight-adjusted-body-weight"
+  },
+  {
+    "id": 715,
+    "slug": "nih-stroke-scale-score-nihss"
+  },
+  {
+    "id": 423,
+    "slug": "pregnancy-due-dates-calculator"
+  },
+  {
+    "id": 1739,
+    "slug": "revised-cardiac-risk-index-pre-operative-risk"
+  },
+  {
+    "id": 1752,
+    "slug": "heart-score-major-cardiac-events"
+  },
+  {
+    "id": 362,
+    "slug": "wells-criteria-dvt"
+  },
+  {
+    "id": 340,
+    "slug": "child-pugh-score-cirrhosis-mortality"
+  },
+  {
+    "id": 2040,
+    "slug": "steroid-conversion-calculator"
+  },
+  {
+    "id": 72,
+    "slug": "maintenance-fluids-calculations"
+  },
+  {
+    "id": 50,
+    "slug": "sodium-correction-hyperglycemia"
+  },
+  {
+    "id": 78,
+    "slug": "meld-score-model-end-stage-liver-disease-12-older"
+  },
+  {
+    "id": 64,
+    "slug": "glasgow-coma-scale-score-gcs"
+  },
+  {
+    "id": 10170,
+    "slug": "morphine-milligram-equivalents-mme-calculator"
+  },
+  {
+    "id": 347,
+    "slug": "perc-rule-pulmonary-embolism"
+  },
+  {
+    "id": 807,
+    "slug": "has-bled-score-major-bleeding-risk"
+  },
+  {
+    "id": 60,
+    "slug": "fractional-excretion-sodium-fena"
+  },
+  {
+    "id": 2200,
+    "slug": "fibrosis-4-fib-4-index-liver-fibrosis"
+  },
+  {
+    "id": 104,
+    "slug": "centor-score-modified-mcisaac-strep-pharyngitis"
+  },
+  {
+    "id": 691,
+    "slug": "sequential-organ-failure-assessment-sofa-score"
+  },
+  {
+    "id": 1725,
+    "slug": "phq9-patient-health-questionnaire9"
+  },
+  {
+    "id": 1096,
+    "slug": "sirs-sepsis-septic-shock-criteria"
+  },
+  {
+    "id": 3992,
+    "slug": "stop-bang-score-obstructive-sleep-apnea"
+  },
+  {
+    "id": 1736,
+    "slug": "ciwa-ar-alcohol-withdrawal"
+  },
+  {
+    "id": 3970,
+    "slug": "caprini-score-venous-thromboembolism-2005"
+  },
+  {
+    "id": 589,
+    "slug": "pecarn-pediatric-head-injury-trauma-algorithm"
+  },
+  {
+    "id": 324,
+    "slug": "curb-65-score-pneumonia-severity"
+  },
+  {
+    "id": 1669,
+    "slug": "anion-gap"
+  },
+  {
+    "id": 113,
+    "slug": "free-water-deficit-hypernatremia"
+  },
+  {
+    "id": 3400,
+    "slug": "ascvd-atherosclerotic-cardiovascular-disease-risk-algorithm-including-known-ascvd-aha-acc"
+  },
+  {
+    "id": 1727,
+    "slug": "gad7-general-anxiety-disorder7"
+  },
+  {
+    "id": 91,
+    "slug": "serum-osmolality-osmolarity"
+  },
+  {
+    "id": 4038,
+    "slug": "gupta-perioperative-risk-myocardial-infarction-cardiac-arrest-mica"
+  },
+  {
+    "id": 38,
+    "slug": "framingham-risk-score-hard-coronary-heart-disease"
+  },
+  {
+    "id": 70,
+    "slug": "ldl-calculated"
+  },
+  {
+    "id": 1868,
+    "slug": "apache-ii-score"
+  },
+  {
+    "id": 518,
+    "slug": "glasgow-blatchford-bleeding-score-gbs"
+  },
+  {
+    "id": 1741,
+    "slug": "arterial-blood-gas-abg-analyzer"
+  },
+  {
+    "id": 1099,
+    "slug": "grace-acs-risk-mortality-calculator"
+  },
+  {
+    "id": 2023,
+    "slug": "padua-prediction-score-risk-vte"
+  },
+  {
+    "id": 357,
+    "slug": "abcd2-score-tia"
+  }
+]

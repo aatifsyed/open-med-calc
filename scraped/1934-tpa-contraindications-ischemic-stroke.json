@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -20,14 +20,14 @@
         "cme_status": "enabled",
         "content": {
           "about": {
-            "evidence_based_medicine_en": "<ul> <li>The majority of the exclusion criteria are based on patients who were excluded from the original NINDS I and II trials. (<a href=\"http://circ.ahajournals.org/content/94/5/1167.full\" target=\"_blank\">Adams 1996</a>)</li> <li>Current guidelines suggest that tPA may be considered in patients with 1 or more relative contraindications, though only after making a considered risk/benefit analysis and in consultation with the patient and/or their family whenever possible. (<a href=\"http://stroke.ahajournals.org/content/44/3/870.full\" target=\"_blank\">Jauch 2013</a>)</li> <li>An article reviewing the literature found only 5 reports since 2006 of cardiac tamponade after receiving tPA for stroke, considering this and a review of data on natural history of cardiac healing after MI, the authors recommend that the current recommendation against tPA for patients with recent MI be shortened from 3 months to 7 weeks. (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/21490319\" target=\"_blank\">De Silva 2011</a>)</li> <li>There is a case report of a patient with seizures at stroke outset who received tPA after MRI confirmed acute ischemic stroke who had a good clinical outcome. The authors recommend using more advanced neuroimaging to identify patients with seizure who could safely be given tPA. (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/12097852\" target=\"_blank\">Selim 2003</a>)</li> </ul>",
+            "evidence_based_medicine_en": "<ul>\n<li>The majority of the exclusion criteria are based on patients who were excluded from the original NINDS I and II trials. (<a href=\"https://circ.ahajournals.org/content/94/5/1167.full\" target=\"_blank\" rel=\"noopener\">Adams 1996</a>)</li>\n<li>Current guidelines suggest that tPA may be considered in patients with 1 or more relative contraindications, though only after making a considered risk/benefit analysis and in consultation with the patient and/or their family whenever possible. (<a href=\"https://stroke.ahajournals.org/content/44/3/870.full\" target=\"_blank\" rel=\"noopener\">Jauch 2013</a>)</li>\n<li>An article reviewing the literature found only 5 reports since 2006 of cardiac tamponade after receiving tPA for stroke, considering this and a review of data on natural history of cardiac healing after MI, the authors recommend that the current recommendation against tPA for patients with recent MI be shortened from 3 months to 7 weeks. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/21490319\" target=\"_blank\" rel=\"noopener\">De Silva 2011</a>)</li>\n<li>There is a case report of a patient with seizures at stroke outset who received tPA after MRI confirmed acute ischemic stroke who had a good clinical outcome. The authors recommend using more advanced neuroimaging to identify patients with seizure who could safely be given tPA. (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/12097852\" target=\"_blank\" rel=\"noopener\">Selim 2003</a>)</li>\n</ul>",
             "formula_en": "<p>Series of Yes/No questions.</p>",
-            "more_info_en": "<p>For the entire list of inclusion/exclusion criteria, go to the <a href=\"http://www.stroke-site.org/guidelines/tPA_guidelines.html\" target=\"_blank\">Official NINDS website</a>.</p> <p>For the National Stroke Guidelines, go to the <a href=\"http://www.stroke-site.org/guidelines/\" target=\"_blank”\">Brain Attack website</a>.</p>",
+            "more_info_en": "<p>For the entire list of inclusion/exclusion criteria and ischemic stroke guidelines, view the <a href=\"https://www.ahajournals.org/doi/10.1161/STR.0000000000000211\" target=\"_blank\" rel=\"noopener\">2019 Update in Early Management of Acute Ischemic Stroke</a>.</p>",
             "references_list": {
               "Clinical Practice Guidelines": [
                 {
-                  "href": "",
-                  "text": ""
+                  "href": "https://www.ahajournals.org/doi/10.1161/STR.0000000000000211",
+                  "text": "Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the early management of patients with acute ischemic stroke: 2019 update to the 2018 guidelines for the early management of acute ischemic stroke: a guideline for healthcare professionals from the american heart association/american stroke association. Stroke. 2019;50(12)."
                 }
               ],
               "Manufacturer Website": [
@@ -38,17 +38,17 @@
               ],
               "Original/Primary Reference": [
                 {
-                  "href": "http://stroke.ahajournals.org/content/44/3/870.full",
+                  "href": "https://stroke.ahajournals.org/content/44/3/870.full",
                   "text": "Jauch ED, et al. Guidelines for the early management of patients with acute ischemic stroke: A Guideline for healthcare professionals from the American Heart Association/American Stroke Association. Stroke. 2013; 44: 870-947."
                 }
               ],
               "Other References": [
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/21490319",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/21490319",
                   "text": "De Silva DA, Manzano JJ, Chang HM, Wong MC. Reconsidering recent myocardial infarction as a contraindication for IV stroke thrombolysis. Neurology. 2011 May 24;76(21):1838-40."
                 },
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/12097852",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/12097852",
                   "text": "Selim M, Kumar S, Fink J, Schlaug G, Caplan LR, Linfante I. Seizure at stroke onset: should it be an absolute contraindication to thrombolysis? Cerebrovasc Dis. 2002;14(1):54-7."
                 },
                 {
@@ -56,7 +56,7 @@
                   "text": "Fugate JE, Rabinstein AA. Absolute and Relative Contraindications to IV rt-PA for Acute Ischemic Stroke. Neurohospitalist. 2015;5(3):110-21."
                 },
                 {
-                  "href": "http://stroke.ahajournals.org/content/early/2015/12/22/STR.0000000000000086.full.pdf+html",
+                  "href": "https://stroke.ahajournals.org/content/early/2015/12/22/STR.0000000000000086.full.pdf+html",
                   "text": "Demaerschalk BM, et al. Scientific Rationale for the Inclusion and Exclusion Criteria for Intravenous Alteplase in Acute Ischemic Stroke: A Statement for Healthcare Professionals From the American Heart Association/American Stroke Association. Stroke. 2016 Feb;47(2):581-641."
                 }
               ],
@@ -68,7 +68,7 @@
               ],
               "Validation": [
                 {
-                  "href": "http://circ.ahajournals.org/content/94/5/1167.full",
+                  "href": "https://circ.ahajournals.org/content/94/5/1167.full",
                   "text": "Adams HP, et. al. Guidelines for Thrombolytic Therapy for Acute Stroke: A Supplement to the Guidelines for the Management of Patients With Acute Ischemic Stroke: A Statement for Healthcare Professionals From a Special Writing Group of the Stroke Council, American Heart Association. Circulation. 1996;94:1167-1174."
                 }
               ],
@@ -88,14 +88,14 @@
             }
           ],
           "how_to_use": {
-            "pearls_pitfalls_en": "<p>There are strict protocols concerning the appropriate administration of tPA in patients with ischemic stroke, including a list of absolute and relative contraindications.</p> <ul> <li>Because of the risk of hemorrhage is thought to outweigh any potential benefits, patients with any absolute contraindication should not be given tPA.</li> <li>For patients within the 3-hour window who meet the inclusion criteria and have no contraindications, earlier administration of tPA was associated with improved outcomes in one randomized trial (NINDS II).</li> </ul> <p><strong>Points to keep in mind:</strong></p> <ul> <li>tPA for patients with acute ischemic stroke is associated with a significant increase in symptomatic intracranial hemorrhage, so it is essential to adhere to accepted protocols and to engage in shared decision making with the patient or their family when considering administering tPA.</li> <li>The evidence and strength of recommendations for giving tPA in the 3-4.5 hour window is less robust than for giving thrombolytics inside the 180 minutes from onset of symptoms.</li> </ul>",
+            "pearls_pitfalls_en": "<p>There are strict protocols concerning the appropriate administration of tPA in patients with ischemic stroke, including a list of absolute and relative contraindications.</p>\n<ul>\n<li>Because of the risk of hemorrhage is thought to outweigh any potential benefits, patients with any absolute contraindication should not be given tPA.</li>\n<li>For patients within the 3-hour window who meet the inclusion criteria and have no contraindications, earlier administration of tPA was associated with improved outcomes in one randomized trial (NINDS II).</li>\n</ul>\n<p><strong>Points to keep in mind:</strong></p>\n<ul>\n<li>tPA for patients with acute ischemic stroke is associated with a significant increase in symptomatic intracranial hemorrhage, so it is essential to adhere to accepted protocols and to engage in shared decision making with the patient or their family when considering administering tPA.</li>\n<li>The evidence and strength of recommendations for giving tPA in the 3-4.5 hour window is less robust than for giving thrombolytics inside the 180 minutes from onset of symptoms.</li>\n</ul>",
             "use_case_en": "<p>The list of absolute and relative contraindications to tPA <strong>should be reviewed in any patient with an acute ischemic stroke in whom thrombolysis is being considered.</strong></p>",
-            "why_use_en": "<p>The principal risk of tPA is symptomatic or fatal hemorrhage. It is essential that patients be evaluated for any history or risk factors that would put them at an increased risk of a hemorrhagic outcome.</p> "
+            "why_use_en": "<p>The principal risk of tPA is symptomatic or fatal hemorrhage. It is essential that patients be evaluated for any history or risk factors that would put them at an increased risk of a hemorrhagic outcome.</p>"
           },
           "next_steps": {
             "advice_en": "",
-            "critical_actions_en": "<ul> <li>Patients presenting with a potential acute ischemic stroke should have a non-contrast CT scan of the head performed as soon as is safely possible.</li> <li>If the patient is a candidate for thrombolysis with tPA they should be carefully evaluated for any absolute or relative contraindications.</li> <li>The <calculator id=\"715\">NIHSS</calculator> should be performed as part of their evaluation, by a <calculator id=\"715\">NIHSS</calculator> certified provider if one is available.</li> <li>While a high <calculator id=\"715\">NIHSS</calculator> score (&gt;22) is not an absolute contraindication to tPA within the 3 hour window, be aware that the rate of symptomatic or fatal intracranial hemorrhage is higher among this cohort.</li> <li>If the patient has an elevated blood pressure (SBP &gt;185 or DBP &gt;110) as their only contraindication to receiving tPA, consider using parenteral medication to lower their blood pressure to an acceptable level. If the blood pressure can be adequately controlled, the patient may be safely given tPA if they meet the inclusion criteria and have no other contraindications.</li> <li>When considering giving tPA in the extended window (3-4.5 hours), remember that an <calculator id=\"715\">NIHSS</calculator> score of &gt;25 is considered a contraindication to thrombolysis.</li> </ul> ",
-            "management_en": "<p>In patients who present with symptoms concerning for ischemic stroke:</p> <ul> <li>Consult neurology.</li> <li>Determine the onset of stroke symptoms (or time patient last felt or was observed normal).</li> <li>Obtain a stat head CT to evaluate for hemorrhagic stroke.</li> <li>In appropriate circumstances and in consultation with both neurology and the patient, consider IV thrombolysis for ischemic strokes in patients with no contraindications.</li> </ul>"
+            "critical_actions_en": "<ul>\n<li>Patients presenting with a potential acute ischemic stroke should have a non-contrast CT scan of the head performed as soon as is safely possible.</li>\n<li>If the patient is a candidate for thrombolysis with tPA they should be carefully evaluated for any absolute or relative contraindications.</li>\n<li>The <calculator id=\"715\">NIHSS</calculator> should be performed as part of their evaluation, by a <calculator id=\"715\">NIHSS</calculator> certified provider if one is available.</li>\n<li>While a high <calculator id=\"715\">NIHSS</calculator> score (&gt;22) is not an absolute contraindication to tPA within the 3 hour window, be aware that the rate of symptomatic or fatal intracranial hemorrhage is higher among this cohort.</li>\n<li>If the patient has an elevated blood pressure (SBP &gt;185 or DBP &gt;110) as their only contraindication to receiving tPA, consider using parenteral medication to lower their blood pressure to an acceptable level. If the blood pressure can be adequately controlled, the patient may be safely given tPA if they meet the inclusion criteria and have no other contraindications.</li>\n<li>When considering giving tPA in the extended window (3-4.5 hours), remember that an <calculator id=\"715\">NIHSS</calculator> score of &gt;25 is considered a contraindication to thrombolysis.</li>\n</ul>",
+            "management_en": "<p>In patients who present with symptoms concerning for ischemic stroke:</p>\n<ul>\n<li>Consult neurology.</li>\n<li>Determine the onset of stroke symptoms (or time patient last felt or was observed normal).</li>\n<li>Obtain a stat head CT to evaluate for hemorrhagic stroke.</li>\n<li>In appropriate circumstances and in consultation with both neurology and the patient, consider IV thrombolysis for ischemic strokes in patients with no contraindications.</li>\n</ul>"
           },
           "related_resources": {
             "guidelines": [],
@@ -112,18 +112,22 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Intracranial Hemorrhage",
           "Stroke/TIA",
           "Subarachnoid Hemorrhage"
         ],
         "dosing": false,
-        "equation_logic": "31c990aa747b11d555cb7c845b8cd991",
-        "equation_logic_text": "var calc_output = [];\nvar inc, abs, rel, rel3;\nvar val = 'Patient does NOT meet inclusion criteria for tPA.';\nvar mini_val = 'TPA administration NOT indicated.';\ninc = 0;\nabs = 0;\nrel = 0;\nrel3 = 0;\nif (age_18 == 1 & diagnosis == 1 & symptom_onset == 1) { inc = 1 }\nif (hemorrhage == 1 || sub_hemorrhage == 1 || surg_trauma_stroke == 1 || hypertension == 1 || hist_hemorr == 1 || endocarditis == 1 || malformation == 1 || bleeding == 1 || diathesis == 1 || glucose == 1) { abs = 1 }\nif (minor_stroke == 1 || surgery == 1 || gastro == 1 || seizure == 1 || art_puncture == 1 || lumb_puncture == 1 || pericarditis == 1 || pregnancy == 1) { rel = 1 }\nif (age_80 == 1 || stroke == 1 || anticoagulant == 1 || nihss_25 == 1 || multi_infarction == 1) { rel3 = 1 }\nif (inc == 1) { val = 'Patient eligible for tPA';\n    mini_val = 'Patient eligible for tPA';\n    if (rel3 == 1 || rel == 1) {\n        if (rel3 == 1 && rel != 1) { val += ' but has contraindications if onset >3 hours; consider and discuss risk/benefit with patient, family, and neurology consultation.';\n            mini_val += ' but has contraindications.' }\n        if (rel == 1) { val += ' but has relative contraindications; consider and discuss risk/benefit with patient, family, and neurology consultation.';\n            mini_val += ' but has contraindications.' } } else { val += '.';\n        mini_val += '.' }\n    if (abs == 1) { val = 'Patient has absolute contraindications to tPA and it should NOT be given.';\n        mini_val = 'TPA administration NOT indicated.' } }\ncalc_output.push({ name: 'mini', value: ' ', value_text: ' ', message: mini_val });\ncalc_output.push({ name: 'TPA Contraindications', value: ' ', value_text: ' ', message: val });",
+        "equation_logic": "8a98ac8e3ad9d6eb2676319464ca122b",
+        "equation_logic_text": "var calc_output = [];\nvar inc, abs, rel, rel3;\nvar val = 'Patient does NOT meet inclusion criteria for tPA.';\nvar mini_val = 'TPA administration NOT indicated.';\ninc = 0;\nabs = 0;\nrel = 0;\nrel3 = 0;\nif (age_18 == 1 & diagnosis == 1 & symptom_onset == 1) { inc = 1 }\nif (hemorrhage == 1 || sub_hemorrhage == 1 || surg_trauma_stroke == 1 || hypertension == 1 || hist_hemorr == 1 || endocarditis == 1 || malformation == 1 || bleeding == 1 || diathesis == 1 || glucose == 1) { abs = 1 }\nif (minor_stroke == 1 || surgery == 1 || gastro == 1 || seizure == 1 || art_puncture == 1 || lumb_puncture == 1 || pericarditis == 1 || pregnancy == 1) { rel = 1 }\nif (age_80 == 1 || stroke == 1 || anticoagulant == 1 || nihss_25 == 1 || multi_infarction == 1) { rel3 = 1 }\nif (inc == 1) { val = 'Patient eligible for tPA';\n    mini_val = 'Patient eligible for tPA';\n    if (rel3 == 1 || rel == 1) {\n        if (rel3 == 1 && rel != 1) { val += ' but has contraindications if onset >3 hours; consider and discuss risk/benefit with patient, family, and neurology consultation.';\n            mini_val += ' but has contraindications.' }\n        if (rel == 1) { val += ' but has relative contraindications; consider and discuss risk/benefit with patient, family, and neurology consultation.';\n            mini_val += ' but has contraindications.' } } else { val += '.';\n        mini_val += '.' }\n    if (abs == 1) { val = 'Patient has absolute contraindications to tPA and it should NOT be given.';\n        mini_val = 'TPA administration NOT indicated.' } }\ncalc_output.push({ \n    name: 'mini', \n    value: ' ', \n    value_text: ' ',\n    message: mini_val\n});\ncalc_output.push({ \n    name: '1934_tPA Contraindications_result', \n    value: ' ', \n    value_text: ' ', \n    message: val \n});",
         "favorite_id": 1934,
         "full_title_en": "tPA Contraindications for Ischemic Stroke",
         "input_schema": [
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Eligibility for tPA",
             "subheading_instructions": "",
             "type": "subheading"
@@ -132,7 +136,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Age ≥18",
+            "md_calc_info_concept": null,
             "name": "age_18",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -152,7 +158,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Clinical diagnosis of ischemic stroke causing neurological deficit",
+            "md_calc_info_concept": null,
             "name": "diagnosis",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -172,7 +180,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Time of symptom onset <4.5 hours",
+            "md_calc_info_concept": null,
             "name": "symptom_onset",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -189,6 +199,8 @@
             "type": "toggle"
           },
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Absolute Contraindications to tPA",
             "subheading_instructions": "",
             "type": "subheading"
@@ -197,7 +209,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Intracranial hemorrhage on CT",
+            "md_calc_info_concept": null,
             "name": "hemorrhage",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -217,7 +231,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Clinical presentation suggests subarachnoid hemorrhage",
+            "md_calc_info_concept": null,
             "name": "sub_hemorrhage",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -237,7 +253,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Neurosurgery, head trauma, or stroke in past 3 months",
+            "md_calc_info_concept": null,
             "name": "surg_trauma_stroke",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -257,7 +275,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Uncontrolled hypertension (>185 mmHg SBP or >110 mmHg DBP)",
+            "md_calc_info_concept": null,
             "name": "hypertension",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -277,7 +297,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "History of intracranial hemorrhage",
+            "md_calc_info_concept": null,
             "name": "hist_hemorr",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -297,7 +319,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Known intracranial arteriovenous malformation, neoplasm, or aneurysm",
+            "md_calc_info_concept": null,
             "name": "malformation",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -317,7 +341,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Active internal bleeding",
+            "md_calc_info_concept": null,
             "name": "bleeding",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -337,7 +363,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Suspected/confirmed endocarditis",
+            "md_calc_info_concept": null,
             "name": "endocarditis",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -357,7 +385,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Known bleeding diathesis",
+            "md_calc_info_concept": null,
             "name": "diathesis",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -377,7 +407,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Abnormal blood glucose (<50 mg/dL)",
+            "md_calc_info_concept": null,
             "name": "glucose",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -394,6 +426,8 @@
             "type": "toggle"
           },
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Relative Contraindications/Warnings to tPA",
             "subheading_instructions": "",
             "type": "subheading"
@@ -402,7 +436,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Only minor or rapidly improving stroke symptoms",
+            "md_calc_info_concept": null,
             "name": "minor_stroke",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -422,7 +458,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Major surgery or serious non-head trauma in the previous 14 days",
+            "md_calc_info_concept": null,
             "name": "surgery",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -442,7 +480,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "History of gastrointestinal or urinary tract hemorrhage within 21 days",
+            "md_calc_info_concept": null,
             "name": "gastro",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -462,7 +502,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Seizure at stroke onset",
+            "md_calc_info_concept": null,
             "name": "seizure",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -482,7 +524,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Recent arterial puncture at a noncompressible site",
+            "md_calc_info_concept": null,
             "name": "art_puncture",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -502,7 +546,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Recent lumbar puncture",
+            "md_calc_info_concept": null,
             "name": "lumb_puncture",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -522,7 +568,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Post myocardial infarction pericarditis",
+            "md_calc_info_concept": null,
             "name": "pericarditis",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -542,7 +590,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Pregnancy",
+            "md_calc_info_concept": null,
             "name": "pregnancy",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -559,6 +609,8 @@
             "type": "toggle"
           },
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Additional Warnings to tPA >3hr Onset",
             "subheading_instructions": "",
             "type": "subheading"
@@ -567,7 +619,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Age >80 years",
+            "md_calc_info_concept": null,
             "name": "age_80",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -587,7 +641,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "History of prior stroke and diabetes",
+            "md_calc_info_concept": null,
             "name": "stroke",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -607,7 +663,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Any active anticoagulant use (even with INR <1.7) ",
+            "md_calc_info_concept": null,
             "name": "anticoagulant",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -627,7 +685,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "<calculator id='715'>NIHSS</calculator> >25",
+            "md_calc_info_concept": null,
             "name": "nihss_25",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -647,7 +707,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "CT shows multilobar infarction (hypodensity >1/3 cerebral hemisphere)",
+            "md_calc_info_concept": null,
             "name": "multi_infarction",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -664,7 +726,9 @@
             "type": "toggle"
           }
         ],
-        "instructions_en": "<p>Institutions may have slightly different absolute and relative contraindications to Tissue Plasminogen Activator (tPA); this list is meant to be a quick reference, but practice should be guided by institutional protocol and consultation with neurology.&nbsp;Reflects recommendations from <a href=\"http://stroke.ahajournals.org/content/early/2015/12/22/STR.0000000000000086.full.pdf+html\" target=\"_blank\">Demaerschalk et al, Stroke 2015</a>.</p>",
+        "instructions_en": "<p>Institutions may have slightly different absolute and relative contraindications to Tissue Plasminogen Activator (tPA); this list is meant to be a quick reference, but practice should be guided by institutional protocol and consultation with neurology.&nbsp;Reflects recommendations from <a href=\"https://stroke.ahajournals.org/content/early/2015/12/22/STR.0000000000000086.full.pdf+html\" target=\"_blank\" rel=\"noopener\">Demaerschalk et al, Stroke 2015</a>.</p>",
+        "isVisibleInListView": true,
+        "is_manual": false,
         "logic_language": "javascript",
         "logs": [
           {
@@ -690,10 +754,12 @@
         ],
         "md5": "ea998f622c1442638bde55e4ba61f461",
         "medium_description_en": "<p>Provides inclusion/exclusion criteria when deciding to use tPA on a patient with acute ischemic stroke.</p>",
+        "publishedAt": "2022-04-21T20:29:04.570Z",
         "purpose_en": [
           "Algorithm",
           "Treatment"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "tPA",
           "thrombolysis",
@@ -706,7 +772,7 @@
           "keywords_en": "pa contraindications, stroke tPA inclusion, stroke tPA exclusion, tPA guidelines, tPA use stroke, tPA use calc, tPA indication, cva thrombolysis, thrombolysis indications, tPA, thrombolysis, thrombolysis use, thrombolysis calc",
           "meta_description_en": "tPA Contraindications provide inclusion/exclusion criteria when deciding to use tPA on a patient with acute ischemic stroke."
         },
-        "short_description_en": "Inclusion & exclusion criteria for tPA.",
+        "short_description_en": "<p>Inclusion &amp; exclusion criteria for tPA.</p>",
         "short_title_en": "tPA Contraindications",
         "slug": "tpa-contraindications-ischemic-stroke",
         "specialty_en": [
@@ -720,7 +786,11 @@
         ],
         "system_en": [
           "Neurologic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "c318c054-7e71-4e59-b1c7-69b605be27fb"
       },
       "contributors": [
         {

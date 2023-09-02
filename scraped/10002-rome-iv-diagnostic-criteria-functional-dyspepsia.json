@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -55,6 +55,7 @@
           },
           "contributor": {
             "expert_name": [
+              "David Cangemi, MD",
               "Colleen Parker, MD"
             ]
           },
@@ -81,7 +82,7 @@
             "why_use_en": "<ul>\n<li>Helps to make a diagnosis of functional dyspepsia when appropriate workup of upper GI symptoms is nondiagnostic.</li>\n<li>Helps to distinguish symptoms from other common disorders, such as GERD.</li>\n<li>Helps to guide management of functional dyspepsia based on subtype (post-prandial distress syndrome vs. epigastric pain syndrome).</li>\n</ul>\n<p></p>"
           },
           "next_steps": {
-            "advice_en": "<p dir=\"ltr\"><strong>If diagnosis not met (negative):</strong></p>\n<p dir=\"ltr\">Symptoms are unlikely to be caused by functional dyspepsia. Consider further assessment for other pathology or a different functional gastrointestinal disease diagnosis.</p>\n<p dir=\"ltr\"><strong>If meets diagnosis (positive):</strong></p>\n<p><span id=\"docs-internal-guid-3a01b04e-f8bf-7678-e95e-dae231d9aedc\">Likely diagnosis of functional dyspepsia.&nbsp;Consider&nbsp;management per current <a href=\"https://journals.lww.com/ajg/fulltext/2017/07000/ACG_and_CAG_Clinical_Guideline__Management_of.10.aspx\" target=\"_blank\" rel=\"noopener\">American College of Gastroenterology (ACG) guidelines.</a></p>",
+            "advice_en": "<p dir=\"ltr\"><strong>If diagnosis not met (negative):</strong></p>\n<p dir=\"ltr\">Symptoms are unlikely to be caused by functional dyspepsia. Consider further assessment for other pathology or a different functional gastrointestinal disease diagnosis.</p>\n<p dir=\"ltr\"><strong>If meets diagnosis (positive):</strong></p>\n<p><span id=\"docs-internal-guid-3a01b04e-f8bf-7678-e95e-dae231d9aedc\">Likely diagnosis of functional dyspepsia.&nbsp;Consider&nbsp;management per current <a href=\"https://journals.lww.com/ajg/fulltext/2017/07000/ACG_and_CAG_Clinical_Guideline__Management_of.10.aspx\" target=\"_blank\" rel=\"noopener\">American College of Gastroenterology (ACG) guidelines.</a></span></p>",
             "critical_actions_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">This calculator should only be used in patients after appropriate organic, systemic, and metabolic causes have been ruled out after careful investigation, which includes upper endoscopy.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Note: other GI conditions, such as GERD and IBS may coexist with functional dyspepsia.</p>\n</li>\n</ul>",
             "management_en": "<p>Management of functional dyspepsia should be based on the subcategorization.</p>\n<p>For postprandial distress syndrome (PDS):</p>\n<ul>\n<li>Mirtazepine.&nbsp;</li>\n<li>Buspirone.</li>\n<li>Prokinetic medications.</li>\n<li>Behavioral therapy.</li>\n</ul>\n<p>For epigastric pain syndrome (EPS):</p>\n<ul>\n<li>Treatment of H. pylori.</li>\n<li>Proton pump inhibitor.</li>\n<li>Tricyclic antidepressant or other neuromodulators.</li>\n<li>Behavioral therapy.</li>\n</ul>\n<p>Consult&nbsp;<a href=\"https://journals.lww.com/ajg/fulltext/2017/07000/ACG_and_CAG_Clinical_Guideline__Management_of.10.aspx\" target=\"_blank\" rel=\"noopener\">ACG guidelines</a>&nbsp;for further details.</p>"
           },
@@ -108,6 +109,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Disorders of Gut-Brain Interaction (DGBI)"
         ],
@@ -118,15 +121,19 @@
         "full_title_en": "Rome IV Diagnostic Criteria for Functional Dyspepsia",
         "input_schema": [
           {
-            "subheading": "Must have ≥1 of the following:",
-            "subheading_instructions": "For 3 months prior with symptom onset ≥6 months ago",
+            "inct": null,
+            "option_fhir_rules": null,
+            "subheading": "Must have ?1 of the following:",
+            "subheading_instructions": "For 3 months prior with symptom onset ?6 months ago",
             "type": "subheading"
           },
           {
             "conditionality": "",
             "default": 0,
             "label_en": "Bothersome postprandial fullness",
+            "md_calc_info_concept": null,
             "name": "fullness",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -146,7 +153,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Bothersome early satiation",
+            "md_calc_info_concept": null,
             "name": "satiation",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -166,7 +175,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Bothersome epigastric pain",
+            "md_calc_info_concept": null,
             "name": "pain",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -186,7 +197,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Bothersome epigastric burning",
+            "md_calc_info_concept": null,
             "name": "burning",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -203,6 +216,8 @@
             "type": "toggle"
           },
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Must also have the following:",
             "subheading_instructions": "",
             "type": "subheading"
@@ -211,7 +226,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "No evidence of organic, systemic, metabolic or structural disease likely to explain symptoms",
+            "md_calc_info_concept": null,
             "name": "ruleout",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -228,6 +245,8 @@
             "type": "toggle"
           },
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Functional dyspepsia subtype",
             "subheading_instructions": "",
             "type": "subheading"
@@ -236,7 +255,9 @@
             "conditionality": "fullness + satiation + pain + burning >= 1 && ruleout == 1",
             "default": 0,
             "label_en": "Bothersome postprandial fullnesss and early satiation ≥3 days/week",
+            "md_calc_info_concept": null,
             "name": "day3",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -256,7 +277,9 @@
             "conditionality": "fullness + satiation + pain + burning >= 1 && ruleout == 1",
             "default": 0,
             "label_en": "Bothersome epigastric pain and burning ≥1 day/week",
+            "md_calc_info_concept": null,
             "name": "day1",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -274,6 +297,7 @@
           }
         ],
         "instructions_en": "<p>Use in patients with symptoms suggestive of functional dyspepsia such as chronic and recurrent epigastric pain, discomfort, fullness, burning and early satiety for at least 6 months.</p>\n<p>Patients with any of the following features must be evaluated clinically for other diagnoses even though functional dyspepsia may be present:</p>\n<ul>\n<li dir=\"ltr\">Signs or symptoms of GI bleeding.</li>\n<li dir=\"ltr\">Unexplained iron deficiency anemia.</li>\n<li dir=\"ltr\">Unintentional weight loss.</li>\n<li dir=\"ltr\">Palpable abdominal mass or lymphadenopathy on exam.</li>\n<li dir=\"ltr\">Family history of gastric cancer and no recent upper endoscopy.</li>\n<li dir=\"ltr\">Dysphagia.</li>\n<li dir=\"ltr\">Persistent vomiting.</li>\n</ul>",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -424,9 +448,11 @@
         ],
         "md5": "78a58c85fd34988f40e4a49f7e5bee5c",
         "medium_description_en": "<p>Official Rome IV criteria for the diagnosis of functional dyspepsia.</p>",
+        "publishedAt": "2022-04-21T20:28:01.763Z",
         "purpose_en": [
           "Diagnosis"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "dyspepsia",
           "indigestion",
@@ -441,7 +467,7 @@
           "keywords_en": "Dyspepsia, indigestion, heartburn, rome criteria, functional GI disorders",
           "meta_description_en": "The Rome IV Criteria for Dyspepsia provides criteria for diagnosis of dyspepsia."
         },
-        "short_description_en": "Functional dyspepsia diagnosis.",
+        "short_description_en": "<p>Functional dyspepsia diagnosis.</p>",
         "short_title_en": "Rome IV for Functional Dyspepsia",
         "slug": "rome-iv-diagnostic-criteria-functional-dyspepsia",
         "specialty_en": [
@@ -449,7 +475,11 @@
         ],
         "system_en": [
           "Gastrointestinal"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "3df23be6-8638-481b-9156-3609bd264b5b"
       },
       "contributors": [
         {
@@ -461,6 +491,21 @@
           "img": "",
           "lastName": "Parker",
           "name": "Colleen Parker, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "David",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Cangemi",
+          "name": "David Cangemi, MD",
           "publishedAt": "2021-11-17T15:11:30.452Z",
           "signedCOI": true,
           "status": null,

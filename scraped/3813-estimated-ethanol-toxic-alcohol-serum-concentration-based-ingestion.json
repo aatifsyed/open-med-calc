@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -21,14 +21,14 @@
         "content": {
           "about": {
             "evidence_based_medicine_en": "",
-            "formula_en": "<p>[C] = Dose / (Vd &times; Weight); where:</p> <ul> <li>[C] is serum concentration (mg/L).</li> <li>Dose is amount ingested (mg).</li> <li>Vd is volume of distribution (L/kg).</li> <li>Weight is patient body weight (kg).</li> </ul> <p>Example: a 3-year-old boy (15 kg) ingests 30 mL of windshield washer fluid (50% methanol). Maximal predicted serum methanol concentration:</p> <ul> <li>[C] = Dose / (Vd &times; Weight)</li> <li>Dose: <ul> <li>50% methanol = 50 g/100 mL = 500 mg/mL and</li> <li>500 mg/mL &times; 30 mL ingested = 15,000 mg methanol</li> </ul> </li> <li>[C] = 15,000 mg / (0.6 L/kg &times; 15 kg) = 1,667 mg/L</li> <li>1,667 mg/L &times; 1 L/10 dL = 167 mg/dL<br>(a concentration requiring treatment with fomepizole)</li> </ul> <p>Example: a 21-year-old man (70 kg) ingests 750 mL of 15% wine. Maximal predicted serum ethanol concentration:</p> <ul> <li>[C] = Dose / (Vd &times; Weight)</li> <li>Dose: <ul> <li>15% ethanol = 15 g/100 mL = 150 mg/mL and</li> <li>150 mg/mL &times; 750 mL ingested = 112,500 mg ethanol</li> </ul> </li> <li>[C] = 112,500 mg / (0.6 L/kg &times; 70 kg) = 2,679 mg/L</li> <li>2,679 mg/L &times; 1 L/10 dL = 268 mg/dL</li> </ul>",
-            "more_info_en": "<p><strong>To convert mg/dL to mmol/L:</strong></p> <ul> <li>Ethanol: divide ethanol concentration in mg/dL by 4.6</li> <li>Methanol: divide methanol concentration in mg/dL by 3.2</li> <li>Ethylene glycol: divide ethylene glycol concentration in mg/dL by 6.2</li> </ul>",
+            "formula_en": "<p>[C] = Dose / (Vd &times; Weight); where:</p>\n<ul>\n<li>[C] is serum concentration (mg/L).</li>\n<li>Dose is amount ingested (mg).</li>\n<li>Vd is volume of distribution (L/kg).</li>\n<li>Weight is patient body weight (kg).</li>\n</ul>\n<p>Example: a 3-year-old boy (15 kg) ingests 30 mL of windshield washer fluid (50% methanol). Maximal predicted serum methanol concentration:</p>\n<ul>\n<li>[C] = Dose / (Vd &times; Weight)</li>\n<li>Dose:\n<ul>\n<li>50% methanol = 50 g/100 mL = 500 mg/mL and</li>\n<li>500 mg/mL &times; 30 mL ingested = 15,000 mg methanol</li>\n</ul>\n</li>\n<li>[C] = 15,000 mg / (0.6 L/kg &times; 15 kg) = 1,667 mg/L</li>\n<li>1,667 mg/L &times; 1 L/10 dL = 167 mg/dL<br>(a concentration requiring treatment with fomepizole)</li>\n</ul>\n<p>Example: a 21-year-old man (70 kg) ingests 750 mL of 15% wine. Maximal predicted serum ethanol concentration:</p>\n<ul>\n<li>[C] = Dose / (Vd &times; Weight)</li>\n<li>Dose:\n<ul>\n<li>15% ethanol = 15 g/100 mL = 150 mg/mL and</li>\n<li>150 mg/mL &times; 750 mL ingested = 112,500 mg ethanol</li>\n</ul>\n</li>\n<li>[C] = 112,500 mg / (0.6 L/kg &times; 70 kg) = 2,679 mg/L</li>\n<li>2,679 mg/L &times; 1 L/10 dL = 268 mg/dL</li>\n</ul>",
+            "more_info_en": "<p><strong>To convert mg/dL to mmol/L:</strong></p>\n<ul>\n<li>Ethanol: divide ethanol concentration in mg/dL by 4.6</li>\n<li>Methanol: divide methanol concentration in mg/dL by 3.2</li>\n<li>Ethylene glycol: divide ethylene glycol concentration in mg/dL by 6.2</li>\n</ul>",
             "references_list": {
               "Clinical Practice Guidelines": [],
               "Manufacturer Website": [],
               "Original/Primary Reference": [
                 {
-                  "href": "http://accessemergencymedicine.mhmedical.com/Content.aspx?bookId=1163&sectionId=65098321",
+                  "href": "https://accessemergencymedicine.mhmedical.com/Content.aspx?bookId=1163&sectionId=65098321",
                   "text": "Yip L. Ethanol. In: Flomenbaum NE, Goldfrank LR, Hoffman RS et al, eds: Goldfrank’s Toxicologic Emergencies. New York NY, 2006."
                 }
               ],
@@ -45,6 +45,7 @@
           },
           "contributor": {
             "expert_name": [
+              "Jonathan de Olano, MD",
               "Scott Lucyk, MD"
             ]
           },
@@ -56,14 +57,14 @@
             }
           ],
           "how_to_use": {
-            "pearls_pitfalls_en": "<ul> <li>The formula makes several assumptions to approximate maximal predicted serum concentration: <ul> <li>Complete alcohol absorption.</li> <li>Absence of alcohol metabolism or elimination.</li> <li>Absence of volume contraction effects.</li> <li>Alcohol specific gravity disregarded.</li> <li>Gender and age differences in pharmacokinetics discounted.</li> </ul> </li> <li>The estimated serum concentration from ingestion of a given volume of alcohol will differ depending on which alcohol is ingested.</li> </ul>",
+            "pearls_pitfalls_en": "<ul>\n<li>The formula makes several assumptions to approximate maximal predicted serum concentration:\n<ul>\n<li>Complete alcohol absorption.</li>\n<li>Absence of alcohol metabolism or elimination.</li>\n<li>Absence of volume contraction effects.</li>\n<li>Alcohol specific gravity disregarded.</li>\n<li>Gender and age differences in pharmacokinetics discounted.</li>\n</ul>\n</li>\n<li>The estimated serum concentration from ingestion of a given volume of alcohol will differ depending on which alcohol is ingested.</li>\n</ul>",
             "use_case_en": "<p>Predicting serum concentration of toxic alcohols.</p>",
             "why_use_en": "<p>Estimates&nbsp;maximal predicted serum concentration of alcohol based on volume and concentration ingested.</p>"
           },
           "next_steps": {
             "advice_en": "<p>Amounts of alcohol ingested reported by history are often inaccurate (especially in children).</p>",
-            "critical_actions_en": "<ul> <li>Seemingly small ingestions of alcohols can lead to significant serum concentrations (i.e., methanol/ethylene glycol concentrations that require treatment with fomepizole).</li> <li>Toxic alcohols (methanol, ethylene glycol) have different concentrations depending on the product. Concentration of the ingested product must be known in order to estimate serum concentration.</li> </ul>",
-            "management_en": "<p>Recommendations for starting treatment:</p> <table> <tbody> <tr> <td> <p><strong>Overdose</strong></p> </td> <td> <p><strong>Treatment</strong></p> </td> </tr> <tr> <td> <p>Methanol</p> </td> <td> <ul> <li>Concentration ≥20 mg/dL (6.2 mmol/L), OR</li> <li>Documented recent history of ingestion and osmolal gap &gt;10 mOsm/L, OR</li> <li>Suspected methanol ingestion and at least two of the following: arterial pH &lt;7.3, serum carbon dioxide level &lt;20 mmol/L, and osmolal gap &gt;10 mOsm/L.</li> </ul> </td> </tr> <tr> <td> <p>Ethylene glycol</p> </td> <td> <ul> <li>Concentration ≥20 mg/dL (3.2 mmol/L), OR</li> <li>Documented history of ingestion an osmolal gap &gt;10 mOsm/L, OR</li> <li>Suspected ethylene glycol ingestion&nbsp;and at least three of the following: arterial pH &lt;7.3, serum carbon dioxide level &lt;20 mmol/L, osmolal gap &gt;10 mOsm/L, and oxalate crystalluria.</li> </ul> </td> </tr> <tr> <td> <p>Diethylene glycol</p> </td> <td> <p>Immediate treatment recommended for any history of diethylene glycol ingestion.</p> </td> </tr> <tr> <td> <p>Isopropyl alcohol and propylene glycol</p> </td> <td> <p>No recommendations for treating with fomepizole, as it would prolong the symptoms of intoxication. The treatment is supportive for both and&nbsp;neither is generally toxic unless massive ingestions requiring vasopressor support.</p> </td> </tr> </tbody> </table> <p>From <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19458366\" target=\"_blank\">Brent 2009</a>.</p>"
+            "critical_actions_en": "<ul>\n<li>Seemingly small ingestions of alcohols can lead to significant serum concentrations (i.e., methanol/ethylene glycol concentrations that require treatment with fomepizole).</li>\n<li>Toxic alcohols (methanol, ethylene glycol) have different concentrations depending on the product. Concentration of the ingested product must be known in order to estimate serum concentration.</li>\n</ul>",
+            "management_en": "<p>Recommendations for starting treatment:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>Overdose</strong></p>\n</td>\n<td>\n<p><strong>Treatment</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Methanol</p>\n</td>\n<td>\n<ul>\n<li>Concentration &ge;20 mg/dL (6.2 mmol/L), OR</li>\n<li>Documented recent history of ingestion and osmolal gap &gt;10 mOsm/L, OR</li>\n<li>Suspected methanol ingestion and at least two of the following: arterial pH &lt;7.3, serum carbon dioxide level &lt;20 mmol/L, and osmolal gap &gt;10 mOsm/L.</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td>\n<p>Ethylene glycol</p>\n</td>\n<td>\n<ul>\n<li>Concentration &ge;20 mg/dL (3.2 mmol/L), OR</li>\n<li>Documented history of ingestion an osmolal gap &gt;10 mOsm/L, OR</li>\n<li>Suspected ethylene glycol ingestion&nbsp;and at least three of the following: arterial pH &lt;7.3, serum carbon dioxide level &lt;20 mmol/L, osmolal gap &gt;10 mOsm/L, and oxalate crystalluria.</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td>\n<p>Diethylene glycol</p>\n</td>\n<td>\n<p>Immediate treatment recommended for any history of diethylene glycol ingestion.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Isopropyl alcohol and propylene glycol</p>\n</td>\n<td>\n<p>No recommendations for treating with fomepizole, as it would prolong the symptoms of intoxication. The treatment is supportive for both and&nbsp;neither is generally toxic unless massive ingestions requiring vasopressor support.</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>From <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19458366\" target=\"_blank\" rel=\"noopener\">Brent 2009</a>.</p>"
           },
           "related_resources": {
             "guidelines": [],
@@ -76,6 +77,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Alcoholism",
           "Drug/Alcohol Use"
@@ -89,6 +92,8 @@
           {
             "conditionality": null,
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Weight",
             "name": "weight",
             "optional": false,
@@ -99,6 +104,8 @@
           {
             "conditionality": null,
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "% alcohol",
             "name": "percent",
             "optional": false,
@@ -109,6 +116,8 @@
           {
             "conditionality": null,
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Amount ingested",
             "name": "amount",
             "optional": false,
@@ -120,7 +129,9 @@
             "conditionality": null,
             "default": null,
             "label_en": "Type of alcohol",
+            "mdcalc_info_concept": null,
             "name": "type",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -146,13 +157,16 @@
           }
         ],
         "instructions_en": "<p>Allows estimation of maximal predicted serum concentration of alcohol based on volume and concentration ingested. Assumes 0.6 L/kg volume of distribution.</p>",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [],
         "md5": "d9eae97249b034b1f0801481bff1496a",
         "medium_description_en": "<p>Predicts ethanol concentration based on ingestion of alcohol.</p>",
+        "publishedAt": "2022-04-21T20:29:20.258Z",
         "purpose_en": [
           "Calculation"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "ethanol",
           "toxic alcohol",
@@ -164,7 +178,7 @@
           "keywords_en": "Estimated Ethanol (and Toxic Alcohol) serum concentration, serum etoh, serum ethanol, serum tox alc, serum toxic alcohol, serum toxic etoh, ingestion etoh, ingestion conc, ingestion conc etoh, ingestion concentration, ingestion concentration etoh, ingestion concentration ethanol, estimated ethanol, estimated etoh, estimated toxic alcohol, serum alcohol, serum concentration alc,",
           "meta_description_en": "The Estimated Ethanol (and Toxic Alcohol) serum concentration predicts ethanol concentration based on ingestion of alcohol."
         },
-        "short_description_en": "Predicts ethanol concentration based on ingestion of alcohol.",
+        "short_description_en": "<p>Predicts ethanol concentration based on ingestion of alcohol.</p>",
         "short_title_en": "Estimated Serum Concentration of Alcohols",
         "slug": "estimated-ethanol-toxic-alcohol-serum-concentration-based-ingestion",
         "specialty_en": [
@@ -175,9 +189,28 @@
         ],
         "system_en": [
           "Any/All"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "620609b9-e352-4663-930f-c71e8f73be20"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Jonathan",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Olano",
+          "name": "Jonathan de Olano, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",

@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -44,6 +44,8 @@
           },
           "contributor": {
             "expert_name": [
+              "Alex Ryder, MD, PhD",
+              "Caleb Cheng, MD",
               "Ronald George Hauser, MD"
             ]
           },
@@ -55,7 +57,7 @@
             }
           ],
           "how_to_use": {
-            "pearls_pitfalls_en": "<p>Total blood volume is calculated using Nadler’s equation.</p>",
+            "pearls_pitfalls_en": "<p>Total blood volume is calculated using Nadler&rsquo;s equation.</p>",
             "use_case_en": "<p>Use when blood volumes are needed (e.g. RBC exchange, plasma exchange, coagulation factor drug dosing, RhIG dosing calculations).</p>",
             "why_use_en": ""
           },
@@ -75,6 +77,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Anemia",
           "Hematologic Malignancy"
@@ -89,7 +93,9 @@
             "conditionality": "",
             "default": null,
             "label_en": "Patient",
+            "mdcalc_info_concept": null,
             "name": "patient",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -121,7 +127,9 @@
             "conditionality": "patient == 4",
             "default": null,
             "label_en": "Sex",
+            "mdcalc_info_concept": null,
             "name": "sex",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -140,6 +148,8 @@
           {
             "conditionality": "patient == 4",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Height",
             "name": "height",
             "optional": false,
@@ -150,6 +160,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Hematocrit",
             "name": "hematocrit",
             "optional": true,
@@ -160,6 +172,8 @@
           {
             "conditionality": "patient == 4",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Weight",
             "name": "weight",
             "optional": false,
@@ -170,6 +184,8 @@
           {
             "conditionality": "patient <= 1",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Weight",
             "name": "weight_baby",
             "optional": false,
@@ -180,6 +196,8 @@
           {
             "conditionality": "patient == 2",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Weight",
             "name": "weight_infant",
             "optional": false,
@@ -190,6 +208,8 @@
           {
             "conditionality": "patient == 3",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Weight",
             "name": "weight_peds",
             "optional": false,
@@ -199,6 +219,7 @@
           }
         ],
         "instructions_en": "",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -284,9 +305,11 @@
         ],
         "md5": "fed1b5806331f4b6f89c491ff8c27abe",
         "medium_description_en": "<p>Calculates total blood volume, red blood cell volume, and plasma volume.</p>",
+        "publishedAt": "2022-04-21T20:29:42.030Z",
         "purpose_en": [
           "Calculation"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "blood",
           "rbc",
@@ -302,7 +325,7 @@
           "keywords_en": "blood, volume, blood volume, red blood cell, blood cell, plasma, plasma volume",
           "meta_description_en": "The Blood Volume Calculation Calculates total blood volume, red blood cell volume, and plasma volume."
         },
-        "short_description_en": "Blood and blood components volumes.",
+        "short_description_en": "<p>Blood and blood components volumes.</p>",
         "short_title_en": "Blood Volume Calculation",
         "slug": "blood-volume-calculation",
         "specialty_en": [
@@ -316,9 +339,43 @@
         ],
         "system_en": [
           "Hematologic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "27d35766-142c-450c-9e5c-eb2cba24a413"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Alex",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Ryder",
+          "name": "Alex Ryder, MD, PhD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Caleb",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Cheng",
+          "name": "Caleb Cheng, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",

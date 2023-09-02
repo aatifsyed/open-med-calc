@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -21,7 +21,7 @@
         "content": {
           "about": {
             "evidence_based_medicine_en": "<p dir=\"ltr\"><span id=\"docs-internal-guid-e9e9f016-7fff-bbbb-d764-b2a197f2317d\">The derivation study by <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30776077\" target=\"_blank\" rel=\"noopener\">Kuppermann et al (2019)</a> included 1,896 infants aged &le;60 days old that had a procalcitonin level drawn at the time of their sepsis evaluation; 11 participants whose procalcitonin samples were lost or mislabeled were excluded. Overall n was 1,821 (908 infants in derivation sample, 913 in validation sample). The primary outcome was the presence or absence of a serious bacterial infection (SBI), defined as UTI, bacteremia, or bacterial meningitis.</span></p>\n<p dir=\"ltr\">The prediction rule had a sensitivity of 98.8% (95% confidence interval [CI], 92.5-99.9) in the derivation study and 97.7% sensitivity (95% CI, 91.3-99.6) in the validation study. The NPV for SBI was 99.8% (95% CI, 98.8-100.0) and 99.6% (95% CI, 98.4-99.9) in the derivation and validation studies, respectively.</p>\n<p dir=\"ltr\">Because the validation study was not conducted independently, there is a risk of diminished external validity.</p>\n<p dir=\"ltr\">The benefits of this rule are: 1) unnecessary admissions may be decreased, and 2) unnecessary lumbar punctures may be avoided. A key difference in this prediction rule as compared to other similar rules is that despite the fact that lumbar puncture&nbsp;results were not used as criteria in the rule, the sensitivity remained high.</p>\n<p dir=\"ltr\">However, the low prevalence of bacterial meningitis in the general population due to the Hib and pneumococcal vaccinations means that few cases of bacterial meningitis were included in this study&rsquo;s data set. Thus, because most of the SBIs seen in this study were UTIs, even though the heuristic of 10 outcomes to 1 predictor was satisfied with the overall outcome of &ldquo;serious bacterial infection,&rdquo; this rule may be less sensitive and/or specific for meningitis and bacteremia.</p>\n<p dir=\"ltr\">Finally, in this study, three infants were misclassified as being low risk but had SBIs. Two had UTIs and one had <em>Enterobacter cloacae</em> bacteremia. All were treated appropriately based on culture results and had uneventful clinical courses.</p>",
-            "formula_en": "<p><img src=\"https://cdn-web-img.mdcalc.com/content/PECARN.png\"></p>",
+            "formula_en": "<p><img src=\"https://cdn-web-img.mdcalc.com/content/PECARN.png\" width=\"100%\"></p>",
             "more_info_en": "",
             "references_list": {
               "Clinical Practice Guidelines": [
@@ -45,6 +45,7 @@
           },
           "contributor": {
             "expert_name": [
+              "Christopher Tainter, MD, RDMS",
               "Derek Tam, MD, MPH"
             ]
           },
@@ -88,6 +89,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Bacterial Infections"
         ],
@@ -101,7 +104,9 @@
             "conditionality": "",
             "default": null,
             "label_en": "<p>Urinalysis positive</p>",
+            "md_calc_info_concept": null,
             "name": "urine",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -121,7 +126,9 @@
             "conditionality": "urine == 0",
             "default": null,
             "label_en": "<p><abbr title=\"Absolute neutrophil count\"><calculator id=\"19\">ANC</calculator></abbr> &gt;4,000/&mu;L</p>",
+            "md_calc_info_concept": null,
             "name": "anc",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -141,7 +148,9 @@
             "conditionality": "anc == 0",
             "default": null,
             "label_en": "<p>Serum procalcitonin &gt;0.5 ng/mL</p>",
+            "md_calc_info_concept": null,
             "name": "pct",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -159,6 +168,7 @@
           }
         ],
         "instructions_en": "<p>Does not apply to ill-appearing infants. The rule is intended to be one-directional: it may help rule out serious bacterial infection (SBI) in patients who are &ldquo;low risk&rdquo;, but the converse is not true (i.e., patients who are &ldquo;not low risk&rdquo; by the rule do not necessarily have SBI).</p>",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -349,9 +359,11 @@
         ],
         "md5": "dbf105c4cf8bd88206ff024de3798bce",
         "medium_description_en": "<p>Predicts risk of urinary tract infection, bacteremia, or bacterial meningitis in febrile infants age 29-60 days old.</p>",
+        "publishedAt": "2022-04-21T20:28:34.651Z",
         "purpose_en": [
           "Prognosis"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "Sbis",
           "sbi",
@@ -383,9 +395,28 @@
         ],
         "system_en": [
           "Any/All"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "14e31da2-f577-4dca-a4ec-8b9a401ef4d5"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Christopher Tainter, MD, RDMS, is an intensivist and emergency physician at the University of California, San Diego. Raised in Seattle, Dr. Tainter received his medical degree from the University of Washington School of Medicine. He then completed an emergency medicine residency at the Mount Sinai Hospital in New York City, and a fellowship in anesthesia critical care medicine at the Massachusetts General Hospital.  He is the fellowship director for UCSD's emergency medicine/anesthesia critical care medicine fellowship program.</p>",
+          "firstName": "Christopher",
+          "hasDisclosure": [],
+          "img": "christopher-tainter.jpg",
+          "lastName": "Tainter",
+          "name": "Christopher Tainter, MD, RDMS",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "christopher-tainter",
+          "updatedAt": "2023-04-06T20:25:08.680Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",

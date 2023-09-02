@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -65,7 +65,9 @@
           },
           "contributor": {
             "expert_name": [
-              "Caleb Cheng, MD"
+              "Alex Ryder, MD, PhD",
+              "Caleb Cheng, MD",
+              "Ronald George Hauser, MD"
             ]
           },
           "creator": [
@@ -100,6 +102,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Anemia",
           "Bleeding/Hemorrhage"
@@ -113,6 +117,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Maternal <calculator id='4065'>blood volume</calculator>",
             "name": "bv",
             "optional": false,
@@ -123,6 +129,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Fetal cells in mother",
             "name": "fetal",
             "optional": false,
@@ -132,6 +140,7 @@
           }
         ],
         "instructions_en": "",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -192,10 +201,12 @@
         ],
         "md5": "ddaa4bff154a4fc4cff4ff8ceeba3c1c",
         "medium_description_en": "<p>Calculates amount of RhIG to be administered to the mother, at the time of delivery, to prevent hemolytic disease of the fetus and newborn (HDFN).</p>",
+        "publishedAt": "2022-04-21T20:28:03.757Z",
         "purpose_en": [
           "Calculation",
           "Treatment"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "rhogam",
           "rh factor",
@@ -207,7 +218,7 @@
           "keywords_en": "rhogam, rh factor, maternal fetal hemorrhage, hdfn, Maternal-Fetal Hemorrhage Rh(D) Immune Globulin Dosage",
           "meta_description_en": "The RhIG Dosing tool calculates amount of RhIG to be administered to the mother to prevent hemolytic disease of the fetus and newborn (HDFN)."
         },
-        "short_description_en": "RhIG for HDFN.",
+        "short_description_en": "<p>RhIG for HDFN.</p>",
         "short_title_en": "RhIG (RhoGAM) Dosing",
         "slug": "maternal-fetal-hemorrhage-rhd-immune-globulin-dosage",
         "specialty_en": [
@@ -219,9 +230,28 @@
         "system_en": [
           "Hematologic",
           "Reproductive"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "9096e2b6-d82d-4391-bdd5-15784046a0a7"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Alex",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Ryder",
+          "name": "Alex Ryder, MD, PhD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",
@@ -236,6 +266,21 @@
           "status": null,
           "target": "",
           "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Ronald \\\"George\\\" Hauser, MD, is an assistant professor in laboratory medicine at Yale University School of Medicine who splits his time between clinical medicine and informatics research.  As an attending physician, he practices medicine at the interface between other clinicians and the clinical laboratories, which include Chemistry, Hematology, Microbiology, and the Blood Bank.  He also works along with medical residents, particularly at the Veterans Affairs Hospital in West Haven, Connecticut.  He practices clinical informatics for various projects affiliated at Yale University and the Veterans Health Administration (VHA) including the Recipient Epidemiology and Donor Evaluation Study (REDS; Yale, NIH) and the HIV, Hepatitis, and Related Conditions program (VHA).</p>",
+          "firstName": "Ronald",
+          "hasDisclosure": [],
+          "img": "george-hauser.jpg",
+          "lastName": "Hauser",
+          "name": "Ronald George Hauser, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "george-hauser",
+          "updatedAt": "2023-04-06T20:18:56.600Z"
         }
       ],
       "creators": [

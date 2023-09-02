@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -52,7 +52,8 @@
           },
           "contributor": {
             "expert_name": [
-              "Edmund Tsui, MD"
+              "Edmund Tsui, MD",
+              "Priya Patel, MD"
             ]
           },
           "creator": [
@@ -83,6 +84,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Breast Cancer",
           "Coronavirus",
@@ -98,6 +101,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "<p>Weight</p>",
             "name": "weight",
             "optional": false,
@@ -108,6 +113,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "<p>Current daily dose</p>",
             "name": "dose",
             "optional": true,
@@ -117,6 +124,7 @@
           }
         ],
         "instructions_en": "<p>This calculator is for double-checking hydroxychloroquine dosing, and should NOT be used as the primary means for ordering.</p>",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -297,9 +305,11 @@
         ],
         "md5": "bac948d983431a7cc88f6403bcb6d314",
         "medium_description_en": "<p>Calculates maximum daily dose of hydroxychloroquine to reduce of retinopathy.</p>",
+        "publishedAt": "2022-04-21T20:28:15.409Z",
         "purpose_en": [
           "Calculation"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "plaquenil",
           "covid19",
@@ -324,7 +334,11 @@
         "system_en": [
           "HEENT",
           "Rheumatologic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "435a1497-2233-4f68-b1e3-01c5e7d3afed"
       },
       "contributors": [
         {
@@ -341,6 +355,21 @@
           "status": "Current",
           "target": "edmund-tsui",
           "updatedAt": "2023-04-06T20:25:53.319Z"
+        },
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Priya Patel, MD, is currently a cornea fellow at Emory University in Atlanta, GA. She completed her ophthalmology residency at the New York University School of Medicine, where she was chief resident. A native of New Jersey, Dr. Patel attended Duke University for her undergraduate studies followed by medical school at Rutgers New Jersey Medical School. Her interests include healthcare accessibility and resident education.</p>",
+          "firstName": "Priya",
+          "hasDisclosure": [],
+          "img": "priya-patel.jpg",
+          "lastName": "Patel",
+          "name": "Priya Patel, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "priya-patel",
+          "updatedAt": "2023-04-06T20:24:12.630Z"
         }
       ],
       "creators": [

@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -25,7 +25,7 @@
         "content": {
           "about": {
             "evidence_based_medicine_en": "<p>Original YEARS study:</p>\n<ul>\n<li>Prospective cohort study conducted in 12 hospitals across the Netherlands in hemodynamically stable patients with suspected pulmonary embolism.</li>\n<li>The algorithm was applied by first evaluating the presence of YEARS items: clinical signs of DVT, hemoptysis, or PE most likely diagnosis. All patients underwent a D-dimer test. In patients with no YEARS items and D-dimer &lt;1,000 ng/mL, PE was excluded and no CTPA was performed. In patients with one or more YEARS items and D-dimer &lt;500 ng/mL, PE was excluded and no CTPA was performed. All other patients received CTPA.</li>\n<li>Primary outcome was number of venous thromboembolism (VTE) events during the 3 months after PE was excluded and was analyzed using per protocol approach. The secondary outcome was the number of required CTPA compared to Wells&rsquo; Score for PE, analyzed using an intention-to-treat analysis.</li>\n<li>3,616 patients with clinically suspected PE were screened, and 3,465 were included in the study.</li>\n<li>18 (0.61%) were diagnosed with a symptomatic venous thromboembolism during the 3 month follow up. 6 of those patients had fatal PE (0.21%). &nbsp;</li>\n<li>2,946 patients (85%) were ruled out for PE using the algorithm. Of 1,629 patients who were ruled out without CTPA, 7 (0.43%) had symptomatic venous thromboembolism during the 3 month follow up, 2 of which were fatal.</li>\n<li>1,317 (15%) of patients were managed with CTPA. Of those patients, 11 (0.84%) had symptomatic venous thromboembolism during 3 month follow up, 4 of which were fatal.</li>\n<li>When compared to Wells&rsquo; Score with fixed D-dimer of 500 ng/mL, the YEARS algorithm reduced CTPA by 14% across all ages and subgroups.</li>\n<li>It appears as though the binary D-dimer cutoffs used in the YEARS trial reduced the rate of CTPA when compared to using age adjusted D-dimer.</li>\n<li>If age adjusted D-dimer was applied, the YEARS algorithm would have led to an absolute reduction of CTPA by only 8.7% compared to 14% using the binary cutoffs of the YEARS algorithm.</li>\n<li>Age adjusted D-dimer, defined as age x 10 in patients over the age of 50, has been prospectively validated to be safe and reduce the number of CTPA in patients low risk for PE.</li>\n<li>Take note of the following exclusion criteria:\n<ul>\n<li>Treatment with therapeutic doses of anticoagulants initiated 24 hours or more before eligibility assessment.</li>\n<li>Life expectancy less than 3 months.</li>\n<li>Geographic inaccessibility precluding follow-up.</li>\n<li>Pregnancy (be sure to use pregnancy-adapted YEARS algorithm in the calc).</li>\n<li>Allergy to intravenous contrast agent.</li>\n</ul>\n</li>\n</ul>\n<p>Subgroup analysis:</p>\n<ul>\n<li>The authors of the original YEARS study published a subgroup analysis of the patients 50 years and older and compared this subgroup to the age adjusted d-dimer cutoffs.</li>\n<li>In the YEARS study, 1,651 (48%) patients aged 50 years and older were managed without CTPA.</li>\n<li>If the age adjusted D-dimer cutoffs had been applied to the YEARS subgroup, 1,627 patients (47%) would have been managed without CTPA. This adjustment lead to an absolute increase of CTPA by 0.69%. This increase in CTPA did not result in a higher sensitivity but rather would have missed 4 PEs in patients that were confirmed on CTPA as they had one or more YEARS items and D-dimer &gt;500 ng/mL in the original YEARS study.</li>\n<li>The authors concluded in the YEARS cohort, there was no added value of implementing age adjusted D-dimer in the YEARS algorithm.</li>\n</ul>",
-            "formula_en": "<p>Refer to decision tree:</p>\n<p><img src=\"https://cdn-web-img.mdcalc.com/years-tree.png\" width=\"967\" height=\"1005\" alt=\"\" /></p>\n<p>Adapted from <a href=\"https://www.nejm.org/doi/full/10.1056/NEJMoa1813865\" target=\"_blank\" rel=\"noopener\">Van der Pol 2019</a>.</p>\n<p>Take note of the following exclusion criteria:</p>\n<ul>\n<li>Treatment with therapeutic doses of anticoagulants initiated 24 hours or more before eligibility assessment.</li>\n<li>Life expectancy less than 3 months.</li>\n<li>Geographic inaccessibility precluding follow-up.</li>\n<li>Pregnancy (be sure to use pregnancy-adapted YEARS algorithm in the calc).</li>\n<li>Allergy to intravenous contrast agent.</li>\n</ul>",
+            "formula_en": "<p>Refer to decision tree:</p>\n<p><img src=\"https://cdn-web-img.mdcalc.com/years-tree.png\" width=\"100%\" alt=\"\"></p>\n<p>Adapted from <a href=\"https://www.nejm.org/doi/full/10.1056/NEJMoa1813865\" target=\"_blank\" rel=\"noopener\">Van der Pol 2019</a>.</p>\n<p>Take note of the following exclusion criteria:</p>\n<ul>\n<li>Treatment with therapeutic doses of anticoagulants initiated 24 hours or more before eligibility assessment.</li>\n<li>Life expectancy less than 3 months.</li>\n<li>Geographic inaccessibility precluding follow-up.</li>\n<li>Pregnancy (be sure to use pregnancy-adapted YEARS algorithm in the calc).</li>\n<li>Allergy to intravenous contrast agent.</li>\n</ul>",
             "more_info_en": "",
             "references_list": {
               "Clinical Practice Guidelines": [],
@@ -66,6 +66,7 @@
           },
           "contributor": {
             "expert_name": [
+              "Daniel Runde, MD",
               "Matthew Negaard, MD"
             ]
           },
@@ -102,6 +103,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Pulmonary Embolism"
         ],
@@ -115,7 +118,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "<p>Pregnant patient</p>",
+            "md_calc_info_concept": null,
             "name": "pregnant",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -132,6 +137,8 @@
             "type": "toggle"
           },
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "<p>YEARS items</p>",
             "subheading_instructions": "",
             "type": "subheading"
@@ -140,7 +147,9 @@
             "conditionality": "",
             "default": null,
             "label_en": "<p>Clinical signs of DVT</p>",
+            "md_calc_info_concept": null,
             "name": "dvt",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -160,7 +169,9 @@
             "conditionality": "pregnant == 1 && dvt == 1",
             "default": null,
             "label_en": "<p>Compression ultrasonography of symptomatic leg</p>",
+            "mdcalc_info_concept": null,
             "name": "comp",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -180,7 +191,9 @@
             "conditionality": "",
             "default": null,
             "label_en": "<p>Hemoptysis</p>",
+            "md_calc_info_concept": null,
             "name": "hemoptysis",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -200,7 +213,9 @@
             "conditionality": "",
             "default": null,
             "label_en": "<p>PE most likely diagnosis</p>",
+            "md_calc_info_concept": null,
             "name": "likely",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -217,6 +232,8 @@
             "type": "toggle"
           },
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "<p>D-dimer</p>",
             "subheading_instructions": "",
             "type": "subheading"
@@ -225,7 +242,9 @@
             "conditionality": "dvt + hemoptysis + likely > 0",
             "default": null,
             "label_en": "<p>D-dimer &ge;500 ng/mL</p>",
+            "mdcalc_info_concept": null,
             "name": "dimer500",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -242,6 +261,8 @@
             "type": "radio"
           },
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "<p>D-dimer</p>",
             "subheading_instructions": "",
             "type": "subheading"
@@ -250,7 +271,9 @@
             "conditionality": "dvt == 0 && hemoptysis == 0 && likely == 0",
             "default": null,
             "label_en": "<p>D-dimer &ge;1,000 ng/mL</p>",
+            "mdcalc_info_concept": null,
             "name": "dimer1000",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -268,6 +291,7 @@
           }
         ],
         "instructions_en": "<p>Use in hemodynamically stable patients &ge;18 years old.</p>\n<p>Take note of the following exclusion criteria:</p>\n<ul>\n<li>Treatment with therapeutic doses of anticoagulants initiated 24 hours or more before eligibility assessment.</li>\n<li>Life expectancy less than 3 months.</li>\n<li>Geographic inaccessibility precluding follow-up.</li>\n<li>Pregnancy (be sure to use pregnancy-adapted YEARS algorithm in the calc).</li>\n<li>Allergy to intravenous contrast agent.</li>\n</ul>",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -488,10 +512,12 @@
         ],
         "md5": "a5c7d27a3e53b17a060f9bfeee263505",
         "medium_description_en": "<p>Helps rule out pulmonary embolism; also validated in pregnant patients with clinically suspected PE.</p>",
+        "publishedAt": "2022-04-21T20:29:42.270Z",
         "purpose_en": [
           "Algorithm",
           "Diagnosis"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "acute PE",
           "ctpa",
@@ -518,9 +544,28 @@
           "Cardiac",
           "Respiratory",
           "Vascular"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "d3c2cb5d-4da7-4e6e-a828-aa1354b3cc41"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Daniel Runde, MD, is currently the assistant residency director and an assistant professor of emergency medicine at the University of Iowa Hospitals and Clinics. He received his medical degree at the University of Iowa Carver College of Medicine and completed residency in emergency medicine at St. Luke’s-Roosevelt Hospital Center in New York. He recently finished his Medical Education Fellowship at the department of emergency medicine at Harbor-UCLA. Dr. Runde is interested in evidence-based medicine with a focus on patient-important clinical outcomes, CT utilization in the emergency department and education and evaluation in medical education. Currently, he is in the process of obtaining a Masters in Medical Education through the Office of Consultation and Research in Medical Education at the University of Iowa Hospitals and Clinics.</p>",
+          "firstName": "Daniel",
+          "hasDisclosure": [],
+          "img": "daniel-runde.jpg",
+          "lastName": "Runde",
+          "name": "Daniel Runde, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "daniel-runde",
+          "updatedAt": "2023-04-06T20:24:46.787Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",

@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -20,7 +20,7 @@
         "cme_status": "enabled",
         "content": {
           "about": {
-            "evidence_based_medicine_en": "<p dir=\"ltr\"><strong> Derivation Study</strong> (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16418311\" target=\"_blank\" rel=\"noopener\">Oman 2006</a>)</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">NEXUS II was a prospective, observational, multicenter trial in which patients who suffered blunt head trauma were undergoing a head CT.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">An analysis was performed of the pediatric subgroup (age &lt;18 years old) of the NEXUS II cohort.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The pediatric cohort enrolled 1,666 patients with 8.3% suffering an important intracranial injury (ICI), defined as requiring neurosurgical intervention (craniotomy, intracranial pressure monitoring, or mechanical ventilation).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Application of the study criteria was 98.6% sensitive for ICI (missing two cases); however, it was 100% sensitive for injuries requiring neurosurgical interventions.</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The criteria truly only missed one patient as there was an error in assessment of one patient with scalp hematoma.</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Application of the decision instrument would have decreased head CT usage by 25% in this study population.</p>\n</li>\n</ul>\n<p dir=\"ltr\"><strong>Validation Study</strong> (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29665151\" target=\"_blank\" rel=\"noopener\">Gupta 2018</a>)</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">This was a planned secondary analysis of patients &lt;18 years old who sustained blunt head trauma and were undergoing head CT at an enrolling institution.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">1,018 patients were included in the analysis of which 2.7% required neurosurgical intervention and 4.8% sustained significant intracranial injuries.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Application of the study criteria was 100% sensitive for those who required neurosurgical intervention and 98% sensitive for those who sustained a significant intracranial injury.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Applying the decision instrument to this study population could have reduced head CT imaging by 34%.</p>\n</li>\n</ul>\n<p dir=\"ltr\"><strong>Comparison</strong></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Previous decision instruments have been studied to identify pediatric blunt head trauma patients who can be identified as low risk and defer head CT (CATCH, CHALICE, PECARN).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">PECARN was found to have the highest sensitivity in a prospective cohort study in 2017; however, NEXUS II was not analyzed in this study (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28410792\" target=\"_blank\" rel=\"noopener\">Babl 2017</a>).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The age of the study population was substantially older (11.9 years) compared to PECARN (7.1 years).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Application of PECARN to pediatric blunt head trauma patients has been shown to decrease head CT&nbsp;performed by 9-17% (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28341799\" target=\"_blank\" rel=\"noopener\">Dayan 2017</a>, <a href=\"http://pediatrics.aappublications.org/content/139/4/e20161349\" target=\"_blank\" rel=\"noopener\">Jennings 2017</a>, <a href=\"http://pediatrics.aappublications.org/content/136/1/e227\" target=\"_blank\" rel=\"noopener\">Nigrovic 2015</a>).</p>\n</li>\n</ul>\n<p><span id=\"docs-internal-guid-4299475d-7fff-2402-1e69-abd647d9be98\"></span></p>\n<p dir=\"ltr\">Overall, the derivation and validation studies are very well performed. The critique for practice implementation is in regard to the safety of the gestalt of the provider in determining who did and did not need a head CT. As previously mentioned, only those who underwent head CT were included in the NEXUS II study and analysis. Outcomes and data on pediatric blunt head trauma patients who did not receive head CT are not known. If data were available to analyze this population and clinician gestalt was determined to have satisfactory sensitivity, NEXUS II may be implemented in clinical practice more widely.</p>",
+            "evidence_based_medicine_en": "<p dir=\"ltr\"><strong> Derivation Study</strong> (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16418311\" target=\"_blank\" rel=\"noopener\">Oman 2006</a>)</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">NEXUS II was a prospective, observational, multicenter trial in which patients who suffered blunt head trauma were undergoing a head CT.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">An analysis was performed of the pediatric subgroup (age &lt;18 years old) of the NEXUS II cohort.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The pediatric cohort enrolled 1,666 patients with 8.3% suffering an important intracranial injury (ICI), defined as requiring neurosurgical intervention (craniotomy, intracranial pressure monitoring, or mechanical ventilation).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Application of the study criteria was 98.6% sensitive for ICI (missing two cases); however, it was 100% sensitive for injuries requiring neurosurgical interventions.</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The criteria truly only missed one patient as there was an error in assessment of one patient with scalp hematoma.</p>\n</li>\n</ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Application of the decision instrument would have decreased head CT usage by 25% in this study population.</p>\n</li>\n</ul>\n<p dir=\"ltr\"><strong>Validation Study</strong> (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29665151\" target=\"_blank\" rel=\"noopener\">Gupta 2018</a>)</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">This was a planned secondary analysis of patients &lt;18 years old who sustained blunt head trauma and were undergoing head CT at an enrolling institution.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">1,018 patients were included in the analysis of which 2.7% required neurosurgical intervention and 4.8% sustained significant intracranial injuries.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Application of the study criteria was 100% sensitive for those who required neurosurgical intervention and 98% sensitive for those who sustained a significant intracranial injury.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Applying the decision instrument to this study population could have reduced head CT imaging by 34%.</p>\n</li>\n</ul>\n<p dir=\"ltr\"><strong>Comparison</strong></p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Previous decision instruments have been studied to identify pediatric blunt head trauma patients who can be identified as low risk and defer head CT (CATCH, CHALICE, PECARN).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">PECARN was found to have the highest sensitivity in a prospective cohort study in 2017; however, NEXUS II was not analyzed in this study (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28410792\" target=\"_blank\" rel=\"noopener\">Babl 2017</a>).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The age of the study population was substantially older (11.9 years) compared to PECARN (7.1 years).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Application of PECARN to pediatric blunt head trauma patients has been shown to decrease head CT&nbsp;performed by 9-17% (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28341799\" target=\"_blank\" rel=\"noopener\">Dayan 2017</a>, <a href=\"https://pediatrics.aappublications.org/content/139/4/e20161349\" target=\"_blank\" rel=\"noopener\">Jennings 2017</a>, <a href=\"https://pediatrics.aappublications.org/content/136/1/e227\" target=\"_blank\" rel=\"noopener\">Nigrovic 2015</a>).</p>\n</li>\n</ul>\n<p><span id=\"docs-internal-guid-4299475d-7fff-2402-1e69-abd647d9be98\"></span></p>\n<p dir=\"ltr\">Overall, the derivation and validation studies are very well performed. The critique for practice implementation is in regard to the safety of the gestalt of the provider in determining who did and did not need a head CT. As previously mentioned, only those who underwent head CT were included in the NEXUS II study and analysis. Outcomes and data on pediatric blunt head trauma patients who did not receive head CT are not known. If data were available to analyze this population and clinician gestalt was determined to have satisfactory sensitivity, NEXUS II may be implemented in clinical practice more widely.</p>",
             "formula_en": "<p dir=\"ltr\">Selection of the appropriate criteria:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"124\"><col width=\"324\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Detail</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Evidence of skull fracture</p>\n</td>\n<td>\n<p dir=\"ltr\">Basilar: e.g. periorbital or periauricular ecchymoses, hemotympanum, drainage of clear fluid from ears or nose</p>\n<p dir=\"ltr\">Depressed/diastatic: palpable step-off, stellate laceration from a point source, or any injury produced by an object striking a localized region of the skull (e.g. baseball bat, club, pool cue, golf ball, baseball, pipe)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Scalp hematoma</p>\n</td>\n<td>\n<p dir=\"ltr\">Injuries not involving calvarium (e.g. hematomas limited to the face/neck) are not considered scalp hematomas</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Neurologic deficit</p>\n</td>\n<td>\n<p dir=\"ltr\">Any abnormal neurologic finding revealed by detailed exam, e.g. motor or sensory deficits (abnormal weakness/sensation in &ge;1 extremity; cranial nerve abnormality (particularly II through XII); cerebellar abnormality as manifested by ataxia, dysmetria, dysdiadokinesis, or other impairment of cerebellar function (as determined by systematic testing of cerebellar function, including tests of ataxia and finger-nose-finger, heel-to-shin, and rapid alternating movements); gait abnormality or inability to walk normally due to inadequate strength, loss of balance, or ataxia; perform systematic testing of gait, including tandem and heel-to-toe walking, and Romberg testing); or any other impairment of neurologic function</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Abnormal level of alertness</p>\n</td>\n<td>\n<p dir=\"ltr\">e.g. GCS &le;14; delayed or inappropriate response to external stimuli; excessive somnolence; disorientation to person, place, time, or events; inability to remember three objects at 5 mins; perseverating speech</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Abnormal behavior</p>\n</td>\n<td>\n<p dir=\"ltr\">Any inappropriate action, e.g. excessive agitation, inconsolability, refusal to cooperate, lack of affective response to questions or events, violent activity</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Persistent vomiting</p>\n</td>\n<td>\n<p dir=\"ltr\">Recurrent projectile or forceful emesis (&gt;1 episode), either observed or by history, after trauma</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Coagulopathy</p>\n</td>\n<td>\n<p dir=\"ltr\">Any clotting impairment, e.g. hemophilia, secondary to medications (Coumadin, heparin, aspirin, etc), hepatic insufficiency</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-a46ceaca-7fff-6582-bc08-7e70d00f8ecd\"></span><span id=\"docs-internal-guid-a46ceaca-7fff-6582-bc08-7e70d00f8ecd\"><br></span></p>",
             "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"94\"><col width=\"144\"><col width=\"210\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria present</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk of significant intracranial injuries</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Recommendation</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n<td>\n<p dir=\"ltr\">CT not necessary (100% sensitive for findings requiring neurosurgical intervention*)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;0</p>\n</td>\n<td>\n<p dir=\"ltr\">High</p>\n</td>\n<td>\n<p dir=\"ltr\">Consider CT</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">*Death due to head injury, need for craniotomy, elevation of skull fracture, intubation related to head injury, or intracranial pressure monitoring, within 7 days of head injury.<br><span id=\"docs-internal-guid-fa9ddebd-7fff-cf4a-e971-c578d9686f3b\"></span></p>",
             "references_list": {
@@ -42,11 +42,11 @@
                   "text": "Dayan PS, Ballard DW, Tham E, et al. Use of Traumatic Brain Injury Prediction Rules With Clinical Decision Support. Pediatrics. 2017;139(4)."
                 },
                 {
-                  "href": "http://pediatrics.aappublications.org/content/139/4/e20161349",
+                  "href": "https://pediatrics.aappublications.org/content/139/4/e20161349",
                   "text": "Jennings RM, Burtner JJ, Pellicer JF, et al. Reducing Head CT Use for Children With Head Injuries in a Community Emergency Department. Pediatrics. 2017;139(4)."
                 },
                 {
-                  "href": "http://pediatrics.aappublications.org/content/136/1/e227",
+                  "href": "https://pediatrics.aappublications.org/content/136/1/e227",
                   "text": "Nigrovic LE, Stack AM, Mannix RC, et al. Quality Improvement Effort to Reduce Cranial CTs for Children With Minor Blunt Head Trauma. Pediatrics. 2015;136(1):e227-33."
                 },
                 {
@@ -70,6 +70,7 @@
           },
           "contributor": {
             "expert_name": [
+              "Daniel Runde, MD",
               "Matthew Negaard, MD"
             ]
           },
@@ -111,6 +112,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Trauma"
         ],
@@ -121,6 +124,8 @@
         "full_title_en": "Pediatric NEXUS II Head CT Decision Instrument for Blunt Trauma",
         "input_schema": [
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Criteria",
             "subheading_instructions": "",
             "type": "subheading"
@@ -129,7 +134,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "<p>Evidence of skull fracture</p>",
+            "md_calc_info_concept": null,
             "name": "skull",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -149,7 +156,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "<p>Scalp hematoma</p>",
+            "md_calc_info_concept": null,
             "name": "scalp",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -169,7 +178,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "<p>Neurologic deficit</p>",
+            "md_calc_info_concept": null,
             "name": "deficit",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -189,7 +200,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "<p>Abnormal level of alertness</p>",
+            "md_calc_info_concept": null,
             "name": "alert",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -209,7 +222,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "<p>Abnormal behavior</p>",
+            "md_calc_info_concept": null,
             "name": "behavior",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -229,7 +244,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "<p>Persistent vomiting</p>",
+            "md_calc_info_concept": null,
             "name": "vomit",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -249,7 +266,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "<p>Coagulopathy</p>",
+            "md_calc_info_concept": null,
             "name": "coag",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -267,6 +286,7 @@
           }
         ],
         "instructions_en": "<p>Use in patients &lt;18 years old who have sustained blunt head trauma within the past 24 hours and in whom head CT is being considered.&nbsp;</p>\n<p>Note: We recommend using <calculator id=\"589\">PECARN</calculator> over other pediatric head trauma rules, as it is the most widely validated (see <a href=\"#next-steps\">Next Steps</a> for details).</p>",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -352,9 +372,11 @@
         ],
         "md5": "4ab910461766693b289a81939bb81ea9",
         "medium_description_en": "<p><span id=\"docs-internal-guid-5618b604-1081-30e8-1d62-363ecb1f3d62\">Predicts need for head CT after pediatric blunt head injury, similar to <calculator id=\"589\">PECARN</calculator>.</span></p>",
+        "publishedAt": "2022-04-21T20:28:15.078Z",
         "purpose_en": [
           "Treatment"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "Nexus",
           "nexus II",
@@ -382,9 +404,28 @@
         ],
         "system_en": [
           "Neurologic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "d84f433c-ff21-48aa-a079-6e638fcd3cb3"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Daniel Runde, MD, is currently the assistant residency director and an assistant professor of emergency medicine at the University of Iowa Hospitals and Clinics. He received his medical degree at the University of Iowa Carver College of Medicine and completed residency in emergency medicine at St. Luke’s-Roosevelt Hospital Center in New York. He recently finished his Medical Education Fellowship at the department of emergency medicine at Harbor-UCLA. Dr. Runde is interested in evidence-based medicine with a focus on patient-important clinical outcomes, CT utilization in the emergency department and education and evaluation in medical education. Currently, he is in the process of obtaining a Masters in Medical Education through the Office of Consultation and Research in Medical Education at the University of Iowa Hospitals and Clinics.</p>",
+          "firstName": "Daniel",
+          "hasDisclosure": [],
+          "img": "daniel-runde.jpg",
+          "lastName": "Runde",
+          "name": "Daniel Runde, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "daniel-runde",
+          "updatedAt": "2023-04-06T20:24:46.787Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",

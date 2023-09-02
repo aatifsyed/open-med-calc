@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -19,9 +19,9 @@
         "cme_status": "enabled",
         "content": {
           "about": {
-            "evidence_based_medicine_en": "<p dir=\"ltr\">Original, Derivation Rothrock Study (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/12359278\" target=\"_blank\">Rothrock 2002</a>)</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In 2002, investigators attempted to develop a clinical decision rule to identify criteria to predict clinically significant findings on chest x-ray in adult patients presenting to the ED with non-traumatic chest pain.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">A prospective observational trial was performed at a single urban ED which enrolled 1,650 patients who underwent chest x-ray for non-traumatic chest pain.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">17% of the study population had a clinically significant finding on chest x-ray.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Using 10 criteria (all except CHF history and smoking history from Modified Rothrock Criteria), sensitivity was 95% and NPV 98%.</p>\n</li>\n</ul>\n<p dir=\"ltr\">Subsequent Studies (<a href=\"https://www.hindawi.com/journals/aem/2014/241935/\" target=\"_blank\">Newsom 2014</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20219160\" target=\"_blank\">Hess 2010</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22978726\" target=\"_blank\">Poku 2012</a>)</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In 2014, Newsom et al attempted to externally validate the Rothrock Criteria by performing a retrospective validation at a different ED.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">However, the sensitivity was found to be only 79% for clinically significant chest x-ray findings in this population.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The NPV remained at 98%, consistent with the derivation study due to the significantly lower prevalence of pathology (5.2%) in the subsequent study population.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Despite not being able to validate the clinical decision tool, the investigators were able to determine that a history of CHF is highly influential in identifying which patients are at risk for having a clinically significant chest x-ray abnormality.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In 2014, another group (Hess et al) attempted to derive a different clinical decision tool to identify criteria to predict clinically significant findings on chest x-ray.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The derivation study showed promise as the absence of CHF history, smoking, and lung auscultation abnormalities was 100% sensitive for clinically significant chest x-ray abnormalities in their study population.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Unfortunately, attempts to validate this derivation rule were unsuccessful, with a sensitivity of 78.3% in the derivation study population.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">However, this work demonstrated that a history of smoking was influential in identifying patients who are at risk for having a clinically significant chest x-ray abnormality.</p>\n</li>\n</ul>\n<p dir=\"ltr\">Newsom Study, Modified Rothrock Criteria (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29427301\" target=\"_blank\">Newsom 2018</a>)</p>\n<p dir=\"ltr\"><span id=\"docs-internal-guid-17341d64-7fff-7bdd-4471-567ec937e912\"></span></p>\n<ul style=\"margin-top: 0pt; margin-bottom: 0pt;\">\n<li dir=\"ltr\">\n<p dir=\"ltr\">In 2018, Newsom et al performed a prospective, observational study at three emergency departments in an attempt to validate a clinical decision tool to identify patients at risk for clinically relevant chest x-ray findings by modifying the Rothrock Criteria to add CHF and smoking history to the criteria.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In this study of 1,089 patients with non-traumatic chest pain, 6.4% had clinically significant chest x-ray abnormalities.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In this population, the Modified Rothrock Criteria were found to be 92.9% sensitive for clinically significant abnormalities found on CXR as well as having a NPV of 98.4%.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Implementation of these criteria would have decreased the amount of CXR performed by 28.9%.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The application of the rule would have resulted in five missed diagnoses of the 70 clinically significant ED diagnoses found:</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Three cases of pneumonia missed (88.5% sensitive for pneumonia).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Two pleural effusions missed (94.1% sensitive for pleural effusions).</p>\n</li>\n</ul>\n<li>In this validation study, prevalence of pathology was much lower than in the derivation study, demonstrating impact of prevalence on NPV and the application of clinical decision tools in unique populations.&nbsp;</li>\n</ul>",
-            "formula_en": "<p dir=\"ltr\">Selection of the appropriate criteria:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"208\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Age &ge;60 years</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><abbr title=\"Chronic heart failure\">CHF</abbr> history</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Smoking history</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Hemoptysis</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Tuberculosis history</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Thromboembolic history</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Prior/current alcohol abuse</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Fever &ge;100.4&deg;F (38&deg;C)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Oxygen saturation &lt;90%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Respiratory rate &gt;24</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Diminished breath sounds</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Rales</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-c4e4e062-108c-7177-a9ed-7a8835783999\"></span><span id=\"docs-internal-guid-c4e4e062-108c-7177-a9ed-7a8835783999\"><br /></span></p>",
-            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"66\" /><col width=\"118\" /><col width=\"187\" /></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria present</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk group</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Recommendation</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n<td>\n<p dir=\"ltr\">Chest x-ray not needed</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;0</p>\n</td>\n<td>\n<p dir=\"ltr\">Not low</p>\n</td>\n<td>\n<p dir=\"ltr\">Consider chest x-ray</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-d4e476a7-108c-edb0-3730-1a088d5e615d\"></span><span id=\"docs-internal-guid-d4e476a7-108c-edb0-3730-1a088d5e615d\"><br /></span></p>",
+            "evidence_based_medicine_en": "<p dir=\"ltr\">Original, Derivation Rothrock Study (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/12359278\" target=\"_blank\" rel=\"noopener\">Rothrock 2002</a>)</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In 2002, investigators attempted to develop a clinical decision rule to identify criteria to predict clinically significant findings on chest x-ray in adult patients presenting to the ED with non-traumatic chest pain.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">A prospective observational trial was performed at a single urban ED which enrolled 1,650 patients who underwent chest x-ray for non-traumatic chest pain.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">17% of the study population had a clinically significant finding on chest x-ray.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Using 10 criteria (all except CHF history and smoking history from Modified Rothrock Criteria), sensitivity was 95% and NPV 98%.</p>\n</li>\n</ul>\n<p dir=\"ltr\">Subsequent Studies (<a href=\"https://www.hindawi.com/journals/aem/2014/241935/\" target=\"_blank\" rel=\"noopener\">Newsom 2014</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/20219160\" target=\"_blank\" rel=\"noopener\">Hess 2010</a>, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/22978726\" target=\"_blank\" rel=\"noopener\">Poku 2012</a>)</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In 2014, Newsom et al attempted to externally validate the Rothrock Criteria by performing a retrospective validation at a different ED.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">However, the sensitivity was found to be only 79% for clinically significant chest x-ray findings in this population.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The NPV remained at 98%, consistent with the derivation study due to the significantly lower prevalence of pathology (5.2%) in the subsequent study population.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Despite not being able to validate the clinical decision tool, the investigators were able to determine that a history of CHF is highly influential in identifying which patients are at risk for having a clinically significant chest x-ray abnormality.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In 2014, another group (Hess et al) attempted to derive a different clinical decision tool to identify criteria to predict clinically significant findings on chest x-ray.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The derivation study showed promise as the absence of CHF history, smoking, and lung auscultation abnormalities was 100% sensitive for clinically significant chest x-ray abnormalities in their study population.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Unfortunately, attempts to validate this derivation rule were unsuccessful, with a sensitivity of 78.3% in the derivation study population.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">However, this work demonstrated that a history of smoking was influential in identifying patients who are at risk for having a clinically significant chest x-ray abnormality.</p>\n</li>\n</ul>\n<p dir=\"ltr\">Newsom Study, Modified Rothrock Criteria (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29427301\" target=\"_blank\" rel=\"noopener\">Newsom 2018</a>)</p>\n<p dir=\"ltr\"><span id=\"docs-internal-guid-17341d64-7fff-7bdd-4471-567ec937e912\"></span></p>\n<ul style=\"margin-top: 0pt; margin-bottom: 0pt;\">\n<li dir=\"ltr\">\n<p dir=\"ltr\">In 2018, Newsom et al performed a prospective, observational study at three emergency departments in an attempt to validate a clinical decision tool to identify patients at risk for clinically relevant chest x-ray findings by modifying the Rothrock Criteria to add CHF and smoking history to the criteria.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In this study of 1,089 patients with non-traumatic chest pain, 6.4% had clinically significant chest x-ray abnormalities.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">In this population, the Modified Rothrock Criteria were found to be 92.9% sensitive for clinically significant abnormalities found on CXR as well as having a NPV of 98.4%.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Implementation of these criteria would have decreased the amount of CXR performed by 28.9%.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The application of the rule would have resulted in five missed diagnoses of the 70 clinically significant ED diagnoses found:</p>\n</li>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Three cases of pneumonia missed (88.5% sensitive for pneumonia).</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Two pleural effusions missed (94.1% sensitive for pleural effusions).</p>\n</li>\n</ul>\n<li>In this validation study, prevalence of pathology was much lower than in the derivation study, demonstrating impact of prevalence on NPV and the application of clinical decision tools in unique populations.&nbsp;</li>\n</ul>",
+            "formula_en": "<p dir=\"ltr\">Selection of the appropriate criteria:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"208\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Age &ge;60 years</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\"><abbr title=\"Chronic heart failure\">CHF</abbr> history</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Smoking history</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Hemoptysis</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Tuberculosis history</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Thromboembolic history</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Prior/current alcohol abuse</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Fever &ge;100.4&deg;F (38&deg;C)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Oxygen saturation &lt;90%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Respiratory rate &gt;24</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Diminished breath sounds</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Rales</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-c4e4e062-108c-7177-a9ed-7a8835783999\"></span><span id=\"docs-internal-guid-c4e4e062-108c-7177-a9ed-7a8835783999\"><br></span></p>",
+            "more_info_en": "<p dir=\"ltr\">Interpretation:</p>\n<div dir=\"ltr\">\n<table><colgroup><col width=\"66\"><col width=\"118\"><col width=\"187\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\"><strong>Criteria present</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Risk group</strong></p>\n</td>\n<td>\n<p dir=\"ltr\"><strong>Recommendation</strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">0</p>\n</td>\n<td>\n<p dir=\"ltr\">Low</p>\n</td>\n<td>\n<p dir=\"ltr\">Chest x-ray not needed</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">&gt;0</p>\n</td>\n<td>\n<p dir=\"ltr\">Not low</p>\n</td>\n<td>\n<p dir=\"ltr\">Consider chest x-ray</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><span id=\"docs-internal-guid-d4e476a7-108c-edb0-3730-1a088d5e615d\"></span><span id=\"docs-internal-guid-d4e476a7-108c-edb0-3730-1a088d5e615d\"><br></span></p>",
             "references_list": {
               "Clinical Practice Guidelines": [
                 {
@@ -76,6 +76,7 @@
           },
           "contributor": {
             "expert_name": [
+              "Daniel Runde, MD",
               "Matthew Negaard, MD"
             ]
           },
@@ -87,7 +88,7 @@
             }
           ],
           "how_to_use": {
-            "pearls_pitfalls_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Application of this decision tool would have missed five clinically relevant diagnoses in the study population: three pneumonias and two pleural effusions.</p>\n</li>\n<li dir=\"ltr\"><span id=\"docs-internal-guid-1d4ccb91-7fff-7b2c-98fa-76384c80dc82\">The prevalence of clinically relevant ED findings on chest x-ray in the study population was 6.4%. In populations where prevalence is higher, negative predictive value (98.4% in the study) would decrease (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29427301\" target=\"_blank\">Newsom 2018</a>).</span></li>\n</ul>",
+            "pearls_pitfalls_en": "<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Application of this decision tool would have missed five clinically relevant diagnoses in the study population: three pneumonias and two pleural effusions.</p>\n</li>\n<li dir=\"ltr\"><span id=\"docs-internal-guid-1d4ccb91-7fff-7b2c-98fa-76384c80dc82\">The prevalence of clinically relevant ED findings on chest x-ray in the study population was 6.4%. In populations where prevalence is higher, negative predictive value (98.4% in the study) would decrease (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29427301\" target=\"_blank\" rel=\"noopener\">Newsom 2018</a>).</span></li>\n</ul>",
             "use_case_en": "<p><span id=\"docs-internal-guid-c565a025-1198-9ba5-0cde-fe8ad7bb4dd0\">Patients presenting to the emergency department for non-traumatic chest pain.</span></p>",
             "why_use_en": "<ul>\n<li>Can potentially safely eliminate unnecessary x-ray in patients presenting to EDs with non-traumatic chest pain (92.9% sensitive, NPV 98.4% for clinically relevant ED findings on chest x-ray).</li>\n<li>In the validation study, application of the score would have decreased chest x-ray usage by 28.9%.</li>\n<li>The study authors estimate a potential decrease of $58 million per year in healthcare costs as a result of the potential decrease number of chest x-rays performed with application of the clinical decision tool.&nbsp;</li>\n</ul>"
           },
@@ -111,6 +112,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Congestive Heart Failure",
           "Heart Failure",
@@ -123,15 +126,19 @@
         "full_title_en": "Newsom Score for Non-traumatic Chest Pain",
         "input_schema": [
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Criteria",
-            "subheading_instructions": "Presence of ≥1 means the patient is not low risk:",
+            "subheading_instructions": "Presence of ?1 means the patient is not low risk:",
             "type": "subheading"
           },
           {
             "conditionality": "",
             "default": 0,
             "label_en": "Age ≥60 years",
+            "md_calc_info_concept": null,
             "name": "age",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -151,7 +158,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "<abbr title = \"Chronic heart failure\">CHF</abbr> history",
+            "md_calc_info_concept": null,
             "name": "chf",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -171,7 +180,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Smoking history",
+            "md_calc_info_concept": null,
             "name": "smoking",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -191,7 +202,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Hemoptysis",
+            "md_calc_info_concept": null,
             "name": "hemoptysis",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -211,7 +224,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Tuberculosis history",
+            "md_calc_info_concept": null,
             "name": "tuberculosis",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -231,7 +246,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Thromboembolic history",
+            "md_calc_info_concept": null,
             "name": "thrombo",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -251,7 +268,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Prior/current alcohol abuse",
+            "md_calc_info_concept": null,
             "name": "alc",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -271,7 +290,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Fever ≥100.4°F (38°C)",
+            "md_calc_info_concept": null,
             "name": "fever",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -291,7 +312,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Oxygen saturation <90%",
+            "md_calc_info_concept": null,
             "name": "o2",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -311,7 +334,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Respiratory rate >24",
+            "md_calc_info_concept": null,
             "name": "respiratory",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -331,7 +356,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Diminished breath sounds",
+            "md_calc_info_concept": null,
             "name": "breath",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -351,7 +378,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Rales",
+            "md_calc_info_concept": null,
             "name": "rales",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -369,6 +398,7 @@
           }
         ],
         "instructions_en": "<p><span id=\"docs-internal-guid-d446a735-1197-f353-bff0-4c3eb6aee57c\">Use in patients presenting to the emergency department for non-traumatic chest pain.</span></p>",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -474,10 +504,12 @@
         ],
         "md5": "5d1987c97cbe22e91bf4d033e684c8f6",
         "medium_description_en": "<p><span id=\"docs-internal-guid-c8ad5943-1072-4605-48cd-f4617d2555d0\">Rules out need for chest x-ray in chest pain patients (non-traumatic).</span></p>",
+        "publishedAt": "2022-04-21T20:28:14.822Z",
         "purpose_en": [
           "Rule Out",
           "Treatment"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "Non traumatic",
           "nontraumatic",
@@ -491,7 +523,7 @@
           "keywords_en": "Non-traumatic, congestive heart failure, x-ray, chest complaints, respiratory distress, nontraumatic",
           "meta_description_en": "The Newsom Score for Non-traumatic Chest Pain determines which patients with non-traumatic chest complaints require chest x-ray."
         },
-        "short_description_en": "Chest x-ray in non-traumatic chest pain.",
+        "short_description_en": "<p>Chest x-ray in non-traumatic chest pain.</p>",
         "short_title_en": "Newsom Score",
         "slug": "newsom-score-non-traumatic-chest-pain",
         "specialty_en": [
@@ -505,9 +537,28 @@
         "system_en": [
           "Cardiac",
           "Respiratory"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "ffd615ad-6613-45ec-af35-cd87791e9d36"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Daniel Runde, MD, is currently the assistant residency director and an assistant professor of emergency medicine at the University of Iowa Hospitals and Clinics. He received his medical degree at the University of Iowa Carver College of Medicine and completed residency in emergency medicine at St. Luke’s-Roosevelt Hospital Center in New York. He recently finished his Medical Education Fellowship at the department of emergency medicine at Harbor-UCLA. Dr. Runde is interested in evidence-based medicine with a focus on patient-important clinical outcomes, CT utilization in the emergency department and education and evaluation in medical education. Currently, he is in the process of obtaining a Masters in Medical Education through the Office of Consultation and Research in Medical Education at the University of Iowa Hospitals and Clinics.</p>",
+          "firstName": "Daniel",
+          "hasDisclosure": [],
+          "img": "daniel-runde.jpg",
+          "lastName": "Runde",
+          "name": "Daniel Runde, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "daniel-runde",
+          "updatedAt": "2023-04-06T20:24:46.787Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",

@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -45,6 +45,8 @@
           },
           "contributor": {
             "expert_name": [
+              "Caleb Cheng, MD",
+              "Christopher Tormey, MD",
               "Ronald George Hauser, MD"
             ]
           },
@@ -76,6 +78,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Anemia",
           "Hematologic Malignancy"
@@ -89,6 +93,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "<calculator id='4065'>Total blood volume</calculator>",
             "name": "bv",
             "optional": false,
@@ -99,6 +105,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "<calculator id='4065'>Plasma volume</calculator>",
             "name": "pv",
             "optional": false,
@@ -109,6 +117,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Number of plasma volumes to be exchanged",
             "name": "volumes",
             "optional": false,
@@ -118,6 +128,7 @@
           }
         ],
         "instructions_en": "",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -193,9 +204,11 @@
         ],
         "md5": "7cb08746fd697a378ad75815a76d0a6c",
         "medium_description_en": "<p>Estimates amount of a substance (e.g. antibody) remaining in the intravascular space after a given number of plasma volume exchanges.</p>",
+        "publishedAt": "2022-04-21T20:28:04.256Z",
         "purpose_en": [
           "Calculation"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "Therapeutic Plasmapheresis",
           "Plasmapheresis",
@@ -207,7 +220,7 @@
           "keywords_en": "therapeutic plasmapheresis, plasmapheresis, apheresis, plasma exchange, Therapeutic Plasmapheresis Calculator",
           "meta_description_en": "Therapeutic Apheresis predicts residual relative concentration after removal or addition of a substance by apheresis."
         },
-        "short_description_en": "Removal of a substance by plasma exchange.",
+        "short_description_en": "<p>Removal of a substance by plasma exchange.</p>",
         "short_title_en": "Therapeutic Plasmapheresis",
         "slug": "therapeutic-plasmapheresis-calculator",
         "specialty_en": [
@@ -217,9 +230,43 @@
         ],
         "system_en": [
           "Hematologic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "09541b9c-f89b-4b33-8a3c-4de202b2ed4e"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Caleb",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Cheng",
+          "name": "Caleb Cheng, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Christopher",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Tormey",
+          "name": "Christopher Tormey, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",

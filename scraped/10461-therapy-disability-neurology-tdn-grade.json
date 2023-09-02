@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -96,8 +96,8 @@
           "Intracranial Aneurysm"
         ],
         "dosing": false,
-        "equation_logic": "3d93690ef7e105536ca220e6ad392c4d",
-        "equation_logic_text": "var calc_output = [];\n\nvar therapy = parseFloat(therapy);\nvar d1 = parseFloat(d1);\nvar d2 = parseFloat(d2);\nvar d3 = parseFloat(d3);\nvar neuro = parseFloat(neuro);\n\nvar grade;\nvar t;\nvar d;\nvar n;\n\nif (neuro == 0) {\n    grade = 'Grade 1';\n}\nif (therapy == 1 || d2 == 0 || neuro == 1 ) {\n    grade = 'Grade 2';\n}\nif (therapy == 2 || d3 == 0) {\n    grade = 'Grade 3';\n}\nif (therapy == 3 || d3 == 1) {\n    grade = 'Grade 4';\n}\nif (therapy == 4) {\n    grade = 'Grade 5';\n    t = 'T5';\n    d = 'D5';\n    n = 'N2';\n}\n\nif (therapy == 0) {\n    t = 'T1';\n} else if (therapy == 1) {\n    t = 'T2';\n} else if (therapy == 2) {\n    t = 'T3';\n} else if (therapy == 3) {\n    t = 'T4';\n}\n\nif (d1 == 0) {\n    d = 'D1';\n} else if (d2 == 0) {\n    d = 'D2';\n} else if (d3 == 0) {\n    d = 'D3';\n} else if (d3 == 1) {\n    d = 'D4';\n}\n\nif (neuro == 0) {\n    n = 'N1';\n} else if (neuro == 1) {\n    n = 'N2';\n}\n\nvar tdn = t + d + n;\n\ncalc_output.push({\n    name: 'mini',\n    value: grade + ', ' + tdn,\n    value_text: '',\n    message: 'TDN Grade'\n});\ncalc_output.push({\n    name: 'TDN Grade',\n    value: grade + ', ' + tdn,\n    value_text: '',\n    message: 'TDN Grade'\n});",
+        "equation_logic": "9f7399c423991bbee7fb76c18a29304d",
+        "equation_logic_text": "var calc_output = [];\n\nvar therapy = parseFloat(therapy);\nvar d1 = parseFloat(d1);\nvar d2 = parseFloat(d2);\nvar d3 = parseFloat(d3);\nvar neuro = parseFloat(neuro);\n\nvar grade;\nvar t;\nvar d;\nvar n;\n\nif (neuro == 0) {\n    grade = 'Grade 1';\n}\nif (therapy == 1 || d2 == 0 || neuro == 1) {\n    grade = 'Grade 2';\n}\nif (therapy == 2 || d3 == 0) {\n    grade = 'Grade 3';\n}\nif (therapy == 3 || d3 == 1) {\n    grade = 'Grade 4';\n}\nif (therapy == 4) {\n    grade = 'Grade 5';\n    t = 'T5';\n    d = 'D5';\n    n = 'N2';\n}\n\nif (therapy == 0) {\n    t = 'T1';\n} else if (therapy == 1) {\n    t = 'T2';\n} else if (therapy == 2) {\n    t = 'T3';\n} else if (therapy == 3) {\n    t = 'T4';\n}\n\nif (d1 == 0) {\n    d = 'D1';\n} else if (d2 == 0) {\n    d = 'D2';\n} else if (d3 == 0) {\n    d = 'D3';\n} else if (d3 == 1) {\n    d = 'D4';\n}\n\nif (neuro == 0) {\n    n = 'N1';\n} else if (neuro == 1) {\n    n = 'N2';\n}\n\nvar tdn = t + d + n;\n\ncalc_output.push({\n    name: 'mini',\n    value: grade + ', ' + tdn,\n    value_text: '',\n    message: 'TDN Grade'\n});\ncalc_output.push({\n    name: 'TDN Grade',\n    value: grade + ', ' + tdn,\n    value_text: '',\n    message: 'TDN Grade'\n});",
         "favorite_id": 10461,
         "full_title_en": "Therapy-Disability-Neurology (TDN) Grade",
         "input_schema": [
@@ -150,7 +150,7 @@
             "type": "subheading"
           },
           {
-            "conditionality": "therapy < 4",
+            "conditionality": "therapy != null && therapy < 4",
             "default": null,
             "label_en": "<p><span data-metadata=\"&lt;!--(figmeta)eyJmaWxlS2V5IjoiUmd6M3d4dVFQU2xHUmV5cW1EZlU1YiIsInBhc3RlSUQiOjE0NzYxNjk4MzQsImRhdGFUeXBlIjoic2NlbmUifQo=(/figmeta)--&gt;\"></span><span>Is the adverse event hindering at least one activity of daily living?</span></p>",
             "mdcalc_info_concept": null,

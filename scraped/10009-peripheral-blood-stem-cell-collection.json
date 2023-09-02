@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -41,6 +41,8 @@
           },
           "contributor": {
             "expert_name": [
+              "Alex Ryder, MD, PhD",
+              "Caleb Cheng, MD",
               "Ronald George Hauser, MD"
             ]
           },
@@ -72,6 +74,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Cancer",
           "Hematologic Malignancy",
@@ -86,6 +90,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Recipient weight",
             "name": "wt",
             "optional": false,
@@ -96,6 +102,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Processed blood",
             "name": "blood",
             "optional": false,
@@ -106,6 +114,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Peripheral CD34+",
             "name": "peripheral",
             "optional": false,
@@ -116,6 +126,8 @@
           {
             "conditionality": "",
             "default": 40,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Collection efficiency",
             "name": "efficiency",
             "optional": false,
@@ -125,6 +137,7 @@
           }
         ],
         "instructions_en": "",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -255,10 +268,12 @@
         ],
         "md5": "875cb03a328f81f7bdcfa58d7872e6bb",
         "medium_description_en": "<p>Estimates CD34+ yield using pre-apheresis peripheral blood absolute CD34 blood count.</p>",
+        "publishedAt": "2022-04-21T20:28:03.279Z",
         "purpose_en": [
           "Calculation",
           "Treatment"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "stem cell transplant",
           "pbsc"
@@ -268,8 +283,8 @@
           "keywords_en": "SCT, stem cell transplant, pbsc",
           "meta_description_en": "The Peripheral Blood Stem Cell Collection calculator estimates CD34+ yield using preapheresis peripheral blood absolute CD34 blood count."
         },
-        "short_description_en": "CD34+ yield.",
-        "short_title_en": "Blood Stem Cell Collection",
+        "short_description_en": "<p>CD34+ yield.</p>",
+        "short_title_en": "Migration apply",
         "slug": "peripheral-blood-stem-cell-collection",
         "specialty_en": [
           "Hematology and Oncology",
@@ -278,9 +293,43 @@
         ],
         "system_en": [
           "Hematologic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "200b7724-7f65-4cde-b077-500243f4afe2"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Alex",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Ryder",
+          "name": "Alex Ryder, MD, PhD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Caleb",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Cheng",
+          "name": "Caleb Cheng, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",

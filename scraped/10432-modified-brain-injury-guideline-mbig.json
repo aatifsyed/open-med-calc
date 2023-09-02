@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -73,7 +73,9 @@
           },
           "contributor": {
             "expert_name": [
-              "Eric Steinberg, DO"
+              "Michelle Kikel, DO",
+              "Clarice Melanson, DO",
+              "Kirk Tomlinson, MD"
             ]
           },
           "creator": [
@@ -102,7 +104,9 @@
             "teaching": [],
             "videos": []
           },
-          "reviewer": []
+          "reviewer": [
+            "Eric Steinberg, DO"
+          ]
         },
         "disabled": false,
         "disabled_reason": null,
@@ -443,23 +447,7 @@
         "versions": [],
         "vuid": "e98b64af-f451-4199-a6f8-b73ffe8f1ede"
       },
-      "contributors": [
-        {
-          "contributors_page": false,
-          "createdAt": "2021-12-22T21:20:30.365Z",
-          "description": "",
-          "firstName": "Eric",
-          "hasDisclosure": [],
-          "img": "https://cdn-web-img.mdcalc.com/people/eric-steinberg.jpg",
-          "lastName": "Steinberg",
-          "name": "Eric Steinberg, DO",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
-          "signedCOI": true,
-          "status": "Past",
-          "target": "eric-steinberg",
-          "updatedAt": "2023-04-06T20:27:48.248Z"
-        }
-      ],
+      "contributors": [],
       "creators": [
         {
           "about_en": "<p>Abid D. Khan, MD, is a general surgeon and intensive care medicine doctor in Colorado Springs, Colorado. He is a participant in the Medicare Physician Quality Reporting System (PQRS) Incentive Program and is committed to heart health through the Million Hearts initiative. Dr. Khan&rsquo;s primary research is focused on trauma and critical care.</p>",

@@ -1,0 +1,537 @@
+{
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
+  "gssp": true,
+  "isFallback": false,
+  "page": "/calc/[...slug]",
+  "props": {
+    "__N_SSP": true,
+    "pageProps": {
+      "calc": {
+        "before_use": "<ul>\n<li>Tenecteplase approval and recommendations for use vary by country. In the US, tenecteplase use in ischemic stroke is off-label.</li>\n<li>This calculator is for use in ischemic stroke patients only. Do NOT use for calculating doses in STEMI or PE.</li>\n</ul>",
+        "calc_type": "calculator",
+        "chief_complaint_en": [
+          "Chest Pain",
+          "Dizziness",
+          "Extremity Pain",
+          "Headache",
+          "Nausea",
+          "Numbness",
+          "Shortness of Breath",
+          "Vision Loss",
+          "Weakness"
+        ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
+        "cme_status": "",
+        "content": {
+          "about": {
+            "evidence_based_medicine_en": "<p dir=\"ltr\"><span>Currently, alteplase is the only FDA-approved treatment option for acute ischemic stroke (AIS). However, alteplase is limited by a cumbersome administration technique (an IV bolus followed by a 60-minute infusion). Tenecteplase (TNK) poses multiple pharmacologic advantages over alteplase including more fibrin-specificity (theoretically may lead to less bleeding), a longer half-life and greater resistance to plasminogen activator inhibitor 1 (PAI-1); the latter two characteristics enable TNK to be administered as a single IV bolus.</span><b></b></p>\n<p dir=\"ltr\"><span>In 2005, <a href=\"https://pubmed.ncbi.nlm.nih.gov/20185783/\" target=\"_blank\" rel=\"noopener\">Haley et al.</a> first examined TNK for use in AIS patients. This dose ranging study examined the safety (intracranial hemorrhage - ICH) of escalating doses ranging from 0.1 mg/kg to 0.6 mg/kg. TNK doses of 0.5 mg/kg led to higher rates of ICH. Overall, TNK doses of 0.1 mg/kg to 0.4 mg/kg produced similar functional outcomes compared with historical alteplase patients.</span><b></b></p>\n<p dir=\"ltr\"><span>Since initial dose escalation studies, multiple trials have examined TNK dosing as well as safety and efficacy versus alteplase in various stroke populations. Based on data from RCTs, TNK appears to have similar efficacy as alteplase. In <a href=\"https://pubmed.ncbi.nlm.nih.gov/28952914/\" target=\"_blank\" rel=\"noopener\">EXTEND-IA TNK</a>, patients with large vessel occlusions and planned thrombectomy who received TNK had improved vessel reperfusion versus alteplase.&nbsp;&nbsp;</span></p>\n<p dir=\"ltr\"><span>Several studies have attempted to clarify the best dose of TNK. Notably, <a href=\"https://pubmed.ncbi.nlm.nih.gov/32078683/\" target=\"_blank\" rel=\"noopener\">EXTEND-IA TNK II</a> compared doses of 0.4 mg/kg (max dose of 40 mg) and 0.25 mg/kg (max dose of 25 mg). No difference in ICH was seen between the two doses, however, there was also no difference in rate of vessel reperfusion rates or 90-day functional outcomes (mRS). This suggests no benefit to using the TNK 0.4 mg/kg. Use of lower TNK doses (0.25 mg/kg) was solidified with <a href=\"https://pubmed.ncbi.nlm.nih.gov/35525250/\" target=\"_blank\" rel=\"noopener\">NOR-TEST 2, Part A</a> which compared TNK 0.4 mg/kg to standard doses of alteplase and found worse functional outcomes and higher rates of ICH.&nbsp;</span><b></b></p>\n<p dir=\"ltr\"><span>TNK has been incorporated into multiple stroke guidelines. According to the <a href=\"https://www.ahajournals.org/doi/10.1161/STR.0000000000000211\" target=\"_blank\" rel=\"noopener\">AHA/ASA 2019 stroke guidelines</a>, TNK may be used as an alternative to alteplase in patients eligible for mechanical thrombectomy at a dose of 0.25 mg/kg (max 25 mg). The <a href=\"https://pubmed.ncbi.nlm.nih.gov/33817340/\" target=\"_blank\" rel=\"noopener\">European Stroke Association</a> suggests use of TNK over alteplase in patients eligible for mechanical thrombectomy. The <a href=\"https://informme.org.au/guidelines/living-clinical-guidelines-for-stroke-management\" target=\"_blank\" rel=\"noopener\">Australian Stroke Foundation</a> recommends either thrombolytic may be used for patients undergoing mechanical thrombectomy. Current guideline recommendations (published prior to several large RCTs) are more ubiquitous for patients with mild stroke or those not undergoing thrombectomy.&nbsp;</span></p>\n<p dir=\"ltr\"><span>A summary of select RCT data is provided below. Note multiple trials are ongoing which should help clarify TNK&rsquo;s place in therapy. All trials included in the tables below allowed an IV thrombolytic to be administered up to 4.5 hours from symptom onset, with the exception of <a href=\"https://pubmed.ncbi.nlm.nih.gov/22435369/\" target=\"_blank\" rel=\"noopener\">Parsons et al.</a> (6 hours), and <a href=\"https://pubmed.ncbi.nlm.nih.gov/36549308/\" target=\"_blank\" rel=\"noopener\">TWIST</a> (4.5 hours of awakening).&nbsp; <a href=\"https://pubmed.ncbi.nlm.nih.gov/34429364/\" target=\"_blank\" rel=\"noopener\">TRACE</a> and <a href=\"https://pubmed.ncbi.nlm.nih.gov/36774935/\" target=\"_blank\" rel=\"noopener\">TRACE-2</a> are not included in the summary table. These trials focused specifically on the East Asian population to confirm the safety of TNK in these patients. <a href=\"https://pubmed.ncbi.nlm.nih.gov/34429364/\" target=\"_blank\" rel=\"noopener\">TRACE</a> found no difference in safety in examined TNK doses (0.1, 0.25, 0.32 mg/kg). <a href=\"https://pubmed.ncbi.nlm.nih.gov/36774935/\" target=\"_blank\" rel=\"noopener\">TRACE-2</a> found TNK 0.25 mg/kg was non-inferior to alteplase 0.9 mg/kg in patients not undergoing thrombectomy.&nbsp;</span></p>",
+            "formula_en": "<p>Tenecteplase dosing is calculated by the following:</p>\n<p>Dose, mL = [0.25*(Weight, kg)]/5</p>\n<p>Waste, mL = 10 - (Dose, mL)</p>\n<p>Note: Total maximum dose is 5 mL (equivalent to 25mg)</p>",
+            "more_info_en": "<p><img src=\"https://cdn-web-img.mdcalc.com/TNKvsALT.png\" width=\"100%\" alt=\"\"></p>\n<p><img src=\"https://cdn-web-img.mdcalc.com/TNKhigh-vs-low.png\" width=\"100%\" alt=\"\"></p>",
+            "references_list": {
+              "Clinical Practice Guidelines": [
+                {
+                  "href": "https://www.ahajournals.org/doi/10.1161/STR.0000000000000211",
+                  "text": "Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the early management of patients with acute ischemic stroke: 2019 update to the 2018 guidelines for the early management of acute ischemic stroke: a guideline for healthcare professionals from the american heart association/american stroke association. Stroke. 2019;50(12)."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/33817340/",
+                  "text": "Berge E, Whiteley W, Audebert H, et al. European Stroke Organisation (Eso) guidelines on intravenous thrombolysis for acute ischaemic stroke. Eur Stroke J. 2021;6(1):I-LXII."
+                },
+                {
+                  "href": "https://informme.org.au/guidelines/living-clinical-guidelines-for-stroke-management",
+                  "text": "Australian and New Zealand Living clinical guidelines for stroke management. InformMe."
+                }
+              ],
+              "Manufacturer Website": [],
+              "Original/Primary Reference": [],
+              "Other References": [],
+              "Outcomes": [
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/20185783/",
+                  "text": "Haley E, Thompson J, Grotta JC et al. Phase IIB/III trial of tenecteplase in acute ischemic stroke: results of a prematurely terminated randomized clinical trial. Stroke. 2010; 41: 707-711"
+                },
+                {
+                  "href": " https://pubmed.ncbi.nlm.nih.gov/22435369/",
+                  "text": "Parsons M, Spratt N, Bivard A, et al. A randomized trial of tenecteplase versus alteplase for acute ischemic stroke. N Engl J Med. 2012; 366: 1099-1107"
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/25726502/",
+                  "text": "Huang X, Cheripelli BK, Lloyd SM et al. Alteplase versus tenecteplase for thrombolysis after ischaemic stroke (ATTEST): a phase 2, randomised, open-label, blinded endpoint study. Lancet Neurol. 2015; 14: 368-376"
+                },
+                {
+                  "href": " https://pubmed.ncbi.nlm.nih.gov/28780236/",
+                  "text": "Logallo N, Novotny V, Assmus J, et al. Tenecteplase versus alteplase for management of acute ischaemic stroke (NOR-TEST): a phase 3, randomised, open-label, blinded endpoint trial.Lancet Neurol. 2017; 16:781–788."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/29694815/",
+                  "text": "Campbell BCV, Mitchell PJ, Churilov L, et al. Tenecteplase versus alteplase before thrombectomy for ischemic stroke. N Engl J Med. 2018; 378: 1573-1582"
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/32078683/",
+                  "text": "Campbell BCV, Mitchell PJ, Churilov L, et al; EXTEND-IA TNK Part 2 investigators. Effect of intravenous tenecteplase dose on cerebral reperfusion before thrombectomy in patients with large vessel occlusion ischemic stroke: the EXTEND-IA TNK part 2 randomized clinical trial.JAMA. 2020; 323:1257–1265"
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/35779553/",
+                  "text": "Menon BK, Buck BH, Singh N, et al. Intravenous tenecteplase compared with alteplase for acute ischaemic stroke in Canada (AcT): a pragmatic, multicentre, open-label, registry-linked, randomised, controlled, non-inferiority trial. Lancet. 2022; 400: 161-169"
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/34429364/",
+                  "text": "Li S, Pan Y, Wang Z, et al. Safety and efficacy of tenecteplase versus alteplase in patients with acute ischaemic stroke (TRACE): a multicentre, randomised, open label, blinded-endpoint (PROBE) controlled phase II study.Stroke Vasc Neurol. 2021: 7:47."
+                },
+                {
+                  "href": "https://pubmed.ncbi.nlm.nih.gov/34429364/",
+                  "text": "Wang Y, Li S, Pan Y et al. Tenecteplase versus alteplase in acute ischaemic cerebrovascular events (TRACE-2): a phase 3, multicentre, open-label, randomised controlled, non-inferiority trial. Lancet. 2023; 401: 645-654. "
+                },
+                {
+                  "href": " https://pubmed.ncbi.nlm.nih.gov/36549308/",
+                  "text": "RoaldsenM, Eltoft A, Wilsgaard T, et al; TWIST Investigators. Safety and efficacy of tenecteplase in patients with wake-up stroke assessed by non-contrast CT (TWIST): a multicentre, open-label, randomised controlled trial.Lancet Neurol. 2023; 22:117–126. "
+                }
+              ],
+              "Validation": [],
+              "Validations": []
+            }
+          },
+          "contributor": {
+            "expert_name": [
+              "Samantha Smalley, PharmD",
+              "Lanting Fuh, PharmD"
+            ]
+          },
+          "creator": [
+            {
+              "approved": null,
+              "name": "OTHER",
+              "qa_en": null
+            }
+          ],
+          "how_to_use": {
+            "pearls_pitfalls_en": "<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\"><span>The final concentration is 5 mg/mL (50 mg vial is reconstituted with 10 mL of sterile water for injection), so dose volume will differ from the dose in milligrams.</span></p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\"><span>Remember that the maximum dose is 25 mg, so no more than 5 mL should be given for any ischemic stroke patient.</span></p>\n</li>\n</ul>\n<p></p>",
+            "use_case_en": "<p>This calculator is intended solely for calculating the tenecteplase (TNK) dose for ischemic stroke. It does not apply to dosing for ST elevation myocardial infarction (STEMI) or pulmonary embolism (PE). Consult your institutional formulary for thrombolytic options for ischemic stroke.</p>",
+            "why_use_en": "<p>Due to the time-sensitive nature and calculation complexities of ischemic stroke treatment with tenecteplase, there is risk for medication error. Using a calculator to double check dose prior to administration can reduce the risk of error.</p>"
+          },
+          "next_steps": {
+            "advice_en": "<p>Administer TNK when <a href=\"https://www.mdcalc.com/calc/1934/tpa-contraindications-ischemic-stroke\" target=\"_blank\" rel=\"noopener\">indicated</a> and when TNK is the institutionally preferred formulary thrombolytic for ischemic stroke.</p>\n<p>5mL (equivalent to 25mg) is the maximum dose</p>",
+            "critical_actions_en": "<ul>\n<li>If the patient develops acute hypertension, worsening neurological exam, severe headache, nausea, or vomiting, obtain an emergency head CT.</li>\n</ul>",
+            "management_en": "<ul>\n<li dir=\"ltr\" role=\"presentation\"><span>Following TNK administration, blood pressure and neurological assessments should occur every 15 minutes for 2 hours, then every 30 minutes for 6 hours, then hourly until 24 hours following TNK treatment.</span></li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\"><span></span>Following TNK administration, maintain blood pressure &lt;180/105 mmHg. The use of parenteral antihypertensive(s) may be necessary to achieve this goal blood pressure.<strong></strong></p>\n</li>\n</ul>"
+          },
+          "related_resources": {
+            "guidelines": [],
+            "interests": [],
+            "mdcalc_rating": [],
+            "partner_contact": [],
+            "sdm_tool": [],
+            "teaching": [],
+            "videos": []
+          },
+          "reviewer": []
+        },
+        "disabled": false,
+        "disabled_reason": null,
+        "disease_en": [
+          "Intracranial Hemorrhage",
+          "Stroke/TIA"
+        ],
+        "dosing": true,
+        "equation_logic": "473af2ce984cc983d64a7b85ef8c0a64",
+        "equation_logic_text": "var calc_output = [];\n\nvar weight = parseFloat(weight);\n\nvar dose_initial = (weight * 0.25)/5;\nvar dose_final;\n\nif (dose_initial >= 5){\n    dose_final = 5\n}\nelse {\n    dose_final = dose_initial\n}\n\nvar dose_mg = dose_final.toFixed(1)*5;\nvar waste = 10 - dose_final;\nvar waste_mg = waste.toFixed(1)*5;\n\ncalc_output.push({\n    name: 'mini',\n    value: dose_final.toFixed(1),\n    value_text: 'mL, equivalent to ' + dose_mg.toFixed(1) + ' mg',\n    message: 'Tenecteplase dosing'\n});\ncalc_output.push({\n    name: '10480_TNK Dosing_result (dose)',\n    value: dose_final.toFixed(1),\n    value_text: 'mL, equivalent to ' + dose_mg.toFixed(1) + ' mg',\n    message: 'Tenecteplase dosing'\n});\ncalc_output.push({\n    name: '10480_TNK Dosing_result (waste)',\n    value: waste.toFixed(1),\n    value_text: 'mL, equivalent to ' + waste_mg.toFixed(1) + ' mg',\n    message: 'Waste, to be discarded'\n});",
+        "favorite_id": 10480,
+        "full_title_en": "Tenecteplase (TNK) Dosing for Ischemic Stroke Calculator",
+        "input_schema": [
+          {
+            "conditionality": null,
+            "default": null,
+            "fhir_rules": null,
+            "inct": null,
+            "label_en": "<p>Weight</p>",
+            "name": "weight",
+            "optional": false,
+            "tips_en": "",
+            "type": "textbox",
+            "unit": "wt"
+          }
+        ],
+        "instructions_en": "",
+        "isVisibleInListView": true,
+        "logic_language": "javascript",
+        "logs": [],
+        "md5": "ff7db940058950802ad1ef398e82ad78",
+        "medium_description_en": "<p>Doses tenecteplase (a type of tPA) for use in ischemic stroke.</p>",
+        "publishedAt": "2023-06-26T15:50:31.430Z",
+        "purpose_en": [
+          "Treatment",
+          "Formula"
+        ],
+        "replacement_calc_id": null,
+        "search_abbreviation_en": [
+          "tenecteplase dosing",
+          "tenecteplase",
+          "tnk",
+          "tnkase",
+          "tnkase dosing",
+          "tnk dosing",
+          "stroke",
+          "ischemic stroke",
+          "ischemic",
+          "thrombolytics",
+          "thrombolytics dosing",
+          "tpa",
+          "thrombolysis"
+        ],
+        "search_id": "c-10480",
+        "seo": {
+          "keywords_en": "Tenecteplase Dosing, TNKase dosing, tnk, stroke, ischemic stroke, dosing, TNKase, tenecteplase, tPA, thrombolytics, thrombolysis, tnk dosing, thrombolytics dosing, tPA dosing",
+          "meta_description_en": "Tenecteplase Dosing doses tenecteplase for use in ischemic stroke."
+        },
+        "short_description_en": "<p>Tenecteplase dosing for ischemic stroke.</p>",
+        "short_title_en": "TNKase Dosing",
+        "slug": "tenecteplase-dosing",
+        "specialty_en": [
+          "Cardiology",
+          "Critical Care",
+          "Critical Care (Neurologic)",
+          "Emergency Medicine",
+          "Hospitalist Medicine",
+          "Internal Medicine",
+          "Neurology",
+          "Neurosurgery"
+        ],
+        "system_en": [
+          "Neurologic"
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "1ea7270b-5caf-40ee-a665-d126b5a2bcf4"
+      },
+      "contributors": [],
+      "creators": [
+        {
+          "about_en": "<p>Other creator.</p>",
+          "createdAt": "2022-04-08T13:27:37.821Z",
+          "deceased": true,
+          "firstName": "",
+          "lastName": "",
+          "name": "OTHER",
+          "photo_en": null,
+          "publishedAt": "2023-01-10T18:10:35.625Z",
+          "pubmedLink": null,
+          "signedCOI": false,
+          "updatedAt": "2023-01-10T18:11:49.358Z"
+        }
+      ],
+      "envs": {
+        "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
+        "STRAPI_TAG": "WEB_PROD",
+        "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
+      },
+      "faqs": [
+        {
+          "cme_faq": {
+            "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
+            "createdAt": "2022-12-16T16:39:54.990Z",
+            "publishedAt": "2022-12-16T16:39:55.697Z",
+            "question": "What is MDCalc CME?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:52:48.348Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
+            "createdAt": "2022-12-16T16:40:11.179Z",
+            "publishedAt": "2022-12-16T16:40:11.883Z",
+            "question": "Is MDCalc CME accredited?",
+            "type": "Using",
+            "updatedAt": "2023-02-09T18:38:00.345Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
+            "createdAt": "2022-12-16T16:40:27.936Z",
+            "publishedAt": "2022-12-16T16:40:28.851Z",
+            "question": "Who can enroll and how?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:12.659Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
+            "createdAt": "2022-12-16T16:40:47.203Z",
+            "publishedAt": "2022-12-16T16:40:47.882Z",
+            "question": "What activities can I do to earn CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:27.268Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
+            "createdAt": "2022-12-16T16:40:57.420Z",
+            "publishedAt": "2022-12-16T16:41:02.863Z",
+            "question": "Where can I find calcs with which I can earn credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:44.504Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
+            "createdAt": "2022-12-16T16:41:11.874Z",
+            "publishedAt": "2022-12-16T16:41:13.038Z",
+            "question": "Where can I see which credits I’ve earned?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:53:52.153Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
+            "createdAt": "2022-12-16T16:41:33.940Z",
+            "publishedAt": "2022-12-16T16:41:35.646Z",
+            "question": "How do I redeem CME credits?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:07.237Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
+            "createdAt": "2022-12-16T16:41:59.307Z",
+            "publishedAt": "2022-12-16T16:42:00.078Z",
+            "question": "Are CME credits free?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:22.467Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
+            "createdAt": "2022-12-16T16:42:10.712Z",
+            "publishedAt": "2022-12-16T16:42:15.215Z",
+            "question": "Where can I see my CME certificates?",
+            "type": "Using",
+            "updatedAt": "2023-01-04T22:54:32.826Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>One year from the date of purchase.</p>",
+            "createdAt": "2022-12-16T16:42:52.839Z",
+            "publishedAt": "2022-12-16T16:42:53.641Z",
+            "question": "How long do credits in an annual subscription last?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:54:51.655Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
+            "createdAt": "2022-12-16T16:32:44.987Z",
+            "publishedAt": "2022-12-16T16:32:46.006Z",
+            "question": "What specialty CME credits are included in the plan?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:33.794Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
+            "createdAt": "2022-12-16T16:33:18.512Z",
+            "publishedAt": "2022-12-16T16:33:19.250Z",
+            "question": "I ordered a CME package with a gift card. How does it work?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:50:53.878Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
+            "createdAt": "2022-12-16T16:44:06.809Z",
+            "publishedAt": "2022-12-16T16:44:07.518Z",
+            "question": "What will show on my receipt for CME when it includes a gift card?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:08.549Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
+            "createdAt": "2022-12-16T16:36:44.877Z",
+            "publishedAt": "2022-12-16T16:36:45.950Z",
+            "question": "How do I get a refund if I'm not satisfied?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:01.761Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
+            "createdAt": "2022-12-16T16:37:26.433Z",
+            "publishedAt": "2022-12-16T16:37:27.177Z",
+            "question": "How do I later upgrade to a different plan if I need more credits?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:27.457Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
+            "createdAt": "2022-12-16T16:44:53.580Z",
+            "publishedAt": "2022-12-16T16:44:56.993Z",
+            "question": "Do CME plans auto-renew?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:55:44.653Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
+            "createdAt": "2022-12-16T16:38:26.466Z",
+            "publishedAt": "2022-12-16T16:38:27.163Z",
+            "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:51:43.762Z"
+          }
+        },
+        {
+          "cme_faq": {
+            "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
+            "createdAt": "2022-12-16T16:46:21.538Z",
+            "publishedAt": "2022-12-16T16:46:27.759Z",
+            "question": "Did the ACCME decide to regulate gift cards?",
+            "type": "Purchasing",
+            "updatedAt": "2023-01-04T22:56:05.573Z"
+          }
+        }
+      ],
+      "headConfig": {
+        "canonicalUrl": "/calc/10480/tenecteplase-dosing",
+        "description": "Tenecteplase Dosing doses tenecteplase for use in ischemic stroke.",
+        "keywords": "Tenecteplase Dosing, TNKase dosing, tnk, stroke, ischemic stroke, dosing, TNKase, tenecteplase, tPA, thrombolytics, thrombolysis, tnk dosing, thrombolytics dosing, tPA dosing",
+        "title": "Tenecteplase (TNK) Dosing for Ischemic Stroke Calculator"
+      },
+      "isCMECalc": false,
+      "measurements": [
+        {
+          "conversion": "0.453592",
+          "createdAt": "2022-01-03T19:16:05.077Z",
+          "error_max": 600,
+          "error_max_si": 272.1552,
+          "error_max_us": 600,
+          "error_min": 0.5,
+          "error_min_si": 0.226796,
+          "error_min_us": 0.5,
+          "name": "Weight",
+          "normal_max_si": 150,
+          "normal_max_us": 330,
+          "normal_min_si": 1,
+          "normal_min_us": 2,
+          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "unit": "wt",
+          "units_si": "kg",
+          "units_us": "lbs",
+          "updatedAt": "2022-12-01T20:01:08.372Z",
+          "warn_max": 500,
+          "warn_max_si": 226.796,
+          "warn_max_us": 500,
+          "warn_min": 0.5,
+          "warn_min_si": 0.226796,
+          "warn_min_us": 0.5
+        }
+      ],
+      "relCalcs": [],
+      "societies": {
+        "American Association for the Study of Liver Diseases": {
+          "abbreviation": "AASLD",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.aasld.org/"
+        },
+        "American College Of Emergency Physicians": {
+          "abbreviation": "ACEP",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/american-college-of-emergency-physicians-squarelogo.png",
+          "web_link": "https://www.acep.org/"
+        },
+        "American College of Gastroenterology": {
+          "abbreviation": "ACG",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/acg_logo.png",
+          "web_link": "https://gi.org/"
+        },
+        "American College of Rheumatology": {
+          "abbreviation": "ACR",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.rheumatology.org/"
+        },
+        "American Gastroenterological Association": {
+          "abbreviation": "AGA",
+          "description": "plain-text",
+          "img": "https://apps.mdcalc.com/images/societies/aga.jpeg",
+          "web_link": "https://gastro.org"
+        },
+        "American Heart Association": {
+          "abbreviation": "AHA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/apps.mdcalc.com/images/societies/+AHA+(American+Heart+Association).png",
+          "target": "aha",
+          "web_link": "http://www.heart.org/HEARTORG/"
+        },
+        "American Urological Association": {
+          "abbreviation": "AUA",
+          "description": "plain-text",
+          "img": "https://s3-us-west-2.amazonaws.com/cdn-web-img.mdcalc.com/logo/other_society.png",
+          "web_link": "https://www.auanet.org/"
+        },
+        "EB Medicine": {
+          "abbreviation": "EB Medicine",
+          "description": "EB Medicine is the premier provider of evidence-based clinical content and CME resources for emergency medicine practitioners.",
+          "img": "https://cdn-web-img.mdcalc.com/other/eb_medicine-icon-only.jpg",
+          "target": "eb-medicine",
+          "web_link": "http://www.ebmedicine.net/"
+        },
+        "MDCalc CME": {
+          "abbreviation": "MDCalc CME",
+          "img": "https://cdn-web-img.mdcalc.com/Stroke-CME-content.jpg",
+          "web_link": "https://www.mdcalc.com/stroke-cme?utm_source=NIHSS_calc&utm_medium=NIHSS_calc&utm_campaign=NIHSS_calc"
+        },
+        "OTHER": {
+          "abbreviation": "OTHER"
+        },
+        "Postgraduate Institute for Medicine": {
+          "abbreviation": "PIM",
+          "description": "plain-text",
+          "img": "https://cdn-web-img.mdcalc.com/PIM-circle-COLOR.jpeg",
+          "target": "pim",
+          "web_link": "https://www.pimed.com/"
+        },
+        "VACO Podcast": {
+          "description": "Listen to the VACO co-creators break down how to use VACO\\, what it does\\, and what it doesn’t.",
+          "img": "https://cdn-web-img.mdcalc.com/content/podcast 2.png",
+          "web_link": "https://www.stimuluspodcast.com/post/32-the-covid-mortality-score-vaco"
+        }
+      },
+      "validSections": [
+        "whenToUseViewed",
+        "pearlsPitfallsViewed",
+        "whyUseViewed",
+        "nextStepsViewed",
+        "evidenceViewed"
+      ]
+    }
+  },
+  "query": {
+    "slug": [
+      "10480",
+      "tenecteplase-dosing"
+    ]
+  },
+  "scriptLoader": []
+}

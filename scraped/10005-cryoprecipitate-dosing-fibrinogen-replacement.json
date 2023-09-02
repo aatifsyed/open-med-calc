@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -43,7 +43,7 @@
               ],
               "Other References": [
                 {
-                  "href": "http://www.aabb.org/tm/coi/Documents/coi1017.pdf",
+                  "href": "https://www.aabb.org/tm/coi/Documents/coi1017.pdf",
                   "text": "Circular of Information for the Use of Human Blood and Blood Components, version 10-2017"
                 }
               ],
@@ -64,7 +64,9 @@
           },
           "contributor": {
             "expert_name": [
-              "Christopher Tormey, MD"
+              "Caleb Cheng, MD",
+              "Christopher Tormey, MD",
+              "Ronald George Hauser, MD"
             ]
           },
           "creator": [
@@ -99,6 +101,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Bleeding/Hemorrhage",
           "Trauma"
@@ -112,6 +116,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "<calculator id='4065'>Plasma volume</calculator>",
             "name": "pv",
             "optional": false,
@@ -122,6 +128,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Initial fibrinogen",
             "name": "fibr_initial",
             "optional": false,
@@ -132,6 +140,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Goal fibrinogen",
             "name": "fibr_goal",
             "optional": false,
@@ -142,6 +152,8 @@
           {
             "conditionality": "",
             "default": 250,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Fibrinogen content of unit",
             "name": "fibr_unit",
             "optional": false,
@@ -151,6 +163,7 @@
           }
         ],
         "instructions_en": "",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -211,10 +224,12 @@
         ],
         "md5": "a0926bec90079053027ecc94b342e0a1",
         "medium_description_en": "<p>Estimates volume of cryoprecipitate recommended for fibrinogen replacement.</p>",
+        "publishedAt": "2022-04-21T20:28:02.549Z",
         "purpose_en": [
           "Calculation",
           "Treatment"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "Cryo",
           "Fibrinogen replacement"
@@ -224,7 +239,7 @@
           "keywords_en": "Cryoprecipitated, Antihemophilic Factor, AHF, Cryo, Fibrinogen Replacement",
           "meta_description_en": "The Cryoprecipitated Antihemophilic Factor Dosing for Fibrinogen Replacement estimates volume of cryoprecipitate recommended for fibrinogen replacement."
         },
-        "short_description_en": "Cryoprecipitate dosing.",
+        "short_description_en": "<p>Cryoprecipitate dosing.</p>",
         "short_title_en": "Cryo Dosing (Fibrinogen Replacement)",
         "slug": "cryoprecipitate-dosing-fibrinogen-replacement",
         "specialty_en": [
@@ -236,9 +251,28 @@
         ],
         "system_en": [
           "Hematologic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "2094921e-3faf-4706-bce1-9f628a3d985c"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Caleb",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Cheng",
+          "name": "Caleb Cheng, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",
@@ -253,6 +287,21 @@
           "status": null,
           "target": "",
           "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "<p>Ronald \\\"George\\\" Hauser, MD, is an assistant professor in laboratory medicine at Yale University School of Medicine who splits his time between clinical medicine and informatics research.  As an attending physician, he practices medicine at the interface between other clinicians and the clinical laboratories, which include Chemistry, Hematology, Microbiology, and the Blood Bank.  He also works along with medical residents, particularly at the Veterans Affairs Hospital in West Haven, Connecticut.  He practices clinical informatics for various projects affiliated at Yale University and the Veterans Health Administration (VHA) including the Recipient Epidemiology and Donor Evaluation Study (REDS; Yale, NIH) and the HIV, Hepatitis, and Related Conditions program (VHA).</p>",
+          "firstName": "Ronald",
+          "hasDisclosure": [],
+          "img": "george-hauser.jpg",
+          "lastName": "Hauser",
+          "name": "Ronald George Hauser, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": "Current",
+          "target": "george-hauser",
+          "updatedAt": "2023-04-06T20:18:56.600Z"
         }
       ],
       "creators": [

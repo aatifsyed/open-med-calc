@@ -1,5 +1,5 @@
 {
-  "buildId": "NSDuYoJl8cxdTqEyCvTi0",
+  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -69,6 +69,8 @@
           },
           "contributor": {
             "expert_name": [
+              "Alex Ryder, MD, PhD",
+              "Christopher Tormey, MD",
               "Ronald George Hauser, MD"
             ]
           },
@@ -104,6 +106,8 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Anemia",
           "Bleeding/Hemorrhage",
@@ -119,6 +123,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Pre-transfusion platelet count",
             "name": "plt_pre",
             "optional": false,
@@ -129,6 +135,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Post-transfusion platelet count",
             "name": "plt_post",
             "optional": false,
@@ -140,7 +148,9 @@
             "conditionality": "",
             "default": null,
             "label_en": "Time after transfusion",
+            "mdcalc_info_concept": null,
             "name": "time",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -159,6 +169,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Height",
             "name": "height",
             "optional": false,
@@ -169,6 +181,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Weight",
             "name": "weight",
             "optional": false,
@@ -179,6 +193,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Platelet unit content",
             "name": "plt_unit",
             "optional": false,
@@ -188,6 +204,7 @@
           }
         ],
         "instructions_en": "",
+        "isVisibleInListView": true,
         "logic_language": "javascript",
         "logs": [
           {
@@ -238,9 +255,11 @@
         ],
         "md5": "1b6e99dc23e594f892cd05b2d7dbe377",
         "medium_description_en": "<p>Assesses adequacy of response to platelet transfusion.</p>",
+        "publishedAt": "2022-04-21T20:29:38.684Z",
         "purpose_en": [
           "Calculation"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "CCI",
           "corrected count",
@@ -255,7 +274,7 @@
           "keywords_en": "cci, plt, platelet transfusion",
           "meta_description_en": "Corrected Count Increment (CCI) for Platelet Transfusion quantifies response to platelet transfusion."
         },
-        "short_description_en": "Platelet transfusion response.",
+        "short_description_en": "<p>Platelet transfusion response.</p>",
         "short_title_en": "Corrected Count Increment (CCI) ",
         "slug": "corrected-count-increment-cci-platelet-transfusion",
         "specialty_en": [
@@ -266,9 +285,43 @@
         ],
         "system_en": [
           "Hematologic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "0ccb6254-983e-485b-a3c6-7a60086e2d1e"
       },
       "contributors": [
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Alex",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Ryder",
+          "name": "Alex Ryder, MD, PhD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
+        {
+          "contributors_page": false,
+          "createdAt": "2021-12-22T21:20:30.365Z",
+          "description": "",
+          "firstName": "Christopher",
+          "hasDisclosure": [],
+          "img": "",
+          "lastName": "Tormey",
+          "name": "Christopher Tormey, MD",
+          "publishedAt": "2021-11-17T15:11:30.452Z",
+          "signedCOI": true,
+          "status": null,
+          "target": "",
+          "updatedAt": "2021-11-17T15:11:35.298Z"
+        },
         {
           "contributors_page": false,
           "createdAt": "2021-12-22T21:20:30.365Z",
