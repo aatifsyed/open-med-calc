@@ -4,6 +4,7 @@ pub(crate) mod deser;
 pub(crate) mod norm;
 pub(crate) mod render;
 
+pub use deser::InputSchema;
 pub use norm::NormalisedCalc;
 
 pub fn library() -> impl Iterator<Item = NormalisedCalc> {
