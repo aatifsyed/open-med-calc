@@ -1,10 +1,6 @@
-use std::{
-    collections::{HashMap, HashSet},
-    fmt::Display,
-    hash::Hash,
-};
+use std::{collections::HashMap, fmt::Display, hash::Hash};
 
-use anyhow::{bail, ensure, Context};
+use anyhow::{bail, ensure, Context as _};
 use either::Either;
 pub use ident::Ident;
 use itertools::Itertools as _;
@@ -88,7 +84,7 @@ mod ident {
 
 #[test]
 fn test() {
-    let (passed, failed) = crate::test::all()
+    let (passed, mut failed) = crate::test::all()
         .map(|root| root.props.page_props)
         .map(|it| {
             let slug = it.calc.slug.clone();
@@ -98,11 +94,12 @@ fn test() {
             }
         })
         .partition_result::<Vec<_>, Vec<_>, _, _>();
+    failed.sort_by_key(|(_, reason)| reason.to_string());
     println!("{} passed, {} failed", passed.len(), failed.len());
     if !failed.is_empty() {
         println!("failures:");
         for (test, reason) in failed {
-            println!("{test}\n\t{reason}")
+            println!("{test}\n\t{reason:#}")
         }
         panic!("failed");
     }
@@ -133,7 +130,7 @@ impl TryFrom<PageProps> for Form {
             measurements,
             ..
         } = value;
-        ensure!(unique(measurements.iter().map(|it| &it.name)));
+        ensure_unique(measurements.iter().map(|it| &it.unit))?;
         let measurements_by_unit = measurements
             .into_iter()
             .map(|it| (it.unit.clone(), it))
@@ -171,14 +168,17 @@ impl TryFrom<PageProps> for Form {
                     show_points,
                     tips_en,
                 } => {
-                    ensure!(unique(options.iter().map(|it| it.label.as_str())));
+                    ensure!(
+                        conditionality.is_none() || conditionality.is_some_and(|s| s.is_empty())
+                    );
                     let choices = options
                         .into_iter()
                         .map(|InputSchemaOption { label, value }| Choice {
                             description: label,
                             weight: value,
                         })
-                        .collect();
+                        .collect::<Vec<_>>();
+
                     Ok(Either::Right(Input {
                         ty: InputType::Choices { choices },
                         ident: name.parse()?,
@@ -210,7 +210,7 @@ impl TryFrom<PageProps> for Form {
                         error_min,
                         error_min_si,
                         error_min_us,
-                        name,
+                        name: measurement_name,
                         normal_max_si,
                         normal_max_us,
                         normal_min_si,
@@ -235,14 +235,13 @@ impl TryFrom<PageProps> for Form {
                             unit: NumberUnit {
                                 us: none_if_empty(units_us),
                                 si: none_if_empty(units_si),
-                                name: none_if_empty(name)
-                                    .context(format!("invalid name: {name}"))?,
+                                name: none_if_empty(measurement_name),
                                 id: none_if_empty(unit).context(format!("invalid unit: {unit}"))?,
                             },
                             max: error_max.clone(),
                             min: error_min.clone(),
                         },
-                        ident: unit.parse()?,
+                        ident: name.parse()?,
                     }))
                 }
                 Visual { visual } => {
@@ -265,6 +264,22 @@ impl TryFrom<PageProps> for Form {
         });
         ensure!(unique(input_idents));
         Ok(Self { slug, items })
+    }
+}
+
+fn ensure_unique<T: Eq + Hash + Display>(items: impl IntoIterator<Item = T>) -> anyhow::Result<()> {
+    let duplicate_keys = items
+        .into_iter()
+        .counts()
+        .into_iter()
+        .filter_map(|(k, count)| match count > 1 {
+            true => Some(k),
+            false => None,
+        })
+        .collect::<Vec<_>>();
+    match duplicate_keys.is_empty() {
+        true => Ok(()),
+        false => bail!("duplicate items: [{}]", duplicate_keys.iter().join(", ")),
     }
 }
 
@@ -293,7 +308,8 @@ pub struct Choice {
 
 pub struct NumberUnit {
     /// "Ethanol (ETOH)"
-    pub name: String,
+    /// "Length"
+    pub name: Option<String>,
     /// "etoh"
     pub id: String,
     /// "mg/dL"
@@ -313,12 +329,26 @@ pub enum Markup {
 }
 
 pub struct Input {
-    ty: InputType,
-    ident: Ident,
+    pub ty: InputType,
+    pub ident: Ident,
 }
 
 pub enum InputType {
     Choices {
+        /// Some forms repeat the descriptions:
+        /// ```text
+        /// - Good
+        /// - (More severe)
+        /// - (More severe)
+        /// - Bad
+        /// ```
+        ///
+        /// Some forms repeat the weights:
+        /// ```text
+        /// - 0kg-5kg (0)
+        /// - 5kg-10kg (0)
+        /// - 10kg-15kg (1)
+        /// ```
         choices: Vec<Choice>,
     },
     Number {
