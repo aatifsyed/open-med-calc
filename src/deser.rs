@@ -205,12 +205,19 @@ pub enum InputSchema {
     Dropdown {
         #[serde(skip_serializing_if = "Option::is_none")]
         conditionality: Option<String>,
+        // this is actuall always None
+        // but have as a field for destructuring
+        #[serde(skip_serializing_if = "Option::is_none")]
+        default: Option<Number>,
         label_en: String,
         name: String,
         optional: bool,
         options: Vec<InputSchemaOption>,
         show_points: bool,
-        tips_en: String,
+        // this is actuall always Some(...)
+        // but store as an option for destructuring
+        #[serde(skip_serializing_if = "Option::is_none")]
+        tips_en: Option<String>,
     },
     Radio {
         #[serde(skip_serializing_if = "Option::is_none")]
@@ -329,6 +336,9 @@ pub struct Tag {
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Calc {
     pub favorite_id: i64,
+    // "diagnostic_criteria": 89,
+    // "calculator": 496,
+    // "": 113,
     pub calc_type: String,
     pub dosing: bool,
     pub full_title_en: String,
@@ -568,11 +578,13 @@ mod tests {
     use std::collections::HashSet;
 
     use super::*;
+    use crate::test::*;
+
     use InputSchema::{Dropdown, Radio, Subheading, Textbox, Toggle, Visual};
 
     impl InputSchema {
         /// Non-empty ident, unique to all [`InputSchema`]s in a [`Calc`].
-        fn name(&self) -> Option<&str> {
+        pub fn name(&self) -> Option<&str> {
             match self {
                 Dropdown { name, .. }
                 | Radio { name, .. }
@@ -615,29 +627,6 @@ mod tests {
     }
 
     #[test]
-    fn not_all_measurement_units_are_idents() {
-        let units_which_are_not_idents = all()
-            .flat_map(|it| it.props.page_props.measurements)
-            .map(|it| it.unit)
-            .filter(|it| !is_ident(it))
-            .collect::<HashSet<_>>();
-        let expected = HashSet::from_iter(["units per day", "drip factor"].map(String::from));
-        pretty_assertions::assert_eq!(units_which_are_not_idents, expected);
-    }
-
-    #[test]
-    fn all_input_schema_names_are_idents() {
-        for name in all()
-            .flat_map(|it| it.props.page_props.calc.input_schema)
-            .filter_map(|it| it.name().map(ToOwned::to_owned))
-        {
-            if !is_ident(name.as_str()) {
-                panic!("{} is not an ident", name)
-            }
-        }
-    }
-
-    #[test]
     fn input_schema_names_are_unique_in_calcs() {
         for root in all() {
             let mut unique = HashSet::new();
@@ -655,15 +644,6 @@ mod tests {
                 }
             }
         }
-    }
-
-    fn all() -> impl Iterator<Item = Root> {
-        use include_dir::{include_dir, Dir};
-        static DIR: Dir<'static> = include_dir!("$CARGO_MANIFEST_DIR/scraped");
-        DIR.files()
-            .map(include_dir::File::contents)
-            .map(serde_json::from_slice::<Root>)
-            .map(Result::unwrap)
     }
 
     /// Check that we capture all the information
@@ -713,25 +693,5 @@ mod tests {
                     .collect(),
             ),
         }
-    }
-
-    /// `s` is:
-    /// - non-empty
-    /// - ascii
-    /// - a valid ident
-    fn is_ident(s: &str) -> bool {
-        if !s.is_ascii() || s.is_empty() {
-            return false;
-        };
-        for (ix, ch) in s.chars().enumerate() {
-            let is_ok = match ix {
-                0 => unicode_ident::is_xid_start(ch),
-                _ => unicode_ident::is_xid_continue(ch),
-            };
-            if !is_ok {
-                return false;
-            }
-        }
-        true
     }
 }
