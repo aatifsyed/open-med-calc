@@ -3,7 +3,7 @@ use boa_interner::ToIndentedString as _;
 use open_med_survey::InputSchema::*;
 
 fn main() -> anyhow::Result<()> {
-    for conditionality in open_med_survey::scraped()
+    for conditionality in open_med_survey::raw()
         .flat_map(|root| root.props.page_props.calc.input_schema)
         .filter_map(|it| match it {
             Dropdown { conditionality, .. }

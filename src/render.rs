@@ -6,7 +6,7 @@ use itertools::EitherOrBoth;
 
 impl From<NormalisedCalc> for Form {
     fn from(value: NormalisedCalc) -> Self {
-        let NormalisedCalc { slug: _, items } = value;
+        let NormalisedCalc { items, .. } = value;
         Form::builder()
             .unordered_list(|ul| {
                 for (item_ix, item) in itertools::enumerate(items) {
@@ -26,6 +26,7 @@ impl From<NormalisedCalc> for Form {
                             }
                         },
                         Either::Right(Input {
+                            conditionality: _todo,
                             title,
                             ty,
                             required,

@@ -609,7 +609,7 @@ mod tests {
                     ..
                 },
             ..
-        } in crate::scraped()
+        } in crate::raw()
         {
             let units_in_schema = input_schema
                 .iter()
@@ -628,7 +628,7 @@ mod tests {
 
     #[test]
     fn input_schema_names_are_unique_in_calcs() {
-        for root in crate::scraped() {
+        for root in crate::raw() {
             let mut unique = HashSet::new();
             for name in root
                 .props

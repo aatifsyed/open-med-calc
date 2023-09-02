@@ -7,14 +7,14 @@ pub(crate) mod render;
 pub use deser::InputSchema;
 pub use norm::NormalisedCalc;
 
-pub fn library() -> impl Iterator<Item = NormalisedCalc> {
-    scraped()
+pub fn normalised() -> impl Iterator<Item = NormalisedCalc> {
+    raw()
         .map(|root| root.props.page_props)
-        .map(NormalisedCalc::try_from)
+        .map(|it| NormalisedCalc::new(it, &mut boa_engine::Context::default()))
         .flat_map(Result::ok)
 }
 
-pub fn scraped() -> impl Iterator<Item = deser::Root> {
+pub fn raw() -> impl Iterator<Item = deser::Root> {
     use include_dir::{include_dir, Dir};
     static DIR: Dir<'static> = include_dir!("$CARGO_MANIFEST_DIR/scraped/calc");
     DIR.files()

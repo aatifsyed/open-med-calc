@@ -9,7 +9,7 @@ fn main() -> anyhow::Result<()> {
     println!("rendering to {}", target_dir.display());
     std::fs::remove_dir_all(target_dir)?;
     std::fs::create_dir_all(target_dir)?;
-    for n in open_med_survey::library() {
+    for n in open_med_survey::normalised() {
         println!("{}", n.slug);
         std::fs::write(
             target_dir.join(n.slug.as_str()).with_extension("html"),

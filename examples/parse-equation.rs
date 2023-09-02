@@ -7,7 +7,7 @@ fn main() -> anyhow::Result<()> {
     let directory = Path::new("target/open-med-calc/js");
     fs::remove_dir_all(directory)?;
     fs::create_dir_all(directory)?;
-    for root in open_med_survey::scraped() {
+    for root in open_med_survey::raw() {
         let calc = root.props.page_props.calc;
         println!("{}", calc.slug);
 

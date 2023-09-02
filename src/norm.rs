@@ -1,6 +1,6 @@
 use std::{collections::HashMap, fmt::Display, hash::Hash};
 
-use anyhow::{bail, ensure, Context as _};
+use anyhow::{anyhow, bail, ensure, Context as _};
 use either::Either;
 pub use ident::Ident;
 use itertools::{EitherOrBoth, Itertools as _};
@@ -8,7 +8,7 @@ use select::{document::Document, predicate::Name};
 use serde_json::Number;
 use url::Url;
 
-use crate::deser::{Calc, InputSchema, Measurement, PageProps};
+use crate::deser::{Calc, Measurement, PageProps};
 use crate::deser::{
     InputSchema::{Dropdown, Radio, Subheading, Textbox, Toggle, Visual},
     InputSchemaOption,
@@ -81,7 +81,7 @@ mod ident {
 
     #[test]
     fn all_input_schema_names_are_idents() {
-        crate::scraped()
+        crate::raw()
             .flat_map(|root| root.props.page_props.calc.input_schema)
             .flat_map(|it| it.name().map(|it| it.parse::<Ident>()))
             .collect::<Result<Vec<_>, _>>()
@@ -92,21 +92,22 @@ mod ident {
 pub struct NormalisedCalc {
     pub slug: String,
     pub items: Vec<Either<Markup, Input>>,
+    pub equation_logic: boa_engine::Script,
 }
 
-impl TryFrom<PageProps> for NormalisedCalc {
-    type Error = anyhow::Error;
-
-    fn try_from(value: PageProps) -> Result<Self, Self::Error> {
+impl NormalisedCalc {
+    pub fn new(page_props: PageProps, context: &mut boa_engine::Context) -> anyhow::Result<Self> {
         let PageProps {
-            calc: Calc {
-                slug, input_schema, ..
-            },
+            calc:
+                Calc {
+                    slug,
+                    input_schema,
+                    equation_logic_text,
+                    ..
+                },
             measurements,
             ..
-        } = value;
-
-        ensure!(is_unconditional(&input_schema));
+        } = page_props;
 
         ensure_unique(measurements.iter().map(|it| &it.unit))?;
         let measurements_by_unit = measurements
@@ -118,7 +119,7 @@ impl TryFrom<PageProps> for NormalisedCalc {
             .into_iter()
             .map(|it| match it {
                 Dropdown {
-                    conditionality: _checked,
+                    conditionality,
                     default,
                     label_en,
                     name,
@@ -128,7 +129,7 @@ impl TryFrom<PageProps> for NormalisedCalc {
                     tips_en,
                 }
                 | Radio {
-                    conditionality: _checked,
+                    conditionality,
                     default,
                     label_en,
                     name,
@@ -138,7 +139,7 @@ impl TryFrom<PageProps> for NormalisedCalc {
                     tips_en,
                 }
                 | Toggle {
-                    conditionality: _checked,
+                    conditionality,
                     default,
                     label_en,
                     name,
@@ -158,6 +159,9 @@ impl TryFrom<PageProps> for NormalisedCalc {
                     ensure!(!choices.is_empty());
 
                     Ok(Either::Right(Input {
+                        conditionality: conditionality
+                            .map(|it| parse_js(&it, context))
+                            .transpose()?,
                         title: label_en,
                         default,
                         required: !optional,
@@ -166,7 +170,7 @@ impl TryFrom<PageProps> for NormalisedCalc {
                     }))
                 }
                 Textbox {
-                    conditionality: _checked,
+                    conditionality,
                     default,
                     label_en,
                     name,
@@ -205,6 +209,9 @@ impl TryFrom<PageProps> for NormalisedCalc {
                         .context(format!("undefined unit: {unit}"))?;
 
                     Ok(Either::Right(Input {
+                        conditionality: conditionality
+                            .map(|it| parse_js(&it, context))
+                            .transpose()?,
                         title: label_en,
                         default,
                         required: !optional,
@@ -212,9 +219,7 @@ impl TryFrom<PageProps> for NormalisedCalc {
                             unit: NumberUnit {
                                 us_and_si_units: none_if_empty(units_us)
                                     .and_then(|us| none_if_empty(units_si).map(|si| (us, si))),
-                                name: none_if_empty(measurement_name).context(format!(
-                                    "invalid measurement name: {measurement_name}"
-                                ))?,
+                                name: measurement_name.clone(),
                                 id: none_if_empty(unit).context(format!("invalid unit: {unit}"))?,
                             },
                             max: error_max.clone(),
@@ -261,20 +266,22 @@ impl TryFrom<PageProps> for NormalisedCalc {
             _ => None,
         });
         ensure!(unique(input_idents));
-        Ok(Self { slug, items })
+        Ok(Self {
+            slug,
+            items,
+            equation_logic: {
+                if equation_logic_text.trim().is_empty() {
+                    bail!("no equation logic text")
+                };
+                parse_js(&equation_logic_text, context)?
+            },
+        })
     }
 }
 
-fn is_unconditional(input_schemas: &[InputSchema]) -> bool {
-    input_schemas.iter().all(|it| match it {
-        Dropdown { conditionality, .. }
-        | Radio { conditionality, .. }
-        | Textbox { conditionality, .. }
-        | Toggle { conditionality, .. } => {
-            conditionality.is_none() || conditionality.as_ref().is_some_and(|it| it.is_empty())
-        }
-        Visual { .. } | Subheading { .. } => true,
-    })
+fn parse_js(source: &str, context: &mut boa_engine::Context) -> anyhow::Result<boa_engine::Script> {
+    boa_engine::Script::parse(boa_engine::Source::from_bytes(source), None, context)
+        .map_err(|e| anyhow!("failed to parse javascript: {e}"))
 }
 
 fn ensure_unique<T: Eq + Hash + Display>(items: impl IntoIterator<Item = T>) -> anyhow::Result<()> {
@@ -321,6 +328,7 @@ pub struct Choice {
 pub struct NumberUnit {
     /// "Ethanol (ETOH)"
     /// "Length"
+    /// ""
     pub name: String,
     /// "etoh"
     pub id: String,
@@ -343,6 +351,7 @@ pub struct Input {
     /// markup like `<p>Age</p>`
     pub title: String,
     pub ty: InputType,
+    pub conditionality: Option<boa_engine::Script>,
     pub required: bool,
     pub default: Option<Number>,
     pub ident: Ident,
@@ -382,9 +391,9 @@ mod tests {
 
     #[test]
     fn num_choices() {
-        let histogram = crate::scraped()
+        let histogram = crate::raw()
             .map(|root| root.props.page_props)
-            .map(NormalisedCalc::try_from)
+            .map(|it| NormalisedCalc::new(it, &mut boa_engine::Context::default()))
             .filter_map(Result::ok)
             .flat_map(|form| form.items)
             .flat_map(Either::right)
@@ -397,76 +406,26 @@ mod tests {
     }
 
     #[test]
-    fn histogram_title_and_instructions() {
-        let histogram = crate::library()
-            .flat_map(|form| form.items)
-            .flat_map(Either::left)
-            .flat_map(|markup| match markup {
-                Markup::Subheading {
-                    title_and_instructions,
-                } => Some(title_and_instructions),
-                Markup::Image { .. } => None,
-            })
-            .map(|title_and_instructions| match title_and_instructions {
-                EitherOrBoth::Both(_, _) => "title and instructions",
-                EitherOrBoth::Left(_) => "title",
-                EitherOrBoth::Right(_) => "instructions",
-            })
-            .counts();
-        dbg!(histogram);
-    }
-
-    #[test]
-    #[should_panic = "popular calcs failed"]
-    fn normalise_popular() {
-        #[derive(serde::Deserialize)]
-        struct Calc {
-            id: i64,
-        }
-        let page_props_by_id = crate::scraped()
-            .map(|root| {
-                let page_props = root.props.page_props;
-                (page_props.calc.favorite_id, page_props)
-            })
-            .collect::<HashMap<_, _>>();
-
-        let (passed, failed) =
-            serde_json::from_str::<Vec<Calc>>(include_str!("../scraped/popular-calcs.json"))
-                .unwrap()
-                .into_iter()
-                .map(|Calc { id: popular_id }| &page_props_by_id[&popular_id])
-                .map(|it| NormalisedCalc::try_from(it.clone()).map_err(|_| it.calc.slug.clone()))
-                .partition_result::<Vec<_>, Vec<_>, _, _>();
-
-        println!("{} passed, {} failed", passed.len(), failed.len(),);
-        if !failed.is_empty() {
-            panic!("popular calcs failed:\n\t{}\n", failed.join("\n\t"));
-        }
-    }
-
-    #[test]
-    fn normalise_all_unconditional() {
-        let mut skipped = 0;
-        let (passed, failed) = crate::scraped()
+    fn normalise_all() {
+        let skip_slug = ["covid-19-inpatient-risk-calculator-circ"];
+        let (passed, failed) = crate::raw()
             .map(|root| root.props.page_props)
-            .filter(
-                |page_props| match is_unconditional(&page_props.calc.input_schema) {
-                    true => true,
-                    false => {
-                        skipped += 1;
-                        false
-                    }
-                },
-            )
-            .map(NormalisedCalc::try_from)
+            .filter(|it| !skip_slug.contains(&it.calc.slug.as_str()))
+            .map(|it| {
+                NormalisedCalc::new(it.clone(), &mut boa_engine::Context::default())
+                    .context(format!("failed to normalise {}", it.calc.slug))
+            })
             .partition_result::<Vec<_>, Vec<_>, _, _>();
         println!(
             "{} passed, {} failed ({} skipped)",
             passed.len(),
             failed.len(),
-            skipped
+            skip_slug.len()
         );
         if !failed.is_empty() {
+            for f in failed.iter() {
+                println!("{f:#}");
+            }
             panic!("{} failed", failed.len());
         }
     }
