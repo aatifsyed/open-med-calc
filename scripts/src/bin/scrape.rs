@@ -15,9 +15,15 @@ async fn main() -> anyhow::Result<()> {
 
     let directory = Path::new("./scraped");
 
-    tokio::fs::create_dir(directory).await?;
+    tokio::fs::remove_dir_all(directory).await?;
+    tokio::fs::create_dir_all(directory).await?;
 
     let root = get_next_js_payload::<Root>(client, "http://mdcalc.com").await?;
+    tokio::fs::write(
+        directory.join("popular-calcs.json"),
+        serde_json::to_string_pretty(&root.props.page_props.popular_calcs)?,
+    )
+    .await?;
     let all_calcs = root.props.page_props.all_calcs;
     println!("downloading {} pages...", all_calcs.len());
 
@@ -94,6 +100,7 @@ struct Props {
 #[serde(rename_all = "camelCase")]
 struct PageProps {
     all_calcs: Vec<Calc>,
+    popular_calcs: Vec<Calc>,
 }
 
 #[derive(Serialize, Deserialize)]
