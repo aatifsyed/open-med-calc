@@ -210,9 +210,11 @@ impl TryFrom<PageProps> for NormalisedCalc {
                         required: !optional,
                         ty: InputType::Number {
                             unit: NumberUnit {
-                                us: none_if_empty(units_us),
-                                si: none_if_empty(units_si),
-                                name: none_if_empty(measurement_name),
+                                us_and_si_units: none_if_empty(units_us)
+                                    .and_then(|us| none_if_empty(units_si).map(|si| (us, si))),
+                                name: none_if_empty(measurement_name).context(format!(
+                                    "invalid measurement name: {measurement_name}"
+                                ))?,
                                 id: none_if_empty(unit).context(format!("invalid unit: {unit}"))?,
                             },
                             max: error_max.clone(),
@@ -317,13 +319,11 @@ pub struct Choice {
 pub struct NumberUnit {
     /// "Ethanol (ETOH)"
     /// "Length"
-    pub name: Option<String>,
+    pub name: String,
     /// "etoh"
     pub id: String,
-    /// "mg/dL"
-    pub us: Option<String>,
-    /// "mmol/L"
-    pub si: Option<String>,
+    /// ("mg/dL", "mmol/L")
+    pub us_and_si_units: Option<(String, String)>,
 }
 
 pub enum Markup {
@@ -406,35 +406,6 @@ mod tests {
                 EitherOrBoth::Both(_, _) => "title and instructions",
                 EitherOrBoth::Left(_) => "title",
                 EitherOrBoth::Right(_) => "instructions",
-            })
-            .counts();
-        dbg!(histogram);
-    }
-
-    #[test]
-    fn histogram_units() {
-        let histogram = crate::library()
-            .flat_map(|form| form.items)
-            .flat_map(Either::right)
-            .flat_map(|input| match input.ty {
-                InputType::Choices { .. } => None,
-                InputType::Number {
-                    unit: NumberUnit { name, id, us, si },
-                    max,
-                    min,
-                } => {
-                    let comment = match (name, us, si) {
-                        (None, None, None) => "none",
-                        (None, None, Some(_)) => "si",
-                        (None, Some(_), None) => "us",
-                        (None, Some(_), Some(_)) => "us and si",
-                        (Some(_), None, None) => "name",
-                        (Some(_), None, Some(_)) => "name and si",
-                        (Some(_), Some(_), None) => "name and us",
-                        (Some(_), Some(_), Some(_)) => "name and us and si",
-                    };
-                    Some(comment)
-                }
             })
             .counts();
         dbg!(histogram);

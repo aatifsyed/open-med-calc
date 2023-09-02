@@ -9,7 +9,7 @@ impl From<NormalisedCalc> for Form {
         let NormalisedCalc { slug: _, items } = value;
         Form::builder()
             .unordered_list(|ul| {
-                for item in items {
+                for (item_ix, item) in itertools::enumerate(items) {
                     ul.list_item(|li| match item {
                         Either::Left(Markup::Image { url }) => {
                             li.image(|img| img.src(url.to_string()))
@@ -34,14 +34,14 @@ impl From<NormalisedCalc> for Form {
                         }) => match ty {
                             InputType::Choices { choices } => li.text(title).unordered_list(|ul| {
                                 for (
-                                    i,
+                                    choice_ix,
                                     Choice {
                                         description,
                                         weight,
                                     },
-                                ) in choices.into_iter().enumerate()
+                                ) in itertools::enumerate(choices)
                                 {
-                                    let choice_id = format!("{ident}_{i}");
+                                    let choice_id = format!("{ident}_{choice_ix}");
                                     ul.list_item(|li| {
                                         li.input(|input| {
                                             input
@@ -63,20 +63,24 @@ impl From<NormalisedCalc> for Form {
                                 ul
                             }),
                             InputType::Number {
-                                unit: NumberUnit { name, id, us, si },
+                                unit:
+                                    NumberUnit {
+                                        name,
+                                        id,
+                                        us_and_si_units,
+                                    },
                                 max,
                                 min,
                             } => li
-                                .text(title)
                                 .input(|input| {
                                     input
                                         .type_("number")
                                         .min(min.to_string())
                                         .max(max.to_string())
-                                        .id("TODO")
+                                        .id(item_ix.to_string())
                                         .required(required.to_string())
                                 })
-                                .label(|label| label.for_("TODO").text("TODO")),
+                                .label(|label| label.for_(item_ix.to_string()).text(name)),
                         },
                     });
                 }
