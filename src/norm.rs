@@ -3,12 +3,12 @@ use std::{collections::HashMap, fmt::Display, hash::Hash};
 use anyhow::{bail, ensure, Context as _};
 use either::Either;
 pub use ident::Ident;
-use itertools::Itertools as _;
+use itertools::{EitherOrBoth, Itertools as _};
 use select::{document::Document, predicate::Name};
 use serde_json::Number;
 use url::Url;
 
-use crate::deser::{Calc, Measurement, PageProps};
+use crate::deser::{Calc, InputSchema, Measurement, PageProps};
 use crate::deser::{
     InputSchema::{Dropdown, Radio, Subheading, Textbox, Toggle, Visual},
     InputSchemaOption,
@@ -17,7 +17,7 @@ use crate::deser::{
 mod ident {
     use std::{fmt, str::FromStr};
 
-    #[derive(Hash, Eq, PartialEq)]
+    #[derive(Hash, Eq, PartialEq, Clone)]
     pub struct Ident(String);
 
     #[derive(Debug, thiserror::Error)]
@@ -38,6 +38,13 @@ mod ident {
                 true => Ok(Self(value)),
                 false => Err(NotAnIdent),
             }
+        }
+    }
+
+    impl From<Ident> for String {
+        fn from(value: Ident) -> Self {
+            let Ident(s) = value;
+            s
         }
     }
 
@@ -74,7 +81,7 @@ mod ident {
 
     #[test]
     fn all_input_schema_names_are_idents() {
-        crate::test::all()
+        crate::scraped()
             .flat_map(|root| root.props.page_props.calc.input_schema)
             .flat_map(|it| it.name().map(|it| it.parse::<Ident>()))
             .collect::<Result<Vec<_>, _>>()
@@ -82,64 +89,36 @@ mod ident {
     }
 }
 
-#[test]
-fn test() {
-    let (passed, mut failed) = crate::test::all()
-        .map(|root| root.props.page_props)
-        .map(|it| {
-            let slug = it.calc.slug.clone();
-            match Form::try_from(it) {
-                Ok(_) => Ok(()),
-                Err(e) => Err((slug, e)),
-            }
-        })
-        .partition_result::<Vec<_>, Vec<_>, _, _>();
-    failed.sort_by_key(|(_, reason)| reason.to_string());
-    println!("{} passed, {} failed", passed.len(), failed.len());
-    if !failed.is_empty() {
-        println!("failures:");
-        for (test, reason) in failed {
-            println!("{test}\n\t{reason:#}")
-        }
-        panic!("failed");
-    }
-}
-
-pub struct Form {
+pub struct NormalisedCalc {
     pub slug: String,
     pub items: Vec<Either<Markup, Input>>,
 }
 
-impl TryFrom<PageProps> for Form {
+impl TryFrom<PageProps> for NormalisedCalc {
     type Error = anyhow::Error;
 
     fn try_from(value: PageProps) -> Result<Self, Self::Error> {
         let PageProps {
-            calc:
-                Calc {
-                    // full_title_en,
-                    // short_title_en,
-                    // medium_description_en,
-                    // short_description_en,
-                    // before_use,
-                    // instructions_en,
-                    slug,
-                    input_schema,
-                    ..
-                },
+            calc: Calc {
+                slug, input_schema, ..
+            },
             measurements,
             ..
         } = value;
+
+        ensure!(is_unconditional(&input_schema));
+
         ensure_unique(measurements.iter().map(|it| &it.unit))?;
         let measurements_by_unit = measurements
             .into_iter()
             .map(|it| (it.unit.clone(), it))
             .collect::<HashMap<_, _>>();
+
         let items = input_schema
             .into_iter()
             .map(|it| match it {
                 Dropdown {
-                    conditionality,
+                    conditionality: _checked,
                     default,
                     label_en,
                     name,
@@ -149,7 +128,7 @@ impl TryFrom<PageProps> for Form {
                     tips_en,
                 }
                 | Radio {
-                    conditionality,
+                    conditionality: _checked,
                     default,
                     label_en,
                     name,
@@ -159,7 +138,7 @@ impl TryFrom<PageProps> for Form {
                     tips_en,
                 }
                 | Toggle {
-                    conditionality,
+                    conditionality: _checked,
                     default,
                     label_en,
                     name,
@@ -168,9 +147,6 @@ impl TryFrom<PageProps> for Form {
                     show_points,
                     tips_en,
                 } => {
-                    ensure!(
-                        conditionality.is_none() || conditionality.is_some_and(|s| s.is_empty())
-                    );
                     let choices = options
                         .into_iter()
                         .map(|InputSchemaOption { label, value }| Choice {
@@ -179,20 +155,18 @@ impl TryFrom<PageProps> for Form {
                         })
                         .collect::<Vec<_>>();
 
+                    ensure!(!choices.is_empty());
+
                     Ok(Either::Right(Input {
+                        title: label_en,
+                        default,
+                        required: !optional,
                         ty: InputType::Choices { choices },
                         ident: name.parse()?,
                     }))
                 }
-                Subheading {
-                    subheading,
-                    subheading_instructions,
-                } => Ok(Either::Left(Markup::Subheading {
-                    title: subheading.as_deref().and_then(none_if_empty),
-                    description: subheading_instructions.as_deref().and_then(none_if_empty),
-                })),
                 Textbox {
-                    conditionality,
+                    conditionality: _checked,
                     default,
                     label_en,
                     name,
@@ -231,6 +205,9 @@ impl TryFrom<PageProps> for Form {
                         .context(format!("undefined unit: {unit}"))?;
 
                     Ok(Either::Right(Input {
+                        title: label_en,
+                        default,
+                        required: !optional,
                         ty: InputType::Number {
                             unit: NumberUnit {
                                 us: none_if_empty(units_us),
@@ -242,6 +219,25 @@ impl TryFrom<PageProps> for Form {
                             min: error_min.clone(),
                         },
                         ident: name.parse()?,
+                    }))
+                }
+                Subheading {
+                    subheading,
+                    subheading_instructions,
+                } => {
+                    let title_and_instructions = match (
+                        subheading.as_deref().and_then(none_if_empty),
+                        subheading_instructions.as_deref().and_then(none_if_empty),
+                    ) {
+                        (None, None) => bail!("subheading cannot be empty"),
+                        (None, Some(instructions)) => EitherOrBoth::Right(instructions),
+                        (Some(title), None) => EitherOrBoth::Left(title),
+                        (Some(title), Some(instructions)) => {
+                            EitherOrBoth::Both(title, instructions)
+                        }
+                    };
+                    Ok(Either::Left(Markup::Subheading {
+                        title_and_instructions,
                     }))
                 }
                 Visual { visual } => {
@@ -265,6 +261,18 @@ impl TryFrom<PageProps> for Form {
         ensure!(unique(input_idents));
         Ok(Self { slug, items })
     }
+}
+
+fn is_unconditional(input_schemas: &[InputSchema]) -> bool {
+    input_schemas.iter().all(|it| match it {
+        Dropdown { conditionality, .. }
+        | Radio { conditionality, .. }
+        | Textbox { conditionality, .. }
+        | Toggle { conditionality, .. } => {
+            conditionality.is_none() || conditionality.as_ref().is_some_and(|it| it.is_empty())
+        }
+        Visual { .. } | Subheading { .. } => true,
+    })
 }
 
 fn ensure_unique<T: Eq + Hash + Display>(items: impl IntoIterator<Item = T>) -> anyhow::Result<()> {
@@ -320,8 +328,7 @@ pub struct NumberUnit {
 
 pub enum Markup {
     Subheading {
-        title: Option<String>,
-        description: Option<String>,
+        title_and_instructions: EitherOrBoth<String, String>,
     },
     Image {
         url: Url,
@@ -329,7 +336,11 @@ pub enum Markup {
 }
 
 pub struct Input {
+    /// markup like `<p>Age</p>`
+    pub title: String,
     pub ty: InputType,
+    pub required: bool,
+    pub default: Option<Number>,
     pub ident: Ident,
 }
 
@@ -360,50 +371,79 @@ pub enum InputType {
 
 #[cfg(test)]
 mod tests {
+    use std::collections::BTreeMap;
+
     use super::*;
-    use crate::test::*;
-    use itertools::Itertools as _;
 
     #[test]
-    fn number_of_options_by_type() {
-        #[derive(Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
-        enum Type {
-            Dropdown,
-            Radio,
-            Toggle,
-        }
-        for ((ty, n_options), count) in all()
-            .flat_map(|root| root.props.page_props.calc.input_schema)
-            .filter_map(|it| match it {
-                Dropdown { options, .. } => Some((Type::Dropdown, options.len())),
-                Radio { options, .. } => Some((Type::Radio, options.len())),
-                Toggle { options, .. } => Some((Type::Toggle, options.len())),
-                Subheading { .. } | Textbox { .. } | Visual { .. } => None,
+    fn num_choices() {
+        let histogram = crate::scraped()
+            .map(|root| root.props.page_props)
+            .map(NormalisedCalc::try_from)
+            .filter_map(Result::ok)
+            .flat_map(|form| form.items)
+            .flat_map(Either::right)
+            .flat_map(|input| match input.ty {
+                InputType::Choices { choices } => Some(choices.len()),
+                InputType::Number { .. } => None,
             })
-            .counts()
-        {
-            println!("{ty:?} with {n_options}\t{count}")
-        }
-    }
-
-    #[test]
-    fn all_visual_ones() {
-        for visual in all()
-            .flat_map(|root| root.props.page_props.calc.input_schema)
-            .filter_map(|it| match it {
-                Visual { visual } => Some(visual),
-                _ => None,
-            })
-        {
-            println!("{visual}")
-        }
-    }
-
-    #[test]
-    fn calc_type() {
-        let counts = all()
-            .map(|root| root.props.page_props.calc.calc_type)
             .counts();
-        dbg!(counts);
+        dbg!(BTreeMap::from_iter(histogram));
+    }
+
+    #[test]
+    fn title_and_instructions() {
+        #[derive(Hash, PartialEq, Eq, Debug)]
+        enum TitleAndInstructions {
+            JustTitle,
+            JustInstructions,
+            Both,
+        }
+        let histogram = crate::scraped()
+            .map(|root| root.props.page_props)
+            .map(NormalisedCalc::try_from)
+            .filter_map(Result::ok)
+            .flat_map(|form| form.items)
+            .flat_map(Either::left)
+            .flat_map(|markup| match markup {
+                Markup::Subheading {
+                    title_and_instructions,
+                } => Some(title_and_instructions),
+                Markup::Image { .. } => None,
+            })
+            .map(|it| match it {
+                EitherOrBoth::Both(_, _) => TitleAndInstructions::Both,
+                EitherOrBoth::Left(_) => TitleAndInstructions::JustTitle,
+                EitherOrBoth::Right(_) => TitleAndInstructions::JustInstructions,
+            })
+            .counts();
+        dbg!(histogram);
+    }
+
+    #[test]
+    fn normalise_all_unconditional() {
+        let mut skipped = 0;
+        let (passed, failed) = crate::scraped()
+            .map(|root| root.props.page_props)
+            .filter(
+                |page_props| match is_unconditional(&page_props.calc.input_schema) {
+                    true => true,
+                    false => {
+                        skipped += 1;
+                        false
+                    }
+                },
+            )
+            .map(NormalisedCalc::try_from)
+            .partition_result::<Vec<_>, Vec<_>, _, _>();
+        println!(
+            "{} passed, {} failed ({} skipped)",
+            passed.len(),
+            failed.len(),
+            skipped
+        );
+        if !failed.is_empty() {
+            panic!("{} failed", failed.len());
+        }
     }
 }

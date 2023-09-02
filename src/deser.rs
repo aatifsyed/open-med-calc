@@ -232,11 +232,18 @@ pub enum InputSchema {
         #[serde(skip_serializing_if = "Option::is_none")]
         tips_en: Option<String>,
     },
-    Subheading {
+    Toggle {
         #[serde(skip_serializing_if = "Option::is_none")]
-        subheading: Option<String>,
+        conditionality: Option<String>,
         #[serde(skip_serializing_if = "Option::is_none")]
-        subheading_instructions: Option<String>,
+        default: Option<Number>,
+        label_en: String,
+        name: String,
+        optional: bool,
+        options: Vec<InputSchemaOption>,
+        show_points: bool,
+        #[serde(skip_serializing_if = "Option::is_none")]
+        tips_en: Option<String>,
     },
     Textbox {
         #[serde(skip_serializing_if = "Option::is_none")]
@@ -252,21 +259,14 @@ pub enum InputSchema {
         tips_en: Option<String>,
         unit: String,
     },
-    Toggle {
-        #[serde(skip_serializing_if = "Option::is_none")]
-        conditionality: Option<String>,
-        #[serde(skip_serializing_if = "Option::is_none")]
-        default: Option<Number>,
-        label_en: String,
-        name: String,
-        optional: bool,
-        options: Vec<InputSchemaOption>,
-        show_points: bool,
-        #[serde(skip_serializing_if = "Option::is_none")]
-        tips_en: Option<String>,
-    },
     Visual {
         visual: String,
+    },
+    Subheading {
+        #[serde(skip_serializing_if = "Option::is_none")]
+        subheading: Option<String>,
+        #[serde(skip_serializing_if = "Option::is_none")]
+        subheading_instructions: Option<String>,
     },
 }
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -578,7 +578,6 @@ mod tests {
     use std::collections::HashSet;
 
     use super::*;
-    use crate::test::*;
 
     use InputSchema::{Dropdown, Radio, Subheading, Textbox, Toggle, Visual};
 
@@ -609,7 +608,7 @@ mod tests {
                     ..
                 },
             ..
-        } in all()
+        } in crate::scraped()
         {
             let units_in_schema = input_schema
                 .iter()
@@ -628,7 +627,7 @@ mod tests {
 
     #[test]
     fn input_schema_names_are_unique_in_calcs() {
-        for root in all() {
+        for root in crate::scraped() {
             let mut unique = HashSet::new();
             for name in root
                 .props
