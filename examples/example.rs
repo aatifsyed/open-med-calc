@@ -3,7 +3,7 @@
 use std::fmt;
 use std::path::Path;
 
-#[path = "../src/model.rs"]
+#[path = "../src/deser.rs"]
 mod model;
 
 use model::InputSchema::{self, Dropdown, Radio, Subheading, Textbox, Toggle, Visual};
