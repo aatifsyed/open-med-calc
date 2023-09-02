@@ -412,6 +412,34 @@ mod tests {
     }
 
     #[test]
+    #[should_panic = "popular calcs failed"]
+    fn normalise_popular() {
+        #[derive(serde::Deserialize)]
+        struct Calc {
+            id: i64,
+        }
+        let page_props_by_id = crate::scraped()
+            .map(|root| {
+                let page_props = root.props.page_props;
+                (page_props.calc.favorite_id, page_props)
+            })
+            .collect::<HashMap<_, _>>();
+
+        let (passed, failed) =
+            serde_json::from_str::<Vec<Calc>>(include_str!("../scraped/popular-calcs.json"))
+                .unwrap()
+                .into_iter()
+                .map(|Calc { id: popular_id }| &page_props_by_id[&popular_id])
+                .map(|it| NormalisedCalc::try_from(it.clone()).map_err(|_| it.calc.slug.clone()))
+                .partition_result::<Vec<_>, Vec<_>, _, _>();
+
+        println!("{} passed, {} failed", passed.len(), failed.len(),);
+        if !failed.is_empty() {
+            panic!("popular calcs failed:\n\t{}\n", failed.join("\n\t"));
+        }
+    }
+
+    #[test]
     fn normalise_all_unconditional() {
         let mut skipped = 0;
         let (passed, failed) = crate::scraped()
