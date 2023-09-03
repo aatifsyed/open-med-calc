@@ -1,3 +1,4 @@
+use std::fmt;
 use std::{collections::HashMap, fmt::Display, hash::Hash};
 
 use anyhow::{anyhow, bail, ensure, Context as _};
@@ -89,14 +90,37 @@ mod ident {
     }
 }
 
+pub struct ParsedJavaScript {
+    pub interner: boa_interner::Interner,
+    pub script: boa_ast::Script,
+}
+
+impl fmt::Display for ParsedJavaScript {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        use boa_interner::ToIndentedString as _;
+        f.write_str(self.script.to_indented_string(&self.interner, 0).as_str())
+    }
+}
+
+impl ParsedJavaScript {
+    pub fn new(source: &str) -> anyhow::Result<Self> {
+        let mut interner = boa_interner::Interner::new();
+        let script = boa_parser::Parser::new(boa_engine::Source::from_bytes(source))
+            .parse_script(&mut interner)
+            .map_err(|e| anyhow!("{e}").context("couldn't parse javascript"))?;
+        Ok(Self { interner, script })
+    }
+}
+
 pub struct NormalisedCalc {
     pub slug: String,
     pub items: Vec<Either<Markup, Input>>,
-    pub equation_logic: boa_engine::Script,
+    pub equation_logic: ParsedJavaScript,
 }
 
-impl NormalisedCalc {
-    pub fn new(page_props: PageProps, context: &mut boa_engine::Context) -> anyhow::Result<Self> {
+impl TryFrom<PageProps> for NormalisedCalc {
+    type Error = anyhow::Error;
+    fn try_from(page_props: PageProps) -> anyhow::Result<Self> {
         let PageProps {
             calc:
                 Calc {
@@ -160,7 +184,8 @@ impl NormalisedCalc {
 
                     Ok(Either::Right(Input {
                         conditionality: conditionality
-                            .map(|it| parse_js(&it, context))
+                            .as_deref()
+                            .map(ParsedJavaScript::new)
                             .transpose()?,
                         title: label_en,
                         default,
@@ -210,7 +235,8 @@ impl NormalisedCalc {
 
                     Ok(Either::Right(Input {
                         conditionality: conditionality
-                            .map(|it| parse_js(&it, context))
+                            .as_deref()
+                            .map(ParsedJavaScript::new)
                             .transpose()?,
                         title: label_en,
                         default,
@@ -273,15 +299,10 @@ impl NormalisedCalc {
                 if equation_logic_text.trim().is_empty() {
                     bail!("no equation logic text")
                 };
-                parse_js(&equation_logic_text, context)?
+                ParsedJavaScript::new(&equation_logic_text)?
             },
         })
     }
-}
-
-fn parse_js(source: &str, context: &mut boa_engine::Context) -> anyhow::Result<boa_engine::Script> {
-    boa_engine::Script::parse(boa_engine::Source::from_bytes(source), None, context)
-        .map_err(|e| anyhow!("failed to parse javascript: {e}"))
 }
 
 fn ensure_unique<T: Eq + Hash + Display>(items: impl IntoIterator<Item = T>) -> anyhow::Result<()> {
@@ -346,12 +367,11 @@ pub enum Markup {
     },
 }
 
-#[derive(Clone)]
 pub struct Input {
     /// markup like `<p>Age</p>`
     pub title: String,
     pub ty: InputType,
-    pub conditionality: Option<boa_engine::Script>,
+    pub conditionality: Option<ParsedJavaScript>,
     pub required: bool,
     pub default: Option<Number>,
     pub ident: Ident,
@@ -393,7 +413,7 @@ mod tests {
     fn num_choices() {
         let histogram = crate::raw()
             .map(|root| root.props.page_props)
-            .map(|it| NormalisedCalc::new(it, &mut boa_engine::Context::default()))
+            .map(NormalisedCalc::try_from)
             .filter_map(Result::ok)
             .flat_map(|form| form.items)
             .flat_map(Either::right)
@@ -412,7 +432,7 @@ mod tests {
             .map(|root| root.props.page_props)
             .filter(|it| !skip_slug.contains(&it.calc.slug.as_str()))
             .map(|it| {
-                NormalisedCalc::new(it.clone(), &mut boa_engine::Context::default())
+                NormalisedCalc::try_from(it.clone())
                     .context(format!("failed to normalise {}", it.calc.slug))
             })
             .partition_result::<Vec<_>, Vec<_>, _, _>();
@@ -424,7 +444,7 @@ mod tests {
         );
         if !failed.is_empty() {
             for f in failed.iter() {
-                println!("{f:#}");
+                println!("{f:#}\n");
             }
             panic!("{} failed", failed.len());
         }

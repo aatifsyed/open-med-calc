@@ -18,16 +18,13 @@ itertools = "0.11.0"
 include_dir = "0.7.3"
 html = "0.6.1"
 boa_engine = "0.17.0"
-rslint_parser = "0.3.1"
-deno_core = "0.208.0"
-deno_ast = "0.29.0"
+boa_ast = "0.17.0"
+boa_parser = "0.17.0"
+boa_interner = "0.17.0"
 
 [workspace]
 members = ["scripts"]
 
 [dev-dependencies]
-boa_ast = "0.17.0"
-boa_interner = "0.17.0"
-boa_parser = "0.17.0"
 pretty_assertions = "1.4.0"
 serde_path_to_error = "0.1.14"

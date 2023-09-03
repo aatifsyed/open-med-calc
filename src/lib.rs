@@ -10,7 +10,7 @@ pub use norm::NormalisedCalc;
 pub fn normalised() -> impl Iterator<Item = NormalisedCalc> {
     raw()
         .map(|root| root.props.page_props)
-        .map(|it| NormalisedCalc::new(it, &mut boa_engine::Context::default()))
+        .map(NormalisedCalc::try_from)
         .flat_map(Result::ok)
 }
 
