@@ -91,8 +91,15 @@ mod ident {
 }
 
 pub struct ParsedJavaScript {
-    pub interner: boa_interner::Interner,
-    pub script: boa_ast::Script,
+    interner: boa_interner::Interner,
+    script: boa_ast::Script,
+    source: String,
+}
+
+impl Clone for ParsedJavaScript {
+    fn clone(&self) -> Self {
+        Self::new(&self.source).expect("it worked once!")
+    }
 }
 
 impl fmt::Display for ParsedJavaScript {
@@ -108,7 +115,26 @@ impl ParsedJavaScript {
         let script = boa_parser::Parser::new(boa_engine::Source::from_bytes(source))
             .parse_script(&mut interner)
             .map_err(|e| anyhow!("{e}").context("couldn't parse javascript"))?;
-        Ok(Self { interner, script })
+        Ok(Self {
+            interner,
+            script,
+            source: String::from(source),
+        })
+    }
+    pub fn into_parts(self) -> (boa_interner::Interner, boa_ast::Script, String) {
+        let Self {
+            interner,
+            script,
+            source,
+        } = self;
+        (interner, script, source)
+    }
+    pub fn evaluate(&self) -> boa_engine::JsResult<()> {
+        let Self {
+            interner, script, ..
+        } = self.clone();
+        let mut context = boa_engine::Context::builder().interner(interner).build()?;
+        todo!()
     }
 }
 

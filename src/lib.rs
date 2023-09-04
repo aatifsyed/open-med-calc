@@ -1,5 +1,6 @@
 #![recursion_limit = "1000000"]
 
+pub(crate) mod boa_unassigned_vars;
 pub(crate) mod deser;
 pub(crate) mod norm;
 pub(crate) mod render;
