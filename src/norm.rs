@@ -18,7 +18,7 @@ use crate::deser::{
 mod ident {
     use std::{fmt, str::FromStr};
 
-    #[derive(Hash, Eq, PartialEq, Clone)]
+    #[derive(Debug, Hash, Eq, PartialEq, Clone)]
     pub struct Ident(String);
 
     #[derive(Debug, thiserror::Error)]
@@ -90,11 +90,14 @@ mod ident {
     }
 }
 
+#[derive(Debug)]
 pub struct ParsedJavaScript {
     interner: boa_interner::Interner,
     script: boa_ast::Script,
     source: String,
 }
+
+unsafe impl Send for ParsedJavaScript {}
 
 impl Clone for ParsedJavaScript {
     fn clone(&self) -> Self {
@@ -138,6 +141,7 @@ impl ParsedJavaScript {
     }
 }
 
+#[derive(Debug, Clone)]
 pub struct NormalisedCalc {
     pub slug: String,
     pub items: Vec<Either<Markup, Input>>,
@@ -365,13 +369,13 @@ fn none_if_empty(s: &str) -> Option<String> {
     }
 }
 
-#[derive(Clone)]
+#[derive(Debug, Clone)]
 pub struct Choice {
     pub description: String,
     pub weight: Number,
 }
 
-#[derive(Clone)]
+#[derive(Debug, Clone)]
 pub struct NumberUnit {
     /// "Ethanol (ETOH)"
     /// "Length"
@@ -383,7 +387,7 @@ pub struct NumberUnit {
     pub us_and_si_units: Option<(String, String)>,
 }
 
-#[derive(Clone)]
+#[derive(Debug, Clone)]
 pub enum Markup {
     Subheading {
         title_and_instructions: EitherOrBoth<String, String>,
@@ -393,6 +397,7 @@ pub enum Markup {
     },
 }
 
+#[derive(Clone, Debug)]
 pub struct Input {
     /// markup like `<p>Age</p>`
     pub title: String,
@@ -403,7 +408,7 @@ pub struct Input {
     pub ident: Ident,
 }
 
-#[derive(Clone)]
+#[derive(Clone, Debug)]
 pub enum InputType {
     Choices {
         /// Some forms repeat the descriptions:

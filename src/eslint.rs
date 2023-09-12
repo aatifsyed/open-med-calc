@@ -12,7 +12,9 @@ pub fn undefined_vars(source: &str) -> anyhow::Result<HashSet<String>> {
             "--stdin",
             "--exit-on-fatal-error",
             "--format=json",
-            r#"--rule={ "no-undef": ["error"] }"#,
+            r#"--parser-options={ "ecmaVersion": 6 }"#, // allow `const a = ...;`
+            r#"--rule={ "no-undef":             ["error"] }"#, // var x = y;
+            r#"--rule={ "no-use-before-define": ["error"] }"#, // var x = parseFloat(x);
         ])
         .stdin(Stdio::piped())
         .stderr(Stdio::piped())
@@ -32,7 +34,28 @@ pub fn undefined_vars(source: &str) -> anyhow::Result<HashSet<String>> {
             let linted_files = serde_json::from_slice::<Vec<LintedFile>>(&output.stdout)
                 .context("couldn't parse elsint output")?;
             assert_eq!(linted_files.len(), 1);
-            Ok(linted_files[0].undefined_vars())
+            let mut vars = HashSet::new();
+            for LintMessage { rule_id, message } in &linted_files[0].messages {
+                let var_name = match rule_id.as_str() {
+                    "no-undef" => {
+                        let (_all, var_name) =
+                            lazy_regex::regex_captures!(r"'(.*)' is not defined.", message)
+                                .expect("message for this lint should be stable");
+                        var_name
+                    }
+                    "no-use-before-define" => {
+                        let (_all, var_name) = lazy_regex::regex_captures!(
+                            r"'(.*)' was used before it was defined.",
+                            message
+                        )
+                        .expect("message for this lint should be stable");
+                        var_name
+                    }
+                    other => panic!("unexpected rule id: {other}"),
+                };
+                vars.insert(String::from(var_name));
+            }
+            Ok(vars)
         }
         Some(2) | None => {
             let message = String::from_utf8_lossy(&output.stderr).into_owned();
@@ -63,48 +86,40 @@ struct LintMessage {
     message: String,
 }
 
-impl LintedFile {
-    fn undefined_vars(&self) -> HashSet<String> {
-        self.messages
-            .iter()
-            .filter(|it| it.rule_id == "no-undef")
-            .map(|it| {
-                let (_all, var_name) =
-                    lazy_regex::regex_captures!(r"'(.*)' is not defined.", &it.message)
-                        .expect("message for this lint should be stable");
-                String::from(var_name)
-            })
-            .collect()
-    }
-}
-
 #[test]
 fn test() {
-    for root in crate::normalised() {
-        let source = root.equation_logic.into_parts().2;
+    use rayon::prelude::*;
+    crate::normalised().par_bridge().for_each(|it| {
+        let source = it.equation_logic.into_parts().2;
         let vars_required_in_script = undefined_vars(&source).unwrap();
-        let vars_defined_in_schema = root
+        let vars_defined_in_schema = it
             .items
             .into_iter()
             .filter_map(Either::right)
             .map(|it| String::from(it.ident))
             .collect::<HashSet<String>>();
 
-        println!("{}", root.slug);
-        println!("\tvars_required_in_script: {:?}", vars_required_in_script);
-        println!("\tvars_defined_in_schema: {:?}", vars_defined_in_schema);
-        // println!("{}", root.slug);
-        // println!(
-        //     "\tsatisfied: {:?}",
-        //     vars_required_in_script.intersection(&vars_defined_in_input)
-        // );
-        // println!(
-        //     "\tundefined: {:?}",
-        //     vars_required_in_script.difference(&vars_defined_in_input)
-        // );
-        // println!(
-        //     "\tspare: {:?}",
-        //     vars_defined_in_input.difference(&vars_required_in_script)
-        // )
-    }
+        let _satisfied = vars_required_in_script.intersection(&vars_defined_in_schema);
+        let undefined = vars_required_in_script
+            .difference(&vars_defined_in_schema)
+            .filter(|it| {
+                !matches!(
+                    it.as_str(),
+                    "UOMSYSTEM" | "webLanguage" | "mini_msg" | "msg" | "calc_output"
+                )
+            })
+            .collect::<Vec<_>>();
+        let _spare = vars_defined_in_schema
+            .difference(&vars_required_in_script)
+            .collect::<Vec<_>>();
+
+        let slug = it.slug;
+
+        if !undefined.is_empty() {
+            println!("{slug}: undefined: {undefined:?}")
+        }
+        // if !spare.is_empty() {
+        //     println!("{slug}:     spare: {spare:?}")
+        // }
+    });
 }
