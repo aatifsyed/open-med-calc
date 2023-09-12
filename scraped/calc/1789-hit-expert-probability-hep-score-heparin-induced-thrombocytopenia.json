@@ -1,5 +1,5 @@
 {
-  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
+  "buildId": "5lGULuFSFhUrfWgBpMJq_",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -21,13 +21,13 @@
           "about": {
             "evidence_based_medicine_en": "<p>In 50 suspected HIT patients, a literature review and expert-derived criteria of eight clinical features potentially important in the diagnosis of HIT were retrospectively applied in order to derive a HIT Expert Probability score for each patient. This score was then compared to a diagnosis of HIT by an expert panel of HIT experts. Using a cut-off of 2, the HEP score was 100% sensitive and 60% specific for the diagnosis of HIT. A cut-off of 5 yielded a sensitivity/specificity of 86%/88%, though its utility as a clinical decision tool is lessened with this cut-off. Both the HEP score and the <calculator id=\"1787\">4Ts for HIT score</calculator> had 100% sensitivity, but the HEP score had a higher specificity (60% vs 44%). A subsequent small validation study involving 47 patients with suspect HIT using a HEP score cut-off of 2 had a sensitivity of just 70% with a specificity of 51.4% and accuracy of 55.3%. A HEP score cut-off of -3 would be needed to yield a sensitivity of 100% as in the derivation study, but would also cause a fall in specificity to 2.7%.</p>",
             "formula_en": "<p>Addition of the selected points, see below:</p>",
-            "more_info_en": "<div class=\"table-responsive\"> <table class=\"table table-bordered table-hover\"> <tbody> <tr> <th>Criteria</th> <th>Value</th> <th>Points</th> </tr> <tr> <th rowspan=\"3\">Magnitude of fall in platelet count (peak platelet count to nadir since heparin)</th> <td>a) &lt;30%</td> <td>-1</td> </tr> <tr> <td>b) 30-50%</td> <td>+1</td> </tr> <tr> <td>c) &gt;50%</td> <td>+3</td> </tr> <tr> <th rowspan=\"5\">Timing of fall in platelet count<br> For patients in whom typical onset HIT is suspected</th> <td>a) Fall begins &lt;4 days after heparin exposure</td> <td>-2</td> </tr> <tr> <td>b) Fall begins 4 days after heparin exposure</td> <td>+2</td> </tr> <tr> <td>c) Fall begins 5-10 days after heparin exposure</td> <td>+3</td> </tr> <tr> <td>d) Fall begins 11-14 days after heparin exposure</td> <td>+2</td> </tr> <tr> <td>e) Fall begins &gt;14 days after heparin exposure</td> <td>-1</td> </tr> <tr> <th rowspan=\"3\">For patients with prior heparin exposure (last 100 days)<br> (rapid onset HIT is suspected)</th> <td>a) Fall begins &lt;4 days after heparin exposure</td> <td>-2</td> </tr> <tr> <td>f) Fall begins &lt;48 hours after heparin re-exposure</td> <td>+2</td> </tr> <tr> <td>g) Fall begins &gt;48 hours after heparin re-exposure</td> <td>-1</td> </tr> <tr> <th rowspan=\"2\">Nadir platelet count</th> <td>a) ≤20 x 10<sup>9</sup>/L</td> <td>-2</td> </tr> <tr> <td>b) &gt;20 x 10<sup>9</sup>/L</td> <td>+2</td> </tr> <tr> <th rowspan=\"2\">Thrombosis For patients in whom typical onset HIT is suspected</th> <td>a) New VTE or ATE ≥4 days after heparin exposure</td> <td>3</td> </tr> <tr> <td>b) Progression of pre-existing VTE or ATE while receiving heparin</td> <td>2</td> </tr> <tr> <th rowspan=\"2\">Thrombosis for patients with prior heparin exposure (last 100 days) and rapid onset HIT is suspected</th> <td>New VTE or ATE after heparin exposure</td> <td>+3</td> </tr> <tr> <td>Progression of pre-existing VTE or ATE while receiving heparin</td> <td>+2</td> </tr> <tr> <td colspan=\"2\">a) Skin necrosis at subcutaneous heparin injection sites</td> <td>+3</td> </tr> <tr> <td colspan=\"2\">b) Acute systemic reaction after intravenous heparin bolus</td> <td>+2</td> </tr> <tr> <td colspan=\"2\">c) Severe DIC (fibrinogen &lt;100 mg/dL and D-dimer &gt;5.0 ug/mL</td> <td>-2</td> </tr> <tr> <td colspan=\"2\">d) Indwelling intra-arterial device (e.g. IABP, VAD, ECMO)</td> <td>-2</td> </tr> <tr> <td colspan=\"2\">e) Cardiopulmonary bypass within previous 96 h</td> <td>-1</td> </tr> <tr> <td colspan=\"2\">f) No other apparent cause</td> <td>+3</td> </tr> </tbody> </table> </div>",
+            "more_info_en": "<div class=\"table-responsive\">\n<table class=\"table table-bordered table-hover\">\n<tbody>\n<tr>\n<th>Criteria</th>\n<th>Value</th>\n<th>Points</th>\n</tr>\n<tr>\n<th rowspan=\"3\">Magnitude of fall in platelet count (peak platelet count to nadir since heparin)</th>\n<td>a) &lt;30%</td>\n<td>-1</td>\n</tr>\n<tr>\n<td>b) 30-50%</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>c) &gt;50%</td>\n<td>+3</td>\n</tr>\n<tr>\n<th rowspan=\"5\">Timing of fall in platelet count<br>For patients in whom typical onset HIT is suspected</th>\n<td>a) Fall begins &lt;4 days after heparin exposure</td>\n<td>-2</td>\n</tr>\n<tr>\n<td>b) Fall begins 4 days after heparin exposure</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>c) Fall begins 5-10 days after heparin exposure</td>\n<td>+3</td>\n</tr>\n<tr>\n<td>d) Fall begins 11-14 days after heparin exposure</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>e) Fall begins &gt;14 days after heparin exposure</td>\n<td>-1</td>\n</tr>\n<tr>\n<th rowspan=\"3\">For patients with prior heparin exposure (last 100 days)<br>(rapid onset HIT is suspected)</th>\n<td>a) Fall begins &lt;4 days after heparin exposure</td>\n<td>-2</td>\n</tr>\n<tr>\n<td>f) Fall begins &lt;48 hours after heparin re-exposure</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>g) Fall begins &gt;48 hours after heparin re-exposure</td>\n<td>-1</td>\n</tr>\n<tr>\n<th rowspan=\"2\">Nadir platelet count</th>\n<td>a) &le;20 x 10<sup>9</sup>/L</td>\n<td>-2</td>\n</tr>\n<tr>\n<td>b) &gt;20 x 10<sup>9</sup>/L</td>\n<td>+2</td>\n</tr>\n<tr>\n<th rowspan=\"2\">Thrombosis For patients in whom typical onset HIT is suspected</th>\n<td>a) New VTE or ATE &ge;4 days after heparin exposure</td>\n<td>3</td>\n</tr>\n<tr>\n<td>b) Progression of pre-existing VTE or ATE while receiving heparin</td>\n<td>2</td>\n</tr>\n<tr>\n<th rowspan=\"2\">Thrombosis for patients with prior heparin exposure (last 100 days) and rapid onset HIT is suspected</th>\n<td>New VTE or ATE after heparin exposure</td>\n<td>+3</td>\n</tr>\n<tr>\n<td>Progression of pre-existing VTE or ATE while receiving heparin</td>\n<td>+2</td>\n</tr>\n<tr>\n<td colspan=\"2\">a) Skin necrosis at subcutaneous heparin injection sites</td>\n<td>+3</td>\n</tr>\n<tr>\n<td colspan=\"2\">b) Acute systemic reaction after intravenous heparin bolus</td>\n<td>+2</td>\n</tr>\n<tr>\n<td colspan=\"2\">c) Severe DIC (fibrinogen &lt;100 mg/dL and D-dimer &gt;5.0 ug/mL</td>\n<td>-2</td>\n</tr>\n<tr>\n<td colspan=\"2\">d) Indwelling intra-arterial device (e.g. IABP, VAD, ECMO)</td>\n<td>-2</td>\n</tr>\n<tr>\n<td colspan=\"2\">e) Cardiopulmonary bypass within previous 96 h</td>\n<td>-1</td>\n</tr>\n<tr>\n<td colspan=\"2\">f) No other apparent cause</td>\n<td>+3</td>\n</tr>\n</tbody>\n</table>\n</div>",
             "references_list": {
               "Clinical Practice Guidelines": [],
               "Manufacturer Website": [],
               "Original/Primary Reference": [
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/20854372",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/20854372",
                   "text": "Cuker A, Arepally G, Crowther MA, Rice L, Datko F, Hook K, Propert KJ, Kuter DJ, Ortel TL, Konkle BA, Cines DB. The HIT Expert Probability (HEP) Score: a novel pre-test probability model for heparin-induced thrombocytopenia based on broad expert opinion. J Thromb Haemost 2010; 8: 2642–50."
                 }
               ],
@@ -35,7 +35,7 @@
               "Outcomes": [],
               "Validation": [
                 {
-                  "href": "http://www.researchgate.net/publication/260794720_External_Validation_Of_The_HIT_Expert_Probability_(HEP)_Score_a_Novel_Pre-Test_Probability_Model_For_Heparin-Induced_Thrombocytopenia_Based_On_Broad_Expert_Opinion",
+                  "href": "https://www.researchgate.net/publication/260794720_External_Validation_Of_The_HIT_Expert_Probability_(HEP)_Score_a_Novel_Pre-Test_Probability_Model_For_Heparin-Induced_Thrombocytopenia_Based_On_Broad_Expert_Opinion",
                   "text": "Lee Joseph, Gomes MPV, Al Solaiman F, St John J, Ozaki A, Raju M, Dhariwal M, Kim ESH. External Validation Of The HIT Expert Probability (HEP) Score, a Novel Pre-Test Probability Model For Heparin-Induced Thrombocytopenia Based On Broad Expert Opinion. Blood (Impact Factor: 9.06). 12/2013; 122(21):1699."
                 }
               ],
@@ -55,13 +55,13 @@
             }
           ],
           "how_to_use": {
-            "pearls_pitfalls_en": "<p>The HIT Expert Probability (HEP) Score is a tool developed based on broad expert opinion to help clinicians rule out HIT.</p> <ul> <li>Eight clinical features potentially important in the diagnosis of HIT identified via literature review were incorporated into a questionnaire and distributed to independent HIT experts that regularly diagnose and treat HIT.</li> <li>Clinicians then weighed each feature on a scale of -3 to 3 with more positive numbers arguing in favor of HIT.</li> <li>Median weights were then incorporated into a pre-test probability model, the HEP score.</li> <li>Score was then prospectively applied to fifty consecutive patients referred to a single reference laboratory for HIT testing.</li> <li>HIT was diagnosed by consensus of three independent HIT expert adjudicators reviewing the clinical information and lab results including polyspecific HIT antibody ELISA and in-house SRA.</li> <li>Study found that a HEP score cut off of 2 would lead to 100% sensitivity and 60% specificity while a cut off of 5 would maximize sensitivity/specificity at 86% and 88%, respectively, in the cohort of patients analyzed. This was superior to the <calculator id=\"1787\">4Ts for HIT Score</calculator>.</li> </ul> <p><strong>Points to keep in mind:</strong></p> <ul> <li>Validation study was very small at 50 patients, highly heterogeneous, and all done at a single large academic health care system.</li> <li>All determinations of HIT were done based on chart review.</li> <li>Score was derived based purely on expert opinion and the confirmatory diagnosis of HIT was also based on the consensus of an expert panel.</li> <li>A subsequent small (47 patients) retrospective study comparing the performance of the <calculator id=\"1787\">4T’s scoring system</calculator> vs HEP in suspected HIT patients, using a positive HPA as the gold standard for diagnosis of HIT, found no statistically significant difference in the diagnostic performance of the scores. It also demonstrated only a 70% sensitivity for the diagnosis of HIT at the previously proposed HEP score cut-off of 2.</li> <li>There are no large scale or prospective studies validating the HEP score.</li> </ul>",
+            "pearls_pitfalls_en": "<p>The HIT Expert Probability (HEP) Score is a tool developed based on broad expert opinion to help clinicians rule out HIT.</p>\n<ul>\n<li>Eight clinical features potentially important in the diagnosis of HIT identified via literature review were incorporated into a questionnaire and distributed to independent HIT experts that regularly diagnose and treat HIT.</li>\n<li>Clinicians then weighed each feature on a scale of -3 to 3 with more positive numbers arguing in favor of HIT.</li>\n<li>Median weights were then incorporated into a pre-test probability model, the HEP score.</li>\n<li>Score was then prospectively applied to fifty consecutive patients referred to a single reference laboratory for HIT testing.</li>\n<li>HIT was diagnosed by consensus of three independent HIT expert adjudicators reviewing the clinical information and lab results including polyspecific HIT antibody ELISA and in-house SRA.</li>\n<li>Study found that a HEP score cut off of 2 would lead to 100% sensitivity and 60% specificity while a cut off of 5 would maximize sensitivity/specificity at 86% and 88%, respectively, in the cohort of patients analyzed. This was superior to the <calculator id=\"1787\">4Ts for HIT Score</calculator>.</li>\n</ul>\n<p><strong>Points to keep in mind:</strong></p>\n<ul>\n<li>Validation study was very small at 50 patients, highly heterogeneous, and all done at a single large academic health care system.</li>\n<li>All determinations of HIT were done based on chart review.</li>\n<li>Score was derived based purely on expert opinion and the confirmatory diagnosis of HIT was also based on the consensus of an expert panel.</li>\n<li>A subsequent small (47 patients) retrospective study comparing the performance of the <calculator id=\"1787\">4T&rsquo;s scoring system</calculator> vs HEP in suspected HIT patients, using a positive HPA as the gold standard for diagnosis of HIT, found no statistically significant difference in the diagnostic performance of the scores. It also demonstrated only a 70% sensitivity for the diagnosis of HIT at the previously proposed HEP score cut-off of 2.</li>\n<li>There are no large scale or prospective studies validating the HEP score.</li>\n</ul>",
             "use_case_en": "<p>The heparin-induced thrombocytopenia expert probability (HEP) score is a tool that can potentially aid in diagnosing patients with suspected HIT, and to avoid expensive HIT workups in some patients.</p>",
-            "why_use_en": "<p>The work-up for HIT is time-consuming and expensive. The HEP score could be used as a tool to avoid initiating work-up for HIT and/or empiric substitution of heparin for another anti-coagulant.</p> "
+            "why_use_en": "<p>The work-up for HIT is time-consuming and expensive. The HEP score could be used as a tool to avoid initiating work-up for HIT and/or empiric substitution of heparin for another anti-coagulant.</p>"
           },
           "next_steps": {
             "advice_en": "",
-            "critical_actions_en": "<ul> <li>Consider using the <calculator id=\"1787\">4Ts scoring system</calculator> in conjunction with the HEP score as an alternative evaluation tool prior to time-consuming antibody testing for HIT or empiric substitution of heparin for another anti-coagulant.</li> <li>Consider further laboratory evaluation for HIT or switching to a non-heparin derived anti-coagulant in those patients that are above the screening threshold for HIT based on their HEP score.</li> <li>Larger studies of the HEP score are likely necessary prior to broader independent implementation.</li> </ul> ",
+            "critical_actions_en": "<ul>\n<li>Consider using the <calculator id=\"1787\">4Ts scoring system</calculator> in conjunction with the HEP score as an alternative evaluation tool prior to time-consuming antibody testing for HIT or empiric substitution of heparin for another anti-coagulant.</li>\n<li>Consider further laboratory evaluation for HIT or switching to a non-heparin derived anti-coagulant in those patients that are above the screening threshold for HIT based on their HEP score.</li>\n<li>Larger studies of the HEP score are likely necessary prior to broader independent implementation.</li>\n</ul>",
             "management_en": ""
           },
           "related_resources": {
@@ -75,16 +75,20 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Thrombocytopenia"
         ],
         "dosing": false,
-        "equation_logic": "a4d3f0382b38310720cb0860748195ec",
-        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nif(parseFloat(type) == 0){ //typical\n\tvar score = parseFloat(mag) + parseFloat(timingty) + parseFloat(nadir) + parseFloat(thromty) + parseFloat(skin) + parseFloat(acute) + parseFloat(bleed) + parseFloat(pres) + parseFloat(neW) + parseFloat(severe) + parseFloat(dic) + parseFloat(indwell) + parseFloat(cardio) + parseFloat(other);\n}\n\nif(parseFloat(type) == 1){\t//rapid\n\tvar score = parseFloat(mag) + parseFloat(timingrap) + parseFloat(nadir) + parseFloat(thromrap) + parseFloat(skin) + parseFloat(acute) + parseFloat(bleed) + parseFloat(pres) + parseFloat(neW) + parseFloat(severe) + parseFloat(dic) + parseFloat(indwell) + parseFloat(cardio) + parseFloat(other);\n}\n\nif (score > 1) {\n    msg = 'Scores \\u22652 are 100% sensitive for HIT.';\n    mini_msg = 'Sensitive for HIT.';\n} else {\n    msg = 'Scores <2 suggest a lower probability of HIT.';\n    mini_msg = 'Lower probability of HIT.';\n}\n\n\ncalc_output.push({ \n\tname: 'mini', \n\tvalue: score, \n\tvalue_text: 'points', \n\tmessage: mini_msg \n});\ncalc_output.push({ \n\tname: 'HIT Expert Probability', \n\tvalue: score, \n\tvalue_text: 'points', \n\tmessage: msg \n});\n",
+        "equation_logic": "e87ca2090cbc9436cafafccdc8cf7948",
+        "equation_logic_text": "var calc_output = [];\n\n//user inputs\nif(parseFloat(type) == 0){ //typical\n\tvar score = parseFloat(mag) + parseFloat(timingty) + parseFloat(nadir) + parseFloat(thromty) + parseFloat(skin) + parseFloat(acute) + parseFloat(bleed) + parseFloat(pres) + parseFloat(neW) + parseFloat(severe) + parseFloat(dic) + parseFloat(indwell) + parseFloat(cardio) + parseFloat(other);\n}\n\nif(parseFloat(type) == 1){\t//rapid\n\tvar score = parseFloat(mag) + parseFloat(timingrap) + parseFloat(nadir) + parseFloat(thromrap) + parseFloat(skin) + parseFloat(acute) + parseFloat(bleed) + parseFloat(pres) + parseFloat(neW) + parseFloat(severe) + parseFloat(dic) + parseFloat(indwell) + parseFloat(cardio) + parseFloat(other);\n}\n\nif (score > 1) {\n    msg = 'Scores \\u22652 are 100% sensitive for HIT.';\n    mini_msg = 'Sensitive for HIT.';\n} else {\n    msg = 'Scores <2 suggest a lower probability of HIT.';\n    mini_msg = 'Lower probability of HIT.';\n}\n\n\ncalc_output.push({ \n\tname: 'mini', \n\tvalue: score, \n\tvalue_text: 'points', \n\tmessage: mini_msg \n});\ncalc_output.push({ \n\tname: '1789_HEP Score_result', \n\tvalue: score, \n\tvalue_text: 'points', \n\tmessage: msg \n});\n",
         "favorite_id": 1789,
         "full_title_en": "HIT Expert Probability (HEP) Score for Heparin-Induced Thrombocytopenia",
         "input_schema": [
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Thrombocytopenia Features",
             "subheading_instructions": "",
             "type": "subheading"
@@ -93,7 +97,9 @@
             "conditionality": null,
             "default": null,
             "label_en": "Type of heparin-induced thrombocytopenia (HIT) onset suspected",
+            "md_calc_info_concept": null,
             "name": "type",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -113,7 +119,9 @@
             "conditionality": null,
             "default": null,
             "label_en": "Magnitude of platelet count fall",
+            "mdcalc_info_concept": null,
             "name": "mag",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -137,7 +145,9 @@
             "conditionality": "type==0",
             "default": null,
             "label_en": "Timing of platelet count fall",
+            "mdcalc_info_concept": null,
             "name": "timingty",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -169,7 +179,9 @@
             "conditionality": "type==1",
             "default": null,
             "label_en": "Timing of platelet count fall",
+            "mdcalc_info_concept": null,
             "name": "timingrap",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -189,7 +201,9 @@
             "conditionality": null,
             "default": null,
             "label_en": "Nadir platelet count",
+            "mdcalc_info_concept": null,
             "name": "nadir",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -209,7 +223,9 @@
             "conditionality": "type==0",
             "default": null,
             "label_en": "Thrombosis",
+            "mdcalc_info_concept": null,
             "name": "thromty",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -233,7 +249,9 @@
             "conditionality": "type==1",
             "default": null,
             "label_en": "Thrombosis",
+            "mdcalc_info_concept": null,
             "name": "thromrap",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -257,7 +275,9 @@
             "conditionality": null,
             "default": 0,
             "label_en": "Skin necrosis at subcutaneous heparin injection sites",
+            "md_calc_info_concept": null,
             "name": "skin",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -277,7 +297,9 @@
             "conditionality": null,
             "default": 0,
             "label_en": "Acute systemic reaction after IV heparin bolus",
+            "md_calc_info_concept": null,
             "name": "acute",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -297,7 +319,9 @@
             "conditionality": null,
             "default": 0,
             "label_en": "Presence of bleeding, petechiae or extensive bruising",
+            "md_calc_info_concept": null,
             "name": "bleed",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -314,6 +338,8 @@
             "type": "toggle"
           },
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Other Causes of Thrombocytopenia",
             "subheading_instructions": "",
             "type": "subheading"
@@ -322,7 +348,9 @@
             "conditionality": null,
             "default": 0,
             "label_en": "Presence of chronic thrombocytopenic disorder",
+            "md_calc_info_concept": null,
             "name": "pres",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -342,7 +370,9 @@
             "conditionality": null,
             "default": 0,
             "label_en": "Newly initiated non-heparin medication known to cause thrombocytopenia",
+            "md_calc_info_concept": null,
             "name": "neW",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -362,7 +392,9 @@
             "conditionality": null,
             "default": 0,
             "label_en": "Severe infection",
+            "md_calc_info_concept": null,
             "name": "severe",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -382,7 +414,9 @@
             "conditionality": null,
             "default": 0,
             "label_en": "Severe disseminated intravascular coagulation (DIC)",
+            "md_calc_info_concept": null,
             "name": "dic",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -402,7 +436,9 @@
             "conditionality": null,
             "default": 0,
             "label_en": "Indwelling intra-arterial device",
+            "md_calc_info_concept": null,
             "name": "indwell",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -422,7 +458,9 @@
             "conditionality": null,
             "default": 0,
             "label_en": "Cardiopulmonary bypass within previous 96 hours",
+            "md_calc_info_concept": null,
             "name": "cardio",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -442,7 +480,9 @@
             "conditionality": null,
             "default": 0,
             "label_en": "No other apparent cause",
+            "md_calc_info_concept": null,
             "name": "other",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -460,13 +500,16 @@
           }
         ],
         "instructions_en": "",
+        "isVisibleInListView": true,
+        "is_manual": false,
         "logic_language": "javascript",
-        "logs": [],
         "md5": "02cbdb1bb1640fec4b837c40bb66f6ab",
         "medium_description_en": "<p>Pre-test clinical scoring model for HIT based on broad expert opinion.</p>",
+        "publishedAt": "2022-04-21T20:29:01.446Z",
         "purpose_en": [
           "Diagnosis"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "hit",
           "plt",
@@ -477,7 +520,7 @@
           "keywords_en": "hit probability score, heparin probability, prognosis heparin, prognosis heparin calc, HIT HEP, HEP score, heparin score, expert hep score, hep thrombocytopenia score",
           "meta_description_en": "The HIT Expert Probability Score (HEP) is a clinical scoring system to stratify the pre-test probability of suspected HIT cases."
         },
-        "short_description_en": "Likelihood of HIT.",
+        "short_description_en": "<p>Likelihood of HIT.</p>",
         "short_title_en": "HIT Expert Probability (HEP) Score",
         "slug": "hit-expert-probability-hep-score-heparin-induced-thrombocytopenia",
         "specialty_en": [
@@ -489,225 +532,171 @@
         ],
         "system_en": [
           "Hematologic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "46b61645-2470-452e-bfb0-963476c1b01a"
       },
       "contributors": [
         {
           "contributors_page": false,
-          "createdAt": "2021-12-22T21:20:30.365Z",
           "description": "<p>Calvin Hwang, MD, is a clinical assistant professor in the department of orthopaedic surgery at the Stanford University School of Medicine. A native Californian, Dr. Hwang grew up in San Diego and attended Stanford University before venturing off to Case Western Reserve University School of Medicine, where he received his medical degree. He completed his residency at the Stanford/Kaiser Emergency Medicine program and fellowship in sports medicine at Stanford. He is currently a team physician for the Golden State Warriors, Stanford Football and Stanford Volleyball.</p>",
           "firstName": "Calvin",
           "hasDisclosure": [],
           "img": "calvin-hwang.jpg",
           "lastName": "Hwang",
           "name": "Calvin Hwang, MD",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
           "signedCOI": true,
           "status": "Past",
-          "target": "calvin-hwang",
-          "updatedAt": "2023-04-06T20:26:46.100Z"
+          "target": "calvin-hwang"
         }
       ],
       "creators": [
         {
           "about_en": "<p>Adam Cuker, MD, MS, is a board certified physician in Internal Medicine and Hematology and an assistant professor of medicine at the Hospital of the University of Pennsylvania. His clinical expertise is in clotting, bleeding and platelet disorders. Dr. Cuker's research interests include heparin-induced thrombocytopenia, immune thrombocytopenia, thrombosis and anti-coagulation.</p>",
-          "createdAt": "2021-12-23T18:03:17.779Z",
-          "deceased": null,
+          "deceased": false,
+          "description": "",
           "firstName": "",
+          "img": "",
           "lastName": "",
           "name": "Dr. Adam Cuker",
           "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-adam-cuker.jpg",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
           "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Cuker+A%5BAuthor%5D",
-          "signedCOI": false,
-          "updatedAt": "2021-11-17T15:11:35.298Z"
+          "signedCOI": false
         }
       ],
       "envs": {
         "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "CONTENT_SERVER_TAG": "WEB_PROD",
         "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
-        "STRAPI_TAG": "WEB_PROD",
         "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
       },
       "faqs": [
         {
           "cme_faq": {
             "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
-            "createdAt": "2022-12-16T16:39:54.990Z",
-            "publishedAt": "2022-12-16T16:39:55.697Z",
             "question": "What is MDCalc CME?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:52:48.348Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
-            "createdAt": "2022-12-16T16:40:11.179Z",
-            "publishedAt": "2022-12-16T16:40:11.883Z",
             "question": "Is MDCalc CME accredited?",
-            "type": "Using",
-            "updatedAt": "2023-02-09T18:38:00.345Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
-            "createdAt": "2022-12-16T16:40:27.936Z",
-            "publishedAt": "2022-12-16T16:40:28.851Z",
             "question": "Who can enroll and how?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:12.659Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
-            "createdAt": "2022-12-16T16:40:47.203Z",
-            "publishedAt": "2022-12-16T16:40:47.882Z",
             "question": "What activities can I do to earn CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:27.268Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
-            "createdAt": "2022-12-16T16:40:57.420Z",
-            "publishedAt": "2022-12-16T16:41:02.863Z",
             "question": "Where can I find calcs with which I can earn credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:44.504Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
-            "createdAt": "2022-12-16T16:41:11.874Z",
-            "publishedAt": "2022-12-16T16:41:13.038Z",
             "question": "Where can I see which credits I’ve earned?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:52.153Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
-            "createdAt": "2022-12-16T16:41:33.940Z",
-            "publishedAt": "2022-12-16T16:41:35.646Z",
             "question": "How do I redeem CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:07.237Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
-            "createdAt": "2022-12-16T16:41:59.307Z",
-            "publishedAt": "2022-12-16T16:42:00.078Z",
             "question": "Are CME credits free?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:22.467Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
-            "createdAt": "2022-12-16T16:42:10.712Z",
-            "publishedAt": "2022-12-16T16:42:15.215Z",
             "question": "Where can I see my CME certificates?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:32.826Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>One year from the date of purchase.</p>",
-            "createdAt": "2022-12-16T16:42:52.839Z",
-            "publishedAt": "2022-12-16T16:42:53.641Z",
             "question": "How long do credits in an annual subscription last?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:54:51.655Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
-            "createdAt": "2022-12-16T16:32:44.987Z",
-            "publishedAt": "2022-12-16T16:32:46.006Z",
             "question": "What specialty CME credits are included in the plan?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:33.794Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
-            "createdAt": "2022-12-16T16:33:18.512Z",
-            "publishedAt": "2022-12-16T16:33:19.250Z",
             "question": "I ordered a CME package with a gift card. How does it work?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:53.878Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
-            "createdAt": "2022-12-16T16:44:06.809Z",
-            "publishedAt": "2022-12-16T16:44:07.518Z",
             "question": "What will show on my receipt for CME when it includes a gift card?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:08.549Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
-            "createdAt": "2022-12-16T16:36:44.877Z",
-            "publishedAt": "2022-12-16T16:36:45.950Z",
             "question": "How do I get a refund if I'm not satisfied?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:01.761Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
-            "createdAt": "2022-12-16T16:37:26.433Z",
-            "publishedAt": "2022-12-16T16:37:27.177Z",
             "question": "How do I later upgrade to a different plan if I need more credits?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:27.457Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
-            "createdAt": "2022-12-16T16:44:53.580Z",
-            "publishedAt": "2022-12-16T16:44:56.993Z",
             "question": "Do CME plans auto-renew?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:44.653Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
-            "createdAt": "2022-12-16T16:38:26.466Z",
-            "publishedAt": "2022-12-16T16:38:27.163Z",
             "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:43.762Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
-            "createdAt": "2022-12-16T16:46:21.538Z",
-            "publishedAt": "2022-12-16T16:46:27.759Z",
             "question": "Did the ACCME decide to regulate gift cards?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:56:05.573Z"
+            "type": "Purchasing"
           }
         }
       ],

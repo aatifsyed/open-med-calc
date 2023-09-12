@@ -1,5 +1,5 @@
 {
-  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
+  "buildId": "5lGULuFSFhUrfWgBpMJq_",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -8,7 +8,7 @@
     "pageProps": {
       "calc": {
         "before_use": "",
-        "calc_type": "",
+        "calc_type": "calculator",
         "chief_complaint_en": [
           "Dizziness",
           "Weakness"
@@ -16,6 +16,7 @@
         "cmeEndDate": null,
         "cmeLastReviewed": null,
         "cmeReleaseDate": null,
+        "cmeVersion": null,
         "cme_status": "",
         "content": {
           "about": {
@@ -27,13 +28,14 @@
               "Manufacturer Website": [],
               "Original/Primary Reference": [
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/18540046",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/18540046",
                   "text": "Nathan DM, Kuenen J, Borg R, Zheng H, Schoenfeld D, Heine RJ; A1c-Derived Average Glucose Study Group. Translating the A1C assay into estimated average glucose values. Diabetes Care. 2008 Aug;31(8):1473-8. Epub 2008 Jun 7. Erratum in: Diabetes Care. 2009 Jan;32(1):207. PubMed PMID: 18540046; PubMed Central PMCID: PMC2742903."
                 }
               ],
               "Other References": [],
               "Outcomes": [],
-              "Validation": []
+              "Validation": [],
+              "Validations": []
             }
           },
           "contributor": {
@@ -48,11 +50,11 @@
           ],
           "how_to_use": {
             "pearls_pitfalls_en": "",
-            "use_case_en": "The estimated average glucose can be useful in patients who do not check their glucose levels frequently or do not record them.",
+            "use_case_en": "<p>The estimated average glucose can be useful in patients who do not check their glucose levels frequently or do not record them.</p>",
             "why_use_en": ""
           },
           "next_steps": {
-            "advice_en": "Knowing an estimated average glucose can allow clinicians to set a goal and target for glucose levels, especially in non-compliant patients who do not check their glucose levels frequently or do not record them.",
+            "advice_en": "<p>Knowing an estimated average glucose can allow clinicians to set a goal and target for glucose levels, especially in non-compliant patients who do not check their glucose levels frequently or do not record them.</p>",
             "critical_actions_en": "",
             "management_en": ""
           },
@@ -78,17 +80,22 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Diabetes Mellitus"
         ],
         "dosing": false,
-        "equation_logic_text": "var calc_output = [];\nvar v = (28.7 * parseFloat(hemoglobin_a1c)) - 46.7; // this outputs US units, so gotta make a version for SI\nvalue_text = 'mg/dL';\n\n//if (UOMSYSTEM == false) { // Cr already in right units, so we're good\nv_mmol = v * 0.0555;\nvalue_text_mmol = 'mmol/L';\n//}\n\ncalc_output.push({\n  name: 'mini',\n  value: v.toFixed(1),\n  value_text: value_text,\n  message: 'Est. Avg. Glucose From HbA1C'\n});\ncalc_output.push({\n  name: 'Estimated Average Glucose From HbA1C',\n  value: v.toFixed(1),\n  value_text: value_text,\n  message: ' Equivalent to ' + v_mmol.toFixed(1) + ' mmol/L<br/><br/>This formula was calculated using a linear regression equation model, and did not change significantly by subgroup of age, sex, diabetes type, race/ethnicity, or smoking status.'\n});\n",
+        "equation_logic": "1e3ac819b3cf0459f08e4a2fb44810d6",
+        "equation_logic_text": "var calc_output = [];\nvar v = (28.7 * parseFloat(hemoglobin_a1c)) - 46.7; // this outputs US units, so gotta make a version for SI\nvalue_text = 'mg/dL';\n\n//if (UOMSYSTEM == false) { // Cr already in right units, so we're good\nv_mmol = v * 0.0555;\nvalue_text_mmol = 'mmol/L';\n//}\n\ncalc_output.push({\n  name: 'mini',\n  value: v.toFixed(1),\n  value_text: value_text,\n  message: 'Est. Avg. Glucose From HbA1C'\n});\ncalc_output.push({\n  name: '1299_Est. Avg. Glucose from HbA1C_result',\n  value: v.toFixed(1),\n  value_text: value_text,\n  message: ' Equivalent to ' + v_mmol.toFixed(1) + ' mmol/L<br/><br/>This formula was calculated using a linear regression equation model, and did not change significantly by subgroup of age, sex, diabetes type, race/ethnicity, or smoking status.'\n});\n",
         "favorite_id": 1299,
         "full_title_en": "Estimated Average Glucose (eAG) From HbA1C",
         "input_schema": [
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Hemoglobin A1C",
             "name": "hemoglobin_a1c",
             "optional": false,
@@ -98,23 +105,16 @@
           }
         ],
         "instructions_en": "",
-        "logs": [
-          {
-            "message": "edited result",
-            "time": "2020-04-15T11:51:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "edited results",
-            "time": "2020-04-15T11:50:00.000Z",
-            "user": "lubaina"
-          }
-        ],
-        "md5": "",
+        "isVisibleInListView": true,
+        "is_manual": false,
+        "logic_language": "javascript",
+        "md5": "a0b942354b19e24d7c5d82305cf4be6d",
         "medium_description_en": "<p>Estimates an average glucose level from Hemoglobin A1C value.</p>",
+        "publishedAt": "2022-04-21T20:28:57.965Z",
         "purpose_en": [
           "Calculation"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "dm"
         ],
@@ -123,7 +123,7 @@
           "keywords_en": "Estimated Average Glucose (eAG) From HgbA1C, eAG, AG, HgbA1C, hgba1c, hgb a1c eAc, glucose in dm, glucose in DM hgb, hgb DM, diabetes hgb, diabetes h1c calc, diabetes h1c score, diabetes avg glucose, dm average glucose, dm avg glucose",
           "meta_description_en": "The Estimated Average Glucose (eAG) From HbA1C calculator estimates an average glucose level from Hemoglobin A1C value."
         },
-        "short_description_en": "Estimates avg gluc from HbA1C.",
+        "short_description_en": "<p>Estimates avg gluc from HbA1C.</p>",
         "short_title_en": "Est. Avg. Glucose from HbA1C",
         "slug": "estimated-average-glucose-eag-hba1c",
         "specialty_en": [
@@ -137,209 +137,158 @@
         ],
         "system_en": [
           "Endocrine and Metabolic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "109be9e5-3399-44ae-b1af-353baa54b6ce"
       },
       "contributors": [],
       "creators": [
         {
           "about_en": "<p>David M. Nathan, MD, is director of the General Clinical Research Center and of the Diabetes Center at Massachusetts General Hospital. He is also a professor of medicine at Harvard Medical School. He is an active researcher with over 200 published articles and focuses on the development of innovative therapies to treat type 1 and type 2 diabetes and to prevent its long-term complications.</p>",
-          "createdAt": "2021-12-23T18:03:17.779Z",
-          "deceased": null,
+          "deceased": false,
+          "description": "",
           "firstName": "",
+          "img": "",
           "lastName": "",
           "name": "Dr. David Nathan",
           "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-david-nathan.jpeg",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
           "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Nathan%20DM%5Bauth%5D",
-          "signedCOI": false,
-          "updatedAt": "2021-11-17T15:11:35.298Z"
+          "signedCOI": false
         }
       ],
       "envs": {
         "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "CONTENT_SERVER_TAG": "WEB_PROD",
         "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
-        "STRAPI_TAG": "WEB_PROD",
         "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
       },
       "faqs": [
         {
           "cme_faq": {
             "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
-            "createdAt": "2022-12-16T16:39:54.990Z",
-            "publishedAt": "2022-12-16T16:39:55.697Z",
             "question": "What is MDCalc CME?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:52:48.348Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
-            "createdAt": "2022-12-16T16:40:11.179Z",
-            "publishedAt": "2022-12-16T16:40:11.883Z",
             "question": "Is MDCalc CME accredited?",
-            "type": "Using",
-            "updatedAt": "2023-02-09T18:38:00.345Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
-            "createdAt": "2022-12-16T16:40:27.936Z",
-            "publishedAt": "2022-12-16T16:40:28.851Z",
             "question": "Who can enroll and how?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:12.659Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
-            "createdAt": "2022-12-16T16:40:47.203Z",
-            "publishedAt": "2022-12-16T16:40:47.882Z",
             "question": "What activities can I do to earn CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:27.268Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
-            "createdAt": "2022-12-16T16:40:57.420Z",
-            "publishedAt": "2022-12-16T16:41:02.863Z",
             "question": "Where can I find calcs with which I can earn credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:44.504Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
-            "createdAt": "2022-12-16T16:41:11.874Z",
-            "publishedAt": "2022-12-16T16:41:13.038Z",
             "question": "Where can I see which credits I’ve earned?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:52.153Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
-            "createdAt": "2022-12-16T16:41:33.940Z",
-            "publishedAt": "2022-12-16T16:41:35.646Z",
             "question": "How do I redeem CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:07.237Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
-            "createdAt": "2022-12-16T16:41:59.307Z",
-            "publishedAt": "2022-12-16T16:42:00.078Z",
             "question": "Are CME credits free?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:22.467Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
-            "createdAt": "2022-12-16T16:42:10.712Z",
-            "publishedAt": "2022-12-16T16:42:15.215Z",
             "question": "Where can I see my CME certificates?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:32.826Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>One year from the date of purchase.</p>",
-            "createdAt": "2022-12-16T16:42:52.839Z",
-            "publishedAt": "2022-12-16T16:42:53.641Z",
             "question": "How long do credits in an annual subscription last?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:54:51.655Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
-            "createdAt": "2022-12-16T16:32:44.987Z",
-            "publishedAt": "2022-12-16T16:32:46.006Z",
             "question": "What specialty CME credits are included in the plan?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:33.794Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
-            "createdAt": "2022-12-16T16:33:18.512Z",
-            "publishedAt": "2022-12-16T16:33:19.250Z",
             "question": "I ordered a CME package with a gift card. How does it work?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:53.878Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
-            "createdAt": "2022-12-16T16:44:06.809Z",
-            "publishedAt": "2022-12-16T16:44:07.518Z",
             "question": "What will show on my receipt for CME when it includes a gift card?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:08.549Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
-            "createdAt": "2022-12-16T16:36:44.877Z",
-            "publishedAt": "2022-12-16T16:36:45.950Z",
             "question": "How do I get a refund if I'm not satisfied?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:01.761Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
-            "createdAt": "2022-12-16T16:37:26.433Z",
-            "publishedAt": "2022-12-16T16:37:27.177Z",
             "question": "How do I later upgrade to a different plan if I need more credits?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:27.457Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
-            "createdAt": "2022-12-16T16:44:53.580Z",
-            "publishedAt": "2022-12-16T16:44:56.993Z",
             "question": "Do CME plans auto-renew?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:44.653Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
-            "createdAt": "2022-12-16T16:38:26.466Z",
-            "publishedAt": "2022-12-16T16:38:27.163Z",
             "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:43.762Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
-            "createdAt": "2022-12-16T16:46:21.538Z",
-            "publishedAt": "2022-12-16T16:46:27.759Z",
             "question": "Did the ACCME decide to regulate gift cards?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:56:05.573Z"
+            "type": "Purchasing"
           }
         }
       ],
@@ -353,29 +302,26 @@
       "measurements": [
         {
           "conversion": "1",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 30,
+          "error_max": "30",
           "error_max_si": 30,
-          "error_max_us": 30,
-          "error_min": 1,
+          "error_max_us": "30",
+          "error_min": "1",
           "error_min_si": 1,
-          "error_min_us": 1,
+          "error_min_us": "1",
           "name": "Hemoglobin A1C",
-          "normal_max_si": 5.6,
-          "normal_max_us": 5.6,
-          "normal_min_si": 4,
-          "normal_min_us": 4,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "normal_max_si": "5.6",
+          "normal_max_us": "5.6",
+          "normal_min_si": "4",
+          "normal_min_us": "4",
           "unit": "hgba1c",
           "units_si": "% gly Hgb",
           "units_us": "% gly Hgb",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 12,
+          "warn_max": "12",
           "warn_max_si": 12,
-          "warn_max_us": 12,
-          "warn_min": 3,
+          "warn_max_us": "12",
+          "warn_min": "3",
           "warn_min_si": 3,
-          "warn_min_us": 3
+          "warn_min_us": "3"
         }
       ],
       "relCalcs": [

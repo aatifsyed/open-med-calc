@@ -1,5 +1,5 @@
 {
-  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
+  "buildId": "5lGULuFSFhUrfWgBpMJq_",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -28,7 +28,7 @@
               "Manufacturer Website": [],
               "Original/Primary Reference": [
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/16009691",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16009691",
                   "text": "Forrest EH, Evans CD, Stewart S, Phillips M, Oo YH, McAvoy NC, Fisher NC, Singhal S, Brind A, Haydon G, O'Grady J, Day CP, Hayes PC, Murray LS, Morris AJ. Analysis of factors predictive of mortality in alcoholic hepatitis and derivation and validation of the Glasgow alcoholic hepatitis score. Gut. 2005 Aug;54(8):1174-9. PubMed PMID: 16009691; PubMed Central PMCID: PMC1774903."
                 }
               ],
@@ -49,14 +49,14 @@
             }
           ],
           "how_to_use": {
-            "pearls_pitfalls_en": "The Glasgow Alcoholic Hepatitis Scale (GAHS) is useful in determining which patients may require more intensive management based on their estimated mortality.",
+            "pearls_pitfalls_en": "<p>The Glasgow Alcoholic Hepatitis Scale (GAHS) is useful in determining which patients may require more intensive management based on their estimated mortality.</p>",
             "use_case_en": "",
             "why_use_en": ""
           },
           "next_steps": {
-            "advice_en": "Patients with alcoholic hepatitis should be counseled on alcohol cessation, as continued drinking will eventually contribute to their death.",
+            "advice_en": "<p>Patients with alcoholic hepatitis should be counseled on alcohol cessation, as continued drinking will eventually contribute to their death.</p>",
             "critical_actions_en": "",
-            "management_en": "<p>Refer to&nbsp;<a href=\"https://www.mdcalc.com/guidelines/acg/diagnosis-management-idiosyncratic-drug-induced-liver-injury\" target=\"_blank\">ACG guidelines</a>&nbsp;for management of idiosyncratic drug-induced liver injury.</p>"
+            "management_en": "<p>Refer to&nbsp;<a href=\"https://www.mdcalc.com/guidelines/acg/diagnosis-management-idiosyncratic-drug-induced-liver-injury\" target=\"_blank\" rel=\"noopener\">ACG guidelines</a>&nbsp;for management of idiosyncratic drug-induced liver injury.</p>"
           },
           "related_resources": {
             "guidelines": [
@@ -91,14 +91,16 @@
           "Ingestion/Overdose"
         ],
         "dosing": false,
-        "equation_logic": "d696b1749cfa51419157f55a3bc1b0ea",
-        "equation_logic_text": "var calc_output = [];\nvar pt_ratio = parseFloat(pt) / parseFloat(pt_lab_normal);\nvar bili = parseFloat(bilirubin);\nvar bun = parseFloat(bun);\nvar age = parseFloat(age);\nvar age_score, wbc_score, bun_score, pt_score, bili_score;\nvar output_score = 0;\nvar output_msg = '';\nvar white_blood_cell_count = parseFloat(white_blood_cell_count);\nif (UOMSYSTEM == false) {\n    bili = bili;\n    bun = bun;\n    //all others are 1:1 conversions, need SI units for this corresponding scores\n}\nif (UOMSYSTEM == true) {\n    bili = bili * 17.104;\n    bun = bun * 0.357;\n    //all others are 1:1 conversions, need SI units for this corresponding scores\n}\n\nif (age < 50) { age_score = 1; } else { age_score = 2; }\nif (white_blood_cell_count < 15) { wbc_score = 1; } else { wbc_score = 2; }\nif (bun < 5) { bun_score = 1; } else { bun_score = 2; }\nif (pt_ratio > 2) { pt_score = 3; }\nif (pt_ratio > 1.499 && pt_ratio < 2.001) { pt_score = 2; }\nif (pt_ratio < 1.5) { pt_score = 1; }\nif (bili > 250) { bili_score = 3; }\nif (bili > 124.99 && bili < 250.001) { bili_score = 2; }\nif (bili < 125) { bili_score = 1; }\noutput_score = age_score + wbc_score + bun_score + pt_score + bili_score;\nif (output_score < 9) { output_msg = 'Scores of less than 9 portended a much better 28- and 84-day survival than scores above 9 or above (87%/79% vs. 46%/40%). The score was less sensitive but more accurate than the Modified Discriminant Function or MELD scores.'; } else { output_msg = 'Scores of greater than or equal to 9 portended a much poorer 28- and 84-day survival than scores less than 9 (46%/40% vs. 87%/79%). The score was less sensitive but more accurate than the Modified Discriminant Function or MELD scores.'; }\ncalc_output.push({ name: 'mini', value: output_score, value_text: 'points', message: 'Glasgow Alcoholic Hepatitis Score' });\ncalc_output.push({ name: 'Glasgow Alcoholic Hepatitis Score', value: output_score, value_text: 'points', message: output_msg });",
+        "equation_logic": "b60462827e446d2c07b73c602b9f93af",
+        "equation_logic_text": "var calc_output = [];\nvar pt_ratio = parseFloat(pt) / parseFloat(pt_lab_normal);\nvar bili = parseFloat(bilirubin);\nvar bun = parseFloat(bun);\nvar age = parseFloat(age);\nvar age_score, wbc_score, bun_score, pt_score, bili_score;\nvar output_score = 0;\nvar output_msg = '';\nvar white_blood_cell_count = parseFloat(white_blood_cell_count);\nif (UOMSYSTEM == false) {\n    bili = bili;\n    bun = bun;\n    //all others are 1:1 conversions, need SI units for this corresponding scores\n}\nif (UOMSYSTEM == true) {\n    bili = bili * 17.104;\n    bun = bun * 0.357;\n    //all others are 1:1 conversions, need SI units for this corresponding scores\n}\n\nif (age < 50) { age_score = 1; } else { age_score = 2; }\nif (white_blood_cell_count < 15) { wbc_score = 1; } else { wbc_score = 2; }\nif (bun < 5) { bun_score = 1; } else { bun_score = 2; }\nif (pt_ratio > 2) { pt_score = 3; }\nif (pt_ratio > 1.499 && pt_ratio < 2.001) { pt_score = 2; }\nif (pt_ratio < 1.5) { pt_score = 1; }\nif (bili > 250) { bili_score = 3; }\nif (bili > 124.99 && bili < 250.001) { bili_score = 2; }\nif (bili < 125) { bili_score = 1; }\noutput_score = age_score + wbc_score + bun_score + pt_score + bili_score;\nif (output_score < 9) { output_msg = 'Scores of less than 9 portended a much better 28- and 84-day survival than scores above 9 or above (87%/79% vs. 46%/40%). The score was less sensitive but more accurate than the Modified Discriminant Function or MELD scores.'; } else { output_msg = 'Scores of greater than or equal to 9 portended a much poorer 28- and 84-day survival than scores less than 9 (46%/40% vs. 87%/79%). The score was less sensitive but more accurate than the Modified Discriminant Function or MELD scores.'; }\n\ncalc_output.push({ \n    name: 'mini', \n    value: output_score, \n    value_text: 'points', \n    message: 'Glasgow Alcoholic Hepatitis Score' \n});\ncalc_output.push({ \n    name: '680_Glasgow Alcoholic Hepatitis Score_result', \n    value: output_score, \n    value_text: 'points',\n    message: output_msg \n});",
         "favorite_id": 680,
         "full_title_en": "Glasgow Alcoholic Hepatitis Score",
         "input_schema": [
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Age",
             "name": "age",
             "optional": false,
@@ -109,6 +111,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "White blood cell count",
             "name": "white_blood_cell_count",
             "optional": false,
@@ -119,6 +123,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "BUN",
             "name": "bun",
             "optional": false,
@@ -129,6 +135,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Bilirubin",
             "name": "bilirubin",
             "optional": false,
@@ -139,6 +147,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "PT",
             "name": "pt",
             "optional": false,
@@ -149,6 +159,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "PT lab normal",
             "name": "pt_lab_normal",
             "optional": false,
@@ -159,29 +171,8 @@
         ],
         "instructions_en": "",
         "isVisibleInListView": true,
+        "is_manual": false,
         "logic_language": "javascript",
-        "logs": [
-          {
-            "message": "fixed unit conversions",
-            "time": "2021-05-12T12:36:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "creator reviewed",
-            "time": "2019-12-05T16:02:00.000Z",
-            "user": "rachel"
-          },
-          {
-            "message": "added guidelines info",
-            "time": "2019-04-24T16:19:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "added tip for \"PT lab normal\" input",
-            "time": "2018-05-30T10:59:00.000Z",
-            "user": "rachel"
-          }
-        ],
         "md5": "54066ce51f957c053434d380df1cdd18",
         "medium_description_en": "<p>Predicts mortality in patients with alcoholic hepatitis by lab results and age.</p>",
         "publishedAt": "2022-04-21T20:29:45.191Z",
@@ -197,7 +188,7 @@
           "keywords_en": "alcoholic hepatitis, etoh hepatitis score, mortality hepatitis, alcoholic prognosis, liver failure etoh, alcoholic liver failure, glasgow hepatitis score, glasgow alcohol score, glasgow etoh score, glasgow hepatitis mortality, glasgow mortality, glasgow hepatitis prognosis, glasgow mortality, glasgow alcohol prognosis, glasgow alcoholic prognosis, glasgow alcoholis px, glasgow alcohol px, glasgow hep px, glasgow hepatitis px, glasgow alcoholi hepatitis, glasgow alcoholic hepatitis score,",
           "meta_description_en": "The Glasgow Alcoholic Hepatitis Score predicts mortality in alcoholic hepatitis patients."
         },
-        "short_description_en": "Mortality in alcoholic hepatitis.",
+        "short_description_en": "<p>Mortality in alcoholic hepatitis.</p>",
         "short_title_en": "Glasgow Alcoholic Hepatitis Score",
         "slug": "glasgow-alcoholic-hepatitis-score",
         "specialty_en": [
@@ -221,203 +212,148 @@
       "creators": [
         {
           "about_en": "<p>Ewan H. Forrest, MD, practices and researches alcoholic liver disease and portal hypertension in the Department of Gastroenterology at the Glasgow Royal Infirmary. He is also an honorary clinical senior lecturer at the University of Glasgow School of Medicine. Dr. Forrest completed a Fellowship at the Royal Infirmary of Edinburgh, researching haemodynamic derangement of chronic liver disease.</p>",
-          "createdAt": "2021-12-23T18:03:17.779Z",
-          "deceased": null,
+          "deceased": false,
+          "description": "",
           "firstName": "",
+          "img": "",
           "lastName": "",
           "name": "Dr. Ewan H. Forrest",
           "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-ewan-h-forrest.jpeg",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
           "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Forrest+EH%5BAuthor%5D",
-          "signedCOI": false,
-          "updatedAt": "2021-11-17T15:11:35.298Z"
+          "signedCOI": false
         }
       ],
       "envs": {
         "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "CONTENT_SERVER_TAG": "WEB_PROD",
         "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
-        "STRAPI_TAG": "WEB_PROD",
         "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
       },
       "faqs": [
         {
           "cme_faq": {
             "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
-            "createdAt": "2022-12-16T16:39:54.990Z",
-            "publishedAt": "2022-12-16T16:39:55.697Z",
             "question": "What is MDCalc CME?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:52:48.348Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
-            "createdAt": "2022-12-16T16:40:11.179Z",
-            "publishedAt": "2022-12-16T16:40:11.883Z",
             "question": "Is MDCalc CME accredited?",
-            "type": "Using",
-            "updatedAt": "2023-02-09T18:38:00.345Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
-            "createdAt": "2022-12-16T16:40:27.936Z",
-            "publishedAt": "2022-12-16T16:40:28.851Z",
             "question": "Who can enroll and how?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:12.659Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
-            "createdAt": "2022-12-16T16:40:47.203Z",
-            "publishedAt": "2022-12-16T16:40:47.882Z",
             "question": "What activities can I do to earn CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:27.268Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
-            "createdAt": "2022-12-16T16:40:57.420Z",
-            "publishedAt": "2022-12-16T16:41:02.863Z",
             "question": "Where can I find calcs with which I can earn credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:44.504Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
-            "createdAt": "2022-12-16T16:41:11.874Z",
-            "publishedAt": "2022-12-16T16:41:13.038Z",
             "question": "Where can I see which credits I’ve earned?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:52.153Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
-            "createdAt": "2022-12-16T16:41:33.940Z",
-            "publishedAt": "2022-12-16T16:41:35.646Z",
             "question": "How do I redeem CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:07.237Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
-            "createdAt": "2022-12-16T16:41:59.307Z",
-            "publishedAt": "2022-12-16T16:42:00.078Z",
             "question": "Are CME credits free?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:22.467Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
-            "createdAt": "2022-12-16T16:42:10.712Z",
-            "publishedAt": "2022-12-16T16:42:15.215Z",
             "question": "Where can I see my CME certificates?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:32.826Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>One year from the date of purchase.</p>",
-            "createdAt": "2022-12-16T16:42:52.839Z",
-            "publishedAt": "2022-12-16T16:42:53.641Z",
             "question": "How long do credits in an annual subscription last?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:54:51.655Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
-            "createdAt": "2022-12-16T16:32:44.987Z",
-            "publishedAt": "2022-12-16T16:32:46.006Z",
             "question": "What specialty CME credits are included in the plan?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:33.794Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
-            "createdAt": "2022-12-16T16:33:18.512Z",
-            "publishedAt": "2022-12-16T16:33:19.250Z",
             "question": "I ordered a CME package with a gift card. How does it work?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:53.878Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
-            "createdAt": "2022-12-16T16:44:06.809Z",
-            "publishedAt": "2022-12-16T16:44:07.518Z",
             "question": "What will show on my receipt for CME when it includes a gift card?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:08.549Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
-            "createdAt": "2022-12-16T16:36:44.877Z",
-            "publishedAt": "2022-12-16T16:36:45.950Z",
             "question": "How do I get a refund if I'm not satisfied?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:01.761Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
-            "createdAt": "2022-12-16T16:37:26.433Z",
-            "publishedAt": "2022-12-16T16:37:27.177Z",
             "question": "How do I later upgrade to a different plan if I need more credits?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:27.457Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
-            "createdAt": "2022-12-16T16:44:53.580Z",
-            "publishedAt": "2022-12-16T16:44:56.993Z",
             "question": "Do CME plans auto-renew?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:44.653Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
-            "createdAt": "2022-12-16T16:38:26.466Z",
-            "publishedAt": "2022-12-16T16:38:27.163Z",
             "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:43.762Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
-            "createdAt": "2022-12-16T16:46:21.538Z",
-            "publishedAt": "2022-12-16T16:46:27.759Z",
             "question": "Did the ACCME decide to regulate gift cards?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:56:05.573Z"
+            "type": "Purchasing"
           }
         }
       ],
@@ -431,159 +367,141 @@
       "measurements": [
         {
           "conversion": "1",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 120,
-          "error_max_si": 120,
-          "error_max_us": 120,
-          "error_min": 0.001,
-          "error_min_si": 0.001,
-          "error_min_us": 0.001,
-          "name": "Age",
-          "normal_max_si": 0,
-          "normal_max_us": 0,
-          "normal_min_si": 0,
-          "normal_min_us": 0,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
-          "unit": "age",
-          "units_si": "years",
-          "units_us": "years",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 100,
-          "warn_max_si": 100,
-          "warn_max_us": 100,
-          "warn_min": 0.1,
-          "warn_min_si": 0.1,
-          "warn_min_us": 0.1
-        },
-        {
-          "conversion": "17.104",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 50,
-          "error_max_si": 855.1999999999999,
-          "error_max_us": 50,
-          "error_min": 1e-8,
-          "error_min_si": 1.7104e-7,
-          "error_min_us": 1e-8,
-          "name": "Bilirubin",
-          "normal_max_si": 32.49,
-          "normal_max_us": 1.9,
-          "normal_min_si": 5.13,
-          "normal_min_us": 0.3,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
-          "unit": "bili",
-          "units_si": "µmol/L",
-          "units_us": "mg/dL",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 20,
-          "warn_max_si": 342.08,
-          "warn_max_us": 20,
-          "warn_min": 0,
-          "warn_min_si": 0,
-          "warn_min_us": 0
-        },
-        {
-          "conversion": "0.357",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 500,
-          "error_max_si": 178.5,
-          "error_max_us": 500,
-          "error_min": 1,
-          "error_min_si": 0.357,
-          "error_min_us": 1,
-          "name": "BUN",
-          "normal_max_si": 7.1,
-          "normal_max_us": 20,
-          "normal_min_si": 2.9,
-          "normal_min_us": 8,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
-          "unit": "bun",
-          "units_si": "mmol/L",
-          "units_us": "mg/dL",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 300,
-          "warn_max_si": 107.1,
-          "warn_max_us": 300,
-          "warn_min": 2,
-          "warn_min_si": 0.714,
-          "warn_min_us": 2
-        },
-        {
-          "conversion": "1",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 100,
+          "error_max": "100",
           "error_max_si": 100,
-          "error_max_us": 100,
-          "error_min": 8,
+          "error_max_us": "100",
+          "error_min": "8",
           "error_min_si": 8,
-          "error_min_us": 8,
+          "error_min_us": "8",
           "name": "PT ",
-          "normal_max_si": 13,
-          "normal_max_us": 13,
-          "normal_min_si": 11,
-          "normal_min_us": 11,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "normal_max_si": "13",
+          "normal_max_us": "13",
+          "normal_min_si": "11",
+          "normal_min_us": "11",
           "unit": "pt",
           "units_si": "sec",
           "units_us": "sec",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 50,
+          "warn_max": "50",
           "warn_max_si": 50,
-          "warn_max_us": 50,
-          "warn_min": 9,
+          "warn_max_us": "50",
+          "warn_min": "9",
           "warn_min_si": 9,
-          "warn_min_us": 9
+          "warn_min_us": "9"
         },
         {
           "conversion": "1",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 20,
+          "error_max": "120",
+          "error_max_si": 120,
+          "error_max_us": "120",
+          "error_min": "0.001",
+          "error_min_si": 0.001,
+          "error_min_us": "0.001",
+          "name": "Age",
+          "normal_max_si": "0",
+          "normal_max_us": "0",
+          "normal_min_si": "0",
+          "normal_min_us": "0",
+          "unit": "age",
+          "units_si": "years",
+          "units_us": "years",
+          "warn_max": "100",
+          "warn_max_si": 100,
+          "warn_max_us": "100",
+          "warn_min": "0.1",
+          "warn_min_si": 0.1,
+          "warn_min_us": "0.1"
+        },
+        {
+          "conversion": "17.104",
+          "error_max": "50",
+          "error_max_si": 855.1999999999999,
+          "error_max_us": "50",
+          "error_min": "1E-8",
+          "error_min_si": 1.7104e-7,
+          "error_min_us": "1E-8",
+          "name": "Bilirubin",
+          "normal_max_si": "32.49",
+          "normal_max_us": "1.9",
+          "normal_min_si": "5.13",
+          "normal_min_us": "0.3",
+          "unit": "bili",
+          "units_si": "µmol/L",
+          "units_us": "mg/dL",
+          "warn_max": "20",
+          "warn_max_si": 342.08,
+          "warn_max_us": "20",
+          "warn_min": "0",
+          "warn_min_si": 0,
+          "warn_min_us": "0"
+        },
+        {
+          "conversion": "1",
+          "error_max": "20",
           "error_max_si": 20,
-          "error_max_us": 20,
-          "error_min": 6,
+          "error_max_us": "20",
+          "error_min": "6",
           "error_min_si": 6,
-          "error_min_us": 6,
+          "error_min_us": "6",
           "name": "PT Control Value",
-          "normal_max_si": 13.5,
-          "normal_max_us": 13.5,
-          "normal_min_si": 11,
-          "normal_min_us": 11,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "normal_max_si": "13.5",
+          "normal_max_us": "13.5",
+          "normal_min_si": "11",
+          "normal_min_us": "11",
           "unit": "pt_ctrl",
           "units_si": "sec",
           "units_us": "sec",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 16,
+          "warn_max": "16",
           "warn_max_si": 16,
-          "warn_max_us": 16,
-          "warn_min": 8,
+          "warn_max_us": "16",
+          "warn_min": "8",
           "warn_min_si": 8,
-          "warn_min_us": 8
+          "warn_min_us": "8"
         },
         {
           "conversion": "1",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 500,
+          "error_max": "500",
           "error_max_si": 500,
-          "error_max_us": 500,
-          "error_min": 0.0001,
+          "error_max_us": "500",
+          "error_min": "0.0001",
           "error_min_si": 0.0001,
-          "error_min_us": 0.0001,
+          "error_min_us": "0.0001",
           "name": "White Blood Cell Count",
-          "normal_max_si": 10.7,
-          "normal_max_us": 10.7,
-          "normal_min_si": 3.7,
-          "normal_min_us": 3.7,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "normal_max_si": "10.7",
+          "normal_max_us": "10.7",
+          "normal_min_si": "3.7",
+          "normal_min_us": "3.7",
           "unit": "wbc",
           "units_si": "× 10⁹ cells/L",
           "units_us": "× 10³ cells/µL",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 100,
+          "warn_max": "100",
           "warn_max_si": 100,
-          "warn_max_us": 100,
-          "warn_min": 0.1,
+          "warn_max_us": "100",
+          "warn_min": "0.1",
           "warn_min_si": 0.1,
-          "warn_min_us": 0.1
+          "warn_min_us": "0.1"
+        },
+        {
+          "conversion": "0.357",
+          "error_max": "500",
+          "error_max_si": 178.5,
+          "error_max_us": "500",
+          "error_min": "1",
+          "error_min_si": 0.357,
+          "error_min_us": "1",
+          "name": "BUN",
+          "normal_max_si": "7.1",
+          "normal_max_us": "20",
+          "normal_min_si": "2.9",
+          "normal_min_us": "8",
+          "unit": "bun",
+          "units_si": "mmol/L",
+          "units_us": "mg/dL",
+          "warn_max": "300",
+          "warn_max_si": 107.1,
+          "warn_max_us": "300",
+          "warn_min": "2",
+          "warn_min_si": 0.714,
+          "warn_min_us": "2"
         }
       ],
       "relCalcs": [

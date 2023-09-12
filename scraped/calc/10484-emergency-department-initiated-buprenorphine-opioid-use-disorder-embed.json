@@ -1,5 +1,5 @@
 {
-  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
+  "buildId": "5lGULuFSFhUrfWgBpMJq_",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -208,7 +208,6 @@
         "isVisibleInListView": true,
         "is_manual": false,
         "logic_language": "javascript",
-        "logs": [],
         "md5": "dc5fa888b480a27271ac787857e82399",
         "medium_description_en": "<p>Assess OUD, opioid withdrawal, and treatment readiness for ED-initiated buprenorphine.</p>",
         "publishedAt": "2023-08-08T16:52:30.468Z",
@@ -263,35 +262,33 @@
       "creators": [
         {
           "about_en": "<h3 class=\"embedBottomCreatorTitle\">The Creators</h3>\n<div class=\"embedCreatorList\">\n<ul>\n<li>Gail D&rsquo;Onofrio</li>\n<li>Kathryn Hawk</li>\n<li>David Fiellin</li>\n</ul>\n</div>",
-          "createdAt": "2023-08-08T16:52:21.851Z",
           "deceased": false,
+          "description": "",
           "firstName": "",
+          "img": "",
           "lastName": "",
           "name": "Yale Addiction Implementation Science Team",
           "photo_en": "https://cdn-web-img.mdcalc.com/people/donofrio.67738b18.jpg",
-          "publishedAt": "2023-08-08T16:52:22.993Z",
-          "pubmedLink": null,
-          "signedCOI": false,
-          "updatedAt": "2023-08-15T19:27:13.785Z"
+          "pubmedLink": "",
+          "signedCOI": false
         },
         {
           "about_en": "<h3 class=\"embedBottomCreatorTitle\">The Creators</h3>\n<div class=\"embedCreatorList\">\n<ul>\n<li>Edward Melnick</li>\n<li>Gail D&rsquo;Onofrio</li>\n<li>Jessica Ray</li>\n<li>Matthew Maleska</li>\n<li>Yauheni Solad</li>\n<li>Shara Martel</li>\n<li>Osama Ahmed</li>\n<li>Molly Jeffery</li>\n<li>Tim Platts-Mills</li>\n<li>Erik Hess</li>\n<li>Bidisha Nath</li>\n</ul>\n</div>",
-          "createdAt": "2023-08-08T16:56:05.870Z",
           "deceased": false,
+          "description": "",
           "firstName": "",
+          "img": "",
           "lastName": "",
           "name": "The EMBED Design Team",
           "photo_en": "https://cdn-web-img.mdcalc.com/people/melnick.5097a2b5.jpg",
-          "publishedAt": "2023-08-08T16:56:06.735Z",
-          "pubmedLink": null,
-          "signedCOI": false,
-          "updatedAt": "2023-08-15T19:27:49.792Z"
+          "pubmedLink": "",
+          "signedCOI": false
         }
       ],
       "envs": {
         "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "CONTENT_SERVER_TAG": "WEB_PROD",
         "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
-        "STRAPI_TAG": "WEB_PROD",
         "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
       },
       "faqs": [],

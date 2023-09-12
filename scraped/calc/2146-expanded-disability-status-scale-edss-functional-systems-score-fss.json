@@ -1,5 +1,5 @@
 {
-  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
+  "buildId": "5lGULuFSFhUrfWgBpMJq_",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -38,7 +38,7 @@
               ],
               "Original/Primary Reference": [
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/6685237",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/6685237",
                   "text": "Kurtzke JF. Rating neurologic impairment in multiple sclerosis: an expanded disability status scale (EDSS). Neurology. 1983 Nov;33(11):1444-52."
                 }
               ],
@@ -74,12 +74,12 @@
             }
           ],
           "how_to_use": {
-            "pearls_pitfalls_en": "<ul> <li>The Expanded Disability Status Scale (EDSS) works together with the Functional Systems Scale (FSS) to measure MS disease progression.</li> <li>The EDSS assesses the disability status of MS patients on a scale from 0 to 10.</li> <li>Scores from 0 to 3.5 are determined by deficits in eight Functional Systems (FS) in patients who do not have any impairment of ambulation.</li> <li>Scores from 4.0 to 10.0 are determined both by ambulatory ability and FS deficits, which typically correlate with each other.</li> <li>Some providers use only the ambulatory score to determine the overall EDSS score between 4.0 and 10.0.</li> <li>In situations when there is subjectivity and FS deficits do not correspond to a specific EDSS level, a range is provided.</li> </ul>",
+            "pearls_pitfalls_en": "<ul>\n<li>The Expanded Disability Status Scale (EDSS) works together with the Functional Systems Scale (FSS) to measure MS disease progression.</li>\n<li>The EDSS assesses the disability status of MS patients on a scale from 0 to 10.</li>\n<li>Scores from 0 to 3.5 are determined by deficits in eight Functional Systems (FS) in patients who do not have any impairment of ambulation.</li>\n<li>Scores from 4.0 to 10.0 are determined both by ambulatory ability and FS deficits, which typically correlate with each other.</li>\n<li>Some providers use only the ambulatory score to determine the overall EDSS score between 4.0 and 10.0.</li>\n<li>In situations when there is subjectivity and FS deficits do not correspond to a specific EDSS level, a range is provided.</li>\n</ul>",
             "use_case_en": "",
             "why_use_en": ""
           },
           "next_steps": {
-            "advice_en": "<p>Use to measure progression of disease in MS patients.</p> <p>Use to compare outcomes in MS clinical trials.</p>",
+            "advice_en": "<p>Use to measure progression of disease in MS patients.</p>\n<p>Use to compare outcomes in MS clinical trials.</p>",
             "critical_actions_en": "",
             "management_en": ""
           },
@@ -98,16 +98,20 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Multiple Sclerosis"
         ],
         "dosing": false,
-        "equation_logic": "95e1ec6287f7d1ea1f62080f09077112",
-        "equation_logic_text": "var calc_output = [];\n\nvar ambulation = parseFloat(ambulation);\nvar pyramidal = parseFloat(pyramidal);\nvar cerebellar = parseFloat(cerebellar);\nvar brainstem = parseFloat(brainstem);\nvar sensory = parseFloat(sensory);\nvar bowelAndBladder = parseFloat(bowelAndBladder);\nvar visual_input = parseFloat(visual_input);\nvar cerebral = parseFloat(cerebral);\nvar other = parseFloat(other);\n\n\nvar fs = [pyramidal, cerebellar, brainstem, sensory, bowelAndBladder, visual_input, cerebral, other];\n\nvar fsScore = 0;\nvar uncertain = false;\n\nvar g = [];\n\nfor (var i = 0; i < 7; i++) {\n    g[i] = fs.filter(function(val) {\n        return i == val;\n    }).length;\n}\n\nfunction compare(a, b) {\n    for (var i = 0; i < a.length; i++) {\n        var toEval = \"(\" + a[i] + b[i] + \")\";\n        if (!(eval(toEval))) {\n            return false;\n        }\n    }\n    return true;\n}\n\nswitch (true) {\n\n    // 4 or more G4 or higher\n    case ((g[4] + g[5] + g[6]) >= 4):\n        fsScore = [9.0, 10.0];\n        break;\n\n        // 3 or more G4 or higher\n    case ((g[4] + g[5] + g[6]) >= 3):\n        fsScore = [8.0, 9.0];\n        break;\n\n        // More than 1 G4 or pyramidal G5 alone. Higher combos will be caught above. \n    case (((g[4] + g[5] + g[6]) > 1) || (pyramidal == 5)):\n        fsScore = [7.0, 8.0];\n        break;\n\n        // More than 2 G3 or higher\n    case ((g[3] + g[4] + g[5] + g[6]) > 2):\n        fsScore = [6.0, 6.5];\n        break;\n\n        // 1 G5 and rest G0 or G1\n    case (compare(g, [\">=0\", \">=0\", \"==0\", \"==0\", \"==0\", \"==1\", \"==0\"])):\n        fsScore = [5.0, 5.5];\n        break;\n\n        // 1 G4 and rest G0 or G1\n    case (compare(g, [\">=0\", \">=0\", \"==0\", \"==0\", \"==1\", \"==0\", \"==0\"])):\n        fsScore = [4.0, 4.5];\n        break;\n\n        // 1 G3 and 1 G2\n        // 1 G3 and 2 G2\n        // 2 G3 and rest G0 or G1 (** wording is ambig here)\n        // 5 G2 and rest G0 or G1\n    case (\n        (compare(g, [\">=0\", \">=0\", \"==1\", \"==1\", \"==0\", \"==0\", \"==0\"])) ||\n        (compare(g, [\">=0\", \">=0\", \"==2\", \"==1\", \"==0\", \"==0\", \"==0\"])) ||\n        (compare(g, [\">=0\", \">=0\", \"==0\", \"==2\", \"==0\", \"==0\", \"==0\"])) ||\n        (compare(g, [\">=0\", \">=0\", \"==5\", \"==0\", \"==0\", \"==0\", \"==0\"]))\n    ):\n        fsScore = [3.5, 3.5];\n        break;\n\n        // 1 G3, the rest G0 or G1\n        // 3 G2, the rest G0 or G1\n        // 4 G2, the rest G0 or G1\n    case (\n        (compare(g, [\">=0\", \">=0\", \"==0\", \"==1\", \"==0\", \"==0\", \"==0\"])) ||\n        (compare(g, [\">=0\", \">=0\", \"==3\", \"==0\", \"==0\", \"==0\", \"==0\"])) ||\n        (compare(g, [\">=0\", \">=0\", \"==4\", \"==0\", \"==0\", \"==0\", \"==0\"]))\n    ):\n        fsScore = [3.0, 3.0];\n        break;\n\n        // 2 G2, the rest G0 or G1\n    case (compare(g, [\">=0\", \">=0\", \"==2\", \"==0\", \"==0\", \"==0\", \"==0\"])):\n        fsScore = [2.5, 2.5];\n        break;\n\n\n        // 1 G2, the rest G0 or G1\n    case (compare(g, [\">=0\", \">=0\", \"==1\", \"==0\", \"==0\", \"==0\", \"==0\"])):\n        fsScore = [2.0, 2.0];\n        break;\n\n        // More than 2 G1, the rest G0, if cerebral == 1\n        // More than 1 G1, the rest G0, if cerebral == 0\n    case (\n        ((compare(g, [\">=0\", \">2\", \"==0\", \"==0\", \"==0\", \"==0\", \"==0\"])) && (cerebral == 1)) ||\n        ((compare(g, [\">=0\", \">1\", \"==0\", \"==0\", \"==0\", \"==0\", \"==0\"])) && (cerebral === 0))\n    ):\n        fsScore = [1.5, 1.5];\n        break;\n\n        // 7 G0 and 1 G1 if cerebral == 0\n        // 6 G0 and 2 G1 if cerebral == 1\n    case (\n        ((g[0] == 6) && (g[1] == 2) && (cerebral == 1)) ||\n        ((g[0] == 7) && (g[1] == 1) && (cerebral === 0))\n    ):\n        fsScore = [1.0, 1.0];\n        break;\n\n        // 7 G0 and cerebral G1 or 8G0    \n    case (\n        ((g[0] == 7) && (g[1] == 1) && (cerebral == 1)) ||\n        (g[0] == 8)\n    ):\n        fsScore = [0.0, 0.0];\n        break;\n\n        // If score falls to the bottom, there is too little information contained in EDSS to codify it based on FS. However, it is likely that the patient will have ambulatory findings that will inform the DSS and help the clinician arrive at the correct score. \n    default:\n        fsScore = [4.0, 10.0];\n        var uncertain = true;\n}\n\n\nif (fsScore[0] == fsScore[1]) {\n    fsScore = fsScore[0];\n} else {\n    fsScore = String(fsScore[0]) + \" to \" + String(fsScore[1]);\n}\n\nmini_msg += score\nmsg += score;\n\nif (ambulation >= 4) {\n    var score = ambulation;\n} else {\n    var score = fsScore;\n}\n\nvar mini_msg = \"EDSS: \" + score;\nvar msg = \"Ambulation Score: \" + ambulation + \"<br/>\" + \"<br/>Functional Systems Score: \" + fsScore;\n\n\nif (uncertain == true) {\n    msg += \"<br/><br/>This combination of FS deficits is not explicitly defined in the EDSS. Please refer to the original text.\";\n}\n\nvar amb;\nif (score <= 4.5) {\n    amb = 'Normal'\n} else{\n    amb = 'Impaired'\n}\n\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: mini_msg\n});\ncalc_output.push({\n    name: 'EDSS and FSS',\n    value: score,\n    value_text: 'points',\n    message: msg\n});\ncalc_output.push({\n    name: 'ambulation',\n    value: amb,\n    value_text: '',\n    message: 'Level of ambulation'\n})",
+        "equation_logic": "2bf426bcc03de4f755e382d3ddd244b6",
+        "equation_logic_text": "var calc_output = [];\n\nvar ambulation = parseFloat(ambulation);\nvar pyramidal = parseFloat(pyramidal);\nvar cerebellar = parseFloat(cerebellar);\nvar brainstem = parseFloat(brainstem);\nvar sensory = parseFloat(sensory);\nvar bowelAndBladder = parseFloat(bowelAndBladder);\nvar visual_input = parseFloat(visual_input);\nvar cerebral = parseFloat(cerebral);\nvar other = parseFloat(other);\n\n\nvar fs = [pyramidal, cerebellar, brainstem, sensory, bowelAndBladder, visual_input, cerebral, other];\n\nvar fsScore = 0;\nvar uncertain = false;\n\nvar g = [];\n\nfor (var i = 0; i < 7; i++) {\n    g[i] = fs.filter(function(val) {\n        return i == val;\n    }).length;\n}\n\nfunction compare(a, b) {\n    for (var i = 0; i < a.length; i++) {\n        var toEval = \"(\" + a[i] + b[i] + \")\";\n        if (!(eval(toEval))) {\n            return false;\n        }\n    }\n    return true;\n}\n\nswitch (true) {\n\n    // 4 or more G4 or higher\n    case ((g[4] + g[5] + g[6]) >= 4):\n        fsScore = [9.0, 10.0];\n        break;\n\n        // 3 or more G4 or higher\n    case ((g[4] + g[5] + g[6]) >= 3):\n        fsScore = [8.0, 9.0];\n        break;\n\n        // More than 1 G4 or pyramidal G5 alone. Higher combos will be caught above. \n    case (((g[4] + g[5] + g[6]) > 1) || (pyramidal == 5)):\n        fsScore = [7.0, 8.0];\n        break;\n\n        // More than 2 G3 or higher\n    case ((g[3] + g[4] + g[5] + g[6]) > 2):\n        fsScore = [6.0, 6.5];\n        break;\n\n        // 1 G5 and rest G0 or G1\n    case (compare(g, [\">=0\", \">=0\", \"==0\", \"==0\", \"==0\", \"==1\", \"==0\"])):\n        fsScore = [5.0, 5.5];\n        break;\n\n        // 1 G4 and rest G0 or G1\n    case (compare(g, [\">=0\", \">=0\", \"==0\", \"==0\", \"==1\", \"==0\", \"==0\"])):\n        fsScore = [4.0, 4.5];\n        break;\n\n        // 1 G3 and 1 G2\n        // 1 G3 and 2 G2\n        // 2 G3 and rest G0 or G1 (** wording is ambig here)\n        // 5 G2 and rest G0 or G1\n    case (\n        (compare(g, [\">=0\", \">=0\", \"==1\", \"==1\", \"==0\", \"==0\", \"==0\"])) ||\n        (compare(g, [\">=0\", \">=0\", \"==2\", \"==1\", \"==0\", \"==0\", \"==0\"])) ||\n        (compare(g, [\">=0\", \">=0\", \"==0\", \"==2\", \"==0\", \"==0\", \"==0\"])) ||\n        (compare(g, [\">=0\", \">=0\", \"==5\", \"==0\", \"==0\", \"==0\", \"==0\"]))\n    ):\n        fsScore = [3.5, 3.5];\n        break;\n\n        // 1 G3, the rest G0 or G1\n        // 3 G2, the rest G0 or G1\n        // 4 G2, the rest G0 or G1\n    case (\n        (compare(g, [\">=0\", \">=0\", \"==0\", \"==1\", \"==0\", \"==0\", \"==0\"])) ||\n        (compare(g, [\">=0\", \">=0\", \"==3\", \"==0\", \"==0\", \"==0\", \"==0\"])) ||\n        (compare(g, [\">=0\", \">=0\", \"==4\", \"==0\", \"==0\", \"==0\", \"==0\"]))\n    ):\n        fsScore = [3.0, 3.0];\n        break;\n\n        // 2 G2, the rest G0 or G1\n    case (compare(g, [\">=0\", \">=0\", \"==2\", \"==0\", \"==0\", \"==0\", \"==0\"])):\n        fsScore = [2.5, 2.5];\n        break;\n\n\n        // 1 G2, the rest G0 or G1\n    case (compare(g, [\">=0\", \">=0\", \"==1\", \"==0\", \"==0\", \"==0\", \"==0\"])):\n        fsScore = [2.0, 2.0];\n        break;\n\n        // More than 2 G1, the rest G0, if cerebral == 1\n        // More than 1 G1, the rest G0, if cerebral == 0\n    case (\n        ((compare(g, [\">=0\", \">2\", \"==0\", \"==0\", \"==0\", \"==0\", \"==0\"])) && (cerebral == 1)) ||\n        ((compare(g, [\">=0\", \">1\", \"==0\", \"==0\", \"==0\", \"==0\", \"==0\"])) && (cerebral === 0))\n    ):\n        fsScore = [1.5, 1.5];\n        break;\n\n        // 7 G0 and 1 G1 if cerebral == 0\n        // 6 G0 and 2 G1 if cerebral == 1\n    case (\n        ((g[0] == 6) && (g[1] == 2) && (cerebral == 1)) ||\n        ((g[0] == 7) && (g[1] == 1) && (cerebral === 0))\n    ):\n        fsScore = [1.0, 1.0];\n        break;\n\n        // 7 G0 and cerebral G1 or 8G0    \n    case (\n        ((g[0] == 7) && (g[1] == 1) && (cerebral == 1)) ||\n        (g[0] == 8)\n    ):\n        fsScore = [0.0, 0.0];\n        break;\n\n        // If score falls to the bottom, there is too little information contained in EDSS to codify it based on FS. However, it is likely that the patient will have ambulatory findings that will inform the DSS and help the clinician arrive at the correct score. \n    default:\n        fsScore = [4.0, 10.0];\n        var uncertain = true;\n}\n\n\nif (fsScore[0] == fsScore[1]) {\n    fsScore = fsScore[0];\n} else {\n    fsScore = String(fsScore[0]) + \" to \" + String(fsScore[1]);\n}\n\nmini_msg += score\nmsg += score;\n\nif (ambulation >= 4) {\n    var score = ambulation;\n} else {\n    var score = fsScore;\n}\n\nvar mini_msg = \"EDSS: \" + score;\nvar msg = \"Ambulation Score: \" + ambulation + \"<br/>\" + \"<br/>Functional Systems Score: \" + fsScore;\n\n\nif (uncertain == true) {\n    msg += \"<br/><br/>This combination of FS deficits is not explicitly defined in the EDSS. Please refer to the original text.\";\n}\n\nvar amb;\nif (score <= 4.5) {\n    amb = 'Normal'\n} else{\n    amb = 'Impaired'\n}\n\ncalc_output.push({\n    name: 'mini',\n    value: score,\n    value_text: 'points',\n    message: mini_msg\n});\ncalc_output.push({\n    name: '2146_EDSS/FSS for MS_result',\n    value: score,\n    value_text: 'points',\n    message: msg\n});\ncalc_output.push({\n    name: '2146_EDSS/FSS for MS_interpretation',\n    value: amb,\n    value_text: '',\n    message: 'Level of ambulation'\n});",
         "favorite_id": 2146,
         "full_title_en": "Expanded Disability Status Scale (EDSS) / Functional Systems Score (FSS)",
         "input_schema": [
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Expanded Disability Status",
             "subheading_instructions": "",
             "type": "subheading"
@@ -116,7 +120,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Ambulation",
+            "mdcalc_info_concept": null,
             "name": "ambulation",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -181,6 +187,8 @@
             "type": "radio"
           },
           {
+            "inct": null,
+            "option_fhir_rules": null,
             "subheading": "Functional Systems",
             "subheading_instructions": "",
             "type": "subheading"
@@ -189,7 +197,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Pyramidal",
+            "mdcalc_info_concept": null,
             "name": "pyramidal",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -229,7 +239,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Cerebellar",
+            "mdcalc_info_concept": null,
             "name": "cerebellar",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -265,7 +277,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Brainstem",
+            "mdcalc_info_concept": null,
             "name": "brainstem",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -301,7 +315,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Sensory",
+            "mdcalc_info_concept": null,
             "name": "sensory",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -341,7 +357,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Bowel and bladder",
+            "mdcalc_info_concept": null,
             "name": "bowelAndBladder",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -381,7 +399,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Visual",
+            "mdcalc_info_concept": null,
             "name": "visual_input",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -421,7 +441,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Cerebral",
+            "mdcalc_info_concept": null,
             "name": "cerebral",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -457,7 +479,9 @@
             "conditionality": "",
             "default": 0,
             "label_en": "Other",
+            "mdcalc_info_concept": null,
             "name": "other",
+            "option_fhir_rules": null,
             "optional": true,
             "options": [
               {
@@ -475,19 +499,16 @@
           }
         ],
         "instructions_en": "",
+        "isVisibleInListView": true,
+        "is_manual": false,
         "logic_language": "javascript",
-        "logs": [
-          {
-            "message": "fixed typo",
-            "time": "2019-05-31 10:56 AM",
-            "user": "rachel"
-          }
-        ],
         "md5": "2fb6d7837b815bb3ad35f88d52c1b73d",
-        "medium_description_en": "Describes severity of disability in patients with MS.",
+        "medium_description_en": "<p>Describes severity of disability in patients with MS.</p>",
+        "publishedAt": "2022-04-21T20:29:07.467Z",
         "purpose_en": [
           "Diagnosis"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "MS",
           "multiple sclerosis",
@@ -500,7 +521,7 @@
           "keywords_en": "edss, fss, edss/fss, functional systems score, disability scale ms, expanded disability status scale ms, functional systems score ms, expanded disability status scale, edss ms, fss ms, edss multiple sclerosis, fss multiple sclerosis",
           "meta_description_en": "The Expanded Disability Status Scale (EDSS) and the Functional Systems Score (FSS) together describe severity of disability in patients with MS."
         },
-        "short_description_en": "Disability severity in MS.",
+        "short_description_en": "<p>Disability severity in MS.</p>",
         "short_title_en": "EDSS/FSS for Multiple Sclerosis",
         "slug": "expanded-disability-status-scale-edss-functional-systems-score-fss",
         "specialty_en": [
@@ -508,209 +529,158 @@
         ],
         "system_en": [
           "Neurologic"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "93c8394c-4c7e-41ad-89c0-917bab53b95d"
       },
       "contributors": [],
       "creators": [
         {
           "about_en": "<p>John F. Kurtzke, MD, (d. 2015) was professor emeritus of neurology at Georgetown University. He was a leading expert in the study of multiple sclerosis (MS) and a contributor in the creation of the field of neuroepidemiology. Dr. Kurtzke authored over 200 peer-reviewed articles and received multiple awards for MS research including the Charcot Award from the MS International Federation.</p>",
-          "createdAt": "2021-12-23T18:03:17.779Z",
           "deceased": true,
+          "description": "",
           "firstName": "",
+          "img": "",
           "lastName": "",
           "name": "Dr. John F. Kurtzke",
           "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-john-f-kurtzke.jpeg",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
           "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Kurtzke+JF%5BAuthor%5D",
-          "signedCOI": false,
-          "updatedAt": "2022-11-04T18:55:56.084Z"
+          "signedCOI": false
         }
       ],
       "envs": {
         "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "CONTENT_SERVER_TAG": "WEB_PROD",
         "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
-        "STRAPI_TAG": "WEB_PROD",
         "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
       },
       "faqs": [
         {
           "cme_faq": {
             "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
-            "createdAt": "2022-12-16T16:39:54.990Z",
-            "publishedAt": "2022-12-16T16:39:55.697Z",
             "question": "What is MDCalc CME?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:52:48.348Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
-            "createdAt": "2022-12-16T16:40:11.179Z",
-            "publishedAt": "2022-12-16T16:40:11.883Z",
             "question": "Is MDCalc CME accredited?",
-            "type": "Using",
-            "updatedAt": "2023-02-09T18:38:00.345Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
-            "createdAt": "2022-12-16T16:40:27.936Z",
-            "publishedAt": "2022-12-16T16:40:28.851Z",
             "question": "Who can enroll and how?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:12.659Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
-            "createdAt": "2022-12-16T16:40:47.203Z",
-            "publishedAt": "2022-12-16T16:40:47.882Z",
             "question": "What activities can I do to earn CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:27.268Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
-            "createdAt": "2022-12-16T16:40:57.420Z",
-            "publishedAt": "2022-12-16T16:41:02.863Z",
             "question": "Where can I find calcs with which I can earn credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:44.504Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
-            "createdAt": "2022-12-16T16:41:11.874Z",
-            "publishedAt": "2022-12-16T16:41:13.038Z",
             "question": "Where can I see which credits I’ve earned?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:52.153Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
-            "createdAt": "2022-12-16T16:41:33.940Z",
-            "publishedAt": "2022-12-16T16:41:35.646Z",
             "question": "How do I redeem CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:07.237Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
-            "createdAt": "2022-12-16T16:41:59.307Z",
-            "publishedAt": "2022-12-16T16:42:00.078Z",
             "question": "Are CME credits free?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:22.467Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
-            "createdAt": "2022-12-16T16:42:10.712Z",
-            "publishedAt": "2022-12-16T16:42:15.215Z",
             "question": "Where can I see my CME certificates?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:32.826Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>One year from the date of purchase.</p>",
-            "createdAt": "2022-12-16T16:42:52.839Z",
-            "publishedAt": "2022-12-16T16:42:53.641Z",
             "question": "How long do credits in an annual subscription last?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:54:51.655Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
-            "createdAt": "2022-12-16T16:32:44.987Z",
-            "publishedAt": "2022-12-16T16:32:46.006Z",
             "question": "What specialty CME credits are included in the plan?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:33.794Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
-            "createdAt": "2022-12-16T16:33:18.512Z",
-            "publishedAt": "2022-12-16T16:33:19.250Z",
             "question": "I ordered a CME package with a gift card. How does it work?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:53.878Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
-            "createdAt": "2022-12-16T16:44:06.809Z",
-            "publishedAt": "2022-12-16T16:44:07.518Z",
             "question": "What will show on my receipt for CME when it includes a gift card?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:08.549Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
-            "createdAt": "2022-12-16T16:36:44.877Z",
-            "publishedAt": "2022-12-16T16:36:45.950Z",
             "question": "How do I get a refund if I'm not satisfied?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:01.761Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
-            "createdAt": "2022-12-16T16:37:26.433Z",
-            "publishedAt": "2022-12-16T16:37:27.177Z",
             "question": "How do I later upgrade to a different plan if I need more credits?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:27.457Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
-            "createdAt": "2022-12-16T16:44:53.580Z",
-            "publishedAt": "2022-12-16T16:44:56.993Z",
             "question": "Do CME plans auto-renew?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:44.653Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
-            "createdAt": "2022-12-16T16:38:26.466Z",
-            "publishedAt": "2022-12-16T16:38:27.163Z",
             "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:43.762Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
-            "createdAt": "2022-12-16T16:46:21.538Z",
-            "publishedAt": "2022-12-16T16:46:27.759Z",
             "question": "Did the ACCME decide to regulate gift cards?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:56:05.573Z"
+            "type": "Purchasing"
           }
         }
       ],

@@ -1,5 +1,5 @@
 {
-  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
+  "buildId": "5lGULuFSFhUrfWgBpMJq_",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -19,32 +19,32 @@
         "cme_status": "enabled",
         "content": {
           "about": {
-            "evidence_based_medicine_en": "<ul> <li>Original study was published in 1994 and consisted of a retrospective chart review followed by a prospective validation study. The authors reviewed all patients who presented to the ED with an acute knee injury during a 10 month period, excluding those patients who had injuries more than 1 week old, had isolated skin injuries, prior knee surgery, or were returning for re-evaluation. They analyzed 11 clinical variables on 201 patients with knee injuries, 12 (6%) of whom had a fracture on x-ray. From this, they found that combining a fall or blunt trauma mechanism with inability to ambulate or age &lt; 12 or greater &gt; 50 yielded a sensitivity of 100% and specificity of 63%. They prospectively applied these rules to 133 patients and had a sensitivity of 100% and a specificity of 79%. Would have led to reduction in x-ray usage by 78%.</li> <li>Decision rule was prospectively externally validated and compared to the <calculator id='368'>Ottawa Knee Rule</calculator> in 1998. 745 patients with 91 fractures (12.2%) met the Pittsburgh inclusion criteria and yielded a sensitivity of 99%, specificity of 60% while the Ottawa inclusion criteria were met by 750 patients with 87 fractures (11.6%) with a sensitivity of 97% and specificity of 27%.</li> <li>A study in 2005 utilized the Pittsburgh decision rule with triage nurses and physicians. 152 subjects were prospectively enrolled in the study with 13 fractures identified (8.6%). All patients enrolled in the study got an x-ray. The Pittsburgh decision rule would have missed four of 13 fractures with a sensitivity of 77% and specificity 57%. However, one of those fractures was found only on MRI while two others were avulsion or patellar fractures of low clinical significance.</li> <li>Another study done in the Netherlands in 2013 comparing the <calculator id='368'>Ottawa knee</calculator> and Pittsburgh decision rules found that while both had a sensitivity of 86%, the Pittsburgh decision rule had a higher specificity of 51% while the <calculator id='368'>Ottawa Knee Rule</calculator> specificity was 27%.</li> </ul>",
+            "evidence_based_medicine_en": "<ul>\n<li>Original study was published in 1994 and consisted of a retrospective chart review followed by a prospective validation study. The authors reviewed all patients who presented to the ED with an acute knee injury during a 10 month period, excluding those patients who had injuries more than 1 week old, had isolated skin injuries, prior knee surgery, or were returning for re-evaluation. They analyzed 11 clinical variables on 201 patients with knee injuries, 12 (6%) of whom had a fracture on x-ray. From this, they found that combining a fall or blunt trauma mechanism with inability to ambulate or age &lt;12 or greater &gt;50 yielded a sensitivity of 100% and specificity of 63%. They prospectively applied these rules to 133 patients and had a sensitivity of 100% and a specificity of 79%. Would have led to reduction in x-ray usage by 78%.</li>\n<li>Decision rule was prospectively externally validated and compared to the <calculator id=\"368\">Ottawa Knee Rule</calculator> in 1998. 745 patients with 91 fractures (12.2%) met the Pittsburgh inclusion criteria and yielded a sensitivity of 99%, specificity of 60% while the Ottawa inclusion criteria were met by 750 patients with 87 fractures (11.6%) with a sensitivity of 97% and specificity of 27%.</li>\n<li>A study in 2005 utilized the Pittsburgh decision rule with triage nurses and physicians. 152 subjects were prospectively enrolled in the study with 13 fractures identified (8.6%). All patients enrolled in the study got an x-ray. The Pittsburgh decision rule would have missed four of 13 fractures with a sensitivity of 77% and specificity 57%. However, one of those fractures was found only on MRI while two others were avulsion or patellar fractures of low clinical significance.</li>\n<li>Another study done in the Netherlands in 2013 comparing the <calculator id=\"368\">Ottawa knee</calculator> and Pittsburgh decision rules found that while both had a sensitivity of 86%, the Pittsburgh decision rule had a higher specificity of 51% while the <calculator id=\"368\">Ottawa Knee Rule</calculator> specificity was 27%.</li>\n</ul>",
             "formula_en": "<p>Series of Yes/No questions, see below:</p>",
-            "more_info_en": "<div class='table-responsive'> <table class='table table-bordered'> <tbody> <tr> <th>Criteria</th> <th>Response</th> </tr> <tr> <td>Mechanism Blunt Trauma or Fall</td> <td>Y/N</td> </tr> <tr> <td>Age &lt; 12</td> <td>Y/N</td> </tr> <tr> <td>Age &gt; 50</td> <td>Y/N</td> </tr> <tr> <td>Unable to bear weight in ED? (4 steps, limping is allowed)</td> <td>Y/N</td> </tr> </tbody> </table> </div>",
+            "more_info_en": "<div class=\"table-responsive\">\n<table class=\"table table-bordered\">\n<tbody>\n<tr>\n<th>Criteria</th>\n<th>Response</th>\n</tr>\n<tr>\n<td>Mechanism Blunt Trauma or Fall</td>\n<td>Y/N</td>\n</tr>\n<tr>\n<td>Age &lt;12</td>\n<td>Y/N</td>\n</tr>\n<tr>\n<td>Age &gt;50</td>\n<td>Y/N</td>\n</tr>\n<tr>\n<td>Unable to bear weight in ED? (4 steps, limping is allowed)</td>\n<td>Y/N</td>\n</tr>\n</tbody>\n</table>\n</div>",
             "references_list": {
               "Clinical Practice Guidelines": [],
               "Manufacturer Website": [],
               "Original/Primary Reference": [
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/8060409",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/8060409",
                   "text": "Seaberg DC and Jackson R. Clinical decision rule for knee radiographs. American Journal of Emergency Medicine. 1994; 12(5): 541-3."
                 }
               ],
               "Other References": [
                 {
-                  "href": "http://onlinelibrary.wiley.com/doi/10.1111/j.1553-2712.2010.00897.x/full",
+                  "href": "https://onlinelibrary.wiley.com/doi/10.1111/j.1553-2712.2010.00897.x/full",
                   "text": "Simon LV, et al. The Pittsburgh decision rule: triage nurse versus physician utilization in the emergency department. Journal of Emergency Medicine. 2006; 31(3): 247-50."
                 },
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/23399332",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/23399332",
                   "text": "Cheung TC, et al. Diagnostic accuracy and reproducibility of the Ottawa knee rule vs the Pittsburgh decision rule. 2013; 31: 641-5."
                 }
               ],
               "Outcomes": [],
               "Validation": [
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/9656942",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/9656942",
                   "text": "Seaberg DC, et al. Multicenter comparison of two clinical decision rules for the use of radiography in acute, high-risk knee injuries. Annals of Emergency Medicine. 1998; 32(1): 8-13."
                 }
               ],
@@ -64,13 +64,13 @@
             }
           ],
           "how_to_use": {
-            "pearls_pitfalls_en": "<ul> <li>The Pittsburgh knee rules were derived to aid in the efficient use of radiography in acute knee injuries.</li> <li>Found in most studies to have a higher specificity than the <calculator id='368'>Ottawa Knee Rule</calculator>, which would mean fewer x-rays would be needed, while maintaining a sensitivity close to 100%.</li> <li>Not useful in children under age 12 as all these patients would require x-rays by the Pittsburgh decision rules.</li> <li>The Pittsburgh decision rules are not as well validated as the <calculator id='368'>Ottawa Knee Rule</calculator> with fewer external validation studies.</li> </ul>",
+            "pearls_pitfalls_en": "<ul>\n<li>The Pittsburgh knee rules were derived to aid in the efficient use of radiography in acute knee injuries.</li>\n<li>Found in most studies to have a higher specificity than the <calculator id=\"368\">Ottawa Knee Rule</calculator>, which would mean fewer x-rays would be needed, while maintaining a sensitivity close to 100%.</li>\n<li>Not useful in children under age 12 as all these patients would require x-rays by the Pittsburgh decision rules.</li>\n<li>The Pittsburgh decision rules are not as well validated as the <calculator id=\"368\">Ottawa Knee Rule</calculator> with fewer external validation studies.</li>\n</ul>",
             "use_case_en": "<p>The Pittsburgh decision rules can be applied to all patients with an acute knee injury in the past 1 week old, without prior knee surgery or ED evaluation.</p>",
-            "why_use_en": "<ul> <li>Patients without criteria for imaging by the Pittsburgh decision rules are highly unlikely to have a fracture and do not need plain radiographs.</li> <li>It has a higher specificity than the <calculator id='368'>Ottawa Knee Rule</calculator>, reducing the number of false positives.</li> <li>Application of the Pittsburgh decision rules can cut down on the number of unnecessary radiographs by up to 78%.</li> </ul> "
+            "why_use_en": "<ul>\n<li>Patients without criteria for imaging by the Pittsburgh decision rules are highly unlikely to have a fracture and do not need plain radiographs.</li>\n<li>It has a higher specificity than the <calculator id=\"368\">Ottawa Knee Rule</calculator>, reducing the number of false positives.</li>\n<li>Application of the Pittsburgh decision rules can cut down on the number of unnecessary radiographs by up to 78%.</li>\n</ul>"
           },
           "next_steps": {
             "advice_en": "<p>Patients who do not meet the Pittsburgh decision rules do not need an x-ray. If one of the conditions are met, then x-ray is recommended.</p>",
-            "critical_actions_en": "<p>Patients who do not meet the Pittsburgh decision rules do not need an x-ray. If one of the conditions are met, then x-ray is recommended.</p> ",
+            "critical_actions_en": "<p>Patients who do not meet the Pittsburgh decision rules do not need an x-ray. If one of the conditions are met, then x-ray is recommended.</p>",
             "management_en": "<p>For significant non-bony injuries, often crutches and a knee immobilizer can be helpful to assist with ambulation.</p>"
           },
           "related_resources": {
@@ -84,20 +84,24 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Trauma"
         ],
         "dosing": false,
-        "equation_logic": "97a67de0610247c88d98778f599629d2",
-        "equation_logic_text": "var calc_output=[]; var msg=''; var mini_msg=''; var output_score=parseInt(mechanism)+parseInt(age_12)+parseInt(age_50)+parseInt(bear_weight_unable); if(mechanism==0){msg='If mechanism is not met, the Pittsburgh Knee Rules cannot be applied.';mini_msg='Rule cannot be applied.'} else if(mechanism==1){if(output_score==1){msg='If the only criteria met is \\u201cmechanism\\u201d, the Pittsburgh Knee Rules suggest knee imaging is not indicated for this patient.';mini_msg='Imaging not indicated.'}if(output_score>1){msg='If any of the above criteria are met along with \\u201cmechanism\\u201d, the Pittsburgh Knee Rules suggest this patient may need knee imaging.';mini_msg='May need imaging.'}} calc_output.push({name:'mini',value:output_score,value_text:'points',message:mini_msg}); calc_output.push({name:'Pittsburgh Knee Rules',value:output_score,value_text:'points',message:msg});",
+        "equation_logic": "233780abdc54595d70fd5181de0e4c90",
+        "equation_logic_text": "var calc_output=[]; \nvar msg=''; \nvar mini_msg=''; \nvar output_score=parseInt(mechanism)+parseInt(age_12)+parseInt(age_50)+parseInt(bear_weight_unable); \nif(mechanism==0){\n    msg='If mechanism is not met, the Pittsburgh Knee Rules cannot be applied.';mini_msg='Rule cannot be applied.'\n} else if(mechanism==1){\n    if(output_score==1){\n        msg='If the only criteria met is \\u201cmechanism\\u201d, the Pittsburgh Knee Rules suggest knee imaging is not indicated for this patient.';\n        mini_msg='Imaging not indicated.'\n    }\n    if(output_score>1){\n        msg='If any of the above criteria are met along with \\u201cmechanism\\u201d, the Pittsburgh Knee Rules suggest this patient may need knee imaging.';\n        mini_msg='May need imaging.'\n    }\n}\ncalc_output.push({\n    name:'mini',\n    value:output_score,\n    value_text:'points',\n    message:mini_msg\n}); \ncalc_output.push({\n    name:'1042_Pittsburgh Knee Rules_result',\n    value:output_score,\n    value_text:'points',\n    message:msg\n});",
         "favorite_id": 1042,
         "full_title_en": "Pittsburgh Knee Rules",
         "input_schema": [
           {
             "conditionality": null,
             "default": 0,
-            "label_en": "Mechanism: blunt trauma or fall",
+            "label_en": "<p>Mechanism: blunt trauma or fall</p>",
+            "md_calc_info_concept": null,
             "name": "mechanism",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -116,8 +120,10 @@
           {
             "conditionality": null,
             "default": 0,
-            "label_en": "Age < 12",
+            "label_en": "<p>Age &lt;12</p>",
+            "md_calc_info_concept": null,
             "name": "age_12",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -136,8 +142,10 @@
           {
             "conditionality": null,
             "default": 0,
-            "label_en": "Age > 50",
+            "label_en": "<p>Age &gt;50</p>",
+            "md_calc_info_concept": null,
             "name": "age_50",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -156,8 +164,10 @@
           {
             "conditionality": null,
             "default": 0,
-            "label_en": "Unable to bear weight in ED (4 steps, limping is allowed)",
+            "label_en": "<p>Unable to bear weight in ED (4 steps, limping is allowed)</p>",
+            "md_calc_info_concept": null,
             "name": "bear_weight_unable",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -175,14 +185,17 @@
           }
         ],
         "instructions_en": "",
+        "isVisibleInListView": true,
+        "is_manual": false,
         "logic_language": "javascript",
-        "logs": [],
         "md5": "ff60a37ccbc0eeb11d34c0600b3bd267",
         "medium_description_en": "<p>Defines when knee x-rays are unnecessary, based on the Pittsburgh rules.</p>",
+        "publishedAt": "2022-04-21T20:28:56.632Z",
         "purpose_en": [
           "Diagnosis",
           "Rule Out"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "ortho",
           "patella"
@@ -192,7 +205,7 @@
           "keywords_en": "pittsburgh knee, pittsburgh knee rule, pittsburgh knee calc, pitt knee imaging, pittsburgh Xray, knee injury XR, knee trauma rule, knee trauma imaging pitt, r/o knee fx",
           "meta_description_en": "The Pittsburgh Knee Rules define when knee x-rays are unnecessary after minor trauma."
         },
-        "short_description_en": "Sensitive; rules out imaging in many.",
+        "short_description_en": "<p>Sensitive; rules out imaging in many.</p>",
         "short_title_en": "Pittsburgh Knee Rules",
         "slug": "pittsburgh-knee-rules",
         "specialty_en": [
@@ -206,225 +219,171 @@
         ],
         "system_en": [
           "Musculoskeletal"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "09ca962e-a80d-4a88-99e6-a840e2748cb3"
       },
       "contributors": [
         {
           "contributors_page": false,
-          "createdAt": "2021-12-22T21:20:30.365Z",
           "description": "<p>Calvin Hwang, MD, is a clinical assistant professor in the department of orthopaedic surgery at the Stanford University School of Medicine. A native Californian, Dr. Hwang grew up in San Diego and attended Stanford University before venturing off to Case Western Reserve University School of Medicine, where he received his medical degree. He completed his residency at the Stanford/Kaiser Emergency Medicine program and fellowship in sports medicine at Stanford. He is currently a team physician for the Golden State Warriors, Stanford Football and Stanford Volleyball.</p>",
           "firstName": "Calvin",
           "hasDisclosure": [],
           "img": "calvin-hwang.jpg",
           "lastName": "Hwang",
           "name": "Calvin Hwang, MD",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
           "signedCOI": true,
           "status": "Past",
-          "target": "calvin-hwang",
-          "updatedAt": "2023-04-06T20:26:46.100Z"
+          "target": "calvin-hwang"
         }
       ],
       "creators": [
         {
           "about_en": "<p>David Seaberg, MD, CPE, FACEP, is a professor and dean of the University of Tennessee College of Medicine, Chattanooga and a practicing emergency physician. He is also Senior Vice President of the Erlanger Health System. Previously, he was the residency director and chair of the Department of Emergency Medicine at the University of Florida and served as president and chairman of the Board of the American College of Emergency Physicians. Dr. Seaberg has over 130 publications, book chapters and abstracts and has received numerous teaching and research awards.</p><p><br/><br/></p>",
-          "createdAt": "2021-12-23T18:03:17.779Z",
-          "deceased": null,
+          "deceased": false,
+          "description": "",
           "firstName": "",
+          "img": "",
           "lastName": "",
           "name": "David Seaberg, MD",
           "photo_en": "https://cdn-web-img.mdcalc.com/people/david-seaberg-md.jpeg",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
           "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Seaberg+DC%5BAuthor%5D",
-          "signedCOI": false,
-          "updatedAt": "2021-11-17T15:11:35.298Z"
+          "signedCOI": false
         }
       ],
       "envs": {
         "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "CONTENT_SERVER_TAG": "WEB_PROD",
         "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
-        "STRAPI_TAG": "WEB_PROD",
         "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
       },
       "faqs": [
         {
           "cme_faq": {
             "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
-            "createdAt": "2022-12-16T16:39:54.990Z",
-            "publishedAt": "2022-12-16T16:39:55.697Z",
             "question": "What is MDCalc CME?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:52:48.348Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
-            "createdAt": "2022-12-16T16:40:11.179Z",
-            "publishedAt": "2022-12-16T16:40:11.883Z",
             "question": "Is MDCalc CME accredited?",
-            "type": "Using",
-            "updatedAt": "2023-02-09T18:38:00.345Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
-            "createdAt": "2022-12-16T16:40:27.936Z",
-            "publishedAt": "2022-12-16T16:40:28.851Z",
             "question": "Who can enroll and how?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:12.659Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
-            "createdAt": "2022-12-16T16:40:47.203Z",
-            "publishedAt": "2022-12-16T16:40:47.882Z",
             "question": "What activities can I do to earn CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:27.268Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
-            "createdAt": "2022-12-16T16:40:57.420Z",
-            "publishedAt": "2022-12-16T16:41:02.863Z",
             "question": "Where can I find calcs with which I can earn credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:44.504Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
-            "createdAt": "2022-12-16T16:41:11.874Z",
-            "publishedAt": "2022-12-16T16:41:13.038Z",
             "question": "Where can I see which credits I’ve earned?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:52.153Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
-            "createdAt": "2022-12-16T16:41:33.940Z",
-            "publishedAt": "2022-12-16T16:41:35.646Z",
             "question": "How do I redeem CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:07.237Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
-            "createdAt": "2022-12-16T16:41:59.307Z",
-            "publishedAt": "2022-12-16T16:42:00.078Z",
             "question": "Are CME credits free?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:22.467Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
-            "createdAt": "2022-12-16T16:42:10.712Z",
-            "publishedAt": "2022-12-16T16:42:15.215Z",
             "question": "Where can I see my CME certificates?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:32.826Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>One year from the date of purchase.</p>",
-            "createdAt": "2022-12-16T16:42:52.839Z",
-            "publishedAt": "2022-12-16T16:42:53.641Z",
             "question": "How long do credits in an annual subscription last?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:54:51.655Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
-            "createdAt": "2022-12-16T16:32:44.987Z",
-            "publishedAt": "2022-12-16T16:32:46.006Z",
             "question": "What specialty CME credits are included in the plan?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:33.794Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
-            "createdAt": "2022-12-16T16:33:18.512Z",
-            "publishedAt": "2022-12-16T16:33:19.250Z",
             "question": "I ordered a CME package with a gift card. How does it work?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:53.878Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
-            "createdAt": "2022-12-16T16:44:06.809Z",
-            "publishedAt": "2022-12-16T16:44:07.518Z",
             "question": "What will show on my receipt for CME when it includes a gift card?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:08.549Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
-            "createdAt": "2022-12-16T16:36:44.877Z",
-            "publishedAt": "2022-12-16T16:36:45.950Z",
             "question": "How do I get a refund if I'm not satisfied?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:01.761Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
-            "createdAt": "2022-12-16T16:37:26.433Z",
-            "publishedAt": "2022-12-16T16:37:27.177Z",
             "question": "How do I later upgrade to a different plan if I need more credits?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:27.457Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
-            "createdAt": "2022-12-16T16:44:53.580Z",
-            "publishedAt": "2022-12-16T16:44:56.993Z",
             "question": "Do CME plans auto-renew?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:44.653Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
-            "createdAt": "2022-12-16T16:38:26.466Z",
-            "publishedAt": "2022-12-16T16:38:27.163Z",
             "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:43.762Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
-            "createdAt": "2022-12-16T16:46:21.538Z",
-            "publishedAt": "2022-12-16T16:46:27.759Z",
             "question": "Did the ACCME decide to regulate gift cards?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:56:05.573Z"
+            "type": "Purchasing"
           }
         }
       ],

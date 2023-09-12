@@ -1,5 +1,5 @@
 {
-  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
+  "buildId": "5lGULuFSFhUrfWgBpMJq_",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -240,168 +240,6 @@
           }
         ],
         "instructions_en": "",
-        "logs": [
-          {
-            "message": "changed units",
-            "time": "2022-02-24T09:11:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "creator edits",
-            "time": "2022-02-18T11:18:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "re-ordered creators",
-            "time": "2022-02-17T15:49:00.000Z",
-            "user": "jonah"
-          },
-          {
-            "message": "changed author",
-            "time": "2022-02-07T10:20:00.000Z",
-            "user": "sang"
-          },
-          {
-            "message": "added content",
-            "time": "2022-01-17T14:11:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "edits to units",
-            "time": "2022-01-05T10:25:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "added why use",
-            "time": "2021-12-21T12:35:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "edited logic",
-            "time": "2021-12-07T12:46:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "edited logic",
-            "time": "2021-12-07T12:45:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "logic edits",
-            "time": "2021-12-07T12:38:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "edited logic",
-            "time": "2021-12-07T11:14:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "logic",
-            "time": "2021-12-07T11:09:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "updated units",
-            "time": "2021-12-07T10:56:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "changed units",
-            "time": "2021-12-07T10:36:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "removed creatinines",
-            "time": "2021-12-07T10:26:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "updated evidence",
-            "time": "2021-12-06T18:55:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "added description",
-            "time": "2021-12-06T18:11:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "added to logic",
-            "time": "2021-12-06T17:58:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "troubleshooting",
-            "time": "2021-11-29T17:38:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "troubleshooting",
-            "time": "2021-11-29T17:36:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "troubleshooting",
-            "time": "2021-11-29T17:35:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "troubleshooting",
-            "time": "2021-11-29T17:14:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "troubleshooting",
-            "time": "2021-11-29T17:13:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "troubleshooting",
-            "time": "2021-11-29T17:12:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "troubleshooting",
-            "time": "2021-11-29T17:11:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "edited logic",
-            "time": "2021-11-24T11:54:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "edited logic",
-            "time": "2021-11-24T11:10:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "edited logic",
-            "time": "2021-11-24T11:05:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "added creator",
-            "time": "2021-11-23T15:01:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "added logic",
-            "time": "2021-11-23T14:02:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "added inputs",
-            "time": "2021-11-23T11:08:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "created calc id",
-            "time": "2021-11-23T09:51:00.000Z",
-            "user": "michael"
-          }
-        ],
         "md5": "57081dc1c74f4a63ddca54d3336d4e1a",
         "medium_description_en": "<p>Estimates risk of 5-year all-cause mortality in patients with HIV, an update to the <a href=\"https://www.mdcalc.com/veterans-aging-cohort-study-vacs-index\" title=\"Veterans Aging Cohort Study (VACS) Index\" target=\"_blank\" rel=\"noopener\">Veterans Aging Cohort Study (VACS) 1.0 Index</a>.</p>",
         "purpose_en": [
@@ -432,216 +270,160 @@
       "creators": [
         {
           "about_en": "<p>Amy Justice, MD, PhD, is the CNH Long Professor of Medicine and of Public Health at Yale University and a Staff Physician at the VA Connecticut Healthcare System. As principal investigator of the Veterans Aging Cohort Study (VACS), she has more than 20 years of experience developing and validating predictive indices using electronic health record data.</p>",
-          "createdAt": "2022-05-18T14:03:02.339Z",
-          "deceased": null,
+          "deceased": false,
+          "description": "",
           "firstName": "",
+          "img": "",
           "lastName": "",
           "name": "Amy C. Justice, MD, PhD",
           "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-amy-justice.jpeg",
-          "publishedAt": "2022-05-18T14:03:04.883Z",
           "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Justice+AC%5BAuthor%5D",
-          "signedCOI": false,
-          "updatedAt": "2022-05-18T14:03:04.893Z"
+          "signedCOI": false
         },
         {
           "about_en": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;&lt;p&gt;Janet Tate, M.P.H., Sc.D., is the director of the biostatistics core of the Veterans Aging Cohort Study (VACS) at the Yale School of Medicine in Connecticut. Her work includes structural modeling, imputation, longitudinal analyses, and competing risk analyses. &lt;/p&gt;&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:833,&quot;3&quot;:{&quot;1&quot;:0},&quot;9&quot;:0,&quot;11&quot;:3,&quot;12&quot;:0}\">Janet Tate, M.P.H., Sc.D., is the director of the biostatistics core of the Veterans Aging Cohort Study (VACS) at the Yale School of Medicine in Connecticut. Her work includes structural modeling, imputation, longitudinal analyses, and competing risk analyses.</span></p>",
-          "createdAt": "2022-04-26T14:28:30.327Z",
-          "deceased": null,
+          "deceased": false,
+          "description": "",
           "firstName": "",
+          "img": "",
           "lastName": "",
           "name": "Janet Tate, M.P.H., Sc.D.",
           "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-janet-tate-01.jpg",
-          "publishedAt": "2022-04-26T14:28:33.744Z",
           "pubmedLink": "https://pubmed.ncbi.nlm.nih.gov/?term=Tate+JP&cauthor_id=31565954",
-          "signedCOI": false,
-          "updatedAt": "2022-05-18T14:09:02.877Z"
+          "signedCOI": false
         }
       ],
       "envs": {
         "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "CONTENT_SERVER_TAG": "WEB_PROD",
         "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
-        "STRAPI_TAG": "WEB_PROD",
         "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
       },
       "faqs": [
         {
           "cme_faq": {
             "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
-            "createdAt": "2022-12-16T16:39:54.990Z",
-            "publishedAt": "2022-12-16T16:39:55.697Z",
             "question": "What is MDCalc CME?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:52:48.348Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
-            "createdAt": "2022-12-16T16:40:11.179Z",
-            "publishedAt": "2022-12-16T16:40:11.883Z",
             "question": "Is MDCalc CME accredited?",
-            "type": "Using",
-            "updatedAt": "2023-02-09T18:38:00.345Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
-            "createdAt": "2022-12-16T16:40:27.936Z",
-            "publishedAt": "2022-12-16T16:40:28.851Z",
             "question": "Who can enroll and how?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:12.659Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
-            "createdAt": "2022-12-16T16:40:47.203Z",
-            "publishedAt": "2022-12-16T16:40:47.882Z",
             "question": "What activities can I do to earn CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:27.268Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
-            "createdAt": "2022-12-16T16:40:57.420Z",
-            "publishedAt": "2022-12-16T16:41:02.863Z",
             "question": "Where can I find calcs with which I can earn credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:44.504Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
-            "createdAt": "2022-12-16T16:41:11.874Z",
-            "publishedAt": "2022-12-16T16:41:13.038Z",
             "question": "Where can I see which credits I’ve earned?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:52.153Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
-            "createdAt": "2022-12-16T16:41:33.940Z",
-            "publishedAt": "2022-12-16T16:41:35.646Z",
             "question": "How do I redeem CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:07.237Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
-            "createdAt": "2022-12-16T16:41:59.307Z",
-            "publishedAt": "2022-12-16T16:42:00.078Z",
             "question": "Are CME credits free?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:22.467Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
-            "createdAt": "2022-12-16T16:42:10.712Z",
-            "publishedAt": "2022-12-16T16:42:15.215Z",
             "question": "Where can I see my CME certificates?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:32.826Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>One year from the date of purchase.</p>",
-            "createdAt": "2022-12-16T16:42:52.839Z",
-            "publishedAt": "2022-12-16T16:42:53.641Z",
             "question": "How long do credits in an annual subscription last?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:54:51.655Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
-            "createdAt": "2022-12-16T16:32:44.987Z",
-            "publishedAt": "2022-12-16T16:32:46.006Z",
             "question": "What specialty CME credits are included in the plan?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:33.794Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
-            "createdAt": "2022-12-16T16:33:18.512Z",
-            "publishedAt": "2022-12-16T16:33:19.250Z",
             "question": "I ordered a CME package with a gift card. How does it work?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:53.878Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
-            "createdAt": "2022-12-16T16:44:06.809Z",
-            "publishedAt": "2022-12-16T16:44:07.518Z",
             "question": "What will show on my receipt for CME when it includes a gift card?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:08.549Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
-            "createdAt": "2022-12-16T16:36:44.877Z",
-            "publishedAt": "2022-12-16T16:36:45.950Z",
             "question": "How do I get a refund if I'm not satisfied?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:01.761Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
-            "createdAt": "2022-12-16T16:37:26.433Z",
-            "publishedAt": "2022-12-16T16:37:27.177Z",
             "question": "How do I later upgrade to a different plan if I need more credits?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:27.457Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
-            "createdAt": "2022-12-16T16:44:53.580Z",
-            "publishedAt": "2022-12-16T16:44:56.993Z",
             "question": "Do CME plans auto-renew?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:44.653Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
-            "createdAt": "2022-12-16T16:38:26.466Z",
-            "publishedAt": "2022-12-16T16:38:27.163Z",
             "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:43.762Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
-            "createdAt": "2022-12-16T16:46:21.538Z",
-            "publishedAt": "2022-12-16T16:46:27.759Z",
             "question": "Did the ACCME decide to regulate gift cards?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:56:05.573Z"
+            "type": "Purchasing"
           }
         }
       ],
@@ -654,290 +436,257 @@
       "isCMECalc": false,
       "measurements": [
         {
-          "conversion": "1",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 120,
-          "error_max_si": 120,
-          "error_max_us": 120,
-          "error_min": 0.001,
-          "error_min_si": 0.001,
-          "error_min_us": 0.001,
-          "name": "Age",
-          "normal_max_si": 0,
-          "normal_max_us": 0,
-          "normal_min_si": 0,
-          "normal_min_us": 0,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
-          "unit": "age",
-          "units_si": "years",
-          "units_us": "years",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 100,
-          "warn_max_si": 100,
-          "warn_max_us": 100,
-          "warn_min": 0.1,
-          "warn_min_si": 0.1,
-          "warn_min_us": 0.1
-        },
-        {
-          "conversion": "1",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 1000,
-          "error_max_si": 1000,
-          "error_max_us": 1000,
-          "error_min": 1,
-          "error_min_si": 1,
-          "error_min_us": 1,
-          "name": "Alanine Aminotransferase",
-          "normal_max_si": 35,
-          "normal_max_us": 35,
-          "normal_min_si": 1,
-          "normal_min_us": 1,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
-          "unit": "ALT",
-          "units_si": "U/L",
-          "units_us": "U/L",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 400,
-          "warn_max_si": 400,
-          "warn_max_us": 400,
-          "warn_min": 4,
-          "warn_min_si": 4,
-          "warn_min_us": 4
-        },
-        {
-          "conversion": "10",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 7,
-          "error_max_si": 70,
-          "error_max_us": 7,
-          "error_min": 0,
-          "error_min_si": 0,
-          "error_min_us": 0,
-          "name": "Albumin",
-          "normal_max_si": 55,
-          "normal_max_us": 5.5,
-          "normal_min_si": 35,
-          "normal_min_us": 3.5,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
-          "unit": "alb",
-          "units_si": "g/L",
-          "units_us": "g/dL",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 6,
-          "warn_max_si": 60,
-          "warn_max_us": 6,
-          "warn_min": 1,
-          "warn_min_si": 10,
-          "warn_min_us": 1
-        },
-        {
-          "conversion": "1",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 10000,
-          "error_max_si": 10000,
-          "error_max_us": 10000,
-          "error_min": 1,
-          "error_min_si": 1,
-          "error_min_us": 1,
-          "name": "Aspartate Aminotransferase",
-          "normal_max_si": 41,
-          "normal_max_us": 41,
-          "normal_min_si": 15,
-          "normal_min_us": 15,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
-          "unit": "AST",
-          "units_si": "U/L",
-          "units_us": "U/L",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 4000,
-          "warn_max_si": 4000,
-          "warn_max_us": 4000,
-          "warn_min": 4,
-          "warn_min_si": 4,
-          "warn_min_us": 4
-        },
-        {
-          "conversion": "1",
-          "createdAt": "2022-04-21T19:32:18.786Z",
-          "error_max": 75,
-          "error_max_si": 75,
-          "error_max_us": 75,
-          "error_min": 0,
-          "error_min_si": 0,
-          "error_min_us": 0,
-          "name": "bmi_vacs2",
-          "normal_max_si": 35,
-          "normal_max_us": 35,
-          "normal_min_si": 15,
-          "normal_min_us": 15,
-          "publishedAt": "2022-04-21T19:32:21.436Z",
-          "unit": "bmi_vacs2",
-          "units_si": "kg/m²",
-          "units_us": "kg/m²",
-          "updatedAt": "2022-04-21T19:32:21.462Z",
-          "warn_max": 40,
-          "warn_max_si": 40,
-          "warn_max_us": 40,
-          "warn_min": 0,
-          "warn_min_si": 0,
-          "warn_min_us": 0
-        },
-        {
-          "conversion": "1",
-          "createdAt": "2022-04-21T19:38:14.258Z",
-          "error_max": 1500,
-          "error_max_si": 1500,
-          "error_max_us": 1500,
-          "error_min": 0,
-          "error_min_si": 0,
-          "error_min_us": 0,
-          "name": "cd4_vacs2",
-          "normal_max_si": 1200,
-          "normal_max_us": 1200,
-          "normal_min_si": 600,
-          "normal_min_us": 600,
-          "publishedAt": "2022-04-21T19:50:57.198Z",
-          "unit": "cd4_vacs2",
-          "units_si": "× 10⁶ cells/L",
-          "units_us": "× 10⁶ cells/L",
-          "updatedAt": "2022-04-21T19:50:57.229Z",
-          "warn_max": 1500,
-          "warn_max_si": 1500,
-          "warn_max_us": 1500,
-          "warn_min": 0,
-          "warn_min_si": 0,
-          "warn_min_us": 0
-        },
-        {
-          "conversion": "1",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 160,
-          "error_max_si": 160,
-          "error_max_us": 160,
-          "error_min": 0,
-          "error_min_si": 0,
-          "error_min_us": 0,
-          "name": "gfr",
-          "normal_max_si": 0,
-          "normal_max_us": 0,
-          "normal_min_si": 0,
-          "normal_min_us": 0,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
-          "unit": "gfr",
-          "units_si": "mL/min/1.73 m²",
-          "units_us": "mL/min/1.73 m²",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 100000,
-          "warn_max_si": 100000,
-          "warn_max_us": 100000,
-          "warn_min": 0,
-          "warn_min_si": 0,
-          "warn_min_us": 0
-        },
-        {
           "conversion": "0.6206",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 40,
+          "error_max": "40",
           "error_max_si": 24.824,
-          "error_max_us": 40,
-          "error_min": 0,
+          "error_max_us": "40",
+          "error_min": "0",
           "error_min_si": 0,
-          "error_min_us": 0,
+          "error_min_us": "0",
           "name": "hemoglobin",
-          "normal_max_si": 11.2,
-          "normal_max_us": 18,
-          "normal_min_si": 7.4,
-          "normal_min_us": 12,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "normal_max_si": "11.2",
+          "normal_max_us": "18",
+          "normal_min_si": "7.4",
+          "normal_min_us": "12",
           "unit": "hemoglobin",
           "units_si": "mmol/L",
           "units_us": "g/dL",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 20,
+          "warn_max": "20",
           "warn_max_si": 12.412,
-          "warn_max_us": 20,
-          "warn_min": 0,
+          "warn_max_us": "20",
+          "warn_min": "0",
           "warn_min_si": 0,
-          "warn_min_us": 0
+          "warn_min_us": "0"
         },
         {
           "conversion": "1",
-          "createdAt": "2022-04-21T19:52:23.113Z",
-          "error_max": 10000000,
-          "error_max_si": 10000000,
-          "error_max_us": 10000000,
-          "error_min": 0,
-          "error_min_si": 0,
-          "error_min_us": 0,
-          "name": "hiv_rna",
-          "normal_max_si": 10000000,
-          "normal_max_us": 10000000,
-          "normal_min_si": 0,
-          "normal_min_us": 0,
-          "publishedAt": "2022-04-21T19:52:42.146Z",
-          "unit": "hiv_rna",
-          "units_si": "copies/mL",
-          "units_us": "copies/mL",
-          "updatedAt": "2022-04-21T19:52:42.182Z",
-          "warn_max": 10000000,
-          "warn_max_si": 10000000,
-          "warn_max_us": 10000000,
-          "warn_min": 0,
-          "warn_min_si": 0,
-          "warn_min_us": 0
-        },
-        {
-          "conversion": "1",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 3200,
-          "error_max_si": 3200,
-          "error_max_us": 3200,
-          "error_min": 1,
+          "error_max": "1000",
+          "error_max_si": 1000,
+          "error_max_us": "1000",
+          "error_min": "1",
           "error_min_si": 1,
-          "error_min_us": 1,
-          "name": "Platelet Count",
-          "normal_max_si": 350,
-          "normal_max_us": 350,
-          "normal_min_si": 150,
-          "normal_min_us": 150,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
-          "unit": "plt",
-          "units_si": "× 10⁹/L",
-          "units_us": "× 10³/µL",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 750,
-          "warn_max_si": 750,
-          "warn_max_us": 750,
-          "warn_min": 10,
+          "error_min_us": "1",
+          "name": "Alanine Aminotransferase",
+          "normal_max_si": "35",
+          "normal_max_us": "35",
+          "normal_min_si": "1",
+          "normal_min_us": "1",
+          "unit": "ALT",
+          "units_si": "U/L",
+          "units_us": "U/L",
+          "warn_max": "400",
+          "warn_max_si": 400,
+          "warn_max_us": "400",
+          "warn_min": "4",
+          "warn_min_si": 4,
+          "warn_min_us": "4"
+        },
+        {
+          "conversion": "10",
+          "error_max": "7",
+          "error_max_si": 70,
+          "error_max_us": "7",
+          "error_min": "0",
+          "error_min_si": 0,
+          "error_min_us": "0",
+          "name": "Albumin",
+          "normal_max_si": "55",
+          "normal_max_us": "5.5",
+          "normal_min_si": "35",
+          "normal_min_us": "3.5",
+          "unit": "alb",
+          "units_si": "g/L",
+          "units_us": "g/dL",
+          "warn_max": "6",
+          "warn_max_si": 60,
+          "warn_max_us": "6",
+          "warn_min": "1",
           "warn_min_si": 10,
-          "warn_min_us": 10
+          "warn_min_us": "1"
         },
         {
           "conversion": "1",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 500,
+          "error_max": "120",
+          "error_max_si": 120,
+          "error_max_us": "120",
+          "error_min": "0.001",
+          "error_min_si": 0.001,
+          "error_min_us": "0.001",
+          "name": "Age",
+          "normal_max_si": "0",
+          "normal_max_us": "0",
+          "normal_min_si": "0",
+          "normal_min_us": "0",
+          "unit": "age",
+          "units_si": "years",
+          "units_us": "years",
+          "warn_max": "100",
+          "warn_max_si": 100,
+          "warn_max_us": "100",
+          "warn_min": "0.1",
+          "warn_min_si": 0.1,
+          "warn_min_us": "0.1"
+        },
+        {
+          "conversion": "1",
+          "error_max": "160",
+          "error_max_si": 160,
+          "error_max_us": "160",
+          "error_min": "0",
+          "error_min_si": 0,
+          "error_min_us": "0",
+          "name": "gfr",
+          "normal_max_si": "0",
+          "normal_max_us": "0",
+          "normal_min_si": "0",
+          "normal_min_us": "0",
+          "unit": "gfr",
+          "units_si": "mL/min/1.73 m²",
+          "units_us": "mL/min/1.73 m²",
+          "warn_max": "100000",
+          "warn_max_si": 100000,
+          "warn_max_us": "100000",
+          "warn_min": "0",
+          "warn_min_si": 0,
+          "warn_min_us": "0"
+        },
+        {
+          "conversion": "1",
+          "error_max": "10000",
+          "error_max_si": 10000,
+          "error_max_us": "10000",
+          "error_min": "1",
+          "error_min_si": 1,
+          "error_min_us": "1",
+          "name": "Aspartate Aminotransferase",
+          "normal_max_si": "41",
+          "normal_max_us": "41",
+          "normal_min_si": "15",
+          "normal_min_us": "15",
+          "unit": "AST",
+          "units_si": "U/L",
+          "units_us": "U/L",
+          "warn_max": "4000",
+          "warn_max_si": 4000,
+          "warn_max_us": "4000",
+          "warn_min": "4",
+          "warn_min_si": 4,
+          "warn_min_us": "4"
+        },
+        {
+          "conversion": "1",
+          "error_max": "500",
           "error_max_si": 500,
-          "error_max_us": 500,
-          "error_min": 0.0001,
+          "error_max_us": "500",
+          "error_min": "0.0001",
           "error_min_si": 0.0001,
-          "error_min_us": 0.0001,
+          "error_min_us": "0.0001",
           "name": "White Blood Cell Count",
-          "normal_max_si": 10.7,
-          "normal_max_us": 10.7,
-          "normal_min_si": 3.7,
-          "normal_min_us": 3.7,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "normal_max_si": "10.7",
+          "normal_max_us": "10.7",
+          "normal_min_si": "3.7",
+          "normal_min_us": "3.7",
           "unit": "wbc",
           "units_si": "× 10⁹ cells/L",
           "units_us": "× 10³ cells/µL",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 100,
+          "warn_max": "100",
           "warn_max_si": 100,
-          "warn_max_us": 100,
-          "warn_min": 0.1,
+          "warn_max_us": "100",
+          "warn_min": "0.1",
           "warn_min_si": 0.1,
-          "warn_min_us": 0.1
+          "warn_min_us": "0.1"
+        },
+        {
+          "conversion": "1",
+          "error_max": "75",
+          "error_max_si": 75,
+          "error_max_us": "75",
+          "error_min": "0",
+          "error_min_si": 0,
+          "error_min_us": "0",
+          "name": "bmi_vacs2",
+          "normal_max_si": "35",
+          "normal_max_us": "35",
+          "normal_min_si": "15",
+          "normal_min_us": "15",
+          "unit": "bmi_vacs2",
+          "units_si": "kg/m²",
+          "units_us": "kg/m²",
+          "warn_max": "40",
+          "warn_max_si": 40,
+          "warn_max_us": "40",
+          "warn_min": "0",
+          "warn_min_si": 0,
+          "warn_min_us": "0"
+        },
+        {
+          "conversion": "1",
+          "error_max": "1500",
+          "error_max_si": 1500,
+          "error_max_us": "1500",
+          "error_min": "0",
+          "error_min_si": 0,
+          "error_min_us": "0",
+          "name": "cd4_vacs2",
+          "normal_max_si": "1200",
+          "normal_max_us": "1200",
+          "normal_min_si": "600",
+          "normal_min_us": "600",
+          "unit": "cd4_vacs2",
+          "units_si": "× 10⁶ cells/L",
+          "units_us": "× 10⁶ cells/L",
+          "warn_max": "1500",
+          "warn_max_si": 1500,
+          "warn_max_us": "1500",
+          "warn_min": "0",
+          "warn_min_si": 0,
+          "warn_min_us": "0"
+        },
+        {
+          "conversion": "1",
+          "error_max": "10000000",
+          "error_max_si": 10000000,
+          "error_max_us": "10000000",
+          "error_min": "0",
+          "error_min_si": 0,
+          "error_min_us": "0",
+          "name": "hiv_rna",
+          "normal_max_si": "10000000",
+          "normal_max_us": "10000000",
+          "normal_min_si": "0",
+          "normal_min_us": "0",
+          "unit": "hiv_rna",
+          "units_si": "copies/mL",
+          "units_us": "copies/mL",
+          "warn_max": "10000000",
+          "warn_max_si": 10000000,
+          "warn_max_us": "10000000",
+          "warn_min": "0",
+          "warn_min_si": 0,
+          "warn_min_us": "0"
+        },
+        {
+          "conversion": "1",
+          "error_max": "3200",
+          "error_max_si": 3200,
+          "error_max_us": "3200",
+          "error_min": "1",
+          "error_min_si": 1,
+          "error_min_us": "1",
+          "name": "Platelet Count",
+          "normal_max_si": "350",
+          "normal_max_us": "350",
+          "normal_min_si": "150",
+          "normal_min_us": "150",
+          "unit": "plt",
+          "units_si": "× 10⁹/L",
+          "units_us": "× 10³/µL",
+          "warn_max": "750",
+          "warn_max_si": 750,
+          "warn_max_us": "750",
+          "warn_min": "10",
+          "warn_min_si": 10,
+          "warn_min_us": "10"
         }
       ],
       "relCalcs": [

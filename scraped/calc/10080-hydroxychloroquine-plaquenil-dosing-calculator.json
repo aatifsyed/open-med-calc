@@ -1,5 +1,5 @@
 {
-  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
+  "buildId": "5lGULuFSFhUrfWgBpMJq_",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -126,183 +126,6 @@
         "instructions_en": "<p>This calculator is for double-checking hydroxychloroquine dosing, and should NOT be used as the primary means for ordering.</p>",
         "isVisibleInListView": true,
         "logic_language": "javascript",
-        "logs": [
-          {
-            "message": "edited red boc",
-            "time": "2020-04-22T18:30:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "edited tipd",
-            "time": "2020-04-22T15:03:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "edited tips",
-            "time": "2020-04-22T15:02:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "edited warning",
-            "time": "2020-03-26T13:02:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "removed extra spacing in instructions",
-            "time": "2020-03-25T16:43:00.000Z",
-            "user": "allyssa"
-          },
-          {
-            "message": "edited note ",
-            "time": "2020-03-25T16:39:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "added fda note",
-            "time": "2020-03-25T16:30:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "edited content",
-            "time": "2020-03-18T11:35:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "added covid tags",
-            "time": "2020-03-18T11:07:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "added covid message",
-            "time": "2020-03-18T11:03:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "removed joshua young",
-            "time": "2019-05-17T14:57:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "added pharmacy tag",
-            "time": "2019-02-18T18:15:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "added reviewer",
-            "time": "2019-01-14T15:07:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "fixed syntax (eq logic review)",
-            "time": "2019-01-03T14:06:00.000Z",
-            "user": "rachel"
-          },
-          {
-            "message": "update description to \"maximum dose\"",
-            "time": "2018-12-18T13:42:00.000Z",
-            "user": "tester"
-          },
-          {
-            "message": "removed 3rd column result for doses <5",
-            "time": "2018-11-13T15:13:00.000Z",
-            "user": "rachel"
-          },
-          {
-            "message": "added red box warning per GW",
-            "time": "2018-11-12T17:15:00.000Z",
-            "user": "rachel"
-          },
-          {
-            "message": "revised note about lowering dose in result",
-            "time": "2018-11-12T10:19:00.000Z",
-            "user": "rachel"
-          },
-          {
-            "message": "revised note about 20-yr risk in result",
-            "time": "2018-11-12T10:17:00.000Z",
-            "user": "rachel"
-          },
-          {
-            "message": "fixed HTML in result",
-            "time": "2018-11-12T10:06:00.000Z",
-            "user": "rachel"
-          },
-          {
-            "message": "added links",
-            "time": "2018-11-09T12:41:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "2nd round eidts",
-            "time": "2018-11-09T12:38:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "edited logic",
-            "time": "2018-11-09T12:37:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "edited logic",
-            "time": "2018-11-09T12:34:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "rounded mini result",
-            "time": "2018-10-29T10:49:00.000Z",
-            "user": "rachel"
-          },
-          {
-            "message": "revised result (mg instead of mg/kg)",
-            "time": "2018-10-22T14:42:00.000Z",
-            "user": "rachel"
-          },
-          {
-            "message": "revised mini result",
-            "time": "2018-10-22T13:21:00.000Z",
-            "user": "rachel"
-          },
-          {
-            "message": "revised mini result",
-            "time": "2018-10-22T13:20:00.000Z",
-            "user": "rachel"
-          },
-          {
-            "message": "edited e",
-            "time": "2018-09-19T12:43:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "equation logic edited",
-            "time": "2018-09-19T12:23:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "1st round edits",
-            "time": "2018-09-18T17:54:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "edited reference",
-            "time": "2018-09-18T17:14:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "1st round edits",
-            "time": "2018-09-18T17:12:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "removed 2nd creator",
-            "time": "2018-09-13T13:38:00.000Z",
-            "user": "rachel"
-          },
-          {
-            "message": "new calc build",
-            "time": "2018-08-07T17:47:00.000Z",
-            "user": "rachel"
-          }
-        ],
         "md5": "bac948d983431a7cc88f6403bcb6d314",
         "medium_description_en": "<p>Calculates maximum daily dose of hydroxychloroquine to reduce of retinopathy.</p>",
         "publishedAt": "2022-04-21T20:28:15.409Z",
@@ -343,235 +166,174 @@
       "contributors": [
         {
           "contributors_page": false,
-          "createdAt": "2021-12-22T21:20:30.365Z",
           "description": "<p>Edmund Tsui, MD, is an assistant professor of ophthalmology at the Stein Eye Institute at the University of California, Los Angeles. He was previously a uveitis fellow at the Proctor Foundation at the University of California, San Francisco. Dr. Tsui obtained his medical degree from the Geisel School of Medicine at Dartmouth and completed his ophthalmology residency training at NYU where he was elected chief resident. He is also a social media editor for <i>Ophthalmology</i>. His research interests include the use of multimodal ophthalmic imaging to diagnose and monitor uveitis.</p>",
           "firstName": "Edmund",
           "hasDisclosure": [],
           "img": "edmund-tsui.jpg",
           "lastName": "Tsui",
           "name": "Edmund Tsui, MD",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
           "signedCOI": true,
           "status": "Current",
-          "target": "edmund-tsui",
-          "updatedAt": "2023-04-06T20:25:53.319Z"
+          "target": "edmund-tsui"
         },
         {
           "contributors_page": false,
-          "createdAt": "2021-12-22T21:20:30.365Z",
           "description": "<p>Priya Patel, MD, is currently a cornea fellow at Emory University in Atlanta, GA. She completed her ophthalmology residency at the New York University School of Medicine, where she was chief resident. A native of New Jersey, Dr. Patel attended Duke University for her undergraduate studies followed by medical school at Rutgers New Jersey Medical School. Her interests include healthcare accessibility and resident education.</p>",
           "firstName": "Priya",
           "hasDisclosure": [],
           "img": "priya-patel.jpg",
           "lastName": "Patel",
           "name": "Priya Patel, MD",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
           "signedCOI": true,
           "status": "Current",
-          "target": "priya-patel",
-          "updatedAt": "2023-04-06T20:24:12.630Z"
+          "target": "priya-patel"
         }
       ],
       "creators": [
         {
           "about_en": "<p>Ronald B. Melles, MD, is an ophthalmologist and researcher at Kaiser Permanente Redwood City Medical Center in Redwood City, California. Dr. Melles has published extensively on hydroxychloroquine retinopathy.</p>",
-          "createdAt": "2021-12-23T18:03:17.779Z",
-          "deceased": null,
+          "deceased": false,
+          "description": "",
           "firstName": "",
+          "img": "",
           "lastName": "",
           "name": "Dr. Ronald B. Melles",
           "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-ronald-b-melles.jpg",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
           "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Melles+RB%5BAuthor%5D",
-          "signedCOI": false,
-          "updatedAt": "2021-11-17T15:11:35.298Z"
+          "signedCOI": false
         }
       ],
       "envs": {
         "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "CONTENT_SERVER_TAG": "WEB_PROD",
         "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
-        "STRAPI_TAG": "WEB_PROD",
         "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
       },
       "faqs": [
         {
           "cme_faq": {
             "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
-            "createdAt": "2022-12-16T16:39:54.990Z",
-            "publishedAt": "2022-12-16T16:39:55.697Z",
             "question": "What is MDCalc CME?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:52:48.348Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
-            "createdAt": "2022-12-16T16:40:11.179Z",
-            "publishedAt": "2022-12-16T16:40:11.883Z",
             "question": "Is MDCalc CME accredited?",
-            "type": "Using",
-            "updatedAt": "2023-02-09T18:38:00.345Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
-            "createdAt": "2022-12-16T16:40:27.936Z",
-            "publishedAt": "2022-12-16T16:40:28.851Z",
             "question": "Who can enroll and how?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:12.659Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
-            "createdAt": "2022-12-16T16:40:47.203Z",
-            "publishedAt": "2022-12-16T16:40:47.882Z",
             "question": "What activities can I do to earn CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:27.268Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
-            "createdAt": "2022-12-16T16:40:57.420Z",
-            "publishedAt": "2022-12-16T16:41:02.863Z",
             "question": "Where can I find calcs with which I can earn credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:44.504Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
-            "createdAt": "2022-12-16T16:41:11.874Z",
-            "publishedAt": "2022-12-16T16:41:13.038Z",
             "question": "Where can I see which credits I’ve earned?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:52.153Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
-            "createdAt": "2022-12-16T16:41:33.940Z",
-            "publishedAt": "2022-12-16T16:41:35.646Z",
             "question": "How do I redeem CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:07.237Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
-            "createdAt": "2022-12-16T16:41:59.307Z",
-            "publishedAt": "2022-12-16T16:42:00.078Z",
             "question": "Are CME credits free?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:22.467Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
-            "createdAt": "2022-12-16T16:42:10.712Z",
-            "publishedAt": "2022-12-16T16:42:15.215Z",
             "question": "Where can I see my CME certificates?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:32.826Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>One year from the date of purchase.</p>",
-            "createdAt": "2022-12-16T16:42:52.839Z",
-            "publishedAt": "2022-12-16T16:42:53.641Z",
             "question": "How long do credits in an annual subscription last?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:54:51.655Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
-            "createdAt": "2022-12-16T16:32:44.987Z",
-            "publishedAt": "2022-12-16T16:32:46.006Z",
             "question": "What specialty CME credits are included in the plan?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:33.794Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
-            "createdAt": "2022-12-16T16:33:18.512Z",
-            "publishedAt": "2022-12-16T16:33:19.250Z",
             "question": "I ordered a CME package with a gift card. How does it work?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:53.878Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
-            "createdAt": "2022-12-16T16:44:06.809Z",
-            "publishedAt": "2022-12-16T16:44:07.518Z",
             "question": "What will show on my receipt for CME when it includes a gift card?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:08.549Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
-            "createdAt": "2022-12-16T16:36:44.877Z",
-            "publishedAt": "2022-12-16T16:36:45.950Z",
             "question": "How do I get a refund if I'm not satisfied?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:01.761Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
-            "createdAt": "2022-12-16T16:37:26.433Z",
-            "publishedAt": "2022-12-16T16:37:27.177Z",
             "question": "How do I later upgrade to a different plan if I need more credits?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:27.457Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
-            "createdAt": "2022-12-16T16:44:53.580Z",
-            "publishedAt": "2022-12-16T16:44:56.993Z",
             "question": "Do CME plans auto-renew?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:44.653Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
-            "createdAt": "2022-12-16T16:38:26.466Z",
-            "publishedAt": "2022-12-16T16:38:27.163Z",
             "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:43.762Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
-            "createdAt": "2022-12-16T16:46:21.538Z",
-            "publishedAt": "2022-12-16T16:46:27.759Z",
             "question": "Did the ACCME decide to regulate gift cards?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:56:05.573Z"
+            "type": "Purchasing"
           }
         }
       ],
@@ -584,56 +346,50 @@
       "isCMECalc": true,
       "measurements": [
         {
-          "conversion": "1",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 100000,
-          "error_max_si": 100000,
-          "error_max_us": 100000,
-          "error_min": -1,
-          "error_min_si": -1,
-          "error_min_us": -1,
-          "name": "Dosage",
-          "normal_max_si": 0,
-          "normal_max_us": 0,
-          "normal_min_si": 0,
-          "normal_min_us": 0,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
-          "unit": "drugmg",
-          "units_si": "mg",
-          "units_us": "mg",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 1000,
-          "warn_max_si": 1000,
-          "warn_max_us": 1000,
-          "warn_min": 0,
-          "warn_min_si": 0,
-          "warn_min_us": 0
-        },
-        {
           "conversion": "0.453592",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 600,
+          "error_max": "600",
           "error_max_si": 272.1552,
-          "error_max_us": 600,
-          "error_min": 55,
+          "error_max_us": "600",
+          "error_min": "55",
           "error_min_si": 24.94756,
-          "error_min_us": 55,
+          "error_min_us": "55",
           "name": "Weight, adult",
-          "normal_max_si": 113,
-          "normal_max_us": 250,
-          "normal_min_si": 45,
-          "normal_min_us": 100,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "normal_max_si": "113",
+          "normal_max_us": "250",
+          "normal_min_si": "45",
+          "normal_min_us": "100",
           "unit": "wt_adult",
           "units_si": "kg",
           "units_us": "lbs",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 300,
+          "warn_max": "300",
           "warn_max_si": 136.0776,
-          "warn_max_us": 300,
-          "warn_min": 55,
+          "warn_max_us": "300",
+          "warn_min": "55",
           "warn_min_si": 24.94756,
-          "warn_min_us": 55
+          "warn_min_us": "55"
+        },
+        {
+          "conversion": "1",
+          "error_max": "100000",
+          "error_max_si": 100000,
+          "error_max_us": "100000",
+          "error_min": "-1",
+          "error_min_si": -1,
+          "error_min_us": "-1",
+          "name": "Dosage",
+          "normal_max_si": "0",
+          "normal_max_us": "0",
+          "normal_min_si": "0",
+          "normal_min_us": "0",
+          "unit": "drugmg",
+          "units_si": "mg",
+          "units_us": "mg",
+          "warn_max": "1000",
+          "warn_max_si": 1000,
+          "warn_max_us": "1000",
+          "warn_min": "0",
+          "warn_min_si": 0,
+          "warn_min_us": "0"
         }
       ],
       "relCalcs": [

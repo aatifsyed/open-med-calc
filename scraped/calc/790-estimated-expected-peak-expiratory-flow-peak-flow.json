@@ -1,5 +1,5 @@
 {
-  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
+  "buildId": "5lGULuFSFhUrfWgBpMJq_",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -22,14 +22,14 @@
         "content": {
           "about": {
             "evidence_based_medicine_en": "",
-            "formula_en": "<p dir=\"ltr\"><strong>Ages 5-7 years and any ethnicity:</strong></p>\n<p dir=\"ltr\">PEFR = [(Height, cm - 100) &times; 5] + 100</p>\n<p></p>\n<p dir=\"ltr\"><strong>Ages 8-80 years and Caucasian, African American, or Mexican American ethnicity:</strong></p>\n<p dir=\"ltr\">See regression equations in Tables 4-5 in <a href=\"https://www.atsjournals.org/doi/abs/10.1164/ajrccm.159.1.9712108?url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org&amp;rfr_dat=cr_pub%3Dpubmed#readcube-epdf\" target=\"_blank\">Hankinson 1999</a> (NHANES III).</p>\n<p></p>\n<p dir=\"ltr\"><strong>Ages 8-17 years, all other ethnicities:</strong></p>\n<p dir=\"ltr\">PEFR = [(Height, cm - 100) &times; 5] + 100</p>\n<p></p>\n<p dir=\"ltr\"><strong>Ages 18-80 years, all other ethnicities:</strong></p>\n<p dir=\"ltr\">PEFR, male = {[(Height, m &times; 5.48) + 1.58] - [Age &times; 0.041]} &times; 60</p>\n<p dir=\"ltr\">PEFR, female = {[(Height, m &times; 3.72) + 2.24] - [Age &times; 0.03]} &times; 60</p>\n<p dir=\"ltr\"></p>\n<p dir=\"ltr\"><strong>Peak flow variability:</strong></p>\n<p dir=\"ltr\">Peak flow variability, % = (actual peak flow rate / estimated peak flow rate) x 100</p>\n<p dir=\"ltr\">This calculator uses the equations from <a href=\"https://www.atsjournals.org/doi/abs/10.1164/ajrccm.159.1.9712108?url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org&amp;rfr_dat=cr_pub%3Dpubmed#readcube-epdf\" target=\"_blank\">Hankinson 1999</a> (NHANES III) where available, and equations from <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/6859656\" target=\"_blank\">Knudson 1983</a> where there are deficits in the data (patients not&nbsp;8-80 years and Caucasian, African American, or Mexican American ethnicity).</p>\n<p dir=\"ltr\"></p>\n<p dir=\"ltr\"></p>",
+            "formula_en": "<p dir=\"ltr\"><strong>Ages 5-7 years and any ethnicity:</strong></p>\n<p dir=\"ltr\">PEFR = [(Height, cm - 100) &times; 5] + 100</p>\n<p></p>\n<p dir=\"ltr\"><strong>Ages 8-80 years and Caucasian, African American, or Mexican American ethnicity:</strong></p>\n<p dir=\"ltr\">See regression equations in Tables 4-5 in <a href=\"https://www.atsjournals.org/doi/abs/10.1164/ajrccm.159.1.9712108?url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org&amp;rfr_dat=cr_pub%3Dpubmed#readcube-epdf\" target=\"_blank\" rel=\"noopener\">Hankinson 1999</a> (NHANES III).</p>\n<p></p>\n<p dir=\"ltr\"><strong>Ages 8-17 years, all other ethnicities:</strong></p>\n<p dir=\"ltr\">PEFR = [(Height, cm - 100) &times; 5] + 100</p>\n<p></p>\n<p dir=\"ltr\"><strong>Ages 18-80 years, all other ethnicities:</strong></p>\n<p dir=\"ltr\">PEFR, male = {[(Height, m &times; 5.48) + 1.58] - [Age &times; 0.041]} &times; 60</p>\n<p dir=\"ltr\">PEFR, female = {[(Height, m &times; 3.72) + 2.24] - [Age &times; 0.03]} &times; 60</p>\n<p dir=\"ltr\"></p>\n<p dir=\"ltr\"><strong>Peak flow variability:</strong></p>\n<p dir=\"ltr\">Peak flow variability, % = (actual peak flow rate / estimated peak flow rate) x 100</p>\n<p dir=\"ltr\">This calculator uses the equations from <a href=\"https://www.atsjournals.org/doi/abs/10.1164/ajrccm.159.1.9712108?url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org&amp;rfr_dat=cr_pub%3Dpubmed#readcube-epdf\" target=\"_blank\" rel=\"noopener\">Hankinson 1999</a> (NHANES III) where available, and equations from <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/6859656\" target=\"_blank\" rel=\"noopener\">Knudson 1983</a> where there are deficits in the data (patients not&nbsp;8-80 years and Caucasian, African American, or Mexican American ethnicity).</p>\n<p dir=\"ltr\"></p>\n<p dir=\"ltr\"></p>",
             "more_info_en": "<p>Interpretation:</p>\n<table width=\"409\" height=\"124\">\n<tbody>\n<tr>\n<td><strong>Variability</strong></td>\n<td><strong>Peak flow zone</strong></td>\n</tr>\n<tr>\n<td>&gt;80%</td>\n<td>Green</td>\n</tr>\n<tr>\n<td>50-80%</td>\n<td>Yellow</td>\n</tr>\n<tr>\n<td>&lt;50%</td>\n<td>Red</td>\n</tr>\n</tbody>\n</table>",
             "references_list": {
               "Clinical Practice Guidelines": [],
               "Manufacturer Website": [],
               "Original/Primary Reference": [
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/6859656 ",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/6859656 ",
                   "text": "Knudson RJ, Lebowitz MD, Holberg CJ, Burrows B. Changes in the normal maximal expiratory flow-volume curve with growth and aging. Am Rev Respir Dis. 1983. Jun;127(6):725-34."
                 },
                 {
@@ -51,7 +51,7 @@
                   "text": "Høst A, Høst AH, Ibsen T. Peak expiratory flow rate in healthy children aged 6-17 years. Acta Paediatr. 1994;83(12):1255-7."
                 },
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed?term=11805367",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed?term=11805367",
                   "text": "Balasubramanian S, Ravikumar NR, Chakkarapani E, Shivbalan SO. Peak expiratory flow rate in children--a ready reckoner. Indian Pediatr. 2002. Jan;39(1):104-6."
                 }
               ],
@@ -78,7 +78,7 @@
             "why_use_en": "<p><span id=\"docs-internal-guid-3968cb3c-7fff-0bc9-7afd-2b19dae02bfe\">Asthma exacerbation severity can be quantified by comparing a patient&rsquo;s current peak expiratory flow rate (PEFR) to their most recent personal best value. In the absence of a known recent personal best, this calculator can be used to estimate an expected &ldquo;personal best.&rdquo; The difference between the predicted and actual value can therefore help the clinician determine how severe the current exacerbation is. </span></p>"
           },
           "next_steps": {
-            "advice_en": "Patients with much lower actual peak flow than estimated typically require further treatment of their asthma.",
+            "advice_en": "<p>Patients with much lower actual peak flow than estimated typically require further treatment of their asthma.</p>",
             "critical_actions_en": "<p><span id=\"docs-internal-guid-929714ee-7fff-62f2-92dd-4cc9bd820125\">Assessment of peak flow must not delay administration of critical treatments for acute asthma exacerbations.</span></p>",
             "management_en": ""
           },
@@ -93,19 +93,23 @@
           },
           "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Asthma",
           "COPD"
         ],
         "dosing": false,
-        "equation_logic": "15130292c5958992301bff65087fbf8d",
-        "equation_logic_text": "var calc_output = [];\nvar age = parseFloat(age);\nvar sex = parseFloat(sex);\nvar ht = parseFloat(height);\nvar race = parseFloat(race);\nvar pef;\nvar lln;\nvar units;\n\nif (age < 8){\n  pef = (ht - 100)*5 + 100;\n  lln = pef;\n}\nelse if (sex == 0 && race == 0 && age >= 8 && age < 18){\n  pef = -3.6181 + 0.60644*age + -0.016846*Math.pow(age,2) + 0.00018623*Math.pow(ht,2);\n  lln = -3.6181 + 0.60644*age + -0.016846*Math.pow(age,2) + 0.00012148*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 0 && race == 0 && age >= 18){\n  pef =  0.9267 + 0.06929*age + -0.001031*Math.pow(age,2) + 0.00018623*Math.pow(ht,2);\n  lln =  0.9267 + 0.06929*age + -0.001031*Math.pow(age,2) + 0.00012148*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 0 && race == 1 && age >= 8 && age < 18){\n  pef = -1.2398 +  0.16375*age + 0*Math.pow(age,2) + 0.00019746*Math.pow(ht,2);\n  lln = -1.2398 +  0.16375*age + 0*Math.pow(age,2) + 0.00012160*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 0 && race == 1 && age >= 18){\n  pef = 1.3597 + 0.03458*age + -0.000847*Math.pow(age,2) + 0.00019746*Math.pow(ht,2);\n  lln = 1.3597 + 0.03458*age + -0.000847*Math.pow(age,2) + 0.00012160*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 0 && race == 2 && age >= 8 && age < 18){\n  pef = -3.2549 + 0.47495*age + -0.013193*Math.pow(age,2) + 0.00022203*Math.pow(ht,2);\n  lln = -3.2549 + 0.47495*age + -0.013193*Math.pow(age,2) + 0.00014611*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 0 && race == 2 && age >= 18){\n  pef =  0.2401 + 0.06174*age + -0.001023*Math.pow(age,2) + 0.00022203*Math.pow(ht,2);\n  lln =  0.2401 + 0.06174*age + -0.001023*Math.pow(age,2) + 0.00014611*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 1 && race == 0 && age >= 8 && age < 20){\n  pef = -0.5962 + -0.12357*age + 0.013135*Math.pow(age,2) + 0.00024962*Math.pow(ht,2);\n  lln = -0.5962 + -0.12357*age + 0.013135*Math.pow(age,2) + 0.00017635*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 1 && race == 0 && age >= 20){\n  pef =  1.0523 + 0.08272*age + -0.001301*Math.pow(age,2) + 0.00024962*Math.pow(ht,2);\n  lln =  1.0523 + 0.08272*age + -0.001301*Math.pow(age,2) + 0.00017635*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 1 && race == 1 && age >= 8 && age < 20){\n  pef = -0.2684 +  -0.28016*age + 0.018202*Math.pow(age,2) + 0.00027333*Math.pow(ht,2);\n  lln = -0.2684 +  -0.28016*age + 0.018202*Math.pow(age,2) + 0.00018938*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 1 && race == 1 && age >= 20){\n  pef = 2.2257 + -0.04082*age + 0*Math.pow(age,2) + 0.00027333*Math.pow(ht,2);\n  lln = 2.2257 + -0.04082*age + 0*Math.pow(age,2) + 0.00018938*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 1 && race == 2 && age >= 8 && age < 20){\n  pef = -0.9537 + -0.19602*age + 0.014497*Math.pow(age,2) + 0.00030243*Math.pow(ht,2);\n  lln = -0.9537 + -0.19602*age + 0.014497*Math.pow(age,2) + 0.00021833*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 1 && race == 2 && age >= 20){\n  pef =  0.0870 + 0.06580*age + -0.001195*Math.pow(age,2) + 0.00030243*Math.pow(ht,2);\n  lln =  0.0870 + 0.06580*age + -0.001195*Math.pow(age,2) + 0.00021833*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (race == 3 && age >= 8 && age <= 17){\n   pef = (ht - 100)*5 + 100;\n   lln = pef;\n}\nelse if (race == 3 && age >= 8 && age <= 17){\n   pef = (ht - 100)*5 + 100;\n   lln = pef;\n}\nelse if (race == 3 && age > 17 && sex == 1){\n  ht = ht/100;\n  pef = (((ht*5.48) + 1.58) - (age*0.041))*60;\n  lln = pef;\n}\nelse if (race == 3 && age > 17 && sex == 0){\n  ht = ht/100;\n  pef = (((ht*3.72) + 2.24) - (age*0.03))*60;\n  lln = pef;\n}\n\nif (UOMSYSTEM == false){\n  pef = pef/60;\n  lln = lln/60;\n  units = 'L/sec';\n  pef = pef.toFixed(2);\n  lln = lln.toFixed(2);\n}\nif (UOMSYSTEM == true){\n  pef = pef.toFixed(0);\n  lln = lln.toFixed(0);\n  units = 'L/min';\n}\n\nvar percent = (apfr/pef)*100;\npercent = percent.toFixed(0);\n\nif (percent > 80){\n  zone = 'Green';\n}\nelse if (percent < 50){\n  zone = 'Red';\n}\nelse {\n  zone = 'Yellow';\n}\n\ncalc_output.push({ name: 'mini', value: pef, value_text: units, message: 'Estimated Peak Flow'  });\n\ncalc_output.push({ name: 'Estimated Peak Flow', value: pef, value_text: units, message: 'Estimated Peak Flow (see Evidence for equation used)'});\n\nif (lln != pef){\ncalc_output.push({ name: 'Estimated Peak Flow LLN', value: lln, value_text: units, message: 'Lower limit of normal'});\n}\nif (apfr > 0){\ncalc_output.push({ name: 'Peak flow zone', value: percent, value_text: '%', message: 'Peak flow variability - ' + zone + ' zone'});\n}",
+        "equation_logic": "39659bba008b4556ea97f0ec9cf64212",
+        "equation_logic_text": "var calc_output = [];\nvar age = parseFloat(age);\nvar sex = parseFloat(sex);\nvar ht = parseFloat(height);\nvar race = parseFloat(race);\nvar pef;\nvar lln;\nvar units;\n\nif (age < 8){\n  pef = (ht - 100)*5 + 100;\n  lln = pef;\n}\nelse if (sex == 0 && race == 0 && age >= 8 && age < 18){\n  pef = -3.6181 + 0.60644*age + -0.016846*Math.pow(age,2) + 0.00018623*Math.pow(ht,2);\n  lln = -3.6181 + 0.60644*age + -0.016846*Math.pow(age,2) + 0.00012148*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 0 && race == 0 && age >= 18){\n  pef =  0.9267 + 0.06929*age + -0.001031*Math.pow(age,2) + 0.00018623*Math.pow(ht,2);\n  lln =  0.9267 + 0.06929*age + -0.001031*Math.pow(age,2) + 0.00012148*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 0 && race == 1 && age >= 8 && age < 18){\n  pef = -1.2398 +  0.16375*age + 0*Math.pow(age,2) + 0.00019746*Math.pow(ht,2);\n  lln = -1.2398 +  0.16375*age + 0*Math.pow(age,2) + 0.00012160*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 0 && race == 1 && age >= 18){\n  pef = 1.3597 + 0.03458*age + -0.000847*Math.pow(age,2) + 0.00019746*Math.pow(ht,2);\n  lln = 1.3597 + 0.03458*age + -0.000847*Math.pow(age,2) + 0.00012160*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 0 && race == 2 && age >= 8 && age < 18){\n  pef = -3.2549 + 0.47495*age + -0.013193*Math.pow(age,2) + 0.00022203*Math.pow(ht,2);\n  lln = -3.2549 + 0.47495*age + -0.013193*Math.pow(age,2) + 0.00014611*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 0 && race == 2 && age >= 18){\n  pef =  0.2401 + 0.06174*age + -0.001023*Math.pow(age,2) + 0.00022203*Math.pow(ht,2);\n  lln =  0.2401 + 0.06174*age + -0.001023*Math.pow(age,2) + 0.00014611*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 1 && race == 0 && age >= 8 && age < 20){\n  pef = -0.5962 + -0.12357*age + 0.013135*Math.pow(age,2) + 0.00024962*Math.pow(ht,2);\n  lln = -0.5962 + -0.12357*age + 0.013135*Math.pow(age,2) + 0.00017635*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 1 && race == 0 && age >= 20){\n  pef =  1.0523 + 0.08272*age + -0.001301*Math.pow(age,2) + 0.00024962*Math.pow(ht,2);\n  lln =  1.0523 + 0.08272*age + -0.001301*Math.pow(age,2) + 0.00017635*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 1 && race == 1 && age >= 8 && age < 20){\n  pef = -0.2684 +  -0.28016*age + 0.018202*Math.pow(age,2) + 0.00027333*Math.pow(ht,2);\n  lln = -0.2684 +  -0.28016*age + 0.018202*Math.pow(age,2) + 0.00018938*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 1 && race == 1 && age >= 20){\n  pef = 2.2257 + -0.04082*age + 0*Math.pow(age,2) + 0.00027333*Math.pow(ht,2);\n  lln = 2.2257 + -0.04082*age + 0*Math.pow(age,2) + 0.00018938*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 1 && race == 2 && age >= 8 && age < 20){\n  pef = -0.9537 + -0.19602*age + 0.014497*Math.pow(age,2) + 0.00030243*Math.pow(ht,2);\n  lln = -0.9537 + -0.19602*age + 0.014497*Math.pow(age,2) + 0.00021833*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (sex == 1 && race == 2 && age >= 20){\n  pef =  0.0870 + 0.06580*age + -0.001195*Math.pow(age,2) + 0.00030243*Math.pow(ht,2);\n  lln =  0.0870 + 0.06580*age + -0.001195*Math.pow(age,2) + 0.00021833*Math.pow(ht,2);\n  pef = pef*60;\n  lln = lln*60;\n}\nelse if (race == 3 && age >= 8 && age <= 17){\n   pef = (ht - 100)*5 + 100;\n   lln = pef;\n}\nelse if (race == 3 && age >= 8 && age <= 17){\n   pef = (ht - 100)*5 + 100;\n   lln = pef;\n}\nelse if (race == 3 && age > 17 && sex == 1){\n  ht = ht/100;\n  pef = (((ht*5.48) + 1.58) - (age*0.041))*60;\n  lln = pef;\n}\nelse if (race == 3 && age > 17 && sex == 0){\n  ht = ht/100;\n  pef = (((ht*3.72) + 2.24) - (age*0.03))*60;\n  lln = pef;\n}\n\nif (UOMSYSTEM == false){\n  pef = pef/60;\n  lln = lln/60;\n  units = 'L/sec';\n  pef = pef.toFixed(2);\n  lln = lln.toFixed(2);\n}\nif (UOMSYSTEM == true){\n  pef = pef.toFixed(0);\n  lln = lln.toFixed(0);\n  units = 'L/min';\n}\n\nvar percent = (apfr/pef)*100;\npercent = percent.toFixed(0);\n\nif (percent > 80){\n  zone = 'Green';\n}\nelse if (percent < 50){\n  zone = 'Red';\n}\nelse {\n  zone = 'Yellow';\n}\n\ncalc_output.push({ \n  name: 'mini', value: pef, value_text: units, message: 'Estimated Peak Flow'  \n});\n\ncalc_output.push({ \n  name: '790_Estimated Peak Flow_result (flow)', \n  value: pef, \n  value_text: units, \n  message: 'Estimated Peak Flow (see Evidence for equation used)'\n});\n\nif (lln != pef){\n  calc_output.push({ \n    name: '790_Estimated Peak Flow_result (LLN)', \n    value: lln, \n    value_text: units, \n    message: 'Lower limit of normal'\n  });\n}\nif (apfr > 0){\n  calc_output.push({ \n    name: '790_Estimated Peak Flow_result (zone)', \n    value: percent, \n    value_text: '%', \n    message: 'Peak flow variability - ' + zone + ' zone'\n  });\n}",
         "favorite_id": 790,
         "full_title_en": "Estimated/Expected Peak Expiratory Flow (Peak Flow)",
         "input_schema": [
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Age",
             "name": "age",
             "optional": false,
@@ -116,6 +120,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Height",
             "name": "height",
             "optional": false,
@@ -126,8 +132,10 @@
           {
             "conditionality": "",
             "default": null,
-            "label_en": "Race/ethnicity",
+            "label_en": "<p>Race/ethnicity</p>",
+            "mdcalc_info_concept": null,
             "name": "race",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -154,8 +162,10 @@
           {
             "conditionality": "(age >= 8 && age <= 17 && race != 3 ) || (age >= 18 && age <= 80)",
             "default": null,
-            "label_en": "Sex",
+            "label_en": "<p>Sex</p>",
+            "md_calc_info_concept": null,
             "name": "sex",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -174,6 +184,8 @@
           {
             "conditionality": "",
             "default": null,
+            "fhir_rules": null,
+            "inct": null,
             "label_en": "Actual peak flow rate",
             "name": "apfr",
             "optional": true,
@@ -183,155 +195,17 @@
           }
         ],
         "instructions_en": "",
+        "isVisibleInListView": true,
+        "is_manual": false,
         "logic_language": "javascript",
-        "logs": [
-          {
-            "message": "added race notice",
-            "time": "2021-09-28T16:47:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "edited description",
-            "time": "2021-03-19T15:57:00.000Z",
-            "user": "michael"
-          },
-          {
-            "message": "added reviewed",
-            "time": "2019-01-14T12:54:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "changed unit",
-            "time": "2018-12-21T13:51:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "CA edits",
-            "time": "2018-12-21T12:38:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "added conditionality",
-            "time": "2018-12-21T12:23:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "added conditionality",
-            "time": "2018-12-21T12:19:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "added links",
-            "time": "2018-12-20T10:25:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "edited note",
-            "time": "2018-12-11T23:27:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "added note",
-            "time": "2018-12-11T22:56:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "debugging",
-            "time": "2018-11-02T15:13:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "eq logic",
-            "time": "2018-11-02T15:12:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "eq logic",
-            "time": "2018-11-02T15:10:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "1st round edits",
-            "time": "2018-11-02T15:04:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "edits in formula",
-            "time": "2018-10-05T14:13:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "RK edits",
-            "time": "2018-10-05T14:12:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "RK edits",
-            "time": "2018-10-05T13:56:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "added contributor content",
-            "time": "2018-10-05T12:50:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "finished eq logic",
-            "time": "2018-10-05T12:06:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "edited equation logic",
-            "time": "2018-10-05T11:55:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "edited equation logic",
-            "time": "2018-10-05T11:34:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "added zones",
-            "time": "2018-09-28T16:29:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "adding eq logic",
-            "time": "2018-09-28T16:16:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "added input",
-            "time": "2018-09-28T15:57:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "debugged",
-            "time": "2018-09-18T14:12:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "completed equation logic",
-            "time": "2018-09-18T14:05:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "edited equation logic",
-            "time": "2018-09-18T13:55:00.000Z",
-            "user": "lubaina"
-          },
-          {
-            "message": "restored equation logic to that from 9/16/18",
-            "time": "2018-09-18T13:17:00.000Z",
-            "user": "sang"
-          }
-        ],
         "md5": "4c281a0f217e1e0be069e958b7dcdc0b",
         "medium_description_en": "<p>Quantifies asthma exacerbation severity.</p>",
+        "publishedAt": "2022-04-21T20:29:47.002Z",
         "purpose_en": [
           "Calculation",
           "Prognosis"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "asthma",
           "estimated peak flow"
@@ -341,7 +215,7 @@
           "keywords_en": "Estimated/Expected Peak Expiratory Flow (Peak Flow), peak flow, exp flow, expiratory flow, asthma peak flow, asthma calc, asthma, copd, asthma score, asthma peak flow, asthma flow, estimated flow, estimated peak flow, expected peak flow, expected peak, asthma expiratory flow, expiratory flow calc, expiratory peak calc",
           "meta_description_en": "The Estimated/Expected Peak Expiratory Flow (Peak Flow) quantifies asthma exacerbation severity."
         },
-        "short_description_en": "Quantifies asthma severity.",
+        "short_description_en": "<p>Quantifies asthma severity.</p>",
         "short_title_en": "Estimated Peak Flow",
         "slug": "estimated-expected-peak-expiratory-flow-peak-flow",
         "specialty_en": [
@@ -355,225 +229,171 @@
         ],
         "system_en": [
           "Respiratory"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "04897677-b24b-4237-bd06-a8fcb8e5b1c3"
       },
       "contributors": [
         {
           "contributors_page": false,
-          "createdAt": "2021-12-22T21:20:30.365Z",
           "description": "<p>Derek Tam, MD, MPH, is a pediatric resident at Maimonides Children's Hospital in Brooklyn, NY. Dr. Tam completed an undergraduate degree in cognitive science at Northwestern University in Chicago, IL, and received his MD and MPH from the Northwestern University Feinberg School of Medicine. He will serve as chief resident for the pediatric residency program at Maimonides for the academic year 2019-2020 and plans to pursue a fellowship in pediatric emergency medicine. His academic interests include emergency medicine, pediatric resuscitation, antibiotic stewardship, and epidemiology.</p>",
           "firstName": "Derek",
           "hasDisclosure": [],
           "img": "derek-tam.jpg",
           "lastName": "Tam",
           "name": "Derek Tam, MD, MPH",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
           "signedCOI": true,
           "status": "Current",
-          "target": "derek-tam",
-          "updatedAt": "2023-04-06T20:25:19.744Z"
+          "target": "derek-tam"
         }
       ],
       "creators": [
         {
           "about_en": "John L. Hankinson, PhD, is a biomedical engineer and consultant. He is also the course director for a National Institute for Occupational Safety and Health approved spirometry course and serves on the ATS Proficiency Standards for Pulmonary Function Laboratories Committee. Dr. Hankinson’s primary research is focused on respiratory diseases and spirometry.",
-          "createdAt": "2021-12-23T18:03:17.779Z",
           "deceased": false,
+          "description": "",
           "firstName": "",
+          "img": "",
           "lastName": "",
           "name": "Dr. John L. Hankinson",
           "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-john-l-hankinson.jpg",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
           "pubmedLink": "https://www.ncbi.nlm.nih.gov/pubmed/?term=Hankinson+JL%5Bau%5D",
-          "signedCOI": false,
-          "updatedAt": "2022-10-07T16:42:16.995Z"
+          "signedCOI": false
         }
       ],
       "envs": {
         "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "CONTENT_SERVER_TAG": "WEB_PROD",
         "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
-        "STRAPI_TAG": "WEB_PROD",
         "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
       },
       "faqs": [
         {
           "cme_faq": {
             "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
-            "createdAt": "2022-12-16T16:39:54.990Z",
-            "publishedAt": "2022-12-16T16:39:55.697Z",
             "question": "What is MDCalc CME?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:52:48.348Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
-            "createdAt": "2022-12-16T16:40:11.179Z",
-            "publishedAt": "2022-12-16T16:40:11.883Z",
             "question": "Is MDCalc CME accredited?",
-            "type": "Using",
-            "updatedAt": "2023-02-09T18:38:00.345Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
-            "createdAt": "2022-12-16T16:40:27.936Z",
-            "publishedAt": "2022-12-16T16:40:28.851Z",
             "question": "Who can enroll and how?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:12.659Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
-            "createdAt": "2022-12-16T16:40:47.203Z",
-            "publishedAt": "2022-12-16T16:40:47.882Z",
             "question": "What activities can I do to earn CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:27.268Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
-            "createdAt": "2022-12-16T16:40:57.420Z",
-            "publishedAt": "2022-12-16T16:41:02.863Z",
             "question": "Where can I find calcs with which I can earn credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:44.504Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
-            "createdAt": "2022-12-16T16:41:11.874Z",
-            "publishedAt": "2022-12-16T16:41:13.038Z",
             "question": "Where can I see which credits I’ve earned?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:52.153Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
-            "createdAt": "2022-12-16T16:41:33.940Z",
-            "publishedAt": "2022-12-16T16:41:35.646Z",
             "question": "How do I redeem CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:07.237Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
-            "createdAt": "2022-12-16T16:41:59.307Z",
-            "publishedAt": "2022-12-16T16:42:00.078Z",
             "question": "Are CME credits free?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:22.467Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
-            "createdAt": "2022-12-16T16:42:10.712Z",
-            "publishedAt": "2022-12-16T16:42:15.215Z",
             "question": "Where can I see my CME certificates?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:32.826Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>One year from the date of purchase.</p>",
-            "createdAt": "2022-12-16T16:42:52.839Z",
-            "publishedAt": "2022-12-16T16:42:53.641Z",
             "question": "How long do credits in an annual subscription last?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:54:51.655Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
-            "createdAt": "2022-12-16T16:32:44.987Z",
-            "publishedAt": "2022-12-16T16:32:46.006Z",
             "question": "What specialty CME credits are included in the plan?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:33.794Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
-            "createdAt": "2022-12-16T16:33:18.512Z",
-            "publishedAt": "2022-12-16T16:33:19.250Z",
             "question": "I ordered a CME package with a gift card. How does it work?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:53.878Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
-            "createdAt": "2022-12-16T16:44:06.809Z",
-            "publishedAt": "2022-12-16T16:44:07.518Z",
             "question": "What will show on my receipt for CME when it includes a gift card?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:08.549Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
-            "createdAt": "2022-12-16T16:36:44.877Z",
-            "publishedAt": "2022-12-16T16:36:45.950Z",
             "question": "How do I get a refund if I'm not satisfied?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:01.761Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
-            "createdAt": "2022-12-16T16:37:26.433Z",
-            "publishedAt": "2022-12-16T16:37:27.177Z",
             "question": "How do I later upgrade to a different plan if I need more credits?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:27.457Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
-            "createdAt": "2022-12-16T16:44:53.580Z",
-            "publishedAt": "2022-12-16T16:44:56.993Z",
             "question": "Do CME plans auto-renew?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:44.653Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
-            "createdAt": "2022-12-16T16:38:26.466Z",
-            "publishedAt": "2022-12-16T16:38:27.163Z",
             "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:43.762Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
-            "createdAt": "2022-12-16T16:46:21.538Z",
-            "publishedAt": "2022-12-16T16:46:27.759Z",
             "question": "Did the ACCME decide to regulate gift cards?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:56:05.573Z"
+            "type": "Purchasing"
           }
         }
       ],
@@ -587,81 +407,72 @@
       "measurements": [
         {
           "conversion": "1",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 80,
+          "error_max": "80",
           "error_max_si": 80,
-          "error_max_us": 80,
-          "error_min": 5,
+          "error_max_us": "80",
+          "error_min": "5",
           "error_min_si": 5,
-          "error_min_us": 5,
+          "error_min_us": "5",
           "name": "age_pef",
-          "normal_max_si": 80,
-          "normal_max_us": 80,
-          "normal_min_si": 5,
-          "normal_min_us": 5,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "normal_max_si": "80",
+          "normal_max_us": "80",
+          "normal_min_si": "5",
+          "normal_min_us": "5",
           "unit": "age_pef",
           "units_si": "years",
           "units_us": "years",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 80,
+          "warn_max": "80",
           "warn_max_si": 80,
-          "warn_max_us": 80,
-          "warn_min": 5,
+          "warn_max_us": "80",
+          "warn_min": "5",
           "warn_min_si": 5,
-          "warn_min_us": 5
-        },
-        {
-          "conversion": "2.54",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 90,
-          "error_max_si": 228.6,
-          "error_max_us": 90,
-          "error_min": 0,
-          "error_min_si": 0,
-          "error_min_us": 0,
-          "name": "Height",
-          "normal_max_si": 213,
-          "normal_max_us": 84,
-          "normal_min_si": 152,
-          "normal_min_us": 60,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
-          "unit": "ht",
-          "units_si": "cm",
-          "units_us": "in",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 80,
-          "warn_max_si": 203.2,
-          "warn_max_us": 80,
-          "warn_min": 5,
-          "warn_min_si": 12.7,
-          "warn_min_us": 5
+          "warn_min_us": "5"
         },
         {
           "conversion": "0.0166666666",
-          "createdAt": "2022-01-03T19:16:05.077Z",
-          "error_max": 800,
+          "error_max": "800",
           "error_max_si": 13.333333280000002,
-          "error_max_us": 800,
-          "error_min": 0,
+          "error_max_us": "800",
+          "error_min": "0",
           "error_min_si": 0,
-          "error_min_us": 0,
+          "error_min_us": "0",
           "name": "pef",
-          "normal_max_si": 11,
-          "normal_max_us": 660,
-          "normal_min_si": 5,
-          "normal_min_us": 300,
-          "publishedAt": "2022-03-03T15:19:06.919Z",
+          "normal_max_si": "11",
+          "normal_max_us": "660",
+          "normal_min_si": "5",
+          "normal_min_us": "300",
           "unit": "pef",
           "units_si": "L/sec",
           "units_us": "L/min",
-          "updatedAt": "2022-01-03T19:16:05.077Z",
-          "warn_max": 660,
+          "warn_max": "660",
           "warn_max_si": 10.999999956,
-          "warn_max_us": 660,
-          "warn_min": 300,
+          "warn_max_us": "660",
+          "warn_min": "300",
           "warn_min_si": 4.99999998,
-          "warn_min_us": 300
+          "warn_min_us": "300"
+        },
+        {
+          "conversion": "2.54",
+          "error_max": "90",
+          "error_max_si": 228.6,
+          "error_max_us": "90",
+          "error_min": "0",
+          "error_min_si": 0,
+          "error_min_us": "0",
+          "name": "Height",
+          "normal_max_si": "213",
+          "normal_max_us": "84",
+          "normal_min_si": "152",
+          "normal_min_us": "60",
+          "unit": "ht",
+          "units_si": "cm",
+          "units_us": "in",
+          "warn_max": "80",
+          "warn_max_si": 203.2,
+          "warn_max_us": "80",
+          "warn_min": "5",
+          "warn_min_si": 12.7,
+          "warn_min_us": "5"
         }
       ],
       "relCalcs": [

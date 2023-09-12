@@ -1,5 +1,5 @@
 {
-  "buildId": "Yo9IMmF0_CwyTDcEFOxB9",
+  "buildId": "5lGULuFSFhUrfWgBpMJq_",
   "gssp": true,
   "isFallback": false,
   "page": "/calc/[...slug]",
@@ -12,11 +12,15 @@
         "chief_complaint_en": [
           "Pain"
         ],
+        "cmeEndDate": null,
+        "cmeLastReviewed": null,
+        "cmeReleaseDate": null,
+        "cmeVersion": null,
         "cme_status": "",
         "content": {
           "about": {
             "evidence_based_medicine_en": "",
-            "formula_en": "<p>Addition of the selected points. Complete scoring information can be found in the <a href=\"http://painmedicine.oxfordjournals.org/content/6/6/432#T2\" target=\"_blank\">derivation study</a>.</p>",
+            "formula_en": "<p>Addition of the selected points. Complete scoring information can be found in the <a href=\"https://painmedicine.oxfordjournals.org/content/6/6/432#T2\" target=\"_blank\" rel=\"noopener\">derivation study</a>.</p>",
             "more_info_en": "<p>Score interpretation:</p>\n<ul>\n<li>Low risk: 0&ndash;3.</li>\n<li>Moderate risk: 4&ndash;7.</li>\n<li>High risk: &ge; 8.</li>\n</ul>\n<p>Other Notes:</p>\n<ul>\n<li>185 patients were followed in chronic pain clinic.</li>\n<li>Tracked to determine who developed \"aberrant behaviors\".</li>\n<li>Developed a score based on this to calculate this risk.</li>\n<li>Of note, still 5% of \"low-risk\" patients still had aberrant behaviors..</li>\n</ul>\n<p>Aberrant behaviors included a long list of behaviors indicating possible abuse, including but not limited to:</p>\n<ul>\n<li>Used additional opioids than those prescribed.</li>\n<li>Requested refills instead of clinic visit.</li>\n<li>Canceled clinic visit.</li>\n<li>Solicited opioids from other providers.</li>\n<li>Unauthorized ER visits.\n<p><strong></strong></p>\n</li>\n</ul>",
             "references_list": {
               "Clinical Practice Guidelines": [
@@ -33,7 +37,7 @@
               ],
               "Original/Primary Reference": [
                 {
-                  "href": "http://www.ncbi.nlm.nih.gov/pubmed/16336480",
+                  "href": "https://www.ncbi.nlm.nih.gov/pubmed/16336480",
                   "text": "Webster LR, Webster RM. Predicting aberrant behaviors in opioid-treated patients: preliminary validation of the Opioid Risk Tool. Pain Med. 2005 Nov-Dec;6(6):432-42. PubMed PMID: 16336480."
                 }
               ],
@@ -54,7 +58,8 @@
                   "href": "",
                   "text": ""
                 }
-              ]
+              ],
+              "Validations": []
             }
           },
           "contributor": {
@@ -62,6 +67,7 @@
           },
           "creator": [
             {
+              "approved": null,
               "name": "Dr. Lynn Webster",
               "qa_en": "<p><strong>Why did you develop the Opioid Risk Tool (ORT)? Was there a particular clinical experience or patient encounter that inspired you to create this tool for clinicians?</strong></p> <p><span style=\"font-weight: 400;\">Every physician knows that opioids can be addictive. &nbsp;When it became acceptable to use opioid to control chronic non-cancer pain, I knew some patients would be at risk of developing an addiction, so I wanted to identify who was at most risk. &nbsp;I thought that if I knew who was at greatest risk of misusing/abusing their opioids I could mitigate harm. &nbsp;We have to understand that addiction to opioids is 50% genetic and 50% environmental. &nbsp;It is not resident in a drug. &nbsp;The ORT is based upon assessing the genetic and environmental factors that makes a person vulnerable. &nbsp;Of course anyone can develop an addiction.</span></p> <p><strong>How do you use the Opioid Risk Tool (ORT) in your own clinical practice? Can you give an example of a scenario in which you use it?</strong></p> <p><span style=\"font-weight: 400;\">All patients are asked to complete the questionnaire on their first visit to the clinic even before I would make a decision whether an opioid should be prescribed. I then review the answers and sometimes I ask questions to be sure they have completed it correctly. The score is noted and documented in the chart with the initial exam. </span></p> <p><strong>What pearls, pitfalls and/or tips do you have for users of the Opioid Risk Tool (ORT)? Do you know of cases when it has been applied, interpreted, or used inappropriately?</strong></p> <p><span style=\"font-weight: 400;\">It is meant to supplement other risk assessments or to diagnose a substance use disorder. It is not meant to predict abuse or addiction but to provide the clinician a sense of the probability the patient will display aberrant drug related behavior within a year if prescribed an opioid. Sometimes patients will not be honest and can provide incomplete or wrong answers. However, if they provide false information, it usually becomes apparent after a few visits and getting to know the patient. &nbsp;</span></p> <p><strong>What recommendations do you have for doctors once they have applied the Opioid Risk Tool (ORT)? Are there any adjustments or updates you would make to the score based on new data or practice changes?</strong></p> <p><span style=\"font-weight: 400;\">If the doctor knows the patient, they may be able to help complete the tool on the first visit. &nbsp;This can improve its predictability. The score can also be updated if more accurate information is obtained during time the patients is being treated. Sometimes patients will provide false positive answers which overstates their risk, or not disclose important history which understates their risk. In time, the accurate picture usually develops.</span></p> <p><strong>Any other research in the pipeline that you're particularly excited about?</strong></p> <p><span style=\"font-weight: 400;\">I only do clinical research now. &nbsp;Most of my work is on trying to find safer and more effective analgesics than opioids. &nbsp;Several companies are making progress in developing analgesics that could one day replace opioids as we know them today. I think this is necessary and exciting.</span></p>"
             }
@@ -72,7 +78,7 @@
             "why_use_en": "<p>Substance use, particularly of prescribed drugs, has been an increasing problem in the United States. It is reasonable to consider risk of future abuse/diversion/misuse, especially if considering prescribing narcotics to high risk patients.</p>"
           },
           "next_steps": {
-            "advice_en": "<ul> <li>Pain medications should not be withheld for painful conditions simply because a patient is deemed “high risk” by the ORT, but these patients should be considered for other modalities of pain control if appropriate.</li> <li>These high risk patients may be appropriate candidates for referral to pain management.</li> <li>Providers should exercise caution when starting any patient on chronic opiates.</li> </ul>",
+            "advice_en": "<ul>\n<li>Pain medications should not be withheld for painful conditions simply because a patient is deemed &ldquo;high risk&rdquo; by the ORT, but these patients should be considered for other modalities of pain control if appropriate.</li>\n<li>These high risk patients may be appropriate candidates for referral to pain management.</li>\n<li>Providers should exercise caution when starting any patient on chronic opiates.</li>\n</ul>",
             "critical_actions_en": "",
             "management_en": ""
           },
@@ -88,21 +94,27 @@
             "sdm_tool": [],
             "teaching": [],
             "videos": []
-          }
+          },
+          "reviewer": []
         },
+        "disabled": false,
+        "disabled_reason": null,
         "disease_en": [
           "Chronic Pain"
         ],
         "dosing": false,
-        "equation_logic": "6f8a651a76b5342b5c3e0243002b4c91",
-        "equation_logic_text": "var calc_output = [];\nvar u = 0;\nif (age_16_45 == 1) { u += 1 }\nif (depression == 1) { u += 1 }\nif (psychological_disorder == 1) { u += 2 }\nif (alcohol_abuse == 1) { u += 3 }\nif (illegal_drug_abuse == 1) { u += 4 }\nif (prescription_drug_abuse == 1) { u += 5 }\nif (family_prescription_drug == 1) { u += 4 }\nif (sex == 0) {\n    if (family_illegal_drug == 1) { u += 3 }\n    if (family_alcohol == 1) { u += 3 } } else if (sex == 1) {\n    if (sexual_abuse == 1) { u += 3 }\n    if (family_illegal_drug == 1) { u += 2 }\n    if (family_alcohol == 1) { u += 1 } }\nvar msg = '';\nvar mini_msg = '';\nif (u < 4) { msg = 'Low risk for future opioid-related aberrant behaviors. 5.6% of low-risk patients had aberrant behaviors.';\n    mini_msg = 'Low risk' }\nif (u > 3 && u < 8) { msg = 'Moderate risk for future opioid-related aberrant behaviors. 28% of moderate-risk patients had aberrant behaviors.';\n    mini_msg = 'Moderate risk' }\nif (u > 7) { msg = 'High risk for future opioid-related aberrant behaviors. 91% of high-risk patients had aberrant behaviors.';\n    mini_msg = 'High risk' }\ncalc_output.push({ name: 'mini', value: u.toFixed(0), value_text: 'points', message: mini_msg });\ncalc_output.push({ name: 'Opioid Risk Tool', value: u.toFixed(0), value_text: 'points', message: msg });",
+        "equation_logic": "3c4fe28adb22c9cf27847153cf34891c",
+        "equation_logic_text": "var calc_output = [];\nvar u = 0;\nif (age_16_45 == 1) { u += 1 }\nif (depression == 1) { u += 1 }\nif (psychological_disorder == 1) { u += 2 }\nif (alcohol_abuse == 1) { u += 3 }\nif (illegal_drug_abuse == 1) { u += 4 }\nif (prescription_drug_abuse == 1) { u += 5 }\nif (family_prescription_drug == 1) { u += 4 }\nif (sex == 0) {\n    if (family_illegal_drug == 1) { u += 3 }\n    if (family_alcohol == 1) { u += 3 } } else if (sex == 1) {\n    if (sexual_abuse == 1) { u += 3 }\n    if (family_illegal_drug == 1) { u += 2 }\n    if (family_alcohol == 1) { u += 1 } }\nvar msg = '';\nvar mini_msg = '';\nif (u < 4) { msg = 'Low risk for future opioid-related aberrant behaviors. 5.6% of low-risk patients had aberrant behaviors.';\n    mini_msg = 'Low risk' }\nif (u > 3 && u < 8) { msg = 'Moderate risk for future opioid-related aberrant behaviors. 28% of moderate-risk patients had aberrant behaviors.';\n    mini_msg = 'Moderate risk' }\nif (u > 7) { msg = 'High risk for future opioid-related aberrant behaviors. 91% of high-risk patients had aberrant behaviors.';\n    mini_msg = 'High risk' }\ncalc_output.push({ \n    name: 'mini', \n    value: u.toFixed(0), \n    value_text: 'points', \n    message: mini_msg \n});\ncalc_output.push({ \n    name: '1757_Opioid Risk Tool_result', \n    value: u.toFixed(0), \n    value_text: 'points',\n    message: msg \n});",
         "favorite_id": 1757,
         "full_title_en": "Opioid Risk Tool (ORT) for Narcotic Abuse",
         "input_schema": [
           {
             "conditionality": "",
+            "default": null,
             "label_en": "Sex",
+            "md_calc_info_concept": null,
             "name": "sex",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -115,13 +127,16 @@
               }
             ],
             "show_points": false,
+            "tips_en": "",
             "type": "toggle"
           },
           {
             "conditionality": "",
             "default": 0,
             "label_en": "Age 16-45",
+            "md_calc_info_concept": null,
             "name": "age_16_45",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -134,13 +149,16 @@
               }
             ],
             "show_points": false,
+            "tips_en": "",
             "type": "toggle"
           },
           {
             "conditionality": "",
             "default": 0,
             "label_en": "History of preadolescent sexual abuse",
+            "md_calc_info_concept": null,
             "name": "sexual_abuse",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -153,13 +171,16 @@
               }
             ],
             "show_points": false,
+            "tips_en": "",
             "type": "toggle"
           },
           {
             "conditionality": "",
             "default": 0,
             "label_en": "History of depression",
+            "md_calc_info_concept": null,
             "name": "depression",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -172,13 +193,16 @@
               }
             ],
             "show_points": false,
+            "tips_en": "",
             "type": "toggle"
           },
           {
             "conditionality": "",
             "default": 0,
             "label_en": "History of ADD, OCD, bipolar disorder, or schizophrenia",
+            "md_calc_info_concept": null,
             "name": "psychological_disorder",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -191,13 +215,16 @@
               }
             ],
             "show_points": false,
+            "tips_en": "",
             "type": "toggle"
           },
           {
             "conditionality": "",
             "default": 0,
             "label_en": "Personal history of alcohol abuse",
+            "md_calc_info_concept": null,
             "name": "alcohol_abuse",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -210,13 +237,16 @@
               }
             ],
             "show_points": false,
+            "tips_en": "",
             "type": "toggle"
           },
           {
             "conditionality": "",
             "default": 0,
             "label_en": "Personal history of illegal drug abuse",
+            "md_calc_info_concept": null,
             "name": "illegal_drug_abuse",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -229,13 +259,16 @@
               }
             ],
             "show_points": false,
+            "tips_en": "",
             "type": "toggle"
           },
           {
             "conditionality": "",
             "default": 0,
             "label_en": "Personal history of prescription drug abuse",
+            "md_calc_info_concept": null,
             "name": "prescription_drug_abuse",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -248,13 +281,16 @@
               }
             ],
             "show_points": false,
+            "tips_en": "",
             "type": "toggle"
           },
           {
             "conditionality": "",
             "default": 0,
             "label_en": "Family history of alcohol abuse",
+            "md_calc_info_concept": null,
             "name": "family_alcohol",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -267,13 +303,16 @@
               }
             ],
             "show_points": false,
+            "tips_en": "",
             "type": "toggle"
           },
           {
             "conditionality": "",
             "default": 0,
             "label_en": "Family history of illegal drug abuse",
+            "md_calc_info_concept": null,
             "name": "family_illegal_drug",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -286,13 +325,16 @@
               }
             ],
             "show_points": false,
+            "tips_en": "",
             "type": "toggle"
           },
           {
             "conditionality": "",
             "default": 0,
             "label_en": "Family history of prescription drug abuse",
+            "md_calc_info_concept": null,
             "name": "family_prescription_drug",
+            "option_fhir_rules": null,
             "optional": false,
             "options": [
               {
@@ -305,22 +347,21 @@
               }
             ],
             "show_points": false,
+            "tips_en": "",
             "type": "toggle"
           }
         ],
-        "instructions_en": "This tool studied patients at a chronic pain clinic.",
-        "logs": [
-          {
-            "message": "remove duplicated creator interview",
-            "time": "2018-12-13 09:43 AM",
-            "user": "lubaina"
-          }
-        ],
-        "md5": "4a07fbfdb26a92795172edcc7ce1e52e",
+        "instructions_en": "<p>This tool studied patients at a chronic pain clinic.</p>",
+        "isVisibleInListView": true,
+        "is_manual": false,
+        "logic_language": "javascript",
+        "md5": "21558e943491785a9200f4f1320cb33b",
         "medium_description_en": "<p>Estimates risk of opioid-related aberrant behaviors.</p>",
+        "publishedAt": "2022-04-21T20:29:00.831Z",
         "purpose_en": [
           "Prognosis"
         ],
+        "replacement_calc_id": null,
         "search_abbreviation_en": [
           "narcotic",
           "opiate",
@@ -335,7 +376,7 @@
           "keywords_en": "ORT, ORT calc, Opioid risk tool, opiate calc, opiate addiction score, opiate addiction risk, history based opioid risk, narcotic abuse risk tool, narcotic opiate tool, rule out opiate addiction, narcotic addiction calc, pain management risk tool, pain management calc",
           "meta_description_en": "The Opioid Risk Tool for Narcotic abuse estimates risk of opioid-related aberrant behaviors based on patient history."
         },
-        "short_description_en": "Risk of narcotic abuse/misuse.",
+        "short_description_en": "<p>Risk of narcotic abuse/misuse.</p>",
         "short_title_en": "Opioid Risk Tool (ORT)",
         "slug": "opioid-risk-tool-ort-narcotic-abuse",
         "specialty_en": [
@@ -349,209 +390,158 @@
         ],
         "system_en": [
           "Psychiatric"
-        ]
+        ],
+        "tags": [],
+        "versionNumber": 1,
+        "versions": [],
+        "vuid": "50c1cb95-3473-4d69-b019-eac7afeab6db"
       },
       "contributors": [],
       "creators": [
         {
           "about_en": "<p>Lynn Webster, MD, is medical director at CRI Lifetree in Salt Lake City, Utah and is also the co-founder of LifeSource, a non-profit foundation providing education about pain-related issues. Dr. Webster has authored over 100 scientific abstracts and journal articles, and he recently published Avoiding Opioid Abuse While Managing Pain: A Guide for Practitioners. He has also received honoraria related to formal advisory activities and as a consultant from the American Academy of Pain Management, American Board of Pain Medicine, Boston Scientific Corporation, and multiple pharmaceutical companies.</p>",
-          "createdAt": "2021-12-23T18:03:17.779Z",
-          "deceased": null,
+          "deceased": false,
+          "description": "",
           "firstName": "",
+          "img": "",
           "lastName": "",
           "name": "Dr. Lynn Webster",
           "photo_en": "https://cdn-web-img.mdcalc.com/people/dr-lynn-webster.jpeg",
-          "publishedAt": "2021-11-17T15:11:30.452Z",
           "pubmedLink": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Webster+LR%5BAuthor%5D",
-          "signedCOI": false,
-          "updatedAt": "2021-11-17T15:11:35.298Z"
+          "signedCOI": false
         }
       ],
       "envs": {
         "CANONICAL_URL_ROOT": "https://www.mdcalc.com",
+        "CONTENT_SERVER_TAG": "WEB_PROD",
         "RECAPTCHA_PUBLIC_KEY": "6Lcu1mMkAAAAAAwmSDO3I7JNaUo9YtZ3jnrzTP6a",
-        "STRAPI_TAG": "WEB_PROD",
         "STRIPE_PUB_KEY": "pk_live_yYm2UzDzaudhFgqWcKbv9vH7"
       },
       "faqs": [
         {
           "cme_faq": {
             "answer": "<p>MDCalc&rsquo;s Continuing Medical Education (CME) service allows users to easily earn AMA PRA Category 1 CreditsTM through regular use of MDCalc. Simply put, on top of getting the best medical calculators in the world, your usage will help you achieve your annual CME requirements, including specialty CME, without any extra effort.</p>",
-            "createdAt": "2022-12-16T16:39:54.990Z",
-            "publishedAt": "2022-12-16T16:39:55.697Z",
             "question": "What is MDCalc CME?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:52:48.348Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Yes, in support of improving patient care, this activity has been planned and implemented by the Postgraduate Institute for Medicine and MDCalc Ltd. Inc. Postgraduate Institute for Medicine is jointly accredited by the Accreditation Council for Continuing Medical Education (ACCME), the Accreditation Council for Pharmacy Education (ACPE), and the American Nurses Credentialing Center (ANCC), to provide continuing education for the healthcare team.</p>",
-            "createdAt": "2022-12-16T16:40:11.179Z",
-            "publishedAt": "2022-12-16T16:40:11.883Z",
             "question": "Is MDCalc CME accredited?",
-            "type": "Using",
-            "updatedAt": "2023-02-09T18:38:00.345Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Only United States attending physicians, nurse practitioners, nurses, and physician assistants are eligible for our CME service.</p>",
-            "createdAt": "2022-12-16T16:40:27.936Z",
-            "publishedAt": "2022-12-16T16:40:28.851Z",
             "question": "Who can enroll and how?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:12.659Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>We have over 275 CME-eligible calculators across various specialties. You can read the clinical content supporting any CME calculators to start earning. Once you have viewed all the supporting content for a calculator, you will have officially earned the credit amount (0.5 credits) and will be able to redeem a certificate. For now, only calc content in CME-eligible calcs is eligible for CME credits, however, we&rsquo;ll be expanding our CME service to include more of our content in the future.</p>",
-            "createdAt": "2022-12-16T16:40:47.203Z",
-            "publishedAt": "2022-12-16T16:40:47.882Z",
             "question": "What activities can I do to earn CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:27.268Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Simply use our search bar or visit our homepage to easily find CME-eligible calcs. You must be enrolled in our CME service to see which calcs are CME-eligible.</p>",
-            "createdAt": "2022-12-16T16:40:57.420Z",
-            "publishedAt": "2022-12-16T16:41:02.863Z",
             "question": "Where can I find calcs with which I can earn credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:44.504Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Once you&rsquo;ve enrolled in our CME service, you will have a personal CME Dashboard where you can view all of your earned credits. You can navigate to the dashboard by clicking the CME button in the header at the top of any page.</p>",
-            "createdAt": "2022-12-16T16:41:11.874Z",
-            "publishedAt": "2022-12-16T16:41:13.038Z",
             "question": "Where can I see which credits I’ve earned?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:53:52.153Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Go to your CME Dashboard and select the credits you&rsquo;d like to redeem, fill out a few dropdown answers about how you used the calc, and then proceed to checkout.</p>",
-            "createdAt": "2022-12-16T16:41:33.940Z",
-            "publishedAt": "2022-12-16T16:41:35.646Z",
             "question": "How do I redeem CME credits?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:07.237Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>No. Earning credits as you use calcs is free, but either you (or your employer) will need to purchase an annual subscription to redeem your CME certificates.</p>",
-            "createdAt": "2022-12-16T16:41:59.307Z",
-            "publishedAt": "2022-12-16T16:42:00.078Z",
             "question": "Are CME credits free?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:22.467Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Just like with earned credits, you can view your CME certificates on your CME Dashboard in the &ldquo;CME Certificates&rdquo; tab. Certificates include a list of all of the calcs for which CME was earned along with a tally of the specialty CME.</p>",
-            "createdAt": "2022-12-16T16:42:10.712Z",
-            "publishedAt": "2022-12-16T16:42:15.215Z",
             "question": "Where can I see my CME certificates?",
-            "type": "Using",
-            "updatedAt": "2023-01-04T22:54:32.826Z"
+            "type": "Using"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>One year from the date of purchase.</p>",
-            "createdAt": "2022-12-16T16:42:52.839Z",
-            "publishedAt": "2022-12-16T16:42:53.641Z",
             "question": "How long do credits in an annual subscription last?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:54:51.655Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>General; Addiction and Controlled Substances; Cardiac Care; Domestic and Intimate Partner Violence; Geriatrics; HIV and Infectious Disease; Hospice, End-of-Life, Terminal Illness, and Palliative Care; Mental and Behavioral Health; Pain Management; Pediatrics; Stroke; and Trauma.</p>",
-            "createdAt": "2022-12-16T16:32:44.987Z",
-            "publishedAt": "2022-12-16T16:32:46.006Z",
             "question": "What specialty CME credits are included in the plan?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:33.794Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Your gift card will be sent via email within 1-2 business days of making your purchase. You will be able to select from the following options - Visa, Amazon.com, Apple. Be sure to claim your gift card offer within 90 days of receiving the email.</p>\n<p>Your CME purchase may have implications for tax reporting purposes. The cost of your CME product may or may not be tax-deductible when used for professional purposes. Any reimbursed amount for incentives must be declared as personal income for tax purposes. Please consult your tax advisor. MDCalc does not provide tax advice.</p>",
-            "createdAt": "2022-12-16T16:33:18.512Z",
-            "publishedAt": "2022-12-16T16:33:19.250Z",
             "question": "I ordered a CME package with a gift card. How does it work?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:50:53.878Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Per the new guidelines from ACCME, the receipt will separate the cost you paid into the cost of the gift card and the cost of the CME learning activity.</p>",
-            "createdAt": "2022-12-16T16:44:06.809Z",
-            "publishedAt": "2022-12-16T16:44:07.518Z",
             "question": "What will show on my receipt for CME when it includes a gift card?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:08.549Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can get a refund (minus any promotional gift amount) within 30-days if the ease of earning and redeeming does not meet your expectations and if you have redeemed no more than 4 credits. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request a refund.</p>",
-            "createdAt": "2022-12-16T16:36:44.877Z",
-            "publishedAt": "2022-12-16T16:36:45.950Z",
             "question": "How do I get a refund if I'm not satisfied?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:01.761Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>You can upgrade your subscription throughout your billing cycle and pay the difference for a higher plan. You may request to downgrade your plan to a lower level to coincide with your next renewal. Please email <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> to request changes.</p>",
-            "createdAt": "2022-12-16T16:37:26.433Z",
-            "publishedAt": "2022-12-16T16:37:27.177Z",
             "question": "How do I later upgrade to a different plan if I need more credits?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:27.457Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>Gift card plans are available for 1 year and do not auto-renew. Standard, non gift-card subscriptions are auto-renewed annually. You can disable the automatic renewal of your subscription at any time by emailing <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a>.</p>",
-            "createdAt": "2022-12-16T16:44:53.580Z",
-            "publishedAt": "2022-12-16T16:44:56.993Z",
             "question": "Do CME plans auto-renew?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:55:44.653Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>If you&rsquo;re part of a team or practice that wants to sign up five or more physicians, please email us at <a href=\"mailto:team@mdcalc.com\" target=\"_blank\" rel=\"noopener\">team@mdcalc.com</a> for more information.</p>",
-            "createdAt": "2022-12-16T16:38:26.466Z",
-            "publishedAt": "2022-12-16T16:38:27.163Z",
             "question": "How do I get information on a discounted bulk subscription program for my institution, team, or practice?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:51:43.762Z"
+            "type": "Purchasing"
           }
         },
         {
           "cme_faq": {
             "answer": "<p>On July 28, 2022, ACCME updated the guidelines regarding the use of high-value incentives. These guidelines allow for the use of gift card rewards in a regulated manner. Visit the ACCME website to read their guidelines.</p>",
-            "createdAt": "2022-12-16T16:46:21.538Z",
-            "publishedAt": "2022-12-16T16:46:27.759Z",
             "question": "Did the ACCME decide to regulate gift cards?",
-            "type": "Purchasing",
-            "updatedAt": "2023-01-04T22:56:05.573Z"
+            "type": "Purchasing"
           }
         }
       ],
