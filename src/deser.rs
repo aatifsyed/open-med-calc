@@ -398,7 +398,6 @@ pub struct Calc {
     pub search_id: String,
     pub md5: String,
     pub input_schema: Vec<InputSchema>,
-    pub logs: Vec<Log>,
     /// Some("ae6a327dccaf4082c1dea14d79e26fbe")
     #[serde(skip_serializing_if = "Option::is_none")]
     pub equation_logic: Option<String>,
@@ -410,29 +409,25 @@ pub struct Calc {
 pub struct CreatorFull {
     #[serde(rename = "about_en", skip_serializing_if = "Option::is_none")]
     pub about_en: Option<String>,
-    pub created_at: String,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub deceased: Option<bool>,
+    pub description: String,
+    pub img: String,
     pub first_name: String,
     pub last_name: String,
     pub name: String,
     #[serde(rename = "photo_en", skip_serializing_if = "Option::is_none")]
     pub photo_en: Option<String>,
-    pub published_at: String,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub pubmed_link: Option<String>,
     pub signed_c_o_i: bool,
-    pub updated_at: String,
 }
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct CmeFaq {
     pub answer: String,
-    pub created_at: String,
-    pub published_at: String,
     pub question: String,
     pub r#type: String,
-    pub updated_at: String,
 }
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Faq {
@@ -450,37 +445,31 @@ pub struct HeadConfig {
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Measurement {
     pub conversion: String,
-    #[serde(rename = "createdAt")]
-    pub created_at: String,
-    pub error_max: Number,
+    pub error_max: StringOrNumber,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub error_max_si: Option<Number>,
-    pub error_max_us: Number,
-    pub error_min: Number,
+    pub error_max_us: StringOrNumber,
+    pub error_min: StringOrNumber,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub error_min_si: Option<Number>,
-    pub error_min_us: Number,
+    pub error_min_us: StringOrNumber,
     pub name: String,
-    pub normal_max_si: Number,
-    pub normal_max_us: Number,
-    pub normal_min_si: Number,
+    pub normal_max_si: StringOrNumber,
+    pub normal_max_us: StringOrNumber,
+    pub normal_min_si: StringOrNumber,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub normal_min_us: Option<Number>,
-    #[serde(rename = "publishedAt")]
-    pub published_at: String,
+    pub normal_min_us: Option<StringOrNumber>,
     pub unit: String,
     pub units_si: String,
     pub units_us: String,
-    #[serde(rename = "updatedAt")]
-    pub updated_at: String,
-    pub warn_max: Number,
+    pub warn_max: StringOrNumber,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub warn_max_si: Option<Number>,
-    pub warn_max_us: Number,
-    pub warn_min: Number,
+    pub warn_max_us: StringOrNumber,
+    pub warn_min: StringOrNumber,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub warn_min_si: Option<Number>,
-    pub warn_min_us: Number,
+    pub warn_min_us: StringOrNumber,
 }
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(untagged)]
@@ -514,7 +503,6 @@ pub struct Society {
 pub struct RootContributor {
     #[serde(rename = "contributors_page")]
     pub contributors_page: bool,
-    pub created_at: String,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub description: Option<String>,
     pub first_name: String,
@@ -523,12 +511,10 @@ pub struct RootContributor {
     pub img: Option<String>,
     pub last_name: String,
     pub name: String,
-    pub published_at: String,
     pub signed_c_o_i: bool,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub status: Option<String>,
     pub target: String,
-    pub updated_at: String,
 }
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]

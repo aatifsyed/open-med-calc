@@ -12,7 +12,7 @@ use url::Url;
 use crate::deser::{Calc, Measurement, PageProps};
 use crate::deser::{
     InputSchema::{Dropdown, Radio, Subheading, Textbox, Toggle, Visual},
-    InputSchemaOption,
+    InputSchemaOption, StringOrNumber,
 };
 
 mod ident {
@@ -236,7 +236,6 @@ impl TryFrom<PageProps> for NormalisedCalc {
                 } => {
                     let Measurement {
                         conversion,
-                        created_at,
                         error_max,
                         error_max_si,
                         error_max_us,
@@ -248,11 +247,9 @@ impl TryFrom<PageProps> for NormalisedCalc {
                         normal_max_us,
                         normal_min_si,
                         normal_min_us,
-                        published_at,
                         unit,
                         units_si,
                         units_us,
-                        updated_at,
                         warn_max,
                         warn_max_si,
                         warn_max_us,
@@ -278,8 +275,14 @@ impl TryFrom<PageProps> for NormalisedCalc {
                                 name: measurement_name.clone(),
                                 id: none_if_empty(unit).context(format!("invalid unit: {unit}"))?,
                             },
-                            max: error_max.clone(),
-                            min: error_min.clone(),
+                            max: match error_max {
+                                StringOrNumber::Number(n) => n.clone(),
+                                StringOrNumber::String(s) => s.parse()?,
+                            },
+                            min: match error_min {
+                                StringOrNumber::Number(n) => n.clone(),
+                                StringOrNumber::String(s) => s.parse()?,
+                            },
                         },
                         ident: name.parse()?,
                     }))
