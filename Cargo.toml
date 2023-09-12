@@ -21,6 +21,7 @@ boa_engine = "0.17.0"
 boa_ast = "0.17.0"
 boa_parser = "0.17.0"
 boa_interner = "0.17.0"
+lazy-regex = "3.0.1"
 
 [workspace]
 members = ["scripts"]

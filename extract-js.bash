@@ -9,5 +9,8 @@ echo '*' > "$folder/.gitignore"
 for path in scraped/calc/*.json; do
     slug=$(basename --suffix .json "$path")
     jq -r '.props.pageProps.calc.equation_logic_text' "$path" \
-        > "$folder/$slug.js"
+        > "$folder/$slug.js" \
+        &
 done
+
+wait

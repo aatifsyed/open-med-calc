@@ -453,7 +453,7 @@ mod tests {
 
     #[test]
     fn normalise_all() {
-        let skip_slug = ["covid-19-inpatient-risk-calculator-circ"];
+        let skip_slug = ["covid-19-inpatient-risk-calculator-circ"]; // no equation logic text
         let (passed, failed) = crate::raw()
             .map(|root| root.props.page_props)
             .filter(|it| !skip_slug.contains(&it.calc.slug.as_str()))
